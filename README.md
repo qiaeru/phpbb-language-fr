@@ -1,7 +1,9 @@
 phpBB® Forum Software
 =====================
 
-This repository contains the very latest build of the French language package compatible with the most recent version of the phpBB® forum software to fully localize the software interface into French.
+This repository contains the very latest build of the French language package compatible with the most recent version of the phpBB® forum software to fully localize the forum software interface into French.
+
+## Notice
 
 It's strongly recommend that you do not download this package from any website other than this repository and the appropriate page on the official website of the phpBB® forum software to ensure you will always have the very latest, virus-free version of the product.
 
