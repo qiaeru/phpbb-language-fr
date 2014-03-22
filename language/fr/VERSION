@@ -1,11 +1,12 @@
 VERSION NUMBER
 --------------
-2.0.0-dev (Build 61)
+2.0.0-dev (Build 62)
 
 RELEASE DATE
 ------------
-March 16, 2014
+March 22, 2014
 
 SOFTWARE COMPATIBILITY
 ----------------------
-phpBB 3.1.0-b1 (Build 1319)
+phpBB 3.1.0-b2-dev (Build 1338)
+https://bamboo.phpbb.com/browse/PHPBB3-DEVELOP-1338
