@@ -1,0 +1,13 @@
+Subject: Notification de modération d’un message - « {TOPIC_TITLE} »
+
+Bonjour {USERNAME},
+
+Vous recevez cette notification car le message « {POST_SUBJECT} » sur « {SITENAME} » est en attente d’approbation.
+
+Si vous souhaitez consulter le message, veuillez cliquer sur le lien suivant :
+{U_VIEW_POST}
+
+Si vous souhaitez consulter le sujet, veuillez cliquer sur le lien suivant :
+{U_TOPIC}
+
+{EMAIL_SIG}

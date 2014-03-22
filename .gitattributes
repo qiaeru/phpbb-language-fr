@@ -1,0 +1,4 @@
+# NORMALIZE LINE ENDINGS
+* text=auto
+.gitattributes text
+.gitignore text

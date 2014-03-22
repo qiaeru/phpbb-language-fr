@@ -1,0 +1,11 @@
+Subject: Votre sujet a été désapprouvé - « {TOPIC_TITLE} »
+
+Bonjour {USERNAME},
+
+Vous recevez cette notification car votre sujet « {TOPIC_TITLE} » sur « {SITENAME} » a été désapprouvé par un modérateur ou un administrateur.
+
+La raison suivante a été prononcée concernant la désapprobation :
+
+{REASON}
+
+{EMAIL_SIG}
