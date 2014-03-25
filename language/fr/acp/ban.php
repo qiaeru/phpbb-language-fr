@@ -54,16 +54,16 @@ $lang = array_merge($lang, array(
 	'EMAIL_BAN_EXCLUDE_EXPLAIN'	=> 'Si cette option est activée, les adresses de courrier électronique saisies seront exclues de tous les bannissements actuels.',
 	'EMAIL_BAN_EXPLAIN'			=> 'Vous pouvez bannir plusieurs adresses de courrier électronique en les saisissant sur une nouvelle ligne. Pour utiliser adresses partielles, utilisez * comme joker. Par exemple, <samp>*@hotmail.com</samp>, <samp>*@*.domaine.tld</samp>, etc.',
 	'EMAIL_NO_BANNED'			=> 'Aucune adresse de courrier électronique n’a été bannie.',
-	'EMAIL_UNBAN'				=> 'Exclure du bannissement des adresses de courrier électronique',
-	'EMAIL_UNBAN_EXPLAIN'		=> 'Vous pouvez exclure du bannissement plusieurs adresses de courrier électronique en une seule fois en utilisant la combinaison appropriée de la souris et du clavier de votre ordinateur et de votre navigateur. Les adresses de courrier électronique exclues apparaissent soulignées.',
+	'EMAIL_UNBAN'				=> 'Débannir ou ne plus exclure des adresses de courrier électronique',
+	'EMAIL_UNBAN_EXPLAIN'		=> 'Vous pouvez débannir (ou ne plus exclure) plusieurs adresses de courrier électronique en une seule fois en utilisant la combinaison appropriée de la souris et du clavier de votre ordinateur et de votre navigateur. Les adresses de courrier électronique exclues apparaissent soulignées.',
 
 	'IP_BAN'					=> 'Bannir des adresses IP',
 	'IP_BAN_EXCLUDE_EXPLAIN'	=> 'Si cette option est activée, les adresses IP saisies seront exclues de tous les bannissements actuels.',
 	'IP_BAN_EXPLAIN'			=> 'Vous pouvez bannir plusieurs adresses IP ou noms d’hôtes en les saisissant sur une nouvelle ligne. Pour spécifier une plage d’adresses IP, séparez le début et la fin par un tiret (-) et pour spécifier un joker, utilisez « * ».',
 	'IP_HOSTNAME'				=> 'Adresses IP ou noms d’hôtes',
 	'IP_NO_BANNED'				=> 'Aucune adresse IP n’a été bannie.',
-	'IP_UNBAN'					=> 'Exclure du bannissement des adresses IP',
-	'IP_UNBAN_EXPLAIN'			=> 'Vous pouvez exclure du bannissement plusieurs adresses IP en une seule fois en utilisant la combinaison appropriée de la souris et du clavier de votre ordinateur et de votre navigateur. Les adresses IP exclues apparaissent soulignées.',
+	'IP_UNBAN'					=> 'Débannir ou ne plus exclure des adresses IP',
+	'IP_UNBAN_EXPLAIN'			=> 'Vous pouvez débannir (ou ne plus exclure) plusieurs adresses IP en une seule fois en utilisant la combinaison appropriée de la souris et du clavier de votre ordinateur et de votre navigateur. Les adresses IP exclues apparaissent soulignées.',
 
 	'LENGTH_BAN_INVALID'		=> 'La date doit être au format <kbd>AAAA-MM-JJ</kbd>.',
 
@@ -73,10 +73,10 @@ $lang = array_merge($lang, array(
 	'PERMANENT'		=> 'Permanent',
 
 	'UNTIL'						=> 'Jusqu’à',
-	'USER_BAN'					=> 'Bannir des noms d’utilisateurs',
-	'USER_BAN_EXCLUDE_EXPLAIN'	=> 'Si cette option est activée, les noms d’utilisateurs saisis seront exclus de tous les bannissements actuels.',
+	'USER_BAN'					=> 'Bannir des utilisateurs par leur nom d’utilisateurs',
+	'USER_BAN_EXCLUDE_EXPLAIN'	=> 'Si cette option est activée, les utilisateurs saisis seront exclus de tous les bannissements actuels.',
 	'USER_BAN_EXPLAIN'			=> 'Vous pouvez bannir plusieurs noms d’utilisateurs en les saisissant sur une nouvelle ligne. Utilisez la fonctionnalité <span style="text-decoration: underline;">Trouver un membre</span> afin de rechercher et d’ajouter un ou plusieurs utilisateurs.',
 	'USER_NO_BANNED'			=> 'Aucun nom d’utilisateur n’a été banni.',
-	'USER_UNBAN'				=> 'Exclure du bannissement des noms d’utilisateurs',
-	'USER_UNBAN_EXPLAIN'		=> 'Vous pouvez exclure du bannissement plusieurs noms d’utilisateurs en une seule fois en utilisant la combinaison appropriée de la souris et du clavier de votre ordinateur et de votre navigateur. Les utilisateurs exclus apparaissent soulignés.',
+	'USER_UNBAN'				=> 'Débannir ou ne plus exclure des utilisateurs par leur nom d’utilisateurs',
+	'USER_UNBAN_EXPLAIN'		=> 'Vous pouvez débannir (ou ne plus exclure) plusieurs utilisateurs en une seule fois en utilisant la combinaison appropriée de la souris et du clavier de votre ordinateur et de votre navigateur. Les utilisateurs exclus apparaissent soulignés.',
 ));
