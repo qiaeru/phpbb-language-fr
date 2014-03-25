@@ -289,7 +289,7 @@ $lang = array_merge($lang, array(
 	'ACP_FEED_HTTP_AUTH_EXPLAIN'		=> 'L’authentification HTTP permet aux utilisateurs de recevoir un contenu caché aux invités en ajoutant le paramètre <samp>auth=http</samp> à l’adresse du flux. Veuillez noter que pour fonctionner correctement, certaines installations de PHP peuvent nécessiter des modifications additionnelles sur le fichier .htaccess.',
 	'ACP_FEED_ITEM_STATISTICS'			=> 'Statistiques des objets',
 	'ACP_FEED_ITEM_STATISTICS_EXPLAIN'	=> 'Les statistiques individuelles sont affichées sous les articles du flux. Exemples de statistiques : auteur de la publication, date et heure de la publication, nombre de réponses, nombre de vues, etc.',
-	'ACP_FEED_EXCLUDE_ID'				=> 'Exclure des forums',
+	'ACP_FEED_EXCLUDE_ID'				=> 'Ignorer ces forums',
 	'ACP_FEED_EXCLUDE_ID_EXPLAIN'		=> 'Le contenu de ces forums ne sera <strong>pas affiché dans les flux</strong>. Si vous souhaitez extraire les données de tous les forums, ne sélectionnez aucun forum. Vous pouvez sélectionner ou désélectionner plusieurs forums en maintenant appuyé la touche <samp>CTRL</samp> du clavier de votre ordinateur et en cliquant.',
 ));
 
