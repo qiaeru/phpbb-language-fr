@@ -360,7 +360,7 @@ $lang = array_merge($lang, array(
 
 	'GZIP_COMPRESSION'	=> 'Compression GZip',
 
-	'NO_SEARCH_INDEX'	=> 'La méthode d’indexation de la recherche que vous avez sélectionnée n’est pas associée à un index de recherche.<br >Veuillez créer l’index associé à « %1$s » dans la section %2$sIndex de recherche%3$s.',
+	'NO_SEARCH_INDEX'	=> 'La méthode d’indexation de la recherche que vous avez sélectionnée n’est pas associée à un index de recherche.<br />Veuillez créer l’index associé à « %1$s » dans la section %2$sIndex de recherche%3$s.',
 	'NOT_AVAILABLE'		=> 'Non disponible',
 	'NUMBER_FILES'		=> 'Nombre de pièces jointes',
 	'NUMBER_POSTS'		=> 'Nombre de messages',

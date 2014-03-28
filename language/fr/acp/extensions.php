@@ -96,7 +96,7 @@ $lang = array_merge($lang, array(
 	'HOMEPAGE'				=> 'Page d’accueil',
 	'PATH'					=> 'Chemin du fichier',
 	'TIME'					=> 'Date de sortie',
-	'LICENCE'				=> 'License',
+	'LICENSE'				=> 'License',
 
 	'REQUIREMENTS'			=> 'Prérequis',
 	'PHPBB_VERSION'			=> 'Version de phpBB',
