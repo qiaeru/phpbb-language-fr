@@ -90,10 +90,10 @@ $lang = array_merge($lang, array(
 		1	=> '%d utilisateur',
 		2	=> '%d utilisateurs',
 	),
-	'LOGIN_EXPLAIN_LEADERS'		=> 'Vous devez vous inscrire et vous connecter afin de pouvoir consulter la liste de l’équipe.',
+	'LOGIN_EXPLAIN_TEAM'		=> 'Vous devez vous inscrire et vous connecter afin de pouvoir consulter la liste des membres de l’équipe.',
 	'LOGIN_EXPLAIN_MEMBERLIST'	=> 'Vous devez vous inscrire et vous connecter afin de pouvoir consulter la liste des membres.',
 	'LOGIN_EXPLAIN_SEARCHUSER'	=> 'Vous devez vous inscrire et vous connecter afin de pouvoir rechercher des utilisateurs.',
-	'LOGIN_EXPLAIN_VIEWPROFILE'	=> 'Vous devez vous inscrire et vous connecter afin de pouvoir consulter des profils.',
+	'LOGIN_EXPLAIN_VIEWPROFILE'	=> 'Vous devez vous inscrire et vous connecter afin de pouvoir consulter le profil des utilisateurs.',
 
 	'MORE_THAN'				=> 'Plus que',
 
