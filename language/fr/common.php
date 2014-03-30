@@ -192,7 +192,6 @@ $lang = array_merge($lang, array(
 	'DOWNLOAD_COUNTS'		=> array(
 		0	=> 'Aucun téléchargement',
 		1	=> 'Téléchargé %d fois',
-		2	=> 'Téléchargé %d fois',
 	),
 
 	'EDIT_POST'							=> 'Éditer le message',
@@ -422,18 +421,32 @@ $lang = array_merge($lang, array(
 	'NOT_WATCHING_FORUM'		=> 'Vous n’êtes à présent plus abonné(e) à ce forum. Vous ne recevrez plus de notification lorsqu’un nouveau sujet sera publié dans ce dernier.',
 	'NOT_WATCHING_TOPIC'		=> 'Vous n’êtes à présent plus abonné(e) à ce sujet. Vous ne recevrez plus de notification lorsqu’un nouveau message sera publié dans ce dernier.',
 	'NOTIFICATIONS'				=> 'Notifications',
-	'NOTIFICATION_BOOKMARK'				=> '%1$s a répondu au sujet « %2$s » que vous avez ajouté aux favoris.',
-	'NOTIFICATION_BOOKMARK_TRIMMED'		=> '%1$s et %3$d autres personnes ont répondu au sujet « %2$s » que vous avez ajouté aux favoris.',
+	// This applies for NOTIFICATION_BOOKMARK, NOTIFICATION_POST, and NOTIFICATION_QUOTE.
+	// %1$s will return a list of users that's concatenated using "," and "and" - see STRING_LIST
+	// Once the user count reaches 5 users or more, the list is trimmed using NOTIFICATION_X_OTHERS
+	// Examples:
+	// A replied...
+	// A and B replied...
+	// A, B and C replied...
+	// A, B, C and 2 others replied...
+	'NOTIFICATION_BOOKMARK'				=> array(
+		1	=> '%1$s a répondu au sujet « %2$s » que vous avez ajouté aux favoris.',
+		2	=> '%1$s ont répondu au sujet « %2$s » que vous avez ajouté aux favoris.',
+	),
 	'NOTIFICATION_GROUP_REQUEST'		=> '%1$s demande à rejoindre le groupe %2$s.',
 	'NOTIFICATION_GROUP_REQUEST_APPROVED'	=> 'Votre demande à rejoindre le groupe %1$s a été acceptée.',
 	'NOTIFICATION_PM'					=> '%1$s vous a envoyé un message privé « %2$s ».',
-	'NOTIFICATION_POST'					=> '%1$s a répondu au sujet « %2$s ».',
-	'NOTIFICATION_POST_TRIMMED'			=> '%1$s et %3$d autres personnes ont répondu au sujet « %2$s ».',
+	'NOTIFICATION_POST'					=> array(
+		1	=> '%1$s a répondu au sujet « %2$s ».',
+		2	=> '%1$s ont répondu au sujet « %2$s ».',
+	),
 	'NOTIFICATION_POST_APPROVED'		=> 'Votre message « %2$s » a été approuvé.',
 	'NOTIFICATION_POST_DISAPPROVED'		=> 'Votre message « %1$s » a été désapprouvé avec la raison suivante : « %2$s ».',
 	'NOTIFICATION_POST_IN_QUEUE'		=> 'Un nouveau message intitulé « %2$s » a été publié par %1$s et est en attente d’approbation.',
-	'NOTIFICATION_QUOTE'				=> '%1$s vous a cité dans le message « %2$s ».',
-	'NOTIFICATION_QUOTE_TRIMMED'		=> '%1$s et %3$d autres personnes vous ont cité dans le message «%2$s ».',
+	'NOTIFICATION_QUOTE'				=> array(
+		1	=> '%1$s vous a cité dans le message « %2$s ».',
+		2	=> '%1$s vous ont cité dans le message « %2$s ».',
+	),
 	'NOTIFICATION_REPORT_PM'			=> '%1$s a rapporté le message privé « %2$s » avec la raison suivante : « %3$s ».',
 	'NOTIFICATION_REPORT_POST'			=> '%1$s a rapporté le message « %2$s » avec la raison suivante : « %3$s ».',
 	'NOTIFICATION_REPORT_CLOSED'   		=> '%1$s a clôturé le rapport que vous avez publié concernant « %2$s ».',
@@ -443,6 +456,10 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TOPIC_IN_QUEUE'		=> 'Un nouveau sujet intitulé « %2$s » a été publié par %1$s et est en attente d’approbation.',
 	'NOTIFICATION_TYPE_NOT_EXIST'		=> 'Le type de notification « %s » est introuvable dans votre système de fichiers.',
 	'NOTIFICATION_ADMIN_ACTIVATE_USER'	=> 'L’utilisateur « %1$s » est nouvellement inscrit et doit être activé.',
+	// Used in conjuction with NOTIFICATION_BOOKMARK, NOTIFICATION_POST, and NOTIFICATION_QUOTE.
+	'NOTIFICATION_X_OTHERS'				=> array(
+		2	=> '%d autres personnes',
+	),
 	'NOTIFY_ADMIN'				=> 'Veuillez contacter l’administrateur du forum.',
 	'NOTIFY_ADMIN_EMAIL'		=> 'Veuillez contacter l’administrateur du forum : <a href="mailto:%1$s">%1$s</a>',
 	'NO_ACCESS_ATTACHMENT'		=> 'Vous ne pouvez pas accéder à ce fichier.',
@@ -666,6 +683,8 @@ $lang = array_merge($lang, array(
 	'START_WATCHING_TOPIC'		=> 'S’abonner au sujet',
 	'STOP_WATCHING_FORUM'		=> 'Se désabonner du forum',
 	'STOP_WATCHING_TOPIC'		=> 'Se désabonner du sujet',
+	'STRING_LIST_MULTI'			=> '%1$s, et %2$s',
+	'STRING_LIST_SIMPLE'		=> '%1$s et %2$s',
 	'SUBFORUM'					=> 'Sous-forum',
 	'SUBFORUMS'					=> 'Sous-forums',
 	'SUBJECT'					=> 'Sujet',
@@ -777,7 +796,6 @@ $lang = array_merge($lang, array(
 	'VIEWED_COUNTS'		=> array(
 		0	=> 'Aucune consultation',
 		1	=> 'Consulté %d fois',
-		2	=> 'Consulté %d fois',
 	),
 	'VIEWING_FAQ'				=> 'Consulte la FAQ',
 	'VIEWING_MEMBERS'			=> 'Consulte les informations d’un membre',
