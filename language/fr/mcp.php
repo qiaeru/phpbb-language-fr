@@ -35,8 +35,8 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ACTION'				=> 'Action',
-	'ACTION_NOTE'			=> 'Action/Note',
+	'ACTION'				=> 'Opération',
+	'ACTION_NOTE'			=> 'Opération/Note',
 	'ADD_FEEDBACK'			=> 'Ajouter une remarque',
 	'ADD_FEEDBACK_EXPLAIN'	=> 'Si vous souhaitez ajouter une remarque, veuillez compléter le formulaire suivant. Ne saisissez que du texte brut. Le code HTML, le BBCode, etc. ne sont pas autorisés.',
 	'ADD_WARNING'			=> 'Ajouter un avertissement',
@@ -112,7 +112,7 @@ $lang = array_merge($lang, array(
 	'IP_INFO'				=> 'Informations sur l’adresse IP',
 	'IPS_POSTED_FROM'		=> 'Adresses IP attribuées à cet utilisateur',
 
-	'LATEST_LOGS'				=> 'Les 5 derniers évènements',
+	'LATEST_LOGS'				=> 'Les 5 derniers événements',
 	'LATEST_REPORTED'			=> 'Les 5 derniers rapports',
 	'LATEST_REPORTED_PMS'		=> 'Les 5 derniers rapports de MP',
 	'LATEST_UNAPPROVED'			=> 'Les 5 derniers messages en attente d’approbation',
@@ -175,9 +175,9 @@ $lang = array_merge($lang, array(
 	'MCP_MAKE_NORMALS'				=> 'Modifier en « sujets standards »',
 	'MCP_MAKE_NORMALS_CONFIRM'		=> 'Êtes-vous sûr(e) de vouloir modifier les sujets que vous avez sélectionnés en « sujets standards » ?',
 
-	'MCP_NOTES'						=> 'Notes sur l’utilisateur',
+	'MCP_NOTES'						=> 'Notes des utilisateurs',
 	'MCP_NOTES_FRONT'				=> 'Page principale',
-	'MCP_NOTES_USER'				=> 'Informations sur l’utilisateur',
+	'MCP_NOTES_USER'				=> 'Notes sur l’utilisateur',
 
 	'MCP_POST_REPORTS'				=> 'Rapports prononcés sur ce message',
 
@@ -222,7 +222,7 @@ $lang = array_merge($lang, array(
 	'MODERATE_FORUM'		=> 'Modérer le forum',
 	'MODERATE_TOPIC'		=> 'Modérer le sujet',
 	'MODERATE_POST'			=> 'Modérer le message',
-	'MOD_OPTIONS'			=> 'Options du modérateur',
+	'MOD_OPTIONS'			=> 'Options de modération',
 	'MORE_INFO'				=> 'Informations supplémentaires',
 	'MOST_WARNINGS'			=> 'Les utilisateurs ayant le plus grand nombre d’avertissements',
 	'MOVE_TOPIC_CONFIRM'	=> 'Êtes-vous sûr(e) de vouloir déplacer le sujet vers un nouveau forum ?',
@@ -332,7 +332,7 @@ $lang = array_merge($lang, array(
 	'RETURN_TOPIC_SIMPLE'		=> '%sRevenir au sujet%s',
 
 	'SEARCH_POSTS_BY_USER'				=> 'Rechercher les messages par',
-	'SELECT_ACTION'						=> 'Sélectionner une action souhaitée',
+	'SELECT_ACTION'						=> 'Sélectionner une opération souhaitée',
 	'SELECT_FORUM_GLOBAL_ANNOUNCEMENT'	=> 'Veuillez sélectionner le forum dans lequel vous souhaitez afficher cette annonce générale.',
 	'SELECT_FORUM_GLOBAL_ANNOUNCEMENTS'	=> 'Un ou plusieurs sujets que vous avez sélectionnés sont des annonces générales. Veuillez sélectionner le forum dans lequel vous souhaitez qu’elles soient affichées.',
 	'SELECT_MERGE'						=> 'Sélectionner pour la fusion',

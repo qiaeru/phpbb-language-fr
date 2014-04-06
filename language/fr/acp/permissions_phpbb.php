@@ -44,7 +44,7 @@ if (empty($lang) || !is_array($lang))
 */
 
 $lang = array_merge($lang, array(
-	'ACL_CAT_ACTIONS'		=> 'Actions',
+	'ACL_CAT_ACTIONS'		=> 'Opérations',
 	'ACL_CAT_CONTENT'		=> 'Contenu',
 	'ACL_CAT_FORUMS'		=> 'Forums',
 	'ACL_CAT_MISC'			=> 'Divers',
@@ -52,11 +52,11 @@ $lang = array_merge($lang, array(
 	'ACL_CAT_PM'			=> 'Messages privés',
 	'ACL_CAT_POLLS'			=> 'Sondages',
 	'ACL_CAT_POST'			=> 'Message',
-	'ACL_CAT_POST_ACTIONS'	=> 'Actions des messages',
+	'ACL_CAT_POST_ACTIONS'	=> 'Opérations des messages',
 	'ACL_CAT_POSTING'		=> 'Publication',
 	'ACL_CAT_PROFILE'		=> 'Profil',
 	'ACL_CAT_SETTINGS'		=> 'Réglages',
-	'ACL_CAT_TOPIC_ACTIONS'	=> 'Actions des sujets',
+	'ACL_CAT_TOPIC_ACTIONS'	=> 'Opérations des sujets',
 	'ACL_CAT_USER_GROUP'	=> 'Utilisateurs et groupes',
 ));
 
@@ -143,7 +143,7 @@ $lang = array_merge($lang, array(
 	'ACL_M_DELETE'		=> 'Peut supprimer définitivement les messages',
 	'ACL_M_SOFTDELETE'	=> 'Peut supprimer les messages<br /><em>Les modérateurs qui ont la permission d’approuver des messages pourront restaurer les messages supprimés.</em>',
 	'ACL_M_APPROVE'		=> 'Peut approuver les messages',
-	'ACL_M_REPORT'		=> 'Peut clôre et supprimer les rapports',
+	'ACL_M_REPORT'		=> 'Peut fermer et supprimer les rapports',
 	'ACL_M_CHGPOSTER'	=> 'Peut modifier les auteurs des messages',
 
 	'ACL_M_MOVE'	=> 'Peut déplacer les sujets',

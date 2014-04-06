@@ -71,7 +71,7 @@ $lang = array_merge($lang, array(
 	'ENABLE_TOPIC_ICONS'			=> 'Activer les icônes de sujet',
 
 	'FORUM_ADMIN'						=> 'Administration du forum',
-	'FORUM_ADMIN_EXPLAIN'				=> 'Dans phpBB3, tout est basé sur la notion de forum. Même les catégories ne correspondent plus qu’à un type de forum. Chaque forum peut contenir un nombre illimité de sous-forums et vous pouvez spécifier s’ils peuvent contenir ou non des messages (comme c’était le cas avec les anciennes catégories). Vous pouvez, de manière individuelle, ajouter, éditer, supprimer, verrouiller ou déverrouiller sur cette page les forums et régler certaines permissions additionnelles. Si certains messages et sujets ne sont plus synchronisés, vous pouvez également exécuter une resynchronisation. <strong>Si vous souhaitez que les forums que vous créez soient visibles publiquement, n’oubliez pas de copier ou de régler les permissions de chaque nouveau forum.</strong>',
+	'FORUM_ADMIN_EXPLAIN'				=> 'Dans phpBB3, tout est basé sur la notion de forum. Ainsi, même les catégories ne sont plus qu’un type de forum. Chaque forum peut contenir un nombre illimité de sous-forums et vous pouvez spécifier s’ils peuvent contenir ou non des messages (comme c’était le cas avec les anciennes catégories). Vous pouvez, de manière individuelle, ajouter, éditer, supprimer, verrouiller ou déverrouiller sur cette page les forums et régler certaines permissions additionnelles. Si certains messages et sujets ne sont plus synchronisés, vous pouvez également exécuter une resynchronisation. <strong>Si vous souhaitez que les forums que vous créez soient visibles publiquement, n’oubliez pas de copier ou de régler les permissions de chaque nouveau forum.</strong>',
 	'FORUM_AUTO_PRUNE'					=> 'Activer le délestage automatique',
 	'FORUM_AUTO_PRUNE_EXPLAIN'			=> 'Si cette option est activée, les sujets de ce forum seront délestés selon les réglages de la fréquence et des intervalles du délestage automatique spécifiés ci-dessous.',
 	'FORUM_CREATED'						=> 'Le forum a été créé.',
@@ -86,7 +86,7 @@ $lang = array_merge($lang, array(
 	'FORUM_IMAGE'						=> 'Image du forum',
 	'FORUM_IMAGE_EXPLAIN'				=> 'L’image associée à ce forum dont l’emplacement est relatif à la racine du répertoire de votre forum.',
 	'FORUM_IMAGE_NO_EXIST'				=> 'L’image du forum que vous avez spécifiée n’existe pas',
-	'FORUM_LINK_EXPLAIN'				=> 'Le lien complet (incluant le protocole <samp>http://</samp>) qui redirigera les utilisateurs vers la destination souhaitée, tel que <samp>http://www.phpbb.com/</samp>.',
+	'FORUM_LINK_EXPLAIN'				=> 'Le lien complet (incluant le protocole <samp>http://</samp>) qui redirigera les utilisateurs vers la destination souhaitée, tel que <samp>https://www.phpbb.com/</samp>.',
 	'FORUM_LINK_TRACK'					=> 'Afficher le nombre de redirections',
 	'FORUM_LINK_TRACK_EXPLAIN'			=> 'Le nombre de clics qui ont été effectués sur le forum-lien seront comptabilisés et affichés.',
 	'FORUM_NAME'						=> 'Nom du forum',
@@ -131,7 +131,7 @@ $lang = array_merge($lang, array(
 	'MOVE_SUBFORUMS_TO'				=> 'Déplacer les sous-forums dans',
 
 	'NO_DESTINATION_FORUM'			=> 'Vous n’avez sélectionné aucun forum destiné à recevoir du contenu.',
-	'NO_FORUM_ACTION'				=> 'Vous n’avez sélectionné aucune action à entreprendre avec le contenu du forum.',
+	'NO_FORUM_ACTION'				=> 'Vous n’avez sélectionné aucune opération à entreprendre avec le contenu du forum.',
 	'NO_PARENT'						=> 'Aucun parent',
 	'NO_PERMISSIONS'				=> 'Ne pas copier de permissions',
 	'NO_PERMISSION_FORUM_ADD'		=> 'Vous n’avez pas les permissions nécessaires afin d’ajouter des forums.',

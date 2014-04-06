@@ -65,7 +65,7 @@ $lang = array_merge($lang, array(
 	'EXTENSION_ENABLE_SUCCESS'		=> 'L’extension a été activée',
 
 	'EXTENSION_NAME'			=> 'Nom de l’extension',
-	'EXTENSION_ACTIONS'			=> 'Actions',
+	'EXTENSION_ACTIONS'			=> 'Opérations',
 	'EXTENSION_OPTIONS'			=> 'Options',
 	'EXTENSION_UPDATE_HEADLINE'	=> 'Mettre à jour une extension',
 	'EXTENSION_UPDATE_EXPLAIN'	=> '<ol>
@@ -96,7 +96,7 @@ $lang = array_merge($lang, array(
 	'HOMEPAGE'				=> 'Page d’accueil',
 	'PATH'					=> 'Chemin du fichier',
 	'TIME'					=> 'Date de sortie',
-	'LICENSE'				=> 'License',
+	'LICENSE'				=> 'Licence',
 
 	'REQUIREMENTS'			=> 'Prérequis',
 	'PHPBB_VERSION'			=> 'Version de phpBB',

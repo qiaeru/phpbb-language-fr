@@ -54,7 +54,7 @@ $lang = array_merge($lang, array(
 	'SITE_HOME_TEXT'				=> 'Texte du lien vers le site internet principal',
 	'SITE_HOME_TEXT_EXPLAIN'		=> 'Ce texte sera affiché sous forme de lien redirigeant vers votre site internet et sera inséré dans les liens de navigation de votre forum. Si aucun texte n’est spécifié, « Page d’accueil » sera affiché par défaut.',
 	'SITE_HOME_URL'					=> 'Lien vers le site internet principal',
-	'SITE_HOME_URL_EXPLAIN'			=> 'Si vous en saisissez un, ce lien sera placé dans les liens de navigation de votre forum et remplacera par la destination souhaitée le lien présent sur le logo du forum, redirigeant par défaut les utilisateurs sur l’index de votre forum. Veuillez saisir un lien absolu, tel que <samp>http://www.phpbb.com</samp>.',
+	'SITE_HOME_URL_EXPLAIN'			=> 'Si vous en saisissez un, ce lien sera placé dans les liens de navigation de votre forum et remplacera par la destination souhaitée le lien présent sur le logo du forum, redirigeant par défaut les utilisateurs sur l’index de votre forum. Veuillez saisir un lien absolu, tel que <samp>https://www.phpbb.com</samp>.',
 	'SITE_NAME'						=> 'Nom du forum',
 	'SYSTEM_TIMEZONE'				=> 'Fuseau horaire des invités',
 	'SYSTEM_TIMEZONE_EXPLAIN'			=> 'Ce fuseau horaire ne concerne que les utilisateurs qui ne sont pas connectés, tels que les invités et les robots. Les utilisateurs connectés peuvent régler leur fuseau horaire lors de leur inscription ou depuis leur panneau de contrôle de l’utilisateur.',
@@ -140,8 +140,8 @@ $lang = array_merge($lang, array(
 	'BOXES_MAX'					=> 'Nombre maximal de boîtes de messages privés',
 	'BOXES_MAX_EXPLAIN'			=> 'Le nombre maximal de boîtes de messages privés que les utilisateurs pourront créer et utiliser.',
 	'ENABLE_PM_ICONS'			=> 'Activer les icônes de sujet dans les messages privés',
-	'FULL_FOLDER_ACTION'		=> 'Action à effectuer par défaut lorsqu’une boîte est pleine',
-	'FULL_FOLDER_ACTION_EXPLAIN'=> 'L’action à effectuer par défaut lorsque la boîte d’un utilisateur est pleine si l’action spécifiée par l’utilisateur n’est pas applicable. La seule exception s’applique à la boîte des « Messages envoyés », où les messages les plus anciens seront automatiquement supprimés par défaut.',
+	'FULL_FOLDER_ACTION'		=> 'Opération à effectuer par défaut lorsqu’une boîte est pleine',
+	'FULL_FOLDER_ACTION_EXPLAIN'=> 'L’opération à effectuer par défaut lorsque la boîte d’un utilisateur est pleine si l’opération spécifiée par l’utilisateur est impossible. La seule exception s’applique à la boîte des « Messages envoyés », où les messages les plus anciens seront automatiquement supprimés par défaut.',
 	'HOLD_NEW_MESSAGES'			=> 'Mettre en attente les nouveaux messages',
 	'PM_EDIT_TIME'				=> 'Limite de la durée d’édition',
 	'PM_EDIT_TIME_EXPLAIN'		=> 'Limite la durée d’édition des messages privés qui n’ont pas encore été consultés par leurs destinataires. Réglez cette valeur sur 0 afin de ne pas limiter cette durée.',
@@ -236,7 +236,7 @@ $lang = array_merge($lang, array(
 	'ENABLE_COPPA_EXPLAIN'		=> 'Les utilisateurs devront déclarer qu’ils ont 13 ans ou plus afin de se conformer à la <em><strong>C</strong>hildren’s <strong>O</strong>nline <strong>P</strong>rivacy <strong>P</strong>rotection <strong>A</strong>ct</em>, loi des États-Unis d’Amérique visant à protéger la vie privée des enfants sur Internet. Si cette option est désactivée, les groupes d’utilisateurs liés à la COPPA ne seront pas affichés.',
 	'MAX_CHARS'					=> 'max',
 	'MIN_CHARS'					=> 'min',
-	'NO_AUTH_PLUGIN'			=> 'Aucun plugin d’authentification n’a été trouvé.',
+	'NO_AUTH_PLUGIN'			=> 'Aucun plug-in d’authentification n’a été trouvé.',
 	'PASSWORD_LENGTH'			=> 'Longueur des mots de passe',
 	'PASSWORD_LENGTH_EXPLAIN'	=> 'Le nombre de caractères minimaux et maximaux qui doivent être saisis dans les mots de passe.',
 	'REG_LIMIT'					=> 'Nombre maximal de tentatives d’inscription par session',
@@ -295,9 +295,9 @@ $lang = array_merge($lang, array(
 
 // Visual Confirmation Settings
 $lang = array_merge($lang, array(
-	'ACP_VC_SETTINGS_EXPLAIN'				=> 'Vous pouvez sélectionner et configurer sur cette page tous les plugins qui permettent de lutter contre l’envoi de formulaires par des robots indésirables. Ces plugins fonctionnent en général en demandant aux utilisateur de résoudre un <em>CAPTCHA</em>, qui est un outil permettant de différencier les humains aux robots.',
-	'AVAILABLE_CAPTCHAS'					=> 'Plugins disponibles',
-	'CAPTCHA_UNAVAILABLE'					=> 'Le plugin ne peut pas être sélectionné tant que ses obligations ne sont pas remplies.',
+	'ACP_VC_SETTINGS_EXPLAIN'				=> 'Vous pouvez sélectionner et configurer sur cette page tous les plug-ins qui permettent de lutter contre l’envoi de formulaires par des robots indésirables. Ces plug-ins fonctionnent en général en demandant aux utilisateur de résoudre un <em>CAPTCHA</em>, qui est un outil permettant de différencier les humains aux robots.',
+	'AVAILABLE_CAPTCHAS'					=> 'Plug-ins disponibles',
+	'CAPTCHA_UNAVAILABLE'					=> 'Le plug-in ne peut pas être sélectionné tant que ses obligations ne sont pas remplies.',
 	'CAPTCHA_GD'							=> 'Bruit GD de l’image',
 	'CAPTCHA_GD_3D'							=> 'Bruit GD en 3D de l’image',
 	'CAPTCHA_GD_FOREGROUND_NOISE'			=> 'Bruit de premier plan',
@@ -318,21 +318,21 @@ $lang = array_merge($lang, array(
 	'CAPTCHA_FONT_LOWER'					=> 'Utiliser également des lettres en minuscule',
 	'CAPTCHA_NO_GD'							=> 'Image simple',
 	'CAPTCHA_PREVIEW_MSG'					=> 'Vos modifications n’ont pas été enregistrées, ceci n’est qu’une prévisualisation.',
-	'CAPTCHA_PREVIEW_EXPLAIN'				=> 'Le plugin tel qu’il ressemblera lors de son utilisation.',
+	'CAPTCHA_PREVIEW_EXPLAIN'				=> 'Le plug-in tel qu’il ressemblera lors de son utilisation.',
 
-	'CAPTCHA_SELECT'						=> 'Plugins installés',
-	'CAPTCHA_SELECT_EXPLAIN'				=> 'La liste déroulante contient les plugins reconnus par le forum. Les éléments grisés correspondent aux plugins qui ne sont pas encore disponibles et qui peuvent nécessiter une configuration avant leur utilisation.',
-	'CAPTCHA_CONFIGURE'						=> 'Configurer les plugins',
-	'CAPTCHA_CONFIGURE_EXPLAIN'				=> 'Vous permet de configurer le plugin que vous avez sélectionné dans la liste déroulante.',
+	'CAPTCHA_SELECT'						=> 'Plug-ins installés',
+	'CAPTCHA_SELECT_EXPLAIN'				=> 'La liste déroulante contient les plug-ins reconnus par le forum. Les éléments grisés correspondent aux plug-ins qui ne sont pas encore disponibles et qui peuvent nécessiter une configuration avant leur utilisation.',
+	'CAPTCHA_CONFIGURE'						=> 'Configurer les plug-ins',
+	'CAPTCHA_CONFIGURE_EXPLAIN'				=> 'Vous permet de configurer le plug-in que vous avez sélectionné dans la liste déroulante.',
 	'CONFIGURE'								=> 'Configurer',
-	'CAPTCHA_NO_OPTIONS'					=> 'Ce plugin n’a aucune option de configuration.',
+	'CAPTCHA_NO_OPTIONS'					=> 'Ce plug-in n’a aucune option de configuration.',
 
 	'VISUAL_CONFIRM_POST'					=> 'Activer les mesures de lutte contre les robots indésirables aux invités',
 	'VISUAL_CONFIRM_POST_EXPLAIN'			=> 'Les utilisateurs qui ne sont pas connectés seront invités à compléter des mesures de lutte contre les robots indésirables afin d’empêcher la publication de messages automatisés.',
 	'VISUAL_CONFIRM_REG'					=> 'Activer les mesures de lutte contre les robots indésirables lors des inscriptions',
 	'VISUAL_CONFIRM_REG_EXPLAIN'			=> 'Les utilisateurs devront compléter des mesures de lutte contre les robots indésirables lors de leur inscription afin d’empêcher les inscriptions automatisées.',
 	'VISUAL_CONFIRM_REFRESH'				=> 'Autoriser les utilisateurs à rafraîchir les mesures de lutte contre les robots indésirables',
-	'VISUAL_CONFIRM_REFRESH_EXPLAIN'		=> 'Les utilisateurs pourront demander une nouvelle mesure de lutte contre les robots indésirables s’ils sont incapables de déchiffrer la mesure actuelle. Certains plugins peuvent ne pas supporter cette fonctionnalité.',
+	'VISUAL_CONFIRM_REFRESH_EXPLAIN'		=> 'Les utilisateurs pourront demander une nouvelle mesure de lutte contre les robots indésirables s’ils sont incapables de déchiffrer la mesure actuelle. Certains plug-ins peuvent ne pas supporter cette fonctionnalité.',
 ));
 
 // Cookie Settings
@@ -392,7 +392,7 @@ $lang = array_merge($lang, array(
 
 // Auth settings
 $lang = array_merge($lang, array(
-	'ACP_AUTH_SETTINGS_EXPLAIN'	=> 'Les plugins d’authentification, également connus sous le nom de modules, sont supportés par phpBB. Ces derniers vous permettent de déterminer la manière dont les utilisateurs s’authentifient lors de leur connexion au forum. Quatre modules sont fournis par défaut : la base de données (DB), LDAP, Apache et OAuth. Toutes les méthodes d’authentification ne nécessitent pas forcément d’informations complémentaires, ne remplissez que les champs utiles à la méthode que vous avez sélectionnée.',
+	'ACP_AUTH_SETTINGS_EXPLAIN'	=> 'Les plug-ins d’authentification, également connus sous le nom de modules, sont supportés par phpBB. Ces derniers vous permettent de déterminer la manière dont les utilisateurs s’authentifient lors de leur connexion au forum. Quatre modules sont fournis par défaut : la base de données (DB), LDAP, Apache et OAuth. Toutes les méthodes d’authentification ne nécessitent pas forcément d’informations complémentaires, ne remplissez que les champs utiles à la méthode que vous avez sélectionnée.',
 
 	'AUTH_METHOD'				=> 'Sélectionner une méthode d’authentification',
 
@@ -466,7 +466,7 @@ $lang = array_merge($lang, array(
 	'ALL'							=> 'Tout',
 	'ALLOW_AUTOLOGIN'				=> 'Activer la fonctionnalité « Se souvenir de moi »',
 	'ALLOW_AUTOLOGIN_EXPLAIN'		=> 'Les utilisateurs pourront se connecter automatiquement lors de leurs visites sur le forum.',
-	'ALLOW_PASSWORD_RESET'			=> 'Autoriser la réinialisation des mots de passe (« J’ai oublié mon mot de passe »)',
+	'ALLOW_PASSWORD_RESET'			=> 'Autoriser la réinitialisation des mots de passe (« J’ai oublié mon mot de passe »)',
 	'ALLOW_PASSWORD_RESET_EXPLAIN'	=> 'Les utilisateurs pourront utiliser le lien « J’ai oublié mon mot de passe » situé sur la page de connexion afin de réinitialiser leur mot de passe et recommencer à se connecter sur le forum. Si vous utilisez un système d’authentification externe, vous devriez désactiver cette fonctionnalité.',
 	'AUTOLOGIN_LENGTH'				=> 'Délai d’expiration des clés de connexions automatiques',
 	'AUTOLOGIN_LENGTH_EXPLAIN'		=> 'Le nombre de jours qui s’écouleront avant que les clés de connexions automatiques soient supprimées. Réglez cette valeur sur 0 si vous ne souhaitez pas limiter la durée des clés de connexions automatiques.',

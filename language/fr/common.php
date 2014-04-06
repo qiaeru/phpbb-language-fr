@@ -39,7 +39,7 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'TRANSLATION_INFO'	=> 'Traduit en français par <a href="http://www.maelsoucaze.com/">Maël Soucaze</a>',
+	'TRANSLATION_INFO'	=> 'Localized by <a href="https://www.phpbb.com/customise/db/translation/french/">French Language Pack</a> &copy; <a href="http://www.maelsoucaze.com/">Maël Soucaze</a>',
 	'DIRECTION'			=> 'ltr',
 	'DATE_FORMAT'		=> '|d F Y|',	// 01 January 2007 (with Relative days enabled)
 	'DATETIME_FORMAT'	=> '|d F Y, H:i|',	// 01 January 2007, 13:37 (with Relative days enabled)
@@ -463,7 +463,7 @@ $lang = array_merge($lang, array(
 	'NOTIFY_ADMIN'				=> 'Veuillez contacter l’administrateur du forum.',
 	'NOTIFY_ADMIN_EMAIL'		=> 'Veuillez contacter l’administrateur du forum : <a href="mailto:%1$s">%1$s</a>',
 	'NO_ACCESS_ATTACHMENT'		=> 'Vous ne pouvez pas accéder à ce fichier.',
-	'NO_ACTION'					=> 'Aucune action n’a été sélectionnée.',
+	'NO_ACTION'					=> 'Aucune opération n’a été sélectionnée.',
 	'NO_ADMINISTRATORS'			=> 'Il n’y a aucun administrateur.',
 	'NO_AUTH_ADMIN'				=> 'Vous ne pouvez pas accéder au panneau de contrôle d’administration.',
 	'NO_AUTH_ADMIN_USER_DIFFER'	=> 'Vous ne pouvez pas vous authentifier de nouveau avec un compte d’utilisateur différent au vôtre.',
@@ -479,7 +479,7 @@ $lang = array_merge($lang, array(
 	'NO_FORUMS'					=> 'Aucun forum.',
 	'NO_GROUP'					=> 'Le groupe d’utilisateurs que vous souhaitez consulter n’existe pas.',
 	'NO_GROUP_MEMBERS'			=> 'Ce groupe n’a actuellement aucun membre.',
-	'NO_IPS_DEFINED'			=> 'Aucun nom d’hôte ou adresse IP n’a été spécifié',
+	'NO_IPS_DEFINED'			=> 'Aucun nom d’hôte ou adresse IP n’a été spécifié.',
 	'NO_MEMBERS'				=> 'Aucun membre ne correspond à ce critère.',
 	'NO_MESSAGES'				=> 'Aucun message',
 	'NO_MODE'					=> 'Aucun mode n’a été sélectionné.',
@@ -568,7 +568,7 @@ $lang = array_merge($lang, array(
 	'POST_TIME'				=> 'Date du message',
 	'POST_TOPIC'			=> 'Publier un nouveau sujet',
 	'POST_UNAPPROVED'		=> 'Message en attente d’approbation :',
-	'POWERED_BY'			=> 'Développé par %s',
+	'POWERED_BY'			=> 'Powered by %s',
 	'PREVIEW'				=> 'Prévisualiser',
 	'PREVIOUS'				=> 'Précédent',		// Used in pagination
 	'PREVIOUS_STEP'			=> 'Précédent',

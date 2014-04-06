@@ -46,7 +46,7 @@ $lang = array_merge($lang, array(
 	'ANSWER'					=> 'Réponse',
 	'EDIT_QUESTION'				=> 'Éditer la question',
 	'QUESTIONS'					=> 'Questions',
-	'QUESTIONS_EXPLAIN'			=> 'Sur chaque envoi de formulaire où vous avez activé le plugin des Q&amp;R, les utilisateurs seront invités à répondre à une des questions qui ont été spécifiées ici. Pour utiliser ce plugin, au moins une des questions devra être rédigée dans la langue par défaut. Il est recommandé de cibler ces questions selon votre audience, qui devrait être capable de répondre plus facilement que des robots indésirables capables d’exécuter des recherches sur Google™. L’utilisation et la mise à jour régulière d’un grand nombre de questions fournira de meilleurs résultats. Activez la vérification stricte si une des réponses à votre question contient des majuscules et minuscules, des signes de ponctuation ou des espaces.',
+	'QUESTIONS_EXPLAIN'			=> 'Sur chaque envoi de formulaire où vous avez activé le plug-in des Q&amp;R, les utilisateurs seront invités à répondre à une des questions qui ont été spécifiées ici. Pour utiliser ce plug-in, au moins une des questions devra être rédigée dans la langue par défaut. Il est recommandé de cibler ces questions selon votre audience, qui devrait être capable de répondre plus facilement que des robots indésirables capables d’exécuter des recherches sur Google™. L’utilisation et la mise à jour régulière d’un grand nombre de questions fournira de meilleurs résultats. Activez la vérification stricte si une des réponses à votre question contient des majuscules et minuscules, des signes de ponctuation ou des espaces.',
 	'QUESTION_DELETED'			=> 'Question supprimée',
 	'QUESTION_LANG'				=> 'Langue',
 	'QUESTION_LANG_EXPLAIN'		=> 'La langue dans laquelle cette question et ses réponses sont rédigées.',
@@ -57,6 +57,6 @@ $lang = array_merge($lang, array(
 	'QUESTION_TEXT_EXPLAIN'		=> 'La question qui sera affichée aux utilisateurs.',
 
 	'QA_ERROR_MSG'				=> 'Veuillez remplir tous les champs et saisir au moins une réponse.',
-	'QA_LAST_QUESTION'			=> 'Vous ne pouvez pas supprimer toutes les questions lorsque le plugin est actif.',
+	'QA_LAST_QUESTION'			=> 'Vous ne pouvez pas supprimer toutes les questions lorsque le plug-in est actif.',
 
 ));

@@ -209,8 +209,8 @@ $lang = array_merge($lang, array(
 
 	'ACP_WORDS'					=> 'Censure de mots',
 
-	'ACTION'				=> 'Action',
-	'ACTIONS'				=> 'Actions',
+	'ACTION'				=> 'Opération',
+	'ACTIONS'				=> 'Opérations',
 	'ACTIVATE'				=> 'Activer',
 	'ADD'					=> 'Ajouter',
 	'ADMIN'					=> 'Administration',
@@ -242,7 +242,7 @@ $lang = array_merge($lang, array(
 	'EXPORT_STORE'			=> 'Stocker',
 
 	'FILES_GONE'			=> 'Certaines des pièces jointes que vous souhaitez supprimer n’existent pas. Elles ont peut-être déjà été supprimées. Les pièces jointes qui existaient ont été supprimées.',
-	'FILES_STATS_WRONG'		=> 'Vos fichiers statistiques sont problablement incorrects et doivent être resynchronisés. Les valeurs actuelles sont : nombre de pièces jointes = %1$d, taille des pièces jointes = %2$s.',
+	'FILES_STATS_WRONG'		=> 'Vos fichiers statistiques sont probablement incorrects et doivent être resynchronisés. Les valeurs actuelles sont : nombre de pièces jointes = %1$d, taille des pièces jointes = %2$s.',
 
 	'GENERAL_OPTIONS'		=> 'Options générales',
 	'GENERAL_SETTINGS'		=> 'Réglages généraux',
@@ -317,10 +317,10 @@ $lang = array_merge($lang, array(
 
 // Logs
 $lang = array_merge($lang, array(
-	'ACP_ADMIN_LOGS_EXPLAIN'	=> 'Cette liste vous permet de consulter toutes les opérations qui ont été effectuées par les administrateurs du forum. Vous pouvez les classer par nom d’utilisateur, date, adresse IP ou opération. Si vous en avez les permissions, vous pouvez également effacer les opérations une à une ou son intégralité.',
-	'ACP_CRITICAL_LOGS_EXPLAIN'	=> 'Cette liste vous permet de consulter toutes les opérations qui ont été effectuées par le forum lui-même. Cet historique vous informe des problèmes qui se sont produits, tels que des courriers électroniques qui n’ont pas été correctement transférés. Vous pouvez les classer par nom d’utilisateur, date, adresse IP ou opération. Si vous en avez les permissions, vous pouvez également effacer les opérations une à une ou son intégralité.',
-	'ACP_MOD_LOGS_EXPLAIN'		=> 'CCette liste vous permet de consulter toutes les opérations qui ont été effectuées sur les forums, les sujets et les messages, ainsi que celles effectuées par les modérateurs sur des utilisateurs, telles que les bannissements. Vous pouvez les classer par nom d’utilisateur, date, adresse IP ou opération. Si vous en avez les permissions, vous pouvez également effacer les opérations une à une ou son intégralité.',
-	'ACP_USERS_LOGS_EXPLAIN'	=> 'Cette liste vous permet de consulter toutes les opérations qui ont été effectuées par les utilisateurs ou sur les utilisateurs (tels que les rapports, les avertissements et les notes sur les utilisateurs).',
+	'ACP_ADMIN_LOGS_EXPLAIN'	=> 'Cette liste vous permet de consulter toutes les opérations qui ont été effectuées par les administrateurs du forum. Vous pouvez les classer par nom d’utilisateur, date, adresse IP ou opération. Si vous en avez les permissions, vous pouvez également effacer intégralement ou individuellement ces opérations.',
+	'ACP_CRITICAL_LOGS_EXPLAIN'	=> 'Cette liste vous permet de consulter toutes les opérations qui ont été effectuées par le forum lui-même. Cet historique vous informe des problèmes qui se sont produits, comme des courriers électroniques qui n’ont pas été correctement transférés. Vous pouvez les classer par nom d’utilisateur, date, adresse IP ou opération. Si vous en avez les permissions, vous pouvez également effacer intégralement ou individuellement ces opérations.',
+	'ACP_MOD_LOGS_EXPLAIN'		=> 'Cette liste vous permet de consulter toutes les opérations qui ont été effectuées sur les forums, les sujets et les messages, ainsi que celles effectuées par les modérateurs sur des utilisateurs, comme les bannissements. Vous pouvez les classer par nom d’utilisateur, date, adresse IP ou opération. Si vous en avez les permissions, vous pouvez également effacer intégralement ou individuellement ces opérations.',
+	'ACP_USERS_LOGS_EXPLAIN'	=> 'Cette liste vous permet de consulter toutes les opérations qui ont été effectuées par les utilisateurs ou sur les utilisateurs (comme les rapports, les avertissements et les notes sur les utilisateurs).',
 	'ALL_ENTRIES'				=> 'Tous les éléments',
 
 	'DISPLAY_LOG'	=> 'Afficher les éléments antérieurs',
@@ -334,9 +334,9 @@ $lang = array_merge($lang, array(
 
 // Index page
 $lang = array_merge($lang, array(
-	'ADMIN_INTRO'				=> 'Nous vous remercions d’avoir choisi le logiciel phpBB comme solution pour votre forum de discussions. Cette page vous offre un aperçu de toutes les diverses statistiques de votre forum. Les liens situés sur le volet à gauche de cette page vous permettent de contrôler tous les aspects de votre forum. Chaque page contient des instructions vous informant sur l’utilisation des outils disponibles.',
-	'ADMIN_LOG'					=> 'Journal des dernières actions des administrateurs',
-	'ADMIN_LOG_INDEX_EXPLAIN'	=> 'Ce journal vous donne un aperçu des cinq dernières actions effectuées par les administrateurs de ce forum. Vous pouvez consulter une copie complète de cet historique par l’intermédiaire du menu approprié ou en cliquant sur le lien qui est disponible ci-dessous.',
+	'ADMIN_INTRO'				=> 'Nous vous remercions d’utiliser le logiciel phpBB comme solution pour votre forum de discussions. Cette page vous offre un aperçu des nombreuses statistiques de votre forum. Les liens situés sur le volet à gauche de cette page vous permettent de personnaliser tous les aspects de votre forum. Chaque page contient des instructions vous informant sur l’utilisation des outils disponibles.',
+	'ADMIN_LOG'					=> 'Historique des dernières opérations des administrateurs',
+	'ADMIN_LOG_INDEX_EXPLAIN'	=> 'Cet historique vous affiche les cinq dernières opérations effectuées par les administrateurs de ce forum. Vous pouvez consulter la totalité de cet historique par l’intermédiaire du menu approprié ou en cliquant sur le lien disponible ci-dessous.',
 	'AVATAR_DIR_SIZE'			=> 'Taille du répertoire des avatars',
 
 	'BOARD_STARTED'		=> 'Date d’ouverture du forum',
@@ -434,7 +434,7 @@ $lang = array_merge($lang, array(
 	'INACTIVE_REASON_UNKNOWN'		=> 'Inconnue',
 	'INACTIVE_USERS'				=> 'Utilisateurs inactifs',
 	'INACTIVE_USERS_EXPLAIN'		=> 'Cette liste vous affiche les utilisateurs inscrits dont le compte est actuellement inactif. Vous pouvez activer, supprimer ou rappeler (en envoyant un courrier électronique) ces utilisateurs.',
-	'INACTIVE_USERS_EXPLAIN_INDEX'	=> 'Cette liste vous affiche les dix derniers utilisateurs inscrits dont le compte est actuellement inactif. Les comptes peuvent être inactifs lorsqu’une activation est exigée dans les réglages des inscriptions mais que certains comptes d’utilisateurs n’ont pas encore été activés. Les comptes d’utilisateurs désactivés sont également affichés dans cette liste. Si vous le souhaitez, vous pouvez consulter la liste complète de ces membres par l’intermédiaire du menu approprié ou en cliquant sur le lien ci-dessous d’où vous pourrez activer, supprimer ou rappeler (en envoyant un courrier électronique) ces utilisateurs.',
+	'INACTIVE_USERS_EXPLAIN_INDEX'	=> 'Cette liste vous affiche les dix derniers utilisateurs inscrits dont le compte est actuellement inactif. Les comptes d’utilisateurs peuvent être inactifs lorsqu’une activation est requise dans le réglage des inscriptions mais que certains comptes d’utilisateurs n’ont pas encore été activés. Les comptes d’utilisateurs désactivés sont également affichés dans cette liste. Vous pouvez consulter la totalité de la liste des utilisateurs inactifs par l’intermédiaire du menu approprié ou en cliquant sur le lien ci-dessous d’où vous pourrez activer, supprimer ou rappeler (en envoyant un courrier électronique) ces utilisateurs.',
 
 	'NO_INACTIVE_USERS'	=> 'Aucun utilisateur inactif',
 
@@ -450,7 +450,7 @@ $lang = array_merge($lang, array(
 
 // Send statistics page
 $lang = array_merge($lang, array(
-	'EXPLAIN_SEND_STATISTICS'	=> 'Vous pouvez nous soumettre les informations statistiques de votre serveur et de la configuration de votre forum. Toutes les informations pouvant vous identifier ou identifier votre site internet ont été supprimées, les données sont entièrement <strong>anonymes</strong>. Nous utilisons ces informations afin d’adapter nos décisions sur les futures versions de phpBB. Les statistiques sont rendues publiques. Nous partageons également ces données avec le projet PHP, qui est l’auteur du langage de programmation du même nom, majoritairement utilisé dans phpBB.',
+	'EXPLAIN_SEND_STATISTICS'	=> 'Vous pouvez nous soumettre les informations statistiques sur votre serveur et sur la configuration de votre forum. Toutes les informations pouvant vous identifier ou identifier votre site internet ont été supprimées, les données sont entièrement <strong>anonymes</strong>. Nous utilisons ces informations afin de mieux adapter nos décisions sur les futures versions de phpBB. Les statistiques sont rendues publiques. Nous partageons également ces données avec le projet PHP, qui est l’auteur du langage de programmation du même nom, majoritairement utilisé dans phpBB.',
 	'EXPLAIN_SHOW_STATISTICS'	=> 'En cliquant sur le bouton ci-dessous, vous pouvez prévisualiser toutes les variables qui nous seront transmises.',
 	'DONT_SEND_STATISTICS'		=> 'Revenir au panneau de contrôle d’administration sans envoyer les informations statistiques.',
 	'GO_ACP_MAIN'				=> 'Aller à la page de démarrage du PCA',
@@ -625,7 +625,7 @@ $lang = array_merge($lang, array(
 	'LOG_INACTIVE_ACTIVATE'	=> '<strong>Activation d’utilisateurs inactifs</strong><br />» %s',
 	'LOG_INACTIVE_DELETE'	=> '<strong>Suppression d’utilisateurs inactifs</strong><br />» %s',
 	'LOG_INACTIVE_REMIND'	=> '<strong>Envoi d’un courrier électronique de rappel aux utilisateurs inactifs</strong><br />» %s',
-	'LOG_INSTALL_CONVERTED'	=> '<strong>Convertion de phpBB %1$s vers phpBB %2$s</strong>',
+	'LOG_INSTALL_CONVERTED'	=> '<strong>Conversion de phpBB %1$s vers phpBB %2$s</strong>',
 	'LOG_INSTALL_INSTALLED'	=> '<strong>Installation de phpBB %s</strong>',
 
 	'LOG_IP_BROWSER_FORWARDED_CHECK'	=> '<strong>Échec de la vérification de la session IP, du navigateur ou de X_FORWARDED_FOR</strong><br />»L’adresse IP de l’utilisateur « <em>%1$s</em> » a été comparée à la session IP « <em>%2$s</em> », la chaîne du navigateur de l’utilisateur « <em>%3$s</em> » a été comparée à la chaîne de la session du navigateur « <em>%4$s</em> » et la chaîne X_FORWARDED_FOR de l’utilisateur « <em>%5$s</em> » a été comparée à la chaîne X_FORWARDED_FOR de la session « <em>%6$s</em> ».',
@@ -736,9 +736,9 @@ $lang = array_merge($lang, array(
 	'LOG_UPDATE_PHPBB'		=> '<strong>Mise à jour de phpBB de la version %1$s à la version %2$s</strong>',
 
 	'LOG_USER_ACTIVE'		=> '<strong>Activation du compte d’un utilisateur</strong><br />» %s',
-	'LOG_USER_BAN_USER'		=> '<strong>Bannissement du compte d’un utilisateur par l’intermédaire de la gestion des utilisateurs</strong> en spécifiant comme raison « <em>%1$s</em> »<br />» %2$s',
-	'LOG_USER_BAN_IP'		=> '<strong>Bannissement d’une adresse IP par l’intermédaire de la gestion des utilisateurs</strong> en spécifiant comme raison « <em>%1$s</em> »<br />» %2$s',
-	'LOG_USER_BAN_EMAIL'	=> '<strong>Bannissement d’une adresse de courrier électronique par l’intermédaire de la gestion des utilisateurs</strong> en spécifiant comme raison « <em>%1$s</em> »<br />» %2$s',
+	'LOG_USER_BAN_USER'		=> '<strong>Bannissement du compte d’un utilisateur par l’intermédiaire de la gestion des utilisateurs</strong> en spécifiant comme raison « <em>%1$s</em> »<br />» %2$s',
+	'LOG_USER_BAN_IP'		=> '<strong>Bannissement d’une adresse IP par l’intermédiaire de la gestion des utilisateurs</strong> en spécifiant comme raison « <em>%1$s</em> »<br />» %2$s',
+	'LOG_USER_BAN_EMAIL'	=> '<strong>Bannissement d’une adresse de courrier électronique par l’intermédiaire de la gestion des utilisateurs</strong> en spécifiant comme raison « <em>%1$s</em> »<br />» %2$s',
 	'LOG_USER_DELETED'		=> '<strong>Suppression du compte d’un utilisateur</strong><br />» %s',
 	'LOG_USER_DEL_ATTACH'	=> '<strong>Suppression de toutes les pièces jointes d’un utilisateur</strong><br />» %s',
 	'LOG_USER_DEL_AVATAR'	=> '<strong>Suppression de l’avatar d’un utilisateur</strong><br />» %s',

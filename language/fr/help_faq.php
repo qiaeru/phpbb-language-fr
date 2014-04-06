@@ -135,7 +135,7 @@ $help = array(
 	),
 	array(
 		0 => 'Pourquoi ne puis-je pas accéder à un forum ?',
-		1 => 'Certains forums peuvent être limités à certains utilisateurs ou groupes d’utilisateurs. Pour consulter, lire, publier ou réaliser n’importe quelle autre action, vous avez besoin de permissions spéciales. Contactez un modérateur ou un administrateur du forum afin de demander votre accès.'
+		1 => 'Certains forums peuvent être limités à certains utilisateurs ou groupes d’utilisateurs. Pour consulter, lire, publier ou réaliser n’importe quelle autre opération, vous avez besoin de permissions spéciales. Contactez un modérateur ou un administrateur du forum afin de demander votre accès.'
 	),
 	array(
 		0 => 'Pourquoi ne puis-je pas transférer de pièces jointes ?',
@@ -155,7 +155,7 @@ $help = array(
 	),
 	array(
 		0 => 'Pourquoi mon message a-t-il besoin d’être approuvé ?',
-		1 => 'L’administrateur du forum peut décider que les messages que vous publiez sur le forum doivent être vérifiés avant d’être publiés. Il est également possible que l’administrateur vous ait placé dans un groupe d’utilisateurs pour lequel il juge nécessaire cette action. Pour plus d’informations, veuillez contacter un administrateur du forum.'
+		1 => 'L’administrateur du forum peut décider que les messages que vous publiez sur le forum doivent être vérifiés avant d’être publiés. Il est également possible que l’administrateur vous ait placé dans un groupe d’utilisateurs s’il le juge nécessaire. Pour plus d’informations, veuillez contacter un administrateur du forum.'
 	),
 	array(
 		0 => 'Comment puis-je remonter mes sujets ?',
@@ -332,7 +332,7 @@ $help = array(
 	),
 	array(
 		0 => 'Pourquoi la fonctionnalité X n’est pas disponible ?',
-		1 => 'Ce programme a été développé et mis sous licence par le phpBB Group. Si vous souhaitez proposer l’implantation d’une nouvelle fonctionnalité, veuillez vous rendre sur <a href="https://www.phpbb.com/ideas/">phpBB Ideas Centre</a> où vous pourrez voter pour les idées soumises par d’autres utilisateurs et suggérer les vôtres.'
+		1 => 'Ce programme a été développé et mis sous licence par le phpBB Group. Si vous souhaitez proposer l’implantation d’une nouvelle fonctionnalité, veuillez vous rendre sur le <a href="https://www.phpbb.com/ideas/">centre d’idées de phpBB</a> où vous pourrez voter pour les idées soumises par d’autres utilisateurs et suggérer les vôtres.'
 	),
 	array(
 		0 => 'Qui dois-je contacter à propos de problèmes d’abus ou d’ordres légaux liés à ce forum ?',

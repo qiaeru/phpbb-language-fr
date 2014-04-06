@@ -126,7 +126,7 @@ $lang = array_merge($lang, array(
 	'NO_PERMISSIONS'			=> 'Ne copier aucune permission',
 	'NO_USERS'					=> 'Aucun utilisateur n’a été spécifié.',
 	'NO_USERS_ADDED'			=> 'Aucun utilisateur n’a été ajouté au groupe d’utilisateurs.',
-	'NO_VALID_USERS'			=> 'Aucun utilisateur n’est éligible afin de réaliser cette action.',
+	'NO_VALID_USERS'			=> 'Aucun utilisateur ne peut réaliser cette opération.',
 
 	'SELECT_GROUP'				=> 'Sélectionner un groupe',
 	'SPECIAL_GROUPS'			=> 'Groupes prédéfinis',
@@ -146,7 +146,7 @@ $lang = array_merge($lang, array(
 	'USERS_APPROVED'				=> 'Les utilisateurs ont été approuvés.',
 	'USER_DEFAULT'					=> 'Utilisateur par défaut',
 	'USER_DEF_GROUPS'				=> 'Groupes définis par un administrateur',
-	'USER_DEF_GROUPS_EXPLAIN'		=> 'Les groupes définis par un administrateur sont des groupes d’utilisateurs créés par vous-même ou par un autre administrateur du forum. Vous pouvez gérer leurs adhésions, éditer leurs propriétés ou encore les supprimer.',
+	'USER_DEF_GROUPS_EXPLAIN'		=> 'Les groupes définis par un administrateur sont des groupes d’utilisateurs créés par vous-même ou par un autre administrateur du forum. Vous pouvez gérer leurs membres, éditer leurs réglages ou encore les supprimer.',
 	'USER_GROUP_DEFAULT'			=> 'Définir comme groupe par défaut',
 	'USER_GROUP_DEFAULT_EXPLAIN'	=> 'Si cette option est activée, ce groupe d’utilisateurs sera considéré comme le groupe d’utilisateurs par défaut de tous les utilisateurs.',
 	'USER_GROUP_LEADER'				=> 'Promouvoir en responsable du groupe',

@@ -38,7 +38,7 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'TERMS_OF_USE_CONTENT'	=> 'En accédant à « %1$s » (désigné ici par « nous », « notre », « nos », « %1$s », « %2$s »), vous acceptez d’être légalement responsable des conditions suivantes. Si vous n’acceptez pas d’être légalement responsable de toutes les conditions suivantes, veuillez ne pas utiliser et/ou accéder à « %1$s ». Nous pouvons modifier ces conditions à n’importe quel moment et nous essaierons de vous informer de ces modifications, bien que nous vous conseillons de vérifier régulièrement cela par vous-même car si vous continuez à participer à « %1$s » après que les modifications aient été effectuées, vous acceptez d’être légalement responsable des conditions modifiées et/ou mises à jour.<br />
 	<br />
-	Nos forums sont developpés par phpBB (désignés ici par « ils », « eux », « leur », « logiciel phpBB », « www.phpbb.com », « phpBB Group », « équipes de phpBB ») qui est une solution de création de forums déclarée sous la « <a href="http://opensource.org/licenses/gpl-2.0.php">Licence Publique Générale GNU v2</a> » (désignée ici par « GPL ») et qui peut être téléchargée sur <a href="https://www.phpbb.com/">www.phpbb.com</a>. Le logiciel phpBB a pour seul but de faciliter les discussions sur internet, le phpBB Group n’est en aucun cas responsable de la conduite et/ou du contenu que nous acceptons et/ou que nous n’acceptons pas. Si vous souhaitez obtenir plus d’informations concernant phpBB, nous vous invitons à consulter <a href="https://www.phpbb.com/">https://www.phpbb.com/</a>.<br />
+	Nos forums sont developpés par phpBB (désignés ici par « ils », « eux », « leur », « logiciel phpBB », « www.phpbb.com », « phpBB Group », « équipes de phpBB ») qui est une solution de création de forums déclarée sous la « <a href="http://opensource.org/licenses/GPL-2.0">Licence Publique Générale GNU v2</a> » (désignée ici par « GPL ») et qui peut être téléchargée sur <a href="https://www.phpbb.com/">www.phpbb.com</a>. Le logiciel phpBB a pour seul but de faciliter les discussions sur internet, le phpBB Group n’est en aucun cas responsable de la conduite et/ou du contenu que nous acceptons et/ou que nous n’acceptons pas. Si vous souhaitez obtenir plus d’informations concernant phpBB, nous vous invitons à consulter <a href="https://www.phpbb.com/">https://www.phpbb.com/</a>.<br />
 	<br />
 	Vous acceptez de ne publier aucun contenu à caractère abusif, obscène, vulgaire, diffamatoire, choquant, menaçant, pornographique, etc. qui pourrait transgresser les lois de votre pays, le pays où « %1$s » est hébergé, ou encore la loi internationale. Si vous ne respectez pas cela, vous vous exposez à un bannissement immédiat et permanent et nous avertirons votre fournisseur d’accès à internet si nous le jugeons nécessaire. Nous enregistrons l’adresse IP de tous les messages afin d’aider au renforcement de ces conditions. Vous acceptez le fait que « %1$s » ait le droit de supprimer, d’éditer, de déplacer ou de verrouiller n’importe quel sujet à n’importe quel moment si nous estimons que cela est nécessaire. En tant qu’utilisateur, vous acceptez que toutes les informations que vous avez spécifiées soient stockées dans notre base de données. Bien que cette information ne sera pas diffusée à une tierce partie sans votre consentement, ni « %1$s », ni phpBB, ne pourront être tenus comme responsables en cas de tentative de piratage visant à compromettre vos données.
 	',
@@ -150,8 +150,8 @@ $lang = array_merge($lang, array(
 	'CUR_PASSWORD_ERROR'		=> 'Le mot de passe que vous avez spécifié est incorrect.',
 	'CUSTOM_DATEFORMAT'			=> 'Personnaliser…',
 
-	'DEFAULT_ACTION'			=> 'Action par défaut',
-	'DEFAULT_ACTION_EXPLAIN'	=> 'Cette action sera déclenchée si aucune action précédente n’est applicable.',
+	'DEFAULT_ACTION'			=> 'Opération par défaut',
+	'DEFAULT_ACTION_EXPLAIN'	=> 'Cette opération sera effectuée si les opérations précédentes sont impossibles.',
 	'DEFAULT_ADD_SIG'			=> 'Insérer ma signature par défaut',
 	'DEFAULT_BBCODE'			=> 'Activer le BBCode par défaut',
 	'DEFAULT_NOTIFY'			=> 'Recevoir une notification par défaut lors de la publication d’une nouvelle réponse',
@@ -237,7 +237,7 @@ $lang = array_merge($lang, array(
 	'FRIENDS_OFFLINE'			=> 'Hors-ligne',
 	'FRIENDS_ONLINE'			=> 'En ligne',
 	'FRIENDS_UPDATED'			=> 'Votre liste d’amis a été mise à jour.',
-	'FULL_FOLDER_OPTION_CHANGED'=> 'L’action à effectuer lorsqu’une boîte est pleine a été modifiée.',
+	'FULL_FOLDER_OPTION_CHANGED'=> 'L’opération à effectuer lorsqu’une boîte est pleine a été modifiée.',
 	'FWD_ORIGINAL_MESSAGE'		=> '-------- Message original --------',
 	'FWD_SUBJECT'				=> 'Sujet : %s',
 	'FWD_DATE'					=> 'Date : %s',
@@ -351,7 +351,7 @@ $lang = array_merge($lang, array(
 		1	=> 'Vous avez actuellement %d message privé en attente car la boîte de réception est pleine.',
 		2	=> 'Vous avez actuellement %d messages privés en attente car la boîte de réception est pleine.',
 	),
-	'NO_ACTION_MODE'				=> 'Aucune action n’a été sélectionnée concernant ce message.',
+	'NO_ACTION_MODE'				=> 'Aucune opération n’a été sélectionnée concernant ce message.',
 	'NO_AUTHOR'						=> 'Aucun auteur n’a été défini pour ce message',
 	'NO_AVATAR_CATEGORY'			=> 'Aucune',
 
@@ -422,7 +422,7 @@ $lang = array_merge($lang, array(
 	'PREFERENCES_UPDATED'		=> 'Vos préférences ont été mises à jour.',
 	'PROFILE_INFO_NOTICE'		=> 'Veuillez noter que ces informations peuvent être visibles aux autres membres. Soyez prudent(e) lors de la saisie d’informations personnelles. Tous les champs marqués par * sont obligatoires.',
 	'PROFILE_UPDATED'			=> 'Votre profil a été mis à jour.',
-	'PROFILE_AUTOLOGIN_KEYS'	=> 'Les clés de connexions automatiques vous permettent de vous connecter automatiquement lors de vos différentes visites sur le forum. Si vous vous déconnectez, la clé de connexion automatique ne sera supprimée que sur l’ordinateur que vous utilisiez au moment de votre déconnexion. Vous pouvez consulter sur cette page les clés de connexions automatiques générées sur les ordinateurs qui ont été utilisés afin d’accéder à ce forum.',
+	'PROFILE_AUTOLOGIN_KEYS'	=> 'Les clés de connexions automatiques vous permettent de vous connecter automatiquement lors de vos différentes visites sur le forum. Si vous vous déconnectez, la clé de connexion automatique ne sera supprimée que de l’ordinateur que vous utilisiez au moment de votre déconnexion. Vous pouvez consulter sur cette page les clés de connexions automatiques générées sur les ordinateurs qui ont été utilisés afin d’accéder à ce forum.',
 	'PROFILE_NO_AUTOLOGIN_KEYS'	=> 'Aucune clé de connexion automatique n’a été sauvegardée.',
 
 	'RECIPIENT'							=> 'Destinataire',
@@ -584,9 +584,9 @@ $lang = array_merge($lang, array(
 	'VIEW_POSTS_DIR'			=> 'Afficher les messages triés par ordre',
 	'VIEW_POSTS_KEY'			=> 'Afficher les messages triés par',
 
-	'WATCHED_EXPLAIN'			=> 'La liste ci-dessous vous affiche les forums et les sujets auxquels vous êtes abonné(e). Vous recevrez une notification à chaque fois qu’un nouveau message est publié dans un de ces derniers. Si vous souhaitez vous désabonner d’un forum ou d’un sujet, sélectionnez ce dernier et cliquez sur le bouton <em>Ne plus surveiller la sélection</em>.',
-	'WATCHED_FORUMS'			=> 'Forums auxquels vous etes abonné(e)',
-	'WATCHED_TOPICS'			=> 'Sujets auxquels vous etes abonné(e)',
+	'WATCHED_EXPLAIN'			=> 'La liste ci-dessous vous affiche les forums et les sujets auxquels vous êtes abonné(e). Vous recevrez une notification à chaque fois qu’un nouveau message est publié dans un de ces derniers. Si vous souhaitez vous désabonner d’un forum ou d’un sujet, sélectionnez-le et cliquez sur le bouton <em>Ne plus surveiller la sélection</em>.',
+	'WATCHED_FORUMS'			=> 'Forums auxquels vous êtes abonné(e)',
+	'WATCHED_TOPICS'			=> 'Sujets auxquels vous êtes abonné(e)',
 	'WRONG_ACTIVATION'			=> 'La clé d’activation que vous avez spécifiée est incorrecte car elle est inconnue de la base de données.',
 
 	'YOUR_DETAILS'				=> 'Votre activité',
@@ -627,7 +627,7 @@ $lang = array_merge($lang, array(
 	),
 
 
-	'GROUPS_EXPLAIN'	=> 'Les groupes d’utilisateurs permettent aux administrateurs de mieux gérer les utilisateurs. Initialement, vous serez membre d’un groupe d’utilisateurs spécifique qui correspond à votre groupe par défaut. Ce groupe défini votre apparence aux yeux des autres utilisateurs, grâce à, par exemple, une colorisation de votre nom d’utilisateur, l’affichage spécifique d’un avatar, d’un rang, etc. Selon la politique de l’administrateur, vous pouvez être autorisé(e) à modifier votre groupe par défaut. Vous pouvez également être membre d’autres groupes d’utilisateurs et être autorisé(e) à en rejoindre de nouveaux. Certains groupes d’utilisateurs peuvent vous procurer des permissions supplémentaires qui vous permettront de consulter un contenu exclusif ou d’augmenter vos fonctionnalités dans d’autres domaines.',
+	'GROUPS_EXPLAIN'	=> 'Les groupes d’utilisateurs permettent aux administrateurs de gérer plus facilement les utilisateurs. Dès votre inscription, vous êtes automatiquement membre d’un groupe d’utilisateurs par défaut. Ce groupe spécifie votre apparence auprès des autres utilisateurs, grâce à, par exemple, une colorisation de votre nom d’utilisateur, un avatar, un rang, etc. Selon la politique des administrateurs du forum, vous pouvez être autorisé(e) à modifier votre groupe d’utilisateurs par défaut, à être membre de plusieurs groupes d’utilisateurs et à rejoindre de nouveaux groupes d’utilisateurs. Certains groupes d’utilisateurs peuvent vous procurer des permissions supplémentaires qui vous permettront de consulter du contenu exclusif ou de profiter de nouvelles fonctionnalités dans d’autres domaines.',
 	'GROUP_LEADER'		=> 'Responsable',
 	'GROUP_MEMBER'		=> 'Membre',
 	'GROUP_PENDING'		=> 'Membre en attente',
