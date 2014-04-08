@@ -676,6 +676,7 @@ $lang = array_merge($lang, array(
 
 	'LOG_PRUNE'					=> '<strong>Délestage de forums</strong><br />» %s',
 	'LOG_AUTO_PRUNE'			=> '<strong>Délestage automatique de forums</strong><br />» %s',
+	'LOG_PRUNE_SHADOW'		=> '<strong>Délestage automatique de redirections de sujet</strong><br />» %s',
 	'LOG_PRUNE_USER_DEAC'		=> '<strong>Désactivation d’utilisateurs</strong><br />» %s',
 	'LOG_PRUNE_USER_DEL_DEL'	=> '<strong>Délestage d’utilisateurs et suppression de leurs messages</strong><br />» %s',
 	'LOG_PRUNE_USER_DEL_ANON'	=> '<strong>Délestage d’utilisateurs et préservation de leurs messages</strong><br />» %s',
@@ -732,7 +733,7 @@ $lang = array_merge($lang, array(
 	// @deprecated 3.1
 	'LOG_THEME_REFRESHED'		=> '<strong>Rafraîchissement d’un ensemble de thèmes</strong><br />» %s',
 
-	'LOG_UPDATE_DATABASE'	=> '<strong>>Mise à jour de la base de données de la version %1$s à la version %2$s</strong>',
+	'LOG_UPDATE_DATABASE'	=> '<strong>Mise à jour de la base de données de la version %1$s à la version %2$s</strong>',
 	'LOG_UPDATE_PHPBB'		=> '<strong>Mise à jour de phpBB de la version %1$s à la version %2$s</strong>',
 
 	'LOG_USER_ACTIVE'		=> '<strong>Activation du compte d’un utilisateur</strong><br />» %s',
