@@ -91,7 +91,7 @@ $lang = array_merge($lang, array(
 	'FIELD_DROPDOWN'			=> 'Liste déroulante',
 	'FIELD_IDENT'				=> 'Identification du champ',
 	'FIELD_IDENT_ALREADY_EXIST'	=> 'Cette identification de champ existe déjà. Veuillez en saisir une autre.',
-	'FIELD_IDENT_EXPLAIN'		=> 'L’identification du champ correspond au nom qui permet d’identifier le champ de profil dans la base de données et les templates.',
+	'FIELD_IDENT_EXPLAIN'		=> 'L’identification du champ correspond au nom qui permet d’identifier le champ de profil dans la base de données et les modèles.',
 	'FIELD_INT'					=> 'Chiffres',
 	'FIELD_IS_CONTACT'			=> 'Afficher le champ comme un champ de contact',
 	'FIELD_IS_CONTACT_EXPLAIN'	=> 'Les champs de contact sont affichés dans la section de contact sur le profil des utilisateurs et sont affichés différemment dans le profil miniature situé à côté des messages et des messages privés.',
@@ -109,7 +109,7 @@ $lang = array_merge($lang, array(
 	'HIDE_PROFILE_FIELD_EXPLAIN'	=> 'Le champ de profil sera invisible à tous les utilisateurs, seuls les administrateurs et les modérateurs pourront toujours le voir. Si l’affichage est désactivé dans le panneau de contrôle de l’utilisateur, l’utilisateur ne pourra pas voir ou modifier ce champ et ce dernier ne pourra être modifié que par un administrateur.',
 
 	'INVALID_CHARS_FIELD_IDENT'	=> 'L’identification du champ ne peut contenir que des lettres minuscules situées entre A et E et des tirets bas',
-	'INVALID_FIELD_IDENT_LEN'	=> 'L’identification du champ est limité à 17 caractères',
+	'INVALID_FIELD_IDENT_LEN'	=> 'L’identification du champ est limitée à 17 caractères',
 	'ISO_LANGUAGE'				=> 'Langue [%s]',
 
 	'LANG_SPECIFIC_OPTIONS'		=> 'Options spécifiques à la langue [<strong>%s</strong>]',

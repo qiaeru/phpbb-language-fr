@@ -35,7 +35,7 @@ $help = array(
 	),
 	array(
 		0 => 'Qu’est-ce que le BBCode ?',
-		1 => 'Le BBCode est une implémentation spéciale du code HTML. Vous pouvez utiliser le BBCode dans vos messages sur le forum sous réserve que cette fonctionnalité ait été autorisée par un administrateur. De plus, vous pouvez désactiver le BBCode sur chacun de vos messages par l’intermédiaire du formulaire de rédaction. Le BBCode est similaire à l’architecture du code HTML, les balises sont contenues entre des crochets [ et ] à la place de &lt; et &gt;, et il offre un meilleur contrôle sur la mise en forme. Selon le template que vous utilisez, vous pouvez trouver et utiliser très facilement du BBCode dans vos messages par l’intermédiaire d’une interface cliquable située juste au-dessus du formulaire de rédaction. Si ces brèves explications ne vous conviennent pas, vous pouvez consulter le guide suivant qui s’avère très explicite.'
+		1 => 'Le BBCode est une implémentation spéciale du code HTML. Vous pouvez utiliser le BBCode dans vos messages sur le forum sous réserve que cette fonctionnalité ait été autorisée par un administrateur. De plus, vous pouvez désactiver le BBCode sur chacun de vos messages par l’intermédiaire du formulaire de rédaction. Le BBCode est similaire à l’architecture du code HTML, les balises sont contenues entre des crochets [ et ] à la place de &lt; et &gt;, et il offre un meilleur contrôle sur la mise en forme. Selon le style que vous utilisez, vous pouvez trouver et utiliser très facilement du BBCode dans vos messages par l’intermédiaire d’une interface cliquable située juste au-dessus du formulaire de rédaction. Si ces brèves explications ne vous conviennent pas, vous pouvez consulter le guide suivant qui s’avère très explicite.'
 	),
 	array(
 		0 => '--',

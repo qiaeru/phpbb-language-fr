@@ -39,7 +39,7 @@ $lang = array_merge($lang, array(
 	'EXTENSIONS'				=> 'Extensions',
 	'EXTENSIONS_ADMIN'			=> 'Gestionnaire des extensions',
 	'EXTENSIONS_EXPLAIN'		=> 'Le gestionnaire des extensions est un outil vous permettant de gérer tous les statuts de vos extensions et consulter leurs informations.',
-	'EXTENSION_INVALID_LIST'	=> 'L’extension « %s » est invalide.<br />%s<br /><br />',
+	'EXTENSION_INVALID_LIST'	=> 'L’extension « %s » est incorrecte.<br />%s<br /><br />',
 	'EXTENSION_NOT_AVAILABLE'	=> 'L’extension que vous avez sélectionnée n’est pas disponible sur ce forum. Veuillez vérifier la compatibilité de vos versions de phpBB et de PHP.',
 	'EXTENSION_DIR_INVALID'		=> 'L’extension que vous avez sélectionnée est construite avec une structure de répertoire incorrecte et ne peut donc pas être activée.',
 

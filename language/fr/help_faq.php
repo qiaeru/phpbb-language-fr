@@ -264,7 +264,7 @@ $help = array(
 	),
 	array(
 		0 => 'À quoi sert ma liste d’amis et d’ignorés ?',
-		1 => 'Vous pouvez utiliser ces listes afin d’organiser et trier les utilisateurs du forum. Les membres ajoutés dans votre liste d’amis seront listés dans votre panneau de contrôle de l’utilisateur afin de consulter rapidement leur statut en ligne et leur envoyer des messages privés. Selon le template utilisé, les messages publiés par ces utilisateurs peuvent éventuellement être mis en surbrillance. Si vous ajoutez un utilisateur dans votre liste d’ignorés, tous les messages qu’il publiera seront masqués par défaut.'
+		1 => 'Vous pouvez utiliser ces listes afin d’organiser et trier les utilisateurs du forum. Les membres ajoutés dans votre liste d’amis seront listés dans votre panneau de contrôle de l’utilisateur afin de consulter rapidement leur statut en ligne et leur envoyer des messages privés. Selon le style utilisé, les messages publiés par ces utilisateurs peuvent éventuellement être mis en surbrillance. Si vous ajoutez un utilisateur dans votre liste d’ignorés, tous les messages qu’il publiera seront masqués par défaut.'
 	),
 	array(
 		0 => 'Comment puis-je ajouter ou supprimer des utilisateurs de ma liste d’amis et d’ignorés ?',

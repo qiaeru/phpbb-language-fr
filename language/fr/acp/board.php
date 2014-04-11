@@ -236,7 +236,7 @@ $lang = array_merge($lang, array(
 	'ENABLE_COPPA_EXPLAIN'		=> 'Les utilisateurs devront déclarer qu’ils ont 13 ans ou plus afin de se conformer à la <em><strong>C</strong>hildren’s <strong>O</strong>nline <strong>P</strong>rivacy <strong>P</strong>rotection <strong>A</strong>ct</em>, loi des États-Unis d’Amérique visant à protéger la vie privée des enfants sur Internet. Si cette option est désactivée, les groupes d’utilisateurs liés à la COPPA ne seront pas affichés.',
 	'MAX_CHARS'					=> 'max',
 	'MIN_CHARS'					=> 'min',
-	'NO_AUTH_PLUGIN'			=> 'Aucun plug-in d’authentification n’a été trouvé.',
+	'NO_AUTH_PLUGIN'			=> 'Aucun module d’extension d’authentification n’a été trouvé.',
 	'PASSWORD_LENGTH'			=> 'Longueur des mots de passe',
 	'PASSWORD_LENGTH_EXPLAIN'	=> 'Le nombre de caractères minimaux et maximaux qui doivent être saisis dans les mots de passe.',
 	'REG_LIMIT'					=> 'Nombre maximal de tentatives d’inscription par session',
@@ -295,9 +295,9 @@ $lang = array_merge($lang, array(
 
 // Visual Confirmation Settings
 $lang = array_merge($lang, array(
-	'ACP_VC_SETTINGS_EXPLAIN'				=> 'Vous pouvez sélectionner et configurer sur cette page tous les plug-ins qui permettent de lutter contre l’envoi de formulaires par des robots indésirables. Ces plug-ins fonctionnent en général en demandant aux utilisateur de résoudre un <em>CAPTCHA</em>, qui est un outil permettant de différencier les humains aux robots.',
-	'AVAILABLE_CAPTCHAS'					=> 'Plug-ins disponibles',
-	'CAPTCHA_UNAVAILABLE'					=> 'Le plug-in ne peut pas être sélectionné tant que ses obligations ne sont pas remplies.',
+	'ACP_VC_SETTINGS_EXPLAIN'				=> 'Vous pouvez sélectionner et configurer sur cette page tous les modules d’extension qui permettent de lutter contre l’envoi de formulaires par des robots indésirables. Ces modules d’extension fonctionnent en général en demandant aux utilisateur de résoudre un <em>CAPTCHA</em>, qui est un outil permettant de différencier les humains aux robots.',
+	'AVAILABLE_CAPTCHAS'					=> 'Modules d’extension disponibles',
+	'CAPTCHA_UNAVAILABLE'					=> 'Le module d’extension ne peut pas être sélectionné tant que ses prérequis ne sont pas respectés.',
 	'CAPTCHA_GD'							=> 'Bruit GD de l’image',
 	'CAPTCHA_GD_3D'							=> 'Bruit GD en 3D de l’image',
 	'CAPTCHA_GD_FOREGROUND_NOISE'			=> 'Bruit de premier plan',
@@ -318,21 +318,21 @@ $lang = array_merge($lang, array(
 	'CAPTCHA_FONT_LOWER'					=> 'Utiliser également des lettres en minuscule',
 	'CAPTCHA_NO_GD'							=> 'Image simple',
 	'CAPTCHA_PREVIEW_MSG'					=> 'Vos modifications n’ont pas été enregistrées, ceci n’est qu’une prévisualisation.',
-	'CAPTCHA_PREVIEW_EXPLAIN'				=> 'Le plug-in tel qu’il ressemblera lors de son utilisation.',
+	'CAPTCHA_PREVIEW_EXPLAIN'				=> 'Le module d’extension tel qu’il ressemblera lors de son utilisation.',
 
-	'CAPTCHA_SELECT'						=> 'Plug-ins installés',
-	'CAPTCHA_SELECT_EXPLAIN'				=> 'La liste déroulante contient les plug-ins reconnus par le forum. Les éléments grisés correspondent aux plug-ins qui ne sont pas encore disponibles et qui peuvent nécessiter une configuration avant leur utilisation.',
-	'CAPTCHA_CONFIGURE'						=> 'Configurer les plug-ins',
-	'CAPTCHA_CONFIGURE_EXPLAIN'				=> 'Vous permet de configurer le plug-in que vous avez sélectionné dans la liste déroulante.',
+	'CAPTCHA_SELECT'						=> 'Modules d’extension installés',
+	'CAPTCHA_SELECT_EXPLAIN'				=> 'La liste déroulante contient les modules d’extension reconnus par le forum. Les éléments grisés correspondent aux modules d’extension qui ne sont pas encore disponibles et qui peuvent nécessiter une configuration avant leur utilisation.',
+	'CAPTCHA_CONFIGURE'						=> 'Configurer les modules d’extension',
+	'CAPTCHA_CONFIGURE_EXPLAIN'				=> 'Vous permet de configurer le module d’extension que vous avez sélectionné dans la liste déroulante.',
 	'CONFIGURE'								=> 'Configurer',
-	'CAPTCHA_NO_OPTIONS'					=> 'Ce plug-in n’a aucune option de configuration.',
+	'CAPTCHA_NO_OPTIONS'					=> 'Ce module d’extension n’a aucune option de configuration.',
 
 	'VISUAL_CONFIRM_POST'					=> 'Activer les mesures de lutte contre les robots indésirables aux invités',
 	'VISUAL_CONFIRM_POST_EXPLAIN'			=> 'Les utilisateurs qui ne sont pas connectés seront invités à compléter des mesures de lutte contre les robots indésirables afin d’empêcher la publication de messages automatisés.',
 	'VISUAL_CONFIRM_REG'					=> 'Activer les mesures de lutte contre les robots indésirables lors des inscriptions',
 	'VISUAL_CONFIRM_REG_EXPLAIN'			=> 'Les utilisateurs devront compléter des mesures de lutte contre les robots indésirables lors de leur inscription afin d’empêcher les inscriptions automatisées.',
 	'VISUAL_CONFIRM_REFRESH'				=> 'Autoriser les utilisateurs à rafraîchir les mesures de lutte contre les robots indésirables',
-	'VISUAL_CONFIRM_REFRESH_EXPLAIN'		=> 'Les utilisateurs pourront demander une nouvelle mesure de lutte contre les robots indésirables s’ils sont incapables de déchiffrer la mesure actuelle. Certains plug-ins peuvent ne pas supporter cette fonctionnalité.',
+	'VISUAL_CONFIRM_REFRESH_EXPLAIN'		=> 'Les utilisateurs pourront demander une nouvelle mesure de lutte contre les robots indésirables s’ils sont incapables de déchiffrer la mesure actuelle. Certains modules d’extension peuvent ne pas supporter cette fonctionnalité.',
 ));
 
 // Cookie Settings
@@ -392,7 +392,7 @@ $lang = array_merge($lang, array(
 
 // Auth settings
 $lang = array_merge($lang, array(
-	'ACP_AUTH_SETTINGS_EXPLAIN'	=> 'Les plug-ins d’authentification, également connus sous le nom de modules, sont supportés par phpBB. Ces derniers vous permettent de déterminer la manière dont les utilisateurs s’authentifient lors de leur connexion au forum. Quatre modules sont fournis par défaut : la base de données (DB), LDAP, Apache et OAuth. Toutes les méthodes d’authentification ne nécessitent pas forcément d’informations complémentaires, ne remplissez que les champs utiles à la méthode que vous avez sélectionnée.',
+	'ACP_AUTH_SETTINGS_EXPLAIN'	=> 'Les modules d’extension d’authentification vous permettent de déterminer la manière dont les utilisateurs s’authentifient lors de leur connexion au forum. Quatre modules sont fournis par défaut : la base de données (DB), LDAP, Apache et OAuth. Toutes les méthodes d’authentification ne nécessitent pas forcément d’informations complémentaires, ne remplissez que les champs utiles à la méthode que vous avez sélectionnée.',
 
 	'AUTH_METHOD'				=> 'Sélectionner une méthode d’authentification',
 
@@ -427,7 +427,7 @@ $lang = array_merge($lang, array(
 
 // Server Settings
 $lang = array_merge($lang, array(
-	'ACP_SERVER_SETTINGS_EXPLAIN'	=> 'Vous pouvez effectuer sur cette page les réglages relatifs au serveur et au domaine. Veuillez vous assurer de la validité des données présentes ci-dessous car vos courriers électroniques pourraient contenir des informations erronées si des données incorrectes étaient présentes. Lorsque vous saisissez le nom de domaine, n’oubliez pas d’inclure son protocole, tel que <samp>http://</samp>. Ne modifiez le port que si votre serveur fonctionne sous un port différent dont vous avez connaissance, mais sachez néanmoins que le port 80 est valide dans la plupart des cas.',
+	'ACP_SERVER_SETTINGS_EXPLAIN'	=> 'Vous pouvez effectuer sur cette page les réglages relatifs au serveur et au domaine. Veuillez vous assurer de la validité des données présentes ci-dessous car vos courriers électroniques pourraient contenir des informations erronées si des données incorrectes étaient présentes. Lorsque vous saisissez le nom de domaine, n’oubliez pas d’inclure son protocole, tel que <samp>http://</samp>. Ne modifiez le port que si votre serveur fonctionne sous un port différent dont vous avez connaissance, mais sachez néanmoins que le port 80 est correct dans la plupart des cas.',
 
 	'ENABLE_GZIP'				=> 'Activer la compression GZip',
 	'ENABLE_GZIP_EXPLAIN'		=> 'Le contenu généré sera compressé avant d’être envoyé aux utilisateurs. Cela peut réduire le trafic du réseau mais augmentera en contrepartie l’utilisation du processeur de votre serveur et de vos utilisateurs. L’extension zlib de PHP doit être chargée afin que la compression fonctionne.',
@@ -508,8 +508,8 @@ $lang = array_merge($lang, array(
 	'REF_PATH'						=> 'Valider également le chemin',
 	'REFERER_VALID'					=> 'Valider le référant',
 	'REFERER_VALID_EXPLAIN'			=> 'Si cette option est activée, le référant des requêtes <code>POST</code> sera vérifié et pourra servir à valider l’hôte et le chemin du forum. Si votre forum est accessibles sur plusieurs domaines ou utilise des connexions externes, vous ne devez pas autoriser le référant à valider le chemin afin d’éviter tout conflit.',
-	'TPL_ALLOW_PHP'					=> 'Autoriser le code PHP dans les templates',
-	'TPL_ALLOW_PHP_EXPLAIN'			=> 'Si cette option est activée, les instructions <code>PHP</code> et <code>INCLUDEPHP</code> seront reconnues et analysées dans les templates.',
+	'TPL_ALLOW_PHP'					=> 'Autoriser le code PHP dans les modèles',
+	'TPL_ALLOW_PHP_EXPLAIN'			=> 'Si cette option est activée, les instructions <code>PHP</code> et <code>INCLUDEPHP</code> seront reconnues et analysées dans les modèles.',
 ));
 
 // Email Settings
