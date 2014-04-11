@@ -176,7 +176,7 @@ $lang = array_merge($lang, array(
 
 	'ACP_SUBMIT_CHANGES'		=> 'Sauvegarder les modifications',
 
-	'ACP_TEMPLATES'				=> 'Templates',
+	'ACP_TEMPLATES'				=> 'Modèles',
 	'ACP_THEMES'				=> 'Thèmes',
 
 	'ACP_UPDATE'					=> 'Mise à jour',
@@ -374,7 +374,7 @@ $lang = array_merge($lang, array(
 
 	'PURGE_CACHE'			=> 'Vider le cache',
 	'PURGE_CACHE_CONFIRM'	=> 'Êtes-vous sûr(e) de vouloir vider le cache ?',
-	'PURGE_CACHE_EXPLAIN'	=> 'Les fichiers mis en cache, dont les fichiers des templates et les requêtes, seront supprimés.',
+	'PURGE_CACHE_EXPLAIN'	=> 'Les fichiers mis en cache, dont les fichiers des modèles et les requêtes, seront supprimés.',
 	'PURGE_CACHE_SUCCESS'	=> 'La cache a été vidé.',
 
 	'PURGE_SESSIONS'			=> 'Vider toutes les sessions',
@@ -710,16 +710,16 @@ $lang = array_merge($lang, array(
 	'LOG_STYLE_EXPORT'			=> '<strong>Exportation d’un style</strong><br />» %s',
 
 	// @deprecated 3.1
-	'LOG_TEMPLATE_ADD_DB'			=> '<strong>Ajout d’un nouvel ensemble de templates à la base de données</strong><br />» %s',
+	'LOG_TEMPLATE_ADD_DB'			=> '<strong>Ajout d’un nouvel ensemble de modèles à la base de données</strong><br />» %s',
 	// @deprecated 3.1
-	'LOG_TEMPLATE_ADD_FS'			=> '<strong>Ajout d’un nouvel ensemble de templates au système de fichiers</strong><br />» %s',
-	'LOG_TEMPLATE_CACHE_CLEARED'	=> '<strong>Rafraîchissement de l’ensemble de templates de <em>%1$s</em></strong><br />» %2$s',
-	'LOG_TEMPLATE_DELETE'			=> '<strong>Suppression d’un ensemble de templates</strong><br />» %s',
-	'LOG_TEMPLATE_EDIT'				=> '<strong>Édition de l’ensemble de templates de <em>%1$s</em></strong><br />» %2$s',
-	'LOG_TEMPLATE_EDIT_DETAILS'		=> '<strong>Édition des informations d’un ensemble de templates</strong><br />» %s',
-	'LOG_TEMPLATE_EXPORT'			=> '<strong>Exportation d’un ensemble de templates</strong><br />» %s',
+	'LOG_TEMPLATE_ADD_FS'			=> '<strong>Ajout d’un nouvel ensemble de modèles au système de fichiers</strong><br />» %s',
+	'LOG_TEMPLATE_CACHE_CLEARED'	=> '<strong>Rafraîchissement de l’ensemble de modèles de <em>%1$s</em></strong><br />» %2$s',
+	'LOG_TEMPLATE_DELETE'			=> '<strong>Suppression d’un ensemble de modèles</strong><br />» %s',
+	'LOG_TEMPLATE_EDIT'				=> '<strong>Édition de l’ensemble de modèles de <em>%1$s</em></strong><br />» %2$s',
+	'LOG_TEMPLATE_EDIT_DETAILS'		=> '<strong>Édition des informations d’un ensemble de modèles</strong><br />» %s',
+	'LOG_TEMPLATE_EXPORT'			=> '<strong>Exportation d’un ensemble de modèles</strong><br />» %s',
 	// @deprecated 3.1
-	'LOG_TEMPLATE_REFRESHED'		=> '<strong>Rafraîchissement d’un ensemble de templates</strong><br />» %s',
+	'LOG_TEMPLATE_REFRESHED'		=> '<strong>Rafraîchissement d’un ensemble de modèles</strong><br />» %s',
 
 	// @deprecated 3.1
 	'LOG_THEME_ADD_DB'			=> '<strong>Ajout d’un nouvel ensemble de thèmes à la base de données</strong><br />» %s',
@@ -776,7 +776,10 @@ $lang = array_merge($lang, array(
 	'LOG_USER_GROUP_RESIGN'			=> '<strong>Désinscription d’un utilisateur d’un groupe d’utilisateurs</strong><br />» %s',
 
 	'LOG_WARNING_DELETED'		=> '<strong>Suppression d’un avertissement prononcé à l’encontre d’un utilisateur</strong><br />» %s',
-	'LOG_WARNINGS_DELETED'		=> '<strong>Suppression de %2$s avertissements prononcés à l’encontre d’un utilisateur</strong><br />» %1$s', // Example: '<strong>Deleted 2 user warnings</strong><br />» username'
+	'LOG_WARNINGS_DELETED'		=> array(
+		1 => '<strong>Suppression d’un avertissement prononcé à l’encontre d’un utilisateur</strong><br />» %1$s',
+		2 => '<strong>Suppression de %2$d avertissements prononcés à l’encontre d’un utilisateur</strong><br />» %1$s', // Example: '<strong>Deleted 2 user warnings</strong><br />» username'
+	),
 	'LOG_WARNINGS_DELETED_ALL'	=> '<strong>Suppression de tous les avertissements prononcés à l’encontre d’un utilisateur</strong><br />» %s',
 
 	'LOG_WORD_ADD'			=> '<strong>Ajout d’une censure de mot</strong><br />» %s',
