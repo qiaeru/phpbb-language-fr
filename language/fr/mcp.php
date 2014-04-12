@@ -36,13 +36,13 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'ACTION'				=> 'Opération',
-	'ACTION_NOTE'			=> 'Opération/Note',
+	'ACTION_NOTE'			=> 'Opération/Remarque',
 	'ADD_FEEDBACK'			=> 'Ajouter une remarque',
 	'ADD_FEEDBACK_EXPLAIN'	=> 'Si vous souhaitez ajouter une remarque, veuillez compléter le formulaire suivant. Ne saisissez que du texte brut. Le code HTML, le BBCode, etc. ne sont pas autorisés.',
 	'ADD_WARNING'			=> 'Ajouter un avertissement',
 	'ADD_WARNING_EXPLAIN'	=> 'Si vous souhaitez envoyer un avertissement à cet utilisateur, veuillez compléter le formulaire suivant. N’utilisez que du texte brut ; le code HTML, le BBCode, etc. ne sont pas autorisés.',
 	'ALL_ENTRIES'			=> 'Tous les éléments',
-	'ALL_NOTES_DELETED'		=> 'Toutes les notes sur cet utilisateur ont été supprimées.',
+	'ALL_NOTES_DELETED'		=> 'Toutes les remarques sur cet utilisateur ont été supprimées.',
 	'ALL_REPORTS'			=> 'Tous les rapports',
 	'ALREADY_REPORTED'		=> 'Le message a déjà été rapporté.',
 	'ALREADY_REPORTED_PM'	=> 'Le message privé a déjà été rapporté.',
@@ -139,7 +139,7 @@ $lang = array_merge($lang, array(
 	'LOOKUP_ALL'				=> 'Rechercher toutes les adresses IP',
 	'LOOKUP_IP'					=> 'Rechercher une adresse IP',
 
-	'MARKED_NOTES_DELETED'		=> 'Toutes les notes sur l’utilisateur ont été supprimées.',
+	'MARKED_NOTES_DELETED'		=> 'Toutes les remarques sur l’utilisateur ont été supprimées.',
 
 	'MCP_ADD'						=> 'Ajouter un avertissement',
 
@@ -175,9 +175,9 @@ $lang = array_merge($lang, array(
 	'MCP_MAKE_NORMALS'				=> 'Modifier en « sujets standards »',
 	'MCP_MAKE_NORMALS_CONFIRM'		=> 'Êtes-vous sûr(e) de vouloir modifier les sujets que vous avez sélectionnés en « sujets standards » ?',
 
-	'MCP_NOTES'						=> 'Notes des utilisateurs',
+	'MCP_NOTES'						=> 'Remarques sur les utilisateurs',
 	'MCP_NOTES_FRONT'				=> 'Page principale',
-	'MCP_NOTES_USER'				=> 'Notes sur l’utilisateur',
+	'MCP_NOTES_USER'				=> 'Remarques sur l’utilisateur',
 
 	'MCP_POST_REPORTS'				=> 'Rapports prononcés sur ce message',
 
@@ -288,7 +288,7 @@ $lang = array_merge($lang, array(
 	'POST_RESTORED_SUCCESS'		=> 'Le message a été restauré.',
 	'POST_UNLOCKED_SUCCESS'		=> 'Le message a été déverrouillé.',
 
-	'READ_USERNOTES'			=> 'Notes sur l’utilisateur',
+	'READ_USERNOTES'			=> 'Remarques sur l’utilisateur',
 	'READ_WARNINGS'				=> 'Avertissements de l’utilisateur',
 	'REPORTER'					=> 'Auteur du rapport',
 	'REPORTED'					=> 'Rapporté',

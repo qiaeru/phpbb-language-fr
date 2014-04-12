@@ -51,7 +51,7 @@ $lang = array_merge($lang, array(
 
 	'LANGUAGE_DETAILS_UPDATED'			=> 'Les informations sur la langue ont été mises à jour.',
 	'LANGUAGE_ENTRIES'					=> 'Clés de langue',
-	'LANGUAGE_ENTRIES_EXPLAIN'			=> 'Vous pouvez modifier ici les clés de langue existantes ou traduire celles qui ne le sont pas.<br /><strong>Note :</strong> une fois que vous avez modifié un fichier de langue, ce dernier sera stocké dans un répertoire séparé afin que vous puissiez le télécharger. Les modifications ne seront visibles aux utilisateurs qu’après avoir écrasé les fichiers de langue déjà présents sur votre espace internet.',
+	'LANGUAGE_ENTRIES_EXPLAIN'			=> 'Vous pouvez modifier ici les clés de langue existantes ou traduire celles qui ne le sont pas.<br /><strong>Information :</strong> une fois que vous avez modifié un fichier de langue, ce dernier sera stocké dans un répertoire séparé afin que vous puissiez le télécharger. Les modifications ne seront visibles aux utilisateurs qu’après avoir écrasé les fichiers de langue déjà présents sur votre espace internet.',
 	'LANGUAGE_FILES'					=> 'Fichiers de langue',
 	'LANGUAGE_KEY'						=> 'Clé de langue',
 	'LANGUAGE_PACK_ALREADY_INSTALLED'	=> 'Cette archive de langue est déjà installée.',

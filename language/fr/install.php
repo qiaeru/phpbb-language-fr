@@ -43,7 +43,7 @@ $lang = array_merge($lang, array(
 	'ADMIN_USERNAME'			=> 'Nom d’utilisateur de l’administrateur',
 	'ADMIN_USERNAME_EXPLAIN'	=> 'Veuillez saisir un nom d’utilisateur compris entre 3 et 20 caractères de long.',
 	'APP_MAGICK'				=> 'Support d’ImageMagick [ Pièces jointes ]',
-	'AUTHOR_NOTES'				=> 'Notes de l’auteur<br />» %s',
+	'AUTHOR_NOTES'				=> 'Remarques sur l’auteur<br />» %s',
 	'AVAILABLE'					=> 'Disponible',
 	'AVAILABLE_CONVERTORS'		=> 'Convertisseurs disponibles',
 
@@ -205,7 +205,7 @@ $lang = array_merge($lang, array(
 		<li>Nom d’utilisateur et mot de passe de la base de données - les informations de connexion afin d’accéder à la base de données.</li>
 	</ul>
 
-	<p><strong>Note :</strong> si vous procédez à une installation en utilisant SQLite, vous devrez saisir le chemin complet de votre fichier de base de données dans le champ DSN et laisser les champs du nom d’utilisateur et du mot de passe vides. Pour des raisons de sécurité, vous devriez vous assurer que le fichier de base de données ne soit pas stocké dans un endroit accessible en ligne.</p>
+	<p><strong>Information :</strong> si vous procédez à une installation en utilisant SQLite, vous devrez saisir le chemin complet de votre fichier de base de données dans le champ DSN et laisser les champs du nom d’utilisateur et du mot de passe vides. Pour des raisons de sécurité, vous devriez vous assurer que le fichier de base de données ne soit pas stocké dans un endroit accessible en ligne.</p>
 
 	<p>phpBB3 est compatible avec les bases de données suivantes :</p>
 	<ul>

@@ -39,7 +39,7 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'TRANSLATION_INFO'	=> 'Localized by <a href="https://www.phpbb.com/customise/db/translation/french/">French Language Pack</a> &copy; <a href="http://www.maelsoucaze.com/">Maël Soucaze</a>',
+	'TRANSLATION_INFO'	=> '<a href="https://www.phpbb.com/customise/db/translation/french/">Traduction française officielle</a> &copy; <a href="https://www.maelsoucaze.com/">Maël Soucaze</a>',
 	'DIRECTION'			=> 'ltr',
 	'DATE_FORMAT'		=> '|d F Y|',	// 01 January 2007 (with Relative days enabled)
 	'DATETIME_FORMAT'	=> '|d F Y, H:i|',	// 01 January 2007, 13:37 (with Relative days enabled)
@@ -568,7 +568,7 @@ $lang = array_merge($lang, array(
 	'POST_TIME'				=> 'Date du message',
 	'POST_TOPIC'			=> 'Publier un nouveau sujet',
 	'POST_UNAPPROVED'		=> 'Message en attente d’approbation :',
-	'POWERED_BY'			=> 'Powered by %s',
+	'POWERED_BY'			=> 'Développé par %s',
 	'PREVIEW'				=> 'Prévisualiser',
 	'PREVIOUS'				=> 'Précédent',		// Used in pagination
 	'PREVIOUS_STEP'			=> 'Précédent',
@@ -810,10 +810,10 @@ $lang = array_merge($lang, array(
 	'VIEW_FORUM_LOGS'			=> 'Consulter l’historique',
 	'VIEW_LATEST_POST'			=> 'Consulter le dernier message',
 	'VIEW_NEWEST_POST'			=> 'Consulter le message non lu le plus récent',
-	'VIEW_NOTES'				=> 'Consulter les notes sur l’utilisateur',
+	'VIEW_NOTES'				=> 'Consulter les remarques sur l’utilisateur',
 	'VIEW_ONLINE_TIMES'			=> array(
-		1	=> 'basé sur le nombre d’utilisateurs actifs de la dernière minute',
-		2	=> 'basé sur le nombre d’utilisateurs actifs des %d dernières minutes',
+		1	=> 'selon le nombre d’utilisateurs actifs de la dernière minute',
+		2	=> 'selon le nombre d’utilisateurs actifs des %d dernières minutes',
 	),
 	'VIEW_TOPIC'				=> 'Consulter le sujet',
 	'VIEW_TOPIC_ANNOUNCEMENT'	=> 'Annonce : ',
