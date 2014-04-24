@@ -107,6 +107,9 @@ $lang = array_merge($lang, array(
 	'EXT_GROUP_REAL_MEDIA'			=> 'RealMedia',
 	'EXT_GROUP_WINDOWS_MEDIA'		=> 'Windows Media',
 
+	'FILES_GONE'			=> 'Certaines des pièces jointes que vous souhaitez supprimer sont introuvables. Elles ont peut-être déjà été supprimées. Les pièces jointes trouvées ont été supprimées.',
+	'FILES_STATS_WRONG'		=> 'Les fichiers statistiques semblent contenir des informations erronées et doivent être resynchronisés. Les valeurs actuelles de ces derniers sont les suivantes : nombre de pièces jointes = %1$d, taille des pièces jointes = %2$s.<br />Veuillez cliquer %3$sici%4$s afin de synchroniser les fichiers statistiques.',
+
 	'GO_TO_EXTENSIONS'		=> 'Aller sur le page de gestion des extensions',
 	'GROUP_NAME'			=> 'Nom du groupe d’extensions',
 
@@ -130,6 +133,7 @@ $lang = array_merge($lang, array(
 	'NOT_ALLOWED_IN_PM'			=> 'Autorisé uniquement dans les messages',
 	'NOT_ALLOWED_IN_PM_POST'	=> 'Interdit',
 	'NOT_ASSIGNED'				=> 'Non assigné',
+	'NO_ATTACHMENTS'			=> 'Il n’y a aucune pièce jointe.',
 	'NO_EXT_GROUP'				=> 'Aucun',
 	'NO_EXT_GROUP_NAME'			=> 'Aucun nom de groupe n’a été spécifié',
 	'NO_EXT_GROUP_SPECIFIED'	=> 'Aucun groupe d’extensions n’a été spécifié.',
@@ -143,8 +147,9 @@ $lang = array_merge($lang, array(
 	'ORDER_ALLOW_DENY'		=> 'Autoriser',
 	'ORDER_DENY_ALLOW'		=> 'Interdire',
 
-	'REMOVE_ALLOWED_IPS'		=> 'Supprimer ou lever l’exclusion des adresses IP ou des noms d’hôtes <em>autorisés</em>',
-	'REMOVE_DISALLOWED_IPS'		=> 'Supprimer ou lever l’exclusion des adresses IP ou des noms d’hôtes <em>interdits</em>',
+	'REMOVE_ALLOWED_IPS'			=> 'Supprimer ou lever l’exclusion des adresses IP ou des noms d’hôtes <em>autorisés</em>',
+	'REMOVE_DISALLOWED_IPS'			=> 'Supprimer ou lever l’exclusion des adresses IP ou des noms d’hôtes <em>interdits</em>',
+	'RESYNC_FILES_STATS_CONFIRM'	=> 'Êtes-vous sûr(e) de vouloir resynchroniser les fichiers statistiques ?',
 
 	'SEARCH_IMAGICK'				=> 'Rechercher ImageMagick',
 	'SECURE_ALLOW_DENY'				=> 'Comportement des téléchargements sécurisés',
