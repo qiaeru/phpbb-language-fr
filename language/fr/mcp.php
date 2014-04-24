@@ -125,7 +125,7 @@ $lang = array_merge($lang, array(
 	),
 	'LOCK'						=> 'Verrouiller',
 	'LOCK_POST_POST'			=> 'Verrouiller le message',
-	'LOCK_POST_POST_CONFIRM'	=> 'Êtes-vous sûr(e) de vouloir empêcher l’édition du message ?',
+	'LOCK_POST_POST_CONFIRM'	=> 'Êtes-vous sûr(e) de vouloir empêcher l’édition de ce message ?',
 	'LOCK_POST_POSTS'			=> 'Verrouiller les messages sélectionnés',
 	'LOCK_POST_POSTS_CONFIRM'	=> 'Êtes-vous sûr(e) de vouloir empêcher l’édition des messages que vous avez sélectionnés ?',
 	'LOCK_TOPIC_CONFIRM'		=> 'Êtes-vous sûr(e) de vouloir verrouiller ce sujet ?',

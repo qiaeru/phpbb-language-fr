@@ -241,9 +241,6 @@ $lang = array_merge($lang, array(
 	'EXPORT_DOWNLOAD'		=> 'Télécharger',
 	'EXPORT_STORE'			=> 'Stocker',
 
-	'FILES_GONE'			=> 'Certaines des pièces jointes que vous souhaitez supprimer n’existent pas. Elles ont peut-être déjà été supprimées. Les pièces jointes qui existaient ont été supprimées.',
-	'FILES_STATS_WRONG'		=> 'Vos fichiers statistiques sont probablement incorrects et doivent être resynchronisés. Les valeurs actuelles sont : nombre de pièces jointes = %1$d, taille des pièces jointes = %2$s.',
-
 	'GENERAL_OPTIONS'		=> 'Options générales',
 	'GENERAL_SETTINGS'		=> 'Réglages généraux',
 	'GLOBAL_MASK'			=> 'Masque de permission générale',
@@ -286,8 +283,6 @@ $lang = array_merge($lang, array(
 
 	'REMIND'							=> 'Rappel',
 	'RESYNC'							=> 'Resynchroniser',
-	'RESYNC_FILES_STATS'				=> 'Resynchroniser les fichiers statistiques',
-	'RESYNC_FILES_STATS_EXPLAIN'		=> 'Le nombre et la taille des fichiers insérés aux messages et aux messages privés sera recalculé.',
 
 	'SELECT_ANONYMOUS'		=> 'Sélectionner un utilisateur anonyme',
 	'SELECT_OPTION'			=> 'Sélectionner une option',
@@ -325,7 +320,7 @@ $lang = array_merge($lang, array(
 
 	'DISPLAY_LOG'	=> 'Afficher les éléments antérieurs',
 
-	'NO_ENTRIES'	=> 'Aucune opération n’a été effectuée lors de la période spécifiée.',
+	'NO_ENTRIES'	=> 'Il n’y a aucun historique.',
 
 	'SORT_IP'		=> 'Adresse IP',
 	'SORT_DATE'		=> 'Date',
@@ -388,7 +383,6 @@ $lang = array_merge($lang, array(
 	'RESET_ONLINE'					=> 'Réinitialiser le compteur du nombre maximal d’utilisateurs en ligne simultanément',
 	'RESET_ONLINE_CONFIRM'			=> 'Êtes-vous sûr(e) de vouloir réinitialiser le compteur du nombre maximal d’utilisateurs en ligne simultanément ?',
 	'RESET_ONLINE_SUCCESS'				=> 'Le compteur du nombre maximal d’utilisateurs en ligne simultanément a été réinitialisé',
-	'RESYNC_FILES_STATS_CONFIRM'	=> 'Êtes-vous sûr(e) de vouloir resynchroniser les fichiers statistiques ?',
 	'RESYNC_POSTCOUNTS'				=> 'Resynchroniser le compteur de messages',
 	'RESYNC_POSTCOUNTS_EXPLAIN'		=> 'Seuls les messages actuels seront pris en compte. Les messages délestés ne seront pas comptabilisés.',
 	'RESYNC_POSTCOUNTS_CONFIRM'		=> 'Êtes-vous sûr(e) de vouloir resynchroniser le compteur de messages ?',
