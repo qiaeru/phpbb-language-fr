@@ -57,7 +57,7 @@ $lang = array_merge($lang, array(
 	'EDITED_TIMES_TOTAL'	=> array(
 		1	=> 'Dernière édition par %2$s le %3$s, édité %1$d fois.',
 	),
-	'EMAIL_TOPIC'			=> 'Envoyer par courrier électronique à un ami',
+	'EMAIL_TOPIC'			=> 'Envoyer par courrier électronique le sujet',
 	'ERROR_NO_ATTACHMENT'	=> 'La pièce jointe que vous avez sélectionnée n’existe plus.',
 
 	'FILE_NOT_FOUND_404'	=> 'Le fichier <strong>%s</strong> n’existe pas.',

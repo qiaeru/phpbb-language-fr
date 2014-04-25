@@ -410,6 +410,7 @@ $lang = array_merge($lang, array(
 	'PM_SENTBOX'				=> 'Messages envoyés',
 	'PM_SUBJECT'				=> 'Sujet du message',
 	'PM_TO'						=> 'Envoyer à',
+	'PM_TOOLS'					=> 'Outils de message',
 	'PM_USERS_REMOVED_NO_PM'	=> 'Certains utilisateurs ne peuvent pas être ajoutés car ils ont désactivés la réception de messages privés.',
 	'POST_EDIT_PM'				=> 'Éditer le message',
 	'POST_FORWARD_PM'			=> 'Transférer le message',
