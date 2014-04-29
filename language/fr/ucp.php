@@ -601,14 +601,14 @@ $lang = array_merge($lang, array(
 		'PLACE_INTO_FOLDER'	=> 'Placer dans la boîte',
 		'MARK_AS_READ'		=> 'Marquer comme lu',
 		'MARK_AS_IMPORTANT'	=> 'Marquer le message',
-		'DELETE_MESSAGE'	=> 'Supprimer le message'
+		'DELETE_MESSAGE'	=> 'Supprimer le message',
 	),
 	'PM_CHECK' => array(
 		'SUBJECT'	=> 'Sujet',
 		'SENDER'	=> 'Expéditeur',
 		'MESSAGE'	=> 'Message',
 		'STATUS'	=> 'Statut du message',
-		'TO'		=> 'Envoyé à'
+		'TO'		=> 'Envoyé à',
 	),
 	'PM_RULE' => array(
 		'IS_LIKE'		=> 'est comme',
@@ -624,9 +624,8 @@ $lang = array_merge($lang, array(
 		'ANSWERED'		=> 'répondu',
 		'FORWARDED'		=> 'transféré',
 		'TO_GROUP'		=> 'à mon groupe d’utilisateurs par défaut',
-		'TO_ME'			=> 'à moi'
+		'TO_ME'			=> 'à moi',
 	),
-
 
 	'GROUPS_EXPLAIN'	=> 'Les groupes d’utilisateurs permettent aux administrateurs de gérer plus facilement les utilisateurs. Dès votre inscription, vous êtes automatiquement membre d’un groupe d’utilisateurs par défaut. Ce groupe spécifie votre apparence auprès des autres utilisateurs, grâce à, par exemple, une colorisation de votre nom d’utilisateur, un avatar, un rang, etc. Selon la politique des administrateurs du forum, vous pouvez être autorisé(e) à modifier votre groupe d’utilisateurs par défaut, à être membre de plusieurs groupes d’utilisateurs et à rejoindre de nouveaux groupes d’utilisateurs. Certains groupes d’utilisateurs peuvent vous procurer des permissions supplémentaires qui vous permettront de consulter du contenu exclusif ou de profiter de nouvelles fonctionnalités dans d’autres domaines.',
 	'GROUP_LEADER'		=> 'Responsable',

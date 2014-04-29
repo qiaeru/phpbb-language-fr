@@ -85,7 +85,6 @@ $lang = array_merge($lang, array(
 	'ACP_EXTENSION_MANAGEMENT'	=> 'Gestion des extensions',
 	'ACP_EXTENSIONS'			=> 'Gérer les extensions',
 
-
 	'ACP_FORUM_BASED_PERMISSIONS'	=> 'Permissions liées aux forums',
 	'ACP_FORUM_LOGS'				=> 'Historique du forum',
 	'ACP_FORUM_MANAGEMENT'			=> 'Gestion des forums',
@@ -677,7 +676,6 @@ $lang = array_merge($lang, array(
 
 	'LOG_PURGE_CACHE'			=> '<strong>Vidage du cache</strong>',
 	'LOG_PURGE_SESSIONS'		=> '<strong>Vidage des sessions</strong>',
-
 
 	'LOG_RANK_ADDED'		=> '<strong>Ajout d’un nouveau rang</strong><br />» %s',
 	'LOG_RANK_REMOVED'		=> '<strong>Suppression d’un rang</strong><br />» %s',

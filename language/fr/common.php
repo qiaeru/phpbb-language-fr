@@ -1371,7 +1371,7 @@ $lang = array_merge($lang, array(
 		'D M d, Y g:i a'		=> 'Lun Jan 01, 2007 1:37 pm',
 		'F jS, Y, g:i a'		=> 'Janvier 1st, 2007, 1:37 pm',
 		'|d M Y|, H:i'			=> 'Aujourd’hui, 13:37 / 01 Jan 2007, 13:37',
-		'|F jS, Y|, g:i a'		=> 'Aujourd’hui, 1:37 pm / Janvier 1st, 2007, 1:37 pm'
+		'|F jS, Y|, g:i a'		=> 'Aujourd’hui, 1:37 pm / Janvier 1st, 2007, 1:37 pm',
 	),
 
 	// The default dateformat which will be used on new installs in this language

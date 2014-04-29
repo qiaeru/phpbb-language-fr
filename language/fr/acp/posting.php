@@ -85,8 +85,8 @@ $lang = array_merge($lang, array(
 		'URL'			=> 'Une adresse universelle correcte utilisant n’importe quel protocole (http, ftp, etc.) ne pouvant pas être utilisée pour des injections de Javascript. Si aucun protocole n’est fourni, « http:// » sera utilisé par défaut.',
 		'LOCAL_URL'		=> 'Une adresse universelle locale. L’adresse doit être relative à la page du sujet et ne doit pas contenir de nom de serveur ou de protocole, tels que des liens qui sont précédés de « %s »',
 		'RELATIVE_URL'	=> 'Une adresse universelle relative. Vous pouvez utiliser des résultats partiels d’une adresse universelle, mais soyez vigilant : une adresse universelle complète est une adresse universelle relative correcte. Lorsque vous souhaitez utiliser les adresses universelles relatives de votre forum, utilisez la variable LOCAL_URL.',
-		'COLOR'			=> 'Une couleur HTML qui peut être dans une forme hexadécimale <samp>#FF1234</samp> ou un <a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">nom de couleur CSS</a>, tel que <samp>fuchsia</samp> ou <samp>InactiveBorder</samp>.'
-	)
+		'COLOR'			=> 'Une couleur HTML qui peut être dans une forme hexadécimale <samp>#FF1234</samp> ou un <a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">nom de couleur CSS</a>, tel que <samp>fuchsia</samp> ou <samp>InactiveBorder</samp>.',
+	),
 ));
 
 // Smilies and topic icons
@@ -108,8 +108,6 @@ $lang = array_merge($lang, array(
 	'DISPLAY_ON_POSTING'		=> 'Afficher sur la page de rédaction',
 	'DISPLAY_POSTING'			=> 'Sur la page de rédaction',
 	'DISPLAY_POSTING_NO'		=> 'Pas sur la page de rédaction',
-
-
 
 	'EDIT_ICONS'				=> 'Éditer les icônes',
 	'EDIT_SMILIES'				=> 'Éditer les émoticônes',

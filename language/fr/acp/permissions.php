@@ -182,7 +182,6 @@ $lang = array_merge($lang, array(
 	'ROLE_USER_STANDARD'		=> 'Fonctionnalités standards',
 	'ROLE_USER_NEW_MEMBER'		=> 'Fonctionnalités des utilisateurs inscrits récemment',
 
-
 	'ROLE_DESCRIPTION_ADMIN_FORUM'			=> 'Peut accéder à la gestion du forum et aux réglages de ses permissions.',
 	'ROLE_DESCRIPTION_ADMIN_FULL'			=> 'Peut accéder à toutes les fonctionnalités des administrateurs.<br />Il n’est pas recommandé d’attribuer ce rôle.',
 	'ROLE_DESCRIPTION_ADMIN_STANDARD'		=> 'Peut accéder à la plupart des fonctionnalités des administrateurs mais ne peut pas modifier les options relatives au système et au serveur.',

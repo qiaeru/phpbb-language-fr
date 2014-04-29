@@ -109,5 +109,5 @@ $help = array(
 	array(
 		0 => 'Puis-je ajouter mes propres balises ?',
 		1 => 'Si vous êtes un administrateur de ce forum et que vous en avez les permissions appropriées, vous pouvez ajouter davantage de BBCodes dans la section « Personnaliser les BBCodes ».'
-	)
+	),
 );

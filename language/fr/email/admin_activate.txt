@@ -10,5 +10,4 @@ Si vous souhaitez consulter le profil de cet utilisateur, veuillez cliquer sur l
 Si vous souhaitez activer le compte de cet utilisateur, veuillez cliquer sur le lien suivant :
 {U_ACTIVATE}
 
-
 {EMAIL_SIG}

@@ -426,6 +426,6 @@ $lang = array_merge($lang, array(
 			'SPAM'		=> 'Le message rapporté contient de la publicité visant à promouvoir un site internet ou un produit.',
 			'OFF_TOPIC'	=> 'Le message rapporté est hors-sujet.',
 			'OTHER'		=> 'Le message rapporté ne correspond à aucune catégorie, veuillez utiliser le champ d’information complémentaire.',
-		)
+		),
 	),
 ));
