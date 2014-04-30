@@ -81,7 +81,7 @@ $lang = array_merge($lang, array(
 	'NOT_LEADER_OF_GROUP'			=> 'L’opération a échoué car vous n’êtes pas responsable du groupe que vous avez sélectionné.',
 	'NOT_MEMBER_OF_GROUP'			=> 'L’opération a échoué car vous n’êtes pas membre du groupe que vous avez sélectionné ou votre demande d’adhésion n’a pas encore été approuvée.',
 	'NOT_RESIGN_FROM_DEFAULT_GROUP'	=> 'Vous ne pouvez pas vous retirer de votre groupe par défaut.',
-	
+
 	'PRIMARY_GROUP'		=> 'Groupe principal',
 
 	'REMOVE_SELECTED'		=> 'Supprimer la sélection',
