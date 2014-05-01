@@ -14,9 +14,9 @@ You can get all the information about version in the [VERSION.md] [2] file.
 Support
 -------
 
-You are free to post a new topic [in the Discussion/Support section] [3] to obtain free support, report issues, or contribute fixes and improvements.
+You are free to post a new topic [in the support section] [3] to ask for help, report issues, or contribute fixes and improvements.
 
-Please note you have to [create an account] [4] and login on the official forum software website to be able to post a new topic.
+Please note that you have to [create an account] [4] and login on the official forum software website to be able to post a new topic.
 
 Documentation
 -------------
@@ -57,7 +57,7 @@ To do this you will need to do as follows:
   - Click the *Administration Control Panel* link located in the footer of your board. You should authenticate again.
   - Once in the *Administration Control Panel*, you will need to click the *SYSTEM* tab, located at the top of the page.
   - On the left hand side, you will see a menu split into categories. You will need to click the *Language Packs* link.
-  - You should see now a page which lists the language packages you have uploaded onto your server. Those which have not been installed yet will show with an install link.
+  - You should see now a page which lists the language packages uploaded onto your server.
   - Click the install link next to the French language package.
 
 #### Set as board default language
@@ -72,7 +72,7 @@ To set the newly installed language pack as the board default, follow the steps 
   - Click the *Administration Control Panel* link located in the footer of your board. You should authenticate again.
   - Once in the *Administration Control Panel*, you will need to click the *GENERAL* tab, located at the top of the page.
   - On the left hand side, you will see a menu split into categories. You will need to click the *Board Settings* link.
-  - You should see now a page which displays the board settings. You should be able to see the drop down menu for the option *Default language*.
+  - You should see now a page which displays the board settings and locate the drop down menu for the option *Default language*.
   - Select the French language in the drop down menu and then click the submit button.
 
 After doing the above steps, you will probably notice that when you start browsing about your board, the French language is still not used. This will be due to the fact that you logged before the language package was installed, meaning you will not have your own language option in the *User Control Panel* set correctly. For details on how to set this read the next section.
@@ -86,7 +86,7 @@ The following instructions will tell you how users can set their own language op
   - Login to your board.
   - Click the *User Control Panel* link located in the header of your board.
   - Once in the *User Control Panel*, you will need to click the *Board Preferences* tab.
-  - You should see now a page which displays the global settings. You should be able to see the drop down menu for the option *My language*.
+  - You should see now a page which displays the global settings and locate the drop down menu for the option *My language*.
   - Select the French language in the drop down menu and then click the submit button.
 
 Once set, the French language will be used regardless of the board default language.
