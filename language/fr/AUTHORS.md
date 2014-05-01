@@ -1,12 +1,12 @@
-FRENCH LANGUAGE PACKAGE
+French Language Package
 =======================
 
-AUTHOR
+Author
 ------
 
 The French language package is localized and maintained by [Maël Soucaze] [1].
 
-CONTRIBUTORS
+Contributors
 ------------
 
 Special thanks to all contributors who helped to improve the French language package. Any kind of support is greatly appreciated.

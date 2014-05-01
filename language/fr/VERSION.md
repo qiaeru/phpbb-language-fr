@@ -1,7 +1,7 @@
-FRENCH LANGUAGE PACKAGE
+French Language Package
 =======================
 
-VERSION
+Version
 -------
 
   - **Language Package Version:** 2.0.0-dev (Build 77)

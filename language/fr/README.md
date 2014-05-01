@@ -1,20 +1,30 @@
-FRENCH LANGUAGE PACKAGE
+French Language Package
 =======================
 
-SUPPORT
+Authors
 -------
 
-To ask for help, report bugs or to contribute fixes and improvements, you are free to post a new topic [in the appropriate section from the official forum software website] [1].
+Get all the information about authors in the [AUTHORS.md] [1] file.
 
-DOCUMENTATION
+Version
+-------
+
+Get all the information about version in the [VERSION.md] [2] file.
+
+Support
+-------
+
+To ask for help, report bugs or to contribute fixes and improvements, you are free to post a new topic [in the appropriate section from the official forum software website] [3].
+
+Documentation
 -------------
 
 #### Download the language package
 
 You can download the latest French language package version from the following locations:
 
-  - **Stable Versions:** https://www.phpbb.com/customise/db/translation/french/
-  - **Development Versions:** https://github.com/maelsoucaze/phpbb
+  - **Stable:** https://www.phpbb.com/customise/db/translation/french/
+  - **Development:** https://github.com/maelsoucaze/phpbb
 
 Please note that development versions are generally not recommended and should be used locally, available for testing purposes to developers or advanced and inquisitive users.
 
@@ -31,7 +41,7 @@ Please note that if you are using a style other than prosilver, you will need to
 
 #### Upload the language-related folders
 
-Using [FTP] [2], you will need to upload the *language/* and *styles/* folders (and their subfolders) into your board root. The board root is the one which contains the board's *config.php* file.
+Using [FTP] [4], you will need to upload the *language/* and *styles/* folders (and their subfolders) into your board root. The board root is the one which contains the board's *config.php* file.
 
 When uploading into the board root via FTP, you will more than likely get a notice warning you that you already have folders called *language/* and *styles/*. If this happens, just click to replace them. This will replace conflicting files only (if this is your first time uploading the language package there should be none) and add the new files into their correct locations.
 
@@ -81,9 +91,20 @@ Once set, the French language will be used regardless of the board default langu
 
 #### Update the language package
 
-When the forum software is updated and a new version is released, only the default British English language pack will be updated as necessary.
+When the forum software is updated and a new version is released, only the default British English language pack will be updated.
 
-That's why you will need to obtain the updated French language package from the download locations listed at the top of this page. Once downloaded, you just have to extract the compressed archive and upload the language-related folders (and replace the existing files) to update the French language package.
+That's why you will need to obtain the updated French language package from the download locations listed at the top of this page. Once downloaded, you just have to extract the compressed archive and upload to your server the language-related folders (and replace the existing files) to update the French language package.
 
-[1]:https://www.phpbb.com/customise/db/translation/french/support/
-[2]:http://en.wikipedia.org/wiki/File_Transfer_Protocol
+License
+-------
+
+The language pack is released under the [GNU General Public License 2.0] [5].
+
+Please note that the full notice of the license is available for reading from the [LICENSE] [6] file.
+
+[1]:https://github.com/maelsoucaze/phpbb/blob/master/language/fr/AUTHORS.md
+[2]:https://github.com/maelsoucaze/phpbb/blob/master/language/fr/VERSION.md
+[3]:https://www.phpbb.com/customise/db/translation/french/support/
+[4]:http://en.wikipedia.org/wiki/File_Transfer_Protocol
+[5]:http://opensource.org/licenses/gpl-2.0.php
+[6]:https://github.com/maelsoucaze/phpbb/blob/master/language/fr/LICENSE
