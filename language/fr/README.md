@@ -28,14 +28,11 @@ You can download the latest French language package version from the following l
   - **Stable:** https://www.phpbb.com/customise/db/translation/french/
   - **Development:** https://github.com/maelsoucaze/phpbb
 
-Please note that development versions are generally not recommended and should be used locally, available for testing purposes to developers or advanced and inquisitive users.
+Please note that stable versions should be used because development versions are generally not recommended and should be used locally, available for testing purposes to developers or advanced and inquisitive users.
 
 #### Extract the compressed archive
 
-Once downloaded, you will need to extract the compressed language package. The extracted archive should contain two folders:
-
-  - *language/*
-  - *styles/*
+Once the compressed language package downloaded, you will need to extract (or unzip) the archive.
 
 The *language/* folder will contain the language files and the *styles/* folder will contain the localized buttons for the prosilver style.
 
@@ -66,7 +63,7 @@ You now have the French language package installed and are now probably wonderin
 
 The first thing you are probably going to want to do is to set it as the board default language. The board default language will be used for guests visiting the board and for the new users default language setting.
 
-To set the newly installed language pack as the board default, follow the steps below:
+To set the French language package as the board default language, please follow the steps below:
 
   - Login to your board.
   - Click the *Administration Control Panel* link located in the footer of your board. You should authenticate again.
@@ -81,7 +78,7 @@ After doing the above steps, you will probably notice that when you start browsi
 
 As briefly mentioned above, you can set your own language option in the *User Control Panel*. This allows the board administrator to have several language packages installed and thus the board users can choose the language which they prefer.
 
-The following instructions will tell you how users can set their own language option:
+To set the French language package as the personal default language, please follow the steps below:
 
   - Login to your board.
   - Click the *User Control Panel* link located in the header of your board.
