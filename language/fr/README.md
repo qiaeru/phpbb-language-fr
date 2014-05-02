@@ -6,15 +6,15 @@ Language package for the phpBB® forum software to fully localize the user interf
 Authors
 -------
 
-The list of authors notable for their contributions to the language package.
+The full list of authors notable for their feedbacks and contributions to the language package.
+
+Special thanks to all contributors who helped to improve the language package. Any kind of support is greatly appreciated.
 
 #### Author
 
-The language package is localized and maintained by [Maël Soucaze] [1].
+  - [Maël Soucaze] [1].
 
 #### Contributors
-
-Special thanks to all contributors who helped to improve the language package. Any kind of support is greatly appreciated.
 
   - Bernard Andrieux
   - Citillara
