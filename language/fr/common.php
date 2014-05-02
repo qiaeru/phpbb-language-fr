@@ -421,14 +421,16 @@ $lang = array_merge($lang, array(
 	'NOT_WATCHING_FORUM'		=> 'Vous n’êtes à présent plus abonné(e) à ce forum. Vous ne recevrez plus de notification lorsqu’un nouveau sujet sera publié dans ce dernier.',
 	'NOT_WATCHING_TOPIC'		=> 'Vous n’êtes à présent plus abonné(e) à ce sujet. Vous ne recevrez plus de notification lorsqu’un nouveau message sera publié dans ce dernier.',
 	'NOTIFICATIONS'				=> 'Notifications',
-	// This applies for NOTIFICATION_BOOKMARK, NOTIFICATION_POST, and NOTIFICATION_QUOTE.
+	// This applies for NOTIFICATION_BOOKMARK and NOTIFICATION_POST.
 	// %1$s will return a list of users that's concatenated using "," and "and" - see STRING_LIST
 	// Once the user count reaches 5 users or more, the list is trimmed using NOTIFICATION_X_OTHERS
+	// Once the user count reaches 20 users or more, the list is trimmed using NOTIFICATION_MANY_OTHERS
 	// Examples:
 	// A replied...
 	// A and B replied...
 	// A, B and C replied...
 	// A, B, C and 2 others replied...
+	// A, B, C and others replied...
 	'NOTIFICATION_BOOKMARK'				=> array(
 		1	=> '%1$s a répondu au sujet « %2$s » que vous avez ajouté aux favoris.',
 		2	=> '%1$s ont répondu au sujet « %2$s » que vous avez ajouté aux favoris.',
@@ -456,9 +458,10 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TOPIC_IN_QUEUE'		=> 'Un nouveau sujet intitulé « %2$s » a été publié par %1$s et est en attente d’approbation.',
 	'NOTIFICATION_TYPE_NOT_EXIST'		=> 'Le type de notification « %s » est introuvable dans votre système de fichiers.',
 	'NOTIFICATION_ADMIN_ACTIVATE_USER'	=> 'L’utilisateur « %1$s » est nouvellement inscrit et doit être activé.',
-	// Used in conjuction with NOTIFICATION_BOOKMARK, NOTIFICATION_POST, and NOTIFICATION_QUOTE.
+	// Used in conjuction with NOTIFICATION_BOOKMARK and NOTIFICATION_POST.
+	'NOTIFICATION_MANY_OTHERS'			=> 'plusieurs autres utilisateurs',
 	'NOTIFICATION_X_OTHERS'				=> array(
-		2	=> '%d autres personnes',
+		2	=> '%d autres utilisateurs',
 	),
 	'NOTIFY_ADMIN'				=> 'Veuillez contacter l’administrateur du forum.',
 	'NOTIFY_ADMIN_EMAIL'		=> 'Veuillez contacter l’administrateur du forum : <a href="mailto:%1$s">%1$s</a>',

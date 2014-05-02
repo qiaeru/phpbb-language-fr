@@ -550,7 +550,7 @@ $lang = array_merge($lang, array(
 	'LOG_PM_REPORT_CLOSED'		=> '<strong>Fermeture d’un rapport de MP</strong><br />» %s',
 	'LOG_PM_REPORT_DELETED'		=> '<strong>Suppression d’un rapport de MP</strong><br />» %s',
 	'LOG_POST_APPROVED'			=> '<strong>Approbation d’un message</strong><br />» %s',
-	'LOG_POST_DISAPPROVED'		=> '<strong>Désapprobation du message « %1$s » en spécifiant une raison</strong><br />» %2$s',
+	'LOG_POST_DISAPPROVED'		=> '<strong>Désapprobation du message « %1$s » publié par « %3$s » en spécifiant une raison</strong><br />» %2$s',
 	'LOG_POST_EDITED'			=> '<strong>Édition du message « %1$s » publié par</strong><br />» %2$s',
 	'LOG_POST_RESTORED'			=> '<strong>Restauration d’un message</strong><br />» %s',
 	'LOG_REPORT_CLOSED'			=> '<strong>Fermeture d’un rapport</strong><br />» %s',
@@ -563,7 +563,7 @@ $lang = array_merge($lang, array(
 
 	'LOG_TOPIC_APPROVED'		=> '<strong>Approbation d’un sujet</strong><br />» %s',
 	'LOG_TOPIC_RESTORED'		=> '<strong>Restauration d’un sujet</strong><br />» %s',
-	'LOG_TOPIC_DISAPPROVED'		=> '<strong>Désapprobation du sujet « %1$s » en spécifiant une raison</strong><br />%2$s',
+	'LOG_TOPIC_DISAPPROVED'		=> '<strong>Désapprobation du sujet « %1$s » publié par « %3$s » en spécifiant une raison</strong><br />%2$s',
 	'LOG_TOPIC_RESYNC'			=> '<strong>Resynchronisation du compteur de sujets</strong><br />» %s',
 	'LOG_TOPIC_TYPE_CHANGED'	=> '<strong>Modification du type d’un sujet</strong><br />» %s',
 	'LOG_UNLOCK'				=> '<strong>Déverrouillage d’un sujet</strong><br />» %s',
