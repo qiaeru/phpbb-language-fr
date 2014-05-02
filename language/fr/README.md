@@ -6,6 +6,8 @@ Language package for the phpBB® forum software to fully localize the user interf
 Authors
 -------
 
+The list of authors notable for their contributions to the language package.
+
 #### Author
 
 The language package is localized and maintained by [Maël Soucaze] [1].
@@ -22,11 +24,19 @@ Special thanks to all contributors who helped to improve the language package. A
   - tuxun
 
 Version
-------- 
+-------
 
-  - Language package version: 2.0.0-dev (Build 79)
-  - Released date: May 2, 2014
-  - Forum software compatibility: [phpBB 3.1.0-b3-dev (Build 1449)] [2]
+#### Language package version
+
+2.0.0-dev (Build 79)
+
+#### Language package version
+
+May 2, 2014
+
+#### Forum software compatibility
+
+[phpBB 3.1.0-b3-dev (Build 1449)] [2]
 
 Support
 -------
