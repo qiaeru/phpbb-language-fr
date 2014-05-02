@@ -47,7 +47,6 @@ $lang = array_merge($lang, array(
 	'BEFORE'				=> 'Avant',
 
 	'CC_EMAIL'				=> 'S’envoyer une copie de ce courrier électronique.',
-	'CONTACT_USER'			=> 'Contacter',
 
 	'DEST_LANG'				=> 'Langue',
 	'DEST_LANG_EXPLAIN'		=> 'Sélectionnez une langue appropriée, si elle existe, concernant le destinataire du message.',

@@ -151,7 +151,8 @@ $lang = array_merge($lang, array(
 	'DLL_MYSQLI'				=> 'MySQL avec l’extension MySQLi',
 	'DLL_ORACLE'				=> 'Oracle',
 	'DLL_POSTGRES'				=> 'PostgreSQL',
-	'DLL_SQLITE'				=> 'SQLite',
+	'DLL_SQLITE'				=> 'SQLite 2',
+	'DLL_SQLITE3'				=> 'SQLite 3',
 	'DLL_XML'					=> 'Support du XML [ Jabber ]',
 	'DLL_ZLIB'					=> 'Support de la compression zlib [ gz, .tar.gz, .zip ]',
 	'DL_CONFIG'					=> 'Télécharger la configuration',
@@ -212,6 +213,7 @@ $lang = array_merge($lang, array(
 		<li>MySQL 3.23 ou supérieur (MySQLi supporté)</li>
 		<li>PostgreSQL 8.3+</li>
 		<li>SQLite 2.8.2+</li>
+		<li>SQLite 3.6.15+</li>
 		<li>Firebird 2.1+</li>
 		<li>MS SQL Server 2000 ou supérieur (directement ou par l’intermédiaire d’ODBC)</li>
 		<li>MS SQL Server 2005 ou supérieur (en natif)</li>
@@ -235,6 +237,7 @@ $lang = array_merge($lang, array(
 	'INST_ERR_DB_NO_ERROR'		=> 'Aucun message d’erreur.',
 	'INST_ERR_DB_NO_MYSQLI'		=> 'La version de MySQL qui est installée sur votre serveur est incompatible avec l’option « MySQL avec l’extension MySQLi » que vous avez sélectionnée. Veuillez plutôt essayer de sélectionner l’option « MySQL ».',
 	'INST_ERR_DB_NO_SQLITE'		=> 'La version de l’extension SQLite qui est installée sur votre serveur est obsolète, elle doit être mise à jour vers la version 2.8.2 ou supérieure.',
+	'INST_ERR_DB_NO_SQLITE3'	=> 'La version de l’extension SQLite qui est installée sur votre serveur est obsolète, elle doit être mise à jour vers la version 3.6.15 ou supérieure.',
 	'INST_ERR_DB_NO_ORACLE'		=> 'La version d’Oracle qui est installée sur votre serveur nécessite le réglage du paramètre <var>NLS_CHARACTERSET</var> sur <var>UTF8</var>. Veuillez mettre à jour votre version vers la 9.2+ ou modifier ce paramètre.',
 	'INST_ERR_DB_NO_FIREBIRD'	=> 'La version de Firebird qui est installée sur votre serveur semble obsolète, elle doit être mise à jour vers la version 2.1 ou supérieure.',
 	'INST_ERR_DB_NO_FIREBIRD_PS'=> 'La base de données que vous avez sélectionnée pour Firebird a une taille de pages inférieure à 8192. Veuillez augmenter cette taille.',
