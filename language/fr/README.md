@@ -1,7 +1,7 @@
 French Language Package
 =======================
 
-Language package for the phpBB® forum software to fully localize the user interface into French.
+The official language package for the phpBB® forum software to fully localize the board interface into French.
 
 Authors
 -------
@@ -12,7 +12,7 @@ Special thanks to all contributors who helped to improve the language package. A
 
 #### Author
 
-  - [Maël Soucaze] [1].
+  - [Maël Soucaze] [1]
 
 #### Contributors
 
@@ -25,6 +25,8 @@ Special thanks to all contributors who helped to improve the language package. A
 
 Version
 -------
+
+The latest language package version publicly available at this time. This might be a development version.
 
   - **Version:** 2.0.0-dev (Build 79)
   - **Release Date:** May 2, 2014
@@ -44,10 +46,10 @@ Documentation
 
 It is strongly recommended that you do not download this package from any website other than the locations listed below to ensure you will always have the very latest, virus-free version of the language package.
 
-  - **Stable:** https://www.phpbb.com/customise/db/translation/french/
-  - **Development:** https://github.com/maelsoucaze/phpbb
+  - **Forum Software Website:** https://www.phpbb.com/customise/db/translation/french/
+  - **GitHub Repository:** https://github.com/maelsoucaze/phpbb
 
-Please note that stable versions should be used because development versions are generally not recommended and should be used locally, available for testing purposes to developers or advanced and inquisitive users.
+Please note that development versions (recognizable with the use of *-dev* in the version number) are generally not recommended and should be used locally, available for testing purposes to developers or advanced and inquisitive users.
 
 #### Extract the compressed archive
 
