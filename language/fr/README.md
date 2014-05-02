@@ -26,17 +26,9 @@ Special thanks to all contributors who helped to improve the language package. A
 Version
 -------
 
-#### Language package version
-
-2.0.0-dev (Build 79)
-
-#### Language package version
-
-May 2, 2014
-
-#### Forum software compatibility
-
-[phpBB 3.1.0-b3-dev (Build 1449)] [2]
+  - **Version:** 2.0.0-dev (Build 79)
+  - **Release Date:** May 2, 2014
+  - **Forum Software Compatibility:** [phpBB 3.1.0-b3-dev (Build 1449)] [2]
 
 Support
 -------
@@ -52,8 +44,8 @@ Documentation
 
 It is strongly recommended that you do not download this package from any website other than the locations listed below to ensure you will always have the very latest, virus-free version of the language package.
 
-  - Stable version: https://www.phpbb.com/customise/db/translation/french/
-  - Development version: https://github.com/maelsoucaze/phpbb
+  - **Stable:** https://www.phpbb.com/customise/db/translation/french/
+  - **Development:** https://github.com/maelsoucaze/phpbb
 
 Please note that stable versions should be used because development versions are generally not recommended and should be used locally, available for testing purposes to developers or advanced and inquisitive users.
 
