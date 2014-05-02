@@ -6,16 +6,27 @@ Language package for the phpBB® forum software to fully localize the user interf
 Authors
 -------
 
-The list of authors notable for their contributions to the language package.
+#### Author
 
-You can get the full list of authors in the [AUTHORS.md] [1] file.
+The language package is localized and maintained by [Maël Soucaze] [1].
+
+#### Contributors
+
+Special thanks to all contributors who helped to improve the language package. Any kind of support is greatly appreciated.
+
+  - Bernard Andrieux
+  - Citillara
+  - Elglobo
+  - Gwanda
+  - Terry Ellison
+  - tuxun
 
 Version
--------
+------- 
 
-The version information contains the language package version number, the release date, and the forum software compatibility.
-
-You can get the version information in the [VERSION.md] [2] file.
+  - Language package version: 2.0.0-dev (Build 79)
+  - Released date: May 2, 2014
+  - Forum software compatibility: [phpBB 3.1.0-b3-dev (Build 1449)] [2]
 
 Support
 -------
@@ -101,8 +112,8 @@ Because the forum software is released under the [GNU General Public License 2.0
 
 Please note that the full notice of the license is available for reading from the [LICENSE] [7] file.
 
-[1]:https://github.com/maelsoucaze/phpbb/blob/master/language/fr/AUTHORS.md
-[2]:https://github.com/maelsoucaze/phpbb/blob/master/language/fr/VERSION.md
+[1]:https://www.maelsoucaze.com/
+[2]:https://bamboo.phpbb.com/browse/PHPBB3-DEVELOP-1449
 [3]:https://www.phpbb.com/customise/db/translation/french/support/
 [4]:https://www.phpbb.com/community/ucp.php?mode=register
 [5]:http://en.wikipedia.org/wiki/File_Transfer_Protocol
