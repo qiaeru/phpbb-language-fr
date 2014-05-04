@@ -348,6 +348,7 @@ $lang = array_merge($lang, array(
 	'LDAP_NO_SERVER_CONNECTION'			=> 'Impossible de se connecter au serveur LDAP.',
 	'LDAP_SEARCH_FAILED'				=> 'Une erreur est survenue lors de la recherche du répertoire LDAP.',
 	'LEGEND'							=> 'Légende',
+	'LIVE_SEARCHES_NOT_ALLOWED'			=> 'Les prédictions de recherche ne sont pas autorisées.',
 	'LOADING'							=> 'Chargement',
 	'LOCATION'							=> 'Localisation',
 	'LOCK_POST'							=> 'Verrouiller le message',

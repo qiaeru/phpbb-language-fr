@@ -356,6 +356,8 @@ $lang = array_merge($lang, array(
 
 	'ALLOW_CDN'						=> 'Autoriser l’utilisation de contenu hébergé sur des serveurs externes',
 	'ALLOW_CDN_EXPLAIN'				=> 'Si cette option est activée, certains fichiers seront distribués par des serveurs externes au lieu de votre serveur. Cette fonctionnalité réduira la bande passante de votre serveur mais peut poser des problèmes de confidentialité pour les administrateurs soucieux de l’anonymat de leur forum. Dans une installation par défaut, la librairie « jQuery » et la police de caractères « Open Sans » seront distribués par le réseau de distribution de contenu de Google.',
+	'ALLOW_LIVE_SEARCHES'			=> 'Autoriser les prédictions de recherche',
+	'ALLOW_LIVE_SEARCHES_EXPLAIN'	=> 'Si cette option est activée, les utilisateurs bénéficieront de suggestions de mots-clés lors de la rédaction de texte dans certains champs du forum.',
 	'CUSTOM_PROFILE_FIELDS'			=> 'Champs de profil personnalisés',
 	'LIMIT_LOAD'					=> 'Limite de la charge du système',
 	'LIMIT_LOAD_EXPLAIN'			=> 'Si la charge du système dépasse cette valeur durant une minute, le forum sera automatiquement désactivé. Une valeur de 1.0 correspond à 100 % de l’utilisation des processus d’un processeur. Cette fonctionnalité ne fonctionne que sur les serveurs basés sous UNIX et dans lesquels ce réglage est accessible. Cette valeur se réinitialise sur 0 si phpBB n’arrive pas à charger la limite de la charge du système.',
