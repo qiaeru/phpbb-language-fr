@@ -41,9 +41,6 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'CONTROLLER_ARGUMENT_VALUE_MISSING'	=> 'Valeur manquante pour l’argument #%1$s : <strong>%3$s</strong> dans la classe <strong>%2$s</strong>',
 	'CONTROLLER_NOT_SPECIFIED'			=> 'Aucun contrôleur n’a été spécifié.',
-	'CONTROLLER_NOT_FOUND'				=> 'La page demandée est introuvable.',
 	'CONTROLLER_METHOD_NOT_SPECIFIED'	=> 'Aucune méthode de contrôleur n’a été spécifiée.',
-	'CONTROLLER_SERVICE_NOT_GIVEN'		=> 'Le contrôleur « <strong>%s</strong> » doit avoir un service défini dans ./config/routing.yml.',
 	'CONTROLLER_SERVICE_UNDEFINED'		=> 'Le service du contrôleur « <strong>%s</strong> » n’est pas défini dans ./config/services.yml.',
-	'CONTROLLER_RETURN_TYPE_INVALID'	=> 'L’objet du contrôleur <strong>%s</strong> doit retourner à un objet Symfony\Component\HttpFoundation\Response.',
 ));
