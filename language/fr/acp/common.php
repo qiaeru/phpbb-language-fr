@@ -368,7 +368,7 @@ $lang = array_merge($lang, array(
 
 	'PURGE_CACHE'			=> 'Vider le cache',
 	'PURGE_CACHE_CONFIRM'	=> 'Êtes-vous sûr(e) de vouloir vider le cache ?',
-	'PURGE_CACHE_EXPLAIN'	=> 'Les fichiers mis en cache, dont les fichiers des modèles et les requêtes, seront supprimés.',
+	'PURGE_CACHE_EXPLAIN'	=> 'Les fichiers mis en cache tels que les fichiers des modèles et les requêtes seront supprimés.',
 	'PURGE_CACHE_SUCCESS'	=> 'La cache a été vidé.',
 
 	'PURGE_SESSIONS'			=> 'Vider toutes les sessions',
