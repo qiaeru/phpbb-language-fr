@@ -587,7 +587,7 @@ $lang = array_merge($lang, array(
 
 // Default database schema entries...
 $lang = array_merge($lang, array(
-	'CONFIG_BOARD_EMAIL_SIG'		=> 'Cordialement, l’administrateur',
+	'CONFIG_BOARD_EMAIL_SIG'		=> 'Cordialement, l’administrateur du forum.',
 	'CONFIG_SITE_DESC'				=> 'Une courte description de votre forum',
 	'CONFIG_SITENAME'				=> 'votredomaine.com',
 
