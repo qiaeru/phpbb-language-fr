@@ -70,6 +70,14 @@ $lang = array_merge($lang, array(
 	'CANNOT_POST_ANNOUNCE'		=> 'Vous ne pouvez pas publier d’annonces.',
 	'CANNOT_POST_STICKY'		=> 'Vous ne pouvez pas publier de notes.',
 	'CHANGE_TOPIC_TO'			=> 'Type de sujet',
+	'CHARS_POST_CONTAINS'		=> array(
+		1	=> 'Votre message contient %1$d caractère.',
+ 		2	=> 'Votre message contient %1$d caractères.',
+	),
+	'CHARS_SIG_CONTAINS'		=> array(
+		1	=> 'Votre signature contient %1$d caractère.',
+		2	=> 'Votre signature contient %1$d caractères.',
+	),
 	'CLOSE_TAGS'				=> 'Fermer les balises',
 	'CURRENT_TOPIC'				=> 'Sujet actuel',
 
@@ -228,17 +236,14 @@ $lang = array_merge($lang, array(
 
 	'TOO_FEW_CHARS'				=> 'Votre message ne contient pas assez de caractères.',
 	'TOO_FEW_CHARS_LIMIT'		=> array(
-		1	=> 'Votre message contient %1$d caractère. Vous devez saisir au moins %2$d caractère.',
-		2	=> 'Votre message contient %1$d caractères. Vous devez saisir au moins %2$d caractères.',
+		1	=> 'Vous devez saisir au moins %1$d caractère.',
+		2	=> 'Vous devez saisir au moins %1$d caractères.',
 	),
 	'TOO_FEW_POLL_OPTIONS'		=> 'Vous devez saisir au moins deux options afin de créer le sondage.',
 	'TOO_MANY_ATTACHMENTS'		=> 'Impossible de transférer une nouvelle pièce jointe, la limite maximale est de %d.',
 	'TOO_MANY_CHARS'			=> 'Votre message contient trop de caractères.',
-	'TOO_MANY_CHARS_POST'		=> array(
-		2	=> 'Votre message contient %1$d caractères. Le nombre maximal de caractères autorisés est de %2$d.',
-	),
-	'TOO_MANY_CHARS_SIG'		=> array(
-		2	=> 'Votre signature contient %1$d caractères. Le nombre maximal de caractères autorisés est de %2$d.',
+	'TOO_MANY_CHARS_LIMIT'		=> array(
+		2	=> 'Le nombre maximal de caractères autorisés est de %1$d.',
 	),
 	'TOO_MANY_POLL_OPTIONS'		=> 'Vous avez essayé de voter pour un trop grand nombre d’options.',
 	'TOO_MANY_SMILIES'			=> 'Votre message contient trop d’émoticônes. Le nombre maximal d’émoticônes autorisées est de %d.',
