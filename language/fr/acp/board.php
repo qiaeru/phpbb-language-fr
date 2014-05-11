@@ -406,6 +406,7 @@ $lang = array_merge($lang, array(
 
 	'APACHE_SETUP_BEFORE_USE'	=> 'Vous devez configurer l’authentification par Apache avant de pouvoir faire fonctionner phpBB sous cette méthode d’authentification. Le nom d’utilisateur que vous utilisez afin de vous authentifier par Apache doit être identique à votre nom d’utilisateur sur le forum. L’authentification par Apache ne peut être utilisé que si mod_php (qui ne doit pas être avec une version CGI) et safe_mode sont désactivés.',
 
+	'LDAP'							=> 'LDAP',
 	'LDAP_DN'						=> 'Base LDAP vers <var>dn</var>',
 	'LDAP_DN_EXPLAIN'				=> 'Le nom absolu menant aux informations des utilisateurs, telles que <samp>o=MaCompagnie,c=FR</samp>.',
 	'LDAP_EMAIL'					=> 'Attribut LDAP des adresses de courrier électronique',

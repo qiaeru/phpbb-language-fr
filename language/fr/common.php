@@ -753,6 +753,7 @@ $lang = array_merge($lang, array(
 		1	=> '%d message privé',
 		2	=> '%d messages privés',
 	),
+	'TOPIC_POLL'		=> 'Ce sujet contient un sondage.',
 	'TOTAL_POSTS'		=> 'Nombre total de messages',
 	'TOTAL_POSTS_COUNT'	=> array(
 		2	=> '<strong>%d</strong> messages',
