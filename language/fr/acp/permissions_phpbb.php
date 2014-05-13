@@ -142,7 +142,7 @@ $lang = array_merge($lang, array(
 	'ACL_M_EDIT'		=> 'Peut éditer les messages',
 	'ACL_M_DELETE'		=> 'Peut supprimer définitivement les messages',
 	'ACL_M_SOFTDELETE'	=> 'Peut supprimer les messages<br /><em>Les modérateurs qui ont la permission d’approuver des messages pourront restaurer les messages supprimés.</em>',
-	'ACL_M_APPROVE'		=> 'Peut approuver les messages',
+	'ACL_M_APPROVE'		=> 'Peut approuver et restaurer les messages',
 	'ACL_M_REPORT'		=> 'Peut fermer et supprimer les rapports',
 	'ACL_M_CHGPOSTER'	=> 'Peut modifier les auteurs des messages',
 
