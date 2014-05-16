@@ -221,6 +221,7 @@ $lang = array_merge($lang, array(
 		1	=> 'Vous ne pouvez insérer que %d citation imbriquée.',
 		2	=> 'Vous ne pouvez insérer que %d citations imbriquées.',
 	),
+	'QUOTE_NO_NESTING'			=> 'Vous ne pouvez pas insérer de citations imbriquées.',
 
 	'SAVE'						=> 'Enregistrer',
 	'SAVE_DATE'					=> 'Enregistré le',
@@ -267,6 +268,6 @@ $lang = array_merge($lang, array(
 	'VIEW_MESSAGE'				=> '%sConsulter le message que vous avez envoyé%s',
 	'VIEW_PRIVATE_MESSAGE'		=> '%sConsulter le message privé que vous avez envoyé%s',
 
-	'WRONG_FILESIZE'			=> 'Le fichier est trop lourd, la taille maximale autorisée est de %1d %2s.',
+	'WRONG_FILESIZE'			=> 'Le fichier est trop lourd, la taille maximale autorisée est de %1$d %2$s.',
 	'WRONG_SIZE'				=> 'La taille de l’image doit mesurer moins de %1$s de large et %2$s de haut et plus de %3$s de large et %4$s de haut. L’image que vous avez envoyée mesure %5$s de large et %6$s de haut.',
 ));
