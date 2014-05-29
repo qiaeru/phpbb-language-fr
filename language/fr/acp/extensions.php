@@ -114,7 +114,7 @@ $lang = array_merge($lang, array(
 	'DOWNLOAD_LATEST'		=> 'Télécharger',
 	'NO_VERSIONCHECK'		=> 'Aucune information concernant la vérification de mise à jour n’est disponible.',
 
-	'VERSIONCHECK_FORCE_UPDATE_ALL'		=> 'Vérifier à nouveau les mises à jour',
+	'VERSIONCHECK_FORCE_UPDATE_ALL'		=> 'Vérifier de nouveau les mises à jour',
 	'FORCE_UNSTABLE'					=> 'Toujours vérifier la disponibilité de versions instables',
 	'EXTENSIONS_VERSION_CHECK_SETTINGS'	=> 'Réglages de la vérification des mises à jour',
 ));

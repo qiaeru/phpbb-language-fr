@@ -40,7 +40,7 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'ACP_BOARD_SETTINGS_EXPLAIN'	=> 'Vous pouvez effectuer sur cette page les opérations basiques de votre forum, comme lui attribuer un nom et une description, régler son fuseau horaire ou encore définir sa langue par défaut.',
 	'BOARD_INDEX_TEXT'				=> 'Texte de l’index du forum',
-	'BOARD_INDEX_TEXT_EXPLAIN'		=> 'Ce texte sera affiché comme index du forum dans le chemin de navigation du forum. Si aucun texte n’est spécifié, « Index du forum » sera affiché par défaut.',
+	'BOARD_INDEX_TEXT_EXPLAIN'		=> 'Ce texte sera affiché comme accueil du forum dans le chemin de navigation du forum. Si aucun texte n’est spécifié, « Accueil du forum » sera affiché par défaut.',
 	'CUSTOM_DATEFORMAT'				=> 'Personnaliser…',
 	'DEFAULT_DATE_FORMAT'			=> 'Format de date',
 	'DEFAULT_DATE_FORMAT_EXPLAIN'	=> 'Le format de date est similaire à celui qui est utilisé par la fonction PHP <code>date</code>.',

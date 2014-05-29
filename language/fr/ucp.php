@@ -119,7 +119,7 @@ $lang = array_merge($lang, array(
 	'BOARD_STYLE'				=> 'Mon style sur le forum',
 	'BOARD_TIMEZONE'			=> 'Mon fuseau horaire',
 	'BOOKMARKS'					=> 'Favoris',
-	'BOOKMARKS_EXPLAIN'			=> 'Vous pouvez ajouter des sujets aux favoris afin de les consulter ultérieurement plus rapidement. Si vous souhaitez supprimer des sujets de vos favoris, cochez les cases correspondantes et cliquez sur le bouton <em>Supprimer les sujets sélectionnés des favoris</em>.',
+	'BOOKMARKS_EXPLAIN'			=> 'Vous pouvez ajouter des sujets aux favoris afin de les consulter ultérieurement. Si vous souhaitez supprimer des sujets de vos favoris, cochez les cases correspondantes et cliquez sur le bouton <em>Supprimer les sujets sélectionnés des favoris</em>.',
 	'BOOKMARKS_DISABLED'		=> 'La fonctionnalité liée aux favoris a été désactivée sur ce forum.',
 	'BOOKMARKS_REMOVED'			=> 'Les sujets que vous avez sélectionnés ont été supprimés de vos favoris.',
 
@@ -514,7 +514,7 @@ $lang = array_merge($lang, array(
 	'UCP_NO_ATTACHMENTS'		=> 'Vous n’avez aucune pièce jointe.',
 
 	'UCP_NOTIFICATION_LIST'				=> 'Gérer les notifications',
-	'UCP_NOTIFICATION_LIST_EXPLAIN'		=> 'Vous pouvez consulter sur cette page l’historique des notifications que vous avez reçues.',
+	'UCP_NOTIFICATION_LIST_EXPLAIN'		=> 'Vous pouvez consulter sur cette page l’historique de vos notifications.',
 	'UCP_NOTIFICATION_OPTIONS'			=> 'Éditer les méthodes de notification',
 	'UCP_NOTIFICATION_OPTIONS_EXPLAIN'	=> 'Vous pouvez régler sur cette page les méthodes de notification du forum.',
 

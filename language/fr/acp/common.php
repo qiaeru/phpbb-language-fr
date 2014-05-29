@@ -109,7 +109,7 @@ $lang = array_merge($lang, array(
 	'ACP_ICONS'					=> 'Icônes de sujet',
 	'ACP_ICONS_SMILIES'			=> 'Icônes de sujet et émoticônes',
 	'ACP_INACTIVE_USERS'		=> 'Utilisateurs inactifs',
-	'ACP_INDEX'					=> 'Index du PCA',
+	'ACP_INDEX'					=> 'Accueil du PCA',
 
 	'ACP_JABBER_SETTINGS'		=> 'Réglages de Jabber',
 
@@ -118,7 +118,7 @@ $lang = array_merge($lang, array(
 	'ACP_LOAD_SETTINGS'			=> 'Réglages de la charge',
 	'ACP_LOGGING'				=> 'Connexion',
 
-	'ACP_MAIN'					=> 'Index du PCA',
+	'ACP_MAIN'					=> 'Accueil du PCA',
 
 	'ACP_MANAGE_ATTACHMENTS'			=> 'Gérer les pièces jointes',
 	'ACP_MANAGE_ATTACHMENTS_EXPLAIN'	=> 'Vous pouvez lister et supprimer sur cette page les fichiers insérés aux messages et aux messages privés.',
@@ -215,7 +215,7 @@ $lang = array_merge($lang, array(
 	'ACTIVATE'				=> 'Activer',
 	'ADD'					=> 'Ajouter',
 	'ADMIN'					=> 'Administration',
-	'ADMIN_INDEX'			=> 'Index de l’administration',
+	'ADMIN_INDEX'			=> 'Accueil de l’administration',
 	'ADMIN_PANEL'			=> 'Panneau de contrôle d’administration',
 
 	'ADM_LOGOUT'			=> 'Déconnexion&nbsp;du&nbsp;PCA',
@@ -409,8 +409,8 @@ $lang = array_merge($lang, array(
 	'USERS_PER_DAY'		=> 'Moyenne d’utilisateurs par jour',
 
 	'VALUE'						=> 'Valeur',
-	'VERSIONCHECK_FAIL'			=> 'L’information sur la dernière version stable n’a pas pu être obtenue.',
-	'VERSIONCHECK_FORCE_UPDATE'	=> 'Vérifier de nouveau la version',
+	'VERSIONCHECK_FAIL'			=> 'Aucune information concernant la dernière version stable n’est disponible.',
+	'VERSIONCHECK_FORCE_UPDATE'	=> 'Vérifier de nouveau les mises à jour',
 	'VIEW_ADMIN_LOG'			=> 'Consulter l’historique des administrateurs',
 	'VIEW_INACTIVE_USERS'		=> 'Consulter la liste des utilisateurs inactifs',
 
