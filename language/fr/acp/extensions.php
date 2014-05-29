@@ -1,15 +1,16 @@
 <?php
 /**
 *
-* acp_extensions [French]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @copyright (c) 2012 phpBB Group, (c) Maël Soucaze
-* @license http://opensource.org/licenses/gpl-2.0.php GNU Public License
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
-/**
-*/
+
 if (!defined('IN_PHPBB'))
 {
 	exit;
@@ -83,6 +84,7 @@ $lang = array_merge($lang, array(
 	'EXTENSION_DELETE_DATA_CONFIRM'	=> 'Êtes-vous sûr(e) de vouloir supprimer les données associées à « %s » ?<br /><br />Cela supprimera toutes les données et les réglages de l’extension qui ne pourront pas être restaurés !',
 	'EXTENSION_DISABLE_CONFIRM'		=> 'Êtes-vous sûr(e) de vouloir désactiver l’extension « %s » ?',
 	'EXTENSION_ENABLE_CONFIRM'		=> 'Êtes-vous sûr(e) de vouloir activer l’extension « %s » ?',
+	'EXTENSION_FORCE_UNSTABLE_CONFIRM'	=> 'Êtes-vous sûr(e) de vouloir forcer l’utilisation d’une version instable ?',
 
 	'RETURN_TO_EXTENSION_LIST'	=> 'Revenir à la liste des extensions',
 
@@ -105,4 +107,14 @@ $lang = array_merge($lang, array(
 	'AUTHOR_EMAIL'			=> 'Adresse de courrier électronique',
 	'AUTHOR_HOMEPAGE'		=> 'Page d’accueil',
 	'AUTHOR_ROLE'			=> 'Rôle',
+
+	'NOT_UP_TO_DATE'		=> '%s n’est pas à jour',
+	'UP_TO_DATE'			=> '%s est à jour',
+	'ANNOUNCEMENT_TOPIC'	=> 'Annonce de sortie',
+	'DOWNLOAD_LATEST'		=> 'Télécharger',
+	'NO_VERSIONCHECK'		=> 'Aucune information concernant la vérification de mise à jour n’est disponible.',
+
+	'VERSIONCHECK_FORCE_UPDATE_ALL'		=> 'Vérifier à nouveau les mises à jour',
+	'FORCE_UNSTABLE'					=> 'Toujours vérifier la disponibilité de versions instables',
+	'EXTENSIONS_VERSION_CHECK_SETTINGS'	=> 'Réglages de la vérification des mises à jour',
 ));

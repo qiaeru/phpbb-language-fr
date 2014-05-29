@@ -1,11 +1,13 @@
 <?php
 /**
 *
-* acp_common [French]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @copyright (c) 2005 phpBB Group, (c) Maël Soucaze
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -777,4 +779,8 @@ $lang = array_merge($lang, array(
 	'LOG_WORD_ADD'			=> '<strong>Ajout d’une censure de mot</strong><br />» %s',
 	'LOG_WORD_DELETE'		=> '<strong>Suppression d’une censure de mot</strong><br />» %s',
 	'LOG_WORD_EDIT'			=> '<strong>Édition d’une censure de mot</strong><br />» %s',
+
+	'LOG_EXT_ENABLE'	=> '<strong>Activation d’une extension</strong><br />» %s',
+	'LOG_EXT_DISABLE'	=> '<strong>Désactivation d’une extension</strong><br />» %s',
+	'LOG_EXT_PURGE'		=> '<strong>Suppression des données d’une extension</strong><br />» %s',
 ));

@@ -1,11 +1,13 @@
 <?php
 /**
 *
-* common [French]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @copyright (c) 2005 phpBB Group, (c) Maël Soucaze
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -228,7 +230,7 @@ $lang = array_merge($lang, array(
 	'FILESIZE'				=> 'Taille du fichier',
 	'FILEDATE'				=> 'Date du fichier',
 	'FILE_COMMENT'			=> 'Description du fichier',
-	'FILE_NOT_FOUND'		=> 'Le fichier que vous recherchez est introuvable.',
+	'FILE_NOT_FOUND'		=> 'Le fichier que vous recherchez est introuvable : %s',
 	'FIND_USERNAME'			=> 'Trouver un membre',
 	'FOLDER'				=> 'Boîte',
 	'FORGOT_PASS'			=> 'J’ai oublié mon mot de passe',

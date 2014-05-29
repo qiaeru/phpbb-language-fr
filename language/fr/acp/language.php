@@ -1,11 +1,13 @@
 <?php
 /**
 *
-* acp_language [French]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @copyright (c) 2005 phpBB Group, (c) Maël Soucaze
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -38,27 +40,16 @@ $lang = array_merge($lang, array(
 	'ACP_FILES'						=> 'Fichiers de langue de l’administration',
 	'ACP_LANGUAGE_PACKS_EXPLAIN'	=> 'Vous pouvez installer, modifier et supprimer sur cette page des archives de langue. L’archive de langue par défaut est signalée par un astérisque (*).',
 
-	'EMAIL_FILES'			=> 'Modèles de courrier électronique',
-
-	'FILE_CONTENTS'				=> 'Contenu du fichier',
-	'FILE_FROM_STORAGE'			=> 'Fichier du répertoire de stockage',
-
-	'HELP_FILES'				=> 'Fichiers d’aide',
+	'DELETE_LANGUAGE_CONFIRM'		=> 'Êtes-vous sûr(e) de vouloir supprimer « %s » ?',
 
 	'INSTALLED_LANGUAGE_PACKS'	=> 'Archives de langue installées',
-	'INVALID_LANGUAGE_PACK'		=> 'L’archive de langue que vous avez sélectionnée semble incorrecte. Veuillez vérifier l’archive de langue et la transférer de nouveau si nécessaire.',
-	'INVALID_UPLOAD_METHOD'		=> 'La méthode de transfert que vous avez sélectionnée est incorrecte. Veuillez sélectionner une nouvelle méthode.',
 
-	'LANGUAGE_DETAILS_UPDATED'			=> 'Les informations sur la langue ont été mises à jour.',
-	'LANGUAGE_ENTRIES'					=> 'Clés de langue',
-	'LANGUAGE_ENTRIES_EXPLAIN'			=> 'Vous pouvez modifier ici les clés de langue existantes ou traduire celles qui ne le sont pas.<br /><strong>Information :</strong> une fois que vous avez modifié un fichier de langue, ce dernier sera stocké dans un répertoire séparé afin que vous puissiez le télécharger. Les modifications ne seront visibles aux utilisateurs qu’après avoir écrasé les fichiers de langue déjà présents sur votre espace internet.',
-	'LANGUAGE_FILES'					=> 'Fichiers de langue',
-	'LANGUAGE_KEY'						=> 'Clé de langue',
+	'LANGUAGE_DETAILS_UPDATED'			=> 'Les informations concernant la langue ont été mises à jour.',
 	'LANGUAGE_PACK_ALREADY_INSTALLED'	=> 'Cette archive de langue est déjà installée.',
-	'LANGUAGE_PACK_DELETED'				=> 'L’archive de langue <strong>%s</strong> a été supprimée. Tous les utilisateurs qui utilisaient cette langue utilisent à présent la langue par défaut du forum.',
+	'LANGUAGE_PACK_DELETED'				=> 'L’archive de langue « %s » a été supprimée. Tous les utilisateurs qui utilisaient cette langue utilisent à présent la langue par défaut du forum.',
 	'LANGUAGE_PACK_DETAILS'				=> 'Informations sur l’archive de langue',
-	'LANGUAGE_PACK_INSTALLED'			=> 'L’archive de langue <strong>%s</strong> a été installée.',
-	'LANGUAGE_PACK_CPF_UPDATE'			=> 'Les chaînes de langue des champs de profil personnalisés ont été copiées à partir de la langue par défaut. Veuillez les modifier si cela est nécessaire.',
+	'LANGUAGE_PACK_INSTALLED'			=> 'L’archive de langue « %s » a été installée.',
+	'LANGUAGE_PACK_CPF_UPDATE'			=> 'Les chaînes de langue des champs de profil personnalisés ont été copiées à partir de la langue par défaut. Veuillez les modifier si nécessaire.',
 	'LANGUAGE_PACK_ISO'					=> 'ISO',
 	'LANGUAGE_PACK_LOCALNAME'			=> 'Nom local',
 	'LANGUAGE_PACK_NAME'				=> 'Nom',
@@ -70,31 +61,16 @@ $lang = array_merge($lang, array(
 	'LANG_ISO_CODE'						=> 'Code ISO',
 	'LANG_LOCAL_NAME'					=> 'Nom local',
 
-	'MISSING_LANGUAGE_FILE'		=> 'Fichier de langue manquant : <strong style="color:red">%s</strong>',
+	'MISSING_LANG_FILES'		=> 'Fichiers de langue manquants',
 	'MISSING_LANG_VARIABLES'	=> 'Variables de langue manquantes',
-	'MODS_FILES'				=> 'Fichiers de langue des MODs',
 
 	'NO_FILE_SELECTED'				=> 'Vous n’avez spécifié aucun fichier de langue.',
 	'NO_LANG_ID'					=> 'Vous n’avez spécifié aucune archive de langue.',
 	'NO_REMOVE_DEFAULT_LANG'		=> 'Vous ne pouvez pas supprimer l’archive de langue par défaut.<br />Si vous souhaitez supprimer cette archive de langue, veuillez tout d’abord modifier la langue par défaut de votre forum.',
 	'NO_UNINSTALLED_LANGUAGE_PACKS'	=> 'Aucune archive de langue n’est non installée',
 
-	'REMOVE_FROM_STORAGE_FOLDER'		=> 'Supprimer du répertoire de stockage',
-
-	'SELECT_DOWNLOAD_FORMAT'	=> 'Sélectionner le format de téléchargement',
-	'SUBMIT_AND_DOWNLOAD'		=> 'Envoyer et télécharger le fichier',
-	'SUBMIT_AND_UPLOAD'			=> 'Envoyer et transférer le fichier',
-
-	'THOSE_MISSING_LANG_FILES'			=> 'Les fichiers de langue suivants sont manquants du répertoire de langue %s',
-	'THOSE_MISSING_LANG_VARIABLES'		=> 'Les variables de langue suivantes sont manquantes de l’archive de langue <strong>%s</strong>.',
+	'THOSE_MISSING_LANG_FILES'			=> 'Les fichiers de langue suivants sont manquants du répertoire de langue « %s »',
+	'THOSE_MISSING_LANG_VARIABLES'		=> 'Les variables de langue suivantes sont manquantes de l’archive de langue « %s ».',
 
 	'UNINSTALLED_LANGUAGE_PACKS'	=> 'Archives de langue non installées',
-
-	'UNABLE_TO_WRITE_FILE'		=> 'Le fichier n’a pas pu être écrit sur %s.',
-	'UPLOAD_COMPLETED'			=> 'Le transfert a été effectué.',
-	'UPLOAD_FAILED'				=> 'Le transfert a échoué pour une raison inconnue. Vous devriez essayer de remplacer manuellement le fichier en cause si nécessaire.',
-	'UPLOAD_METHOD'				=> 'Méthode de transfert',
-	'UPLOAD_SETTINGS'			=> 'Réglages du transfert',
-
-	'WRONG_LANGUAGE_FILE'		=> 'Le fichier de langue que vous avez sélectionné est incorrect.',
 ));
