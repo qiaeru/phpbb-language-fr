@@ -117,4 +117,7 @@ $lang = array_merge($lang, array(
 	'VERSIONCHECK_FORCE_UPDATE_ALL'		=> 'Vérifier de nouveau les mises à jour',
 	'FORCE_UNSTABLE'					=> 'Toujours vérifier la disponibilité de versions instables',
 	'EXTENSIONS_VERSION_CHECK_SETTINGS'	=> 'Réglages de la vérification des mises à jour',
+
+	'META_FIELD_NOT_SET'	=> 'Le méta-champ %s est obligatoire et doit être réglé.',
+	'META_FIELD_INVALID'	=> 'Le méta-champ %s est incorrect.',
 ));

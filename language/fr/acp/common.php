@@ -135,7 +135,7 @@ $lang = array_merge($lang, array(
 	'ACP_MOD_LOGS'				=> 'Historique des modérateurs',
 	'ACP_MOD_ROLES'				=> 'Rôles des modérateurs',
 
-	'ACP_NO_ITEMS'				=> 'Il n’y a actuellement aucun objet.',
+	'ACP_NO_ITEMS'				=> 'Aucun objet.',
 
 	'ACP_ORPHAN_ATTACHMENTS'	=> 'Pièces jointes orphelines',
 
@@ -223,8 +223,14 @@ $lang = array_merge($lang, array(
 
 	'BACK'					=> 'Retour',
 
+	'CLI_DESCRIPTION_CRON_RUN'				=> 'Exécute toutes les tâches cron de prêtes.',
+	'CLI_DESCRIPTION_CRON_RUN_ARGUMENT_1'	=> 'Nom de la tâche à exécuter',
+
 	'COLOUR_SWATCH'			=> 'Palette de couleurs internet',
 	'CONFIG_UPDATED'		=> 'La configuration a été mise à jour.',
+	'CRON_LOCK_ERROR'		=> 'Impossible d’obtenir le verrouillage de cron.',
+	'CRON_NO_SUCH_TASK'		=> 'La tâche cron « %s » est introuvable.',
+	'CRON_NO_TASK'			=> 'No cron tasks need to be run right now.',
 
 	'DEACTIVATE'				=> 'Désactiver',
 	'DIRECTORY_DOES_NOT_EXIST'	=> 'Le chemin « %s » que vous avez spécifié n’existe pas.',
@@ -285,6 +291,7 @@ $lang = array_merge($lang, array(
 	'REMIND'							=> 'Rappel',
 	'RESYNC'							=> 'Resynchroniser',
 
+	'RUNNING_TASK'			=> 'Exécution de la tâche : %s.',
 	'SELECT_ANONYMOUS'		=> 'Sélectionner un utilisateur anonyme',
 	'SELECT_OPTION'			=> 'Sélectionner une option',
 
@@ -308,7 +315,7 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'ACP_PHP_INFO_EXPLAIN'	=> 'Vous pouvez consulter sur cette page les informations sur la version de PHP qui est installée sur votre serveur. Cela comprend l’ensemble des informations sur les modules chargés, les variables disponibles et les réglages par défaut. Ces informations peuvent être utiles afin de diagnostiquer les problèmes présents sur votre serveur. Veuillez noter que certains hébergeurs peuvent limiter l’affichage de ces informations pour des raisons de sécurité. Il est déconseillé de divulguer les informations disponibles sur cette page, sauf si elles sont demandées par un des <a href="https://www.phpbb.com/about/team/">membres de l’équipe officielle</a> sur les forums de support.',
 
-	'NO_PHPINFO_AVAILABLE'	=> 'Il est impossible d’afficher les informations concernant votre configuration de PHP. La fonction phpinfo() a été désactivée pour des raisons de sécurité.',
+	'NO_PHPINFO_AVAILABLE'	=> 'Impossible d’afficher les informations concernant votre configuration de PHP. La fonction phpinfo() a été désactivée pour des raisons de sécurité.',
 ));
 
 // Logs
@@ -321,7 +328,7 @@ $lang = array_merge($lang, array(
 
 	'DISPLAY_LOG'	=> 'Afficher les éléments antérieurs',
 
-	'NO_ENTRIES'	=> 'Il n’y a aucun historique.',
+	'NO_ENTRIES'	=> 'Aucun historique.',
 
 	'SORT_IP'		=> 'Adresse IP',
 	'SORT_DATE'		=> 'Date',
@@ -415,7 +422,7 @@ $lang = array_merge($lang, array(
 	'VIEW_INACTIVE_USERS'		=> 'Consulter la liste des utilisateurs inactifs',
 
 	'WELCOME_PHPBB'			=> 'Bienvenue sur phpBB',
-	'WRITABLE_CONFIG'		=> 'Votre fichier de configuration (config.php) est actuellement inscriptible par tout le monde. Nous vous encourageons fortement à modifier vos permissions en 640 (<a href="http://fr.wikipedia.org/wiki/Chmod" rel="external">chmod</a> 640 config.php) ou, si cela n’est pas possible, en 644.',
+	'WRITABLE_CONFIG'		=> 'Votre fichier de configuration (config.php) est actuellement inscriptible par tout le monde. Nous vous encourageons fortement à modifier vos permissions en 640 (<a href="http://fr.wikipedia.org/wiki/Chmod" rel="external">chmod</a> 640 config.php) ou, le cas échéant, en 644.',
 ));
 
 // Inactive Users
@@ -541,9 +548,9 @@ $lang = array_merge($lang, array(
 
 	'LOG_APPROVE_TOPIC'			=> '<strong>Approbation d’un sujet</strong><br />» %s',
 	'LOG_BUMP_TOPIC'			=> '<strong>Un utilisateur a remonté un sujet</strong><br />» %s',
-	'LOG_DELETE_POST'			=> '<strong>Suppression du message « %1$s » publié par</strong><br />» %2$s',
+	'LOG_DELETE_POST'			=> '<strong>Suppression du message « %1$s » publié par « %2$s » en spécifiant une raison</strong><br />» %3$s',
 	'LOG_DELETE_SHADOW_TOPIC'	=> '<strong>Suppression d’une redirection de sujet</strong><br />» %s',
-	'LOG_DELETE_TOPIC'			=> '<strong>Suppression du sujet « %1$s » publié par</strong><br />» %2$s',
+	'LOG_DELETE_TOPIC'			=> '<strong>Suppression du sujet « %1$s » publié par « %2$s » en spécifiant une raison</strong><br />» %3$s',
 	'LOG_FORK'					=> '<strong>Copie d’un sujet</strong><br />» de %s',
 	'LOG_LOCK'					=> '<strong>Verrouillage d’un sujet</strong><br />» %s',
 	'LOG_LOCK_POST'				=> '<strong>Verrouillage d’un message</strong><br />» %s',
@@ -553,13 +560,13 @@ $lang = array_merge($lang, array(
 	'LOG_PM_REPORT_DELETED'		=> '<strong>Suppression d’un rapport de MP</strong><br />» %s',
 	'LOG_POST_APPROVED'			=> '<strong>Approbation d’un message</strong><br />» %s',
 	'LOG_POST_DISAPPROVED'		=> '<strong>Désapprobation du message « %1$s » publié par « %3$s » en spécifiant une raison</strong><br />» %2$s',
-	'LOG_POST_EDITED'			=> '<strong>Édition du message « %1$s » publié par</strong><br />» %2$s',
+	'LOG_POST_EDITED'			=> '<strong>Édition du message « %1$s » publié par « %2$s » en spécifiant une raison</strong><br />» %3$s',
 	'LOG_POST_RESTORED'			=> '<strong>Restauration d’un message</strong><br />» %s',
 	'LOG_REPORT_CLOSED'			=> '<strong>Fermeture d’un rapport</strong><br />» %s',
 	'LOG_REPORT_DELETED'		=> '<strong>Suppression d’un rapport</strong><br />» %s',
 	'LOG_RESTORE_TOPIC'			=> '<strong>Restauration du sujet « %1$s » publié par</strong><br />» %2$s',
-	'LOG_SOFTDELETE_POST'		=> '<strong>Suppression du message « %1$s » publié par</strong><br />» %2$s',
-	'LOG_SOFTDELETE_TOPIC'		=> '<strong>Suppression du sujet « %1$s » publié par</strong><br />» %2$s',
+	'LOG_SOFTDELETE_POST'		=> '<strong>Suppression du message « %1$s » publié par « %2$s » en spécifiant une raison</strong><br />» %3$s',
+	'LOG_SOFTDELETE_TOPIC'		=> '<strong>Suppression du sujet « %1$s » publié par « %2$s » en spécifiant une raison</strong><br />» %3$s',
 	'LOG_SPLIT_DESTINATION'		=> '<strong>Déplacement de messages divisés</strong><br />» vers %s',
 	'LOG_SPLIT_SOURCE'			=> '<strong>Division de messages</strong><br />» de %s',
 

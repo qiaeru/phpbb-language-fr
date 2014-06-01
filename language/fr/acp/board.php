@@ -113,7 +113,7 @@ $lang = array_merge($lang, array(
 	'AVATAR_GALLERY_PATH'			=> 'Chemin vers la galerie d’avatars',
 	'AVATAR_GALLERY_PATH_EXPLAIN'	=> 'Le chemin relatif à la racine du répertoire de votre forum, tel que <samp>images/avatars/gallery</samp>.',
 	'AVATAR_STORAGE_PATH'			=> 'Chemin vers le répertoire de stockage des avatars',
-	'AVATAR_STORAGE_PATH_EXPLAIN'	=> 'Le chemin relatif à la racine du répertoire de votre forum, tel que <samp>images/avatars/upload</samp>.<br />Le transfert des avatars <strong>ne sera pas disponible</strong> s’il n’est pas possible d’écrire dans ce chemin.',
+	'AVATAR_STORAGE_PATH_EXPLAIN'	=> 'Le chemin relatif à la racine du répertoire de votre forum, tel que <samp>images/avatars/upload</samp>.<br />Le transfert des avatars <strong>ne sera pas disponible</strong> si l’écriture est impossible dans ce chemin.',
 	'MAX_AVATAR_SIZE'				=> 'Dimensions maximales des avatars',
 	'MAX_AVATAR_SIZE_EXPLAIN'		=> 'La largeur sur la hauteur, en nombre de pixels.',
 	'MAX_FILESIZE'					=> 'Taille maximale des avatars',
@@ -461,7 +461,7 @@ $lang = array_merge($lang, array(
 	'UPLOAD_ICONS_PATH'			=> 'Chemin vers le répertoire de stockage des icônes de groupes d’extensions',
 	'UPLOAD_ICONS_PATH_EXPLAIN'	=> 'Le chemin relatif à la racine du répertoire de votre forum, tel que <samp>images/upload_icons</samp>.',
 	'USE_SYSTEM_CRON'		=> 'Exécuter les tâches périodiques à partir du service cron',
-	'USE_SYSTEM_CRON_EXPLAIN'		=> 'Si cette option est désactivée, phpBB s’assurera que les tâches périodiques soient exécutées automatiquement. Si cette option est activée, phpBB ne planifiera aucune tâche périodique de lui-même. Un administrateur système devra alors s’assurer de faire exécuter à des intervalles réguliers (toutes les 5 minutes par exemple) le fichier <code>cron.php</code> par le service du même nom.',
+	'USE_SYSTEM_CRON_EXPLAIN'		=> 'Si cette option est désactivée, phpBB s’assurera que les tâches périodiques soient exécutées automatiquement. Si cette option est activée, phpBB ne planifiera aucune tâche périodique de lui-même. Un administrateur système devra alors s’assurer de faire exécuter <code>bin/phpbbcli.php cron:run</code> à des intervalles réguliers (toutes les 5 minutes par exemple) par le programme cron.',
 ));
 
 // Security Settings
