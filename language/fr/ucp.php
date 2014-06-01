@@ -391,7 +391,7 @@ $lang = array_merge($lang, array(
 	'NO_TO_RECIPIENT'			=> 'Aucun',
 	'NO_WATCHED_FORUMS'			=> 'Aucun abonnement à un forum.',
 	'NO_WATCHED_SELECTED'		=> 'Aucun abonnement à un forum ou un sujet n’a été sélectionné.',
-	'NO_WATCHED_TOPICS'			=> 'Aucun abonnement à un sujet n’a été sélectionné.',
+	'NO_WATCHED_TOPICS'			=> 'Aucun abonnement à un sujet.',
 
 	'PASS_TYPE_ALPHA_EXPLAIN'	=> 'Le mot de passe doit être compris entre %1$s et %2$s de long, doit contenir des lettres en majuscules et en minuscules et doit contenir des chiffres.',
 	'PASS_TYPE_ANY_EXPLAIN'		=> 'Doit être compris entre %1$s et %2$s de long.',

@@ -266,7 +266,7 @@ $lang = array_merge($lang, array(
 	'PM_REPORTS_CLOSED_SUCCESS'	=> 'Les rapports de MP que vous avez sélectionnés ont été clôturés.',
 	'PM_REPORTS_DELETED_SUCCESS'=> 'Les rapport de MP que vous avez sélectionnés ont été supprimés.',
 	'PM_REPORTS_TOTAL'			=> array(
-		0	=> 'Aucun rapport de MP n’est à traiter.',
+		0	=> 'Aucun rapport de MP.',
 		1	=> 'Au total, il y a <strong>1</strong> rapport de MP à traiter.',
 		2	=> 'Au total, il y a <strong>%d</strong> rapports de MP à traiter.',
 	),

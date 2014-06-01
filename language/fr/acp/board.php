@@ -66,7 +66,7 @@ $lang = array_merge($lang, array(
 
 // Board Features
 $lang = array_merge($lang, array(
-	'ACP_BOARD_FEATURES_EXPLAIN'	=> 'Vous pouvez activer ou désactiver sur cette page diverses fonctionnalités du forum.',
+	'ACP_BOARD_FEATURES_EXPLAIN'	=> 'Vous pouvez activer ou désactiver sur cette page les diverses fonctionnalités du forum.',
 
 	'ALLOW_ATTACHMENTS'			=> 'Activer les pièces jointes',
 	'ALLOW_BIRTHDAYS'			=> 'Activer les anniversaires',
