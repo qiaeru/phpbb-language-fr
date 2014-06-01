@@ -76,8 +76,8 @@ $lang = array_merge($lang, array(
 		2	=> 'Vous ne pouvez pas effectuer de recherche pour le moment. Veuillez réessayer dans %d secondes.',
 	),
 	'NO_SEARCH_UNREADS'		=> 'Le système de recherche des messages non lus a été désactivé sur ce forum.',
-	'WORD_IN_NO_POST'		=> 'Aucun message n’a été trouvé car le mot <strong>%s</strong> n’est présent dans aucun message.',
-	'WORDS_IN_NO_POST'		=> 'Aucun message n’a été trouvé car les mots <strong>%s</strong> ne sont présents dans aucun message.',
+	'WORD_IN_NO_POST'		=> 'Le mot <strong>%s</strong> n’est présent dans aucun message.',
+	'WORDS_IN_NO_POST'		=> 'Les mots <strong>%s</strong> ne sont présents dans aucun message.',
 
 	'POST_CHARACTERS'		=> 'caractères des messages',
 	'PHRASE_SEARCH_DISABLED'	=> 'La recherche de phrases exactes n’est pas supportée par ce forum.',

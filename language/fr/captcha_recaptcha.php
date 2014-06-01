@@ -48,5 +48,5 @@ $lang = array_merge($lang, array(
 	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'Votre clé privée sur reCAPTCHA. Les clés peuvent être obtenues sur <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 
 	'RECAPTCHA_EXPLAIN'				=> 'Dans un effort de prévention luttant contre les opérations automatisées, nous vous demandons de bien vouloir saisir les deux mots affichés dans le champ de texte ci-dessous.',
-	'RECAPTCHA_SOCKET_ERROR'		=> 'Un problème est survenu lors de la connexion au service reCAPTCHA : il a été impossible d’ouvrir le connecteur réseau. Veuillez réessayer ultérieurement.',
+	'RECAPTCHA_SOCKET_ERROR'		=> 'Impossible d’ouvrir le connecteur réseau lors de la connexion au service reCAPTCHA. Veuillez réessayer ultérieurement.',
 ));

@@ -81,10 +81,10 @@ $lang = array_merge($lang, array(
 	'MISSING_INLINE_ATTACHMENT'	=> 'La pièce jointe <strong>%s</strong> n’est plus disponible',
 	'MOVE_TOPIC'				=> 'Déplacer le sujet',
 
-	'NO_ATTACHMENT_SELECTED'=> 'Vous n’avez sélectionné aucune pièce jointe à télécharger ou à consulter.',
-	'NO_NEWER_TOPICS'		=> 'Il n’y a aucun nouveau sujet dans ce forum.',
-	'NO_OLDER_TOPICS'		=> 'Il n’y a aucun ancien sujet dans ce forum.',
-	'NO_UNREAD_POSTS'		=> 'Il n’y a aucun message non lu dans ce sujet.',
+	'NO_ATTACHMENT_SELECTED'=> 'Aucune pièce jointe à télécharger ou à consulter n’a été sélectionnée.',
+	'NO_NEWER_TOPICS'		=> 'Aucun nouveau sujet n’a été publié dans ce forum.',
+	'NO_OLDER_TOPICS'		=> 'Aucun ancien sujet n’a été publié dans ce forum.',
+	'NO_UNREAD_POSTS'		=> 'Aucun message non lu n’a été publié dans ce sujet.',
 	'NO_VOTE_OPTION'		=> 'Vous devez sélectionner une option lors du vote.',
 	'NO_VOTES'				=> 'Aucun vote',
 
@@ -120,6 +120,6 @@ $lang = array_merge($lang, array(
 	),
 	'VIEW_UNREAD_POST'		=> 'Premier message non lu',
 	'VOTE_SUBMITTED'		=> 'Votre vote a bien été comptabilisé.',
-	'VOTE_CONVERTED'		=> 'Il est impossible de modifier les votes d’un sondage qui a été converti.',
+	'VOTE_CONVERTED'		=> 'Impossible de modifier les votes d’un sondage qui a été converti.',
 
 ));

@@ -142,7 +142,7 @@ $lang = array_merge($lang, array(
 
 	'SAVE'							=> 'Enregistrer',
 	'SECOND_OPTION'					=> 'Seconde option',
-	'SHOW_NOVALUE_FIELD'			=> 'Afficher le champ si aucune valeur n’a été saisie',
+	'SHOW_NOVALUE_FIELD'			=> 'Afficher le champ même si aucune valeur n’a été saisie',
 	'SHOW_NOVALUE_FIELD_EXPLAIN'	=> 'Le champ de profil sera affiché si aucune valeur n’a été saisie dans les champs optionnels ou si les champs obligatoires n’ont pas encore été remplis.',
 	'STEP_1_EXPLAIN_CREATE'			=> 'Vous pouvez renseigner sur cette page les options basiques de votre champ de profil. Ces informations sont nécessaires afin de poursuivre à la seconde étape où vous pourrez définir les dernières options, prévisualiser votre champ de profil et l’améliorer si nécessaire.',
 	'STEP_1_EXPLAIN_EDIT'			=> 'Vous pouvez modifier sur cette page les options basiques de votre champ de profil. Les options correspondantes sont recalculées à la seconde étape.',

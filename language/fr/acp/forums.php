@@ -134,8 +134,8 @@ $lang = array_merge($lang, array(
 	'MOVE_POSTS_TO'					=> 'Déplacer les messages dans',
 	'MOVE_SUBFORUMS_TO'				=> 'Déplacer les sous-forums dans',
 
-	'NO_DESTINATION_FORUM'			=> 'Vous n’avez sélectionné aucun forum destiné à recevoir du contenu.',
-	'NO_FORUM_ACTION'				=> 'Vous n’avez sélectionné aucune opération à entreprendre avec le contenu du forum.',
+	'NO_DESTINATION_FORUM'			=> 'Aucun forum destiné à recevoir du contenu n’a été sélectionné.',
+	'NO_FORUM_ACTION'				=> 'Aucune opération à entreprendre avec le contenu du forum n’a été sélectionnée.',
 	'NO_PARENT'						=> 'Aucun parent',
 	'NO_PERMISSIONS'				=> 'Ne pas copier de permissions',
 	'NO_PERMISSION_FORUM_ADD'		=> 'Vous n’avez pas les permissions nécessaires afin d’ajouter des forums.',

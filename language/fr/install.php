@@ -51,7 +51,7 @@ $lang = array_merge($lang, array(
 
 	'BEGIN_CONVERT'					=> 'Démarrer la conversion',
 	'BLANK_PREFIX_FOUND'			=> 'Une vérification de vos tables a détecté la présence d’une installation valide n’utilisant pas de préfixe de table.',
-	'BOARD_NOT_INSTALLED'			=> 'Aucune installation trouvée',
+	'BOARD_NOT_INSTALLED'			=> 'Aucune installation n’a été trouvée',
 	'BOARD_NOT_INSTALLED_EXPLAIN'	=> 'Une installation de phpBB par défaut est nécessaire afin que l’outil de conversion puisse être exécuté. Veuillez <a href="%s">procéder à la première installation de phpBB3</a>.',
 	'BACKUP_NOTICE'					=> 'Veuillez effectuer une sauvegarde de votre forum avant de procéder au processus de mise à jour au cas où des erreurs se produiraient.',
 
@@ -90,7 +90,7 @@ $lang = array_merge($lang, array(
 	'CONV_ERR_FATAL'			=> 'Erreur fatale lors de la conversion',
 
 	'CONV_ERROR_ATTACH_FTP_DIR'			=> 'Le transfert des pièces jointes par FTP est activé sur votre ancien forum. Veuillez le désactiver et vous assurer qu’un répertoire de téléchargement soit correctement spécifié, puis copiez toutes les pièces jointes vers ce nouveau répertoire qui doit être accessible en ligne. Une fois que ces étapes ont été réalisées, redémarrez le convertisseur.',
-	'CONV_ERROR_CONFIG_EMPTY'			=> 'Aucune information de configuration n’est disponible concernant la conversion.',
+	'CONV_ERROR_CONFIG_EMPTY'			=> 'Aucune information de configuration concernant la conversion n’est disponible.',
 	'CONV_ERROR_FORUM_ACCESS'			=> 'Impossible d’obtenir les informations d’accès au forum.',
 	'CONV_ERROR_GET_CATEGORIES'			=> 'Impossible d’obtenir les catégories.',
 	'CONV_ERROR_GET_CONFIG'				=> 'Impossible de récupérer la configuration de votre forum.',

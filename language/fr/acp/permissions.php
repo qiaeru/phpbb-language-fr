@@ -143,7 +143,7 @@ $lang = array_merge($lang, array(
 	'NO_ROLE_AVAILABLE'			=> 'Aucun rôle n’est disponible',
 	'NO_ROLE_NAME_SPECIFIED'	=> 'Veuillez saisir le nom de ce rôle.',
 	'NO_ROLE_SELECTED'			=> 'Le rôle est introuvable.',
-	'NO_USER_GROUP_SELECTED'	=> 'Vous n’avez sélectionné aucun utilisateur ou groupe d’utilisateurs.',
+	'NO_USER_GROUP_SELECTED'	=> 'Aucun utilisateur ou groupe d’utilisateurs n’a été sélectionné.',
 
 	'ONLY_FORUM_DEFINED'	=> 'Vous n’avez sélectionné que des forums. Veuillez également sélectionner au moins un utilisateur ou groupe d’utilisateurs.',
 

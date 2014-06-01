@@ -153,11 +153,11 @@ $lang = array_merge($lang, array(
 
 	'NO_ICONS_ADD'		=> 'Impossible d’ajouter une icône car aucune icône n’est disponible.',
 	'NO_ICONS_EDIT'		=> 'Impossible de modifier une icône car aucune icône n’est disponible.',
-	'NO_ICONS_EXPORT'	=> 'Vous n’avez aucune icône permettant de créer une archive.',
+	'NO_ICONS_EXPORT'	=> 'Aucune icône permettant de créer une archive n’est disponible.',
 	'NO_ICONS_PAK'		=> 'Aucune archive d’icônes n’a été trouvée.',
 	'NO_SMILIES_ADD'	=> 'Impossible d’ajouter une émoticône car aucune émoticône n’est disponible.',
 	'NO_SMILIES_EDIT'	=> 'Impossible de modifier une émoticône car aucune émoticône n’est disponible.',
-	'NO_SMILIES_EXPORT'	=> 'Vous n’avez aucune émoticône permettant de créer une archive.',
+	'NO_SMILIES_EXPORT'	=> 'Aucune émoticône permettant de créer une archive n’est disponible.',
 	'NO_SMILIES_PAK'	=> 'Aucune archive d’émoticônes n’a été trouvée.',
 
 	'PAK_FILE_NOT_READABLE'		=> 'Impossible de lire le fichier <samp>.pak</samp>.',
@@ -210,7 +210,7 @@ $lang = array_merge($lang, array(
 	'EDIT_WORD'		=> 'Éditer la censure de mot',
 	'ENTER_WORD'	=> 'Vous devez saisir un mot et sa substitution.',
 
-	'NO_WORD'	=> 'Vous n’avez sélectionné aucun mot à éditer.',
+	'NO_WORD'	=> 'Aucun mot à éditer n’a été sélectionné.',
 
 	'REPLACEMENT'	=> 'Substitution',
 
@@ -229,7 +229,7 @@ $lang = array_merge($lang, array(
 
 	'MUST_SELECT_RANK'		=> 'Vous devez sélectionner un rang.',
 
-	'NO_ASSIGNED_RANK'		=> 'Aucun rang spécial n’a été mis en place.',
+	'NO_ASSIGNED_RANK'		=> 'Aucun rang spécial n’a été spécifié.',
 	'NO_RANK_TITLE'			=> 'Vous n’avez pas spécifié le titre du rang.',
 	'NO_UPDATE_RANKS'		=> 'Le rang a été supprimé. Cependant, les comptes des utilisateurs qui utilisent ce rang n’ont pas été mis à jour. Vous devrez réinitialiser manuellement le rang de ces comptes.',
 
@@ -256,8 +256,8 @@ $lang = array_merge($lang, array(
 	'DISALLOWED_DELETED'		=> 'Le nom d’utilisateur interdit a été supprimé.',
 	'DISALLOW_SUCCESSFUL'		=> 'Le nom d’utilisateur interdit a été ajouté.',
 
-	'NO_DISALLOWED'				=> 'Aucun nom d’utilisateur interdit',
-	'NO_USERNAME_SPECIFIED'		=> 'Vous n’avez sélectionné aucun nom d’utilisateur afin d’effectuer cette opération.',
+	'NO_DISALLOWED'				=> 'Aucun nom d’utilisateur n’a été interdit',
+	'NO_USERNAME_SPECIFIED'		=> 'Aucun nom d’utilisateur permettant d’effectuer cette opération n’a été sélectionné.',
 ));
 
 // Reasons
