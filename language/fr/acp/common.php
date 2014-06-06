@@ -223,14 +223,18 @@ $lang = array_merge($lang, array(
 
 	'BACK'					=> 'Retour',
 
-	'CLI_DESCRIPTION_CRON_RUN'				=> 'Exécute toutes les tâches cron de prêtes.',
+	'CLI_DESCRIPTION_CRON_LIST'				=> 'Imprime une liste des tâches cron prêtes et non prêtes.',
+	'CLI_DESCRIPTION_CRON_RUN'				=> 'Exécute toutes les tâches cron prêtes.',
 	'CLI_DESCRIPTION_CRON_RUN_ARGUMENT_1'	=> 'Nom de la tâche à exécuter',
+
+	'CLI_DESCRIPTION_OPTION_SHELL'			=> 'Lancer la console.',
 
 	'COLOUR_SWATCH'			=> 'Palette de couleurs internet',
 	'CONFIG_UPDATED'		=> 'La configuration a été mise à jour.',
 	'CRON_LOCK_ERROR'		=> 'Impossible d’obtenir le verrouillage de cron.',
 	'CRON_NO_SUCH_TASK'		=> 'La tâche cron « %s » est introuvable.',
-	'CRON_NO_TASK'			=> 'No cron tasks need to be run right now.',
+	'CRON_NO_TASK'			=> 'Aucune tâche cron ne doit être exécutée.',
+	'CRON_NO_TASKS'			=> 'Aucune tâche cron n’est disponible.',
 
 	'DEACTIVATE'				=> 'Désactiver',
 	'DIRECTORY_DOES_NOT_EXIST'	=> 'Le chemin « %s » que vous avez spécifié n’existe pas.',
@@ -302,6 +306,8 @@ $lang = array_merge($lang, array(
 
 	'SHOW_ALL_OPERATIONS'	=> 'Afficher toutes les opérations',
 
+	'TASKS_NOT_READY'			=> 'Tâches non prêtes :',
+	'TASKS_READY'			=> 'Tâches prêtes :',
 	'TOTAL_SIZE'      		=> 'Taille totale',
 
 	'UCP'					=> 'Panneau de contrôle de l’utilisateur',
