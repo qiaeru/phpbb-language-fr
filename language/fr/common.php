@@ -171,6 +171,7 @@ $lang = array_merge($lang, array(
 	'CONNECTION_SUCCESS'	=> 'Vous êtes à présent connecté(e) !',
 	'CONTACT'				=> 'Contact',
 	'CONTACT_USER'			=> 'Contacter %s',
+	'CONTACT_US'			=> 'Nous contacter',
 	'COOKIES_DELETED'		=> 'Tous les cookies du forum ont été supprimés.',
 	'CURRENT_TIME'			=> 'Nous sommes actuellement le %s',
 
@@ -670,7 +671,7 @@ $lang = array_merge($lang, array(
 	'SELECT_ALL_CODE'			=> 'Tout sélectionner',
 	'SELECT_DESTINATION_FORUM'	=> 'Veuillez sélectionner un forum de destination',
 	'SELECT_FORUM'				=> 'Sélectionner un forum',
-	'SEND_EMAIL'				=> 'Courrier électronique',				// Used for submit buttons
+	'SEND_EMAIL'				=> 'Envoyer un courrier électronique',				// Used for submit buttons
 	'SEND_EMAIL_USER'			=> 'Envoyer un courrier électronique à %s',
 	'SEND_PRIVATE_MESSAGE'		=> 'Envoyer un message privé',
 	'SETTINGS'					=> 'Réglages',
@@ -734,7 +735,7 @@ $lang = array_merge($lang, array(
 	'TOO_SHORT_USER_PASSWORD'		=> 'Le mot de passe que vous avez spécifié est trop court.',
 	'TOO_SHORT_USERNAME'			=> 'Le nom d’utilisateur que vous avez spécifié est trop court.',
 	'TOO_SHORT_EMAIL'				=> 'L’adresse de courrier électronique que vous avez spécifiée est trop courte.',
-
+	'TOO_SHORT_EMAIL_CONFIRM'		=> 'L’adresse de courrier électronique de confirmation que vous avez spécifiée est trop courte.',
 	'TOO_SMALL'						=> 'La valeur que vous avez spécifiée est trop faible.',
 	'TOO_SMALL_MAX_RECIPIENTS'		=> 'La valeur du réglage <strong>Nombre maximal de destinataires autorisés par message privé</strong> que vous avez spécifiée est trop faible.',
 

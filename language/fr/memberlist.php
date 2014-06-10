@@ -49,6 +49,8 @@ $lang = array_merge($lang, array(
 	'BEFORE'				=> 'Avant',
 
 	'CC_EMAIL'				=> 'S’envoyer une copie de ce courrier électronique.',
+	'CONTACT_USER'			=> 'Contacter',
+	'CONTACT_ADMIN'			=> 'Contacter un administrateur du forum',
 
 	'DEST_LANG'				=> 'Langue',
 	'DEST_LANG_EXPLAIN'		=> 'Sélectionnez une langue appropriée, si elle existe, concernant le destinataire du message.',
@@ -57,10 +59,12 @@ $lang = array_merge($lang, array(
 	'EMAIL_DISABLED'		=> 'Toutes les fonctionnalités liées aux courriers électroniques ont été désactivées.',
 	'EMAIL_SENT'			=> 'Le courrier électronique a été envoyé.',
 	'EMAIL_TOPIC_EXPLAIN'	=> 'Le message sera envoyé en texte brut, n’utilisez aucun code HTML ou BBCode. Veuillez noter que le contenu du sujet est déjà intégré au message. L’adresse de retour du message correspond à votre adresse de courrier électronique.',
-	'EMPTY_ADDRESS_EMAIL'	=> 'Vous devez fournir une adresse de courrier électronique correcte concernant le destinataire.',
+	'EMPTY_ADDRESS_EMAIL'	=> 'Vous devez saisir une adresse de courrier électronique correcte concernant le destinataire.',
 	'EMPTY_MESSAGE_EMAIL'	=> 'Vous devez saisir un message afin d’envoyer un courrier électronique.',
 	'EMPTY_MESSAGE_IM'		=> 'Vous devez saisir le contenu du message afin d’envoyer ce dernier.',
 	'EMPTY_NAME_EMAIL'		=> 'Vous devez saisir le nom réel du destinataire.',
+	'EMPTY_SENDER_EMAIL'	=> 'Vous devez saisir une adresse de courrier électronique correcte.',
+	'EMPTY_SENDER_NAME'		=> 'Vous devez spécifier un nom.',
 	'EMPTY_SUBJECT_EMAIL'	=> 'Vous devez saisir le sujet du courrier électronique.',
 	'EQUAL_TO'				=> 'Égal à',
 
@@ -98,6 +102,8 @@ $lang = array_merge($lang, array(
 
 	'MORE_THAN'				=> 'Plus que',
 
+	'NO_CONTACT_FORM'		=> 'Le formulaire de contact de l’administrateur du forum a été désactivé.',
+	'NO_CONTACT_PAGE'		=> 'La page de contact de l’administrateur du forum a été désactivée.',
 	'NO_EMAIL'				=> 'Vous ne pouvez pas envoyer de courrier électronique à cet utilisateur.',
 	'NO_VIEW_USERS'			=> 'Vous ne pouvez pas consulter la liste des membres et le profil des utilisateurs.',
 
@@ -113,6 +119,8 @@ $lang = array_merge($lang, array(
 
 	'SELECT_MARKED'			=> 'Sélectionner la sélection',
 	'SELECT_SORT_METHOD'	=> 'Sélectionner la méthode de tri',
+	'SENDER_EMAIL_ADDRESS'	=> 'Votre adresse de courrier électronique',
+	'SENDER_NAME'			=> 'Votre nom',
 	'SEND_ICQ_MESSAGE'		=> 'Envoyer un message ICQ',
 	'SEND_IM'				=> 'Messagerie instantanée',
 	'SEND_JABBER_MESSAGE'	=> 'Envoyer un message Jabber',

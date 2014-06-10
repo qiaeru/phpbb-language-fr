@@ -75,6 +75,8 @@ $lang = array_merge($lang, array(
 	'ACP_CAT_USERS'				=> 'Utilisateurs',
 	'ACP_CLIENT_COMMUNICATION'	=> 'Communication',
 	'ACP_COOKIE_SETTINGS'		=> 'Réglages des cookies',
+	'ACP_CONTACT'				=> 'Page de contact',
+	'ACP_CONTACT_SETTINGS'		=> 'Réglages de la page de contact',
 	'ACP_CRITICAL_LOGS'			=> 'Historique des erreurs',
 	'ACP_CUSTOM_PROFILE_FIELDS'	=> 'Champs de profil personnalisés',
 

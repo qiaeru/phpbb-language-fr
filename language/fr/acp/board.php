@@ -352,6 +352,19 @@ $lang = array_merge($lang, array(
 	'SESSION_LENGTH_EXPLAIN'	=> 'Le nombre de secondes qui s’écouleront avant que les sessions expirent.',
 ));
 
+// Contact Settings
+$lang = array_merge($lang, array(
+	'ACP_CONTACT_SETTINGS_EXPLAIN'		=> 'Vous pouvez activer, modifier et désactiver sur cette page la page de contact.',
+
+	'CONTACT_US_ENABLE'				=> 'Activer la page de contact',
+	'CONTACT_US_ENABLE_EXPLAIN'		=> 'Cette page permet aux utilisateurs d’envoyer des courriers électroniques aux administrateurs du forum',
+
+	'CONTACT_US_INFO'				=> 'Informations de la page de contact',
+	'CONTACT_US_INFO_EXPLAIN'		=> 'Le message est affiché sur la page de contact',
+	'CONTACT_US_INFO_PREVIEW'		=> 'Informations de la page de contact - Prévisualisation',
+	'CONTACT_US_INFO_UPDATED'		=> 'Les informations de la page de contact ont été mises à jour.',
+));
+
 // Load Settings
 $lang = array_merge($lang, array(
 	'ACP_LOAD_SETTINGS_EXPLAIN'	=> 'Vous pouvez activer et désactiver sur cette page certaines fonctionnalités du forum qui pourront réduire la quantité de processus actifs. Sur la plupart des serveurs, il n’est pas nécessaire de désactiver ces fonctionnalités. Cependant, sur certains systèmes d’exploitation ou offres d’hébergement mutualisé, il est préférable de désactiver certaines fonctionnalités dont vous n’avez pas réellement besoin. Vous pouvez également limiter certains réglages relatifs à la charge du système et aux sessions actives qui désactiveront automatiquement votre forum si les valeurs sont dépassées.',
