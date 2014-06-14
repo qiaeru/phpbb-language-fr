@@ -691,8 +691,8 @@ $lang = array_merge($lang, array(
 	'LOG_PRUNE_USER_DEL_DEL'	=> '<strong>Délestage d’utilisateurs et suppression de leurs messages</strong><br />» %s',
 	'LOG_PRUNE_USER_DEL_ANON'	=> '<strong>Délestage d’utilisateurs et préservation de leurs messages</strong><br />» %s',
 
-	'LOG_PURGE_CACHE'			=> '<strong>Vidage du cache</strong>',
-	'LOG_PURGE_SESSIONS'		=> '<strong>Vidage des sessions</strong>',
+	'LOG_PURGE_CACHE'			=> '<strong>Purge du cache</strong>',
+	'LOG_PURGE_SESSIONS'		=> '<strong>Purge des sessions</strong>',
 
 	'LOG_RANK_ADDED'		=> '<strong>Ajout d’un nouveau rang</strong><br />» %s',
 	'LOG_RANK_REMOVED'		=> '<strong>Suppression d’un rang</strong><br />» %s',
