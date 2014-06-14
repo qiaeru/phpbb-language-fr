@@ -414,7 +414,7 @@ $lang = array_merge($lang, array(
 	'AUTH_METHOD'				=> 'Sélectionner une méthode d’authentification',
 
 	'AUTH_PROVIDER_OAUTH_ERROR_ELEMENT_MISSING'	=> 'Vous devez renseigner la clé et le secret pour chaque fournisseur de service OAuth. Seule une de ces données a été renseignée dans le cas d’un fournisseur de service OAuth.',
-	'AUTH_PROVIDER_OAUTH_EXPLAIN'				=> 'Chaque fournisseur de service OAuth doit être renseigné par une clé et un secret unique afin de pouvoir se faire authentifier par le serveur externe.<br />Ces données sont fournies par le service OAuth lors de l’inscription de votre site internet à leurs services et doivent être saisies telles quelles.<br />Chaque service qui n’est pas renseigné de ces deux données ne sera pas accessible aux utilisateurs du forum.',
+	'AUTH_PROVIDER_OAUTH_EXPLAIN'				=> 'Chaque fournisseur de service OAuth doit être renseigné par une clé et un secret unique afin de pouvoir se faire authentifier par le serveur externe. Ces données sont fournies par le service OAuth lors de l’inscription de votre site internet à leurs services et doivent être saisies telles quelles.<br />Chaque service qui n’est pas renseigné de ces deux données ne sera pas accessible aux utilisateurs du forum. Veuillez noter que les utilisateurs pourront toujours s’inscrire et se connecter en utilisant le module d’extension d’authentification de la base de données.',
 	'AUTH_PROVIDER_OAUTH_KEY'					=> 'Clé',
 	'AUTH_PROVIDER_OAUTH_TITLE'					=> 'OAuth',
 	'AUTH_PROVIDER_OAUTH_SECRET'				=> 'Secret',
