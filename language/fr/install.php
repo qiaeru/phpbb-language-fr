@@ -283,7 +283,7 @@ $lang = array_merge($lang, array(
 	'MYSQL_SCHEMA_UPDATE_REQUIRED'	=> 'Le schéma de votre base de données MySQL est obsolète. phpBB a détecté un schéma pour MySQL 3.x/4.x, mais le serveur fonctionne avec MySQL %2$s.<br /><strong>Vous devez mettre à jour le schéma avant de procéder à la mise à jour.</strong><br /><br />Veuillez consulter l’<a href="https://www.phpbb.com/kb/article/doesnt-have-a-default-value-errors/">article de la base de connaissances à propos de la mise à jour du schéma MySQL</a>. Si vous rencontrez des difficultés lors de la mise à jour, veuillez demander de l’aide sur <a href="https://www.phpbb.com/community/viewforum.php?f=46">nos forums de support</a>.',
 
 	'NAMING_CONFLICT'			=> 'Conflit d’appellation : %s et %s sont tous les deux des alias<br /><br />%s',
-	'NEXT_STEP'					=> 'Aller à l’étape suivante',
+	'NEXT_STEP'					=> 'Passer à l’étape suivante',
 	'NOT_FOUND'					=> 'Introuvable',
 	'NOT_UNDERSTAND'			=> 'Impossible d’interpréter %s #%d, table %s (« %s »)',
 	'NO_CONVERTORS'				=> 'Aucun convertisseur n’est disponible.',

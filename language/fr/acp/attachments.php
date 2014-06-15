@@ -112,7 +112,7 @@ $lang = array_merge($lang, array(
 	'FILES_GONE'			=> 'Certaines des pièces jointes que vous souhaitez supprimer sont introuvables. Elles ont peut-être déjà été supprimées. Les pièces jointes trouvées ont été supprimées.',
 	'FILES_STATS_WRONG'		=> 'Les fichiers statistiques semblent contenir des informations erronées et doivent être resynchronisés. Les valeurs actuelles de ces derniers sont les suivantes : nombre de pièces jointes = %1$d, taille des pièces jointes = %2$s.<br />Veuillez cliquer %3$sici%4$s afin de synchroniser les fichiers statistiques.',
 
-	'GO_TO_EXTENSIONS'		=> 'Aller sur le page de gestion des extensions',
+	'GO_TO_EXTENSIONS'		=> 'Aller sur la page de gestion des extensions',
 	'GROUP_NAME'			=> 'Nom du groupe d’extensions',
 
 	'IMAGE_LINK_SIZE'			=> 'Dimensions maximales des images avant la mise en lien',
