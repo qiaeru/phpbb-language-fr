@@ -28,9 +28,9 @@ Version
 
 The latest language package version publicly available at this time. This might be a development version.
 
-  - **Version:** 2.0.0-dev (Build 95)
-  - **Release Date:** June 14, 2014
-  - **Forum Software Compatibility:** [phpBB 3.1.0-b5-dev (Build 1554)] [2]
+  - **Version:** 2.0.0-dev (Build 96)
+  - **Release Date:** June 15, 2014
+  - **Forum Software Compatibility:** [phpBB 3.1.0-b5-dev (Build 1558)] [2]
 
 Support
 -------
@@ -55,7 +55,7 @@ Please note that development versions (recognizable with the use of *-dev* in th
 
 Once the compressed language package downloaded, you will need to extract (or unzip) the archive.
 
-The *language/* folder will contain the language files and the *styles/* folder will contain the localized images for the prosilver style.
+The *language/* folder will contain the language files and the *styles/* folder will contain a localized image for the prosilver style.
 
 Please note that if you are using a style other than prosilver, you will need to copy the appropriate localized images into the theme-images folder of your custom style.
 
@@ -117,7 +117,7 @@ Because the forum software is released under the [GNU General Public License 2.0
 Please note that the full notice of the license is available for reading from the [LICENSE] [7] file.
 
 [1]:https://www.maelsoucaze.com/
-[2]:https://bamboo.phpbb.com/browse/PHPBB3-DEVELOP-1554
+[2]:https://bamboo.phpbb.com/browse/PHPBB3-DEVELOP-1558
 [3]:https://www.phpbb.com/customise/db/translation/french/support/
 [4]:https://www.phpbb.com/community/ucp.php?mode=register
 [5]:http://en.wikipedia.org/wiki/File_Transfer_Protocol
