@@ -56,7 +56,7 @@ $lang = array_merge($lang, array(
 	'IGNORED_TERMS'			=> 'ignorés',
 	'IGNORED_TERMS_EXPLAIN'	=> 'Les mots suivants ont été ignorés lors de votre recherche car ils sont considérés comme trop courants : <strong>%s</strong>.',
 
-	'JUMP_TO_POST'			=> 'Sauter vers le message',
+	'JUMP_TO_POST'			=> 'Atteindre le message',
 
 	'LOGIN_EXPLAIN_EGOSEARCH'	=> 'Vous devez vous inscrire et vous connecter afin de consulter vos messages.',
 	'LOGIN_EXPLAIN_UNREADSEARCH'=> 'Vous devez vous inscrire et vous connecter afin de consulter vos messages non lus.',
