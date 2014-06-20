@@ -341,7 +341,7 @@ $lang = array_merge($lang, array(
 	'JUMP_PAGE'				=> 'Saisissez le numéro de la page que vous souhaitez atteindre',
 	'JUMP_TO'				=> 'Atteindre',
 	'JUMP_TO_PAGE'			=> 'Atteindre la page',
-	'JUMP_TO_PAGE_CLICK'	=> 'Cliquez ici afin d’atteindre la page…',
+	'JUMP_TO_PAGE_CLICK'	=> 'Cliquez ici afin d’atteindre une page…',
 
 	'KB'					=> 'Ko',
 	'KIB'					=> 'Kio',
