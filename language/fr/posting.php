@@ -256,6 +256,8 @@ $lang = array_merge($lang, array(
 
 	'UNAUTHORISED_BBCODE'		=> 'Vous ne pouvez pas utiliser certains BBCodes : %s.',
 	'UNGLOBALISE_EXPLAIN'		=> 'Pour rétablir cette annonce générale en sujet standard, vous devez sélectionner le forum dans lequel vous souhaitez que ce sujet soit affiché.',
+	'UNSUPPORTED_CHARACTERS_MESSAGE'	=> 'Votre message contient les caractères non supportés suivants :<br />%s',
+	'UNSUPPORTED_CHARACTERS_SUBJECT'	=> 'Votre sujet contient les caractères non supportés suivants :<br />%s',
 	'UPDATE_COMMENT'			=> 'Mettre à jour la description',
 	'URL_INVALID'				=> 'Le lien que vous avez spécifié est incorrect.',
 	'URL_NOT_FOUND'				=> 'Le fichier que vous avez spécifié est introuvable.',
