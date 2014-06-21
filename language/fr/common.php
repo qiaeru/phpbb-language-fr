@@ -225,6 +225,7 @@ $lang = array_merge($lang, array(
 	'EXTENSION_DISABLED_AFTER_POSTING'	=> 'L’extension <strong>%s</strong> a été désactivée et ne peut plus être affichée.',
 	'EXTENSION_DOES_NOT_EXIST'			=> 'L’extension <strong>%s</strong> n’existe pas.',
 
+	'FACEBOOK'				=> 'Facebook',
 	'FAQ'					=> 'FAQ',
 	'FAQ_EXPLAIN'			=> 'Foire aux questions',
 	'FILENAME'				=> 'Nom du fichier',
@@ -678,6 +679,7 @@ $lang = array_merge($lang, array(
 	'SETTINGS'					=> 'Réglages',
 	'SIGNATURE'					=> 'Signature',
 	'SKIP'						=> 'Accéder au contenu',
+	'SKYPE'						=> 'Skype',
 	'SMTP_NO_AUTH_SUPPORT'		=> 'Le serveur SMTP ne supporte pas l’authentification.',
 	'SORRY_AUTH_READ'			=> 'Vous ne pouvez pas consulter ce forum.',
 	'SORRY_AUTH_VIEW_ATTACH'	=> 'Vous ne pouvez pas télécharger cette pièce jointe.',
@@ -773,6 +775,7 @@ $lang = array_merge($lang, array(
 		2	=> '<strong>%d</strong> membres',
 	),
 	'TRACKED_PHP_ERROR'	=> 'Erreurs PHP survenues : %s',
+	'TWITTER'			=> 'Twitter',
 
 	'UNABLE_GET_IMAGE_SIZE'	=> 'Il n’a pas été possible de déterminer les dimensions de l’image. Veuillez vérifier que le lien que vous avez saisi est correct.',
 	'UNABLE_TO_DELIVER_FILE'=> 'Impossible de délivrer le fichier.',
@@ -858,6 +861,7 @@ $lang = array_merge($lang, array(
 	'WROTE'						=> 'a écrit',
 
 	'YAHOO'				=> 'Yahoo Messenger',
+	'YOUTUBE'			=> 'YouTube',
 	'YEAR'				=> 'Année',
 	'YEAR_MONTH_DAY'	=> '(AAAA-MM-JJ)',
 	'YES'				=> 'Oui',
