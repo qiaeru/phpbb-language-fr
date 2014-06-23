@@ -142,7 +142,6 @@ $lang = array_merge($lang, array(
 	'DEV_NO_TEST_FILE'			=> 'Aucune valeur n’a été spécifiée dans le convertisseur concernant la variable test_file. Si vous êtes un utilisateur de ce convertisseur, veuillez rapporter ce message à l’auteur du convertisseur car vous ne devriez pas avoir cette erreur. Si vous êtes l’auteur du convertisseur, vous devez saisir le nom du fichier qui existe dans le forum source afin de permettre le bon fonctionnement de la vérification du chemin.',
 	'DIRECTORIES_AND_FILES'		=> 'Installation des répertoires et des fichiers',
 	'DISABLE_KEYS'				=> 'Désactivation des clés',
-	'DLL_FIREBIRD'				=> 'Firebird',
 	'DLL_FTP'					=> 'Support du FTP à distance [ Installation ]',
 	'DLL_GD'					=> 'Support de la bibliothèque graphique GD [ Confirmation visuelle ]',
 	'DLL_MBSTRING'				=> 'Support des caractères multi-octets',
@@ -170,8 +169,6 @@ $lang = array_merge($lang, array(
 	'FILES_REQUIRED_EXPLAIN'	=> '<strong>Obligatoire</strong> - Pour fonctionner correctement, phpBB doit pouvoir accéder ou écrire sur certains fichiers et certains répertoires. Si « Introuvable » est affiché, vous devrez créer le fichier ou le répertoire approprié. Si « Écriture impossible » est affiché, vous devrez modifier les permissions du fichier ou du répertoire afin que phpBB puisse écrire sur ce dernier.',
 	'FILLING_TABLE'				=> 'Remplissage de la table <strong>%s</strong>',
 	'FILLING_TABLES'			=> 'Remplissage des tables',
-
-	'FIREBIRD_DBMS_UPDATE_REQUIRED'		=> 'phpBB ne prend plus en charge les versions de Firebird/Interbase antérieures à la version 2.1. Veuillez mettre à jour votre installation de Firebird vers une version égale ou supérieure à la 2.1.0 avant de procéder à la mise à jour.',
 
 	'FINAL_STEP'				=> 'Procéder à l’étape finale',
 	'FORUM_ADDRESS'				=> 'Adresse du forum',
@@ -216,7 +213,6 @@ $lang = array_merge($lang, array(
 		<li>PostgreSQL 8.3+</li>
 		<li>SQLite 2.8.2+</li>
 		<li>SQLite 3.6.15+</li>
-		<li>Firebird 2.1+</li>
 		<li>MS SQL Server 2000 ou supérieur (directement ou par l’intermédiaire d’ODBC)</li>
 		<li>MS SQL Server 2005 ou supérieur (en natif)</li>
 		<li>Oracle</li>
@@ -241,8 +237,6 @@ $lang = array_merge($lang, array(
 	'INST_ERR_DB_NO_SQLITE'		=> 'La version de l’extension SQLite qui est installée sur votre serveur est obsolète, elle doit être mise à jour vers la version 2.8.2 ou supérieure.',
 	'INST_ERR_DB_NO_SQLITE3'	=> 'La version de l’extension SQLite qui est installée sur votre serveur est obsolète, elle doit être mise à jour vers la version 3.6.15 ou supérieure.',
 	'INST_ERR_DB_NO_ORACLE'		=> 'La version d’Oracle qui est installée sur votre serveur nécessite le réglage du paramètre <var>NLS_CHARACTERSET</var> sur <var>UTF8</var>. Veuillez mettre à jour votre version vers la 9.2+ ou modifier ce paramètre.',
-	'INST_ERR_DB_NO_FIREBIRD'	=> 'La version de Firebird qui est installée sur votre serveur semble obsolète, elle doit être mise à jour vers la version 2.1 ou supérieure.',
-	'INST_ERR_DB_NO_FIREBIRD_PS'=> 'La base de données que vous avez sélectionnée pour Firebird a une taille de pages inférieure à 8192. Veuillez augmenter cette taille.',
 	'INST_ERR_DB_NO_POSTGRES'	=> 'La base de données que vous avez sélectionnée n’est pas encodée en <var>UNICODE</var> ou en <var>UTF8</var>. Veuillez sélectionner une base de données supportant un de ces encodages.',
 	'INST_ERR_DB_NO_NAME'		=> 'Vous devez saisir le nom de la base de données.',
 	'INST_ERR_EMAIL_INVALID'	=> 'L’adresse de courrier électronique que vous avez spécifiée est incorrecte.',
