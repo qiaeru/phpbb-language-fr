@@ -109,6 +109,7 @@ $lang = array_merge($lang, array(
 	'AVATAR_PARTIAL_UPLOAD'			=> 'Le fichier que vous avez spécifié n’a été que partiellement transféré.',
 	'AVATAR_PHP_SIZE_NA'			=> 'La taille de l’avatar est trop importante.<br />La taille maximale autorisée, située dans le fichier php.ini, n’a pas pu être déterminée.',
 	'AVATAR_PHP_SIZE_OVERRUN'		=> 'La taille de l’avatar est trop importante. La taille maximale autorisée est de %1$d %2$s.<br />Veuillez noter que ce réglage est situé dans le fichier php.ini et qu’il ne peut pas être écrasé.',
+	'AVATAR_REMOTE_UPLOAD_TIMEOUT'		=> 'L’avatar que vous avez spécifié n’a pu être transféré car la requête a expiré.',
 	'AVATAR_URL_INVALID'			=> 'Le lien que vous avez spécifié est incorrect.',
 	'AVATAR_URL_NOT_FOUND'			=> 'Le fichier que vous avez spécifié est introuvable.',
 	'AVATAR_WRONG_FILESIZE'			=> 'La taille de l’avatar doit être comprise entre 0 et %1$d %2$s.',

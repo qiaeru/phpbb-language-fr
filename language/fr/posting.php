@@ -225,6 +225,7 @@ $lang = array_merge($lang, array(
 	),
 	'QUOTE_NO_NESTING'			=> 'Vous ne pouvez pas insérer de citations imbriquées.',
 
+	'REMOTE_UPLOAD_TIMEOUT'		=> 'Le fichier que vous avez spécifié n’a pu être transféré car la requête a expiré.',
 	'SAVE'						=> 'Enregistrer',
 	'SAVE_DATE'					=> 'Enregistré le',
 	'SAVE_DRAFT'				=> 'Enregistrer comme brouillon',
