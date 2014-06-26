@@ -357,6 +357,7 @@ $lang = array_merge($lang, array(
 	),
 	'NO_ACTION_MODE'				=> 'Aucune opération n’a été sélectionnée.',
 	'NO_AUTHOR'						=> 'Aucun auteur n’a été spécifié',
+	'NO_AVATAR'						=> 'Aucun avatar n’a été sélectionné',
 	'NO_AVATAR_CATEGORY'			=> 'Aucune',
 
 	'NO_AUTH_DELETE_MESSAGE'		=> 'Vous ne pouvez pas supprimer les messages privés.',

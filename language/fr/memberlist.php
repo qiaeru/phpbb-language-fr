@@ -49,7 +49,6 @@ $lang = array_merge($lang, array(
 	'BEFORE'				=> 'Avant',
 
 	'CC_EMAIL'				=> 'S’envoyer une copie de ce courrier électronique.',
-	'CONTACT_USER'			=> 'Contacter',
 	'CONTACT_ADMIN'			=> 'Contacter un administrateur du forum',
 
 	'DEST_LANG'				=> 'Langue',
