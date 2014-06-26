@@ -93,7 +93,7 @@ $help = array(
 	),
 	array(
 		0 => 'Ma langue n’apparaît pas dans la liste !',
-		1 => 'Soit l’administrateur n’a pas installé votre langue sur le forum, soit personne n’a encore traduit le logiciel dans votre langue. Essayez de demander à un administrateur du forum s’il est possible qu’il puisse installer l’archive de langue que vous souhaitez. Si l’archive de langue désirée n’existe pas, vous êtes libre de vous porter volontaire et commencer une nouvelle traduction. Pour plus d’informations, veuillez vous rendre sur le site officiel (accessible depuis un des liens situés en bas de toutes les pages du forum).'
+		1 => 'Soit l’administrateur n’a pas installé votre langue sur le forum, soit personne n’a encore traduit le logiciel dans votre langue. Essayez de demander à un administrateur du forum s’il est possible qu’il puisse installer la traduction que vous souhaitez. Si la traduction désirée n’existe pas, vous êtes libre de vous porter volontaire et commencer une nouvelle traduction. Pour plus d’informations, veuillez vous rendre sur le site officiel (accessible depuis un des liens situés en bas de toutes les pages du forum).'
 	),
 	array(
 		0 => 'Comment puis-je afficher une image associée à mon nom d’utilisateur ?',
