@@ -28,8 +28,8 @@ Version
 
 The latest language package version publicly available at this time. This might be a development version.
 
-  - **Version:** 2.0.0-dev (Build 104)
-  - **Release Date:** June 28, 2014
+  - **Version:** 2.0.0-dev (Build 105)
+  - **Release Date:** June 29, 2014
   - **Forum Software Compatibility:** [phpBB 3.1.0-RC2-dev (Build 1601)] [2]
 
 Support
@@ -107,7 +107,7 @@ Once set, the French language will be associated with your account regardless of
 
 #### Update the language package
 
-When a new version of the forum software is released and your board is updated, only the default British English language package will be up-to-date. That is why you will need to obtain the updated French language package from the download locations listed at the top of this page.
+When a new version of the forum software is released and your board is updated, only the default British English language package will be up-to-date. That is why you will need to download the latest French language package version.
 
 Once the French language package downloaded, you just have to extract the compressed archive, upload the *language/* and *styles/* folders to your server and replace the existing files. This will update the French language package.
 
