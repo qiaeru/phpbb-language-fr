@@ -28,7 +28,7 @@ Version
 
 The latest language package version publicly available at this time. This might be a development version.
 
-  - **Version:** 2.0.0-dev (Build 106)
+  - **Version:** 2.0.0-dev (Build 107)
   - **Release Date:** July 4, 2014
   - **Forum Software Compatibility:** [phpBB 3.1.0-RC2-dev (Build 1611)] [2]
 
