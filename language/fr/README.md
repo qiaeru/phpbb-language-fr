@@ -19,6 +19,7 @@ Special thanks to all contributors who helped to improve the language package. A
   - Bernard Andrieux
   - Citillara
   - Elglobo
+  - Gilles 'Draky' Wittezaele
   - Gwanda
   - Terry Ellison
   - tuxun
@@ -28,9 +29,9 @@ Version
 
 The latest language package version publicly available at this time. This might be a development version.
 
-  - **Version:** 2.0.0-dev (Build 107)
-  - **Release Date:** July 4, 2014
-  - **Forum Software Compatibility:** [phpBB 3.1.0-RC2-dev (Build 1611)] [2]
+  - **Version:** 2.0.0-dev (Build 108)
+  - **Release Date:** July 5, 2014
+  - **Forum Software Compatibility:** [phpBB 3.1.0-RC2-dev (Build 1613)] [2]
 
 Support
 -------
@@ -119,7 +120,7 @@ Because the forum software is released under the [GNU General Public License 2.0
 Please note that the full notice of the license is available for reading from the [LICENSE] [7] file.
 
 [1]:https://www.maelsoucaze.com/
-[2]:https://bamboo.phpbb.com/browse/PHPBB3-DEVELOP-1611
+[2]:https://bamboo.phpbb.com/browse/PHPBB3-DEVELOP-1613
 [3]:https://www.phpbb.com/customise/db/translation/french/support/
 [4]:https://www.phpbb.com/community/ucp.php?mode=register
 [5]:http://en.wikipedia.org/wiki/File_Transfer_Protocol
