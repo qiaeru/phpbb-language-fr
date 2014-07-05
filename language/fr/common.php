@@ -620,7 +620,7 @@ $lang = array_merge($lang, array(
 		2	=> '%d inscrits',
 	),
 	'REMOVE'					=> 'Supprimer',
-	'REMOVE_INSTALL'			=> 'Veuillez supprimer, déplacer ou renommer le répertoire « install » de votre serveur afin d’utiliser votre forum. Tant que ce répertoire est présent, seul le panneau de contrôle d’administration ne sera accessible.',
+	'REMOVE_INSTALL'			=> 'Veuillez supprimer, déplacer ou renommer le répertoire « install » de votre serveur afin d’utiliser votre forum. Tant que ce répertoire est présent, seul le panneau de contrôle d’administration sera accessible.',
 	'REPLIES'					=> 'Réponses',
 	'REPLY_WITH_QUOTE'			=> 'Répondre en citant',
 	'REPLYING_GLOBAL_ANNOUNCE'	=> 'Répond à une annonce générale',
