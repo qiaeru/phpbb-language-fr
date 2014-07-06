@@ -41,11 +41,15 @@ if (empty($lang) || !is_array($lang))
 // Forum Admin
 $lang = array_merge($lang, array(
 	'AUTO_PRUNE_DAYS'			=> 'Intervalle du délestage automatique des sujets inactifs',
-	'AUTO_PRUNE_DAYS_EXPLAIN'	=> 'Le nombre de jours qui s’écouleront entre la dernière publication d’un message dans un sujet et la suppression de ce même sujet.',
+	'AUTO_PRUNE_DAYS_EXPLAIN'	=> 'Le nombre de jours qui s’écouleront entre la dernière publication d’un message dans un sujet et la suppression du sujet.',
 	'AUTO_PRUNE_FREQ'			=> 'Fréquence du délestage automatique',
 	'AUTO_PRUNE_FREQ_EXPLAIN'	=> 'Le nombre de jours qui s’écouleront entre les délestages automatiques.',
 	'AUTO_PRUNE_VIEWED'			=> 'Intervalle du délestage automatique des sujets impopulaires',
-	'AUTO_PRUNE_VIEWED_EXPLAIN'	=> 'Le nombre de jours qui s’écouleront entre la dernière consultation d’un message d’un sujet et la suppression de ce même sujet.',
+	'AUTO_PRUNE_VIEWED_EXPLAIN'	=> 'Le nombre de jours qui s’écouleront entre la dernière consultation d’un sujet et la suppression du sujet.',
+	'AUTO_PRUNE_SHADOW_FREQ'	=> 'Fréquence du délestage automatique des redirections de sujet',
+	'AUTO_PRUNE_SHADOW_DAYS'	=> 'Intervalle du délestage automatique des redirections de sujet',
+	'AUTO_PRUNE_SHADOW_DAYS_EXPLAIN'	=> 'Le nombre de jours qui s’écouleront entre la dernière visite d’une redirection de sujet et la suppression de la redirection de sujet.',
+	'AUTO_PRUNE_SHADOW_FREQ_EXPLAIN'	=> 'Le nombre de jours qui s’écouleront entre les délestages automatiques.',
 
 	'CONTINUE'						=> 'Continuer',
 	'COPY_PERMISSIONS'				=> 'Copier les permissions',
