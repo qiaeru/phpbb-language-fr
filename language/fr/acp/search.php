@@ -62,7 +62,6 @@ $lang = array_merge($lang, array(
 	'FULLTEXT_MYSQL_MAX_SEARCH_CHARS_EXPLAIN'	=> 'Les mots ne contenant pas plus de caractères que ce nombre seront indexés. Seul vous et votre hébergeur internet êtes en mesure de modifier ce réglage par la configuration de MySQL.',
 
 	'FULLTEXT_POSTGRES_INCOMPATIBLE_DATABASE'	=> 'L’indexation plein texte de PostgreSQL ne peut être utilisée qu’avec PostgreSQL.',
-	'FULLTEXT_POSTGRES_TS_NOT_USABLE'	=> 'L’indexation plein texte de PostgreSQL ne peut être utilisée qu’avec PostgreSQL 8.3 ou ses versions plus récentes.',
 	'FULLTEXT_POSTGRES_TOTAL_POSTS'			=> 'Nombre total de messages indexés',
 	'FULLTEXT_POSTGRES_VERSION_CHECK'		=> 'Version de PostgreSQL :',
 	'FULLTEXT_POSTGRES_TS_NAME'				=> 'Profil de configuration de la recherche de texte :',
