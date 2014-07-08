@@ -83,11 +83,11 @@ $help = array(
 	),
 	array(
 		0 => 'Comment puis-je modifier mes réglages ?',
-		1 => 'Si vous êtes un utilisateur inscrit, tous vos réglages sont stockés dans la base de données du forum. Si vous souhaitez les modifier, rendez-vous sur votre panneau de contrôle de l’utilisateur ; ce lien se situe généralement en haut des pages du forum. Ce système vous permettra de modifier tous vos réglages et toutes vos préférences.'
+		1 => 'Si vous êtes un utilisateur inscrit, tous vos réglages sont stockés dans la base de données du forum. Vous pouvez les modifier depuis le panneau de contrôle de l’utilisateur ; le lien vers ce dernier se situe généralement en haut des pages du forum. Ce système vous permettra de modifier tous vos réglages et toutes vos préférences.'
 	),
 	array(
 		0 => 'L’heure n’est pas correcte !',
-		1 => 'Il est possible que l’heure affichée soit réglée sur un fuseau horaire différent de celui dans lequel vous êtes. Si tel était le cas, rendez-vous sur votre panneau de contrôle de l’utilisateur et réglez le fuseau horaire afin de trouver votre zone adéquate, par exemple Londres, Paris, New York, Sydney, etc. Veuillez noter que le réglage du fuseau horaire, comme la plupart des autres réglages, n’est accessible qu’aux utilisateurs inscrits. Si vous n’êtes pas inscrit, c’est l’occasion idéale de le faire.'
+		1 => 'Il est possible que l’heure affichée soit réglée sur un fuseau horaire différent de celui dans lequel vous êtes. Si tel était le cas, rendez-vous dans le panneau de contrôle de l’utilisateur et réglez le fuseau horaire afin de trouver votre zone adéquate, par exemple Londres, Paris, New York, Sydney, etc. Veuillez noter que le réglage du fuseau horaire, comme la plupart des autres réglages, n’est accessible qu’aux utilisateurs inscrits. Si vous n’êtes pas inscrit, c’est l’occasion idéale de le faire.'
 	),
 	array(
 		0 => 'J’ai réglé le fuseau horaire mais l’heure n’est toujours pas correcte !',
@@ -123,7 +123,7 @@ $help = array(
 	),
 	array(
 		0 => 'Comment puis-je insérer une signature à un message ?',
-		1 => 'Pour insérer une signature à un message, vous devez tout d’abord en créer une par l’intermédiaire de votre panneau de contrôle de l’utilisateur. Une fois créée, vous pouvez cocher la case <em>Insérer une signature</em> sur le formulaire de rédaction afin d’insérer votre signature. Vous pouvez également ajouter une signature qui sera insérée à tous vos messages en cochant la case appropriée dans votre profil. Si vous choisissez cette dernière option, il ne vous sera plus utile de spécifier sur chaque message votre souhait d’insérer votre signature.'
+		1 => 'Pour insérer une signature à un message, vous devez tout d’abord en créer une depuis le panneau de contrôle de l’utilisateur. Une fois créée, vous pouvez cocher la case <em>Insérer une signature</em> sur le formulaire de rédaction afin d’insérer votre signature. Vous pouvez également ajouter une signature qui sera insérée à tous vos messages en cochant la case appropriée dans le panneau de contrôle de l’utilisateur. Si vous choisissez cette dernière option, il ne vous sera plus utile de spécifier sur chaque message votre souhait d’insérer votre signature.'
 	),
 	array(
 		0 => 'Comment puis-je créer un sondage ?',
@@ -155,7 +155,7 @@ $help = array(
 	),
 	array(
 		0 => 'À quoi sert le bouton « Enregistrer comme brouillon » affiché lors de la rédaction d’un sujet ?',
-		1 => 'Il vous permet d’enregistrer comme brouillons les messages que vous souhaitez finaliser et publier ultérieurement. Rendez-vous sur votre panneau de contrôle de l’utilisateur afin de reprendre un message enregistré comme brouillon.'
+		1 => 'Il vous permet d’enregistrer comme brouillons les messages que vous souhaitez finaliser et publier ultérieurement. Vous pouvez reprendre les messages enregistrés comme brouillons depuis le panneau de contrôle de l’utilisateur.'
 	),
 	array(
 		0 => 'Pourquoi mon message a-t-il besoin d’être approuvé ?',
@@ -187,7 +187,7 @@ $help = array(
 	),
 	array(
 		0 => 'Que sont les annonces générales ?',
-		1 => 'Les annonces générales contiennent des informations très importantes et vous devriez les consulter le plus rapidement possible. Elles apparaissent en haut de chaque forum et dans votre panneau de contrôle de l’utilisateur. Les permissions concernant les annonces générales sont définies par l’administrateur du forum.'
+		1 => 'Les annonces générales contiennent des informations très importantes et vous devriez les consulter le plus rapidement possible. Elles apparaissent en haut de chaque forum et dans le panneau de contrôle de l’utilisateur. Les permissions concernant les annonces générales sont définies par l’administrateur du forum.'
 	),
 	array(
 		0 => 'Que sont les annonces ?',
@@ -228,7 +228,7 @@ $help = array(
 	),
 	array(
 		0 => 'Où sont les groupes d’utilisateurs et comment puis-je en rejoindre un ?',
-		1 => 'Vous pouvez consulter tous les groupes d’utilisateurs par l’intermédiaire du lien « Groupes d’utilisateurs » depuis votre panneau de contrôle de l’utilisateur. Si vous souhaitez en rejoindre un, cliquez sur le bouton approprié. Cependant, tous les groupes d’utilisateurs ne sont pas ouverts aux nouvelles adhésions. Certains peuvent nécessiter une approbation, d’autres peuvent être restreints et d’autres peuvent même être invisibles. Si le groupe est libre, vous pouvez le rejoindre en cliquant sur le bouton approprié. S’il nécessite une approbation, cliquez également sur le bouton approprié. Le responsable du groupe d’utilisateurs devra approuver votre requête et pourra vous demander pourquoi vous souhaitez le rejoindre. Merci de ne pas harceler un responsable de groupe s’il refuse votre requête : il doit avoir ses propres raisons.'
+		1 => 'Vous pouvez consulter tous les groupes d’utilisateurs par l’intermédiaire du lien « Groupes d’utilisateurs » depuis le panneau de contrôle de l’utilisateur. Si vous souhaitez en rejoindre un, cliquez sur le bouton approprié. Cependant, tous les groupes d’utilisateurs ne sont pas ouverts aux nouvelles adhésions. Certains peuvent nécessiter une approbation, d’autres peuvent être restreints et d’autres peuvent même être invisibles. Si le groupe est libre, vous pouvez le rejoindre en cliquant sur le bouton approprié. S’il nécessite une approbation, cliquez également sur le bouton approprié. Le responsable du groupe d’utilisateurs devra approuver votre requête et pourra vous demander pourquoi vous souhaitez le rejoindre. Merci de ne pas harceler un responsable de groupe s’il refuse votre requête : il doit avoir ses propres raisons.'
 	),
 	array(
 		0 => 'Comment puis-je devenir le responsable d’un groupe d’utilisateurs ?',
@@ -240,7 +240,7 @@ $help = array(
 	),
 	array(
 		0 => 'Qu’est-ce qu’un « groupe d’utilisateurs par défaut » ?',
-		1 => 'Si vous êtes membre de plus d’un groupe d’utilisateurs, votre groupe d’utilisateurs par défaut est utilisé afin de déterminer quelle sera la couleur et le rang qui vous sera assigné par défaut. L’administrateur du forum peut vous donner la permission de modifier vous-même votre groupe d’utilisateurs par défaut par l’intermédiaire de votre panneau de contrôle de l’utilisateur.'
+		1 => 'Si vous êtes membre de plus d’un groupe d’utilisateurs, votre groupe d’utilisateurs par défaut est utilisé afin de déterminer quelle sera la couleur et le rang qui vous sera assigné par défaut. L’administrateur du forum peut vous donner la permission de modifier vous-même votre groupe d’utilisateurs par défaut depuis le panneau de contrôle de l’utilisateur.'
 	),
 	array(
 		0 => 'Qu’est-ce que le lien « L’équipe » ?',
@@ -256,7 +256,7 @@ $help = array(
 	),
 	array(
 		0 => 'Je continue à recevoir des messages privés non sollicités !',
-		1 => 'Vous pouvez empêcher un utilisateur de vous envoyer des messages privés en utilisant les règles de messages depuis votre panneau de contrôle de l’utilisateur. Si vous recevez des messages privés de manière abusive de la part d’un autre utilisateur, informez-en un administrateur ; ils peuvent empêcher complètement un utilisateur d’envoyer des messages privés.'
+		1 => 'Vous pouvez supprimer automatiquement les messages privés d’un utilisateur en utilisant les règles de messages depuis le panneau de contrôle de l’utilisateur. Si vous recevez des messages privés de manière abusive de la part d’un autre utilisateur, rapportez ces messages aux modérateurs ; ils peuvent empêcher un utilisateur d’envoyer des messages privés.'
 	),
 	array(
 		0 => 'J’ai reçu un pourriel ou un courrier électronique indésirable de la part de quelqu’un sur ce forum !',
@@ -268,7 +268,7 @@ $help = array(
 	),
 	array(
 		0 => 'À quoi sert ma liste d’amis et d’ignorés ?',
-		1 => 'Vous pouvez utiliser ces listes afin d’organiser et trier les utilisateurs du forum. Les membres ajoutés dans votre liste d’amis seront listés dans votre panneau de contrôle de l’utilisateur afin de consulter rapidement leur statut en ligne et leur envoyer des messages privés. Selon le style utilisé, les messages publiés par ces utilisateurs peuvent éventuellement être mis en surbrillance. Si vous ajoutez un utilisateur dans votre liste d’ignorés, tous les messages qu’il publiera seront masqués par défaut.'
+		1 => 'Vous pouvez utiliser ces listes afin d’organiser et trier les utilisateurs du forum. Les membres ajoutés dans votre liste d’amis seront listés dans le panneau de contrôle de l’utilisateur afin de consulter rapidement leur statut en ligne et leur envoyer des messages privés. Selon le style utilisé, les messages publiés par ces utilisateurs peuvent éventuellement être mis en surbrillance. Si vous ajoutez un utilisateur dans votre liste d’ignorés, tous les messages qu’il publiera seront masqués par défaut.'
 	),
 	array(
 		0 => 'Comment puis-je ajouter ou supprimer des utilisateurs de ma liste d’amis et d’ignorés ?',
@@ -296,7 +296,7 @@ $help = array(
 	),
 	array(
 		0 => 'Comment puis-je retrouver mes propres messages et sujets ?',
-		1 => 'Vos propres messages peuvent être affichés en cliquant sur le lien « Rechercher les messages de l’utilisateur » par l’intermédiaire du panneau de contrôle de l’utilisateur ou sur la page de votre propre profil. Pour effectuer une recherche de vos propres sujets, utilisez la recherche avancée et remplissez convenablement les options qui vous sont disponibles.'
+		1 => 'Vos propres messages peuvent être affichés en cliquant sur le lien « Rechercher les messages de l’utilisateur » disponible dans le panneau de contrôle de l’utilisateur ou sur la page de votre propre profil. Pour effectuer une recherche de vos propres sujets, utilisez la recherche avancée et remplissez convenablement les options qui vous sont disponibles.'
 	),
 	array(
 		0 => '--',
@@ -312,7 +312,7 @@ $help = array(
 	),
 	array(
 		0 => 'Comment puis-je résilier mes abonnements ?',
-		1 => 'Pour résilier vos abonnements, rendez-vous sur le panneau de contrôle de l’utilisateur et suivez le lien vers vos abonnements.'
+		1 => 'Pour résilier vos abonnements, rendez-vous dans le panneau de contrôle de l’utilisateur et suivez le lien vers vos abonnements.'
 	),
 	array(
 		0 => '--',
@@ -324,7 +324,7 @@ $help = array(
 	),
 	array(
 		0 => 'Comment puis-je retrouver toutes mes pièces jointes ?',
-		1 => 'Pour retrouver la liste des pièces jointes que vous avez transférées, rendez-vous sur le panneau de contrôle de l’utilisateur et suivez les liens vers la section des pièces jointes.'
+		1 => 'Pour retrouver la liste des pièces jointes que vous avez transférées, rendez-vous dans le panneau de contrôle de l’utilisateur et suivez les liens vers la section des pièces jointes.'
 	),
 	array(
 		0 => '--',
