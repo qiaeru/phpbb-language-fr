@@ -61,7 +61,7 @@ $lang = array_merge($lang, array(
 	'SITE_HOME_URL_EXPLAIN'			=> 'Si vous en saisissez un, ce lien sera placé dans les liens de navigation de votre forum et remplacera par la destination souhaitée le lien présent sur le logo du forum, redirigeant par défaut les utilisateurs sur l’index de votre forum. Veuillez saisir un lien absolu, tel que <samp>https://www.phpbb.com</samp>.',
 	'SITE_NAME'						=> 'Nom du forum',
 	'SYSTEM_TIMEZONE'				=> 'Fuseau horaire des invités',
-	'SYSTEM_TIMEZONE_EXPLAIN'			=> 'Ce fuseau horaire ne concerne que les utilisateurs qui ne sont pas connectés, tels que les invités et les robots. Les utilisateurs connectés peuvent régler leur fuseau horaire lors de leur inscription ou depuis leur panneau de contrôle de l’utilisateur.',
+	'SYSTEM_TIMEZONE_EXPLAIN'			=> 'Ce fuseau horaire ne concerne que les utilisateurs qui ne sont pas connectés, tels que les invités et les robots. Les utilisateurs connectés peuvent régler leur fuseau horaire lors de leur inscription ou depuis le panneau de contrôle de l’utilisateur.',
 	'WARNINGS_EXPIRE'				=> 'Durée des avertissements',
 	'WARNINGS_EXPIRE_EXPLAIN'		=> 'Le nombre de jours qui s’écoulera avant qu’un avertissement n’expire automatiquement. Réglez cette valeur sur 0 afin de ne pas limiter les avertissements dans le temps.',
 ));
@@ -385,7 +385,7 @@ $lang = array_merge($lang, array(
 	'LOAD_CPF_VIEWPROFILE'			=> 'Afficher les champs de profil personnalisés dans le profil des utilisateurs',
 	'LOAD_CPF_VIEWTOPIC'			=> 'Afficher les champs de profil personnalisés dans les pages de sujets',
 	'LOAD_USER_ACTIVITY'			=> 'Afficher l’activité des utilisateurs',
-	'LOAD_USER_ACTIVITY_EXPLAIN'	=> 'La liste des sujets et des forums sur lesquels les utilisateurs sont actifs sera affichée dans leur profil et leur panneau de contrôle de l’utilisateur. Il est recommandé de désactiver cette fonctionnalité sur les forums comportant plus d’un million de messages.',
+	'LOAD_USER_ACTIVITY_EXPLAIN'	=> 'La liste des sujets et des forums sur lesquels les utilisateurs sont actifs sera affichée sur leur profil et sur le panneau de contrôle de l’utilisateur. Il est recommandé de désactiver cette fonctionnalité sur les forums comportant plus d’un million de messages.',
 	'READ_NOTIFICATION_EXPIRE_DAYS'	=> 'Délai d’expiration des notifications consultées',
 	'READ_NOTIFICATION_EXPIRE_DAYS_EXPLAIN' => 'Le nombre de jours qui s’écouleront avant que les notifications consultées soient supprimées. Réglez cette valeur sur 0 si vous ne souhaitez pas limiter la durée des notifications consultées.',
 	'RECOMPILE_STYLES'				=> 'Recompiler les composants obsolètes des styles',

@@ -187,7 +187,7 @@ $lang = array_merge($lang, array(
 
 	'EDIT_DRAFT_EXPLAIN'		=> 'Vous pouvez éditer ici votre brouillon. Les brouillons ne contiennent ni pièces jointes, ni sondages.',
 	'EMAIL_BANNED_EMAIL'		=> 'L’adresse de courrier électronique que vous avez spécifiée a été bannie de ce forum.',
-	'EMAIL_REMIND'				=> 'Ceci doit correspondre à l’adresse de courrier électronique qui est associée à votre compte. Si vous ne l’avez pas modifié par l’intermédiaire de votre panneau de contrôle de l’utilisateur, il s’agit de l’adresse de courrier électronique que vous avez spécifiée lors de votre inscription.',
+	'EMAIL_REMIND'				=> 'Ceci doit correspondre à l’adresse de courrier électronique qui est associée à votre compte. Si vous ne l’avez pas modifié depuis le panneau de contrôle de l’utilisateur, il s’agit de l’adresse de courrier électronique que vous avez spécifiée lors de votre inscription.',
 	'EMAIL_TAKEN_EMAIL'			=> 'L’adresse de courrier électronique que vous avez spécifiée est déjà utilisée.',
 	'EMPTY_DRAFT'				=> 'Vous devez saisir un message afin d’envoyer vos modifications.',
 	'EMPTY_DRAFT_TITLE'			=> 'Vous devez saisir le titre du brouillon.',
