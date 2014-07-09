@@ -47,7 +47,7 @@ $help = array(
 	),
 	array(
 		0 => 'Pourquoi suis-je déconnecté automatiquement ?',
-		1 => 'Si vous ne cochez pas la case <em>Se souvenir de moi</em> lors de votre connexion, vous ne resterez connecté au forum que pour une période prédéfinie. Ceci permet d’éviter que votre compte soit utilisé par quelqu’un d’autre. Pour rester connecté, veuillez cocher la case correspondante lors de votre connexion. Ceci n’est pas recommandé si vous accédez au forum par l’intermédiaire d’un ordinateur public, comme par exemple dans une librairie, un cybercafé, une université, etc. Si vous n’arrivez pas à trouver cette case à cocher, il est probable qu’un administrateur ait désactivé cette fonctionnalité.'
+		1 => 'Si vous ne cochez pas la case <em>Se souvenir de moi</em> lors de votre connexion, vous ne resterez connecté au forum que pour une période prédéfinie. Ceci permet d’éviter que votre compte soit utilisé par quelqu’un d’autre. Pour rester connecté, veuillez cocher la case correspondante lors de votre connexion. Ceci n’est pas recommandé si vous accédez au forum depuis un ordinateur public, comme par exemple dans une librairie, un cybercafé, une université, etc. Si vous n’arrivez pas à trouver cette case à cocher, il est probable qu’un administrateur ait désactivé cette fonctionnalité.'
 	),
 	array(
 		0 => 'Comment puis-je empêcher l’affichage de mon nom d’utilisateur dans la liste des utilisateurs en ligne ?',
@@ -107,7 +107,7 @@ $help = array(
 	),
 	array(
 		0 => 'Lorsque je clique sur le lien de courrier électronique d’un utilisateur, il m’est demandé de me connecter ?',
-		1 => 'Si l’administrateur a activé cette fonctionnalité, seuls les utilisateurs inscrits peuvent envoyer des courriers électroniques aux autres utilisateurs par l’intermédiaire d’un formulaire. Ceci permet d’empêcher une utilisation malveillante du système de messagerie électronique par des utilisateurs anonymes ou des robots.'
+		1 => 'Si l’administrateur a activé cette fonctionnalité, seuls les utilisateurs inscrits peuvent envoyer des courriers électroniques aux autres utilisateurs depuis un formulaire. Ceci permet d’empêcher une utilisation malveillante du système de messagerie électronique par des utilisateurs anonymes ou des robots.'
 	),
 	array(
 		0 => '--',
@@ -228,7 +228,7 @@ $help = array(
 	),
 	array(
 		0 => 'Où sont les groupes d’utilisateurs et comment puis-je en rejoindre un ?',
-		1 => 'Vous pouvez consulter tous les groupes d’utilisateurs par l’intermédiaire du lien « Groupes d’utilisateurs » depuis le panneau de contrôle de l’utilisateur. Si vous souhaitez en rejoindre un, cliquez sur le bouton approprié. Cependant, tous les groupes d’utilisateurs ne sont pas ouverts aux nouvelles adhésions. Certains peuvent nécessiter une approbation, d’autres peuvent être restreints et d’autres peuvent même être invisibles. Si le groupe est libre, vous pouvez le rejoindre en cliquant sur le bouton approprié. S’il nécessite une approbation, cliquez également sur le bouton approprié. Le responsable du groupe d’utilisateurs devra approuver votre requête et pourra vous demander pourquoi vous souhaitez le rejoindre. Merci de ne pas harceler un responsable de groupe s’il refuse votre requête : il doit avoir ses propres raisons.'
+		1 => 'Vous pouvez consulter tous les groupes d’utilisateurs en cliquant sur le lien « Groupes d’utilisateurs » depuis le panneau de contrôle de l’utilisateur. Si vous souhaitez en rejoindre un, cliquez sur le bouton approprié. Cependant, tous les groupes d’utilisateurs ne sont pas ouverts aux nouvelles adhésions. Certains peuvent nécessiter une approbation, d’autres peuvent être restreints et d’autres peuvent même être invisibles. Si le groupe est libre, vous pouvez le rejoindre en cliquant sur le bouton approprié. S’il nécessite une approbation, cliquez également sur le bouton approprié. Le responsable du groupe d’utilisateurs devra approuver votre requête et pourra vous demander pourquoi vous souhaitez le rejoindre. Merci de ne pas harceler un responsable de groupe s’il refuse votre requête : il doit avoir ses propres raisons.'
 	),
 	array(
 		0 => 'Comment puis-je devenir le responsable d’un groupe d’utilisateurs ?',

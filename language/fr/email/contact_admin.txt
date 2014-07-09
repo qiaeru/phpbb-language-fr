@@ -1,7 +1,7 @@
 
 Bonjour {TO_USERNAME},
 
-Ce qui suit est un courrier électronique qui vous a été envoyé par l’intermédiaire de la page de contact d’administration sur « {SITENAME} ».
+Ce qui suit est un courrier électronique qui vous a été envoyé depuis la page de contact d’administration sur « {SITENAME} ».
 
 <!-- IF S_IS_REGISTERED -->
 Le message a été envoyé d’un compte du forum.

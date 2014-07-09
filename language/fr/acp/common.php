@@ -349,7 +349,7 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'ADMIN_INTRO'				=> 'Nous vous remercions d’utiliser le logiciel phpBB comme solution pour votre forum de discussions. Cette page vous offre un aperçu des nombreuses statistiques de votre forum. Les liens situés sur le volet à gauche de cette page vous permettent de personnaliser tous les aspects de votre forum. Chaque page contient des instructions vous informant sur l’utilisation des outils disponibles.',
 	'ADMIN_LOG'					=> 'Historique des dernières opérations des administrateurs',
-	'ADMIN_LOG_INDEX_EXPLAIN'	=> 'Cet historique vous affiche les cinq dernières opérations effectuées par les administrateurs de ce forum. Vous pouvez consulter la totalité de cet historique par l’intermédiaire du menu approprié ou en cliquant sur le lien disponible ci-dessous.',
+	'ADMIN_LOG_INDEX_EXPLAIN'	=> 'Cet historique vous affiche les cinq dernières opérations effectuées par les administrateurs de ce forum. Vous pouvez consulter la totalité de cet historique depuis le menu approprié ou en cliquant sur le lien disponible ci-dessous.',
 	'AVATAR_DIR_SIZE'			=> 'Taille du répertoire des avatars',
 
 	'BOARD_STARTED'		=> 'Date d’ouverture du forum',
@@ -446,7 +446,7 @@ $lang = array_merge($lang, array(
 	'INACTIVE_REASON_UNKNOWN'		=> 'Inconnue',
 	'INACTIVE_USERS'				=> 'Utilisateurs inactifs',
 	'INACTIVE_USERS_EXPLAIN'		=> 'Cette liste vous affiche les utilisateurs inscrits dont le compte est actuellement inactif. Vous pouvez activer, supprimer ou rappeler (en envoyant un courrier électronique) ces utilisateurs.',
-	'INACTIVE_USERS_EXPLAIN_INDEX'	=> 'Cette liste vous affiche les dix derniers utilisateurs inscrits dont le compte est actuellement inactif. Les comptes d’utilisateurs peuvent être inactifs lorsqu’une activation est requise dans le réglage des inscriptions mais que certains comptes d’utilisateurs n’ont pas encore été activés. Les comptes d’utilisateurs désactivés sont également affichés dans cette liste. Vous pouvez consulter la totalité de la liste des utilisateurs inactifs par l’intermédiaire du menu approprié ou en cliquant sur le lien ci-dessous d’où vous pourrez activer, supprimer ou rappeler (en envoyant un courrier électronique) ces utilisateurs.',
+	'INACTIVE_USERS_EXPLAIN_INDEX'	=> 'Cette liste vous affiche les dix derniers utilisateurs inscrits dont le compte est actuellement inactif. Les comptes d’utilisateurs peuvent être inactifs lorsqu’une activation est requise dans le réglage des inscriptions mais que certains comptes d’utilisateurs n’ont pas encore été activés. Les comptes d’utilisateurs désactivés sont également affichés dans cette liste. Vous pouvez consulter la totalité de la liste des utilisateurs inactifs depuis le menu approprié ou en cliquant sur le lien ci-dessous d’où vous pourrez activer, supprimer ou rappeler (en envoyant un courrier électronique) ces utilisateurs.',
 
 	'NO_INACTIVE_USERS'	=> 'Aucun utilisateur inactif',
 
@@ -748,9 +748,9 @@ $lang = array_merge($lang, array(
 	'LOG_UPDATE_PHPBB'		=> '<strong>Mise à jour de phpBB de la version %1$s à la version %2$s</strong>',
 
 	'LOG_USER_ACTIVE'		=> '<strong>Activation du compte d’un utilisateur</strong><br />» %s',
-	'LOG_USER_BAN_USER'		=> '<strong>Bannissement du compte d’un utilisateur par l’intermédiaire de la gestion des utilisateurs</strong> en spécifiant comme raison « <em>%1$s</em> »<br />» %2$s',
-	'LOG_USER_BAN_IP'		=> '<strong>Bannissement d’une adresse IP par l’intermédiaire de la gestion des utilisateurs</strong> en spécifiant comme raison « <em>%1$s</em> »<br />» %2$s',
-	'LOG_USER_BAN_EMAIL'	=> '<strong>Bannissement d’une adresse de courrier électronique par l’intermédiaire de la gestion des utilisateurs</strong> en spécifiant comme raison « <em>%1$s</em> »<br />» %2$s',
+	'LOG_USER_BAN_USER'		=> '<strong>Bannissement du compte d’un utilisateur depuis la gestion des utilisateurs</strong> en spécifiant comme raison « <em>%1$s</em> »<br />» %2$s',
+	'LOG_USER_BAN_IP'		=> '<strong>Bannissement d’une adresse IP depuis la gestion des utilisateurs</strong> en spécifiant comme raison « <em>%1$s</em> »<br />» %2$s',
+	'LOG_USER_BAN_EMAIL'	=> '<strong>Bannissement d’une adresse de courrier électronique depuis la gestion des utilisateurs</strong> en spécifiant comme raison « <em>%1$s</em> »<br />» %2$s',
 	'LOG_USER_DELETED'		=> '<strong>Suppression du compte d’un utilisateur</strong><br />» %s',
 	'LOG_USER_DEL_ATTACH'	=> '<strong>Suppression de toutes les pièces jointes d’un utilisateur</strong><br />» %s',
 	'LOG_USER_DEL_AVATAR'	=> '<strong>Suppression de l’avatar d’un utilisateur</strong><br />» %s',

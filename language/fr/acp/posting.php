@@ -226,7 +226,7 @@ $lang = array_merge($lang, array(
 
 // Ranks
 $lang = array_merge($lang, array(
-	'ACP_RANKS_EXPLAIN'		=> 'Vous pouvez consulter, ajouter, éditer et supprimer sur cette page les rangs des utilisateurs de votre forum. Vous pouvez également créer des rangs personnalisés qui peuvent être mis en place sur certains de vos utilisateurs par l’intermédiaire de la page de gestion des utilisateurs.',
+	'ACP_RANKS_EXPLAIN'		=> 'Vous pouvez consulter, ajouter, éditer et supprimer sur cette page les rangs des utilisateurs de votre forum. Vous pouvez également créer des rangs personnalisés qui peuvent être mis en place sur certains de vos utilisateurs depuis la page de gestion des utilisateurs.',
 	'ADD_RANK'				=> 'Ajouter un nouveau rang',
 
 	'MUST_SELECT_RANK'		=> 'Vous devez sélectionner un rang.',

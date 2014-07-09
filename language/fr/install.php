@@ -82,7 +82,7 @@ $lang = array_merge($lang, array(
 	'CONTINUE_OLD_CONVERSION'	=> 'Continuer la conversion antérieure',
 	'CONVERT'					=> 'Convertir',
 	'CONVERT_COMPLETE'			=> 'Conversion terminée',
-	'CONVERT_COMPLETE_EXPLAIN'	=> 'Vous avez converti votre forum vers phpBB 3.1. Vous pouvez à présent vous connecter et <a href="../">accéder à votre forum</a>. Veuillez vous assurer que les réglages ont été correctement transférés avant d’activer votre forum en supprimant le répertoire d’installation. N’oubliez pas que de l’aide en ligne concernant l’utilisation de phpBB est disponible par l’intermédiaire de la <a href="https://www.phpbb.com/support/documentation/3.0/">documentation</a> et des <a href="https://www.phpbb.com/community/viewforum.php?f=46">forums de support</a>.',
+	'CONVERT_COMPLETE_EXPLAIN'	=> 'Vous avez converti votre forum vers phpBB 3.1. Vous pouvez à présent vous connecter et <a href="../">accéder à votre forum</a>. Veuillez vous assurer que les réglages ont été correctement transférés avant d’activer votre forum en supprimant le répertoire d’installation. N’oubliez pas que de l’aide en ligne concernant l’utilisation de phpBB est disponible dans la <a href="https://www.phpbb.com/support/documentation/3.0/">documentation</a> et sur les <a href="https://www.phpbb.com/community/viewforum.php?f=46">forums de support</a>.',
 	'CONVERT_INTRO'				=> 'Bienvenue sur l’outil de conversion de phpBB',
 	'CONVERT_INTRO_BODY'		=> 'Vous pouvez importer ici des données venant d’autres systèmes de forums installés. La liste ci-dessous affiche tous les modules de conversion actuellement disponibles. Si aucun convertisseur n’est affiché dans cette liste correspondant au logiciel de forum de discussions que vous souhaitez convertir, veuillez vérifier sa présence sur notre site internet où des modules de conversion seront prochainement téléchargeables.',
 	'CONVERT_NEW_CONVERSION'	=> 'Nouvelle conversion',
@@ -131,7 +131,7 @@ $lang = array_merge($lang, array(
 	'DB_ERR_QUERY_FIRST_TABLE'	=> 'Une erreur est survenue lors de l’exécution de <var>query_first</var>, %s (« %s »).',
 	'DB_ERR_SELECT'				=> 'Une erreur est survenue lors de l’exécution de la requête <code>SELECT</code>.',
 	'DB_HOST'					=> 'Nom d’hôte du serveur de la base de données ou DSN',
-	'DB_HOST_EXPLAIN'			=> 'Le DSN n’est approprié que pour les installations de type ODBC. Sur PostgreSQL, utilisez localhost afin de vous connecter sur le serveur local par l’intermédiaire du connecteur du domaine UNIX et utilisez 127.0.0.1 afin de vous connecter par l’intermédiaire du TCP. Sur SQLite, saisissez le chemin complet vers votre fichier de base de données.',
+	'DB_HOST_EXPLAIN'			=> 'Le DSN n’est approprié que pour les installations de type ODBC. Sur PostgreSQL, utilisez localhost afin de vous connecter sur le serveur local depuis le connecteur du domaine UNIX et utilisez 127.0.0.1 afin de vous connecter depuis TCP. Sur SQLite, saisissez le chemin complet vers votre fichier de base de données.',
 	'DB_NAME'					=> 'Nom de la base de données',
 	'DB_PASSWORD'				=> 'Mot de passe de la base de données',
 	'DB_PORT'					=> 'Port du serveur de la base de données',
@@ -179,7 +179,7 @@ $lang = array_merge($lang, array(
 	'FORUM_PATH_EXPLAIN'		=> 'Ceci est le chemin <strong>relatif</strong> sur le disque du serveur vers votre ancien forum depuis la <strong>racine de cette installation de phpBB3</strong>.',
 	'FOUND'						=> 'Trouvé',
 	'FTP_CONFIG'				=> 'Transférer la configuration par FTP',
-	'FTP_CONFIG_EXPLAIN'		=> 'phpBB a détecté la présence du module FTP sur ce serveur. Si vous le souhaitez, vous pouvez essayer d’installer votre fichier config.php par l’intermédiaire de ce module. Vous devrez saisir les informations demandées ci-dessous. N’oubliez pas que votre nom d’utilisateur et votre mot de passe sont ceux de votre serveur (demandez-les à votre hébergeur si vous n’êtes pas certain(e) de les avoir à disposition) !',
+	'FTP_CONFIG_EXPLAIN'		=> 'phpBB a détecté la présence du module FTP sur ce serveur. Si vous le souhaitez, vous pouvez essayer d’installer votre fichier config.php depuis ce module. Vous devrez saisir les informations demandées ci-dessous. N’oubliez pas que votre nom d’utilisateur et votre mot de passe sont ceux de votre serveur (demandez-les à votre hébergeur si vous n’êtes pas certain(e) de les avoir à disposition) !',
 	'FTP_PATH'					=> 'Chemin FTP',
 	'FTP_PATH_EXPLAIN'			=> 'Le chemin relatif à la racine de votre serveur, tel que <samp>htdocs/phpBB3/</samp>.',
 	'FTP_UPLOAD'				=> 'Transférer',
@@ -194,7 +194,7 @@ $lang = array_merge($lang, array(
 		<h2>Convertir un forum existant vers phpBB3</h2>
 		<p>L’outil de conversion de phpBB permet de convertir phpBB 2.0.x, ou d’autres logiciels de forums de discussions, vers phpBB3. Si vous avez à disposition un forum existant et que vous souhaitez le convertir, veuillez <a href="%2$s">continuer en sélectionnant un convertisseur</a>.</p>
 		<h2>Utiliser votre forum en ligne !</h2>
-		<p>En cliquant sur le bouton ci-dessous, vous accéderez à un formulaire vous proposant d’envoyer des données statistiques à phpBB depuis votre panneau de contrôle d’administration. Nous vous serions reconnaissants de prendre le temps de nous aider en nous envoyant ces informations. Par la suite, vous pourrez prendre le temps de consulter toutes les options qui vous seront disponibles. N’oubliez pas que de l’aide en ligne est disponible par l’intermédiaire de la <a href="https://www.phpbb.com/support/documentation/3.0/">documentation</a>, du fichier <a href="%3$s">README</a> et des <a href="https://www.phpbb.com/community/viewforum.php?f=46">forums de support</a>.</p><p><strong>Veuillez supprimer, déplacer ou renommer le répertoire « install » de votre serveur afin d’utiliser votre forum. Tant que ce répertoire est présent, seul le panneau de contrôle d’administration sera accessible.</strong>',
+		<p>En cliquant sur le bouton ci-dessous, vous accéderez à un formulaire vous proposant d’envoyer des données statistiques à phpBB depuis votre panneau de contrôle d’administration. Nous vous serions reconnaissants de prendre le temps de nous aider en nous envoyant ces informations. Par la suite, vous pourrez prendre le temps de consulter toutes les options qui vous seront disponibles. N’oubliez pas que de l’aide en ligne est disponible dans la <a href="https://www.phpbb.com/support/documentation/3.0/">documentation</a>, dans le fichier <a href="%3$s">README</a> et sur les <a href="https://www.phpbb.com/community/viewforum.php?f=46">forums de support</a>.</p><p><strong>Veuillez supprimer, déplacer ou renommer le répertoire « install » de votre serveur afin d’utiliser votre forum. Tant que ce répertoire est présent, seul le panneau de contrôle d’administration sera accessible.</strong>',
 	'INSTALL_INTRO'				=> 'Bienvenue à l’installation',
 
 	'INSTALL_INTRO_BODY'		=> 'Grâce à cette option, il est possible d’installer phpBB3 sur votre serveur.</p><p>Avant de continuer, vous allez avoir besoin de vous munir des réglages de votre base de données. Si vous ne les connaissez pas, veuillez les demander à votre hébergeur car vous ne pourrez pas continuer sans saisir ces informations. Vous avez besoin du :</p>
@@ -215,7 +215,7 @@ $lang = array_merge($lang, array(
 		<li>PostgreSQL 8.3+</li>
 		<li>SQLite 2.8.2+</li>
 		<li>SQLite 3.6.15+</li>
-		<li>MS SQL Server 2000 ou supérieur (directement ou par l’intermédiaire d’ODBC)</li>
+		<li>MS SQL Server 2000 ou supérieur (directement ou depuis ODBC)</li>
 		<li>MS SQL Server 2005 ou supérieur (en natif)</li>
 		<li>Oracle</li>
 	</ul>

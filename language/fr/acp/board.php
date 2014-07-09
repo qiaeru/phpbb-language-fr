@@ -219,7 +219,7 @@ $lang = array_merge($lang, array(
 	'ACP_REGISTER_SETTINGS_EXPLAIN'		=> 'Vous pouvez effectuer sur cette page tous les réglages relatifs aux inscriptions et aux profils des utilisateurs.',
 
 	'ACC_ACTIVATION'				=> 'Méthode d’activation des comptes',
-	'ACC_ACTIVATION_EXPLAIN'		=> 'Détermine quels sont les utilisateurs qui bénéficieront d’un accès immédiat au forum ou si une confirmation leur sera demandée. Vous pouvez également désactiver entièrement les nouvelles inscriptions. « L’envoi de courriers électroniques par l’intermédiaire du forum » doit être activé afin d’être en mesure de pouvoir utiliser l’activation par un administrateur ou par l’utilisateur lui-même.',
+	'ACC_ACTIVATION_EXPLAIN'		=> 'Détermine quels sont les utilisateurs qui bénéficieront d’un accès immédiat au forum ou si une confirmation leur sera demandée. Vous pouvez également désactiver entièrement les nouvelles inscriptions. « L’envoi de courriers électroniques depuis le forum » doit être activé afin d’être en mesure de pouvoir utiliser l’activation par un administrateur ou par l’utilisateur lui-même.',
 	'NEW_MEMBER_POST_LIMIT'			=> 'Limite de messages des nouveaux membres',
 	'NEW_MEMBER_POST_LIMIT_EXPLAIN'	=> 'Les nouveaux membres seront membres du groupe des <em>Utilisateurs inscrits récemment</em> jusqu’à ce qu’ils atteignent ce nombre de messages. Vous pouvez utiliser ce groupe afin d’empêcher ses membres à utiliser les fonctionnalités de la messagerie privée ou de contrôler leurs messages. <strong>Réglez cette valeur sur 0 afin de désactiver cette fonctionnalité.</strong>',
 	'NEW_MEMBER_GROUP_DEFAULT'		=> 'Instaurer le groupe des utilisateurs inscrits récemment en tant que groupe par défaut',
@@ -538,8 +538,8 @@ $lang = array_merge($lang, array(
 
 	'ADMIN_EMAIL'					=> 'Adresse de courrier électronique de retour',
 	'ADMIN_EMAIL_EXPLAIN'			=> 'Cette adresse sera utilisée comme l’adresse de retour dans tous les courriers électroniques. Cela correspond à l’adresse de courrier électronique du contact technique. Elle sera toujours utilisée comme l’adresse du chemin de retour et considérée comme celle de l’expéditeur dans les courriers électroniques.',
-	'BOARD_EMAIL_FORM'				=> 'Activer l’envoi de courriers électroniques par l’intermédiaire du forum',
-	'BOARD_EMAIL_FORM_EXPLAIN'		=> 'Si cette option est activée, les utilisateurs pourront, au lieu d’afficher les adresses de courrier électronique, envoyer des courriers électroniques par l’intermédiaire du forum.',
+	'BOARD_EMAIL_FORM'				=> 'Activer l’envoi de courriers électroniques depuis le forum',
+	'BOARD_EMAIL_FORM_EXPLAIN'		=> 'Si cette option est activée, les utilisateurs pourront, au lieu d’afficher les adresses de courrier électronique, envoyer des courriers électroniques depuis le forum.',
 	'BOARD_HIDE_EMAILS'				=> 'Masquer les adresses de courrier électronique',
 	'BOARD_HIDE_EMAILS_EXPLAIN'		=> 'Les adresses de courrier électronique peuvent être masquées afin qu’elles demeurent confidentielles.',
 	'CONTACT_EMAIL'					=> 'Adresse de courrier électronique de contact',

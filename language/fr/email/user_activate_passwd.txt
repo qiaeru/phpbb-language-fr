@@ -12,6 +12,6 @@ Si cela a fonctionné, vous pourrez vous connecter en utilisant le mot de passe 
 
 Mot de passe : {PASSWORD}
 
-Vous pouvez modifier ce mot de passe par l’intermédiaire de votre profil. Si vous éprouvez une quelconque difficulté durant ces étapes, veuillez contacter l’administrateur du forum.
+Vous pouvez modifier ce mot de passe dans le panneau de contrôle de l’utilisateur. Si vous éprouvez une quelconque difficulté durant ces étapes, veuillez contacter l’administrateur du forum.
 
 {EMAIL_SIG}
