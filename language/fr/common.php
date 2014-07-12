@@ -300,7 +300,7 @@ $lang = array_merge($lang, array(
 		1	=> 'Il y a %d invité en ligne',
 		2	=> 'Il y a %d invités en ligne',
 	),
-	'GUEST_USERS_TOTAL'			=>  array(
+	'GUEST_USERS_TOTAL'			=> array(
 		1	=> '%d invité',
 		2	=> '%d invités',
 	),
@@ -463,7 +463,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_REASON'				=> '<em>Raison :</em> %1$s.',
 	'NOTIFICATION_REPORT_PM'			=> '<strong>Rapport d’un message privé</strong> par %1$s :',
 	'NOTIFICATION_REPORT_POST'			=> '<strong>Rapport d’un message</strong> par %1$s :',
-	'NOTIFICATION_REPORT_CLOSED'   		=> '<strong>Clôture d’un rapport</strong> par %1$s pour :',
+	'NOTIFICATION_REPORT_CLOSED'		=> '<strong>Clôture d’un rapport</strong> par %1$s pour :',
 	'NOTIFICATION_TOPIC'				=> '<strong>Publication d’un sujet</strong> par %1$s :',
 	'NOTIFICATION_TOPIC_APPROVED'		=> '<strong>Approbation d’un sujet</strong> :',
 	'NOTIFICATION_TOPIC_DISAPPROVED'	=> '<strong>Désapprobation d’un sujet</strong> :',

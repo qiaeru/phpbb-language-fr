@@ -249,7 +249,7 @@ $lang = array_merge($lang, array(
 	'DOWNLOAD_AS'				=> 'Télécharger sous',
 	'DOWNLOAD_STORE'			=> 'Télécharger ou stocker le fichier',
 	'DOWNLOAD_STORE_EXPLAIN'	=> 'Vous pouvez télécharger directement le fichier ou le sauvegarder dans votre répertoire <samp>store/</samp>.',
-	'DOWNLOADS'          		=> 'Téléchargements',
+	'DOWNLOADS'					=> 'Téléchargements',
 
 	'EDIT'					=> 'Éditer',
 	'ENABLE'				=> 'Activer',
@@ -312,7 +312,7 @@ $lang = array_merge($lang, array(
 
 	'TASKS_NOT_READY'			=> 'Tâches non prêtes :',
 	'TASKS_READY'			=> 'Tâches prêtes :',
-	'TOTAL_SIZE'      		=> 'Taille totale',
+	'TOTAL_SIZE'			=> 'Taille totale',
 
 	'UCP'					=> 'Panneau de contrôle de l’utilisateur',
 	'USERNAMES_EXPLAIN'		=> 'Insérez chaque nom d’utilisateur sur une nouvelle ligne.',
