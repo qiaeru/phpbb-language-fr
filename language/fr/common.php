@@ -821,6 +821,7 @@ $lang = array_merge($lang, array(
 		0	=> 'Aucune consultation',
 		1	=> 'Consulté %d fois',
 	),
+	'VIEWING_CONTACT_ADMIN'		=> 'Consulte la page de contact',
 	'VIEWING_FAQ'				=> 'Consulte la FAQ',
 	'VIEWING_MEMBERS'			=> 'Consulte les informations d’un membre',
 	'VIEWING_ONLINE'			=> 'Consulte la liste des utilisateurs en ligne',

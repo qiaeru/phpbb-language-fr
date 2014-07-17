@@ -232,6 +232,7 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_CRON_RUN_ARGUMENT_1'	=> 'Nom de la tâche à exécuter',
 
 	'CLI_DESCRIPTION_OPTION_SHELL'			=> 'Lancer la console.',
+	'CLI_DESCRIPTION_OPTION_SAFE_MODE'		=> 'Lancer en mode sans échec (sans extension).',
 
 	'COLOUR_SWATCH'			=> 'Palette de couleurs internet',
 	'CONFIG_UPDATED'		=> 'La configuration a été mise à jour.',
