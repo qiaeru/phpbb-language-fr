@@ -67,7 +67,7 @@ $help = array(
 	),
 	array(
 		0 => 'Qu’est-ce que la COPPA ?',
-		1 => 'La COPPA (Child Online Privacy and Protection Act) est une loi des États-Unis d’Amérique qui demande aux sites internet collectant potentiellement des informations sur les mineurs âgés de moins de 13 ans un consentement écrit des parents ou des tuteurs légaux des mineurs concernés. Si vous ne savez pas si cette loi s’applique également aux mineurs âgés de moins de 13 ans inscrits sur votre forum, nous vous conseillons de contacter un conseiller juridique ou un avocat qui pourront vous fournir ce type de renseignement. Veuillez noter que le phpBB Limited ne peut pas vous fournir d’assistance légale et n’est donc pas l’organisme à contacter, excepté pour ce qui est décrit ci-dessous.',
+		1 => 'La COPPA (Child Online Privacy and Protection Act) est une loi des États-Unis d’Amérique qui demande aux sites internet collectant potentiellement des informations sur les mineurs âgés de moins de 13 ans un consentement écrit des parents ou des tuteurs légaux des mineurs concernés. Si vous ne savez pas si cette loi s’applique également aux mineurs âgés de moins de 13 ans inscrits sur votre forum, nous vous conseillons de contacter un conseiller juridique ou un avocat qui pourront vous fournir ce type de renseignement. Veuillez noter que phpBB Limited ne peut pas vous fournir d’assistance légale et n’est donc pas l’organisme à contacter, excepté pour ce qui est décrit ci-dessous.',
 	),
 	array(
 		0 => 'Pourquoi ne puis-je pas m’inscrire ?',
@@ -147,7 +147,7 @@ $help = array(
 	),
 	array(
 		0 => 'Pourquoi ai-je reçu un avertissement ?',
-		1 => 'Chaque forum a son propre ensemble de règles. Si vous ne respectez pas une de ces règles, vous recevrez un avertissement. Veuillez noter que cette décision n’appartient qu’à l’administrateur du forum concerné, le phpBB Limited n’est en aucun cas responsable de ce qui est appliqué ou non. Pour plus d’informations, veuillez contacter un administrateur du forum.'
+		1 => 'Chaque forum a son propre ensemble de règles. Si vous ne respectez pas une de ces règles, vous recevrez un avertissement. Veuillez noter que cette décision n’appartient qu’à l’administrateur du forum concerné, phpBB Limited n’est en aucun cas responsable de ce qui est appliqué ou non. Pour plus d’informations, veuillez contacter un administrateur du forum.'
 	),
 	array(
 		0 => 'Comment puis-je rapporter des messages à un modérateur ?',
@@ -332,14 +332,14 @@ $help = array(
 	),
 	array(
 		0 => 'Qui a développé ce logiciel de forum de discussions ?',
-		1 => 'Ce programme (dans sa forme non modifiée) est produit et distribué par le <a href="https://www.phpbb.com/">phpBB Limited</a>, qui en est le légitime propriétaire. Il est rendu accessible sous la Licence Publique Générale GNU et peut être distribué gratuitement. Pour plus d’informations, veuillez cliquer sur le lien.'
+		1 => 'Ce programme (dans sa forme non modifiée) est produit et distribué par <a href="https://www.phpbb.com/">phpBB Limited</a>, qui en est le légitime propriétaire. Il est rendu accessible sous la Licence Publique Générale GNU et peut être distribué gratuitement. Pour plus d’informations, veuillez cliquer sur le lien.'
 	),
 	array(
 		0 => 'Pourquoi la fonctionnalité X n’est pas disponible ?',
-		1 => 'Ce programme a été développé et mis sous licence par le phpBB Limited. Si vous souhaitez proposer l’implantation d’une nouvelle fonctionnalité, veuillez vous rendre sur le <a href="https://www.phpbb.com/ideas/">centre d’idées de phpBB</a> où vous pourrez voter pour les idées soumises par d’autres utilisateurs et suggérer les vôtres.'
+		1 => 'Ce programme a été développé et mis sous licence par phpBB Limited. Si vous souhaitez proposer l’implantation d’une nouvelle fonctionnalité, veuillez vous rendre sur le <a href="https://www.phpbb.com/ideas/">centre d’idées de phpBB</a> où vous pourrez voter pour les idées soumises par d’autres utilisateurs et suggérer les vôtres.'
 	),
 	array(
 		0 => 'Qui dois-je contacter à propos de problèmes d’abus ou d’ordres légaux liés à ce forum ?',
-		1 => 'Tous les administrateurs listés sur la page « L’équipe » devraient être un contact approprié pour ces genres de problèmes. Si vous n’obtenez aucune réponse de leur part, vous devriez alors contacter le propriétaire du domaine (faites une <a href="http://www.google.com/search?q=whois">requête WHOIS</a>) ou, si celui-ci fonctionne sur un service gratuit (comme Yahoo!, Free.fr, f2s.com, etc.), le service de gestion des abus. Veuillez notez que le phpBB Limited n’a <strong>absolument aucune juridiction</strong> et ne peut en aucun cas être tenu comme responsable de comment, où et par qui ce forum est utilisé. Ne contactez pas le phpBB Limited pour tout problème d’ordre légal (commentaire incessant, insultant, diffamatoire, etc.) qui n’ont <strong>pas directement de relation</strong> avec le site internet de phpBB.com ou le logiciel phpBB en lui-même. Si vous envoyez un courrier électronique au phpBB Limited <strong>à propos d’une utilisation de tierce partie</strong> de ce logiciel, attendez-vous à une réponse laconique, ou à aucune réponse, tout simplement.'
+		1 => 'Tous les administrateurs listés sur la page « L’équipe » devraient être un contact approprié pour ces genres de problèmes. Si vous n’obtenez aucune réponse de leur part, vous devriez alors contacter le propriétaire du domaine (faites une <a href="http://www.google.com/search?q=whois">requête WHOIS</a>) ou, si celui-ci fonctionne sur un service gratuit (comme Yahoo!, Free.fr, f2s.com, etc.), le service de gestion des abus. Veuillez notez que phpBB Limited n’a <strong>absolument aucune juridiction</strong> et ne peut en aucun cas être tenu comme responsable de comment, où et par qui ce forum est utilisé. Ne contactez pas phpBB Limited pour tout problème d’ordre légal (commentaire incessant, insultant, diffamatoire, etc.) qui n’ont <strong>pas directement de relation</strong> avec le site internet de phpBB.com ou le logiciel phpBB en lui-même. Si vous envoyez un courrier électronique à phpBB Limited <strong>à propos d’une utilisation de tierce partie</strong> de ce logiciel, attendez-vous à une réponse laconique, ou à aucune réponse, tout simplement.'
 	),
 );
