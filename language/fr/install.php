@@ -54,7 +54,7 @@ $lang = array_merge($lang, array(
 	'BEGIN_CONVERT'					=> 'Démarrer la conversion',
 	'BLANK_PREFIX_FOUND'			=> 'Une vérification de vos tables a détecté la présence d’une installation valide n’utilisant pas de préfixe de table.',
 	'BOARD_NOT_INSTALLED'			=> 'Aucune installation n’a été trouvée',
-	'BOARD_NOT_INSTALLED_EXPLAIN'	=> 'Une installation de phpBB par défaut est nécessaire afin que l’outil de conversion puisse être exécuté. Veuillez <a href="%s">procéder à la première installation de phpBB3</a>.',
+	'BOARD_NOT_INSTALLED_EXPLAIN'	=> 'Une installation de phpBB par défaut est nécessaire afin que l’outil de conversion puisse être exécuté. Veuillez <a href="%s">procéder à la première installation de phpBB 3.1</a>.',
 	'BACKUP_NOTICE'					=> 'Veuillez effectuer une sauvegarde de votre forum avant de procéder au processus de mise à jour au cas où des erreurs se produiraient.',
 
 	'CATEGORY'					=> 'Catégorie',
@@ -74,7 +74,7 @@ $lang = array_merge($lang, array(
 	'CONFIG_CONVERT'			=> 'Conversion de la configuration',
 	'CONFIG_FILE_UNABLE_WRITE'	=> 'Il n’a pas été possible d’écrire le fichier de configuration. Des méthodes alternatives sont disponibles ci-dessous.',
 	'CONFIG_FILE_WRITTEN'		=> 'Le fichier de configuration a été généré. Vous pouvez à présent continuer vers la prochaine étape de l’installation.',
-	'CONFIG_PHPBB_EMPTY'		=> 'La variable de configuration de phpBB3 concernant « %s » est vide.',
+	'CONFIG_PHPBB_EMPTY'		=> 'La variable de configuration de phpBB 3.1 concernant « %s » est vide.',
 	'CONFIG_RETRY'				=> 'Réessayer',
 	'CONTINUE_CONVERT'			=> 'Continuer la conversion',
 	'CONTINUE_CONVERT_BODY'		=> 'Une tentative de conversion antérieure a été détectée. Vous pouvez à présent commencer une nouvelle conversion ou continuer celle qui est en cours.',
@@ -176,7 +176,7 @@ $lang = array_merge($lang, array(
 	'FORUM_ADDRESS'				=> 'Adresse du forum',
 	'FORUM_ADDRESS_EXPLAIN'		=> 'Ceci est l’ancienne adresse de votre forum, telle que <samp>http://www.exemple.com/phpBB2/</samp>. Si vous remplissez ce champ, tous les liens redirigeant vers l’ancienne adresse de votre forum insérés dans vos messages, vos messages privés et vos signatures seront mis à jour avec la nouvelle adresse de votre forum.',
 	'FORUM_PATH'				=> 'Chemin du forum',
-	'FORUM_PATH_EXPLAIN'		=> 'Ceci est le chemin <strong>relatif</strong> sur le disque du serveur vers votre ancien forum depuis la <strong>racine de cette installation de phpBB3</strong>.',
+	'FORUM_PATH_EXPLAIN'		=> 'Ceci est le chemin <strong>relatif</strong> sur le disque du serveur vers votre ancien forum depuis la <strong>racine de cette installation de phpBB 3.1</strong>.',
 	'FOUND'						=> 'Trouvé',
 	'FTP_CONFIG'				=> 'Transférer la configuration par FTP',
 	'FTP_CONFIG_EXPLAIN'		=> 'phpBB a détecté la présence du module FTP sur ce serveur. Si vous le souhaitez, vous pouvez essayer d’installer votre fichier config.php depuis ce module. Vous devrez saisir les informations demandées ci-dessous. N’oubliez pas que votre nom d’utilisateur et votre mot de passe sont ceux de votre serveur (demandez-les à votre hébergeur si vous n’êtes pas certain(e) de les avoir à disposition) !',
@@ -191,13 +191,13 @@ $lang = array_merge($lang, array(
 	'INSTALL_CONGRATS'			=> 'Félicitations !',
 	'INSTALL_CONGRATS_EXPLAIN'	=> '
 		Vous avez correctement installé phpBB %1$s. Veuillez continuer en sélectionnant une des options suivantes :</p>
-		<h2>Convertir un forum existant vers phpBB3</h2>
-		<p>L’outil de conversion de phpBB permet de convertir phpBB 2.0.x, ou d’autres logiciels de forums de discussions, vers phpBB3. Si vous avez à disposition un forum existant et que vous souhaitez le convertir, veuillez <a href="%2$s">continuer en sélectionnant un convertisseur</a>.</p>
+		<h2>Convertir un forum existant vers phpBB 3.1</h2>
+		<p>L’outil de conversion de phpBB permet de convertir phpBB 2.0.x, ou d’autres logiciels de forums de discussions, vers phpBB 3.1. Si vous avez à disposition un forum existant et que vous souhaitez le convertir, veuillez <a href="%2$s">continuer en sélectionnant un convertisseur</a>.</p>
 		<h2>Utiliser votre forum en ligne !</h2>
 		<p>En cliquant sur le bouton ci-dessous, vous accéderez à un formulaire vous proposant d’envoyer des données statistiques à phpBB depuis votre panneau de contrôle d’administration. Nous vous serions reconnaissants de prendre le temps de nous aider en nous envoyant ces informations. Par la suite, vous pourrez prendre le temps de consulter toutes les options qui vous seront disponibles. N’oubliez pas que de l’aide en ligne est disponible dans la <a href="https://www.phpbb.com/support/documentation/3.0/">documentation</a>, dans le fichier <a href="%3$s">README</a> et sur les <a href="https://www.phpbb.com/community/viewforum.php?f=46">forums de support</a>.</p><p><strong>Veuillez supprimer, déplacer ou renommer le répertoire « install » de votre serveur afin d’utiliser votre forum. Tant que ce répertoire est présent, seul le panneau de contrôle d’administration sera accessible.</strong>',
 	'INSTALL_INTRO'				=> 'Bienvenue à l’installation',
 
-	'INSTALL_INTRO_BODY'		=> 'Grâce à cette option, il est possible d’installer phpBB3 sur votre serveur.</p><p>Avant de continuer, vous allez avoir besoin de vous munir des réglages de votre base de données. Si vous ne les connaissez pas, veuillez les demander à votre hébergeur car vous ne pourrez pas continuer sans saisir ces informations. Vous avez besoin du :</p>
+	'INSTALL_INTRO_BODY'		=> 'Grâce à cette option, il est possible d’installer phpBB 3.1 sur votre serveur.</p><p>Avant de continuer, vous allez avoir besoin de vous munir des réglages de votre base de données. Si vous ne les connaissez pas, veuillez les demander à votre hébergeur car vous ne pourrez pas continuer sans saisir ces informations. Vous avez besoin du :</p>
 
 	<ul>
 		<li>Type de base de données - la base de données que vous allez utiliser.</li>
@@ -209,7 +209,7 @@ $lang = array_merge($lang, array(
 
 	<p><strong>Information :</strong> si vous procédez à une installation en utilisant SQLite, vous devrez saisir le chemin complet de votre fichier de base de données dans le champ DSN et laisser les champs du nom d’utilisateur et du mot de passe vides. Pour des raisons de sécurité, vous devriez vous assurer que le fichier de base de données ne soit pas stocké dans un endroit accessible en ligne.</p>
 
-	<p>phpBB3 est compatible avec les bases de données suivantes :</p>
+	<p>phpBB 3.1 est compatible avec les bases de données suivantes :</p>
 	<ul>
 		<li>MySQL 3.23 ou supérieur (MySQLi supporté)</li>
 		<li>PostgreSQL 8.3+</li>
@@ -287,7 +287,7 @@ $lang = array_merge($lang, array(
 	'NO_LOCATION'				=> 'Emplacement introuvable. Si ImageMagick est installé, vous pourrez saisir ultérieurement son emplacement depuis le panneau de contrôle d’administration.',
 	'NO_TABLES_FOUND'			=> 'Aucune table n’a été trouvée.',
 
-	'OVERVIEW_BODY'				=> 'Bienvenue sur phpBB3 !<br /><br />phpBB® est le logiciel de forum de discussions libre et gratuit le plus utilisé dans le monde. Il est le résultat d’un long travail qui a débuté en l’an 2000. Tout comme ses versions précédentes, phpBB3 est riche en fonctionnalités, facile d’accès et entièrement supporté par phpBB Limited. Il améliore considérablement ce qui a rendu phpBB2 populaire et ajoute des fonctionnalités attendues qui manquaient aux versions antérieures. Nous espérons avoir répondu convenablement à vos attentes.<br /><br />Ce système d’installation vous guidera dans l’installation de phpBB3, dans la mise à jour des versions obsolètes à la dernière version stable et bien évidemment dans la conversion de divers logiciels de forums de discussions (dont phpBB2) vers phpBB3. Pour plus d’informations, nous vous encourageons à consulter <a href="../docs/INSTALL.html">le guide d’installation</a>.<br /><br />Pour consulter la licence de phpBB3 ou en savoir plus sur l’obtention de support ainsi que notre position envers ce dernier, veuillez sélectionner les options appropriées situées sur le menu latéral de gauche. Pour continuer, veuillez sélectionner l’onglet approprié situé ci-dessus.',
+	'OVERVIEW_BODY'				=> 'Bienvenue sur phpBB 3.1 !<br /><br />phpBB® est le logiciel de forum de discussions libre et gratuit le plus utilisé dans le monde. Il est le résultat d’un long travail qui a débuté en l’an 2000. Tout comme ses versions précédentes, phpBB 3.1 est riche en fonctionnalités, facile d’accès et entièrement supporté par phpBB Limited. Il améliore considérablement ce qui a rendu phpBB 2.0 populaire et ajoute des fonctionnalités attendues qui manquaient aux versions antérieures. Nous espérons avoir répondu convenablement à vos attentes.<br /><br />Ce système d’installation vous guidera dans l’installation de phpBB 3.1, dans la mise à jour des versions obsolètes à la dernière version stable et bien évidemment dans la conversion de divers logiciels de forums de discussions (dont phpBB 2.0) vers phpBB 3.1. Pour plus d’informations, nous vous encourageons à consulter <a href="../docs/INSTALL.html">le guide d’installation</a>.<br /><br />Pour consulter la licence de phpBB 3.1 ou en savoir plus sur l’obtention de support ainsi que notre position envers ce dernier, veuillez sélectionner les options appropriées situées sur le menu latéral de gauche. Pour continuer, veuillez sélectionner l’onglet approprié situé ci-dessus.',
 
 	'PCRE_UTF_SUPPORT'				=> 'Support de PCRE UTF-8',
 	'PCRE_UTF_SUPPORT_EXPLAIN'		=> 'phpBB ne fonctionnera <strong>pas</strong> si votre installation PHP n’est pas compilée sous PCRE avec le support de d’UTF-8.',
@@ -347,7 +347,7 @@ $lang = array_merge($lang, array(
 	'SUB_LICENSE'				=> 'Licence',
 	'SUB_SUPPORT'				=> 'Support',
 	'SUCCESSFUL_CONNECT'		=> 'Connecté',
-	'SUPPORT_BODY'				=> 'Un support complet et gratuit de la dernière version stable de phpBB3 est disponible. Cela comprend :</p><ul><li>l’installation</li><li>la configuration</li><li>les questions d’ordre technique</li><li>les problèmes en relation avec les bogues potentiels du logiciel</li><li>la mise à jour d’une des versions Release Candidate (RC) vers la dernière version stable</li><li>la conversion de phpBB 2.0.x vers phpBB3</li><li>la conversion d’un des nombreux logiciels de forums de discussions vers phpBB3 (veuillez consulter le <a href="https://www.phpbb.com/community/viewforum.php?f=486">forum relatif aux convertisseurs</a>)</li></ul><p>Nous continuons à encourager les utilisateurs utilisant une des versions bêta de phpBB3 à remplacer celle-ci par une nouvelle installation de la dernière version stable.</p><h2>Extensions et styles</h2><p>En ce qui concerne les problèmes relatifs aux extensions, veuillez publier vos demandes de support dans le <a href="https://www.phpbb.com/community/viewforum.php?f=451">forum relatif aux extensions</a>.<br />En ce qui concerne les problèmes relatifs aux styles, aux modèles et aux thèmes, veuillez publier vos demandes de support dans le <a href="https://www.phpbb.com/community/viewforum.php?f=471">forum relatif aux styles</a>.<br /><br />Si votre question est portée sur une archive spécifique, veuillez publier directement votre message dans le sujet dédié à cette archive.</p><h2>Obtenir de l’aide</h2><p><a href="https://www.phpbb.com/community/viewtopic.php?f=14&amp;t=571070">Le message de bienvenue dans phpBB</a><br /><a href="https://www.phpbb.com/support/">La section relative au support</a><br /><a href="https://www.phpbb.com/support/documentation/3.1/quickstart/">Le guide de démarrage rapide</a><br /><br />Si vous souhaitez vous assurer d’être tenu au courant des dernières nouveautés et des dernières sorties de nos logiciels, pourquoi ne pas <a href="https://www.phpbb.com/support/">vous inscrire à notre liste de diffusion</a> ?<br /><br />',
+	'SUPPORT_BODY'				=> 'Un support complet et gratuit de la dernière version stable de phpBB 3.1 est disponible. Cela comprend :</p><ul><li>l’installation</li><li>la configuration</li><li>les questions d’ordre technique</li><li>les problèmes en relation avec les bogues potentiels du logiciel</li><li>la mise à jour d’une des versions Release Candidate (RC) vers la dernière version stable</li><li>la conversion de phpBB 2.0 vers phpBB 3.1</li><li>la conversion d’un des nombreux logiciels de forums de discussions vers phpBB 3.1 (veuillez consulter le <a href="https://www.phpbb.com/community/viewforum.php?f=486">forum relatif aux convertisseurs</a>)</li></ul><p>Nous continuons à encourager les utilisateurs utilisant une des versions bêta de phpBB 3.1 à remplacer celle-ci par une nouvelle installation de la dernière version stable.</p><h2>Extensions et styles</h2><p>En ce qui concerne les problèmes relatifs aux extensions, veuillez publier vos demandes de support dans le <a href="https://www.phpbb.com/community/viewforum.php?f=451">forum relatif aux extensions</a>.<br />En ce qui concerne les problèmes relatifs aux styles, aux modèles et aux thèmes, veuillez publier vos demandes de support dans le <a href="https://www.phpbb.com/community/viewforum.php?f=471">forum relatif aux styles</a>.<br /><br />Si votre question est portée sur une archive spécifique, veuillez publier directement votre message dans le sujet dédié à cette archive.</p><h2>Obtenir de l’aide</h2><p><a href="https://www.phpbb.com/community/viewtopic.php?f=14&amp;t=571070">Le message de bienvenue dans phpBB</a><br /><a href="https://www.phpbb.com/support/">La section relative au support</a><br /><a href="https://www.phpbb.com/support/documentation/3.1/quickstart/">Le guide de démarrage rapide</a><br /><br />Si vous souhaitez vous assurer d’être tenu au courant des dernières nouveautés et des dernières sorties de nos logiciels, pourquoi ne pas <a href="https://www.phpbb.com/support/">vous inscrire à notre liste de diffusion</a> ?<br /><br />',
 	'SYNC_FORUMS'				=> 'Démarrage de la synchronisation des forums',
 	'SYNC_POST_COUNT'			=> 'Synchronisation de post_counts',
 	'SYNC_POST_COUNT_ID'		=> 'Synchronisation de post_counts à partir de <var>entry</var> : %1$s sur %2$s.',
@@ -369,7 +369,7 @@ $lang = array_merge($lang, array(
 	'VERIFY_OPTIONS'			=> 'Vérification des options de conversion',
 	'VERSION'					=> 'Version',
 
-	'WELCOME_INSTALL'			=> 'Bienvenue à l’installation de phpBB3',
+	'WELCOME_INSTALL'			=> 'Bienvenue à l’installation de phpBB 3.1',
 	'WRITABLE'					=> 'Écriture possible',
 ));
 
@@ -544,7 +544,7 @@ $lang = array_merge($lang, array(
 
 		<h1>Comment mettre à jour votre installation avec l’archive de mise à jour automatique ?</h1>
 
-		<p>La méthode listée ici n’est valable que pour l’archive de mise à jour automatique. Vous pouvez également mettre à jour votre installation en utilisant les méthodes listées dans le document INSTALL.html. Les étapes de mise à jour automatique de phpBB3 sont :</p>
+		<p>La méthode listée ici n’est valable que pour l’archive de mise à jour automatique. Vous pouvez également mettre à jour votre installation en utilisant les méthodes listées dans le document INSTALL.html. Les étapes de mise à jour automatique de phpBB 3.1 sont :</p>
 
 		<ul style="margin-left: 20px; font-size: 1.1em;">
 			<li>Rendez-vous sur <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">la page des téléchargements de phpBB.com</a> et téléchargez l’archive de mise à jour automatique.<br /><br /></li>
@@ -593,7 +593,7 @@ $lang = array_merge($lang, array(
 	'CONFIG_SITE_DESC'				=> 'Une courte description de votre forum',
 	'CONFIG_SITENAME'				=> 'votredomaine.com',
 
-	'DEFAULT_INSTALL_POST'			=> 'Ceci est un exemple de message de votre nouvelle installation de phpBB3. Tout semble fonctionner correctement. Si vous le souhaitez, vous pouvez supprimer ce message et continuer à configurer votre forum. Lors du processus d’installation, votre première catégorie et votre premier forum ont été assignés à un ensemble de permissions relatif aux groupes d’utilisateurs que sont les administrateurs, les modérateurs généraux, les utilisateurs inscrits, les utilisateurs COPPA inscrits, les invités et les robots. Si vous souhaitez supprimer également cette première catégorie et ce premier forum, n’oubliez pas d’assigner les permissions appropriées à tous les groupes d’utilisateurs sur chaques nouvelles catégories et nouveaux forums que vous créez. Il est recommandé de renommer cette première catégorie et ce premier forum, puis de copier leurs permissions sur chaque nouvelle catégorie et chaque nouveau forum lors de leur création. Profitez bien de votre forum !',
+	'DEFAULT_INSTALL_POST'			=> 'Ceci est un exemple de message de votre nouvelle installation de phpBB 3.1. Tout semble fonctionner correctement. Si vous le souhaitez, vous pouvez supprimer ce message et continuer à configurer votre forum. Lors du processus d’installation, votre première catégorie et votre premier forum ont été assignés à un ensemble de permissions relatif aux groupes d’utilisateurs que sont les administrateurs, les modérateurs généraux, les utilisateurs inscrits, les utilisateurs COPPA inscrits, les invités et les robots. Si vous souhaitez supprimer également cette première catégorie et ce premier forum, n’oubliez pas d’assigner les permissions appropriées à tous les groupes d’utilisateurs sur chaques nouvelles catégories et nouveaux forums que vous créez. Il est recommandé de renommer cette première catégorie et ce premier forum, puis de copier leurs permissions sur chaque nouvelle catégorie et chaque nouveau forum lors de leur création. Bonne continuation !',
 
 	'FORUMS_FIRST_CATEGORY'			=> 'Votre première catégorie',
 	'FORUMS_TEST_FORUM_DESC'		=> 'Description de votre premier forum.',
@@ -608,14 +608,14 @@ $lang = array_merge($lang, array(
 	'SMILIES_ARROW'					=> 'Flèche',
 	'SMILIES_CONFUSED'				=> 'Troublé',
 	'SMILIES_COOL'					=> 'Décontracté',
-	'SMILIES_CRYING'				=> 'En larmes',
+	'SMILIES_CRYING'				=> 'Pleure',
 	'SMILIES_EMARRASSED'			=> 'Embarrassé',
-	'SMILIES_EVIL'					=> 'Diable mécontent',
+	'SMILIES_EVIL'					=> 'Colère diabolique',
 	'SMILIES_EXCLAMATION'			=> 'Exclamation',
 	'SMILIES_GEEK'					=> 'Geek',
 	'SMILIES_IDEA'					=> 'Idée',
-	'SMILIES_LAUGHING'				=> 'Rieur',
-	'SMILIES_MAD'					=> 'Mécontent',
+	'SMILIES_LAUGHING'				=> 'Rire',
+	'SMILIES_MAD'					=> 'Colère',
 	'SMILIES_MR_GREEN'				=> 'M. Vert',
 	'SMILIES_NEUTRAL'				=> 'Neutre',
 	'SMILIES_QUESTION'				=> 'Question',
@@ -623,12 +623,12 @@ $lang = array_merge($lang, array(
 	'SMILIES_ROLLING_EYES'			=> 'Roule des yeux',
 	'SMILIES_SAD'					=> 'Triste',
 	'SMILIES_SHOCKED'				=> 'Scandalisé',
-	'SMILIES_SMILE'					=> 'Souriant',
+	'SMILIES_SMILE'					=> 'Sourire',
 	'SMILIES_SURPRISED'				=> 'Étonné',
-	'SMILIES_TWISTED_EVIL'			=> 'Diable souriant',
+	'SMILIES_TWISTED_EVIL'			=> 'Sourire diabolique',
 	'SMILIES_UBER_GEEK'				=> 'Super geek',
 	'SMILIES_VERY_HAPPY'			=> 'Heureux',
 	'SMILIES_WINK'					=> 'Clin d’œil',
 
-	'TOPICS_TOPIC_TITLE'			=> 'Bienvenue sur phpBB3',
+	'TOPICS_TOPIC_TITLE'			=> 'Bienvenue sur phpBB 3.1',
 ));

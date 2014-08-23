@@ -422,7 +422,7 @@ $lang = array_merge($lang, array(
 	'PM_USERS_REMOVED_NO_PM'	=> 'Certains utilisateurs ne peuvent pas être ajoutés car ils ont désactivés la réception de messages privés.',
 	'POST_EDIT_PM'				=> 'Éditer le message',
 	'POST_FORWARD_PM'			=> 'Transférer le message',
-	'POST_NEW_PM'				=> 'Composer un message',
+	'POST_NEW_PM'				=> 'Rédiger un message',
 	'POST_PM_LOCKED'			=> 'La messagerie privée est verrouillée.',
 	'POST_PM_POST'				=> 'Citer le message',
 	'POST_QUOTE_PM'				=> 'Citer le message',
@@ -529,7 +529,7 @@ $lang = array_merge($lang, array(
 	'UCP_PREFS_VIEW'			=> 'Éditer les options d’affichage',
 
 	'UCP_PM'					=> 'Messages privés',
-	'UCP_PM_COMPOSE'			=> 'Composer un message',
+	'UCP_PM_COMPOSE'			=> 'Rédiger un message',
 	'UCP_PM_DRAFTS'				=> 'Gérer les brouillons de MP',
 	'UCP_PM_OPTIONS'			=> 'Boîtes, règles et réglages',
 	'UCP_PM_UNREAD'				=> 'Messages non lus',

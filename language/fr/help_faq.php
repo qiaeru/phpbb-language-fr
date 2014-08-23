@@ -75,7 +75,7 @@ $help = array(
 	),
 	array(
 		0 => 'À quoi sert « Supprimer tous les cookies du forum » ?',
-		1 => 'L’option « Supprimer tous les cookies du forum » vous permet d’effacer tous les cookies générés par phpBB3 qui conservent votre authentification et votre connexion au forum. Les cookies permettent également d’enregistrer le statut des messages, s’ils sont lus ou non lus, si cette fonctionnalité a été activée par le propriétaire du forum. Si vous rencontrez des problèmes récurrents de connexion et de déconnexion au forum, essayez de supprimer les cookies.',
+		1 => 'L’option « Supprimer tous les cookies du forum » vous permet d’effacer tous les cookies générés par phpBB 3.1 qui conservent votre authentification et votre connexion au forum. Les cookies permettent également d’enregistrer le statut des messages, s’ils sont lus ou non lus, si cette fonctionnalité a été activée par le propriétaire du forum. Si vous rencontrez des problèmes récurrents de connexion et de déconnexion au forum, essayez de supprimer les cookies.',
 	),
 	array(
 		0 => '--',
@@ -87,7 +87,7 @@ $help = array(
 	),
 	array(
 		0 => 'L’heure n’est pas correcte !',
-		1 => 'Il est possible que l’heure affichée soit réglée sur un fuseau horaire différent de celui dans lequel vous êtes. Si tel était le cas, rendez-vous dans le panneau de contrôle de l’utilisateur et réglez le fuseau horaire afin de trouver votre zone adéquate, par exemple Londres, Paris, New York, Sydney, etc. Veuillez noter que le réglage du fuseau horaire, comme la plupart des autres réglages, n’est accessible qu’aux utilisateurs inscrits. Si vous n’êtes pas inscrit, c’est l’occasion idéale de le faire.'
+		1 => 'Il est possible que l’heure affichée soit réglée sur un fuseau horaire différent du vôtre. Si tel était le cas, rendez-vous dans le panneau de contrôle de l’utilisateur et réglez le fuseau horaire afin de trouver votre zone adéquate, par exemple Londres, Paris, New York, Sydney, etc. Veuillez noter que le réglage du fuseau horaire, comme la plupart des autres réglages, n’est accessible qu’aux utilisateurs inscrits. Si vous n’êtes pas inscrit, c’est l’occasion idéale de le faire.'
 	),
 	array(
 		0 => 'J’ai réglé le fuseau horaire mais l’heure n’est toujours pas correcte !',
@@ -284,7 +284,7 @@ $help = array(
 	),
 	array(
 		0 => 'Pourquoi ma recherche ne renvoie aucun résultat ?',
-		1 => 'Votre recherche était probablement trop vague ou incluait trop de termes communs qui ne sont pas indexés par phpBB3. Soyez plus précis et utilisez les options disponibles dans la recherche avancée.'
+		1 => 'Votre recherche était probablement trop vague ou incluait trop de termes communs qui ne sont pas indexés par phpBB 3.1. Soyez plus précis et utilisez les options disponibles dans la recherche avancée.'
 	),
 	array(
 		0 => 'Pourquoi ma recherche renvoie à une page blanche ?!',
@@ -304,7 +304,7 @@ $help = array(
 	),
 	array(
 		0 => 'Quelle est la différence entre les favoris et les abonnements ?',
-		1 => 'Dans phpBB3, l’ajout d’un sujet aux favoris est similaire à la fonctionnalité présente dans votre navigateur internet. Vous ne recevrez pas de notification lors de la publication d’un nouveau message, mais vous pourrez revenir rapidement au sujet ultérieurement. Cependant, l’abonnement vous préviendra lors de la publication de nouveaux messages sur le sujet ou le forum que vous surveillez.'
+		1 => 'Dans phpBB 3.1, l’ajout d’un sujet aux favoris est similaire à la fonctionnalité présente dans votre navigateur internet. Vous ne recevrez pas de notification lors de la publication d’un nouveau message, mais vous pourrez revenir rapidement au sujet ultérieurement. Cependant, l’abonnement vous préviendra lors de la publication de nouveaux messages sur le sujet ou le forum que vous surveillez.'
 	),
 	array(
 		0 => 'Comment puis-je m’abonner à un forum ou à un sujet spécifique ?',
@@ -328,7 +328,7 @@ $help = array(
 	),
 	array(
 		0 => '--',
-		1 => 'À propos de phpBB3'
+		1 => 'À propos de phpBB 3.1'
 	),
 	array(
 		0 => 'Qui a développé ce logiciel de forum de discussions ?',

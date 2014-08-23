@@ -43,7 +43,7 @@ $lang = array_merge($lang, array(
 	'ACP_MASS_EMAIL_EXPLAIN'		=> 'Vous pouvez envoyer sur cette page un courrier électronique à la totalité des utilisateurs ou aux utilisateurs d’un groupe d’utilisateurs spécifique <strong>qui acceptent la réception de courriers électroniques de masse</strong>. Pour ce faire, un courrier électronique sera envoyé à l’adresse de courrier électronique fournie par l’administrateur et une copie sera adressée à tous les destinataires. Le réglage par défaut est limité à 50 destinataires par courrier électronique mais si ce nombre est dépassé, des courriers électroniques supplémentaires seront envoyés. Sachez également que plus les destinataires sont nombreux, plus le temps d’exécution est important. Il est normal que l’envoi d’un courrier électronique de masse prenne un certain temps, veillez à ne pas vous déplacer sur une autre page tant que l’opération n’est pas totalement terminée.',
 	'ALL_USERS'						=> 'Tous les utilisateurs',
 
-	'COMPOSE'				=> 'Composer',
+	'COMPOSE'				=> 'Rédiger',
 
 	'EMAIL_SEND_ERROR'		=> 'Une ou plusieurs erreurs sont survenues lors de l’envoi du courrier électronique. Pour plus d’informations, veuillez consulter l’%shistorique des erreurs%s.',
 	'EMAIL_SENT'			=> 'Le message a été envoyé.',
