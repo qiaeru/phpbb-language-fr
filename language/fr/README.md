@@ -29,9 +29,9 @@ Version
 
 The latest language package version publicly available at this time. This might be a development version.
 
-  - **Version:** 2.0.0-dev (Build 119)
-  - **Release Date:** August 12, 2014
-  - **Forum Software Compatibility:** [phpBB 3.1.0-RC3] [2]
+  - **Version:** 2.0.0-dev (Build 120)
+  - **Release Date:** August 23, 2014
+  - **Forum Software Compatibility:** [phpBB 3.1.0-RC4-dev (Build 1710)] [2]
 
 Support
 -------
@@ -120,7 +120,7 @@ Because the forum software is released under the [GNU General Public License 2.0
 Please note that the full notice of the license is available for reading from the [LICENSE] [7] file.
 
 [1]:https://www.maelsoucaze.com/
-[2]:https://download.phpbb.com/pub/release/3.1/unstable/3.1.0-RC3/
+[2]:https://bamboo.phpbb.com/browse/PHPBB3-DEVELOP-1710
 [3]:https://www.phpbb.com/customise/db/translation/french/support/
 [4]:https://www.phpbb.com/community/ucp.php?mode=register
 [5]:http://en.wikipedia.org/wiki/File_Transfer_Protocol
