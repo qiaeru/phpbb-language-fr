@@ -75,6 +75,9 @@ $lang = array_merge($lang, array(
 	'CLI_EXTENSION_PURGE_FAILURE'		=> 'Impossible de purger l’extension %s',
 	'CLI_EXTENSION_PURGE_SUCCESS'		=> 'L’extension %s a été purgée',
 	'CLI_EXTENSION_NOT_FOUND'			=> 'Aucune extension.',
+	'CLI_EXTENSIONS_AVAILABLE'			=> 'Disponible',
+	'CLI_EXTENSIONS_DISABLED'			=> 'Désactivé',
+	'CLI_EXTENSIONS_ENABLED'			=> 'Activé',
 
 	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS'	=> 'Tous les hachages des courriers électroniques ont été recalculés.',
 ));
