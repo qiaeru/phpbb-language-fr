@@ -276,7 +276,7 @@ $lang = array_merge($lang, array(
 	'MAKE_FOLDER_WRITABLE'		=> 'Veuillez vous assurer que ce répertoire existe et qu’il puisse être écrit par le serveur internet, puis réessayer :<br />»<strong>%s</strong>.',
 	'MAKE_FOLDERS_WRITABLE'		=> 'Veuillez vous assurer que ces répertoires existent et qu’ils puissent être écrits par le serveur internet, puis réessayer :<br />»<strong>%s</strong>.',
 
-	'MYSQL_SCHEMA_UPDATE_REQUIRED'	=> 'Le schéma de votre base de données MySQL est obsolète. phpBB a détecté un schéma pour MySQL 3.x/4.x, mais le serveur fonctionne avec MySQL %2$s.<br /><strong>Vous devez mettre à jour le schéma avant de procéder à la mise à jour.</strong><br /><br />Veuillez consulter l’<a href="https://www.phpbb.com/kb/article/doesnt-have-a-default-value-errors/">article de la base de connaissances à propos de la mise à jour du schéma MySQL</a>. Si vous rencontrez des difficultés lors de la mise à jour, veuillez demander de l’aide sur <a href="https://www.phpbb.com/community/viewforum.php?f=46">nos forums de support</a>.',
+	'MYSQL_SCHEMA_UPDATE_REQUIRED'	=> 'Le schéma de votre base de données MySQL est obsolète. phpBB a détecté un schéma concernant MySQL 3.x/4.x, mais le serveur fonctionne avec MySQL %2$s.<br /><strong>Vous devez mettre à jour le schéma avant de procéder à la mise à jour.</strong><br /><br />Veuillez consulter l’<a href="https://www.phpbb.com/kb/article/doesnt-have-a-default-value-errors/">article de la base de connaissances à propos de la mise à jour du schéma MySQL</a>. Si vous rencontrez des difficultés lors de la mise à jour, veuillez demander de l’aide sur <a href="https://www.phpbb.com/community/viewforum.php?f=46">nos forums de support</a>.',
 
 	'NAMING_CONFLICT'			=> 'Conflit d’appellation : %s et %s sont tous les deux des alias<br /><br />%s',
 	'NEXT_STEP'					=> 'Passer à l’étape suivante',
@@ -325,7 +325,7 @@ $lang = array_merge($lang, array(
 	'SELECT_LANG'				=> 'Sélectionner une langue',
 	'SERVER_CONFIG'				=> 'Configuration du serveur',
 	'SEARCH_INDEX_UNCONVERTED'	=> 'L’index de recherche n’a pas été converti',
-	'SEARCH_INDEX_UNCONVERTED_EXPLAIN'	=> 'Votre ancien index de recherche n’a pas été converti. La recherche retournera systématiquement un résultat vide. Pour créer un nouvel index de recherche, rendez-vous sur le panneau de contrôle d’administration, cliquez sur « Maintenance » et sélectionnez l’index de recherche à partir du sous-menu.',
+	'SEARCH_INDEX_UNCONVERTED_EXPLAIN'	=> 'Votre ancien index de recherche n’a pas été converti. La recherche retournera systématiquement un résultat nul. Pour créer un nouvel index de recherche, rendez-vous sur le panneau de contrôle d’administration, cliquez sur « Maintenance » et sélectionnez l’index de recherche à partir du sous-menu.',
 	'SELECT_FORUM_GA'			=> 'Dans phpBB 3.1, les annonces générales sont liées aux forums. Sélectionnez un forum contenant vos annonces générales (elles pourront être déplacées ultérieurement) :',
 	'SOFTWARE'					=> 'Logiciel de forum de discussions',
 	'SPECIFY_OPTIONS'			=> 'Sélectionner les options de conversion',
@@ -600,10 +600,10 @@ $lang = array_merge($lang, array(
 	'FORUMS_TEST_FORUM_TITLE'		=> 'Votre premier forum',
 
 	'RANKS_SITE_ADMIN_TITLE'		=> 'Administrateur',
-	'REPORT_WAREZ'					=> 'Le message rapporté contient ou redirige vers du contenu disponible en téléchargement illégal.',
-	'REPORT_SPAM'					=> 'Le message rapporté contient de la publicité visant à promouvoir un site internet ou un produit.',
+	'REPORT_WAREZ'					=> 'Le message rapporté contient du contenu portant atteinte au droit d’auteur, au droit des marques, au secret industriel ou à d’autres législations.',
+	'REPORT_SPAM'					=> 'Le message rapporté contient du contenu publicitaire indésirable visant à promouvoir une marque, un produit, une entreprise ou un site internet.',
 	'REPORT_OFF_TOPIC'				=> 'Le message rapporté est hors-sujet.',
-	'REPORT_OTHER'					=> 'Le message rapporté ne correspond à aucune catégorie, veuillez utiliser le champ d’information complémentaire.',
+	'REPORT_OTHER'					=> 'Le message rapporté ne correspond à aucune catégorie. Veuillez utiliser le champ d’information complémentaire.',
 
 	'SMILIES_ARROW'					=> 'Flèche',
 	'SMILIES_CONFUSED'				=> 'Troublé',

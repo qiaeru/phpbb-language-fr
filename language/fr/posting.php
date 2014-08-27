@@ -106,7 +106,7 @@ $lang = array_merge($lang, array(
 	'DISABLE_BBCODE'			=> 'Désactiver le BBCode',
 	'DISABLE_MAGIC_URL'			=> 'Ne pas analyser automatiquement la syntaxe des liens',
 	'DISABLE_SMILIES'			=> 'Désactiver les émoticônes',
-	'DISALLOWED_CONTENT'		=> 'Le transfert a été rejeté car le fichier transféré a été identifié comme un vecteur d’attaque possible.',
+	'DISALLOWED_CONTENT'		=> 'Le transfert a été interrompu car le fichier que vous avez souhaité transférer a été identifié comme une vulnérabilité potentielle.',
 	'DISALLOWED_EXTENSION'		=> 'L’extension %s n’est pas autorisée.',
 	'DRAFT_LOADED'				=> 'Le brouillon a été chargé dans la zone de rédaction, vous pouvez à présent finaliser votre message.<br />Votre brouillon sera supprimé après l’envoi du message.',
 	'DRAFT_LOADED_PM'			=> 'Le brouillon a été chargé dans la zone de rédaction, vous pouvez à présent finaliser votre message privé.<br />Votre brouillon sera supprimé après l’envoi du message privé.',
@@ -114,7 +114,7 @@ $lang = array_merge($lang, array(
 	'DRAFT_TITLE'				=> 'Titre du brouillon',
 
 	'EDIT_REASON'				=> 'Raison de l’édition',
-	'EMPTY_FILEUPLOAD'			=> 'Le fichier transféré est vide.',
+	'EMPTY_FILEUPLOAD'			=> 'Le fichier transféré ne contient aucune donnée.',
 	'EMPTY_MESSAGE'				=> 'Vous devez saisir un message si vous souhaitez en publier un.',
 	'EMPTY_REMOTE_DATA'			=> 'Le fichier n’a pas pu être transféré, veuillez essayer de le transférer manuellement.',
 

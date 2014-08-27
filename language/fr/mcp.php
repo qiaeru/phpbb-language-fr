@@ -420,16 +420,16 @@ $lang = array_merge($lang, array(
 
 	'report_reasons'		=> array(
 		'TITLE'	=> array(
-			'WAREZ'		=> 'Téléchargement illégal',
+			'WAREZ'		=> 'Contenu illégal',
 			'SPAM'		=> 'Publicité indésirable',
 			'OFF_TOPIC'	=> 'Hors-sujet',
 			'OTHER'		=> 'Autre',
 		),
 		'DESCRIPTION' => array(
-			'WAREZ'		=> 'Le message rapporté contient ou redirige vers du contenu disponible en téléchargement illégal.',
-			'SPAM'		=> 'Le message rapporté contient de la publicité visant à promouvoir un site internet ou un produit.',
+			'WAREZ'		=> 'Le message rapporté contient du contenu portant atteinte au droit d’auteur, au droit des marques, au secret industriel ou à d’autres législations.',
+			'SPAM'		=> 'Le message rapporté contient du contenu publicitaire indésirable visant à promouvoir une marque, un produit, une entreprise ou un site internet.',
 			'OFF_TOPIC'	=> 'Le message rapporté est hors-sujet.',
-			'OTHER'		=> 'Le message rapporté ne correspond à aucune catégorie, veuillez utiliser le champ d’information complémentaire.',
+			'OTHER'		=> 'Le message rapporté ne correspond à aucune catégorie. Veuillez utiliser le champ d’information complémentaire.',
 		),
 	),
 ));
