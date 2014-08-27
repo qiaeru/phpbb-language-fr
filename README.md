@@ -1,35 +1,33 @@
 French Language Package
 =======================
 
-The official language package for the phpBB® forum software to fully localize the board interface into French.
+Welcome to the official French language package for the phpBB® forum software.
 
 Authors
 -------
 
-The full list of authors notable for their feedbacks and contributions to the language package. Special thanks to all contributors who helped to improve the language package. Any kind of support is greatly appreciated.
+The full list of authors notable for their feedbacks and contributions to the language package.
 
-  - [AUTHORS] [1].
+Please note that the authors list is available for reading from the [AUTHORS] [1] file.
 
 Version
 -------
 
-The latest language package version publicly available at this time. This might be a development version.
+The language package version information and its compatibility with the forum software.
 
-  - [VERSION] [2].
+Please note that those version informations are available for reading from the [VERSION] [2] file.
 
 Support
 -------
 
-Feel free to post a new topic [in the support section] [3] to ask for help, report issues, or contribute fixes and improvements.
-
-Please note that you have to [register] [4] and login on the official forum software website to be able to post a new topic.
+Feel free to post a new topic [in the support section] [3] to ask for help, report issues, or contribute fixes and improvements. Please note that you have to [register] [4] and login to be able to post.
 
 Documentation
 -------------
 
 #### Download the language package
 
-It is strongly recommended that you do not download this package from any website other than the locations listed below to ensure you will always have the very latest, virus-free version of the language package.
+It is strongly recommended that you do not download the package from any website other than those below to always have the very latest, virus-free language package version.
 
   - **Forum Software Website:** https://www.phpbb.com/customise/db/translation/french/
   - **GitHub Repository:** https://github.com/maelsoucaze/phpbb
@@ -55,22 +53,22 @@ Please note that you will more than likely get a notice warning you that you alr
 Now that the language package is uploaded to your server, you will have to install it via the *Administration Control Panel*.
 
   - Login to your board.
-  - Click the *Administration Control Panel* link located in the footer of your board. You should authenticate again.
-  - Once in the *Administration Control Panel*, you will need to click the *SYSTEM* tab, located at the top of the page.
-  - On the left hand side, you will see a menu split into categories. You will need to click the *Language Packs* link.
+  - Click the *Administration Control Panel* link located in the footer of your board.
+  - Once in the *Administration Control Panel*, you will need to click the *SYSTEM* tab.
+  - Now you will need to click the *Language Packs* link located in the left menu.
   - You should see now a page which lists the language packages uploaded onto your server.
   - Click the install link next to the French language package.
 
 #### Set as board default language
 
-You now have the French language package installed and are now probably wondering how you use it.
+You now have the language package installed and are now probably wondering how to use it.
 
-The first thing you are probably going to want to do is to set it as the board default language. The board default language will be used for guests visiting the board and for the new users default language setting.
+The first thing you are probably going to want to do is to set it as the board default language which will be used for guests visiting the board and for the new users default language setting.
 
   - Login to your board.
-  - Click the *Administration Control Panel* link located in the footer of your board. You should authenticate again.
-  - Once in the *Administration Control Panel*, you will need to click the *GENERAL* tab, located at the top of the page.
-  - On the left hand side, you will see a menu split into categories. You will need to click the *Board Settings* link.
+  - Click the *Administration Control Panel* link located in the footer of your board.
+  - Once in the *Administration Control Panel*, you will need to click the *GENERAL* tab.
+  - Now you will need to click the *Board Settings* link located in the left menu.
   - You should see now a page which displays the board settings.
   - Locate the drop down menu for the option *Default language*.
   - Select the French language in the drop down menu and then click the submit button.
@@ -79,7 +77,7 @@ After doing the above steps, you will probably notice that when you start browsi
 
 #### Set as personal default language
 
-As briefly mentioned above, you can set your own language option in the *User Control Panel*. This allows the board administrator to have several language packages installed which can be selected by your board users.
+You can set your own language option in the *User Control Panel*. This allows the board administrator to have several language packages installed which can be selected by your board users.
 
   - Login to your board.
   - Click the *User Control Panel* link located in the header of your board.
@@ -88,18 +86,18 @@ As briefly mentioned above, you can set your own language option in the *User Co
   - Locate the drop down menu for the option *My language*.
   - Select the French language in the drop down menu and then click the submit button.
 
-Once set, the French language will be associated with your account regardless of the board default language.
+After doing the above steps, the French language package will be associated with your account, regardless of the board default language.
 
 #### Update the language package
 
-When a new version of the forum software is released and your board is updated, only the default British English language package will be up-to-date. That is why you will need to download the latest French language package version.
+When a new version of the forum software is released and your board is updated, the default British English language package will be the only language package to be up-to-date. That is why you will need to download the latest French language package version.
 
-Once the French language package downloaded, you just have to extract the compressed archive, upload the *language/* and *styles/* folders to your server and replace the existing files. This will update the French language package.
+Once the French language package is downloaded, you just have to extract the compressed archive, upload the *language/* and *styles/* folders to your server and replace the existing files. This will then update the French language package.
 
 License
 -------
 
-Because the forum software is released under the [GNU General Public License 2.0] [6], the French language package, which is based on the default language package, inherits from that open source license.
+Because the forum software is released under the [GNU General Public License 2.0] [6], the French language package, which is based on the default one, inherits from that open source license.
 
 Please note that the full notice of the license is available for reading from the [LICENSE] [7] file.
 
