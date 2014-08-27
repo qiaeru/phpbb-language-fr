@@ -6,39 +6,23 @@ The official language package for the phpBB® forum software to fully localize th
 Authors
 -------
 
-The full list of authors notable for their feedbacks and contributions to the language package.
+The full list of authors notable for their feedbacks and contributions to the language package. Special thanks to all contributors who helped to improve the language package. Any kind of support is greatly appreciated.
 
-Special thanks to all contributors who helped to improve the language package. Any kind of support is greatly appreciated.
-
-#### Author
-
-  - [Maël Soucaze] [1]
-
-#### Contributors
-
-  - Bernard Andrieux
-  - Citillara
-  - Elglobo
-  - Gilles 'Draky' Wittezaele
-  - Gwanda
-  - Terry Ellison
-  - tuxun
+  - [AUTHORS] [1].
 
 Version
 -------
 
 The latest language package version publicly available at this time. This might be a development version.
 
-  - **Version:** 2.0.0-dev (Build 121)
-  - **Release Date:** August 23, 2014
-  - **Forum Software Compatibility:** [phpBB 3.1.0-RC4-dev (Build 1711)] [2]
+  - [VERSION] [2].
 
 Support
 -------
 
-You are free to post a new topic [in the support section] [3] to ask for help, report issues, or contribute fixes and improvements.
+Feel free to post a new topic [in the support section] [3] to ask for help, report issues, or contribute fixes and improvements.
 
-Please note that you have to [create an account] [4] and login on the official forum software website to be able to post a new topic.
+Please note that you have to [register] [4] and login on the official forum software website to be able to post a new topic.
 
 Documentation
 -------------
@@ -50,21 +34,21 @@ It is strongly recommended that you do not download this package from any websit
   - **Forum Software Website:** https://www.phpbb.com/customise/db/translation/french/
   - **GitHub Repository:** https://github.com/maelsoucaze/phpbb
 
-Please note that development versions (recognizable with the use of *-dev* in the version number) are generally not recommended and should be used locally, available for testing purposes to developers or advanced and inquisitive users.
+Please note that development versions (recognizable with the use of *-dev* in the version number) are generally not recommended and should be used locally, available for testing purposes.
 
 #### Extract the compressed archive
 
 Once the compressed language package downloaded, you will need to extract (or unzip) the archive.
 
-The *language/* folder will contain the language files and the *styles/* folder will contain a localized image for the prosilver style.
+For information, the *language/* folder will contain all the language files and the *styles/* folder will contain the localized user online image and its stylesheet for the prosilver style.
 
-Please note that if you are using a style other than prosilver, you will need to copy the appropriate localized images into the theme-images folder of your custom style.
+Please note that if you are using a style other than prosilver, you will need to copy the appropriate localized images into the theme-images folder of your custom style, using *fr* as folder name.
 
 #### Upload the language-related folders
 
 Using [FTP] [5], you will need to upload the *language/* and *styles/* folders (and their subfolders) into your board root. The board root is the one which contains the *config.php* file.
 
-Please note that you will more than likely get a notice warning you that you already have folders called *language/* and *styles/* when uploading into the board root via FTP. If this happens, just click to replace them. This will replace conflicting files only (if this is your first time uploading the language package there should be none) and add the new files into their correct locations.
+Please note that you will more than likely get a notice warning you that you already have those folders when uploading into the board root via FTP. If this happens, just click to replace them. This will replace conflicting files only (if this is your first time uploading the language package there should be none) and add the new files into their correct locations.
 
 #### Install the language package
 
@@ -95,7 +79,7 @@ After doing the above steps, you will probably notice that when you start browsi
 
 #### Set as personal default language
 
-As briefly mentioned above, you can set your own language option in the *User Control Panel*. This allows the board administrator to have several language packages installed and thus the board users can choose the language which they prefer.
+As briefly mentioned above, you can set your own language option in the *User Control Panel*. This allows the board administrator to have several language packages installed which can be selected by your board users.
 
   - Login to your board.
   - Click the *User Control Panel* link located in the header of your board.
@@ -119,8 +103,8 @@ Because the forum software is released under the [GNU General Public License 2.0
 
 Please note that the full notice of the license is available for reading from the [LICENSE] [7] file.
 
-[1]:https://www.maelsoucaze.com/
-[2]:https://bamboo.phpbb.com/browse/PHPBB3-DEVELOP-1711
+[1]:https://github.com/maelsoucaze/phpbb/blob/master/language/fr/AUTHORS
+[2]:https://github.com/maelsoucaze/phpbb/blob/master/language/fr/VERSION
 [3]:https://www.phpbb.com/customise/db/translation/french/support/
 [4]:https://www.phpbb.com/community/ucp.php?mode=register
 [5]:http://en.wikipedia.org/wiki/File_Transfer_Protocol
