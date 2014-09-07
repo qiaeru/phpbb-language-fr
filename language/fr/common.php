@@ -864,6 +864,10 @@ $lang = array_merge($lang, array(
 	'WRONG_DATA_COLOUR'			=> 'La valeur de couleur que vous avez spécifiée est incorrecte.',
 	'WRONG_DATA_JABBER'			=> 'Le nom du compte Jabber que vous avez spécifié est incorrect.',
 	'WRONG_DATA_LANG'			=> 'La langue que vous avez spécifiée est incorrecte.',
+	'WRONG_DATA_POST_SD'		=> 'L’ordre du classement des messages que vous avez spécifié est incorrect.',
+	'WRONG_DATA_POST_SK'		=> 'L’option du classement des messages que vous avez spécifiée est incorrecte.',
+	'WRONG_DATA_TOPIC_SD'		=> 'L’ordre du classement des sujets que vous avez spécifié est incorrect.',
+	'WRONG_DATA_TOPIC_SK'		=> 'L’option du classement des sujets que vous avez spécifiée est incorrecte.',
 	'WROTE'						=> 'a écrit',
 
 	'YAHOO'				=> 'Yahoo Messenger',
