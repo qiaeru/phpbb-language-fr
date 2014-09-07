@@ -174,8 +174,8 @@ $help = array(
 		1 => 'Le BBCode est une implémentation spéciale du code HTML, vous offrant un meilleur contrôle sur la mise en forme d’un message. L’utilisation du BBCode est déterminée par l’administrateur mais il vous est également possible de la désactiver sur chaque message depuis le formulaire de rédaction. Le BBCode est similaire à l’architecture du code HTML, les balises sont contenues entre des crochets [ et ] à la place de &lt; et &gt;. Pour plus d’informations à propos du BBCode, veuillez consulter le guide qui est accessible depuis la page de rédaction.'
 	),
 	array(
-		0 => 'Puis-je utiliser du code HTML ?',
-		1 => 'Non, il n’est pas possible d’utiliser du code HTML sur ce forum. La majeure partie de la mise en forme qui peut être réalisée avec du code HTML peut être remplacée par du BBCode.'
+		0 => 'Puis-je insérer du code HTML ?',
+		1 => 'Non, il n’est pas possible d’insérer du code HTML sur ce forum. La majeure partie de la mise en forme qui peut être réalisée avec du code HTML peut être remplacée par du BBCode.'
 	),
 	array(
 		0 => 'Que sont les émoticônes ?',

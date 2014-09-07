@@ -56,10 +56,10 @@ $lang = array_merge($lang, array(
 	'DEST_LANG'				=> 'Langue',
 	'DEST_LANG_EXPLAIN'		=> 'Sélectionnez une langue appropriée, si elle existe, concernant le destinataire du message.',
 
-	'EMAIL_BODY_EXPLAIN'	=> 'Le message sera envoyé en texte brut, n’utilisez aucun code HTML ou BBCode. L’adresse de retour du message correspond à votre adresse de courrier électronique.',
+	'EMAIL_BODY_EXPLAIN'	=> 'Le message sera envoyé en texte brut, n’insérez aucun code HTML ou BBCode. L’adresse de retour du message correspond à votre adresse de courrier électronique.',
 	'EMAIL_DISABLED'		=> 'Toutes les fonctionnalités liées aux courriers électroniques ont été désactivées.',
 	'EMAIL_SENT'			=> 'Le courrier électronique a été envoyé.',
-	'EMAIL_TOPIC_EXPLAIN'	=> 'Le message sera envoyé en texte brut, n’utilisez aucun code HTML ou BBCode. Veuillez noter que le contenu du sujet est déjà intégré au message. L’adresse de retour du message correspond à votre adresse de courrier électronique.',
+	'EMAIL_TOPIC_EXPLAIN'	=> 'Le message sera envoyé en texte brut, n’insérez aucun code HTML ou BBCode. Veuillez noter que le contenu du sujet est déjà intégré au message. L’adresse de retour du message correspond à votre adresse de courrier électronique.',
 	'EMPTY_ADDRESS_EMAIL'	=> 'Vous devez saisir une adresse de courrier électronique correcte concernant le destinataire.',
 	'EMPTY_MESSAGE_EMAIL'	=> 'Vous devez saisir un message afin d’envoyer un courrier électronique.',
 	'EMPTY_MESSAGE_IM'		=> 'Vous devez saisir le contenu du message afin d’envoyer ce dernier.',
