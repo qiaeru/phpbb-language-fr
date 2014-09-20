@@ -519,6 +519,10 @@ $lang = array_merge($lang, array(
 	'NO_USER_SPECIFIED'			=> 'Aucun nom d’utilisateur n’a été spécifié.',
 
 	// Nullar/Singular/Plural language entry. The key numbers define the number range in which a certain grammatical expression is valid.
+	'NUM_ATTACHMENTS'		=> array(
+		1	=> '%d pièce jointe',
+		2	=> '%d pièces jointes',
+	),
 	'NUM_POSTS_IN_QUEUE'		=> array(
 		0			=> 'Aucun message en attente',		// 0
 		1			=> '1 message en attente',		// 1
@@ -864,10 +868,10 @@ $lang = array_merge($lang, array(
 	'WRONG_DATA_COLOUR'			=> 'La valeur de couleur que vous avez spécifiée est incorrecte.',
 	'WRONG_DATA_JABBER'			=> 'Le nom du compte Jabber que vous avez spécifié est incorrect.',
 	'WRONG_DATA_LANG'			=> 'La langue que vous avez spécifiée est incorrecte.',
-	'WRONG_DATA_POST_SD'		=> 'L’ordre du classement des messages que vous avez spécifié est incorrect.',
-	'WRONG_DATA_POST_SK'		=> 'L’option du classement des messages que vous avez spécifiée est incorrecte.',
-	'WRONG_DATA_TOPIC_SD'		=> 'L’ordre du classement des sujets que vous avez spécifié est incorrect.',
-	'WRONG_DATA_TOPIC_SK'		=> 'L’option du classement des sujets que vous avez spécifiée est incorrecte.',
+	'WRONG_DATA_POST_SD'		=> 'L’ordre de tri des messages que vous avez spécifié est incorrect.',
+	'WRONG_DATA_POST_SK'		=> 'L’option de tri des messages que vous avez spécifiée est incorrecte.',
+	'WRONG_DATA_TOPIC_SD'		=> 'L’ordre de tri des sujets que vous avez spécifié est incorrect.',
+	'WRONG_DATA_TOPIC_SK'		=> 'L’option de tri des sujets que vous avez spécifiée est incorrecte.',
 	'WROTE'						=> 'a écrit',
 
 	'YAHOO'				=> 'Yahoo Messenger',

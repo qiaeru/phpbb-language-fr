@@ -300,6 +300,7 @@ $lang = array_merge($lang, array(
 // Visual Confirmation Settings
 $lang = array_merge($lang, array(
 	'ACP_VC_SETTINGS_EXPLAIN'				=> 'Vous pouvez sélectionner et configurer sur cette page tous les modules d’extension qui permettent de lutter contre l’envoi de formulaires par des robots indésirables. Ces modules d’extension fonctionnent en général en demandant aux utilisateur de résoudre un <em>CAPTCHA</em>, qui est un outil permettant de différencier les humains aux robots.',
+	'ACP_VC_EXT_GET_MORE'					=> 'Vous pouvez obtenir des modules d’extension anti-spam supplémentaires (et probablement plus efficaces) en visitant la <a href="https://www.phpbb.com/go/anti-spam-ext"><strong>base de données des extensions de phpBB.com</strong></a>. Pour plus d’informations concernant la prévention du spam sur votre forum, veuillez visiter la <a href="https://www.phpbb.com/go/anti-spam"><strong>base de connaissances de phpBB.com</strong></a>.',
 	'AVAILABLE_CAPTCHAS'					=> 'Modules d’extension disponibles',
 	'CAPTCHA_UNAVAILABLE'					=> 'Le module d’extension ne peut pas être sélectionné tant que ses prérequis ne sont pas respectés.',
 	'CAPTCHA_GD'							=> 'Bruit GD de l’image',
