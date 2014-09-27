@@ -121,6 +121,12 @@ $lang = array_merge($lang, array(
 
 	'LANG_SPECIFIC_OPTIONS'		=> 'Options spécifiques à la langue [<strong>%s</strong>]',
 
+	'LETTER_NUM_DOTS'			=> 'Tout chiffre et point',
+	'LETTER_NUM_ONLY'			=> 'Tout chiffre et lettre',
+	'LETTER_NUM_PUNCTUATION'	=> 'Tout chiffre, lettre, virgule, point, tiret bas et tiret commençant avec une lettre',
+	'LETTER_NUM_SPACERS'		=> 'Tout chiffre, lettre et espace',
+	'LETTER_NUM_UNDERSCORE'		=> 'Tout chiffre, lettre et tiret bas',
+
 	'MAX_FIELD_CHARS'		=> 'Nombre maximal de caractères',
 	'MAX_FIELD_NUMBER'		=> 'Nombre le plus élevé autorisé',
 	'MIN_FIELD_CHARS'		=> 'Nombre minimal de caractères',
