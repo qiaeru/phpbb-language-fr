@@ -56,6 +56,8 @@ $lang = array_merge($lang, array(
 	'DEST_LANG'				=> 'Langue',
 	'DEST_LANG_EXPLAIN'		=> 'Sélectionnez une langue appropriée, si elle existe, concernant le destinataire du message.',
 
+	'EDIT_PROFILE'			=> 'Éditer le profil',
+
 	'EMAIL_BODY_EXPLAIN'	=> 'Le message sera envoyé en texte brut, n’insérez aucun code HTML ou BBCode. L’adresse de retour du message correspond à votre adresse de courrier électronique.',
 	'EMAIL_DISABLED'		=> 'Toutes les fonctionnalités liées aux courriers électroniques ont été désactivées.',
 	'EMAIL_SENT'			=> 'Le courrier électronique a été envoyé.',

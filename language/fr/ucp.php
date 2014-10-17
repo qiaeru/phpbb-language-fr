@@ -589,6 +589,7 @@ $lang = array_merge($lang, array(
 	),
 	'VIEW_PREVIOUS_HISTORY'		=> 'MP précédent dans l’ordre chronologique',
 	'VIEW_PREVIOUS_PM'			=> 'MP précédent',
+	'VIEW_PROFILE'				=> 'Consulter le profil',
 	'VIEW_SIGS'					=> 'Afficher les signatures',
 	'VIEW_SMILIES'				=> 'Afficher les émoticônes comme des images',
 	'VIEW_TOPICS_DAYS'			=> 'Afficher les sujets selon leur ancienneté',
