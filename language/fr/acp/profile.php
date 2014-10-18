@@ -41,11 +41,11 @@ if (empty($lang) || !is_array($lang))
 // Custom profile fields
 $lang = array_merge($lang, array(
 	'ADDED_PROFILE_FIELD'	=> 'Le champ de profil personnalisé a été ajouté.',
-	'ALPHA_DOTS'			=> 'Lettres, chiffres et points',
-	'ALPHA_ONLY'			=> 'Lettres et chiffres uniquement',
-	'ALPHA_SPACERS'			=> 'Lettres, chiffres et séparateurs',
-	'ALPHA_UNDERSCORE'		=> 'Lettres, chiffres et tirets bas',
-	'ALPHA_PUNCTUATION'		=> 'Lettres, chiffres, virgules, points, tirets bas et tirets commençant par une lettre',
+	'ALPHA_DOTS'			=> 'Lettres (sans accent), chiffres et points',
+	'ALPHA_ONLY'			=> 'Lettres (sans accent) et chiffres uniquement',
+	'ALPHA_SPACERS'			=> 'Lettres (sans accent), chiffres et séparateurs',
+	'ALPHA_UNDERSCORE'		=> 'Lettres (sans accent), chiffres et tirets bas',
+	'ALPHA_PUNCTUATION'		=> 'Lettres (sans accent), chiffres, virgules, points, tirets bas et tirets commençant par une lettre',
 	'ALWAYS_TODAY'			=> 'Toujours la date actuelle',
 
 	'BOOL_ENTRIES_EXPLAIN'	=> 'Saisissez à présent vos options',
