@@ -9,8 +9,8 @@
 * @copyright (c) 2010-2013 Moxiecode Systems AB
 * @license GNU General Public License, version 2 (GPL-2.0)
 *
-* For full copyright and license information, please see
-* the README.md and LICENSE files.
+* For information about the language package, please see the
+* AUTHORS, LICENSE ans VERSION files.
 *
 */
 
