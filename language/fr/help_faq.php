@@ -38,44 +38,40 @@ $help = array(
 		1 => 'Problèmes de connexion et d’inscription'
 	),
 	array(
-		0 => 'Pourquoi ne puis-je pas me connecter ?',
-		1 => 'Il y a plusieurs raisons qui peuvent en être la cause. Premièrement, assurez-vous que votre nom d’utilisateur et votre mot de passe soient corrects. S’ils le sont, contactez le propriétaire du forum afin de vous assurer de ne pas avoir été banni. Il est également possible que le propriétaire du site internet ait une erreur de configuration de son côté et qu’il soit nécessaire de la corriger.'
+		0 => 'Pourquoi ai-je besoin de m’inscrire ?',
+		1 => 'Vous êtes libre de ne pas le faire, il appartient à l’administrateur du forum d’exiger ou non que vous soyez inscrit afin de pouvoir publier des messages. Cependant, l’inscription vous donnera accès à des fonctionnalités supplémentaires qui ne sont pas disponibles aux visiteurs, comme les avatars personnalisés, la messagerie privée, l’envoi de courriers électroniques aux autres utilisateurs, l’adhésion à un groupe d’utilisateurs, etc. Ceci ne vous prend qu’un court instant et nous vous recommandons par conséquent de le faire.'
 	),
 	array(
-		0 => 'Pourquoi ai-je besoin de m’inscrire, après tout ?',
-		1 => 'Vous pouvez ne pas le faire, il appartient à l’administrateur du forum d’exiger ou non que vous soyez inscrit afin de pouvoir publier des messages. Cependant, l’inscription vous donnera accès à des fonctionnalités supplémentaires qui ne sont pas disponibles aux visiteurs, comme les avatars personnalisés, la messagerie privée, l’envoi de courriers électroniques aux autres utilisateurs, l’adhésion à un groupe d’utilisateurs, etc. Ceci ne vous prend qu’un court instant et nous vous recommandons par conséquent de le faire.'
+		0 => 'Qu’est-ce que la COPPA ?',
+		1 => 'La COPPA (Child Online Privacy and Protection Act) est une loi des États-Unis d’Amérique qui demande aux sites internet collectant potentiellement des informations sur les mineurs âgés de moins de 13 ans un consentement écrit des parents ou des tuteurs légaux des mineurs concernés. Si vous ne savez pas si cette loi s’applique également aux mineurs âgés de moins de 13 ans inscrits sur votre forum, nous vous conseillons de contacter un conseiller juridique qui pourra vous renseigner. Veuillez noter que phpBB Limited et le propriétaire de ce forum ne peuvent pas vous fournir d’assistance légale et ne sont donc pas à contacter concernant toutes les questions légales, excepté celles qui sont citées dans la question « Qui dois-je contacter à propos de problèmes d’abus ou d’ordres légaux liés à ce forum ? ».',
 	),
 	array(
-		0 => 'Pourquoi suis-je déconnecté automatiquement ?',
-		1 => 'Si vous ne cochez pas la case <em>Se souvenir de moi</em> lors de votre connexion, vous ne resterez connecté au forum que pour une période prédéfinie. Ceci permet d’éviter que votre compte soit utilisé par quelqu’un d’autre. Pour rester connecté, veuillez cocher la case correspondante lors de votre connexion. Ceci n’est pas recommandé si vous accédez au forum depuis un ordinateur public, comme par exemple dans une librairie, un cybercafé, une université, etc. Si vous n’arrivez pas à trouver cette case à cocher, il est probable qu’un administrateur ait désactivé cette fonctionnalité.'
-	),
-	array(
-		0 => 'Comment puis-je empêcher l’affichage de mon nom d’utilisateur dans la liste des utilisateurs en ligne ?',
-		1 => 'Dans le panneau de contrôle de l’utilisateur, en-dessous des « Préférences du forum », vous trouverez l’option <em>Masquer mon statut en ligne</em>. Activez cette option en cochant <samp>Oui</samp> afin de n’être visible qu’aux administrateurs, aux modérateurs et à vous-même. Vous serez compté(e) comme étant un utilisateur invisible.'
-	),
-	array(
-		0 => 'J’ai perdu mon mot de passe !',
-		1 => 'Pas de panique ! Bien que votre mot de passe ne puisse pas être récupéré, il peut facilement être réinitialisé. Rendez-vous sur la page de connexion et cliquez sur <em>J’ai perdu mon mot de passe</em>. Suivez les instructions et vous devriez être en mesure de pouvoir vous connecter de nouveau dans peu de temps.'
+		0 => 'Pourquoi ne puis-je pas m’inscrire ?',
+		1 => 'Il est possible qu’un administrateur du forum ait désactivé les inscriptions afin d’empêcher les nouveaux visiteurs de s’inscrire. Il est également possible qu’un administrateur du forum ait banni votre adresse IP ou interdit le nom d’utilisateur que vous souhaitez utiliser. Pour plus d’informations, veuillez contacter un administrateur du forum.',
 	),
 	array(
 		0 => 'Je suis inscrit mais ne peux pas me connecter !',
 		1 => 'Premièrement, vérifiez votre nom d’utilisateur et votre mot de passe. S’ils sont corrects, alors une des deux choses suivantes a pu s’être produite. Si le support de la COPPA est activé et que vous avez spécifié avoir en dessous de 13 ans pendant l’inscription, vous devrez suivre les instructions que vous avez reçues. Certains forums exigeront également que les nouvelles inscriptions doivent être activées, soit par vous-même ou soit par un administrateur, avant que vous puissiez ouvrir une session ; cette information était présente lors de votre inscription. Si vous aviez reçu un courrier électronique, consultez les instructions. Si vous ne recevez pas de courrier électronique, vous avez probablement spécifié une mauvaise adresse de courrier électronique ou le courrier électronique a été filtré en tant que pourriel. Si vous êtes certain(e) que l’adresse de courrier électronique que vous avez spécifiée était correcte, essayez de contacter un administrateur.'
 	),
 	array(
+		0 => 'Pourquoi ne puis-je pas me connecter ?',
+		1 => 'Il y a plusieurs raisons qui peuvent en être la cause. Premièrement, assurez-vous que votre nom d’utilisateur et votre mot de passe soient corrects. S’ils le sont, contactez un administrateur du forum afin de vous assurer de ne pas avoir été banni. Il est également possible que le propriétaire du site internet ait une erreur de configuration de son côté et qu’il soit nécessaire de la corriger.',
+	),
+	array(
 		0 => 'Je m’étais déjà inscrit par le passé mais je ne peux à présent plus me connecter ?!',
 		1 => 'Il est possible qu’un administrateur ait désactivé ou supprimé votre compte pour une quelconque raison. De plus, beaucoup de forums suppriment périodiquement les utilisateurs qui n’ont rien publiés depuis un certain temps afin de réduire la taille de leur base de données. Si tel était le cas, inscrivez-vous de nouveau et essayez de participer plus activement aux discussions sur le forum.'
 	),
 	array(
-		0 => 'Qu’est-ce que la COPPA ?',
-		1 => 'La COPPA (Child Online Privacy and Protection Act) est une loi des États-Unis d’Amérique qui demande aux sites internet collectant potentiellement des informations sur les mineurs âgés de moins de 13 ans un consentement écrit des parents ou des tuteurs légaux des mineurs concernés. Si vous ne savez pas si cette loi s’applique également aux mineurs âgés de moins de 13 ans inscrits sur votre forum, nous vous conseillons de contacter un conseiller juridique ou un avocat qui pourront vous fournir ce type de renseignement. Veuillez noter que phpBB Limited ne peut pas vous fournir d’assistance légale et n’est donc pas l’organisme à contacter, excepté pour ce qui est décrit ci-dessous.',
+		0 => 'J’ai perdu mon mot de passe !',
+		1 => 'Pas de panique ! Bien que votre mot de passe ne puisse pas être récupéré, il peut facilement être réinitialisé. Rendez-vous sur la page de connexion et cliquez sur <em>J’ai perdu mon mot de passe</em>. Suivez les instructions et vous devriez être en mesure de pouvoir vous connecter de nouveau dans peu de temps.<br />Cependant, si vous ne pouvez pas réinitialiser votre mot de passe, nous vous invitons à contacter un administrateur du forum.',
 	),
 	array(
-		0 => 'Pourquoi ne puis-je pas m’inscrire ?',
-		1 => 'Il est possible que le propriétaire du site internet ait banni votre adresse IP ou interdit le nom d’utilisateur que vous souhaitez utiliser. Le propriétaire du forum peut également avoir décidé de désactiver les inscriptions afin d’empêcher tous les nouveaux visiteurs de s’inscrire. Pour plus d’informations, veuillez contacter un administrateur du forum.',
+		0 => 'Pourquoi suis-je déconnecté automatiquement ?',
+		1 => 'Si vous ne cochez pas la case <em>Se souvenir de moi</em> lors de votre connexion, vous ne resterez connecté au forum que pour une période prédéfinie. Ceci permet d’éviter que votre compte soit utilisé par quelqu’un d’autre. Pour rester connecté, veuillez cocher la case <em>Se souvenir de moi</em> lors de votre connexion. Ceci n’est pas recommandé si vous accédez au forum depuis un ordinateur public, comme par exemple dans une librairie, un cybercafé, une université, etc. Si vous n’arrivez pas à trouver cette case à cocher, il est probable qu’un administrateur du forum ait désactivé cette fonctionnalité.'
 	),
 	array(
 		0 => 'À quoi sert « Supprimer tous les cookies du forum » ?',
-		1 => 'L’option « Supprimer tous les cookies du forum » vous permet d’effacer tous les cookies générés par phpBB 3.1 qui conservent votre authentification et votre connexion au forum. Les cookies permettent également d’enregistrer le statut des messages, s’ils sont lus ou non lus, si cette fonctionnalité a été activée par le propriétaire du forum. Si vous rencontrez des problèmes récurrents de connexion et de déconnexion au forum, essayez de supprimer les cookies.',
+		1 => 'L’option « Supprimer tous les cookies du forum » vous permet d’effacer tous les cookies générés par phpBB 3.1 qui conservent votre authentification et votre connexion au forum. Les cookies permettent également d’enregistrer le statut des messages, s’ils sont lus ou non lus, si cette fonctionnalité a été activée par un administrateur du forum. Si vous rencontrez des problèmes récurrents de connexion et de déconnexion au forum, essayez de supprimer les cookies.',
 	),
 	array(
 		0 => '--',
@@ -83,7 +79,11 @@ $help = array(
 	),
 	array(
 		0 => 'Comment puis-je modifier mes réglages ?',
-		1 => 'Si vous êtes un utilisateur inscrit, tous vos réglages sont stockés dans la base de données du forum. Vous pouvez les modifier depuis le panneau de contrôle de l’utilisateur ; le lien vers ce dernier se situe généralement en haut des pages du forum. Ce système vous permettra de modifier tous vos réglages et toutes vos préférences.'
+		1 => 'Si vous êtes un utilisateur inscrit, tous vos réglages sont stockés dans la base de données du forum. Vous pouvez les modifier depuis le panneau de contrôle de l’utilisateur ; le lien vers ce dernier se trouve généralement en cliquant sur votre nom d’utilisateur en haut des pages du forum. Ce système vous permettra de modifier tous vos réglages et toutes vos préférences.',
+	),
+	array(
+		0 => 'Comment puis-je empêcher l’affichage de mon nom d’utilisateur dans la liste des utilisateurs en ligne ?',
+		1 => 'Dans le panneau de contrôle de l’utilisateur, en-dessous des « Préférences du forum », vous trouverez l’option <em>Masquer mon statut en ligne</em>. Activez cette option afin de n’être visible qu’aux administrateurs, aux modérateurs et à vous-même. Vous serez comptabilisé(e) comme étant un utilisateur invisible.'
 	),
 	array(
 		0 => 'L’heure n’est pas correcte !',
@@ -95,11 +95,15 @@ $help = array(
 	),
 	array(
 		0 => 'Ma langue n’apparaît pas dans la liste !',
-		1 => 'Soit l’administrateur n’a pas installé votre langue sur le forum, soit personne n’a encore traduit le logiciel dans votre langue. Essayez de demander à un administrateur du forum s’il est possible qu’il puisse installer la traduction que vous souhaitez. Si la traduction désirée n’existe pas, vous êtes libre de vous porter volontaire et commencer une nouvelle traduction. Pour plus d’informations, veuillez vous rendre sur le site officiel (accessible depuis un des liens situés en bas de toutes les pages du forum).'
+		1 => 'Soit l’administrateur n’a pas installé votre langue sur le forum, soit personne n’a encore traduit le logiciel dans votre langue. Essayez de demander à un administrateur du forum s’il est possible qu’il puisse installer la traduction que vous souhaitez. Si la traduction désirée n’existe pas, vous êtes libre de vous porter volontaire et commencer une nouvelle traduction. Pour plus d’informations, veuillez vous rendre sur le site internet de <a href="https://www.phpbb.com/">phpBB</a>&reg;.',
 	),
 	array(
-		0 => 'Comment puis-je afficher une image associée à mon nom d’utilisateur ?',
-		1 => 'Deux types d’images, visibles lors de la consultation de messages, peuvent être associés à votre nom d’utilisateur. L’un d’entre eux peut être une image associée à votre rang, généralement en forme d’étoiles, de carrés ou de ronds, qui indiquent le nombre de messages à votre actif ou votre statut sur le forum. L’autre type, habituellement une image plus imposante, est connue sous le nom d’avatar et est généralement unique et personnelle à chaque utilisateur. C’est à l’administrateur du forum d’activer ou non les avatars et de décider de la manière dont ils sont mis à disposition. Si vous ne pouvez pas utiliser les avatars, contactez l’administrateur du forum et demandez-lui pour quelles raisons a t-il souhaité désactiver cette fonctionnalité.'
+		0 => 'Que signifient les images situées à côté de mon nom d’utilisateur ?',
+		1 => 'Il y a deux images qui peuvent apparaître à côté de votre nom d’utilisateur lorsque vous consultez un sujet. Une des images peut être une image associée à votre rang, généralement sous la forme d’étoiles, de cubes ou de ronds, indiquant le nombre de messages que vous avez publié ou votre statut sur le forum. L’autre image, généralement plus grande, est une image connue sous le nom d’avatar qui est bien souvent unique et personnelle à chaque utilisateur.',
+	),
+	array(
+		0 => 'Comment puis-je afficher un avatar ?',
+		1 => 'Dans le panneau de contrôle de l’utilisateur, sous le « Profil », vous pouvez ajouter un avatar en utilisant une des quatre méthodes suivantes : le service Gravatar, la galerie d’avatars, les avatars à distance ou le transfert d’avatars. C’est l’administrateur du forum qui décide d’activer ou non la fonctionnalité des avatars et de choisir les méthodes qu’il veut rendre disponible aux utilisateurs. Si vous ne pouvez pas utiliser d’avatars, nous vous invitons à contacter un administrateur du forum.',
 	),
 	array(
 		0 => 'Quel est mon rang et comment puis-je le modifier ?',
@@ -114,8 +118,8 @@ $help = array(
 		1 => 'Problèmes de publication'
 	),
 	array(
-		0 => 'Comment puis-je publier un sujet dans un forum ?',
-		1 => 'Pour publier un nouveau sujet dans un forum, cliquez sur le bouton adéquat situé sur l’écran du forum ou du sujet. Il se peut que vous ayez besoin d’être inscrit avant de pouvoir rédiger un message. Sur chaque forum, une liste de vos permissions est affichée en bas de l’écran du forum ou du sujet. Par exemple : vous pouvez publier de nouveaux sujets, vous pouvez voter dans les sondages, etc.'
+		0 => 'Comment puis-je publier un nouveau sujet ou une réponse ?',
+		1 => 'Pour publier un nouveau sujet dans un forum, cliquez sur le bouton « Nouveau sujet ». Pour publier une réponse à un sujet ou un message, cliquez sur le bouton « Répondre ». Il se peut que vous ayez besoin d’être inscrit avant de pouvoir rédiger un message. Sur chaque forum, une liste de vos permissions est affichée en bas de l’écran du forum ou du sujet. Par exemple : vous pouvez publier de nouveaux sujets dans ce forum, vous pouvez transférer des pièces jointes dans ce forum, etc.',
 	),
 	array(
 		0 => 'Comment puis-je éditer ou supprimer un message ?',
@@ -284,7 +288,7 @@ $help = array(
 	),
 	array(
 		0 => 'Pourquoi ma recherche ne renvoie aucun résultat ?',
-		1 => 'Votre recherche était probablement trop vague ou incluait trop de termes communs qui ne sont pas indexés par phpBB 3.1. Soyez plus précis et utilisez les options disponibles dans la recherche avancée.'
+		1 => 'Votre recherche était probablement trop vague ou incluait trop de termes communs qui ne sont pas indexés par phpBB. Soyez plus précis et utilisez les options disponibles dans la recherche avancée.',
 	),
 	array(
 		0 => 'Pourquoi ma recherche renvoie à une page blanche ?!',
@@ -296,19 +300,23 @@ $help = array(
 	),
 	array(
 		0 => 'Comment puis-je retrouver mes propres messages et sujets ?',
-		1 => 'Vos propres messages peuvent être affichés en cliquant sur le lien « Rechercher les messages de l’utilisateur » disponible dans le panneau de contrôle de l’utilisateur ou sur la page de votre propre profil. Pour effectuer une recherche de vos propres sujets, utilisez la recherche avancée et remplissez convenablement les options qui vous sont disponibles.'
+		1 => 'Vos propres messages peuvent être affichés soit en cliquant sur le lien « Afficher vos messages » dans le panneau de contrôle de l’utilisateur, soit en cliquant sur le lien « Rechercher les messages de l’utilisateur » sur la page de votre propre profil ou soit en cliquant sur le menu « Raccourcis » situé sur la partie supérieure du forum. Pour effectuer une recherche de vos propres sujets, utilisez la recherche avancée et remplissez convenablement les options qui vous sont disponibles.',
 	),
 	array(
 		0 => '--',
-		1 => 'Favoris et abonnements'
+		1 => 'Favoris et abonnements',
 	),
 	array(
 		0 => 'Quelle est la différence entre les favoris et les abonnements ?',
-		1 => 'Dans phpBB 3.1, l’ajout d’un sujet aux favoris est similaire à la fonctionnalité présente dans votre navigateur internet. Vous ne recevrez pas de notification lors de la publication d’un nouveau message, mais vous pourrez revenir rapidement au sujet ultérieurement. Cependant, l’abonnement vous préviendra lors de la publication de nouveaux messages sur le sujet ou le forum que vous surveillez.'
+		1 => 'Dans phpBB 3.0, l’ajout d’un sujet aux favoris était similaire à la fonctionnalité présente dans votre navigateur internet. Vous ne receviez aucune notification lors de la mise à jour d’un sujet ajouté aux favoris. Dans phpBB 3.1, les favoris sont davantage similaires aux abonnements. Vous pouvez à présent recevoir une notification lorsqu’un sujet ajouté aux favoris recevra une mise à jour. L’abonnement, quant à lui, vous préviendra de la mise à jour d’un forum ou d’un sujet auquel vous êtes abonné. Les options de notification concernant les favoris et les abonnements peuvent être modifiés depuis le panneau de contrôle de l’utilisateur, sous les « Préférences du forum ».',
 	),
 	array(
-		0 => 'Comment puis-je m’abonner à un forum ou à un sujet spécifique ?',
-		1 => 'Pour s’abonner à un forum spécifique, cliquez sur le lien « S’abonner au forum » disponible dans le forum souhaité. Pour s’abonner à un sujet, répondez au sujet en sélectionnant l’option d’abonnement spécifique ou cliquez sur le lien « S’abonner au sujet » disponible sur la page du sujet.'
+		0 => 'Comment puis-je ajouter aux favoris ou m’abonner à un sujet spécifique ?',
+		1 => 'Vous pouvez ajouter aux favoris ou vous abonner à un sujet spécifique en cliquant sur le lien approprié dans le menu « Outils du sujet », situé en haut et en bas des sujets et parfois illustré par une image.<br />Répondre à un sujet tout en cochant la case « Recevoir une notification lorsqu’une réponse est publiée » équivaut à vous abonner à ce sujet.',
+	),
+	array(
+		0 => 'Comment puis-je m’abonner à un forum spécifique ?',
+		1 => 'Vous pouvez vous abonner à un forum spécifique en cliquant sur le lien « S’abonner au forum » situé en bas de la page du forum auquel vous êtes intéressé(e).',
 	),
 	array(
 		0 => 'Comment puis-je résilier mes abonnements ?',
@@ -328,11 +336,11 @@ $help = array(
 	),
 	array(
 		0 => '--',
-		1 => 'À propos de phpBB 3.1'
+		1 => 'À propos de phpBB',
 	),
 	array(
 		0 => 'Qui a développé ce logiciel de forum de discussions ?',
-		1 => 'Ce programme (dans sa forme non modifiée) est produit et distribué par <a href="https://www.phpbb.com/">phpBB Limited</a>, qui en est le légitime propriétaire. Il est rendu accessible sous la Licence Publique Générale GNU et peut être distribué gratuitement. Pour plus d’informations, veuillez cliquer sur le lien.'
+		1 => 'Ce programme (dans sa forme non modifiée) est produit et distribué par <a href="https://www.phpbb.com/">phpBB Limited</a>, qui en est le légitime propriétaire. Il est rendu accessible sous la Licence Publique Générale GNU version 2 (GPL-2.0) et peut être distribué gratuitement. Pour plus d’informations, veuillez consulter <a href="https://www.phpbb.com/about/">À propos de phpBB</a> (en anglais).',
 	),
 	array(
 		0 => 'Pourquoi la fonctionnalité X n’est pas disponible ?',
@@ -341,5 +349,9 @@ $help = array(
 	array(
 		0 => 'Qui dois-je contacter à propos de problèmes d’abus ou d’ordres légaux liés à ce forum ?',
 		1 => 'Tous les administrateurs listés sur la page « L’équipe » devraient être un contact approprié concernant ces problèmes. Si vous n’obtenez aucune réponse de leur part, vous devriez alors contacter le propriétaire du domaine (faites une <a href="http://www.google.com/search?q=whois">requête WHOIS</a>) ou, si celui-ci fonctionne sur un service gratuit (comme Yahoo!, Free.fr, f2s.com, etc.), le service de gestion des abus. Veuillez notez que phpBB Limited n’a <strong>absolument aucune juridiction</strong> et ne peut en aucun cas être tenu comme responsable de comment, où et par qui ce forum est utilisé. Ne contactez pas phpBB Limited pour tout problème d’ordre légal (commentaire incessant, insultant, diffamatoire, etc.) qui n’ont <strong>pas directement de relation</strong> avec le site internet de phpBB.com ou le logiciel phpBB en lui-même. Si vous envoyez un courrier électronique à phpBB Limited <strong>à propos d’une utilisation de tierce partie</strong> de ce logiciel, attendez-vous à une réponse laconique, ou à aucune réponse, tout simplement.'
+	),
+	array(
+		0 => 'Comment puis-je contacter un administrateur du forum ?',
+		1 => 'Tous les utilisateurs du forum peuvent utiliser le formulaire disponible sur le lien « Nous contacter » si cette fonctionnalité a été activée par l’administrateur du forum.<br />Les membres du forum peuvent également utiliser le lien “L’équipe”.',
 	),
 );

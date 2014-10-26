@@ -43,12 +43,16 @@ $lang = array_merge($lang, array(
 
 	'GROUP_NOT_EXIST'					=> 'Le groupe « %s » est introuvable.',
 
+	'MIGRATION_APPLY_DEPENDENCIES'		=> 'Appliquer les dépendances de %s.',
 	'MIGRATION_DATA_DONE'				=> 'Données installées : %1$s ; durée : %2$.2f secondes',
 	'MIGRATION_DATA_IN_PROGRESS'		=> 'Installation des données : %1$s ; durée : %2$.2f secondes',
+	'MIGRATION_DATA_RUNNING'			=> 'Installation des données : %s.',
 	'MIGRATION_EFFECTIVELY_INSTALLED'	=> 'Migration déjà installée (mais ignorée) : %s',
 	'MIGRATION_EXCEPTION_ERROR'			=> 'Une erreur est survenue lors de la requête et une exception a été exécutée. Les modifications effectuées avant que l’erreur ne survienne ont été restaurées au mieux mais vous devriez vérifier que votre forum fonctionne correctement.',
 	'MIGRATION_NOT_FULFILLABLE'			=> 'La migration « %1$s » n’est pas exécutable car la migration « %2$s » est manquante.',
-	'MIGRATION_SCHEMA_DONE'				=> 'Schéma installé : %1$s ; durée : %2$.2f secondes',
+	'MIGRATION_NOT_VALID'				=> '%s n’est pas une migration valide.',
+	'MIGRATION_SCHEMA_DONE'				=> 'Schémas installés : %1$s ; durée : %2$.2f secondes',
+	'MIGRATION_SCHEMA_RUNNING'			=> 'Installation des schémas : %s.',
 
 	'MODULE_ERROR'						=> 'Une erreur est survenue lors de la création d’un module : %s',
 	'MODULE_INFO_FILE_NOT_EXIST'		=> 'Un fichier d’information du module est manquant : %2$s',

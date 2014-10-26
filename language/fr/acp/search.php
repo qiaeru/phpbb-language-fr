@@ -85,7 +85,7 @@ $lang = array_merge($lang, array(
 	'FULLTEXT_SPHINX_PORT_EXPLAIN'			=> 'Le programme en attente de recherche Sphinx (searchd) se connectera sur ce port. Si vous laissez ce champ vide, le port par défaut de l’interface de programmation de Sphinx (qui est 9312) sera utilisé.',
 	'FULLTEXT_SPHINX_WRONG_DATABASE'		=> 'La recherche Sphinx pour phpBB ne fonctionne qu’avec MySQL et PostgreSQL.',
 	'FULLTEXT_SPHINX_CONFIG_FILE'			=> 'Fichier de configuration de Sphinx',
-	'FULLTEXT_SPHINX_CONFIG_FILE_EXPLAIN'	=> 'Le contenu du fichier de configuration de Sphinx. Ce contenu doit être retranscrit dans le fichier sphinx.conf qui est utilisé par le programme en attente de recherche Sphinx.',
+	'FULLTEXT_SPHINX_CONFIG_FILE_EXPLAIN'	=> 'Le contenu du fichier de configuration de Sphinx. Ce contenu doit être retranscrit dans le fichier sphinx.conf qui est utilisé par le programme en attente de recherche Sphinx. Veuillez remplacer les marques substitutives [dbuser] et [dbpassword] par vos identifiants de base de données.',
 	'FULLTEXT_SPHINX_NO_CONFIG_DATA'		=> 'Les informations et le chemin vers le répertoire de données n’ont pas été renseignés. Le contenu du fichier de configuration n’a donc pas pu être généré. Veuillez saisir ces informations si vous souhaitez générer le fichier de configuration.',
 
 	'GENERAL_SEARCH_SETTINGS'				=> 'Réglages généraux de la recherche',
