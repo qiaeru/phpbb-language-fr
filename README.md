@@ -32,7 +32,7 @@ It is strongly recommended that you do not download the package from any website
   - **Forum Software Website:** https://www.phpbb.com/customise/db/translation/french/
   - **GitHub Repository:** https://github.com/maelsoucaze/phpbb
 
-Please note that development versions (recognizable with the use of *-dev* in the version number) are generally not recommended and should be used locally, available for testing purposes.
+Please note that development versions (recognizable with the use of *-dev* in the version number) are not usually recommended and should be used locally, available for testing purposes.
 
 #### Extract the compressed archive
 
@@ -103,7 +103,7 @@ Please note that the full notice of the license is available for reading from th
 
 [1]:https://github.com/maelsoucaze/phpbb/blob/master/language/fr/AUTHORS
 [2]:https://github.com/maelsoucaze/phpbb/blob/master/language/fr/VERSION
-[3]:https://www.phpbb.com/customise/db/translation/french/support/
+[3]:https://www.phpbb.com/customise/db/translation/french/support
 [4]:https://www.phpbb.com/community/ucp.php?mode=register
 [5]:http://en.wikipedia.org/wiki/File_Transfer_Protocol
 [6]:http://opensource.org/licenses/gpl-2.0.php
