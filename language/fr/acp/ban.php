@@ -56,7 +56,7 @@ $lang = array_merge($lang, array(
 
 	'EMAIL_BAN'					=> 'Bannir des adresses de courrier électronique',
 	'EMAIL_BAN_EXCLUDE_EXPLAIN'	=> 'Si cette option est activée, les adresses de courrier électronique saisies seront exclues de tous les bannissements actuels.',
-	'EMAIL_BAN_EXPLAIN'			=> 'Vous pouvez bannir plusieurs adresses de courrier électronique en les saisissant sur une nouvelle ligne. Pour utiliser adresses partielles, utilisez * comme joker. Par exemple, <samp>*@hotmail.com</samp>, <samp>*@*.domaine.tld</samp>, etc.',
+	'EMAIL_BAN_EXPLAIN'			=> 'Vous pouvez bannir plusieurs adresses de courrier électronique en les saisissant sur une nouvelle ligne. Pour utiliser adresses partielles, utilisez * comme joker. Par exemple, <samp>*@outlook.com</samp>, <samp>*@*.domaine.tld</samp>, etc.',
 	'EMAIL_NO_BANNED'			=> 'Aucune adresse de courrier électronique n’a été bannie.',
 	'EMAIL_UNBAN'				=> 'Débannir ou ne plus exclure des adresses de courrier électronique',
 	'EMAIL_UNBAN_EXPLAIN'		=> 'Vous pouvez débannir (ou ne plus exclure) plusieurs adresses de courrier électronique en une seule fois en utilisant la combinaison appropriée de la souris et du clavier de votre ordinateur et de votre navigateur. Les adresses de courrier électronique exclues apparaissent soulignées.',
