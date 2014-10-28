@@ -249,6 +249,7 @@ $lang = array_merge($lang, array(
 	'TOO_MANY_ATTACHMENTS'		=> 'Impossible de transférer une nouvelle pièce jointe, la limite maximale est de %d.',
 	'TOO_MANY_CHARS'			=> 'Votre message contient trop de caractères.',
 	'TOO_MANY_CHARS_LIMIT'		=> array(
+		1	=> 'Le nombre maximal de caractères autorisés est de %1$d.',
 		2	=> 'Le nombre maximal de caractères autorisés est de %1$d.',
 	),
 	'TOO_MANY_POLL_OPTIONS'		=> 'Vous avez essayé de voter pour un trop grand nombre d’options.',

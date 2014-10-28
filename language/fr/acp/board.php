@@ -532,7 +532,7 @@ $lang = array_merge($lang, array(
 	'REF_HOST'						=> 'Valider uniquement l’hôte',
 	'REF_PATH'						=> 'Valider également le chemin',
 	'REFERRER_VALID'				=> 'Valider le référant',
-	'REFERRER_VALID_EXPLAIN'		=> 'Si cette option est activée, le référant des requêtes <code>POST</code> sera vérifié et pourra servir à valider l’hôte et le chemin du forum. Si votre forum est accessibles sur plusieurs domaines ou utilise des connexions externes, vous ne devez pas autoriser le référant à valider le chemin afin d’éviter tout conflit.',
+	'REFERRER_VALID_EXPLAIN'		=> 'Si cette option est activée, le référant des requêtes POST sera vérifié et pourra servir à valider l’hôte et le chemin du forum. Si votre forum est accessibles sur plusieurs domaines ou utilise des connexions externes, vous ne devez pas autoriser le référant à valider le chemin afin d’éviter tout conflit.',
 	'TPL_ALLOW_PHP'					=> 'Autoriser le code PHP dans les modèles',
 	'TPL_ALLOW_PHP_EXPLAIN'			=> 'Si cette option est activée, les instructions <code>PHP</code> et <code>INCLUDEPHP</code> seront reconnues et analysées dans les modèles.',
 ));

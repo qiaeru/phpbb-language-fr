@@ -199,6 +199,7 @@ $lang = array_merge($lang, array(
 	'DOWNLOAD_COUNTS'		=> array(
 		0	=> 'Aucun téléchargement',
 		1	=> 'Téléchargé %d fois',
+		2	=> 'Téléchargé %d fois',
 	),
 
 	'EDIT_POST'							=> 'Éditer le message',
@@ -443,20 +444,23 @@ $lang = array_merge($lang, array(
 	// A, B, C and 2 others replied...
 	// A, B, C and others replied...
 	'NOTIFICATION_BOOKMARK'				=> array(
-		1	=> '<strong>Publication d’un message</strong> par %1$s dans le sujet ajouté aux favoris :',
+		1	=> '<strong>Publication de message</strong> par %1$s dans le sujet ajouté aux favoris :',
+		2	=> '<strong>Publication de messages</strong> par %1$s dans le sujet ajouté aux favoris :',
 	),
 	'NOTIFICATION_FORUM'				=> '<em>Forum :</em> %1$s',
 	'NOTIFICATION_GROUP_REQUEST'		=> '<strong>Demande d’invitation</strong> par %1$s afin de rejoindre le groupe %2$s.',
 	'NOTIFICATION_GROUP_REQUEST_APPROVED'	=> '<strong>Demande d’invitation</strong> afin de rejoindre le groupe %1$s.',
 	'NOTIFICATION_PM'					=> '<strong>Réception d’un message privé</strong> par %1$s :',
 	'NOTIFICATION_POST'					=> array(
-		1	=> '<strong>Publication d’un message</strong> par %1$s dans le sujet :',
+		1	=> '<strong>Publication de message</strong> par %1$s dans le sujet :',
+		2	=> '<strong>Publication de messages</strong> par %1$s dans le sujet :',
 	),
 	'NOTIFICATION_POST_APPROVED'		=> '<strong>Approbation d’un message</strong> :',
 	'NOTIFICATION_POST_DISAPPROVED'		=> '<strong>Désapprobation d’un message</strong> :',
 	'NOTIFICATION_POST_IN_QUEUE'		=> '<strong>Demande d’approbation d’un message</strong> par %1$s :',
 	'NOTIFICATION_QUOTE'				=> array(
 		1	=> '<strong>Citation</strong> par %1$s dans :',
+		1	=> '<strong>Citations</strong> par %1$s dans :',
 	),
 	'NOTIFICATION_REFERENCE'			=> '« %1$s »',
 	'NOTIFICATION_REASON'				=> '<em>Raison :</em> %1$s.',
@@ -472,6 +476,7 @@ $lang = array_merge($lang, array(
 	// Used in conjuction with NOTIFICATION_BOOKMARK and NOTIFICATION_POST.
 	'NOTIFICATION_MANY_OTHERS'			=> 'plusieurs autres utilisateurs',
 	'NOTIFICATION_X_OTHERS'				=> array(
+		1	=> '%d autre utilisateur',
 		2	=> '%d autres utilisateurs',
 	),
 	'NOTIFY_ADMIN'				=> 'Veuillez contacter l’administrateur du forum.',
@@ -774,13 +779,16 @@ $lang = array_merge($lang, array(
 	'TOPIC_POLL'		=> 'Ce sujet contient un sondage.',
 	'TOTAL_POSTS'		=> 'Nombre total de messages',
 	'TOTAL_POSTS_COUNT'	=> array(
+		2	=> '<strong>%d</strong> message',
 		2	=> '<strong>%d</strong> messages',
 	),
 	'TOPIC_REPORTED'	=> 'Ce sujet a été rapporté',
 	'TOTAL_TOPICS'		=> array(
+		2	=> '<strong>%d</strong> sujet',
 		2	=> '<strong>%d</strong> sujets',
 	),
 	'TOTAL_USERS'		=> array(
+		2	=> '<strong>%d</strong> membre',
 		2	=> '<strong>%d</strong> membres',
 	),
 	'TRACKED_PHP_ERROR'	=> 'Erreurs PHP survenues : %s',
@@ -822,6 +830,7 @@ $lang = array_merge($lang, array(
 	'VIEWED_COUNTS'		=> array(
 		0	=> 'Aucune consultation',
 		1	=> 'Consulté %d fois',
+		2	=> 'Consulté %d fois',
 	),
 	'VIEWING_CONTACT_ADMIN'		=> 'Consulte la page de contact',
 	'VIEWING_FAQ'				=> 'Consulte la FAQ',

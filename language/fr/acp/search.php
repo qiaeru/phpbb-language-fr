@@ -112,12 +112,15 @@ $lang = array_merge($lang, array(
 	'SEARCH_GUEST_INTERVAL'					=> 'Intervalle d’affluence de la recherche des invités',
 	'SEARCH_GUEST_INTERVAL_EXPLAIN'			=> 'Le nombre de secondes qui s’écouleront avant qu’un invité puisse de nouveau effectuer une recherche. Si un invité est en train d’effectuer une recherche, tous les autres invités devront patienter le temps que cette durée soit écoulée avant de pouvoir effectuer eux-mêmes une recherche.',
 	'SEARCH_INDEX_CREATE_REDIRECT'			=> array(
+		1	=> 'Tous les messages allant jusqu’au message dont l’ID est %2$d sont à présent indexés, ce qui correspond à %1$d message.<br />',
 		2	=> 'Tous les messages allant jusqu’au message dont l’ID est %2$d sont à présent indexés, ce qui correspond à %1$d messages.<br />',
 	),
 	'SEARCH_INDEX_CREATE_REDIRECT_RATE'		=> array(
+		1	=> 'Le taux d’indexation actuel est d’approximativement %1$.1f message par seconde.<br />Indexation en cours…',
 		2	=> 'Le taux d’indexation actuel est d’approximativement %1$.1f messages par seconde.<br />Indexation en cours…',
 	),
 	'SEARCH_INDEX_DELETE_REDIRECT'			=> array(
+		1	=> 'Tous les messages allant jusqu’au message dont l’ID est %2$d ont été supprimés de l’index de recherche.<br />Suppression en cours…',
 		2	=> 'Tous les messages allant jusqu’au message dont l’ID est %2$d ont été supprimés de l’index de recherche.<br />Suppression en cours…',
 	),
 	'SEARCH_INDEX_CREATED'					=> 'Tous les messages ont été indexés dans la base de données du forum.',
