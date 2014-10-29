@@ -230,8 +230,8 @@ $lang = array_merge($lang, array(
 	'FOES_UPDATED'				=> 'Votre liste d’ignorés a été mise à jour.',
 	'FOLDER_ADDED'				=> 'La boîte a été ajoutée.',
 	'FOLDER_MESSAGE_STATUS'		=> array(
-		1	=> '%2$d sur %1$d',
-		2	=> '%2$d sur %1$d',
+		1	=> '%2$d sur %1$s',
+		2	=> '%2$d sur %1$s',
 	),
 	'FOLDER_NAME_EMPTY'			=> 'Vous devez saisir le nom de cette boîte.',
 	'FOLDER_NAME_EXIST'			=> 'La boîte <strong>%s</strong> existe déjà.',
@@ -239,8 +239,8 @@ $lang = array_merge($lang, array(
 	'FOLDER_RENAMED'			=> 'La boîte a été renommée.',
 	'FOLDER_REMOVED'			=> 'La boîte a été supprimée.',
 	'FOLDER_STATUS_MSG'			=> array(
-		1	=> 'La boîte est utilisée à %3$d %% (%2$d sur %1$d)',
-		2	=> 'La boîte est utilisée à %3$d %% (%2$d sur %1$d)',
+		1	=> 'La boîte est utilisée à %3$d %% (%2$d sur %1$s)',
+		2	=> 'La boîte est utilisée à %3$d %% (%2$d sur %1$s)',
 	),
 	'FORWARD_PM'				=> 'Transférer le MP',
 	'FORCE_PASSWORD_EXPLAIN'	=> 'Vous devez modifier votre mot de passe afin de continuer à naviguer sur le forum.',
