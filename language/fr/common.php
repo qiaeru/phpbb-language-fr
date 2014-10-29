@@ -460,7 +460,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_POST_IN_QUEUE'		=> '<strong>Demande d’approbation d’un message</strong> par %1$s :',
 	'NOTIFICATION_QUOTE'				=> array(
 		1	=> '<strong>Citation</strong> par %1$s dans :',
-		1	=> '<strong>Citations</strong> par %1$s dans :',
+		2	=> '<strong>Citations</strong> par %1$s dans :',
 	),
 	'NOTIFICATION_REFERENCE'			=> '« %1$s »',
 	'NOTIFICATION_REASON'				=> '<em>Raison :</em> %1$s.',
@@ -779,16 +779,16 @@ $lang = array_merge($lang, array(
 	'TOPIC_POLL'		=> 'Ce sujet contient un sondage.',
 	'TOTAL_POSTS'		=> 'Nombre total de messages',
 	'TOTAL_POSTS_COUNT'	=> array(
-		2	=> '<strong>%d</strong> message',
+		1	=> '<strong>%d</strong> message',
 		2	=> '<strong>%d</strong> messages',
 	),
 	'TOPIC_REPORTED'	=> 'Ce sujet a été rapporté',
 	'TOTAL_TOPICS'		=> array(
-		2	=> '<strong>%d</strong> sujet',
+		1	=> '<strong>%d</strong> sujet',
 		2	=> '<strong>%d</strong> sujets',
 	),
 	'TOTAL_USERS'		=> array(
-		2	=> '<strong>%d</strong> membre',
+		1	=> '<strong>%d</strong> membre',
 		2	=> '<strong>%d</strong> membres',
 	),
 	'TRACKED_PHP_ERROR'	=> 'Erreurs PHP survenues : %s',
