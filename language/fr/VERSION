@@ -1,6 +1,6 @@
 LANGUAGE PACKAGE
 ----------------
-2.0.0 (Build 133)
+2.0.1-dev (Build 134)
 
 RELEASE DATE
 ------------
@@ -8,5 +8,5 @@ October 29, 2014
 
 FORUM SOFTWARE
 --------------
-phpBB 3.1.0
-https://www.phpbb.com/downloads/?version=3.1.0
+phpBB 3.1.1-RC1-dev (Build 2370)
+https://bamboo.phpbb.com/browse/PHPBB3-DEVELOP-2370
