@@ -1,10 +1,10 @@
-Subject: Notification de réponse à un sujet - « {TOPIC_TITLE} »
+Subject: Notification de rÃ©ponse Ã  un sujet - Â« {TOPIC_TITLE} Â»
 
 Bonjour {USERNAME},
 
-Vous recevez cette notification car vous surveillez le sujet « {TOPIC_TITLE} » sur « {SITENAME} ». Ce sujet a reçu une nouvelle réponse<!-- IF AUTHOR_NAME --> de {AUTHOR_NAME}<!-- ENDIF --> depuis votre dernière visite. Vous pouvez utiliser le lien suivant afin de consulter la réponse, aucune nouvelle notification ne vous sera envoyée jusqu’à ce que vous visitez le sujet.
+Vous recevez cette notification car vous surveillez le sujet Â« {TOPIC_TITLE} Â» sur Â« {SITENAME} Â». Ce sujet a reÃ§u une nouvelle rÃ©ponse<!-- IF AUTHOR_NAME --> de {AUTHOR_NAME}<!-- ENDIF --> depuis votre derniÃ¨re visite. Vous pouvez utiliser le lien suivant afin de consulter la rÃ©ponse, aucune nouvelle notification ne vous sera envoyÃ©e jusquâ€™Ã  ce que vous visitez le sujet.
 
-Si vous souhaitez consulter le dernier message publié depuis votre dernière visite, veuillez cliquer sur le lien suivant :
+Si vous souhaitez consulter le dernier message publiÃ© depuis votre derniÃ¨re visite, veuillez cliquer sur le lien suivant :
 {U_NEWEST_POST}
 
 Si vous souhaitez consulter le sujet, veuillez cliquer sur le lien suivant :
@@ -13,7 +13,7 @@ Si vous souhaitez consulter le sujet, veuillez cliquer sur le lien suivant :
 Si vous souhaitez consulter le forum, veuillez cliquer sur le lien suivant :
 {U_FORUM}
 
-Si vous ne souhaitez plus surveiller ce sujet, vous pouvez cliquer sur le lien « Ne plus surveiller le sujet », présent en bas de page du sujet accessible ci-dessus, ou cliquer sur le lien suivant :
+Si vous ne souhaitez plus surveiller ce sujet, vous pouvez cliquer sur le lien Â« Ne plus surveiller le sujet Â», prÃ©sent en bas de page du sujet accessible ci-dessus, ou cliquer sur le lien suivant :
 
 {U_STOP_WATCHING_TOPIC}
 

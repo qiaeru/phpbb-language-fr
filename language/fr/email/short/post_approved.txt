@@ -1,8 +1,8 @@
-Subject: Votre message a été approuvé - « {POST_SUBJECT} »
+Subject: Votre message a Ã©tÃ© approuvÃ© - Â« {POST_SUBJECT} Â»
 
 Bonjour {USERNAME},
 
-Vous recevez cette notification car votre message « {POST_SUBJECT} » sur « {SITENAME} » a été approuvé par un modérateur ou un administrateur.
+Vous recevez cette notification car votre message Â« {POST_SUBJECT} Â» sur Â« {SITENAME} Â» a Ã©tÃ© approuvÃ© par un modÃ©rateur ou un administrateur.
 
 Si vous souhaitez consulter le message, veuillez cliquer sur le lien suivant :
 {U_VIEW_POST}

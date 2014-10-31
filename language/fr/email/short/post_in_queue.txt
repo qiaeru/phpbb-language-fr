@@ -1,8 +1,8 @@
-Subject: Notification de modération d’un message - « {TOPIC_TITLE} »
+Subject: Notification de modÃ©ration dâ€™un message - Â« {TOPIC_TITLE} Â»
 
 Bonjour {USERNAME},
 
-Vous recevez cette notification car le message « {POST_SUBJECT} » sur « {SITENAME} » est en attente d’approbation.
+Vous recevez cette notification car le message Â« {POST_SUBJECT} Â» sur Â« {SITENAME} Â» est en attente dâ€™approbation.
 
 Si vous souhaitez consulter le message, veuillez cliquer sur le lien suivant :
 {U_VIEW_POST}

@@ -1,10 +1,10 @@
-Subject: Notification de réponse à un sujet - « {TOPIC_TITLE} »
+Subject: Notification de rÃ©ponse Ã  un sujet - Â« {TOPIC_TITLE} Â»
 
 Bonjour {USERNAME},
 
-Vous recevez cette notification car le sujet que vous avez ajouté aux favoris, « {TOPIC_TITLE} » sur « {SITENAME} », a reçu une réponse depuis votre dernière visite. Vous pouvez utiliser le lien suivant afin de consulter les réponses qui ont été publiées, aucune nouvelle notification ne vous sera envoyée jusqu’à ce que vous visitez le sujet.
+Vous recevez cette notification car le sujet que vous avez ajoutÃ© aux favoris, Â« {TOPIC_TITLE} Â» sur Â« {SITENAME} Â», a reÃ§u une rÃ©ponse depuis votre derniÃ¨re visite. Vous pouvez utiliser le lien suivant afin de consulter les rÃ©ponses qui ont Ã©tÃ© publiÃ©es, aucune nouvelle notification ne vous sera envoyÃ©e jusquâ€™Ã  ce que vous visitez le sujet.
 
-Si vous souhaitez consulter le nouveau message écrit depuis votre dernière visite, veuillez cliquer sur le lien suivant :
+Si vous souhaitez consulter le nouveau message Ã©crit depuis votre derniÃ¨re visite, veuillez cliquer sur le lien suivant :
 {U_NEWEST_POST}
 
 Si vous souhaitez consulter le sujet, veuillez cliquer sur le lien suivant :
@@ -13,7 +13,7 @@ Si vous souhaitez consulter le sujet, veuillez cliquer sur le lien suivant :
 Si vous souhaitez consulter le forum, veuillez cliquer sur le lien suivant :
 {U_FORUM}
 
-Si vous ne souhaitez plus recevoir de notifications lorsqu’un utilisateur répond à un sujet que vous avez ajouté aux favoris, vous pouvez modifier les réglages de notification sur le lien suivant :
+Si vous ne souhaitez plus recevoir de notifications lorsquâ€™un utilisateur rÃ©pond Ã  un sujet que vous avez ajoutÃ© aux favoris, vous pouvez modifier les rÃ©glages de notification sur le lien suivant :
 
 {U_NOTIFICATION_SETTINGS}
 

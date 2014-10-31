@@ -1,10 +1,10 @@
-Subject: Votre message a été désapprouvé - « {POST_SUBJECT} »
+Subject: Votre message a Ã©tÃ© dÃ©sapprouvÃ© - Â« {POST_SUBJECT} Â»
 
 Bonjour {USERNAME},
 
-Vous recevez cette notification car votre message « {POST_SUBJECT} » sur « {SITENAME} » a été désapprouvé par un modérateur ou un administrateur.
+Vous recevez cette notification car votre message Â« {POST_SUBJECT} Â» sur Â« {SITENAME} Â» a Ã©tÃ© dÃ©sapprouvÃ© par un modÃ©rateur ou un administrateur.
 
-La raison suivante a été prononcée concernant la désapprobation :
+La raison suivante a Ã©tÃ© prononcÃ©e concernant la dÃ©sapprobation :
 
 {REASON}
 

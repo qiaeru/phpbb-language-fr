@@ -1,8 +1,8 @@
-Subject: Votre sujet a été approuvé - « {TOPIC_TITLE} »
+Subject: Votre sujet a Ã©tÃ© approuvÃ© - Â« {TOPIC_TITLE} Â»
 
 Bonjour {USERNAME},
 
-Vous recevez cette notification car votre sujet « {TOPIC_TITLE} » sur « {SITENAME} » a été approuvé par un modérateur ou un administrateur.
+Vous recevez cette notification car votre sujet Â« {TOPIC_TITLE} Â» sur Â« {SITENAME} Â» a Ã©tÃ© approuvÃ© par un modÃ©rateur ou un administrateur.
 
 Si vous souhaitez consulter le sujet, veuillez cliquer sur le lien suivant :
 {U_VIEW_TOPIC}

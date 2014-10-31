@@ -1,10 +1,10 @@
-Subject: Notification de réponse à un sujet - « {TOPIC_TITLE} »
+Subject: Notification de rÃ©ponse Ã  un sujet - Â« {TOPIC_TITLE} Â»
 
 Bonjour {USERNAME},
 
-Vous recevez cette notification car « {AUTHOR_NAME} » vous a cité dans le sujet « {TOPIC_TITLE} » sur « {SITENAME} ». Vous pouvez utiliser le lien suivant afin de consulter la réponse rédigée.
+Vous recevez cette notification car Â« {AUTHOR_NAME} Â» vous a citÃ© dans le sujet Â« {TOPIC_TITLE} Â» sur Â« {SITENAME} Â». Vous pouvez utiliser le lien suivant afin de consulter la rÃ©ponse rÃ©digÃ©e.
 
-Si vous souhaitez consulter le message cité, veuillez cliquer sur le lien suivant :
+Si vous souhaitez consulter le message citÃ©, veuillez cliquer sur le lien suivant :
 {U_VIEW_POST}
 
 Si vous souhaitez consulter le sujet, veuillez cliquer sur le lien suivant :
@@ -13,7 +13,7 @@ Si vous souhaitez consulter le sujet, veuillez cliquer sur le lien suivant :
 Si vous souhaitez consulter le forum, veuillez cliquer sur le lien suivant :
 {U_FORUM}
 
-Si vous ne souhaitez plus recevoir de notifications lorsqu’un utilisateur vous cite, vous pouvez modifier les réglages de notification sur le lien suivant :
+Si vous ne souhaitez plus recevoir de notifications lorsquâ€™un utilisateur vous cite, vous pouvez modifier les rÃ©glages de notification sur le lien suivant :
 
 {U_NOTIFICATION_SETTINGS}
 

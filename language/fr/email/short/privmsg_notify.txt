@@ -1,8 +1,8 @@
-Subject: Vous avez reçu un nouveau message privé
+Subject: Vous avez reÃ§u un nouveau message privÃ©
 
 Bonjour {USERNAME},
 
-Vous avez reçu un nouveau message privé de la part de « {AUTHOR_NAME} » sur votre compte sur « {SITENAME} » dont l’intitulé est le suivant :
+Vous avez reÃ§u un nouveau message privÃ© de la part de Â« {AUTHOR_NAME} Â» sur votre compte sur Â« {SITENAME} Â» dont lâ€™intitulÃ© est le suivant :
 
 {SUBJECT}
 
@@ -10,6 +10,6 @@ Vous pouvez consulter votre nouveau message en cliquant sur le lien suivant :
 
 {U_VIEW_MESSAGE}
 
-Vous avez demandé à être notifié lors de cet événement. Sachez que vous pouvez choisir de ne plus recevoir de notifications lors de la réception de nouveaux messages privés en modifiant les réglages de votre profil.
+Vous avez demandÃ© Ã  Ãªtre notifiÃ© lors de cet Ã©vÃ©nement. Sachez que vous pouvez choisir de ne plus recevoir de notifications lors de la rÃ©ception de nouveaux messages privÃ©s en modifiant les rÃ©glages de votre profil.
 
 {EMAIL_SIG}
