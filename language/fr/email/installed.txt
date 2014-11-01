@@ -12,7 +12,7 @@ Nom d’utilisateur : {USERNAME}
 Lien du forum : {U_BOARD}
 ----------------------------
 
-Des informations utiles concernant le logiciel phpBB peuvent être trouvées dans le dossier « docs » de votre installation et sur la page de support du site officiel - https://www.phpbb.com/support/
+Des informations utiles concernant le logiciel phpBB peuvent être trouvées dans le dossier « docs » de votre installation et sur la page de support du site officiel - https://www.phpbb.com/support/ (en anglais)
 
 Afin de garantir la sécurité de votre forum, nous vous recommandons fortement de le maintenir à jour avec la dernière version stable du logiciel. Pour votre confort, une liste de diffusion est disponible à la page référencée ci-dessus.
 

@@ -56,7 +56,7 @@ $lang = array_merge($lang, array(
 
 		<br />
 
-		<p>Pour plus d’informations concernant le réglage des permissions sur votre forum, veuillez consulter le <a href="https://www.phpbb.com/support/documentation/3.0/quickstart/quick_permissions.html">chapitre 1.5 de notre guide de démarrage rapide</a>.</p>
+		<p>Pour plus d’informations concernant le réglage des permissions sur votre forum, veuillez consulter le <a href="https://www.phpbb.com/support/documentation/3.0/quickstart/quick_permissions.html">chapitre 1.5 de notre guide de démarrage rapide</a> (en anglais).</p>
 	',
 
 	'ACL_NEVER'				=> 'Jamais',

@@ -95,7 +95,7 @@ $help = array(
 	),
 	array(
 		0 => 'Ma langue n’apparaît pas dans la liste !',
-		1 => 'Soit l’administrateur n’a pas installé votre langue sur le forum, soit le logiciel n’a pas encore été traduit dans votre langue. Essayez de demander à un administrateur du forum s’il est possible qu’il puisse installer la traduction que vous souhaitez. Si la traduction désirée n’existe pas, vous êtes libre de vous porter volontaire et commencer une nouvelle traduction. Pour plus d’informations, veuillez vous rendre sur le site internet de <a href="https://www.phpbb.com/">phpBB</a>&reg;.',
+		1 => 'Soit l’administrateur n’a pas installé votre langue sur le forum, soit le logiciel n’a pas encore été traduit dans votre langue. Essayez de demander à un administrateur du forum s’il est possible qu’il puisse installer la traduction que vous souhaitez. Si la traduction désirée n’existe pas, vous êtes libre de vous porter volontaire et commencer une nouvelle traduction. Pour plus d’informations, veuillez vous rendre sur le site internet de <a href="https://www.phpbb.com/">phpBB</a>&reg; (en anglais).',
 	),
 	array(
 		0 => 'Que signifient les images situées à côté de mon nom d’utilisateur ?',

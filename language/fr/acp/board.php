@@ -304,7 +304,7 @@ $lang = array_merge($lang, array(
 // Visual Confirmation Settings
 $lang = array_merge($lang, array(
 	'ACP_VC_SETTINGS_EXPLAIN'				=> 'Vous pouvez sélectionner et configurer sur cette page tous les modules d’extension qui permettent de lutter contre l’envoi de formulaires par des robots indésirables. Ces modules d’extension fonctionnent en général en demandant aux utilisateur de résoudre un <em>CAPTCHA</em>, qui est un outil permettant de différencier les humains aux robots.',
-	'ACP_VC_EXT_GET_MORE'					=> 'Vous pouvez obtenir des modules d’extension anti-spam supplémentaires (et probablement plus efficaces) en visitant la <a href="https://www.phpbb.com/go/anti-spam-ext"><strong>base de données des extensions de phpBB.com</strong></a>. Pour plus d’informations concernant la prévention du spam sur votre forum, veuillez visiter la <a href="https://www.phpbb.com/go/anti-spam"><strong>base de connaissances de phpBB.com</strong></a>.',
+	'ACP_VC_EXT_GET_MORE'					=> 'Vous pouvez obtenir des modules d’extension anti-spam supplémentaires (et probablement plus efficaces) en visitant la <a href="https://www.phpbb.com/go/anti-spam-ext"><strong>base de données des extensions de phpBB.com</strong></a> (en anglais). Pour plus d’informations concernant la prévention du spam sur votre forum, veuillez visiter la <a href="https://www.phpbb.com/go/anti-spam"><strong>base de connaissances de phpBB.com</strong></a> (en anglais).',
 	'AVAILABLE_CAPTCHAS'					=> 'Modules d’extension disponibles',
 	'CAPTCHA_UNAVAILABLE'					=> 'Le module d’extension ne peut pas être sélectionné tant que ses prérequis ne sont pas respectés.',
 	'CAPTCHA_GD'							=> 'Bruit GD de l’image',
@@ -498,7 +498,7 @@ $lang = array_merge($lang, array(
 	'BROWSER_VALID'					=> 'Valider les navigateurs internet',
 	'BROWSER_VALID_EXPLAIN'			=> 'Les navigateurs internet seront validés lors de chaque session, ce qui en améliore la sécurité.',
 	'CHECK_DNSBL'					=> 'Vérifier les adresses IP sur les listes des systèmes de noms de domaine',
-	'CHECK_DNSBL_EXPLAIN'			=> 'Si cette option est activée, l’adresse IP des utilisateurs sera vérifiée par les services DNSBL <a href="http://spamcop.net">spamcop.net</a> et <a href="http://www.spamhaus.org">www.spamhaus.org</a> lors des inscriptions et des publications de messages. Cette vérification peut durer un certain temps, selon la configuration du serveur sélectionné. Désactivez cette fonctionnalité si vous constatez des ralentissements ou des erreurs d’appréciation.',
+	'CHECK_DNSBL_EXPLAIN'			=> 'Si cette option est activée, l’adresse IP des utilisateurs sera vérifiée par les services DNSBL <a href="http://spamcop.net">spamcop.net</a> et <a href="http://www.spamhaus.org">www.spamhaus.org</a> (en anglais) lors des inscriptions et des publications de messages. Cette vérification peut durer un certain temps, selon la configuration du serveur sélectionné. Désactivez cette fonctionnalité si vous constatez des ralentissements ou des erreurs d’appréciation.',
 	'CLASS_B'						=> 'A.B',
 	'CLASS_C'						=> 'A.B.C',
 	'EMAIL_CHECK_MX'				=> 'Vérifier l’enregistrement MX des adresses de courrier électronique',
