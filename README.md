@@ -17,10 +17,17 @@ The language package version information and its compatibility with the forum so
 
 Please note that those version informations are available for reading from the [VERSION] [2] file.
 
+Changelog
+---------
+
+The changelog containing all code changes between the different language package versions.
+
+Please note that the changelog is available for reading from the [CHANGELOG] [3] file.
+
 Support
 -------
 
-Feel free to post a new topic [in the support section] [3] to ask for help, report issues, or contribute fixes and improvements. Please note that you have to [register] [4] and login to be able to post.
+Feel free to post a new topic [in the support section] [4] to ask for help, report issues, or contribute fixes and improvements. Please note that you have to [register] [5] and login to be able to post.
 
 Documentation
 -------------
@@ -44,7 +51,7 @@ Please note that if you are using a style other than prosilver, you will need to
 
 #### Upload the language-related folders
 
-Using [FTP] [5], you will need to upload the *language/* and *styles/* folders (and their subfolders) into your board root. The board root is the one which contains the *config.php* file.
+Using [FTP] [6], you will need to upload the *language/* and *styles/* folders (and their subfolders) into your board root. The board root is the one which contains the *config.php* file.
 
 Please note that you will more than likely get a notice warning you that you already have those folders when uploading into the board root via FTP. If this happens, just click to replace them. This will replace conflicting files only (if this is your first time uploading the language package there should be none) and add the new files into their correct locations.
 
@@ -97,14 +104,15 @@ Once the French language package is downloaded, you just have to extract the com
 License
 -------
 
-Because the forum software is released under the [GNU General Public License 2.0] [6], the French language package, which is based on the default one, inherits from that open source license.
+Because the forum software is released under the [GNU General Public License 2.0] [7], the French language package, which is based on the default one, inherits from that open source license.
 
-Please note that the full notice of the license is available for reading from the [LICENSE] [7] file.
+Please note that the full notice of the license is available for reading from the [LICENSE] [8] file.
 
 [1]:https://github.com/maelsoucaze/phpbb/blob/master/language/fr/AUTHORS
 [2]:https://github.com/maelsoucaze/phpbb/blob/master/language/fr/VERSION
-[3]:https://www.phpbb.com/customise/db/translation/french/support
-[4]:https://www.phpbb.com/community/ucp.php?mode=register
-[5]:http://en.wikipedia.org/wiki/File_Transfer_Protocol
-[6]:http://opensource.org/licenses/gpl-2.0.php
-[7]:https://github.com/maelsoucaze/phpbb/blob/master/language/fr/LICENSE
+[3]:https://github.com/maelsoucaze/phpbb/blob/master/language/fr/CHANGELOG
+[4]:https://www.phpbb.com/customise/db/translation/french/support
+[5]:https://www.phpbb.com/community/ucp.php?mode=register
+[6]:http://en.wikipedia.org/wiki/File_Transfer_Protocol
+[7]:http://opensource.org/licenses/gpl-2.0.php
+[8]:https://github.com/maelsoucaze/phpbb/blob/master/language/fr/LICENSE
