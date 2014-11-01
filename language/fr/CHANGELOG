@@ -1,0 +1,16 @@
+FROM 2.0.0 (BUILD 133) TO 2.1.0 (BUILD 136)
+-------------------------------------------
+Full code changes: https://github.com/maelsoucaze/phpbb/compare/v2.0.0-build.133...v2.1.0-build.136
+
+- Updated to be compatible with phpBB 3.1.1.
+- Some duplicated plural arrays have been fixed.
+- Some files have been changed from ANSI to UTF-8 w/o BOM.
+- The "In English" mention indicating when a website is only available in English have been added.
+- The CHANGELOG file have been added.
+
+FROM 1.4.1 (BUILD 52) TO 2.0.0 (BUILD 133)
+------------------------------------------
+Full code changes unavailable.
+
+- Updated to be compatible with phpBB 3.1.0.
+- Several language improvements.
