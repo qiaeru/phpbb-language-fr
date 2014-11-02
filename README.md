@@ -37,7 +37,7 @@ Documentation
 It is strongly recommended that you do not download the package from any website other than those below to always have the very latest, virus-free language package version.
 
   - **Forum Software Website:** https://www.phpbb.com/customise/db/translation/french/
-  - **GitHub Repository:** https://github.com/maelsoucaze/phpbb
+  - **GitHub Repository Releases:** https://github.com/maelsoucaze/phpbb/releases
 
 Please note that development versions (recognizable with the use of *-dev* in the version number) are not usually recommended and should be used locally, available for testing purposes.
 
