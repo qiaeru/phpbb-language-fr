@@ -50,7 +50,7 @@ $lang = array_merge($lang, array(
 
 	'BEFORE'				=> 'Avant',
 
-	'CC_EMAIL'				=> 'S’envoyer une copie de ce courrier électronique.',
+	'CC_SENDER'				=> 'M’envoyer une copie de ce courrier électronique.',
 	'CONTACT_ADMIN'			=> 'Contacter un administrateur du forum',
 
 	'DEST_LANG'				=> 'Langue',
