@@ -1,3 +1,10 @@
+FROM 2.1.0 (BUILD 136) TO 2.2.0 (BUILD 137)
+-------------------------------------------
+Full code changes: https://github.com/maelsoucaze/phpbb/compare/v2.1.0-build.136...v2.2.0-build.137
+
+- Updated to be compatible with phpBB 3.1.2.
+- Some language keys have been added or changed.
+
 FROM 2.0.0 (BUILD 133) TO 2.1.0 (BUILD 136)
 -------------------------------------------
 Full code changes: https://github.com/maelsoucaze/phpbb/compare/v2.0.0-build.133...v2.1.0-build.136
