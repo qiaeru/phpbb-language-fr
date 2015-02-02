@@ -73,6 +73,7 @@ $lang = array_merge($lang, array(
 	'NO_RECENT_SEARCHES'	=> 'Aucune recherche n’a été effectuée récemment.',
 	'NO_SEARCH'				=> 'Vous ne pouvez pas effectuer de recherche.',
 	'NO_SEARCH_RESULTS'		=> 'Aucun résultat ne correspond aux termes que vous avez spécifiés.',
+	'NO_SEARCH_LOAD'		=> 'Vous ne pouvez pas effectuer de recherche pour le moment. Le serveur est en surcharge. Veuillez réessayer ultérieurement.',
 	'NO_SEARCH_TIME'		=> array(
 		1	=> 'Vous ne pouvez pas effectuer de recherche pour le moment. Veuillez réessayer dans %d seconde.',
 		2	=> 'Vous ne pouvez pas effectuer de recherche pour le moment. Veuillez réessayer dans %d secondes.',

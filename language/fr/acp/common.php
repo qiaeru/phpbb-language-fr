@@ -560,6 +560,7 @@ $lang = array_merge($lang, array(
 	'LOG_LOCK_POST'				=> '<strong>Verrouillage d’un message</strong><br />» %s',
 	'LOG_MERGE'					=> '<strong>Fusion de messages</strong> dans le sujet<br />» %s',
 	'LOG_MOVE'					=> '<strong>Déplacement d’un sujet</strong><br />» de %1$s vers %2$s',
+	'LOG_MOVED_TOPIC'			=> '<strong>Déplacement d’un sujet</strong><br />» %s',
 	'LOG_PM_REPORT_CLOSED'		=> '<strong>Fermeture d’un rapport de MP</strong><br />» %s',
 	'LOG_PM_REPORT_DELETED'		=> '<strong>Suppression d’un rapport de MP</strong><br />» %s',
 	'LOG_POST_APPROVED'			=> '<strong>Approbation d’un message</strong><br />» %s',
@@ -645,7 +646,7 @@ $lang = array_merge($lang, array(
 	'LOG_LANGUAGE_PACK_INSTALLED'	=> '<strong>Installation d’une traduction</strong><br />» %s',
 	'LOG_LANGUAGE_PACK_UPDATED'		=> '<strong>Mise à jour des informations d’une traduction</strong><br />» %s',
 	'LOG_LANGUAGE_FILE_REPLACED'	=> '<strong>Remplacement d’un fichier de langue</strong><br />» %s',
-	'LOG_LANGUAGE_FILE_SUBMITTED'	=> '<strong>Envoi et déplacement dans le dossier de stockage d’un fichier de langue</strong><br />» %s',
+	'LOG_LANGUAGE_FILE_SUBMITTED'	=> '<strong>Envoi et déplacement dans le répertoire de stockage d’un fichier de langue</strong><br />» %s',
 
 	'LOG_MASS_EMAIL'		=> '<strong>Envoi d’un courrier électronique de masse</strong><br />» %s',
 
