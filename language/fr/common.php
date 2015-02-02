@@ -115,7 +115,7 @@ $lang = array_merge($lang, array(
 	'AVATAR_URL_INVALID'			=> 'Le lien que vous avez spécifié est incorrect.',
 	'AVATAR_URL_NOT_FOUND'			=> 'Le fichier que vous avez spécifié est introuvable.',
 	'AVATAR_WRONG_FILESIZE'			=> 'La taille de l’avatar doit être comprise entre 0 et %1$d %2$s.',
-	'AVATAR_WRONG_SIZE'				=> 'La taille de l’avatar que vous avez transféré mesure %5$s de large et de %6$s de haut. Cependant, la taille des avatars doit mesurer entre %1$s de large et %2$s de haut, mais ne doit pas dépasser %3$s de large et %4$s de haut.',
+	'AVATAR_WRONG_SIZE'				=> 'La taille de l’avatar que vous avez transféré mesure %5$s de large et %6$s de haut. Cependant, la taille des avatars doit mesurer entre %1$s de large et %2$s de haut, mais ne doit pas dépasser %3$s de large et %4$s de haut.',
 
 	'BACK_TO_TOP'			=> 'Haut',
 	'BACK_TO_PREV'			=> 'Revenir à la page précédente',
