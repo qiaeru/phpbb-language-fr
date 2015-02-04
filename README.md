@@ -115,5 +115,5 @@ Please note that the full notice of the license is available for reading from th
 [4]:https://www.phpbb.com/customise/db/translation/french/support
 [5]:https://www.phpbb.com/community/ucp.php?mode=register
 [6]:http://en.wikipedia.org/wiki/File_Transfer_Protocol
-[7]:http://opensource.org/licenses/gpl-2.0.php
+[7]:http://opensource.org/licenses/GPL-2.0
 [8]:https://github.com/maelsoucaze/phpbb/blob/master/language/fr/LICENSE
