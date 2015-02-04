@@ -242,7 +242,7 @@ $lang = array_merge($lang, array(
 	'COPPA_MAIL'				=> 'Adresse de courrier électronique de la COPPA',
 	'COPPA_MAIL_EXPLAIN'		=> 'L’adresse de courrier électronique qui recevra les formulaires d’inscription de la COPPA que les parents devront envoyer.',
 	'ENABLE_COPPA'				=> 'Activer la COPPA',
-	'ENABLE_COPPA_EXPLAIN'		=> 'Les utilisateurs devront déclarer qu’ils ont 13 ans ou plus afin de se conformer à la <em><strong>C</strong>hildren’s <strong>O</strong>nline <strong>P</strong>rivacy <strong>P</strong>rotection <strong>A</strong>ct</em>, loi des États-Unis d’Amérique visant à protéger la vie privée des enfants sur Internet. Si cette option est désactivée, les groupes d’utilisateurs liés à la COPPA ne seront pas affichés.',
+	'ENABLE_COPPA_EXPLAIN'		=> 'Les utilisateurs devront déclarer qu’ils ont 13 ans ou plus afin de se conformer à la COPPA, loi des États-Unis d’Amérique visant à protéger la vie privée des enfants sur Internet. Si cette option est désactivée, les groupes d’utilisateurs liés à la COPPA ne seront pas affichés.',
 	'MAX_CHARS'					=> 'max',
 	'MIN_CHARS'					=> 'min',
 	'NO_AUTH_PLUGIN'			=> 'Aucun module d’extension d’authentification n’a été trouvé.',
@@ -314,9 +314,9 @@ $lang = array_merge($lang, array(
 	'CAPTCHA_GD_EXPLAIN'					=> 'Utilise la bibliothèque graphique GD afin de rendre l’image permettant de lutter contre les robots indésirables plus difficilement déchiffrable.',
 	'CAPTCHA_GD_FOREGROUND_NOISE_EXPLAIN'	=> 'Utilise un bruit de premier plan afin de rendre l’image plus difficilement déchiffrable.',
 	'CAPTCHA_GD_X_GRID'						=> 'Bruit de fond sur l’axe des abscisses',
-	'CAPTCHA_GD_X_GRID_EXPLAIN'				=> 'Utilisez ici des valeurs faibles afin de rendre l’image plus difficilement déchiffrable. Réglez cette valeur sur <samp>0</samp> afin de désactiver le bruit de fond sur l’axe des abscisses.',
+	'CAPTCHA_GD_X_GRID_EXPLAIN'				=> 'Utilisez ici des valeurs faibles afin de rendre l’image plus difficilement déchiffrable. Réglez cette valeur sur 0 afin de désactiver le bruit de fond sur l’axe des abscisses.',
 	'CAPTCHA_GD_Y_GRID'						=> 'Bruit de fond sur l’axe des ordonnées',
-	'CAPTCHA_GD_Y_GRID_EXPLAIN'				=> 'Utilisez ici des valeurs faibles afin de rendre l’image plus difficilement déchiffrable. Réglez cette valeur sur <samp>0</samp> afin de désactiver le bruit de fond sur l’axe des ordonnées.',
+	'CAPTCHA_GD_Y_GRID_EXPLAIN'				=> 'Utilisez ici des valeurs faibles afin de rendre l’image plus difficilement déchiffrable. Réglez cette valeur sur 0 afin de désactiver le bruit de fond sur l’axe des ordonnées.',
 	'CAPTCHA_GD_WAVE'						=> 'Distorsion en forme de vagues',
 	'CAPTCHA_GD_WAVE_EXPLAIN'				=> 'Cela appliquera sur l’image une distorsion en forme de vagues.',
 	'CAPTCHA_GD_3D_NOISE'					=> 'Ajouter des objets de bruit en 3D',
@@ -453,7 +453,7 @@ $lang = array_merge($lang, array(
 
 // Server Settings
 $lang = array_merge($lang, array(
-	'ACP_SERVER_SETTINGS_EXPLAIN'	=> 'Vous pouvez effectuer sur cette page les réglages relatifs au serveur et au domaine. Veuillez vous assurer de la validité des données présentes ci-dessous car vos courriers électroniques pourraient contenir des informations erronées si des données incorrectes étaient présentes. Lorsque vous saisissez le nom de domaine, n’oubliez pas d’inclure son protocole, tel que <samp>http://</samp>. Ne modifiez le port que si votre serveur fonctionne sous un port différent dont vous avez connaissance, mais sachez néanmoins que le port 80 est correct dans la plupart des cas.',
+	'ACP_SERVER_SETTINGS_EXPLAIN'	=> 'Vous pouvez effectuer sur cette page les réglages relatifs au serveur et au domaine. Veuillez vous assurer de la validité des données présentes ci-dessous car vos courriers électroniques pourraient contenir des informations erronées si des données incorrectes étaient présentes. Lorsque vous saisissez le nom de domaine, n’oubliez pas d’inclure son protocole, tel que http://. Ne modifiez le port que si votre serveur fonctionne sous un port différent dont vous avez connaissance, mais sachez néanmoins que le port 80 est correct dans la plupart des cas.',
 
 	'ENABLE_GZIP'				=> 'Activer la compression GZip',
 	'ENABLE_GZIP_EXPLAIN'		=> 'Le contenu généré sera compressé avant d’être envoyé aux utilisateurs. Cela peut réduire le trafic du réseau mais augmentera en contrepartie l’utilisation du processeur de votre serveur et de vos utilisateurs. L’extension zlib de PHP doit être chargée afin que la compression fonctionne.',

@@ -144,7 +144,7 @@ $lang = array_merge($lang, array(
 	'CONFIRM_PASSWORD_EXPLAIN'	=> 'Vous ne devez confirmer votre mot de passe que si vous avez modifié ce dernier ci-dessus.',
 	'COPPA_BIRTHDAY'			=> 'Veuillez nous renseigner votre date de naissance afin de continuer le processus d’inscription.',
 	'COPPA_COMPLIANCE'			=> 'Conformité de la COPPA',
-	'COPPA_EXPLAIN'				=> 'Veuillez noter que si vous cliquez sur le bouton <em>Envoyer</em>, cela créera votre compte. Cependant, sachez que celui-ci ne peut être activé que si un de vos parents ou un tuteur légal approuve votre inscription. Vous recevrez une copie du formulaire contenant les renseignements à envoyer et à quel endroit le faire.',
+	'COPPA_EXPLAIN'				=> 'Veuillez noter que si vous envoyez le formulaire, cela créera votre compte. Cependant, sachez que celui-ci ne peut être activé que si un de vos parents ou un tuteur légal approuve votre inscription. Vous recevrez une copie du formulaire contenant les renseignements à envoyer et à quel endroit le faire.',
 	'CREATE_FOLDER'				=> 'Ajouter une boîte…',
 	'CURRENT_IMAGE'				=> 'Image actuelle',
 	'CURRENT_PASSWORD'			=> 'Mot de passe actuel',
@@ -610,9 +610,9 @@ $lang = array_merge($lang, array(
 
 	'YOUR_DETAILS'				=> 'Votre activité',
 	'YOUR_FOES'					=> 'Vos ignorés',
-	'YOUR_FOES_EXPLAIN'			=> 'Pour supprimer des noms d’utilisateurs, sélectionnez-les et cliquez sur le bouton <em>Envoyer</em>.',
+	'YOUR_FOES_EXPLAIN'			=> 'Pour supprimer des noms d’utilisateurs, sélectionnez-les et envoyez les données.',
 	'YOUR_FRIENDS'				=> 'Vos amis',
-	'YOUR_FRIENDS_EXPLAIN'		=> 'Pour supprimer des noms d’utilisateurs, sélectionnez-les et cliquez sur le bouton <em>Envoyer</em>.',
+	'YOUR_FRIENDS_EXPLAIN'		=> 'Pour supprimer des noms d’utilisateurs, sélectionnez-les et envoyez les données.',
 	'YOUR_WARNINGS'				=> 'Votre niveau d’avertissement',
 
 	'PM_ACTION' => array(
