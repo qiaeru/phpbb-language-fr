@@ -109,11 +109,11 @@ Because the forum software is released under the [GNU General Public License 2.0
 
 Please note that the full notice of the license is available for reading from the [LICENSE] [8] file.
 
-[1]:https://github.com/maelsoucaze/phpbb/blob/master/language/fr/AUTHORS
-[2]:https://github.com/maelsoucaze/phpbb/blob/master/language/fr/VERSION
-[3]:https://github.com/maelsoucaze/phpbb/blob/master/language/fr/CHANGELOG
+[1]:https://github.com/maelsoucaze/phpbb/blob/ascraeus/language/fr/AUTHORS
+[2]:https://github.com/maelsoucaze/phpbb/blob/ascraeus/language/fr/VERSION
+[3]:https://github.com/maelsoucaze/phpbb/blob/ascraeus/language/fr/CHANGELOG
 [4]:https://www.phpbb.com/customise/db/translation/french/support
 [5]:https://www.phpbb.com/community/ucp.php?mode=register
 [6]:http://en.wikipedia.org/wiki/File_Transfer_Protocol
 [7]:http://opensource.org/licenses/GPL-2.0
-[8]:https://github.com/maelsoucaze/phpbb/blob/master/language/fr/LICENSE
+[8]:https://github.com/maelsoucaze/phpbb/blob/ascraeus/language/fr/LICENSE
