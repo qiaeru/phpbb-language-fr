@@ -1,6 +1,6 @@
-FROM 2.3.0 (BUILD 138) TO 2.3.1-dev (BUILD 140)
------------------------------------------------
-Full code changes unavailable at this time.
+FROM 2.3.0 (BUILD 138) TO 2.3.1 (BUILD 141)
+-------------------------------------------
+Full code changes: https://github.com/maelsoucaze/phpbb/compare/v2.3.0-build.138...v2.3.1-build.141
 
 - Some language improvements.
 
