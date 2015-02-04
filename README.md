@@ -1,7 +1,7 @@
 French Language Package
 =======================
 
-Welcome to the official French language package for the phpBB® forum software.
+Welcome to the official French language package for the phpBBÂ® forum software.
 
 Authors
 -------
@@ -61,7 +61,7 @@ Now that the language package is uploaded to your server, you will have to insta
 
   - Login to your board.
   - Click the *Administration Control Panel* link located in the footer of your board.
-  - Once in the *Administration Control Panel*, you will need to click the *SYSTEM* tab.
+  - Once in the *Administration Control Panel*, you will need to click the *CUSTOMISE* tab.
   - Now you will need to click the *Language Packs* link located in the left menu.
   - You should see now a page which lists the language packages uploaded onto your server.
   - Click the install link next to the French language package.
