@@ -406,7 +406,7 @@ $lang = array_merge($lang, array(
 	'NO_WATCHED_TOPICS'			=> 'Aucun abonnement à un sujet.',
 
 	'PASS_TYPE_ALPHA_EXPLAIN'	=> 'Le mot de passe doit être compris entre %1$s et %2$s de long, doit contenir des lettres (sans accent) en majuscules et en minuscules et doit contenir des chiffres.',
-	'PASS_TYPE_ANY_EXPLAIN'		=> 'Doit être compris entre %1$s et %2$s de long.',
+	'PASS_TYPE_ANY_EXPLAIN'		=> 'Doit être compris entre %1$s et %2$s.',
 	'PASS_TYPE_CASE_EXPLAIN'	=> 'Le mot de passe doit être compris entre %1$s et %2$s de long et doit contenir des lettres en majuscules et en minuscules.',
 	'PASS_TYPE_SYMBOL_EXPLAIN'	=> 'Le mot de passe doit être compris entre %1$s et %2$s de long, doit contenir des lettres en majuscules et en minuscules, doit contenir des chiffres et doit contenir des symboles.',
 	'PASSWORD'					=> 'Mot de passe',
