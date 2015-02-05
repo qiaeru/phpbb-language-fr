@@ -71,7 +71,7 @@ $help = array(
 	),
 	array(
 		0 => 'À quoi sert « Supprimer tous les cookies du forum » ?',
-		1 => 'Cette option vous permet d’effacer tous les cookies générés par phpBB 3.1 qui conservent votre authentification et votre connexion au forum. Les cookies permettent également d’enregistrer le statut des messages (s’ils sont lus ou non lus) dans le cas où cette fonctionnalité a été activée par un administrateur du forum. Si vous rencontrez des problèmes récurrents de connexion et de déconnexion au forum, essayez de supprimer les cookies.',
+		1 => 'Cette option vous permet d’effacer tous les cookies générés par phpBB 3.2 qui conservent votre authentification et votre connexion au forum. Les cookies permettent également d’enregistrer le statut des messages (s’ils sont lus ou non lus) dans le cas où cette fonctionnalité a été activée par un administrateur du forum. Si vous rencontrez des problèmes récurrents de connexion et de déconnexion au forum, essayez de supprimer les cookies.',
 	),
 	array(
 		0 => '--',
@@ -308,7 +308,7 @@ $help = array(
 	),
 	array(
 		0 => 'Quelle est la différence entre les favoris et les abonnements ?',
-		1 => 'Dans phpBB 3.0, l’ajout d’un sujet aux favoris était similaire à la fonctionnalité présente dans votre navigateur internet. Vous ne receviez aucune notification lors de la mise à jour d’un sujet ajouté aux favoris. Dans phpBB 3.1, les favoris sont davantage similaires aux abonnements. Vous pouvez à présent recevoir une notification lorsqu’un sujet ajouté aux favoris recevra une mise à jour. L’abonnement, quant à lui, vous préviendra de la mise à jour d’un forum ou d’un sujet auquel vous êtes abonné. Les options de notification concernant les favoris et les abonnements peuvent être modifiés depuis le panneau de contrôle de l’utilisateur, sous les « Préférences du forum ».',
+		1 => 'Dans phpBB 3.0, l’ajout d’un sujet aux favoris était similaire à la fonctionnalité présente dans votre navigateur internet. Vous ne receviez aucune notification lors de la mise à jour d’un sujet ajouté aux favoris. Dans phpBB 3.2, les favoris sont davantage similaires aux abonnements. Vous pouvez à présent recevoir une notification lorsqu’un sujet ajouté aux favoris recevra une mise à jour. L’abonnement, quant à lui, vous préviendra de la mise à jour d’un forum ou d’un sujet auquel vous êtes abonné. Les options de notification concernant les favoris et les abonnements peuvent être modifiés depuis le panneau de contrôle de l’utilisateur, sous les « Préférences du forum ».',
 	),
 	array(
 		0 => 'Comment puis-je ajouter aux favoris ou m’abonner à un sujet spécifique ?',
