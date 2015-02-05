@@ -5,8 +5,8 @@ php:
 
 env:
   global:
-    - PHPBB_TAG="develop-ascraeus"
-    - PHPBB_VERSION="3.1"
+    - PHPBB_TAG="develop"
+    - PHPBB_VERSION="3.2"
     - PHPBB_LANGUAGE="fr"
 
 before_install:
