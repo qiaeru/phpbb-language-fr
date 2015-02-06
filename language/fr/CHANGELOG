@@ -1,8 +1,8 @@
-FROM 2.3.1 (BUILD 141) TO 2.3.2-DEV (BUILD 142)
+FROM 2.3.1 (BUILD 141) TO 2.3.2 (BUILD 143)
 -----------------------------------------------
-Full code changes unavailable.
+Full code changes: https://github.com/maelsoucaze/phpbb/compare/v2.3.1-build.141...v2.3.2-build.143
 
-- Fix the release date in the VERSION file.
+- Convert several files to Linux line endings (LF).
 
 FROM 2.3.0 (BUILD 138) TO 2.3.1 (BUILD 141)
 -------------------------------------------
