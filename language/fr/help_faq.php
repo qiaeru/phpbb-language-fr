@@ -43,7 +43,7 @@ $help = array(
 	),
 	array(
 		0 => 'Qu’est-ce que la COPPA ?',
-		1 => 'La COPPA (Child Online Privacy and Protection Act) est une loi des États-Unis d’Amérique qui demande aux sites internet collectant potentiellement des informations sur les mineurs âgés de moins de 13 ans un consentement écrit des parents ou des tuteurs légaux des mineurs concernés. Si vous ne savez pas si cette loi s’applique également aux mineurs âgés de moins de 13 ans inscrits sur votre forum, nous vous conseillons de contacter un conseiller juridique qui pourra vous renseigner. Veuillez noter que phpBB Limited et le propriétaire de ce forum ne peuvent pas vous fournir d’assistance légale et ne doivent donc pas être contactés en ce qui concerne les questions légales, excepté celles qui sont citées dans la question « Qui dois-je contacter à propos de problèmes d’abus ou d’ordres légaux liés à ce forum ? ».',
+		1 => 'La COPPA (Child Online Privacy and Protection Act) est une loi des États-Unis d’Amérique qui demande aux sites internet collectant potentiellement des informations sur les mineurs âgés de moins de 13 ans un consentement écrit des parents ou des tuteurs légaux des mineurs concernés. Si vous ne savez pas si cette loi s’applique également aux mineurs âgés de moins de 13 ans inscrits sur votre forum, nous vous conseillons de contacter un conseiller juridique qui pourra vous renseigner. Veuillez noter que phpBB Limited et que les propriétaires de ce forum ne peuvent pas vous fournir d’assistance légale et ne doivent donc pas être contactés à ce sujet, excepté lorsque l’assistance porte sur la question « Qui dois-je contacter à propos de problèmes d’abus ou d’ordres légaux liés à ce forum ? ».',
 	),
 	array(
 		0 => 'Pourquoi ne puis-je pas m’inscrire ?',
