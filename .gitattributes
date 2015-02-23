@@ -1,4 +1,4 @@
 # NORMALIZE LINE ENDINGS
-* text=auto
+* text eol=lf
 .gitattributes text
 .gitignore text
