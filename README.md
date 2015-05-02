@@ -9,6 +9,7 @@ Version
 - 2.4.0-dev (Build 147)
 - Released on May 1, 2015
 - Compatible with [phpBB 3.1.5-dev (Build 2521)](https://bamboo.phpbb.com/browse/PHPBB3-DEVELOP-2521)
+
 [![Build Status](https://travis-ci.org/maelsoucaze/phpbb.svg?branch=ascraeus)](https://travis-ci.org/maelsoucaze/phpbb)
 
 Changelog
@@ -22,4 +23,4 @@ Changelog
 
 License
 -------
-The French Language Package is released under [GNU General Public License 2.0] (http://opensource.org/licenses/GPL-2.0).
+The French Language Package is released under the [GNU General Public License 2.0] (http://opensource.org/licenses/GPL-2.0).
