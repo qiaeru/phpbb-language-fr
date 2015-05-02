@@ -6,11 +6,11 @@ French Language Package compatible with the phpBB® "Ascraeus" 3.1 Forum Softwar
 Version
 -------
 
+[![Build Status](https://travis-ci.org/maelsoucaze/phpbb.svg?branch=ascraeus)](https://travis-ci.org/maelsoucaze/phpbb)
+
 - 2.4.0-dev (Build 147)
 - Released on May 1, 2015
 - Compatible with [phpBB 3.1.5-dev (Build 2521)](https://bamboo.phpbb.com/browse/PHPBB3-DEVELOP-2521)
-
-[![Build Status](https://travis-ci.org/maelsoucaze/phpbb.svg?branch=ascraeus)](https://travis-ci.org/maelsoucaze/phpbb)
 
 Changelog
 ---------
