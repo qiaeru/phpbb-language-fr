@@ -50,7 +50,7 @@ $help = array(
 		1 => 'Il est possible qu’un administrateur du forum ait désactivé les inscriptions afin d’empêcher les nouveaux visiteurs de s’inscrire. De même, il est également possible qu’un administrateur du forum ait banni votre adresse IP ou interdit l’utilisation du nom d’utilisateur que vous souhaitez utiliser. Pour plus d’informations, veuillez contacter un administrateur du forum.',
 	),
 	array(
-		0 => 'Je suis inscrit mais ne peux pas me connecter !',
+		0 => 'Je suis inscrit mais je ne peux pas me connecter !',
 		1 => 'Vérifiez en premier lieu que votre nom d’utilisateur et votre mot de passe soient corrects. Si le support de la COPPA est activé et que vous avez spécifié avoir en dessous de 13 ans pendant l’inscription, vous devrez suivre les instructions que vous avez reçues. Certains forums exigeront également que les nouvelles inscriptions doivent être activées, soit par vous-même ou soit par un administrateur, avant que vous puissiez ouvrir une session ; cette information était présente lors de votre inscription. Si vous aviez reçu un courrier électronique, consultez les instructions. Si vous ne recevez pas de courrier électronique, vous avez probablement spécifié une mauvaise adresse de courrier électronique ou le courrier électronique a été filtré en tant que pourriel. Si vous êtes certain(e) que l’adresse de courrier électronique que vous avez spécifiée était correcte, essayez de contacter un administrateur du forum.'
 	),
 	array(
@@ -126,8 +126,8 @@ $help = array(
 		1 => 'À moins que vous ne soyez un administrateur ou un modérateur du forum, vous ne pouvez éditer ou supprimer que vos propres messages. Vous pouvez éditer un de vos messages en cliquant le bouton adéquat, parfois dans une limite de temps après que le message initial ait été publié. Si quelqu’un a déjà répondu à votre message, un petit texte situé en dessous du message affichera le nombre de fois que vous l’avez édité, contenant la date et l’heure de l’édition. Ce petit texte n’apparaîtra pas s’il s’agit d’une édition effectuée par un modérateur ou un administrateur, bien qu’ils puissent rédiger une raison discrète concernant leur édition. Veuillez noter que les utilisateurs normaux ne peuvent pas supprimer leur propre message si une réponse a été publiée.'
 	),
 	array(
-		0 => 'Comment puis-je insérer une signature à un message ?',
-		1 => 'Pour insérer une signature à un message, vous devez tout d’abord en créer une depuis le panneau de contrôle de l’utilisateur. Une fois créée, vous pouvez cocher la case <em>Insérer une signature</em> depuis le formulaire de rédaction afin d’insérer votre signature. Vous pouvez également ajouter une signature qui sera insérée à tous vos messages en cochant la case appropriée dans le panneau de contrôle de l’utilisateur. Si vous choisissez cette dernière option, il ne vous sera plus utile de spécifier sur chaque message votre souhait d’insérer votre signature.'
+		0 => 'Comment puis-je insérer une signature à mon message ?',
+		1 => 'Pour insérer une signature à un de vos messages, vous devez tout d’abord en créer une depuis le panneau de contrôle de l’utilisateur. Une fois créée, vous pouvez cocher la case <em>Insérer une signature</em> depuis le formulaire de rédaction afin d’insérer votre signature. Vous pouvez également ajouter une signature qui sera insérée à tous vos messages en cochant la case appropriée dans le panneau de contrôle de l’utilisateur. Si vous choisissez cette dernière option, il ne vous sera plus utile de spécifier sur chaque message votre souhait d’insérer votre signature.'
 	),
 	array(
 		0 => 'Comment puis-je créer un sondage ?',
@@ -216,7 +216,7 @@ $help = array(
 	),
 	array(
 		0 => '--',
-		1 => 'Niveaux des utilisateurs et des groupes d’utilisateurs'
+		1 => 'Niveaux des utilisateurs et groupes d’utilisateurs'
 	),
 	array(
 		0 => 'Que sont les administrateurs ?',
@@ -295,7 +295,7 @@ $help = array(
 		1 => 'Votre recherche a renvoyé trop de résultats pour que le serveur puisse les afficher. Utilisez la recherche avancée et essayez d’être plus précis dans les termes employés et dans la sélection des forums dans lesquels vous souhaitez effectuer une recherche.'
 	),
 	array(
-		0 => 'Comment puis-je rechercher des utilisateurs ?',
+		0 => 'Comment puis-je rechercher des membres ?',
 		1 => 'Rendez-vous sur la page « Membres » puis cliquez sur le lien « Trouver un membre ».'
 	),
 	array(
@@ -328,7 +328,7 @@ $help = array(
 	),
 	array(
 		0 => 'Quelles pièces jointes sont autorisées sur ce forum ?',
-		1 => 'Chaque administrateur du forum peut autoriser ou interdire certains types de pièces jointes. Si vous n’êtes pas certain(e) de savoir ce qui est autorisé ou non, nous vous invitons à contacter un administrateur du forum.'
+		1 => 'Chaque administrateur peut autoriser ou interdire certains types de pièces jointes. Si vous n’êtes pas certain(e) de savoir ce qui est autorisé ou non, nous vous invitons à contacter un administrateur du forum.'
 	),
 	array(
 		0 => 'Comment puis-je retrouver toutes mes pièces jointes ?',
