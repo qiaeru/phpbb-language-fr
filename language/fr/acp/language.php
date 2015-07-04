@@ -75,4 +75,6 @@ $lang = array_merge($lang, array(
 	'THOSE_MISSING_LANG_VARIABLES'		=> 'Les variables de langue suivantes sont manquantes de la traduction « %s ».',
 
 	'UNINSTALLED_LANGUAGE_PACKS'	=> 'Traductions non installées',
+
+	'BROWSE_LANGUAGE_PACKS_DATABASE'	=> 'Accéder à la base de données des traductions',
 ));
