@@ -8,8 +8,8 @@ Version
 
 [![Build Status] (https://travis-ci.org/maelsoucaze/phpbb.svg?branch=ascraeus)](https://travis-ci.org/maelsoucaze/phpbb)
 
-- 2.6.0-dev (Build 150)
-- Released on July 4, 2015
+- 2.6.0-dev (Build 151)
+- Released on July 5, 2015
 - Compatible with [phpBB 3.1.6-dev (Build 2599)] (https://bamboo.phpbb.com/browse/PHPBB3-DEVELOP-2599)
 
 Changelog
