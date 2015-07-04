@@ -63,6 +63,12 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_OPTION_SAFE_MODE'			=> 'Exécuter en mode sans échec (sans extension).',
 	'CLI_DESCRIPTION_OPTION_SHELL'				=> 'Lancer la console.',
 	'CLI_DESCRIPTION_PURGE_EXTENSION'			=> 'Purge l’extension spécifiée.',
+	'CLI_DESCRIPTION_REPARSER_LIST'				=> 'Liste les types de texte qui peuvent être réanalysés.',
+	'CLI_DESCRIPTION_REPARSER_REPARSE'			=> 'Réanalyse le texte stocké avec les services actuels text_formatter.',
+	'CLI_DESCRIPTION_REPARSER_REPARSE_ARG_1'	=> 'Le type de texte à réanalyser. Laissez ce champ vide afin de tout réanalyser.',
+	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MIN'	=> 'Plus faible numéro d’enregistrement à traiter',
+	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MAX'	=> 'Plus important numéro d’enregistrement à traiter',
+	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_SIZE'	=> 'Nombre approximatif d’enregistrements à traiter à la fois',
 	'CLI_DESCRIPTION_RECALCULATE_EMAIL_HASH'	=> 'Recalcule la colonne user_email_hash de la table des utilisateurs.',
 	'CLI_DESCRIPTION_SET_ATOMIC_CONFIG'			=> 'Règle une valeur de l’option de configuration si l’ancienne valeur est identique à la valeur actuelle',
 	'CLI_DESCRIPTION_SET_CONFIG'				=> 'Règle une valeur de l’option de configuration',
@@ -80,4 +86,8 @@ $lang = array_merge($lang, array(
 	'CLI_EXTENSIONS_ENABLED'			=> 'Activé',
 
 	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS'	=> 'Tous les hachages des courriers électroniques ont été recalculés.',
+
+	'CLI_REPARSER_REPARSE_REPARSING'		=> 'Réanalyse de %1$s (rangée %2$d..%3$d)',
+	'CLI_REPARSER_REPARSE_REPARSING_START'	=> 'Réanalyse de %s…',
+	'CLI_REPARSER_REPARSE_SUCCESS'			=> 'Réanalyse terminée',
 ));

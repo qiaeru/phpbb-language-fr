@@ -70,6 +70,12 @@ $lang = array_merge($lang, array(
 	'EXTENSION_NAME'			=> 'Nom de l’extension',
 	'EXTENSION_ACTIONS'			=> 'Opérations',
 	'EXTENSION_OPTIONS'			=> 'Options',
+	'EXTENSION_INSTALL_HEADLINE'=> 'Installer d’une extension',
+	'EXTENSION_INSTALL_EXPLAIN'	=> '<ol>
+			<li>Téléchargez une extension à partir de la base de données des extensions de phpBB</li>
+			<li>Décompressez l’extension et transférez cette dernière dans le répertoire <samp>ext/</samp> de votre forum phpBB</li>
+			<li>Activez l’extension à partir du gestionnaire d’extensions</li>
+		</ol>',
 	'EXTENSION_UPDATE_HEADLINE'	=> 'Mettre à jour une extension',
 	'EXTENSION_UPDATE_EXPLAIN'	=> '<ol>
 			<li>Désactivez l’extension</li>
@@ -120,6 +126,8 @@ $lang = array_merge($lang, array(
 	'VERSIONCHECK_FORCE_UPDATE_ALL'		=> 'Vérifier de nouveau les mises à jour',
 	'FORCE_UNSTABLE'					=> 'Toujours vérifier la disponibilité de versions instables',
 	'EXTENSIONS_VERSION_CHECK_SETTINGS'	=> 'Réglages de la vérification des mises à jour',
+
+	'BROWSE_EXTENSIONS_DATABASE'		=> 'Accéder à la base de données des extensions',
 
 	'META_FIELD_NOT_SET'	=> 'Le méta-champ %s est obligatoire et doit être réglé.',
 	'META_FIELD_INVALID'	=> 'Le méta-champ %s est incorrect.',
