@@ -101,6 +101,7 @@ $lang = array_merge($lang, array(
 	'ALLOW_TOPIC_NOTIFY'		=> 'Autoriser l’abonnement aux sujets',
 	'BOARD_PM'					=> 'Activer la messagerie privée',
 	'BOARD_PM_EXPLAIN'			=> 'Les utilisateurs pourront utiliser la messagerie privée.',
+	'ALLOW_BOARD_NOTIFICATIONS' => 'Autoriser les notifications du forum',
 ));
 
 // Avatar Settings

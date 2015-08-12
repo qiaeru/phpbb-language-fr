@@ -450,6 +450,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_FORUM'				=> '<em>Forum :</em> %1$s',
 	'NOTIFICATION_GROUP_REQUEST'		=> '<strong>Demande d’invitation</strong> par %1$s afin de rejoindre le groupe %2$s.',
 	'NOTIFICATION_GROUP_REQUEST_APPROVED'	=> '<strong>Demande d’invitation</strong> afin de rejoindre le groupe %1$s.',
+	'NOTIFICATION_METHOD_INVALID'		=> 'La méthode « %s » ne fait pas référence à une méthode de notification valide.',
 	'NOTIFICATION_PM'					=> '<strong>Réception d’un message privé</strong> par %1$s :',
 	'NOTIFICATION_POST'					=> array(
 		1	=> '<strong>Publication de message</strong> par %1$s dans le sujet :',

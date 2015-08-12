@@ -122,6 +122,7 @@ $lang = array_merge($lang, array(
 	'ACL_F_POST'		=> 'Peut publier de nouveaux sujets',
 	'ACL_F_STICKY'		=> 'Peut publier des notes',
 	'ACL_F_ANNOUNCE'	=> 'Peut publier des annonces',
+	'ACL_F_ANNOUNCE_GLOBAL'	=> 'Peut publier des annonces générales',
 	'ACL_F_REPLY'		=> 'Peut répondre aux sujets',
 	'ACL_F_EDIT'		=> 'Peut éditer ses messages',
 	'ACL_F_DELETE'		=> 'Peut supprimer définitivement ses messages',

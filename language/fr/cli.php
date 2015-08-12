@@ -66,12 +66,18 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_REPARSER_LIST'				=> 'Liste les types de texte qui peuvent être réanalysés.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE'			=> 'Réanalyse le texte stocké avec les services actuels text_formatter.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_ARG_1'	=> 'Le type de texte à réanalyser. Laissez ce champ vide afin de tout réanalyser.',
+	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_DRY_RUN'		=> 'Ne sauvegarder aucune modification, imprimer seulement ce qui se passerait',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MIN'	=> 'Plus faible numéro d’enregistrement à traiter',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MAX'	=> 'Plus important numéro d’enregistrement à traiter',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_SIZE'	=> 'Nombre approximatif d’enregistrements à traiter à la fois',
+	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RESUME'		=> 'Démarrer la réanalyse où la dernière exécution s’est arrêtée',
 	'CLI_DESCRIPTION_RECALCULATE_EMAIL_HASH'	=> 'Recalcule la colonne user_email_hash de la table des utilisateurs.',
 	'CLI_DESCRIPTION_SET_ATOMIC_CONFIG'			=> 'Règle une valeur de l’option de configuration si l’ancienne valeur est identique à la valeur actuelle',
 	'CLI_DESCRIPTION_SET_CONFIG'				=> 'Règle une valeur de l’option de configuration',
+
+	'CLI_DESCRIPTION_THUMBNAIL_DELETE'		=> 'Supprimer toutes les vignettes existantes.',
+	'CLI_DESCRIPTION_THUMBNAIL_GENERATE'	=> 'Générer toutes les vignettes manquantes.',
+	'CLI_DESCRIPTION_THUMBNAIL_RECREATE'	=> 'Recréer toutes les vignettes.',
 
 	'CLI_EXTENSION_DISABLE_FAILURE'		=> 'Impossible de désactiver l’extension %s',
 	'CLI_EXTENSION_DISABLE_SUCCESS'		=> 'L’extension %s a été désactivée',
@@ -90,4 +96,17 @@ $lang = array_merge($lang, array(
 	'CLI_REPARSER_REPARSE_REPARSING'		=> 'Réanalyse de %1$s (rangée %2$d..%3$d)',
 	'CLI_REPARSER_REPARSE_REPARSING_START'	=> 'Réanalyse de %s…',
 	'CLI_REPARSER_REPARSE_SUCCESS'			=> 'Réanalyse terminée',
+
+	// In all the case %1$s is the logical name of the file and %2$s the real name on the filesystem
+	// eg: big_image.png (2_a51529ae7932008cf8454a95af84cacd) generated.
+	'CLI_THUMBNAIL_DELETED'		=> '%1$s (%2$s) supprimé.',
+	'CLI_THUMBNAIL_DELETING'	=> 'Suppression des vignettes',
+	'CLI_THUMBNAIL_SKIPPED'		=> '%1$s (%2$s) ignoré.',
+	'CLI_THUMBNAIL_GENERATED'	=> '%1$s (%2$s) généré.',
+	'CLI_THUMBNAIL_GENERATING'	=> 'Génération des vignettes',
+	'CLI_THUMBNAIL_GENERATING_DONE'	=> 'Toutes les vignettes ont été régénérés.',
+	'CLI_THUMBNAIL_DELETING_DONE'	=> 'Toutes les vignettes ont été supprimés.',
+
+	'CLI_THUMBNAIL_NOTHING_TO_GENERATE'	=> 'Aucune vignette à générer.',
+	'CLI_THUMBNAIL_NOTHING_TO_DELETE'	=> 'Aucune vignette à supprimer.',
 ));

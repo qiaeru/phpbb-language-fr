@@ -290,7 +290,7 @@ $lang = array_merge($lang, array(
 	'OVERVIEW_BODY'				=> 'Bienvenue sur phpBB 3.2 !<br /><br />phpBB® est le logiciel de forum de discussions libre et gratuit le plus utilisé dans le monde. Il est le résultat d’un long travail qui a débuté en l’an 2000. Tout comme ses versions précédentes, phpBB 3.2 est riche en fonctionnalités, facile d’accès et entièrement supporté par phpBB Limited. Il améliore considérablement ce qui a rendu phpBB 2.0 populaire et ajoute des fonctionnalités attendues qui manquaient aux versions antérieures. Nous espérons avoir répondu convenablement à vos attentes.<br /><br />Ce système d’installation vous guidera dans l’installation de phpBB 3.2, dans la mise à jour des versions obsolètes à la dernière version stable et bien évidemment dans la conversion de divers logiciels de forums de discussions (dont phpBB 2.0) vers phpBB 3.2. Pour plus d’informations, nous vous encourageons à consulter <a href="../docs/INSTALL.html">le guide d’installation</a>.<br /><br />Pour consulter la licence de phpBB 3.2 ou en savoir plus sur l’obtention de support ainsi que notre position envers ce dernier, veuillez sélectionner les options appropriées situées sur le menu latéral de gauche. Pour continuer, veuillez sélectionner l’onglet approprié situé ci-dessus.',
 
 	'PCRE_UTF_SUPPORT'				=> 'Support de PCRE UTF-8',
-	'PCRE_UTF_SUPPORT_EXPLAIN'		=> 'phpBB ne fonctionnera <strong>pas</strong> si votre installation PHP n’est pas compilée sous PCRE avec le support de d’UTF-8.',
+	'PCRE_UTF_SUPPORT_EXPLAIN'		=> 'phpBB ne fonctionnera <strong>pas</strong> si votre installation PHP n’est pas compilée dans l’extension PCRE avec le support de d’UTF-8.',
 	'PHP_GETIMAGESIZE_SUPPORT'			=> 'La fonction PHP getimagesize() est disponible',
 	'PHP_GETIMAGESIZE_SUPPORT_EXPLAIN'	=> '<strong>Obligatoire</strong> - pour que phpBB puisse fonctionner correctement, la fonction getimagesize doit être disponible.',
 	'PHP_JSON_SUPPORT'				=> 'Support de PHP JSON',
@@ -320,10 +320,7 @@ $lang = array_merge($lang, array(
 	'RETRY_WRITE'				=> 'Réessayer d’écrire la configuration',
 	'RETRY_WRITE_EXPLAIN'		=> 'Si vous le souhaitez, vous pouvez modifier les permissions du fichier de configuration afin qu’il puisse être écrit par phpBB. Après cela, cliquez sur le bouton « Réessayer » ci-dessous. Pour des raisons de sécurité, vous devriez réinitialiser les permissions du fichier de configuration une fois l’installation de phpBB terminée.',
 
-	'SCRIPT_PATH'				=> 'Chemin du forum',
-	'SCRIPT_PATH_EXPLAIN'		=> 'Le chemin menant à votre forum par rapport au nom de domaine, tel que <samp>/phpBB3</samp>.',
 	'SELECT_LANG'				=> 'Sélectionner une langue',
-	'SERVER_CONFIG'				=> 'Configuration du serveur',
 	'SEARCH_INDEX_UNCONVERTED'	=> 'L’index de recherche n’a pas été converti',
 	'SEARCH_INDEX_UNCONVERTED_EXPLAIN'	=> 'Votre ancien index de recherche n’a pas été converti. La recherche retournera systématiquement un résultat nul. Pour créer un nouvel index de recherche, rendez-vous sur le panneau de contrôle d’administration, cliquez sur « Maintenance » et sélectionnez l’index de recherche à partir du sous-menu.',
 	'SELECT_FORUM_GA'			=> 'Dans phpBB 3.2, les annonces générales sont liées aux forums. Sélectionnez un forum contenant vos annonces générales (elles pourront être déplacées ultérieurement) :',
