@@ -2,7 +2,7 @@ Subject: Notification de publication d’un message dans un forum - « {FORUM_NA
 
 Bonjour {USERNAME},
 
-Vous recevez cette notification car vous surveillez le forum « {FORUM_NAME} » sur « {SITENAME} ». Depuis votre dernière visite, un nouveau sujet, « {TOPIC_TITLE} », a été publié dans ce forum<!-- IF AUTHOR_NAME !== '' --> par {AUTHOR_NAME}<!-- ENDIF -->. Vous pouvez utiliser le lien suivant afin de consulter le forum, aucune nouvelle notification ne vous sera envoyée jusqu’à ce que vous visitez ce dernier.
+Vous recevez cette notification car vous surveillez le forum « {FORUM_NAME} » sur « {SITENAME} ». Depuis votre dernière visite, un nouveau sujet, « {TOPIC_TITLE} », a été publié dans ce forum<!-- IF AUTHOR_NAME !== '' --> par {AUTHOR_NAME}<!-- ENDIF -->. Vous pouvez utiliser le lien suivant afin de consulter le forum, aucune nouvelle notification ne vous sera envoyée jusqu’à ce que vous visitiez ce dernier.
 
 {U_NEWEST_POST}
 

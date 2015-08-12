@@ -2,7 +2,7 @@ Subject: Notification de réponse à un sujet - « {TOPIC_TITLE} »
 
 Bonjour {USERNAME},
 
-Vous recevez cette notification car vous surveillez le sujet « {TOPIC_TITLE} » sur « {SITENAME} ». Ce sujet a reçu une nouvelle réponse<!-- IF AUTHOR_NAME !== '' --> de {AUTHOR_NAME}<!-- ENDIF --> depuis votre dernière visite. Aucune nouvelle notification ne vous sera envoyée jusqu’à ce que vous visitez le sujet.
+Vous recevez cette notification car vous surveillez le sujet « {TOPIC_TITLE} » sur « {SITENAME} ». Ce sujet a reçu une nouvelle réponse<!-- IF AUTHOR_NAME !== '' --> de {AUTHOR_NAME}<!-- ENDIF --> depuis votre dernière visite. Aucune nouvelle notification ne vous sera envoyée jusqu’à ce que vous visitiez le sujet.
 
 Si vous souhaitez consulter le dernier message publié depuis votre dernière visite, veuillez cliquer sur le lien suivant :
 {U_NEWEST_POST}
