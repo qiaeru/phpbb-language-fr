@@ -51,21 +51,21 @@ $lang = array_merge($lang, array(
 
 	// Support page
 	'SUPPORT_TITLE'		=> 'Support',
-	'SUPPORT_BODY'		=> 'Un support complet et gratuit de la dernière version stable de phpBB 3.2 est disponible. Cela comprend :</p><ul><li>l’installation</li><li>la configuration</li><li>les questions d’ordre technique</li><li>les problèmes en relation avec les bogues potentiels du logiciel</li><li>la mise à jour d’une des versions Release Candidate (RC) vers la dernière version stable</li><li>la conversion de phpBB 2.0 vers phpBB 3.2</li><li>la conversion d’un des nombreux logiciels de forums de discussions vers phpBB 3.2 (veuillez consulter le <a href="https://www.phpbb.com/community/viewforum.php?f=486">forum relatif aux convertisseurs</a> (en anglais))</li></ul><p>Nous continuons à encourager les utilisateurs utilisant une des versions bêta de phpBB 3.2 à remplacer celle-ci par une nouvelle installation de la dernière version stable.</p><h2>Extensions et styles</h2><p>En ce qui concerne les problèmes relatifs aux extensions, veuillez publier vos demandes de support dans le <a href="https://www.phpbb.com/community/viewforum.php?f=451">forum relatif aux extensions</a> (en anglais).<br />En ce qui concerne les problèmes relatifs aux styles, aux modèles et aux thèmes, veuillez publier vos demandes de support dans le <a href="https://www.phpbb.com/community/viewforum.php?f=471">forum relatif aux styles</a> (en anglais).<br /><br />Si votre question est portée sur une archive spécifique, veuillez publier directement votre message dans le sujet dédié à cette archive.</p><h2>Obtenir de l’aide</h2><p><a href="https://www.phpbb.com/community/viewtopic.php?f=14&amp;t=571070">Le message de bienvenue dans phpBB</a> (en anglais)<br /><a href="https://www.phpbb.com/support/">La section relative au support</a> (en anglais)<br /><a href="https://www.phpbb.com/support/docs/en/3.2/ug/quickstart/">Le guide de démarrage rapide</a> (en anglais)<br /><br />Si vous souhaitez vous assurer d’être tenu au courant des dernières nouveautés et des dernières sorties de nos logiciels, pourquoi ne pas <a href="https://www.phpbb.com/support/">vous inscrire à notre liste de diffusion</a> (en anglais) ?<br /><br />',
+	'SUPPORT_BODY'		=> 'Un support complet et gratuit de la dernière version stable de phpBB 3.2 est disponible. Cela comprend :</p><ul><li>l’installation</li><li>la configuration</li><li>les questions d’ordre technique</li><li>les problèmes en relation avec les bogues potentiels du logiciel</li><li>la mise à jour d’une des versions Release Candidate (RC) vers la dernière version stable</li><li>la conversion de phpBB 2.0 vers phpBB 3.2</li><li>la conversion d’un des nombreux logiciels de forums de discussions vers phpBB 3.2 (veuillez consulter le <a href="https://www.phpbb.com/community/viewforum.php?f=486">forum relatif aux convertisseurs</a> (en anglais))</li></ul><p>Nous encourageons les utilisateurs des versions bêta de phpBB 3.2 à procéder à une nouvelle installation de la dernière version stable.</p><h2>Extensions et styles</h2><p>En ce qui concerne les problèmes relatifs aux extensions, veuillez publier vos demandes de support dans le <a href="https://www.phpbb.com/community/viewforum.php?f=451">forum relatif aux extensions</a> (en anglais).<br />En ce qui concerne les problèmes relatifs aux styles, aux modèles et aux thèmes, veuillez publier vos demandes de support dans le <a href="https://www.phpbb.com/community/viewforum.php?f=471">forum relatif aux styles</a> (en anglais).<br /><br />Si votre question est portée sur une archive spécifique, veuillez publier directement votre message dans le sujet dédié à cette archive.</p><h2>Obtenir de l’aide</h2><p><a href="https://www.phpbb.com/community/viewtopic.php?f=14&amp;t=571070">Le message de bienvenue dans phpBB</a> (en anglais)<br /><a href="https://www.phpbb.com/support/">La section relative au support</a> (en anglais)<br /><a href="https://www.phpbb.com/support/docs/en/3.2/ug/quickstart/">Le guide de démarrage rapide</a> (en anglais)<br /><br />Si vous souhaitez vous assurer d’être tenu au courant des dernières nouveautés et des dernières sorties de nos logiciels, pourquoi ne pas <a href="https://www.phpbb.com/support/">vous inscrire à notre liste de diffusion</a> (en anglais) ?<br /><br />',
 
 	// License
 	'LICENSE_TITLE'		=> 'Licence Publique Générale',
 
 	// Install page
 	'INSTALL_INTRO'			=> 'Bienvenue à l’installation',
-	'INSTALL_INTRO_BODY'	=> 'Grâce à cette option, il est possible d’installer phpBB 3.2 sur votre serveur.</p><p>Avant de continuer, vous allez avoir besoin de vous munir des réglages de votre base de données. Si vous ne les connaissez pas, veuillez les demander à votre hébergeur car vous ne pourrez pas continuer sans saisir ces informations. Vous avez besoin du :</p>
+	'INSTALL_INTRO_BODY'	=> 'Grâce à cette option, il est possible d’installer phpBB 3.2 sur votre serveur.</p><p>Avant de continuer, vous aurez besoin des informations sur votre base de données. Si vous ne les connaissez pas, veuillez les demander à votre hébergeur car vous ne pourrez pas continuer sans saisir ces informations. Vous avez besoin des informations suivantes :</p>
 
 	<ul>
-		<li>Type de base de données - la base de données que vous allez utiliser.</li>
-		<li>Nom d’hôte du serveur de la base de données ou DSN - l’adresse du serveur de la base de données.</li>
-		<li>Port du serveur de la base de données - comme son nom l’indique (dans la plupart des cas, il n’est pas obligatoire).</li>
-		<li>Nom de la base de données - le nom de la base de données sur le serveur.</li>
-		<li>Nom d’utilisateur et mot de passe de la base de données - les informations de connexion afin d’accéder à la base de données.</li>
+		<li>Le type de base de données (la base de données que vous allez utiliser).</li>
+		<li>Le nom d’hôte du serveur de la base de données ou DSN (l’adresse du serveur de la base de données).</li>
+		<li>Le port du serveur de la base de données (comme son nom l’indique, notez que dans la plupart des cas, il est facultatif).</li>
+		<li>Le nom de la base de données (le nom de la base de données sur le serveur).</li>
+		<li>Le nom d’utilisateur et mot de passe de la base de données (les informations de connexion afin d’accéder à la base de données).</li>
 	</ul>
 
 	<p><strong>Information :</strong> si vous procédez à une installation en utilisant SQLite, vous devrez saisir le chemin complet de votre fichier de base de données dans le champ DSN et laisser les champs du nom d’utilisateur et du mot de passe vides. Pour des raisons de sécurité, vous devriez vous assurer que le fichier de base de données ne soit pas stocké dans un endroit accessible en ligne.</p>
@@ -203,7 +203,7 @@ $lang = array_merge($lang, array(
 	//
 	// Email data
 	//
-	'EMAIL_CONFIG'	=> 'Configuration du courrier élextronique',
+	'EMAIL_CONFIG'	=> 'Configuration du courrier électronique',
 
 	//
 	// Server data
@@ -220,7 +220,7 @@ $lang = array_merge($lang, array(
 	'CONFIG_SITE_DESC'				=> 'Une courte description de votre forum',
 	'CONFIG_SITENAME'				=> 'votredomaine.com',
 
-	'DEFAULT_INSTALL_POST'			=> 'Ceci est un exemple de message de votre nouvelle installation de phpBB 3.2. Tout semble fonctionner correctement. Si vous le souhaitez, vous pouvez supprimer ce message et continuer à configurer votre forum. Lors du processus d’installation, votre première catégorie et votre premier forum ont été assignés à un ensemble de permissions relatif aux groupes d’utilisateurs que sont les administrateurs, les modérateurs généraux, les utilisateurs inscrits, les utilisateurs COPPA inscrits, les invités et les robots. Si vous souhaitez supprimer également cette première catégorie et ce premier forum, n’oubliez pas d’assigner les permissions appropriées à tous les groupes d’utilisateurs sur chaques nouvelles catégories et nouveaux forums que vous créez. Il est recommandé de renommer cette première catégorie et ce premier forum, puis de copier leurs permissions sur chaque nouvelle catégorie et chaque nouveau forum lors de leur création. Bonne continuation !',
+	'DEFAULT_INSTALL_POST'			=> 'Ceci est un exemple de message de votre nouvelle installation de phpBB 3.2. Tout semble fonctionner correctement. Si vous le souhaitez, vous pouvez supprimer ce message et continuer à configurer votre forum. Lors du processus d’installation, votre première catégorie et votre premier forum ont été assignés à un ensemble de permissions relatif aux groupes d’utilisateurs que sont les administrateurs, les modérateurs généraux, les utilisateurs inscrits, les utilisateurs COPPA inscrits, les invités et les robots. Si vous souhaitez supprimer également cette première catégorie et ce premier forum, n’oubliez pas d’assigner les permissions appropriées à tous les groupes d’utilisateurs pour chaque nouvelle catégorie et nouveau forum que vous créez. Il est recommandé de renommer cette première catégorie et ce premier forum, puis de copier leurs permissions sur chaque nouvelle catégorie et nouveau forum lors de leur création. Bonne continuation !',
 
 	'FORUMS_FIRST_CATEGORY'			=> 'Votre première catégorie',
 	'FORUMS_TEST_FORUM_DESC'		=> 'La description de votre premier forum.',

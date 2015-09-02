@@ -104,8 +104,8 @@ $lang = array_merge($lang, array(
 	'CLI_THUMBNAIL_SKIPPED'		=> '%1$s (%2$s) ignoré.',
 	'CLI_THUMBNAIL_GENERATED'	=> '%1$s (%2$s) généré.',
 	'CLI_THUMBNAIL_GENERATING'	=> 'Génération des vignettes',
-	'CLI_THUMBNAIL_GENERATING_DONE'	=> 'Toutes les vignettes ont été régénérés.',
-	'CLI_THUMBNAIL_DELETING_DONE'	=> 'Toutes les vignettes ont été supprimés.',
+	'CLI_THUMBNAIL_GENERATING_DONE'	=> 'Toutes les vignettes ont été régénérées.',
+	'CLI_THUMBNAIL_DELETING_DONE'	=> 'Toutes les vignettes ont été supprimées.',
 
 	'CLI_THUMBNAIL_NOTHING_TO_GENERATE'	=> 'Aucune vignette à générer.',
 	'CLI_THUMBNAIL_NOTHING_TO_DELETE'	=> 'Aucune vignette à supprimer.',
