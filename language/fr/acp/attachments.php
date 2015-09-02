@@ -72,9 +72,6 @@ $lang = array_merge($lang, array(
 
 	'CAT_FLASH_FILES'			=> 'Fichiers Flash',
 	'CAT_IMAGES'				=> 'Images',
-	'CAT_QUICKTIME_FILES'		=> 'Fichiers QuickTime',
-	'CAT_RM_FILES'				=> 'Fichiers RealMedia',
-	'CAT_WM_FILES'				=> 'Fichiers Windows Media',
 	'CHECK_CONTENT'				=> 'Vérifier les pièces jointes',
 	'CHECK_CONTENT_EXPLAIN'		=> 'Certains navigateurs internet peuvent faire erreur en attribuant un type MIME incorrect aux fichiers transférés. Cette option permet de rejeter les fichiers qui présentent un risque de provoquer cette erreur.',
 	'CREATE_GROUP'				=> 'Créer un nouveau groupe',
@@ -107,9 +104,6 @@ $lang = array_merge($lang, array(
 	'EXT_GROUP_FLASH_FILES'			=> 'Fichiers Flash',
 	'EXT_GROUP_IMAGES'				=> 'Images',
 	'EXT_GROUP_PLAIN_TEXT'			=> 'Texte brut',
-	'EXT_GROUP_QUICKTIME_MEDIA'		=> 'QuickTime Media',
-	'EXT_GROUP_REAL_MEDIA'			=> 'RealMedia',
-	'EXT_GROUP_WINDOWS_MEDIA'		=> 'Windows Media',
 
 	'FILES_GONE'			=> 'Certaines des pièces jointes que vous souhaitez supprimer sont introuvables. Elles ont peut-être déjà été supprimées. Les pièces jointes trouvées ont été supprimées.',
 	'FILES_STATS_WRONG'		=> 'Les fichiers statistiques semblent contenir des informations erronées et doivent être resynchronisés. Les valeurs actuelles de ces derniers sont les suivantes : nombre de pièces jointes = %1$d, taille des pièces jointes = %2$s.<br />Veuillez cliquer %3$sici%4$s afin de synchroniser les fichiers statistiques.',

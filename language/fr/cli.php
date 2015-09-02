@@ -60,8 +60,11 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_GET_CONFIG'				=> 'Obtient une valeur de l’option de configuration',
 	'CLI_DESCRIPTION_INCREMENT_CONFIG'			=> 'Incrémente une valeur de l’option de configuration',
 	'CLI_DESCRIPTION_LIST_EXTENSIONS'			=> 'Liste toutes les extensions dans la base de données et sur le système de fichiers.',
+
+	'CLI_DESCRIPTION_OPTION_ENV'				=> 'Le nom de l’environnement.',
 	'CLI_DESCRIPTION_OPTION_SAFE_MODE'			=> 'Exécuter en mode sans échec (sans extension).',
 	'CLI_DESCRIPTION_OPTION_SHELL'				=> 'Lancer la console.',
+
 	'CLI_DESCRIPTION_PURGE_EXTENSION'			=> 'Purge l’extension spécifiée.',
 	'CLI_DESCRIPTION_REPARSER_LIST'				=> 'Liste les types de texte qui peuvent être réanalysés.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE'			=> 'Réanalyse le texte stocké avec les services actuels text_formatter.',
