@@ -58,7 +58,7 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_ENABLE_EXTENSION'			=> 'Active l’extension spécifiée.',
 	'CLI_DESCRIPTION_FIND_MIGRATIONS'			=> 'Détecte les migrations indépendantes.',
 	'CLI_DESCRIPTION_GET_CONFIG'				=> 'Obtient une valeur de l’option de configuration',
-	'CLI_DESCRIPTION_INCREMENT_CONFIG'			=> 'Incrémente une valeur de l’option de configuration',
+	'CLI_DESCRIPTION_INCREMENT_CONFIG'			=> 'Incrémente une valeur entière de l’option de configuration',
 	'CLI_DESCRIPTION_LIST_EXTENSIONS'			=> 'Liste toutes les extensions dans la base de données et sur le système de fichiers.',
 
 	'CLI_DESCRIPTION_OPTION_ENV'				=> 'Le nom de l’environnement.',
@@ -112,4 +112,9 @@ $lang = array_merge($lang, array(
 
 	'CLI_THUMBNAIL_NOTHING_TO_GENERATE'	=> 'Aucune vignette à générer.',
 	'CLI_THUMBNAIL_NOTHING_TO_DELETE'	=> 'Aucune vignette à supprimer.',
+));
+
+// Additional help for commands.
+$lang = array_merge($lang, array(
+	'CLI_HELP_CRON_RUN'			=> $lang['CLI_DESCRIPTION_CRON_RUN'] . 'Vous pouvez éventuellement spécifier un nom de tâche cron afin d’exécuter seulement la tâche cron spécifiée.',
 ));
