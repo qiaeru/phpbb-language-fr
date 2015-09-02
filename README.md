@@ -10,7 +10,7 @@ Language package to localise the phpBB "Ascraeus" 3.1 forum software into French
 
 ### Version
 
-- 2.6.0-dev (Build 153)
+- 2.6.0-dev (Build 154)
 - Released on September 2, 2015
 
 ### Compatibility
