@@ -10,7 +10,7 @@ Language package to localise the phpBB "Rhea" 3.2 forum software into French.
 
 ### Version
 
-- 3.0.0-dev (Build 10)
+- 3.0.0-dev (Build 11)
 - Released on September 2, 2015
 
 ### Compatibility
