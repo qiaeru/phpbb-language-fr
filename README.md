@@ -15,7 +15,7 @@ Language package to localise the phpBB "Rhea" 3.2 forum software into French.
 
 ### Compatibility
 
-- phpBB [3.2.0-a1-dev (Build 812)] (https://bamboo.phpbb.com/browse/PHPBB3-RHEA-840)
+- phpBB [3.2.0-a1-dev (Build 840)] (https://bamboo.phpbb.com/browse/PHPBB3-RHEA-840)
 
 ### License
 
