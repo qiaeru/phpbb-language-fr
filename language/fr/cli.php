@@ -58,7 +58,7 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_ENABLE_EXTENSION'			=> 'Active l’extension spécifiée.',
 	'CLI_DESCRIPTION_FIND_MIGRATIONS'			=> 'Détecte les migrations indépendantes.',
 	'CLI_DESCRIPTION_GET_CONFIG'				=> 'Obtient une valeur de l’option de configuration',
-	'CLI_DESCRIPTION_INCREMENT_CONFIG'			=> 'Incrémente une valeur de l’option de configuration',
+	'CLI_DESCRIPTION_INCREMENT_CONFIG'			=> 'Incrémente une valeur entière de l’option de configuration',
 	'CLI_DESCRIPTION_LIST_EXTENSIONS'			=> 'Liste toutes les extensions dans la base de données et sur le système de fichiers.',
 	'CLI_DESCRIPTION_OPTION_SAFE_MODE'			=> 'Exécuter en mode sans échec (sans extension).',
 	'CLI_DESCRIPTION_OPTION_SHELL'				=> 'Lancer la console.',
@@ -80,4 +80,9 @@ $lang = array_merge($lang, array(
 	'CLI_EXTENSIONS_ENABLED'			=> 'Activé',
 
 	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS'	=> 'Tous les hachages des courriers électroniques ont été recalculés.',
+));
+
+// Additional help for commands.
+$lang = array_merge($lang, array(
+	'CLI_HELP_CRON_RUN'			=> $lang['CLI_DESCRIPTION_CRON_RUN'] . 'Vous pouvez éventuellement spécifier un nom de tâche cron afin d’exécuter seulement la tâche cron spécifiée.',
 ));
