@@ -83,7 +83,7 @@ $lang = array_merge($lang, array(
 	'ALL_FORUMS'					=> 'Tous les forums',
 	'ALL_MESSAGES'					=> 'Tous les messages privés',
 	'ALL_POSTS'						=> 'Tous les messages',
-	'ALL_TIMES'						=> 'Le fuseau horaire est réglé sur <abbr title="%2$s">%1$s</abbr>',
+	'ALL_TIMES'						=> 'Le fuseau horaire est réglé sur <span title="%2$s">%1$s</span>',
 	'ALL_TOPICS'					=> 'Tous les sujets',
 	'AND'							=> 'et',
 	'ARE_WATCHING_FORUM'			=> 'Vous êtes à présent abonné(e) à ce forum. Vous recevrez une notification lorsqu’un nouveau sujet sera publié dans ce dernier.',

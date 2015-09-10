@@ -137,6 +137,7 @@ $lang = array_merge($lang, array(
 	'LOCK_TOPICS_CONFIRM'		=> 'Êtes-vous sûr(e) de vouloir verrouiller tous les sujets que vous avez sélectionnés ?',
 	'LOGS_CURRENT_TOPIC'		=> 'Consulte actuellement l’historique de :',
 	'LOGIN_EXPLAIN_MCP'			=> 'Vous devez vous connecter afin de modérer ce forum.',
+	'LOGVIEW_VIEWPOST'			=> 'Consulter le message',
 	'LOGVIEW_VIEWTOPIC'			=> 'Consulter le sujet',
 	'LOGVIEW_VIEWLOGS'			=> 'Consulter l’historique du sujet',
 	'LOGVIEW_VIEWFORUM'			=> 'Consulter le forum',
