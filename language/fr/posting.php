@@ -178,8 +178,10 @@ $lang = array_merge($lang, array(
 	'NO_POLL_TITLE'				=> 'Vous devez saisir le titre du sondage.',
 	'NO_POST'					=> 'Le message que vous souhaitez consulter n’existe pas.',
 	'NO_POST_MODE'				=> 'Aucun mode de message n’a été sélectionné.',
+	'NO_TEMP_DIR'				=> 'Le répertoire temporaire est introuvable ou ne peut pas être écrit.',
 
 	'PARTIAL_UPLOAD'			=> 'Le fichier n’a été que partiellement transféré.',
+	'PHP_UPLOAD_STOPPED'		=> 'Une extension PHP a interrompu le transfert du fichier.',
 	'PHP_SIZE_NA'				=> 'La taille de la pièce jointe est trop importante.<br />La taille maximale autorisée, située dans le fichier php.ini, n’a pas pu être déterminée.',
 	'PHP_SIZE_OVERRUN'			=> 'La taille de la pièce jointe est trop importante, la taille maximale autorisée est de %1$d %2$s.<br />Veuillez noter que ce réglage est situé dans le fichier php.ini et qu’il ne peut pas être écrasé.',
 	'PLACE_INLINE'				=> 'Insérer dans la ligne',
