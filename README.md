@@ -1,5 +1,7 @@
 # French Language Pack for [phpBB] (https://www.phpbb.com/) 3.1
 
+[![Join the chat at https://gitter.im/maelsoucaze/phpbb](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/maelsoucaze/phpbb?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Language package to localise the phpBB "Ascraeus" 3.1 forum software into French.
 
 [Informations] (https://github.com/maelsoucaze/phpbb/tree/ascraeus#informations) - [Documentation] (https://github.com/maelsoucaze/phpbb/tree/ascraeus#documentation) - [Contributing] (https://github.com/maelsoucaze/phpbb/tree/ascraeus#contributing)
