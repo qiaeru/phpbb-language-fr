@@ -18,21 +18,21 @@ Language package to localise the phpBB "Ascraeus" 3.1 forum software into French
 
 ### Version
 
-- 2.6.0 (Build 155)
-- Released on September 2, 2015
+- 2.7.0-dev
+- Released on September 23, 2015
 
 ### Compatibility
 
-- phpBB [3.1.6](https://download.phpbb.com/pub/release/3.1/3.1.6/)
+- phpBB [3.1.7-dev (Build 2668](https://bamboo.phpbb.com/browse/PHPBB3-DEVELOP-2668)
 
 ### Changelog
 
-- [From 2.5.0 (Build 149) to 2.6.0 (Build 155)](https://github.com/maelsoucaze/phpbb/compare/v2.5.0-build.149...v2.6.0-build.155)
-- [From 2.4.0 (Build 148) to 2.5.0 (Build 149)](https://github.com/maelsoucaze/phpbb/compare/v2.4.0-build.148...v2.5.0-build.149)
-- [From 2.3.0 (Build 138) to 2.4.0 (Build 148)](https://github.com/maelsoucaze/phpbb/compare/v2.3.0-build.138...v2.4.0-build.148)
-- [From 2.2.0 (Build 137) to 2.3.0 (Build 138)](https://github.com/maelsoucaze/phpbb/compare/v2.2.0-build.137...v2.3.0-build.138)
-- [From 2.1.0 (Build 136) to 2.2.0 (Build 137)](https://github.com/maelsoucaze/phpbb/compare/v2.1.0-build.136...v2.2.0-build.137)
-- [From 2.0.0 (Build 133) to 2.1.0 (Build 136)](https://github.com/maelsoucaze/phpbb/compare/v2.0.0-build.133...v2.1.0-build.136)
+- [From 2.5.0 to 2.6.0](https://github.com/maelsoucaze/phpbb/compare/v2.5.0-build.149...v2.6.0-build.155)
+- [From 2.4.0 to 2.5.0](https://github.com/maelsoucaze/phpbb/compare/v2.4.0-build.148...v2.5.0-build.149)
+- [From 2.3.0 to 2.4.0](https://github.com/maelsoucaze/phpbb/compare/v2.3.0-build.138...v2.4.0-build.148)
+- [From 2.2.0 to 2.3.0](https://github.com/maelsoucaze/phpbb/compare/v2.2.0-build.137...v2.3.0-build.138)
+- [From 2.1.0 to 2.2.0](https://github.com/maelsoucaze/phpbb/compare/v2.1.0-build.136...v2.2.0-build.137)
+- [From 2.0.0 to 2.1.0](https://github.com/maelsoucaze/phpbb/compare/v2.0.0-build.133...v2.1.0-build.136)
 
 ### License
 
