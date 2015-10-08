@@ -52,7 +52,9 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_CRON_LIST'					=> 'Imprime une liste des tâches cron prêtes et non prêtes.',
 	'CLI_DESCRIPTION_CRON_RUN'					=> 'Exécute toutes les tâches cron prêtes.',
 	'CLI_DESCRIPTION_CRON_RUN_ARGUMENT_1'		=> 'Nom de la tâche à exécuter',
+	'CLI_DESCRIPTION_DB_LIST'					=> 'Liste toutes les migrations installées et disponibles.',
 	'CLI_DESCRIPTION_DB_MIGRATE'				=> 'Met à jour la base de données en appliquant les migrations.',
+	'CLI_DESCRIPTION_DB_REVERT'					=> 'Restaurer une migration.',
 	'CLI_DESCRIPTION_DELETE_CONFIG'				=> 'Supprime une option de configuration',
 	'CLI_DESCRIPTION_DISABLE_EXTENSION'			=> 'Désactive l’extension spécifiée.',
 	'CLI_DESCRIPTION_ENABLE_EXTENSION'			=> 'Active l’extension spécifiée.',
@@ -95,6 +97,12 @@ $lang = array_merge($lang, array(
 	'CLI_EXTENSIONS_ENABLED'			=> 'Activé',
 
 	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS'	=> 'Tous les hachages des courriers électroniques ont été recalculés.',
+
+	'CLI_MIGRATION_NAME'					=> 'Le nom de la migration, en incluant l’espace de noms (utilisez des barres obliques au lieu de barres obliques inversées afin d’éviter toute complication).',
+	'CLI_MIGRATIONS_AVAILABLE'				=> 'Migrations disponibles',
+	'CLI_MIGRATIONS_INSTALLED'				=> 'Migrations installées',
+	'CLI_MIGRATIONS_ONLY_AVAILABLE'		    => 'N’afficher que les migrations disponibles',
+	'CLI_MIGRATIONS_EMPTY'                  => 'Aucune migration.',
 
 	'CLI_REPARSER_REPARSE_REPARSING'		=> 'Réanalyse de %1$s (rangée %2$d..%3$d)',
 	'CLI_REPARSER_REPARSE_REPARSING_START'	=> 'Réanalyse de %s…',

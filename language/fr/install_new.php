@@ -101,7 +101,7 @@ $lang = array_merge($lang, array(
 
 	// Server requirements
 	'PHP_VERSION_REQD'					=> 'Version de PHP',
-	'PHP_VERSION_REQD_EXPLAIN'			=> 'phpBB requiert la version 5.3.9 ou supérieure de PHP.',
+	'PHP_VERSION_REQD_EXPLAIN'			=> 'phpBB requiert la version 5.4.0 ou supérieure de PHP.',
 	'PHP_GETIMAGESIZE_SUPPORT'			=> 'La fonction getimagesize() de PHP est requise',
 	'PHP_GETIMAGESIZE_SUPPORT_EXPLAIN'	=> 'Pour que phpBB puisse fonctionner correctement, la fonction getimagesize() de PHP doit être disponible.',
 	'PCRE_UTF_SUPPORT'					=> 'Support de PCRE UTF-8',

@@ -50,9 +50,16 @@ $lang = array_merge($lang, array(
 	'MIGRATION_EFFECTIVELY_INSTALLED'	=> 'Migration déjà installée (mais ignorée) : %s',
 	'MIGRATION_EXCEPTION_ERROR'			=> 'Une erreur est survenue lors de la requête et une exception a été exécutée. Les modifications effectuées avant que l’erreur ne survienne ont été restaurées au mieux mais vous devriez vérifier que votre forum fonctionne correctement.',
 	'MIGRATION_NOT_FULFILLABLE'			=> 'La migration « %1$s » n’est pas exécutable car la migration « %2$s » est manquante.',
+	'MIGRATION_NOT_INSTALLED'			=> 'La migration « %s » n’est pas installée.',
 	'MIGRATION_NOT_VALID'				=> '%s n’est pas une migration valide.',
 	'MIGRATION_SCHEMA_DONE'				=> 'Schémas installés : %1$s ; durée : %2$.2f secondes',
 	'MIGRATION_SCHEMA_RUNNING'			=> 'Installation des schémas : %s.',
+
+	'MIGRATION_REVERT_DATA_DONE'		=> 'Données restaurées : %1$s ; durée : %2$.2f secondes',
+	'MIGRATION_REVERT_DATA_IN_PROGRESS'	=> 'Données restaurées : %1$s ; durée : %2$.2f secondes',
+	'MIGRATION_REVERT_DATA_RUNNING'		=> 'Données restaurées : %s.',
+	'MIGRATION_REVERT_SCHEMA_DONE'		=> 'Schémas restaurés : %1$s ; durée : %2$.2f secondes',
+	'MIGRATION_REVERT_SCHEMA_RUNNING'	=> 'Schémas restaurés : %s.',
 
 	'MIGRATION_INVALID_DATA_MISSING_CONDITION'		=> 'Une migration n’est pas valide. Une condition dans une instruction d’aide « IF » est manquant.',
 	'MIGRATION_INVALID_DATA_MISSING_STEP'			=> 'Une migration n’est pas valide. Un rappel valide à une étape de migration dans une instruction d’aide « IF » est manquant.',

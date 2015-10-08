@@ -561,6 +561,8 @@ $lang = array_merge($lang, array(
 	'EMAIL_SIG_EXPLAIN'				=> 'Ce texte sera inséré en bas de tous les courriers électroniques envoyés à partir du forum.',
 	'ENABLE_EMAIL'					=> 'Activer l’envoi de courriers électroniques à partir du forum',
 	'ENABLE_EMAIL_EXPLAIN'			=> 'Si cette option est désactivée, aucun courrier électronique ne pourra être envoyé à partir du forum. <em>Notez que ce réglage doit être activé afin que l’activation par l’utilisateur ou par l’administrateur soit fonctionnelle. Si vous utilisez actuellement l’activation « par l’utilisateur » ou « par l’administrateur » et que vous n’activez pas ce réglage, l’inscription sera désactivée.</em>',
+	'SEND_TEST_EMAIL'				=> 'Envoyer un courrier électronique de test',
+	'SEND_TEST_EMAIL_EXPLAIN'		=> 'Cela enverra un courrier électronique de test à l’adresse de courrier électronique spécifiée dans votre compte.',
 	'SMTP_AUTH_METHOD'				=> 'Méthode d’authentification du protocole SMTP',
 	'SMTP_AUTH_METHOD_EXPLAIN'		=> 'N’est utilisée que si un nom d’utilisateur et un mot de passe ont été renseignés. Veuillez demander cette information à votre hébergeur internet si vous n’êtes pas certain(e) de la méthode à utiliser.',
 	'SMTP_CRAM_MD5'					=> 'CRAM-MD5',
@@ -576,6 +578,7 @@ $lang = array_merge($lang, array(
 	'SMTP_SETTINGS'					=> 'Réglages du protocole SMTP',
 	'SMTP_USERNAME'					=> 'Nom d’utilisateur SMTP',
 	'SMTP_USERNAME_EXPLAIN'			=> 'Ne saisissez un nom d’utilisateur que si votre serveur SMTP le demande.',
+	'TEST_EMAIL_SENT'				=> 'Le courrier électronique de test a été envoyé.<br />Si vous ne le recevez pas, veuillez vérifier votre configuration des courriers électroniques.<br /><br />Si vous avez besoin d’aide, veuillez vous rendre sur <a href="https://www.phpbb.com/community/">les forums de support de phpBB</a> (en anglais).',
 	'USE_SMTP'						=> 'Envoyer les courriers électroniques par un serveur SMTP',
 	'USE_SMTP_EXPLAIN'				=> 'Activez cette option si vous souhaitez envoyer les courriers électroniques par un serveur SMTP au lieu d’utiliser la fonction locale de la messagerie électronique.',
 ));
