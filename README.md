@@ -19,11 +19,11 @@ Language package to localise the phpBB "Rhea" 3.2 forum software.
 ### Version
 
 - 3.0.0-dev
-- Released on October 8, 2015
+- Released on October 11, 2015
 
 ### Compatibility
 
-- phpBB [3.2.0-a1-dev (Build 884)](https://bamboo.phpbb.com/browse/PHPBB3-RHEA-884)
+- phpBB [3.2.0-a1-dev (Build 902)](https://bamboo.phpbb.com/browse/PHPBB3-RHEA-902)
 
 ### License
 
