@@ -85,6 +85,7 @@ $lang = array_merge($lang, array(
 	'ALL_POSTS'						=> 'Tous les messages',
 	'ALL_TIMES'						=> 'Le fuseau horaire est réglé sur <span title="%2$s">%1$s</span>',
 	'ALL_TOPICS'					=> 'Tous les sujets',
+	'ALT_TEXT'						=> 'Texte alternatif',
 	'AND'							=> 'et',
 	'ARE_WATCHING_FORUM'			=> 'Vous êtes à présent abonné(e) à ce forum. Vous recevrez une notification lorsqu’un nouveau sujet sera publié dans ce dernier.',
 	'ARE_WATCHING_TOPIC'			=> 'Vous êtes à présent abonné(e) à ce sujet. Vous recevrez une notification lorsqu’un nouveau message sera publié dans ce dernier.',
@@ -875,7 +876,6 @@ $lang = array_merge($lang, array(
 	'WEBSITE'			=> 'Site internet',
 	'WHOIS'				=> 'Qui est-ce ?',
 	'WHO_IS_ONLINE'		=> 'Qui est en ligne ?',
-	'WLM'				=> 'Windows Live Messenger',
 	'WRONG_PASSWORD'	=> 'Le mot de passe que vous avez spécifié est incorrect.',
 
 	'WRONG_DATA_COLOUR'			=> 'La valeur de couleur que vous avez spécifiée est incorrecte.',
