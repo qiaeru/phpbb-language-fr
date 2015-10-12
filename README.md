@@ -2,13 +2,13 @@
 
 [![Build Status](https://travis-ci.org/maelsoucaze/phpbb.svg?branch=master)](https://travis-ci.org/maelsoucaze/phpbb) [![Join the chat at https://gitter.im/maelsoucaze/phpbb](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/maelsoucaze/phpbb?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-Language package to localise the phpBB "Rhea" 3.2 forum software.
+French language package to localise the phpBB "Rhea" 3.2 forum software.
 
 - [Informations](https://github.com/maelsoucaze/phpbb/tree/master#informations)
   - [Version](https://github.com/maelsoucaze/phpbb/tree/master#version)
   - [Compatibility](https://github.com/maelsoucaze/phpbb/tree/master#compatibility)
   - [License](https://github.com/maelsoucaze/phpbb/tree/master#license)
-- [Downloads](https://github.com/maelsoucaze/flarum#downloads)
+- [Downloads](https://github.com/maelsoucaze/phpbb/tree/master#downloads)
 	- [Latest Stable Release](https://github.com/maelsoucaze/phpbb/tree/master#latest-stable-release)
 	- [Latest Development Release](https://github.com/maelsoucaze/phpbb/tree/master#latest-development-release)
 - [Documentation](https://github.com/maelsoucaze/phpbb/tree/master#documentation)
@@ -19,11 +19,11 @@ Language package to localise the phpBB "Rhea" 3.2 forum software.
 ### Version
 
 - 3.0.0-dev
-- Released on October 11, 2015
+- Released on October 12, 2015
 
 ### Compatibility
 
-- phpBB [3.2.0-a1-dev (Build 902)](https://bamboo.phpbb.com/browse/PHPBB3-RHEA-902)
+- phpBB [3.2.0-a1-dev (Build 907)](https://bamboo.phpbb.com/browse/PHPBB3-RHEA-907)
 
 ### License
 
@@ -33,7 +33,7 @@ Released under the GNU General Public License 2.0. Please see the [LICENSE](http
 
 ### Latest Stable Release
 
-This release is recommended because it is guaranteed to be compatible with the latest stable release of the forum software (currently none).
+This release is recommended because it is guaranteed to be compatible with the latest stable release of the forum software. There is no available stable release at this time.
 
 ### [Latest Development Release](https://github.com/maelsoucaze/phpbb/archive/master.zip)
 
@@ -41,7 +41,7 @@ This release is not recommended because it is may be incompatible with the lates
 
 ## Documentation
 
-Please read the documentation [in the appropriate article of the customisation database](https://www.phpbb.com/customise/db/translation/french/faq/1711).
+Follow [this simple documentation](https://www.phpbb.com/support/docs/en/3.1/ug/adminguide/customise_language/) from the administration guide on the phpBB website.
 
 ## Contributing
 
