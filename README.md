@@ -1,6 +1,6 @@
 # French Language Pack for [phpBB](https://www.phpbb.com/) 3.1
 
-[![Join the chat at https://gitter.im/maelsoucaze/phpbb](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/maelsoucaze/phpbb?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Build Status](https://travis-ci.org/maelsoucaze/phpbb.svg?branch=ascraeus)](https://travis-ci.org/maelsoucaze/phpbb) [![Join the chat at https://gitter.im/maelsoucaze/phpbb](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/maelsoucaze/phpbb?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 Language package to localise the phpBB "Ascraeus" 3.1 forum software into French.
 
@@ -9,21 +9,22 @@ Language package to localise the phpBB "Ascraeus" 3.1 forum software into French
   - [Compatibility](https://github.com/maelsoucaze/phpbb/tree/ascraeus#compatibility)
   - [Changelog](https://github.com/maelsoucaze/phpbb/tree/ascraeus#changelog)
   - [License](https://github.com/maelsoucaze/phpbb/tree/ascraeus#license)
+- [Downloads](https://github.com/maelsoucaze/phpbb/tree/ascraeus#downloads)
+	- [Latest Stable Release](https://github.com/maelsoucaze/phpbb/tree/ascraeus#latest-stable-release)
+	- [Latest Development Release](https://github.com/maelsoucaze/phpbb/tree/ascraeus#latest-development-release)
 - [Documentation](https://github.com/maelsoucaze/phpbb/tree/ascraeus#documentation)
 - [Contributing](https://github.com/maelsoucaze/phpbb/tree/ascraeus#contributing)
 
 ## Informations
 
-[![Build Status](https://travis-ci.org/maelsoucaze/phpbb.svg?branch=ascraeus)](https://travis-ci.org/maelsoucaze/phpbb)
-
 ### Version
 
 - 2.7.0-dev
-- Released on September 23, 2015
+- Released on October 12, 2015
 
 ### Compatibility
 
-- phpBB [3.1.7-dev (Build 2668](https://bamboo.phpbb.com/browse/PHPBB3-DEVELOP-2668)
+- phpBB [3.1.7-dev (Build 2684](https://bamboo.phpbb.com/browse/PHPBB3-DEVELOP-2684)
 
 ### Changelog
 
@@ -38,9 +39,19 @@ Language package to localise the phpBB "Ascraeus" 3.1 forum software into French
 
 Released under the GNU General Public License 2.0. Please see the [LICENSE](https://github.com/maelsoucaze/phpbb/blob/ascraeus/language/fr/LICENSE) file.
 
+## Downloads
+
+### [Latest Stable Release](https://www.phpbb.com/customise/db/download/119661)
+
+This release is recommended because it is guaranteed to be compatible with the latest stable release of the forum software (which is currently phpBB 3.1.6).
+
+### [Latest Development Release](https://github.com/maelsoucaze/phpbb/archive/ascraeus.zip)
+
+This release is not recommended because it is may be incompatible with the latest stable release, based on latest development versions of the forum software. It is available for testing purposes to developers or advanced and inquisitive users. Do not use it in production.
+
 ## Documentation
 
-Please read the documentation [in the appropriate FAQ article](https://www.phpbb.com/customise/db/translation/french/faq/1711) located on the official website.
+Follow [this simple documentation](https://www.phpbb.com/support/docs/en/3.0/kb/article/how-to-install-a-language-pack/) from the knowledge base on the phpBB website.
 
 ## Contributing
 
@@ -48,8 +59,8 @@ Thank you a lot to wish to contribute. It means a lot. Using and enjoying the la
 
 - Star on GitHub. Because if you use it and like it, you can at least be a stargazer!
 - Follow on GitHub. You'll be notified in real time of all changes. No more misses!
-- Open [issues](https://github.com/maelsoucaze/phpbb/issues) on GitHub. Because the language pack will be better with your feedbacks.
+- Open [issues](https://github.com/maelsoucaze/phpbb/issues) on GitHub. Because the localisation will be better with your feedbacks.
 - Open pull requests on GitHub. Submit fixes and improvements and be listed as [contributor](https://github.com/maelsoucaze/phpbb/graphs/contributors)!
 - Join the discussion about the language pack on [the customisation database](https://www.phpbb.com/customise/db/translation/french/support).
 - [Follow me on Twitter](https://twitter.com/maelsoucaze). Promise, I don't spam pictures of kittens and puppies (too much).
-- Let's have a drink if you're in Paris (France)!
+- Let's have a drink if you're in Paris!
