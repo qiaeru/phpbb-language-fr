@@ -24,7 +24,7 @@ Language package to localise the phpBB "Ascraeus" 3.1 forum software into French
 
 ### Compatibility
 
-- phpBB [3.1.7-dev (Build 2684](https://bamboo.phpbb.com/browse/PHPBB3-DEVELOP-2684)
+- phpBB [3.1.7-dev (Build 2684)](https://bamboo.phpbb.com/browse/PHPBB3-DEVELOP-2684)
 
 ### Changelog
 
