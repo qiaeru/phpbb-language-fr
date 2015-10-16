@@ -19,11 +19,11 @@ French language package to localise the phpBB "Rhea" 3.2 forum software.
 ### Version
 
 - 3.0.0-dev
-- Released on October 12, 2015
+- Released on October 16, 2015
 
 ### Compatibility
 
-- phpBB [3.2.0-a1-dev (Build 907)](https://bamboo.phpbb.com/browse/PHPBB3-RHEA-907)
+- phpBB [3.2.0-a1-dev (Build 937)](https://bamboo.phpbb.com/browse/PHPBB3-RHEA-937)
 
 ### License
 
