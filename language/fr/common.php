@@ -477,7 +477,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TOPIC_DISAPPROVED'	=> '<strong>Désapprobation d’un sujet</strong> :',
 	'NOTIFICATION_TOPIC_IN_QUEUE'		=> '<strong>Demande d’approbation d’un sujet</strong> par %1$s :',
 	'NOTIFICATION_TYPE_NOT_EXIST'		=> 'Le type de notification « %s » est introuvable dans votre système de fichiers.',
-	'NOTIFICATION_ADMIN_ACTIVATE_USER'	=> '<strong>Demande d’activation d’un compte</strong> par : « %1$s »',
+	'NOTIFICATION_ADMIN_ACTIVATE_USER'	=> '<strong>Demande d’activation</strong> d’un utilisateur désactivé ou nouvellement inscrit : « %1$s »',
 	// Used in conjuction with NOTIFICATION_BOOKMARK and NOTIFICATION_POST.
 	'NOTIFICATION_MANY_OTHERS'			=> 'plusieurs autres utilisateurs',
 	'NOTIFICATION_X_OTHERS'				=> array(
