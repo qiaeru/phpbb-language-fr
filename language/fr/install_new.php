@@ -294,10 +294,10 @@ $lang = array_merge($lang, array(
 // Installer's general messages
 $lang = array_merge($lang, array(
 	'MODULE_NOT_FOUND'				=> 'Module introuvable',
-	'MODULE_NOT_FOUND_DESCRIPTION'	=> 'Aucun module n’est disponible sous la définition du service « %s ».',
+	'MODULE_NOT_FOUND_DESCRIPTION'	=> 'Un module n’a pas pu être trouvé car le service, %s, n’est pas défini.',
 
 	'TASK_NOT_FOUND'				=> 'Tâche introuvable',
-	'TASK_NOT_FOUND_DESCRIPTION'	=> 'Aucun module n’est disponible sous la définition du service « %s ».',
+	'TASK_NOT_FOUND_DESCRIPTION'	=> 'Une tâche n’a pas pu être trouvée car le service, %s, n’est pas défini.',
 
 	'SKIP_MODULE'	=> 'Ignorer le module « %s »',
 	'SKIP_TASK'		=> 'Ignorer la tâche « %s »',
@@ -310,8 +310,83 @@ $lang = array_merge($lang, array(
 
 // CLI messages
 $lang = array_merge($lang, array(
-	'CLI_INSTALL_BOARD'			=> 'Installer phpBB',
+	'CLI_INSTALL_BOARD'				=> 'Installer phpBB',
 	'CLI_INSTALL_SHOW_CONFIG'		=> 'Afficher la configuration qui sera utilisée',
 	'CLI_INSTALL_VALIDATE_CONFIG'	=> 'Valider un fichier de configuration',
 	'CLI_CONFIG_FILE'				=> 'Fichier de configuration à utiliser',
+));
+// Common updater messages
+$lang = array_merge($lang, array(
+	'UPDATE_INSTALLATION'			=> 'Mettre à jour l’installation de phpBB',
+	'UPDATE_INSTALLATION_EXPLAIN'	=> 'Grâce à cette option, il est possible de mettre à jour le logiciel de votre forum vers la dernière version stable.<br />Durant le processus, tous vos fichiers seront vérifiés dans leur intégralité. Vous pourrez prévisualiser toutes les différences et tous les fichiers avant d’exécuter la mise à jour.<br /><br />Le fichier de mise à jour peut se générer de deux manières différentes.</p><h2>Mise à jour manuelle</h2><p>Avec cette mise à jour, vous ne téléchargez que les réglages des fichiers modifiés afin de vous assurer de ne perdre aucune modification. Après avoir téléchargé cette archive, vous devez mettre à jour manuellement les fichiers à leur emplacement respectif, selon la racine du répertoire de votre forum. Une fois la mise à jour terminée, vous pouvez recommencer l’étape de vérification des fichiers afin de vous assurer d’avoir déplacé les fichiers à leur emplacement respectif.</p><h2>Mise à jour automatique par FTP</h2><p>Cette méthode est similaire à la première, mais elle ne nécessite pas de télécharger et de transférer manuellement les fichiers modifiés, cela sera fait automatiquement. Pour utiliser cette méthode, vous devez connaître les informations concernant votre connexion FTP car cela vous sera demandé. Une fois la mise à jour terminée, vous serez redirigé(e) une fois de plus à la vérification des fichiers afin de vous assurer du bon déroulement de la mise à jour.<br /><br />',
+));
+// Updater forms
+$lang = array_merge($lang, array(
+	// Updater types
+	'UPDATE_TYPE'			=> 'Type de mise à jour à exécuter',
+	'UPDATE_TYPE_ALL'		=> 'Mettre à jour le système de fichiers et la base de données',
+	'UPDATE_TYPE_DB_ONLY'	=> 'Mettre à jour uniquement la base de données',
+	// File updater methods
+	'UPDATE_FILE_METHOD_TITLE'		=> 'Méthodes de l’outil de mise à jour des fichiers',
+	'UPDATE_FILE_METHOD'			=> 'Méthode de l’outil de mise à jour des fichiers',
+	'UPDATE_FILE_METHOD_DOWNLOAD'	=> 'Télécharger les fichiers modifiés dans une archive',
+	'UPDATE_FILE_METHOD_FTP'		=> 'Mettre à jour les fichiers par FTP (automatique)',
+	'UPDATE_FILE_METHOD_FILESYSTEM'	=> 'Mettre à jour les fichiers par accès direct aux fichiers (automatique)',
+	// File updater archives
+	'SELECT_DOWNLOAD_FORMAT'	=> 'Sélectionner le format de l’archive à télécharger',
+	// FTP settings
+	'FTP_SETTINGS'			=> 'Réglages FTP',
+));
+// Requirements messages
+$lang = array_merge($lang, array(
+	'UPDATE_FILES_NOT_FOUND'	=> 'Aucun répertoire de mise à jour n’a été trouvé, veuillez vous assurer d’avoir transféré les fichiers nécessaires.',
+	'NO_UPDATE_FILES_UP_TO_DATE'	=> 'Votre version est à jour. Il n’est pas nécessaire d’exécuter cet outil de mise à jour. Si vous souhaitez vérifier intégralement tous vos fichiers, veuillez vous assurer d’avoir transféré les fichiers de mise à jour nécessaires.',
+	'OLD_UPDATE_FILES'				=> 'Les fichiers de mise à jour sont obsolètes. Les fichiers de mise à jour trouvés sont pour la mise à jour de phpBB %1$s à phpBB %2$s alors que la dernière version de phpBB est la %3$s.',
+	'INCOMPATIBLE_UPDATE_FILES'		=> 'Les fichiers de mise à jour trouvés sont incompatibles avec la version actuellement installée. La version actuellement installée est la %1$s alors que le fichier de mise à jour est pour la mise à jour de phpBB %2$s à %3$s.',
+));
+// Update files
+$lang = array_merge($lang, array(
+	'STAGE_UPDATE_FILES'		=> 'Mettre à jour les fichiers',
+	// Check files
+	'UPDATE_CHECK_FILES'	=> 'Vérifier les fichiers à mettre à jour',
+	// Update file differ
+	'FILE_DIFFER_ERROR_FILE_CANNOT_BE_READ'	=> 'Le différenciateur de fichier n’a pas pu ouvrir %s.',
+	'UPDATE_FILE_DIFF'		=> 'Différenciation des fichiers modifiés',
+	'ALL_FILES_DIFFED'		=> 'Tous les fichiers modifiés ont été différenciés.',
+	// File status
+	'UPDATE_CONTINUE_FILE_UPDATE'	=> 'Mettre à jour les fichiers',
+	'DOWNLOAD'							=> 'Télécharger',
+	'DOWNLOAD_CONFLICTS'				=> 'Télécharger l’archive de fusion des conflits',
+	'DOWNLOAD_CONFLICTS_EXPLAIN'		=> 'Rechercher &lt;&lt;&lt; afin de détecter les conflits',
+	'DOWNLOAD_UPDATE_METHOD'			=> 'Télécharger l’archive des fichiers modifiés',
+	'DOWNLOAD_UPDATE_METHOD_EXPLAIN'	=> 'Après avoir téléchargé cette archive, vous devez la décompresser. Elle comporte les fichiers modifiés que vous devez transférer à la racine du répertoire de votre forum. Veuillez vous assurer de transférer ces fichiers à leur emplacement respectif. Vous pouvez continuer le processus de mise à jour après avoir transféré ces fichiers.',
+	'FILE_ALREADY_UP_TO_DATE'		=> 'Le fichier est déjà à jour.',
+	'FILE_DIFF_NOT_ALLOWED'			=> 'Le fichier ne peut pas être différencié.',
+	'FILE_USED'						=> 'Information utilisée depuis',			// Single file
+	'FILES_CONFLICT'				=> 'Fichiers conflictuels',
+	'FILES_CONFLICT_EXPLAIN'		=> 'Les fichiers suivants ont été modifiés par rapport aux fichiers originaux présents dans l’ancienne version. Ils ne pourront pas être fusionnés sans provoquer de conflits. Veuillez vérifier ces fichiers afin de détecter et résoudre manuellement les conflits ou continuez le processus de mise à jour en sélectionnant la méthode de fusion que vous souhaitez. Si vous résolvez les conflits manuellement, vérifiez de nouveau les fichiers une fois que les modifications ont été apportées. Vous pouvez également sélectionner pour chaque fichier la méthode de fusion qui vous semble la plus adaptée. La première méthode produira un fichier où les lignes conflictuelles présentes dans votre ancien fichier seront perdues. La seconde méthode ignorera toutes les modifications qui ont été apportées au nouveau fichier.',
+	'FILES_DELETED'					=> 'Fichiers supprimés',
+	'FILES_DELETED_EXPLAIN'			=> 'Les fichiers suivants n’existent plus dans la nouvelle version. Ces fichiers doivent être supprimés de votre installation.',
+	'FILES_MODIFIED'				=> 'Fichiers modifiés',
+	'FILES_MODIFIED_EXPLAIN'		=> 'Les fichiers suivants ont été modifiés par rapport aux fichiers originaux présents dans l’ancienne version. Le fichier mis à jour correspondra à une fusion de vos modifications et du nouveau fichier.',
+	'FILES_NEW'						=> 'Nouveaux fichiers',
+	'FILES_NEW_EXPLAIN'				=> 'Les fichiers suivants n’existent pas dans votre installation actuelle. Ils seront ajoutés à votre installation.',
+	'FILES_NEW_CONFLICT'			=> 'Nouveaux fichiers conflictuels',
+	'FILES_NEW_CONFLICT_EXPLAIN'	=> 'Les fichiers suivants ont été ajoutés dans la dernière version stable du logiciel, mais certains fichiers du même nom, situés dans le même emplacement, existent déjà. Ils seront écrasés par les nouveaux fichiers.',
+	'FILES_NOT_MODIFIED'			=> 'Fichiers inchangés',
+	'FILES_NOT_MODIFIED_EXPLAIN'	=> 'Les fichiers suivants n’ont pas été modifiés par rapport aux fichiers originaux de la version que vous souhaitez mettre à jour.',
+	'FILES_UP_TO_DATE'				=> 'Fichiers déjà à jour',
+	'FILES_UP_TO_DATE_EXPLAIN'		=> 'Les fichiers suivants sont déjà à jour et ne nécessitent pas d’être mis à jour.',
+	'TOGGLE_DISPLAY'				=> 'Afficher ou masquer la liste des fichiers',
+	// File updater
+	'UPDATE_UPDATING_FILES'	=> 'Mise à jour des fichiers',
+	'UPDATE_FILE_UPDATER_HAS_FAILED'	=> 'L’outil de mise à jour des fichiers « %1$s » a échoué. L’installateur va essayer de revenir à « %2$s ».',
+	'UPDATE_FILE_UPDATERS_HAVE_FAILED'	=> 'L’outil de mise à jour des fichiers a échoué. Impossible de revenir en arrière.',
+	'UPDATE_CONTINUE_UPDATE_PROCESS'	=> 'Continuer le processus de mise à jour',
+	'UPDATE_RECHECK_UPDATE_FILES'		=> 'Vérifier à nouveau les fichier',
+));
+// Update database
+$lang = array_merge($lang, array(
+	'STAGE_UPDATE_DATABASE'		=> 'Mettre à jour la base de données',
+	'INLINE_UPDATE_SUCCESSFUL'		=> 'La mise à jour de la base de données a été effectuée.',
 ));

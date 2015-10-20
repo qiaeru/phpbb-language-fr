@@ -335,6 +335,7 @@ $lang = array_merge($lang, array(
 	'IMAGE_FILETYPE_INVALID'	=> 'Le type de l’image %d du standard MIME %s n’est pas supporté.',
 	'IMAGE_FILETYPE_MISMATCH'	=> 'Le type de l’image ne correspond pas. L’extension %1$s était attendue mais l’extension %2$s a été transférée.',
 	'IN'						=> 'dans',
+	'INACTIVE'					=> 'Inactif',
 	'INDEX'						=> 'Page d’accueil',
 	'INFORMATION'				=> 'Information',
 	'INSECURE_REDIRECT'			=> 'Redirection vers un lien potentiellement insécurisé.',
