@@ -5,8 +5,8 @@
 # Top-most EditorConfig file. Do not search in parent directories.
 root = true
 
-# Set tab indentation, default charset to UTF-8, line endings to
-# Unix (LF) with a final newline, trim trailing whitespace in all files.
+# Set tab indentation, default charset to UTF-8, line endings to Unix
+# (LF) with a final newline, and trim trailing whitespace in all files.
 [*]
 indent_style = tab
 charset = utf-8
