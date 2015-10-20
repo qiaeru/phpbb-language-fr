@@ -9,8 +9,8 @@ French language package to localise the phpBB "Rhea" 3.2 forum software.
   - [Compatibility](https://github.com/maelsoucaze/phpbb/tree/master#compatibility)
   - [License](https://github.com/maelsoucaze/phpbb/tree/master#license)
 - [Downloads](https://github.com/maelsoucaze/phpbb/tree/master#downloads)
-	- [Latest Stable Release](https://github.com/maelsoucaze/phpbb/tree/master#latest-stable-release)
-	- [Latest Development Release](https://github.com/maelsoucaze/phpbb/tree/master#latest-development-release)
+  - [Latest Stable Release](https://github.com/maelsoucaze/phpbb/tree/master#latest-stable-release)
+  - [Latest Development Release](https://github.com/maelsoucaze/phpbb/tree/master#latest-development-release)
 - [Documentation](https://github.com/maelsoucaze/phpbb/tree/master#documentation)
 - [Contributing](https://github.com/maelsoucaze/phpbb/tree/master#contributing)
 
@@ -22,7 +22,7 @@ French language package to localise the phpBB "Rhea" 3.2 forum software.
 
 ### Compatibility
 
-- phpBB [3.2.0-a1-dev (Build 943)](https://bamboo.phpbb.com/browse/PHPBB3-RHEA-943)
+- phpBB [3.2.0-a1-dev (Build 948)](https://bamboo.phpbb.com/browse/PHPBB3-RHEA-948)
 
 ### License
 
