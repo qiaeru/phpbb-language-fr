@@ -10,8 +10,8 @@ Language package to localise the phpBB "Ascraeus" 3.1 forum software into French
   - [Changelog](https://github.com/maelsoucaze/phpbb/tree/ascraeus#changelog)
   - [License](https://github.com/maelsoucaze/phpbb/tree/ascraeus#license)
 - [Downloads](https://github.com/maelsoucaze/phpbb/tree/ascraeus#downloads)
-	- [Latest Stable Release](https://github.com/maelsoucaze/phpbb/tree/ascraeus#latest-stable-release)
-	- [Latest Development Release](https://github.com/maelsoucaze/phpbb/tree/ascraeus#latest-development-release)
+  - [Latest Stable Release](https://github.com/maelsoucaze/phpbb/tree/ascraeus#latest-stable-release)
+  - [Latest Development Release](https://github.com/maelsoucaze/phpbb/tree/ascraeus#latest-development-release)
 - [Documentation](https://github.com/maelsoucaze/phpbb/tree/ascraeus#documentation)
 - [Contributing](https://github.com/maelsoucaze/phpbb/tree/ascraeus#contributing)
 
@@ -23,7 +23,7 @@ Language package to localise the phpBB "Ascraeus" 3.1 forum software into French
 
 ### Compatibility
 
-- phpBB [3.1.7-dev (Build 2708)](https://bamboo.phpbb.com/browse/PHPBB3-DEVELOP-2708)
+- phpBB [3.1.7-dev (Build 2711)](https://bamboo.phpbb.com/browse/PHPBB3-DEVELOP-2711)
 
 ### Changelog
 
