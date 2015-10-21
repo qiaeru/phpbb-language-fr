@@ -22,7 +22,7 @@ French language package to localise the phpBB "Rhea" 3.2 forum software.
 
 ### Compatibility
 
-- phpBB [3.2.0-a1-dev (Build 948)](https://bamboo.phpbb.com/browse/PHPBB3-RHEA-948)
+- phpBB [3.2.0-a1-dev (Build 949)](https://bamboo.phpbb.com/browse/PHPBB3-RHEA-949)
 
 ### License
 
