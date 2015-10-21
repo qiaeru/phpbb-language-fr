@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/maelsoucaze/phpbb.svg?branch=ascraeus)](https://travis-ci.org/maelsoucaze/phpbb) [![Join the chat at https://gitter.im/maelsoucaze/phpbb](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/maelsoucaze/phpbb?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-Language package to localise the phpBB "Ascraeus" 3.1 forum software into French.
+French language package to localise the phpBB "Ascraeus" 3.1 forum software.
 
 - [Informations](https://github.com/maelsoucaze/phpbb/tree/ascraeus#informations)
   - [Version](https://github.com/maelsoucaze/phpbb/tree/ascraeus#version)
@@ -23,7 +23,7 @@ Language package to localise the phpBB "Ascraeus" 3.1 forum software into French
 
 ### Compatibility
 
-- phpBB [3.1.7-dev (Build 2711)](https://bamboo.phpbb.com/browse/PHPBB3-DEVELOP-2711)
+- phpBB [3.1.7-dev (Build 2712)](https://bamboo.phpbb.com/browse/PHPBB3-DEVELOP-2712)
 
 ### Changelog
 
