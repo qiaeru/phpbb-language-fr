@@ -1,6 +1,6 @@
 # French Language Pack for [phpBB](https://www.phpbb.com/) 3.2
 
-[![Build Status](https://travis-ci.org/maelsoucaze/phpbb.svg?branch=master)](https://travis-ci.org/maelsoucaze/phpbb) [![Join the chat at https://gitter.im/maelsoucaze/phpbb](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/maelsoucaze/phpbb?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Build Status](https://travis-ci.org/maelsoucaze/phpbb.svg?branch=master)](https://travis-ci.org/maelsoucaze/phpbb)
 
 French language package to localise the phpBB "Rhea" 3.2 forum software.
 
