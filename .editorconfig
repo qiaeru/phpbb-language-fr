@@ -14,14 +14,11 @@ end_of_line = lf
 insert_final_newline = true
 trim_trailing_whitespace = true
 
-# Set two space indentation and do not trim trailing whitespace in
-# Markdown files.
-[*.md]
+# Set two space indentation in Markdown and YAML files.
+[*.{md,yml}]
 indent_style = space
 indent_size = 2
-trim_trailing_whitespace = false
 
-# Set four space indentation in YAML files.
-[*.yml]
-indent_style = space
-indent_size = 4
+# Do not trim trailing whitespace in Markdown files.
+[*.md]
+trim_trailing_whitespace = false
