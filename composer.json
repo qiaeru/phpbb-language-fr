@@ -9,7 +9,7 @@
 	"authors": [{
 			"name": "Maël Soucaze",
 			"email": "maelsoucaze@gmail.com",
-			"homepage": "http://www.maelsoucaze.com",
+			"homepage": "http://www.maelsoucaze.com"
 	}],
 	"support": {
 		"issues": "https://github.com/maelsoucaze/phpbb/issues",
