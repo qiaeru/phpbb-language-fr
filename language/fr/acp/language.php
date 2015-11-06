@@ -44,7 +44,7 @@ $lang = array_merge($lang, array(
 
 	'DELETE_LANGUAGE_CONFIRM'		=> 'Êtes-vous sûr(e) de vouloir supprimer « %s » ?',
 
-	'INSTALLED_LANGUAGE_PACKS'	=> 'Traductions installées',
+	'INSTALLED_LANGUAGE_PACKS'		=> 'Traductions installées',
 
 	'LANGUAGE_DETAILS_UPDATED'			=> 'Les informations concernant la langue ont été mises à jour.',
 	'LANGUAGE_PACK_ALREADY_INSTALLED'	=> 'Cette traduction est déjà installée.',
