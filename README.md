@@ -10,7 +10,7 @@ Includes the following French locales compatible with:
 
 - [phpBB](https://github.com/phpbb/phpbb) [3.2.0-a1-dev (Build 959)](https://bamboo.phpbb.com/browse/PHPBB3-RHEA-959)
 
-Released under the GNU General Public License 2.0. Please see the [license terms](https://github.com/maelsoucaze/phpbb/blob/master/language/fr/LICENSE).
+Released under the GNU General Public License 2.0. Please see the [license terms](https://github.com/maelsoucaze/phpbb/blob/master/license.txt).
 
 ## Installation
 
