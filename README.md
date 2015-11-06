@@ -4,52 +4,28 @@
 
 French language package to localise the phpBB "Rhea" 3.2 forum software.
 
-- [Informations](https://github.com/maelsoucaze/phpbb/tree/master#informations)
-  - [Version](https://github.com/maelsoucaze/phpbb/tree/master#version)
-  - [Compatibility](https://github.com/maelsoucaze/phpbb/tree/master#compatibility)
-  - [License](https://github.com/maelsoucaze/phpbb/tree/master#license)
-- [Downloads](https://github.com/maelsoucaze/phpbb/tree/master#downloads)
-  - [Latest Stable Release](https://github.com/maelsoucaze/phpbb/tree/master#latest-stable-release)
-  - [Latest Development Release](https://github.com/maelsoucaze/phpbb/tree/master#latest-development-release)
-- [Documentation](https://github.com/maelsoucaze/phpbb/tree/master#documentation)
-- [Contributing](https://github.com/maelsoucaze/phpbb/tree/master#contributing)
-
 ## Informations
 
-### Version
+Includes the following French locales compatible with:
 
-- 3.0.0-dev
+- [phpBB](https://github.com/phpbb/phpbb) [3.2.0-a1-dev (Build 959)](https://bamboo.phpbb.com/browse/PHPBB3-RHEA-959)
 
-### Compatibility
+Released under the GNU General Public License 2.0. Please see the [license terms](https://github.com/maelsoucaze/phpbb/blob/master/language/fr/LICENSE).
 
-- phpBB [3.2.0-a1-dev (Build 949)](https://bamboo.phpbb.com/browse/PHPBB3-RHEA-949)
+## Installation
 
-### License
+### Manual Installation
 
-Released under the GNU General Public License 2.0. Please see the [LICENSE](https://github.com/maelsoucaze/phpbb/blob/master/language/fr/LICENSE) file.
-
-## Downloads
-
-### Latest Stable Release
-
-This release is recommended because it is guaranteed to be compatible with the latest stable release of the forum software. There is no available stable release at this time.
-
-### [Latest Development Release](https://github.com/maelsoucaze/phpbb/archive/master.zip)
-
-This release is not recommended because it is may be incompatible with the latest stable release, based on latest development versions of the forum software. It is available for testing purposes to developers or advanced and inquisitive users. Do not use it in production.
-
-## Documentation
-
-Follow [this simple documentation](https://www.phpbb.com/support/docs/en/3.1/ug/adminguide/customise_language/) from the administration guide on the phpBB website.
+Please see [this step-by-step installation guide](https://www.phpbb.com/customise/db/translation/french/faq/1711).
 
 ## Contributing
 
-Thank you a lot to wish to contribute. It means a lot. Using and enjoying the language pack is already a huge support. Best other ways to contribute are, among other things:
+Thank you a lot to wish to contribute. I sincerely appreciate your commitment. Using the language pack is already a huge support, but best other ways to contribute are:
 
 - Star on GitHub. Because if you use it and like it, you can at least be a stargazer!
-- Follow on GitHub. You'll be notified in real time of all changes. No more misses!
-- Open [issues](https://github.com/maelsoucaze/phpbb/issues) on GitHub. Because the localisation will be better with your feedbacks.
-- Open pull requests on GitHub. Submit fixes and improvements and be listed as [contributor](https://github.com/maelsoucaze/phpbb/graphs/contributors)!
-- Join the discussion about the language pack on [the customisation database](https://www.phpbb.com/customise/db/translation/french/support).
-- [Follow me on Twitter](https://twitter.com/maelsoucaze). Promise, I don't spam pictures of kittens and puppies (too much).
-- Let's have a drink if you're in Paris!
+- Follow on GitHub. You will be notified in real time of all changes. No more misses!
+- Report [issues](https://github.com/maelsoucaze/phpbb/issues) on GitHub. Any feedback is welcome.
+- Open pull requests on GitHub to submit fixes and improvements. Be listed as a [contributor](https://github.com/maelsoucaze/phpbb/graphs/contributors)!
+- Join [the language pack's support](https://www.phpbb.com/customise/db/translation/french/support) on the customisation database.
+- Follow me [on Twitter](https://twitter.com/maelsoucaze). Promise, I don't spam pictures of kittens and puppies (too much).
+- Let's have a drink if you are near Paris!
