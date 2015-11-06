@@ -13,7 +13,7 @@
 *
 */
 
-namespace maelsoucaze\phpbb-french;
+namespace maelsoucaze\frenchlanguagepack;
 
 /**
 * @ignore

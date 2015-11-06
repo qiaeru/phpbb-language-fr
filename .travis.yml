@@ -26,7 +26,7 @@ matrix:
 
 env:
   global:
-    - EXTNAME="maelsoucaze/phpbb-french"
+    - EXTNAME="maelsoucaze/frenchlanguagepack"
     - SNIFF="1"
     - IMAGE_ICC="1"
     - EPV="1"
