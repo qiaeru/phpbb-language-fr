@@ -40,12 +40,12 @@ if (empty($lang) || !is_array($lang))
 
 // Email settings
 $lang = array_merge($lang, array(
-	'ACP_MASS_EMAIL_EXPLAIN'		=> 'Vous pouvez envoyer sur cette page un courrier électronique à la totalité des utilisateurs ou aux utilisateurs d’un groupe d’utilisateurs spécifique <strong>qui acceptent la réception de courriers électroniques de masse</strong>. Pour ce faire, un courrier électronique sera envoyé à l’adresse de courrier électronique fournie par l’administrateur et une copie sera adressée à tous les destinataires. Le réglage par défaut est limité à 20 destinataires par courrier électronique mais si ce nombre est dépassé, des courriers électroniques supplémentaires seront envoyés. Sachez également que plus les destinataires sont nombreux, plus le temps d’exécution est important. Il est normal que l’envoi d’un courrier électronique de masse prenne un certain temps, veillez à ne pas vous déplacer sur une autre page tant que l’opération n’est pas totalement terminée.',
+	'ACP_MASS_EMAIL_EXPLAIN'		=> 'Vous pouvez envoyer sur cette page un courriel à la totalité des utilisateurs ou aux utilisateurs d’un groupe d’utilisateurs spécifique <strong>qui acceptent la réception de courriels de masse</strong>. Pour ce faire, un courriel sera envoyé à l’adresse de courriel fournie par l’administrateur et une copie sera adressée à tous les destinataires. Le réglage par défaut est limité à 20 destinataires par courriel, mais si ce nombre est dépassé, des courriels supplémentaires seront envoyés. Sachez également que plus les destinataires sont nombreux, plus le temps d’exécution est important. Il est normal que l’envoi d’un courriel de masse prenne un certain temps, veillez à ne pas vous déplacer sur une autre page tant que l’opération n’est pas totalement terminée.',
 	'ALL_USERS'						=> 'Tous les utilisateurs',
 
 	'COMPOSE'				=> 'Rédiger',
 
-	'EMAIL_SEND_ERROR'		=> 'Une ou plusieurs erreurs sont survenues lors de l’envoi du courrier électronique. Pour plus d’informations, veuillez consulter l’%shistorique des erreurs%s.',
+	'EMAIL_SEND_ERROR'		=> 'Une ou plusieurs erreurs sont survenues lors de l’envoi du courriel. Pour plus d’informations, veuillez consulter l’%shistorique des erreurs%s.',
 	'EMAIL_SENT'			=> 'Le message a été envoyé.',
 	'EMAIL_SENT_QUEUE'		=> 'Le message est en file d’attente et sera envoyé ultérieurement.',
 
@@ -56,12 +56,12 @@ $lang = array_merge($lang, array(
 	'SEND_TO_USERS'			=> 'Envoyer à des utilisateurs',
 	'SEND_TO_USERS_EXPLAIN'	=> 'Les noms d’utilisateurs saisis dans ce champ écraseront le groupe d’utilisateurs que vous avez sélectionné dans le menu déroulant ci-dessus. Saisissez chaque nom d’utilisateur sur une nouvelle ligne.',
 
-	'MAIL_BANNED'			=> 'Envoyer le courrier électronique aux utilisateurs bannis',
-	'MAIL_BANNED_EXPLAIN'	=> 'Le courrier électronique de masse, s’il est destiné à un groupe d’utilisateurs dont un ou plusieurs utilisateurs bannis sont membres de ce dernier, sera également réceptionné par ces utilisateurs bannis.',
+	'MAIL_BANNED'			=> 'Envoyer le courriel aux utilisateurs bannis',
+	'MAIL_BANNED_EXPLAIN'	=> 'Le courriel de masse, s’il est destiné à un groupe d’utilisateurs dont un ou plusieurs utilisateurs bannis sont membres de ce dernier, sera également réceptionné par ces utilisateurs bannis.',
 	'MAIL_HIGH_PRIORITY'	=> 'Élevée',
 	'MAIL_LOW_PRIORITY'		=> 'Faible',
 	'MAIL_NORMAL_PRIORITY'	=> 'Normale',
-	'MAIL_PRIORITY'			=> 'Priorité du courrier électronique',
+	'MAIL_PRIORITY'			=> 'Priorité du courriel',
 	'MASS_MESSAGE'			=> 'Message',
 	'MASS_MESSAGE_EXPLAIN'	=> 'Le message ne doit contenir que du texte brut. Toutes les balises seront automatiquement supprimées.',
 

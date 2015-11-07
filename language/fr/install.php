@@ -140,7 +140,7 @@ $lang = array_merge($lang, array(
 	'ADMIN_USERNAME_EXPLAIN'	=> 'Veuillez saisir un nom d’utilisateur entre 3 et 20 caractères de long.',
 
 	// Errors
-	'INST_ERR_EMAIL_INVALID'		=> 'L’adresse de courrier électronique saisie n’est pas valide.',
+	'INST_ERR_EMAIL_INVALID'		=> 'L’adresse de courriel saisie n’est pas valide.',
 	'INST_ERR_PASSWORD_MISMATCH'	=> 'Les mots de passe saisis ne correspondent pas.',
 	'INST_ERR_PASSWORD_TOO_LONG'	=> 'Le mot de passe est trop long. Il ne doit pas dépasser 30 caractères.',
 	'INST_ERR_PASSWORD_TOO_SHORT'	=> 'Le mot de passe est trop court. Il doit contenir au moins 6 caractères.',
@@ -203,7 +203,7 @@ $lang = array_merge($lang, array(
 	//
 	// Email data
 	//
-	'EMAIL_CONFIG'	=> 'Configuration du courrier électronique',
+	'EMAIL_CONFIG'	=> 'Configuration de la messagerie électronique',
 
 	//
 	// Server data
@@ -284,7 +284,7 @@ $lang = array_merge($lang, array(
 	'TASK_ADD_MODULES'		=> 'Installation des modules',
 
 	// Install finish tasks
-	'TASK_NOTIFY_USER'			=> 'Envoi du courrier électronique de notification',
+	'TASK_NOTIFY_USER'			=> 'Envoi du courriel de notification',
 	'TASK_POPULATE_MIGRATIONS'	=> 'Remplissage des migrations',
 
 	// Installer general progress messages

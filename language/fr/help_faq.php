@@ -39,7 +39,7 @@ $help = array(
 	),
 	array(
 		0 => 'Pourquoi ai-je besoin de m’inscrire ?',
-		1 => 'Vous n’êtes pas dans l’obligation de le faire, mais l’administrateur du forum peut limiter la publication de messages aux utilisateurs inscrits. En vous inscrivant, vous pouvez également avoir accès à des fonctionnalités supplémentaires qui ne sont pas disponibles aux visiteurs, tels que l’affichage d’avatars personnalisés, l’utilisation de la messagerie privée, l’envoi de courriers électroniques aux autres utilisateurs, l’adhésion à un groupe d’utilisateurs, etc. L’inscription ne vous prend qu’un court instant, c’est pourquoi nous vous recommandons de le faire.'
+		1 => 'Vous n’êtes pas dans l’obligation de le faire, mais l’administrateur du forum peut limiter la publication de messages aux utilisateurs inscrits. En vous inscrivant, vous pouvez également avoir accès à des fonctionnalités supplémentaires qui ne sont pas disponibles aux visiteurs, tels que l’affichage d’avatars personnalisés, l’utilisation de la messagerie privée, l’envoi de courriels aux autres utilisateurs, l’adhésion à un groupe d’utilisateurs, etc. L’inscription ne vous prend qu’un court instant, c’est pourquoi nous vous recommandons de le faire.'
 	),
 	array(
 		0 => 'Qu’est-ce que la COPPA ?',
@@ -51,7 +51,7 @@ $help = array(
 	),
 	array(
 		0 => 'Je suis inscrit mais je ne peux pas me connecter !',
-		1 => 'Vérifiez en premier lieu que votre nom d’utilisateur et votre mot de passe soient corrects. Si le support de la COPPA est activé et que vous avez spécifié avoir en dessous de 13 ans pendant l’inscription, vous devrez suivre les instructions que vous avez reçues. Certains forums exigeront également que les nouvelles inscriptions doivent être activées, soit par vous-même ou soit par un administrateur, avant que vous puissiez ouvrir une session ; cette information était présente lors de votre inscription. Si vous aviez reçu un courrier électronique, consultez les instructions. Si vous ne recevez pas de courrier électronique, vous avez probablement spécifié une mauvaise adresse de courrier électronique ou le courrier électronique a été filtré en tant que pourriel. Si vous êtes certain(e) que l’adresse de courrier électronique que vous avez spécifiée était correcte, essayez de contacter un administrateur du forum.'
+		1 => 'Vérifiez en premier lieu que votre nom d’utilisateur et votre mot de passe soient corrects. Si le support de la COPPA est activé et que vous avez spécifié avoir en dessous de 13 ans pendant l’inscription, vous devrez suivre les instructions que vous avez reçues. Certains forums exigeront également que les nouvelles inscriptions doivent être activées, soit par vous-même ou soit par un administrateur, avant que vous puissiez ouvrir une session ; cette information était présente lors de votre inscription. Si vous aviez reçu un courriel, consultez les instructions. Si vous ne recevez pas de courriel, vous avez probablement spécifié une mauvaise adresse de courriel ou le courriel a été filtré en tant que pourriel. Si vous êtes certain(e) que l’adresse de courriel que vous avez spécifiée était correcte, essayez de contacter un administrateur du forum.'
 	),
 	array(
 		0 => 'Pourquoi ne puis-je pas me connecter ?',
@@ -110,8 +110,8 @@ $help = array(
 		1 => 'Les rangs, qui apparaissent en dessous de votre nom d’utilisateur, indiquent votre activité selon le nombre de messages que vous avez publié ou identifient certains utilisateurs spécifiques, comme les administrateurs et les modérateurs. Dans la plupart des cas, seul un administrateur du forum peut modifier le texte des rangs du forum. Merci de ne pas abuser de ce système en publiant inutilement des messages afin d’augmenter votre rang sur le forum. Beaucoup de forums ne toléreront pas ce procédé et un administrateur ou un modérateur pourra vous sanctionner en abaissant votre compteur de messages.'
 	),
 	array(
-		0 => 'Pourquoi m’est-il demandé de me connecter lorsque je clique sur le lien de courrier électronique d’un utilisateur ?',
-		1 => 'Si l’administrateur a activé cette fonctionnalité, seuls les utilisateurs inscrits peuvent envoyer des courriers électroniques aux autres utilisateurs depuis un formulaire dédié. Cela permet d’empêcher une utilisation abusive du système de messagerie électronique par des utilisateurs malveillants ou des robots.'
+		0 => 'Pourquoi m’est-il demandé de me connecter lorsque je clique sur le lien de courriel d’un utilisateur ?',
+		1 => 'Si l’administrateur a activé cette fonctionnalité, seuls les utilisateurs inscrits peuvent envoyer des courriels aux autres utilisateurs depuis un formulaire dédié. Cela permet d’empêcher une utilisation abusive du système de messagerie électronique par des utilisateurs malveillants ou des robots.'
 	),
 	array(
 		0 => '--',
@@ -263,8 +263,8 @@ $help = array(
 		1 => 'Vous pouvez supprimer automatiquement les messages privés d’un utilisateur en utilisant les règles de messages depuis le panneau de contrôle de l’utilisateur. Si vous recevez des messages privés de manière abusive de la part d’un autre utilisateur, rapportez ces messages aux modérateurs. Ils peuvent empêcher un utilisateur d’envoyer des messages privés.'
 	),
 	array(
-		0 => 'J’ai reçu un courrier électronique indésirable de la part de quelqu’un sur ce forum !',
-		1 => 'Nous en sommes navrés. Le formulaire d’envoi de courriers électroniques de ce forum possède des protections qui essaient de repérer les utilisateurs envoyant de tels messages. Vous devriez envoyer par courrier électronique une copie complète du courrier électronique que vous avez reçu à un administrateur du forum. Il est très important d’y inclure les en-têtes contenant des informations sur l’auteur du courrier électronique. Il pourra alors agir en conséquence.'
+		0 => 'J’ai reçu un pourriel de la part de quelqu’un sur ce forum !',
+		1 => 'Nous en sommes navrés. Le formulaire d’envoi de courriels de ce forum possède des protections qui essaient de repérer les utilisateurs envoyant de tels messages. Vous devriez envoyer par courriel une copie complète du pourriel que vous avez reçu à un administrateur du forum. Il est très important d’y inclure les en-têtes contenant des informations sur l’auteur du pourriel. Il pourra alors agir en conséquence.'
 	),
 	array(
 		0 => '--',
@@ -348,7 +348,7 @@ $help = array(
 	),
 	array(
 		0 => 'Qui dois-je contacter à propos de problèmes d’abus ou d’ordres légaux liés à ce forum ?',
-		1 => 'Tous les administrateurs listés sur la page « L’équipe » devraient être un contact approprié concernant ces problèmes. Si vous n’obtenez aucune réponse de leur part, vous devriez alors contacter le propriétaire du domaine (faites une <a href="http://www.google.com/search?q=whois">requête WHOIS</a>), ou, si celui-ci fonctionne sur un service gratuit (comme Yahoo, Free, etc.), le service de gestion des abus. Veuillez notez que phpBB Limited n’a <strong>absolument aucune juridiction</strong> et ne peut en aucun cas être tenu comme responsable de comment, où et par qui ce forum est utilisé. Ne contactez pas phpBB Limited pour tout problème d’ordre légal (commentaire incessant, insultant, diffamatoire, etc.) qui ne sont pas <strong>directement</strong> reliés avec le site internet de phpBB.com ou le logiciel phpBB en lui-même. Si vous envoyez un courrier électronique à phpBB Limited <strong>à propos d’une utilisation de tierce partie</strong> de ce logiciel, attendez-vous à une réponse laconique ou à ne pas recevoir de réponse.'
+		1 => 'Tous les administrateurs listés sur la page « L’équipe » devraient être un contact approprié concernant ces problèmes. Si vous n’obtenez aucune réponse de leur part, vous devriez alors contacter le propriétaire du domaine (faites une <a href="http://www.google.com/search?q=whois">requête WHOIS</a>), ou, si celui-ci fonctionne sur un service gratuit (comme Yahoo, Free, etc.), le service de gestion des abus. Veuillez notez que phpBB Limited n’a <strong>absolument aucune juridiction</strong> et ne peut en aucun cas être tenu comme responsable de comment, où et par qui ce forum est utilisé. Ne contactez pas phpBB Limited pour tout problème d’ordre légal (commentaire incessant, insultant, diffamatoire, etc.) qui ne sont pas <strong>directement</strong> reliés avec le site internet de phpBB.com ou le logiciel phpBB en lui-même. Si vous envoyez un courriel à phpBB Limited <strong>à propos d’une utilisation de tierce partie</strong> de ce logiciel, attendez-vous à une réponse laconique ou à ne pas recevoir de réponse.'
 	),
 	array(
 		0 => 'Comment puis-je contacter un administrateur du forum ?',

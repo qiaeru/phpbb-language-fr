@@ -96,7 +96,7 @@ $lang = array_merge($lang, array(
 	'CLI_EXTENSIONS_DISABLED'			=> 'Désactivé',
 	'CLI_EXTENSIONS_ENABLED'			=> 'Activé',
 
-	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS'	=> 'Tous les hachages des courriers électroniques ont été recalculés.',
+	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS'	=> 'Tous les hachages des courriels ont été recalculés.',
 
 	'CLI_MIGRATION_NAME'					=> 'Le nom de la migration, en incluant l’espace de noms (utilisez des barres obliques au lieu de barres obliques inversées afin d’éviter toute complication).',
 	'CLI_MIGRATIONS_AVAILABLE'				=> 'Migrations disponibles',

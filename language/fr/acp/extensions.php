@@ -113,7 +113,7 @@ $lang = array_merge($lang, array(
 	'PHP_VERSION'			=> 'Version de PHP',
 	'AUTHOR_INFORMATION'	=> 'Informations sur l’auteur',
 	'AUTHOR_NAME'			=> 'Nom',
-	'AUTHOR_EMAIL'			=> 'Adresse de courrier électronique',
+	'AUTHOR_EMAIL'			=> 'Adresse de courriel',
 	'AUTHOR_HOMEPAGE'		=> 'Page d’accueil',
 	'AUTHOR_ROLE'			=> 'Rôle',
 

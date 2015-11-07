@@ -8,7 +8,7 @@ Veuillez imprimer ce message et le faire signer et dater par vos parents ou vos 
 
 {FAX_INFO}
 
-Ou envoyez-le par courrier électronique à :
+Ou envoyez-le par courriel à :
 
 {MAIL_INFO}
 
@@ -16,7 +16,7 @@ Ou envoyez-le par courrier électronique à :
 Permission de participer à « {SITENAME} » - {U_BOARD}
 
 Nom d’utilisateur : {USERNAME}
-Adresse de courrier électronique : {EMAIL_ADDRESS}
+Adresse de courriel : {EMAIL_ADDRESS}
 
 J’AI VERIFIÉ L’INFORMATION FOURNIE PAR MON ENFANT ET DONNE LA PERMISSION À « {SITENAME} » DE STOCKER CETTE INFORMATION.
 JE CONÇOIS QUE CETTE INFORMATION PEUT ÊTRE MODIFIÉE A TOUT MOMENT EN ENTRANT UN MOT DE PASSE.
@@ -33,9 +33,9 @@ Date : _______________
 ------------------------------ COUPEZ ICI ------------------------------
 
 
-Une fois que l’administrateur aura reçu le texte ci-dessus par courrier électronique, fax ou courrier postal, votre compte sera activé.
+Une fois que l’administrateur aura reçu le texte ci-dessus par courriel, télécopie ou courrier postal, votre compte sera activé.
 
-Votre mot de passe a été stocké en toute sécurité dans notre base de données et ne pourra pas être retrouvé. Dans le cas où vous l’oubliez, vous pourrez le réinitialiser en utilisant l’adresse de courrier électronique associée à votre compte.
+Votre mot de passe a été stocké en toute sécurité dans notre base de données et ne pourra pas être retrouvé. Dans le cas où vous l’oubliez, vous pourrez le réinitialiser en utilisant l’adresse de courriel associée à votre compte.
 
 Nous vous remercions de votre inscription.
 

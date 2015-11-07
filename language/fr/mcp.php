@@ -149,7 +149,7 @@ $lang = array_merge($lang, array(
 	'MCP_ADD'						=> 'Ajouter un avertissement',
 
 	'MCP_BAN'					=> 'Bannissement',
-	'MCP_BAN_EMAILS'			=> 'Bannir des adresses de courrier électronique',
+	'MCP_BAN_EMAILS'			=> 'Bannir des adresses de courriel',
 	'MCP_BAN_IPS'				=> 'Bannir des adresses IP',
 	'MCP_BAN_USERNAMES'			=> 'Bannir des noms d’utilisateurs',
 

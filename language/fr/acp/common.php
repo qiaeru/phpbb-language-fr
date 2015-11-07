@@ -51,7 +51,7 @@ $lang = array_merge($lang, array(
 
 	'ACP_BACKUP'				=> 'Sauvegarder',
 	'ACP_BAN'					=> 'Bannissement',
-	'ACP_BAN_EMAILS'			=> 'Bannir des adresses de courrier électronique',
+	'ACP_BAN_EMAILS'			=> 'Bannir des adresses de courriel',
 	'ACP_BAN_IPS'				=> 'Bannir des adresses IP',
 	'ACP_BAN_USERNAMES'			=> 'Bannir des utilisateurs',
 	'ACP_BBCODES'				=> 'BBCode',
@@ -132,7 +132,7 @@ $lang = array_merge($lang, array(
 	'ACP_MANAGE_RANKS'			=> 'Gérer les rangs',
 	'ACP_MANAGE_REASONS'		=> 'Gérer les raisons de rapport',
 	'ACP_MANAGE_USERS'			=> 'Gérer les utilisateurs',
-	'ACP_MASS_EMAIL'			=> 'Courrier électronique de masse',
+	'ACP_MASS_EMAIL'			=> 'Courriel de masse',
 	'ACP_MESSAGES'				=> 'Messages',
 	'ACP_MESSAGE_SETTINGS'		=> 'Réglages des messages privés',
 	'ACP_MODULE_MANAGEMENT'		=> 'Gestion des modules',
@@ -276,7 +276,7 @@ $lang = array_merge($lang, array(
 
 	'NOTIFY'				=> 'Notification',
 	'NO_ADMIN'				=> 'Vous ne pouvez pas administrer ce forum.',
-	'NO_EMAILS_DEFINED'		=> 'Aucune adresse de courrier électronique correcte n’a été trouvée.',
+	'NO_EMAILS_DEFINED'		=> 'Aucune adresse de courriel correcte n’a été trouvée.',
 	'NO_FILES_TO_DELETE'	=> 'Les pièces jointes que vous souhaitez supprimer n’existent pas.',
 	'NO_PASSWORD_SUPPLIED'	=> 'Vous devez saisir votre mot de passe afin d’accéder au panneau de contrôle d’administration.',
 
@@ -325,7 +325,7 @@ $lang = array_merge($lang, array(
 // Logs
 $lang = array_merge($lang, array(
 	'ACP_ADMIN_LOGS_EXPLAIN'	=> 'Cette liste vous permet de consulter toutes les opérations qui ont été effectuées par les administrateurs du forum. Vous pouvez les classer par nom d’utilisateur, date, adresse IP ou opération. Si vous en avez les permissions, vous pouvez également effacer intégralement ou individuellement ces opérations.',
-	'ACP_CRITICAL_LOGS_EXPLAIN'	=> 'Cette liste vous permet de consulter toutes les opérations qui ont été effectuées par le forum lui-même. Cet historique vous informe des problèmes qui se sont produits, comme des courriers électroniques qui n’ont pas été correctement transférés. Vous pouvez les classer par nom d’utilisateur, date, adresse IP ou opération. Si vous en avez les permissions, vous pouvez également effacer intégralement ou individuellement ces opérations.',
+	'ACP_CRITICAL_LOGS_EXPLAIN'	=> 'Cette liste vous permet de consulter toutes les opérations qui ont été effectuées par le forum lui-même. Cet historique vous informe des problèmes qui se sont produits, comme des courriels qui n’ont pas été correctement transférés. Vous pouvez les classer par nom d’utilisateur, date, adresse IP ou opération. Si vous en avez les permissions, vous pouvez également effacer intégralement ou individuellement ces opérations.',
 	'ACP_MOD_LOGS_EXPLAIN'		=> 'Cette liste vous permet de consulter toutes les opérations qui ont été effectuées sur les forums, les sujets et les messages, ainsi que celles effectuées par les modérateurs sur des utilisateurs, comme les bannissements. Vous pouvez les classer par nom d’utilisateur, date, adresse IP ou opération. Si vous en avez les permissions, vous pouvez également effacer intégralement ou individuellement ces opérations.',
 	'ACP_USERS_LOGS_EXPLAIN'	=> 'Cette liste vous permet de consulter toutes les opérations qui ont été effectuées par les utilisateurs ou sur des utilisateurs (comme les rapports, les avertissements et les remarques).',
 	'ALL_ENTRIES'				=> 'Tous les éléments',
@@ -439,8 +439,8 @@ $lang = array_merge($lang, array(
 	'INACTIVE_REASON_REMIND'		=> 'Le compte doit être réactivé',
 	'INACTIVE_REASON_UNKNOWN'		=> 'Inconnue',
 	'INACTIVE_USERS'				=> 'Utilisateurs inactifs',
-	'INACTIVE_USERS_EXPLAIN'		=> 'Cette liste vous affiche les utilisateurs inscrits dont le compte est actuellement inactif. Vous pouvez activer, supprimer ou rappeler (en envoyant un courrier électronique) ces utilisateurs.',
-	'INACTIVE_USERS_EXPLAIN_INDEX'	=> 'Cette liste vous affiche les dix derniers utilisateurs inscrits dont le compte est actuellement inactif. Les comptes d’utilisateurs peuvent être inactifs lorsqu’une activation est requise dans le réglage des inscriptions mais que certains comptes d’utilisateurs n’ont pas encore été activés. Les comptes d’utilisateurs désactivés sont également affichés dans cette liste. Vous pouvez consulter la totalité de la liste des utilisateurs inactifs depuis le menu approprié ou en cliquant sur le lien ci-dessous d’où vous pourrez activer, supprimer ou rappeler (en envoyant un courrier électronique) ces utilisateurs.',
+	'INACTIVE_USERS_EXPLAIN'		=> 'Cette liste vous affiche les utilisateurs inscrits dont le compte est actuellement inactif. Vous pouvez activer, supprimer ou rappeler (en envoyant un courriel) ces utilisateurs.',
+	'INACTIVE_USERS_EXPLAIN_INDEX'	=> 'Cette liste vous affiche les dix derniers utilisateurs inscrits dont le compte est actuellement inactif. Les comptes d’utilisateurs peuvent être inactifs lorsqu’une activation est requise dans le réglage des inscriptions mais que certains comptes d’utilisateurs n’ont pas encore été activés. Les comptes d’utilisateurs désactivés sont également affichés dans cette liste. Vous pouvez consulter la totalité de la liste des utilisateurs inactifs depuis le menu approprié ou en cliquant sur le lien ci-dessous d’où vous pourrez activer, supprimer ou rappeler (en envoyant un courriel) ces utilisateurs.',
 
 	'NO_INACTIVE_USERS'	=> 'Aucun utilisateur inactif',
 
@@ -510,13 +510,13 @@ $lang = array_merge($lang, array(
 
 	'LOG_BAN_EXCLUDE_USER'	=> '<strong>Exclusion d’un nom d’utilisateur d’un bannissement</strong> en spécifiant comme raison « <em>%1$s</em> »<br />» %2$s',
 	'LOG_BAN_EXCLUDE_IP'	=> '<strong>Exclusion d’une adresse IP du bannissement</strong> en spécifiant comme raison « <em>%1$s</em> »<br />» %2$s',
-	'LOG_BAN_EXCLUDE_EMAIL' => '<strong>Exclusion d’une adresse de courrier électronique du bannissement</strong> en spécifiant comme raison « <em>%1$s</em> »<br />» %2$s',
+	'LOG_BAN_EXCLUDE_EMAIL' => '<strong>Exclusion d’une adresse de courriel du bannissement</strong> en spécifiant comme raison « <em>%1$s</em> »<br />» %2$s',
 	'LOG_BAN_USER'			=> '<strong>Bannissement d’un nom d’utilisateur</strong> en spécifiant comme raison « <em>%1$s</em> »<br />» %2$s',
 	'LOG_BAN_IP'			=> '<strong>Bannissement d’une adresse IP</strong> en spécifiant comme raison « <em>%1$s</em> »<br />» %2$s',
-	'LOG_BAN_EMAIL'			=> '<strong>Bannissement d’une adresse de courrier électronique</strong> en spécifiant comme raison « <em>%1$s</em> »<br />» %2$s',
+	'LOG_BAN_EMAIL'			=> '<strong>Bannissement d’une adresse de courriel</strong> en spécifiant comme raison « <em>%1$s</em> »<br />» %2$s',
 	'LOG_UNBAN_USER'		=> '<strong>Débannissement d’un nom d’utilisateur</strong><br />» %s',
 	'LOG_UNBAN_IP'			=> '<strong>Débannissement d’une adresse IP</strong><br />» %s',
-	'LOG_UNBAN_EMAIL'		=> '<strong>Débannissement d’une adresse de courrier électronique</strong><br />» %s',
+	'LOG_UNBAN_EMAIL'		=> '<strong>Débannissement d’une adresse de courriel</strong><br />» %s',
 
 	'LOG_BBCODE_ADD'		=> '<strong>Ajout d’un nouveau BBCode</strong><br />» %s',
 	'LOG_BBCODE_EDIT'		=> '<strong>Édition d’un BBCode</strong><br />» %s',
@@ -595,7 +595,7 @@ $lang = array_merge($lang, array(
 	'LOG_DOWNLOAD_REMOVE_IP'	=> '<strong>Suppression d’un nom d’hôte ou d’une adresse IP de la liste des téléchargements</strong><br />» %s',
 
 	'LOG_ERROR_JABBER'		=> '<strong>Une erreur de Jabber est survenue</strong><br />» %s',
-	'LOG_ERROR_EMAIL'		=> '<strong>Une erreur de courrier électronique est survenue</strong><br />» %s',
+	'LOG_ERROR_EMAIL'		=> '<strong>Une erreur de courriel est survenue</strong><br />» %s',
 
 	'LOG_FORUM_ADD'							=> '<strong>Création d’un nouveau forum</strong><br />» %s',
 	'LOG_FORUM_COPIED_PERMISSIONS'			=> '<strong>Copie des permissions d’un forum</strong> de %1$s<br />» %2$s',
@@ -631,7 +631,7 @@ $lang = array_merge($lang, array(
 
 	'LOG_INACTIVE_ACTIVATE'	=> '<strong>Activation d’utilisateurs inactifs</strong><br />» %s',
 	'LOG_INACTIVE_DELETE'	=> '<strong>Suppression d’utilisateurs inactifs</strong><br />» %s',
-	'LOG_INACTIVE_REMIND'	=> '<strong>Envoi d’un courrier électronique de rappel aux utilisateurs inactifs</strong><br />» %s',
+	'LOG_INACTIVE_REMIND'	=> '<strong>Envoi d’un courriel de rappel aux utilisateurs inactifs</strong><br />» %s',
 	'LOG_INSTALL_CONVERTED'	=> '<strong>Conversion de phpBB %1$s vers phpBB %2$s</strong>',
 	'LOG_INSTALL_INSTALLED'	=> '<strong>Installation de phpBB %s</strong>',
 
@@ -648,7 +648,7 @@ $lang = array_merge($lang, array(
 	'LOG_LANGUAGE_FILE_REPLACED'	=> '<strong>Remplacement d’un fichier de langue</strong><br />» %s',
 	'LOG_LANGUAGE_FILE_SUBMITTED'	=> '<strong>Envoi et déplacement dans le répertoire de stockage d’un fichier de langue</strong><br />» %s',
 
-	'LOG_MASS_EMAIL'		=> '<strong>Envoi d’un courrier électronique de masse</strong><br />» %s',
+	'LOG_MASS_EMAIL'		=> '<strong>Envoi d’un courriel de masse</strong><br />» %s',
 
 	'LOG_MCP_CHANGE_POSTER'	=> '<strong>Modification de l’auteur du sujet « %1$s »</strong><br />» de %2$s vers %3$s',
 
@@ -745,7 +745,7 @@ $lang = array_merge($lang, array(
 	'LOG_USER_ACTIVE'		=> '<strong>Activation du compte d’un utilisateur</strong><br />» %s',
 	'LOG_USER_BAN_USER'		=> '<strong>Bannissement du compte d’un utilisateur depuis la gestion des utilisateurs</strong> en spécifiant comme raison « <em>%1$s</em> »<br />» %2$s',
 	'LOG_USER_BAN_IP'		=> '<strong>Bannissement d’une adresse IP depuis la gestion des utilisateurs</strong> en spécifiant comme raison « <em>%1$s</em> »<br />» %2$s',
-	'LOG_USER_BAN_EMAIL'	=> '<strong>Bannissement d’une adresse de courrier électronique depuis la gestion des utilisateurs</strong> en spécifiant comme raison « <em>%1$s</em> »<br />» %2$s',
+	'LOG_USER_BAN_EMAIL'	=> '<strong>Bannissement d’une adresse de courriel depuis la gestion des utilisateurs</strong> en spécifiant comme raison « <em>%1$s</em> »<br />» %2$s',
 	'LOG_USER_DELETED'		=> '<strong>Suppression du compte d’un utilisateur</strong><br />» %s',
 	'LOG_USER_DEL_ATTACH'	=> '<strong>Suppression de toutes les pièces jointes d’un utilisateur</strong><br />» %s',
 	'LOG_USER_DEL_AVATAR'	=> '<strong>Suppression de l’avatar d’un utilisateur</strong><br />» %s',
@@ -758,7 +758,7 @@ $lang = array_merge($lang, array(
 	'LOG_USER_REACTIVATE'	=> '<strong>Réactivation forcée du compte d’un utilisateur</strong><br />» %s',
 	'LOG_USER_REMOVED_NR'	=> '<strong>Suppression du statut d’utilisateur inscrit récemment du compte d’un utilisateur</strong><br />» %s',
 
-	'LOG_USER_UPDATE_EMAIL'	=> '<strong>Modification de l’adresse de courrier électronique de l’utilisateur « %1$s »</strong><br />» de « %2$s » à « %3$s »',
+	'LOG_USER_UPDATE_EMAIL'	=> '<strong>Modification de l’adresse de courriel de l’utilisateur « %1$s »</strong><br />» de « %2$s » à « %3$s »',
 	'LOG_USER_UPDATE_NAME'	=> '<strong>Modification d’un nom d’utilisateur</strong><br />» de « %1$s » à « %2$s »',
 	'LOG_USER_USER_UPDATE'	=> '<strong>Mise à jour des informations du compte d’un utilisateur</strong><br />» %s',
 

@@ -44,7 +44,7 @@ $lang = array_merge($lang, array(
 	'30_MINS'		=> '30 minutes',
 	'6_HOURS'		=> '6 heures',
 
-	'ACP_BAN_EXPLAIN'	=> 'Vous pouvez gérer sur cette page les bannissements des utilisateurs par noms d’utilisateurs, adresses IP ou adresses de courrier électronique. Ces différentes méthodes empêchent qu’un utilisateur indésirable puisse participer à l’ensemble des discussions de votre forum. Si vous le souhaitez, vous pouvez fournir une raison de 3000 caractères au maximum qui sera affichée à l’utilisateur banni. Cette raison sera également affichée dans l’historique des administrateurs. La durée des bannissements peut également être spécifiée. Si vous souhaitez qu’un bannissement expire à une date spécifique plutôt qu’après avoir passé un certain délai, sélectionnez <span style="text-decoration: underline;">Jusqu’à -&gt;</span> et saisissez une date au format <kbd>AAAA-MM-JJ</kbd>.',
+	'ACP_BAN_EXPLAIN'	=> 'Vous pouvez gérer sur cette page les bannissements des utilisateurs par noms d’utilisateurs, adresses IP ou adresses de courriel. Ces différentes méthodes empêchent qu’un utilisateur indésirable puisse participer à l’ensemble des discussions de votre forum. Si vous le souhaitez, vous pouvez fournir une raison de 3000 caractères au maximum qui sera affichée à l’utilisateur banni. Cette raison sera également affichée dans l’historique des administrateurs. La durée des bannissements peut également être spécifiée. Si vous souhaitez qu’un bannissement expire à une date spécifique plutôt qu’après avoir passé un certain délai, sélectionnez <span style="text-decoration: underline;">Jusqu’à -&gt;</span> et saisissez une date au format <kbd>AAAA-MM-JJ</kbd>.',
 
 	'BAN_EXCLUDE'			=> 'Exclure du bannissement',
 	'BAN_LENGTH'			=> 'Durée du bannissement',
@@ -54,12 +54,12 @@ $lang = array_merge($lang, array(
 	'BANNED_UNTIL_DATE'		=> 'jusqu’au %s', // Example: "until Mon 13.Jul.2009, 14:44"
 	'BANNED_UNTIL_DURATION'	=> '%1$s (jusqu’au %2$s)', // Example: "7 days (until Tue 14.Jul.2009, 14:44)"
 
-	'EMAIL_BAN'					=> 'Bannir des adresses de courrier électronique',
-	'EMAIL_BAN_EXCLUDE_EXPLAIN'	=> 'Si cette option est activée, les adresses de courrier électronique saisies seront exclues de tous les bannissements actuels.',
-	'EMAIL_BAN_EXPLAIN'			=> 'Vous pouvez bannir plusieurs adresses de courrier électronique en les saisissant sur une nouvelle ligne. Pour utiliser adresses partielles, utilisez * comme joker. Par exemple, <samp>*@outlook.com</samp>, <samp>*@*.domaine.tld</samp>, etc.',
-	'EMAIL_NO_BANNED'			=> 'Aucune adresse de courrier électronique n’a été bannie.',
-	'EMAIL_UNBAN'				=> 'Débannir ou ne plus exclure des adresses de courrier électronique',
-	'EMAIL_UNBAN_EXPLAIN'		=> 'Vous pouvez débannir (ou ne plus exclure) plusieurs adresses de courrier électronique en une seule fois en utilisant la combinaison appropriée de la souris et du clavier de votre ordinateur et de votre navigateur. Les adresses de courrier électronique exclues apparaissent soulignées.',
+	'EMAIL_BAN'					=> 'Bannir des adresses de courriel',
+	'EMAIL_BAN_EXCLUDE_EXPLAIN'	=> 'Si cette option est activée, les adresses de courriel saisies seront exclues de tous les bannissements actuels.',
+	'EMAIL_BAN_EXPLAIN'			=> 'Vous pouvez bannir plusieurs adresses de courriel en les saisissant sur une nouvelle ligne. Pour utiliser adresses partielles, utilisez * comme joker. Par exemple, <samp>*@outlook.com</samp>, <samp>*@*.domaine.tld</samp>, etc.',
+	'EMAIL_NO_BANNED'			=> 'Aucune adresse de courriel n’a été bannie.',
+	'EMAIL_UNBAN'				=> 'Débannir ou ne plus exclure des adresses de courriel',
+	'EMAIL_UNBAN_EXPLAIN'		=> 'Vous pouvez débannir (ou ne plus exclure) plusieurs adresses de courriel en une seule fois en utilisant la combinaison appropriée de la souris et du clavier de votre ordinateur et de votre navigateur. Les adresses de courriel exclues apparaissent soulignées.',
 
 	'IP_BAN'					=> 'Bannir des adresses IP',
 	'IP_BAN_EXCLUDE_EXPLAIN'	=> 'Si cette option est activée, les adresses IP saisies seront exclues de tous les bannissements actuels.',

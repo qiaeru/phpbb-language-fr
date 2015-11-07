@@ -1,8 +1,8 @@
-Subject: phpBB est correctement configuré pour envoyer des courriers électroniques
+Subject: phpBB est correctement configuré pour envoyer des courriels
 
 Bonjour {USERNAME},
 
-Félicitations. Si vous avez reçu de courrier électronique, c’est que phpBB est alors correctement configuré pour envoyer des courriers électroniques.
+Félicitations. La réception de ce courriel signifie que la messagerie électronique de phpBB est correctement configurée.
 
 Dans le cas où vous auriez besoin d’aide, veuillez vous rendre sur les forums de support de phpBB (en anglais) - https://www.phpbb.com/community/
 

@@ -50,7 +50,7 @@ $lang = array_merge($lang, array(
 
 	'BEFORE'				=> 'Avant',
 
-	'CC_SENDER'				=> 'M’envoyer une copie de ce courrier électronique.',
+	'CC_SENDER'				=> 'M’envoyer une copie de ce courriel.',
 	'CONTACT_ADMIN'			=> 'Contacter un administrateur du forum',
 
 	'DEST_LANG'				=> 'Langue',
@@ -58,21 +58,21 @@ $lang = array_merge($lang, array(
 
 	'EDIT_PROFILE'			=> 'Éditer le profil',
 
-	'EMAIL_BODY_EXPLAIN'	=> 'Le message sera envoyé en texte brut, n’insérez aucun code HTML ou BBCode. L’adresse de retour du message correspond à votre adresse de courrier électronique.',
-	'EMAIL_DISABLED'		=> 'Toutes les fonctionnalités liées aux courriers électroniques ont été désactivées.',
-	'EMAIL_SENT'			=> 'Le courrier électronique a été envoyé.',
-	'EMAIL_TOPIC_EXPLAIN'	=> 'Le message sera envoyé en texte brut, n’insérez aucun code HTML ou BBCode. Veuillez noter que le contenu du sujet est déjà intégré au message. L’adresse de retour du message correspond à votre adresse de courrier électronique.',
-	'EMPTY_ADDRESS_EMAIL'	=> 'Vous devez saisir une adresse de courrier électronique correcte concernant le destinataire.',
-	'EMPTY_MESSAGE_EMAIL'	=> 'Vous devez saisir un message afin d’envoyer un courrier électronique.',
+	'EMAIL_BODY_EXPLAIN'	=> 'Le message sera envoyé en texte brut, n’insérez aucun code HTML ou BBCode. L’adresse de retour du message correspond à votre adresse de courriel.',
+	'EMAIL_DISABLED'		=> 'Toutes les fonctionnalités liées à la messagerie électronique ont été désactivées.',
+	'EMAIL_SENT'			=> 'Le courriel a été envoyé.',
+	'EMAIL_TOPIC_EXPLAIN'	=> 'Le message sera envoyé en texte brut, n’insérez aucun code HTML ou BBCode. Veuillez noter que le contenu du sujet est déjà intégré au message. L’adresse de retour du message correspond à votre adresse de courriel.',
+	'EMPTY_ADDRESS_EMAIL'	=> 'Vous devez saisir une adresse de courriel correcte concernant le destinataire.',
+	'EMPTY_MESSAGE_EMAIL'	=> 'Vous devez saisir un message afin d’envoyer un courriel.',
 	'EMPTY_MESSAGE_IM'		=> 'Vous devez saisir le contenu du message afin d’envoyer ce dernier.',
 	'EMPTY_NAME_EMAIL'		=> 'Vous devez saisir le nom réel du destinataire.',
-	'EMPTY_SENDER_EMAIL'	=> 'Vous devez saisir une adresse de courrier électronique correcte.',
+	'EMPTY_SENDER_EMAIL'	=> 'Vous devez saisir une adresse de courriel correcte.',
 	'EMPTY_SENDER_NAME'		=> 'Vous devez spécifier un nom.',
-	'EMPTY_SUBJECT_EMAIL'	=> 'Vous devez saisir le sujet du courrier électronique.',
+	'EMPTY_SUBJECT_EMAIL'	=> 'Vous devez saisir le sujet du courriel.',
 	'EQUAL_TO'				=> 'Égal à',
 
 	'FIND_USERNAME_EXPLAIN'	=> 'Utilisez ce formulaire afin de rechercher des membres spécifiques. Vous n’avez pas besoin de compléter tous les champs. Pour utiliser partiellement une donnée, utilisez * comme joker. Lorsque vous saisissez une date, utilisez le format <kbd>AAAA-MM-JJ</kbd>, comme par exemple <samp>2004-02-29</samp>. Utilisez les cases à cocher afin de sélectionner un ou plusieurs noms d’utilisateurs et cliquez sur le bouton « Sélectionner la sélection » afin de revenir au formulaire précédent.',
-	'FLOOD_EMAIL_LIMIT'		=> 'Vous ne pouvez pas envoyer d’autres courriers électroniques actuellement. Veuillez réessayer ultérieurement.',
+	'FLOOD_EMAIL_LIMIT'		=> 'Vous ne pouvez pas envoyer d’autres courriels actuellement. Veuillez réessayer ultérieurement.',
 
 	'GROUP_LEADER'			=> 'Responsable du groupe',
 
@@ -107,7 +107,7 @@ $lang = array_merge($lang, array(
 
 	'NO_CONTACT_FORM'		=> 'Le formulaire de contact de l’administrateur du forum a été désactivé.',
 	'NO_CONTACT_PAGE'		=> 'La page de contact de l’administrateur du forum a été désactivée.',
-	'NO_EMAIL'				=> 'Vous ne pouvez pas envoyer de courrier électronique à cet utilisateur.',
+	'NO_EMAIL'				=> 'Vous ne pouvez pas envoyer de courriel à cet utilisateur.',
 	'NO_VIEW_USERS'			=> 'Vous ne pouvez pas consulter la liste des membres et le profil des utilisateurs.',
 
 	'ORDER'					=> 'Ordre',
@@ -122,14 +122,14 @@ $lang = array_merge($lang, array(
 
 	'SELECT_MARKED'			=> 'Sélectionner la sélection',
 	'SELECT_SORT_METHOD'	=> 'Sélectionner la méthode de tri',
-	'SENDER_EMAIL_ADDRESS'	=> 'Votre adresse de courrier électronique',
+	'SENDER_EMAIL_ADDRESS'	=> 'Votre adresse de courriel',
 	'SENDER_NAME'			=> 'Votre nom',
 	'SEND_ICQ_MESSAGE'		=> 'Envoyer un message ICQ',
 	'SEND_IM'				=> 'Messagerie instantanée',
 	'SEND_JABBER_MESSAGE'	=> 'Envoyer un message Jabber',
 	'SEND_MESSAGE'			=> 'Message',
 	'SEND_YIM_MESSAGE'		=> 'Envoyer un message YIM',
-	'SORT_EMAIL'			=> 'Adresse de courrier électronique',
+	'SORT_EMAIL'			=> 'Adresse de courriel',
 	'SORT_LAST_ACTIVE'		=> 'Dernière activité',
 	'SORT_POST_COUNT'		=> 'Nombre de messages',
 
