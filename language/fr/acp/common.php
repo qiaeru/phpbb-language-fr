@@ -86,7 +86,7 @@ $lang = array_merge($lang, array(
 	'ACP_DISALLOW'				=> 'Interdire',
 	'ACP_DISALLOW_USERNAMES'	=> 'Interdire des noms d’utilisateurs',
 
-	'ACP_EMAIL_SETTINGS'		=> 'Réglages de la messagerie électronique',
+	'ACP_EMAIL_SETTINGS'		=> 'Messagerie électronique',
 	'ACP_EXTENSION_GROUPS'		=> 'Gérer les groupes d’extensions des pièces jointes',
 	'ACP_EXTENSION_MANAGEMENT'	=> 'Gestion des extensions',
 	'ACP_EXTENSIONS'			=> 'Gérer les extensions',
