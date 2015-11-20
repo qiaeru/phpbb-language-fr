@@ -233,6 +233,7 @@ $lang = array_merge($lang, array(
 	'CRON_NO_SUCH_TASK'		=> 'La tâche cron « %s » est introuvable.',
 	'CRON_NO_TASK'			=> 'Aucune tâche cron ne doit être exécutée.',
 	'CRON_NO_TASKS'			=> 'Aucune tâche cron n’est disponible.',
+	'CURRENT_VERSION'		=> 'Version actuelle',
 
 	'DEACTIVATE'				=> 'Désactiver',
 	'DIRECTORY_DOES_NOT_EXIST'	=> 'Le chemin « %s » que vous avez spécifié n’existe pas.',
@@ -258,6 +259,7 @@ $lang = array_merge($lang, array(
 	'IP'					=> 'Adresse IP de l’utilisateur',
 	'IP_HOSTNAME'			=> 'Adresses IP ou noms d’hôtes',
 
+	'LATEST_VERSION'		=> 'Dernière version',
 	'LOAD_NOTIFICATIONS'			=> 'Activer les notifications',
 	'LOAD_NOTIFICATIONS_EXPLAIN'	=> 'La liste des notifications sera affichée sur toutes les pages du forum (généralement en haut des pages).',
 	'LOGGED_IN_AS'			=> 'Connecté(e) en tant que :',
@@ -290,6 +292,7 @@ $lang = array_merge($lang, array(
 	'PERMISSIONS_TRANSFERRED_EXPLAIN'	=> 'Vous détenez actuellement les permissions de %1$s. Vous pouvez parcourir le forum avec les permissions de cet utilisateur mais vous ne pouvez pas accéder au panneau de contrôle d’administration car les permissions des administrateurs ne sont pas transférées. Vous pouvez <a href="%2$s"><strong>réinitialiser les réglages de vos permissions</strong></a> à tout moment.',
 	'PROCEED_TO_ACP'					=> '%sAller au PCA%s',
 
+	'RELEASE_ANNOUNCEMENT'		=> 'Annonce',
 	'REMIND'							=> 'Rappel',
 	'RESYNC'							=> 'Resynchroniser',
 
@@ -422,6 +425,11 @@ $lang = array_merge($lang, array(
 	'VALUE'						=> 'Valeur',
 	'VERSIONCHECK_FAIL'			=> 'Aucune information concernant la dernière version stable n’est disponible.',
 	'VERSIONCHECK_FORCE_UPDATE'	=> 'Vérifier de nouveau les mises à jour',
+	'VERSION_CHECK'				=> 'Vérifier les mises à jour',
+	'VERSION_CHECK_EXPLAIN'		=> 'Vous pouvez vérifier sur cette page si le logiciel de votre forum est à jour avec la dernière version actuellement disponible.',
+	'VERSION_NOT_UP_TO_DATE_ACP'	=> 'Le logiciel de votre forum n’est pas à jour.<br />Vous trouverez ci-dessous un lien vers l’annonce de sortie, qui contient de plus amples informations et les instructions de mise à jour.',
+	'VERSION_NOT_UP_TO_DATE_TITLE'	=> 'Le logiciel de votre forum n’est pas à jour.',
+	'VERSION_UP_TO_DATE_ACP'	=> 'Le logiciel de votre forum est à jour. Aucune mise à jour n’est disponible pour le moment.',
 	'VIEW_ADMIN_LOG'			=> 'Consulter l’historique des administrateurs',
 	'VIEW_INACTIVE_USERS'		=> 'Consulter la liste des utilisateurs inactifs',
 
