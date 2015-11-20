@@ -1,6 +1,5 @@
 {
-	"name": "maelsoucaze/phpbbfrench",
-	"type": "phpbb-language",
+	"name": "maelsoucaze/french",
 	"description": "French language pack for phpBB 3.2",
 	"homepage": "https://www.phpbb.com/customise/db/translation/french/",
 	"version": "3.0.0-dev",
