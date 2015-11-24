@@ -314,6 +314,8 @@ $lang = array_merge($lang, array(
 	'CLI_INSTALL_SHOW_CONFIG'		=> 'Afficher la configuration qui sera utilisée',
 	'CLI_INSTALL_VALIDATE_CONFIG'	=> 'Valider un fichier de configuration',
 	'CLI_CONFIG_FILE'				=> 'Fichier de configuration à utiliser',
+	'MISSING_FILE'					=> 'Impossible d’accéder au fichier %1$s',
+	'INVALID_YAML_FILE'				=> 'Impossible d’analyser le fichier YAML %1$s',
 ));
 
 // Common updater messages
