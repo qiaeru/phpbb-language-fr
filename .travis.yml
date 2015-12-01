@@ -1,11 +1,15 @@
-sudo: false
-
 language: php
 
 php:
+  - 5.4
   - 5.5
+  - 5.6
+  - 7.0
+  - hhvm
 
 matrix:
+  allow_failures:
+    - php: hhvm
   fast_finish: true
 
 env:
@@ -13,6 +17,8 @@ env:
     - PHPBB_TAG="master"
     - PHPBB_VERSION="3.2"
     - PHPBB_LANGUAGE="fr"
+
+sudo: false
 
 before_install:
   - mkdir -p $PHPBB_VERSION/$PHPBB_LANGUAGE
@@ -23,13 +29,16 @@ before_install:
   - git clone --branch $PHPBB_TAG "https://github.com/phpbb/phpbb.git"
   - mv phpbb/phpBB/language/en $PHPBB_VERSION/en/language
   - mv phpbb/phpBB/styles/prosilver/theme/en $PHPBB_VERSION/en/styles/prosilver/theme
-  - curl -sS "https://getcomposer.org/installer" | php
 
 install:
-  - php composer.phar install --dev --no-interaction --prefer-source
+  - travis_retry composer self-update
+  - travis_retry composer install
+
+before_script:
+  - travis_retry php composer.phar install
 
 script:
   - php vendor/bin/PhpbbTranslationValidator.php validate $PHPBB_LANGUAGE --phpbb-version=$PHPBB_VERSION --display-notices
-  
+
 notifications:
   email: change
