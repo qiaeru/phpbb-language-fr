@@ -22,7 +22,7 @@ env:
 
 sudo: false
 
-before_script:
+before_install:
   - mkdir -p $PHPBB_VERSION/$PHPBB_LANGUAGE
   - mkdir -p $PHPBB_VERSION/en/language
   - mkdir -p $PHPBB_VERSION/en/styles/prosilver/theme
@@ -33,6 +33,8 @@ before_script:
   - mv phpbb/phpBB/styles/prosilver/theme/en $PHPBB_VERSION/en/styles/prosilver/theme
   - travis_retry composer self-update
   - travis_retry composer install
+
+install:
   - travis_retry php composer.phar install --dev --prefer-source --no-interaction
 
 script:
