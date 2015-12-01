@@ -15,14 +15,14 @@ env:
     - PHPBB_LANGUAGE="fr"
 
 before_install:
-  - sudo mkdir -p $PHPBB_VERSION/$PHPBB_LANGUAGE
-  - sudo mkdir -p $PHPBB_VERSION/en/language
-  - sudo mkdir -p $PHPBB_VERSION/en/styles/prosilver/theme
-  - sudo mv language $PHPBB_VERSION/$PHPBB_LANGUAGE
-  - sudo mv styles $PHPBB_VERSION/$PHPBB_LANGUAGE
+  - mkdir -p $PHPBB_VERSION/$PHPBB_LANGUAGE
+  - mkdir -p $PHPBB_VERSION/en/language
+  - mkdir -p $PHPBB_VERSION/en/styles/prosilver/theme
+  - mv language $PHPBB_VERSION/$PHPBB_LANGUAGE
+  - mv styles $PHPBB_VERSION/$PHPBB_LANGUAGE
   - git clone --branch $PHPBB_TAG "https://github.com/phpbb/phpbb.git"
-  - sudo mv phpbb/phpBB/language/en $PHPBB_VERSION/en/language
-  - sudo mv phpbb/phpBB/styles/prosilver/theme/en $PHPBB_VERSION/en/styles/prosilver/theme
+  - mv phpbb/phpBB/language/en $PHPBB_VERSION/en/language
+  - mv phpbb/phpBB/styles/prosilver/theme/en $PHPBB_VERSION/en/styles/prosilver/theme
   - curl -sS "https://getcomposer.org/installer" | php
 
 install:
