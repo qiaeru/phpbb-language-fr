@@ -103,6 +103,7 @@ $lang = array_merge($lang, array(
 	'LOGIN_EXPLAIN_SEARCHUSER'	=> 'Vous devez vous inscrire et vous connecter afin de pouvoir rechercher des utilisateurs.',
 	'LOGIN_EXPLAIN_VIEWPROFILE'	=> 'Vous devez vous inscrire et vous connecter afin de pouvoir consulter le profil des utilisateurs.',
 
+	'MANAGE_GROUP'			=> 'Gérer le groupe',
 	'MORE_THAN'				=> 'Plus que',
 
 	'NO_CONTACT_FORM'		=> 'Le formulaire de contact de l’administrateur du forum a été désactivé.',
