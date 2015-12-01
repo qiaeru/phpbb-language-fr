@@ -32,10 +32,10 @@ before_install:
   - mv phpbb/phpBB/language/en $PHPBB_VERSION/en/language
   - mv phpbb/phpBB/styles/prosilver/theme/en $PHPBB_VERSION/en/styles/prosilver/theme
   - travis_retry composer self-update
-  - travis_retry composer install
+  - travis_retry curl -s http://getcomposer.org/installer | php
 
 install:
-  - travis_retry php composer.phar install --dev --prefer-source --no-interaction
+  - travis_retry php composer.phar install --dev --no-interaction --prefer-source
 
 script:
   - php vendor/bin/PhpbbTranslationValidator.php validate $PHPBB_LANGUAGE --phpbb-version=$PHPBB_VERSION --display-notices
