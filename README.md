@@ -8,7 +8,7 @@ French language package to localise the phpBB "Rhea" 3.2 forum software.
 
 Includes the following French locales compatible with:
 
-- [phpBB](https://github.com/phpbb/phpbb) [3.2.0-a2-dev (Build 988)](https://bamboo.phpbb.com/browse/PHPBB3-RHEA-988)
+- [phpBB](https://github.com/phpbb/phpbb) [3.2.0-a2-dev (Build 1016)](https://bamboo.phpbb.com/browse/PHPBB3-RHEA-1016)
 
 Released under the GNU General Public License 2.0. Please see the [license terms](https://github.com/maelsoucaze/phpbb/blob/master/language/fr/LICENSE).
 
