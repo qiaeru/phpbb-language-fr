@@ -84,6 +84,9 @@ $lang = array_merge($lang, array(
 	<p>Seules les bases de données qui sont supportées par votre serveur seront affichées.',
 
 	'ACP_LINK'	=> 'Me rendre sur <a href="%1$s">le PCA</a>',
+
+	'INSTALL_PHPBB_INSTALLED'		=> 'phpBB est déjà installé.',
+	'INSTALL_PHPBB_NOT_INSTALLED'	=> 'phpBB n’est pas encore installé.'
 ));
 
 // Requirements translation
@@ -315,6 +318,7 @@ $lang = array_merge($lang, array(
 	'CLI_INSTALL_VALIDATE_CONFIG'	=> 'Valider un fichier de configuration',
 	'CLI_CONFIG_FILE'				=> 'Fichier de configuration à utiliser',
 	'MISSING_FILE'					=> 'Impossible d’accéder au fichier %1$s',
+	'MISSING_DATA'					=> 'Le fichier de configuration ne contient pas toutes les données ou celles-ci sont invalides.',
 	'INVALID_YAML_FILE'				=> 'Impossible d’analyser le fichier YAML %1$s',
 ));
 

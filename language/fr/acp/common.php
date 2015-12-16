@@ -294,6 +294,7 @@ $lang = array_merge($lang, array(
 
 	'RELEASE_ANNOUNCEMENT'		=> 'Annonce',
 	'REMIND'							=> 'Rappel',
+	'REPARSE_LOCK_ERROR'				=> 'L’analyse est déjà en cours par un autre par un autre processus.',
 	'RESYNC'							=> 'Resynchroniser',
 
 	'RUNNING_TASK'			=> 'Exécution de la tâche : %s.',
