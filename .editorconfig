@@ -9,6 +9,7 @@ root = true
 # (LF) with a final newline, and trim trailing whitespace in all files.
 [*]
 indent_style = tab
+indent_size = 4
 charset = utf-8
 end_of_line = lf
 insert_final_newline = true
