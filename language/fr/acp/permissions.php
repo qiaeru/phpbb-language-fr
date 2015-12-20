@@ -113,7 +113,7 @@ $lang = array_merge($lang, array(
 	'APPLY_PERMISSIONS_EXPLAIN'	=> 'Les permissions et les rôles de cet élément ne seront appliqués qu’aux éléments cochés et à ce dernier.',
 	'AUTH_UPDATED'				=> 'Les permissions ont été mises à jour.',
 
-	'COPY_PERMISSIONS_CONFIRM'				=> 'Êtes-vous sûr(e) de vouloir effectuer cette opération ? Cela écrasera toutes les permissions existantes des forums que vous sélectionnés.',
+	'COPY_PERMISSIONS_CONFIRM'				=> 'Êtes-vous sûr de vouloir effectuer cette opération ? Cela écrasera toutes les permissions existantes des forums que vous sélectionnés.',
 	'COPY_PERMISSIONS_FORUM_FROM_EXPLAIN'	=> 'Le forum source à partir duquel vous souhaitez copier les permissions.',
 	'COPY_PERMISSIONS_FORUM_TO_EXPLAIN'		=> 'Le ou les forums où les permissions que vous avez copiées seront appliquées.',
 	'COPY_PERMISSIONS_FROM'					=> 'Copier les permissions de',
@@ -125,7 +125,7 @@ $lang = array_merge($lang, array(
 
 	'DEFAULT'					=> 'Par défaut',
 	'DELETE_ROLE'				=> 'Supprimer le rôle',
-	'DELETE_ROLE_CONFIRM'		=> 'Êtes-vous sûr(e) de vouloir supprimer ce rôle ? Les éléments assignés à ce rôle ne perdront <strong>pas</strong> leurs réglages de permissions.',
+	'DELETE_ROLE_CONFIRM'		=> 'Êtes-vous sûr de vouloir supprimer ce rôle ? Les éléments assignés à ce rôle ne perdront <strong>pas</strong> leurs réglages de permissions.',
 	'DISPLAY_ROLE_ITEMS'		=> 'Consulter les éléments assignés à ce rôle',
 
 	'EDIT_PERMISSIONS'			=> 'Éditer les permissions',

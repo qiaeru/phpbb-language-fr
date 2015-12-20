@@ -71,7 +71,7 @@ $lang = array_merge($lang, array(
 
 	'LINKAGE_FORBIDDEN'		=> 'Vous ne pouvez pas consulter, télécharger ou insérer de lien vers ce site.',
 	'LOGIN_NOTIFY_TOPIC'	=> 'Vous avez reçu une notification concernant un message de ce sujet. Veuillez vous connecter afin de consulter ce dernier.',
-	'LOGIN_VIEWTOPIC'		=> 'Vous devez être inscrit(e) et connecté(e) afin de consulter ce sujet.',
+	'LOGIN_VIEWTOPIC'		=> 'Vous devez être inscrit et connecté afin de consulter ce sujet.',
 
 	'MAKE_ANNOUNCE'				=> 'Modifier en « annonce »',
 	'MAKE_GLOBAL'				=> 'Modifier en « annonce générale »',

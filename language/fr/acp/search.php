@@ -44,7 +44,7 @@ $lang = array_merge($lang, array(
 
 	'COMMON_WORD_THRESHOLD'					=> 'Seuil de mot commun',
 	'COMMON_WORD_THRESHOLD_EXPLAIN'			=> 'Les mots contenus dans la majorité des messages seront considérés comme communs. Les mots communs sont ignorés des recherches. Réglez cette valeur sur 0 afin de désactiver cette fonctionnalité. Les mots ne deviennent communs que s’ils ont été utilisés dans au moins 100 messages. Si vous souhaitez que les mots communs soient reconsidérés, vous devez recréer un index.',
-	'CONFIRM_SEARCH_BACKEND'				=> 'Êtes-vous sûr(e) de vouloir modifier votre méthode d’indexation pour une méthode différente ? Après la modification de la méthode d’indexation, vous devez créer un index. Si vous ne prévoyez pas de restaurer l’ancienne méthode d’indexation, vous pouvez également la supprimer afin de libérer des ressources systèmes.',
+	'CONFIRM_SEARCH_BACKEND'				=> 'Êtes-vous sûr de vouloir modifier votre méthode d’indexation pour une méthode différente ? Après la modification de la méthode d’indexation, vous devez créer un index. Si vous ne prévoyez pas de restaurer l’ancienne méthode d’indexation, vous pouvez également la supprimer afin de libérer des ressources systèmes.',
 	'CONTINUE_DELETING_INDEX'				=> 'Continuer le processus de suppression de l’ancien index',
 	'CONTINUE_DELETING_INDEX_EXPLAIN'		=> 'Un processus de suppression de l’ancien index a été commencé. Vous devez terminer ou annuler ce dernier afin d’accéder à la page de l’index de la recherche.',
 	'CONTINUE_INDEXING'						=> 'Continuer l’ancien processus d’indexation',

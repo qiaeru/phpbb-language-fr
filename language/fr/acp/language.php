@@ -42,7 +42,7 @@ $lang = array_merge($lang, array(
 	'ACP_FILES'						=> 'Fichiers de langue de l’administration',
 	'ACP_LANGUAGE_PACKS_EXPLAIN'	=> 'Vous pouvez installer, modifier et supprimer sur cette page des traductions. La traduction par défaut est signalée par un astérisque (*).',
 
-	'DELETE_LANGUAGE_CONFIRM'		=> 'Êtes-vous sûr(e) de vouloir supprimer « %s » ?',
+	'DELETE_LANGUAGE_CONFIRM'		=> 'Êtes-vous sûr de vouloir supprimer « %s » ?',
 
 	'INSTALLED_LANGUAGE_PACKS'		=> 'Traductions installées',
 

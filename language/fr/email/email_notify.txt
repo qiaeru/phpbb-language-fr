@@ -2,7 +2,7 @@ Subject: « {SITENAME} » - Envoi d’un courriel par un ami
 
 Bonjour {TO_USERNAME},
 
-Ce courriel a été envoyé de « {SITENAME} » par {FROM_USERNAME}, qui a pensé que vous pourriez être intéressé(e) par le sujet suivant :
+Ce courriel a été envoyé de « {SITENAME} » par {FROM_USERNAME}, qui a pensé que vous pourriez être intéressé par le sujet suivant :
 
 {TOPIC_NAME}
 

@@ -41,7 +41,7 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'ACP_MODULE_MANAGEMENT_EXPLAIN'	=> 'Vous pouvez gérer sur cette page toutes sortes de modules. Veuillez noter que le panneau de contrôle d’administration est divisé en structure à trois niveaux de menu (Catégorie -> Catégorie -> Module) alors que les autres panneaux de contrôle ne sont divisés qu’en structure à deux niveaux de menu (Catégorie -> Module). Cette structure doit être conservée. Veuillez noter également que vous pouvez vous bloquer si vous désactivez ou supprimez les modules responsables de la gestion des modules.',
 	'ADD_MODULE'					=> 'Ajouter un module',
-	'ADD_MODULE_CONFIRM'			=> 'Êtes-vous sûr(e) de vouloir ajouter ce module avec le mode que vous avez sélectionné ?',
+	'ADD_MODULE_CONFIRM'			=> 'Êtes-vous sûr de vouloir ajouter ce module avec le mode que vous avez sélectionné ?',
 	'ADD_MODULE_TITLE'				=> 'Ajouter un module',
 
 	'CANNOT_REMOVE_MODULE'	=> 'Impossible de supprimer le module car il possède des sous-modules. Veuillez supprimer ou déplacer tous les sous-modules avant d’effectuer cette opération.',
@@ -54,7 +54,7 @@ $lang = array_merge($lang, array(
 
 	'DEACTIVATED_MODULE'	=> 'Module désactivé',
 	'DELETE_MODULE'			=> 'Supprimer le module',
-	'DELETE_MODULE_CONFIRM'	=> 'Êtes-vous sûr(e) de vouloir supprimer ce module ?',
+	'DELETE_MODULE_CONFIRM'	=> 'Êtes-vous sûr de vouloir supprimer ce module ?',
 
 	'EDIT_MODULE'			=> 'Éditer le module',
 	'EDIT_MODULE_EXPLAIN'	=> 'Vous pouvez paramétrer sur cette page les réglages spécifiques au module.',

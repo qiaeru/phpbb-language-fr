@@ -51,7 +51,7 @@ $help = array(
 	),
 	array(
 		0 => 'Je suis inscrit mais je ne peux pas me connecter !',
-		1 => 'Vérifiez en premier lieu que votre nom d’utilisateur et votre mot de passe soient corrects. Si le support de la COPPA est activé et que vous avez spécifié avoir en dessous de 13 ans pendant l’inscription, vous devrez suivre les instructions que vous avez reçues. Certains forums exigeront également que les nouvelles inscriptions doivent être activées, soit par vous-même ou soit par un administrateur, avant que vous puissiez ouvrir une session ; cette information était présente lors de votre inscription. Si vous aviez reçu un courriel, consultez les instructions. Si vous ne recevez pas de courriel, vous avez probablement spécifié une mauvaise adresse de courriel ou le courriel a été filtré en tant que pourriel. Si vous êtes certain(e) que l’adresse de courriel que vous avez spécifiée était correcte, essayez de contacter un administrateur du forum.'
+		1 => 'Vérifiez en premier lieu que votre nom d’utilisateur et votre mot de passe soient corrects. Si le support de la COPPA est activé et que vous avez spécifié avoir en dessous de 13 ans pendant l’inscription, vous devrez suivre les instructions que vous avez reçues. Certains forums exigeront également que les nouvelles inscriptions doivent être activées, soit par vous-même ou soit par un administrateur, avant que vous puissiez ouvrir une session ; cette information était présente lors de votre inscription. Si vous aviez reçu un courriel, consultez les instructions. Si vous ne recevez pas de courriel, vous avez probablement spécifié une mauvaise adresse de courriel ou le courriel a été filtré en tant que pourriel. Si vous êtes certain que l’adresse de courriel que vous avez spécifiée était correcte, essayez de contacter un administrateur du forum.'
 	),
 	array(
 		0 => 'Pourquoi ne puis-je pas me connecter ?',
@@ -83,7 +83,7 @@ $help = array(
 	),
 	array(
 		0 => 'Comment puis-je masquer mon nom d’utilisateur de la liste des utilisateurs en ligne ?',
-		1 => 'Dans le panneau de contrôle de l’utilisateur, sous les « Préférences du forum », vous trouverez l’option <em>Masquer mon statut en ligne</em>. Si vous activez cette option, vous ne serez visible que des administrateurs, des modérateurs et de vous-même. Vous serez alors comptabilisé(e) comme étant un utilisateur invisible.'
+		1 => 'Dans le panneau de contrôle de l’utilisateur, sous les « Préférences du forum », vous trouverez l’option <em>Masquer mon statut en ligne</em>. Si vous activez cette option, vous ne serez visible que des administrateurs, des modérateurs et de vous-même. Vous serez alors comptabilisé comme étant un utilisateur invisible.'
 	),
 	array(
 		0 => 'L’heure n’est pas correcte !',
@@ -91,7 +91,7 @@ $help = array(
 	),
 	array(
 		0 => 'J’ai réglé le fuseau horaire mais l’heure n’est toujours pas correcte !',
-		1 => 'Si vous êtes certain(e) d’avoir correctement réglé le fuseau horaire mais que l’heure n’est toujours pas correcte, il est probable que l’horloge du serveur soit erronée. Veuillez contacter un administrateur afin de lui communiquer ce problème.'
+		1 => 'Si vous êtes certain d’avoir correctement réglé le fuseau horaire mais que l’heure n’est toujours pas correcte, il est probable que l’horloge du serveur soit erronée. Veuillez contacter un administrateur afin de lui communiquer ce problème.'
 	),
 	array(
 		0 => 'Ma langue n’apparaît pas dans la liste !',
@@ -236,7 +236,7 @@ $help = array(
 	),
 	array(
 		0 => 'Comment puis-je devenir le responsable d’un groupe d’utilisateurs ?',
-		1 => 'Le responsable d’un groupe d’utilisateurs est généralement assigné lorsque les groupes d’utilisateurs sont initialement créés par un administrateur du forum. Si vous êtes intéressé(e) par la création d’un groupe d’utilisateurs, votre premier contact devrait être un administrateur. Essayez de le contacter en lui envoyant un message privé.',
+		1 => 'Le responsable d’un groupe d’utilisateurs est généralement assigné lorsque les groupes d’utilisateurs sont initialement créés par un administrateur du forum. Si vous êtes intéressé par la création d’un groupe d’utilisateurs, votre premier contact devrait être un administrateur. Essayez de le contacter en lui envoyant un message privé.',
 	),
 	array(
 		0 => 'Pourquoi certains groupes d’utilisateurs apparaissent dans une couleur différente ?',
@@ -256,7 +256,7 @@ $help = array(
 	),
 	array(
 		0 => 'Je ne peux pas envoyer de messages privés !',
-		1 => 'Soit vous n’êtes pas inscrit(e) et connecté(e), soit un administrateur a désactivé entièrement la messagerie privée sur le forum, soit un administrateur ou un modérateur a décidé de vous empêcher d’envoyer des messages privés. Pour plus d’informations, veuillez contacter un administrateur du forum.'
+		1 => 'Soit vous n’êtes pas inscrit et connecté, soit un administrateur a désactivé entièrement la messagerie privée sur le forum, soit un administrateur ou un modérateur a décidé de vous empêcher d’envoyer des messages privés. Pour plus d’informations, veuillez contacter un administrateur du forum.'
 	),
 	array(
 		0 => 'Je continue à recevoir des messages privés non sollicités !',
@@ -316,7 +316,7 @@ $help = array(
 	),
 	array(
 		0 => 'Comment puis-je m’abonner à un forum spécifique ?',
-		1 => 'Vous pouvez vous abonner à un forum spécifique en cliquant sur le lien « S’abonner au forum » situé en bas de la page du forum auquel vous êtes intéressé(e).',
+		1 => 'Vous pouvez vous abonner à un forum spécifique en cliquant sur le lien « S’abonner au forum » situé en bas de la page du forum auquel vous êtes intéressé.',
 	),
 	array(
 		0 => 'Comment puis-je résilier mes abonnements ?',
@@ -328,7 +328,7 @@ $help = array(
 	),
 	array(
 		0 => 'Quelles pièces jointes sont autorisées sur ce forum ?',
-		1 => 'Chaque administrateur peut autoriser ou interdire certains types de pièces jointes. Si vous n’êtes pas certain(e) de savoir ce qui est autorisé ou non, nous vous invitons à contacter un administrateur du forum.'
+		1 => 'Chaque administrateur peut autoriser ou interdire certains types de pièces jointes. Si vous n’êtes pas certain de savoir ce qui est autorisé ou non, nous vous invitons à contacter un administrateur du forum.'
 	),
 	array(
 		0 => 'Comment puis-je retrouver toutes mes pièces jointes ?',
