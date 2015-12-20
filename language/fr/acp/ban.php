@@ -71,8 +71,8 @@ $lang = array_merge($lang, array(
 
 	'LENGTH_BAN_INVALID'		=> 'La date doit être au format <kbd>AAAA-MM-JJ</kbd>.',
 
-	'OPTIONS_BANNED'			=> 'Banni(e)',
-	'OPTIONS_EXCLUDED'			=> 'Exclu(e)',
+	'OPTIONS_BANNED'			=> 'Banni',
+	'OPTIONS_EXCLUDED'			=> 'Exclu',
 
 	'PERMANENT'		=> 'Permanent',
 

@@ -147,7 +147,7 @@ $lang = array_merge($lang, array(
 
 	'REMOVE_ALLOWED_IPS'			=> 'Supprimer ou lever l’exclusion des adresses IP ou des noms d’hôtes <em>autorisés</em>',
 	'REMOVE_DISALLOWED_IPS'			=> 'Supprimer ou lever l’exclusion des adresses IP ou des noms d’hôtes <em>interdits</em>',
-	'RESYNC_FILES_STATS_CONFIRM'	=> 'Êtes-vous sûr(e) de vouloir resynchroniser les fichiers statistiques ?',
+	'RESYNC_FILES_STATS_CONFIRM'	=> 'Êtes-vous sûr de vouloir resynchroniser les fichiers statistiques ?',
 
 	'SEARCH_IMAGICK'				=> 'Rechercher ImageMagick',
 	'SECURE_ALLOW_DENY'				=> 'Comportement des téléchargements sécurisés',
