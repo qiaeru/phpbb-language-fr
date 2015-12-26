@@ -40,7 +40,7 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'CAPTCHA_QA'				=> 'Q&amp;R',
-	'CONFIRM_QUESTION_EXPLAIN'	=> 'Cette question est un moyen de prévention luttant contre l’envoi de formulaires par des robots indésirables.',
+	'CONFIRM_QUESTION_EXPLAIN'	=> 'Cette question est un moyen de lutter contre les publications automatisées indésirables.',
 	'CONFIRM_QUESTION_WRONG'	=> 'Vous n’avez pas répondu correctement à la question.',
 
 	'QUESTION_ANSWERS'			=> 'Réponses',
@@ -55,12 +55,12 @@ $lang = array_merge($lang, array(
 	'QUESTION_LANG'				=> 'Langue',
 	'QUESTION_LANG_EXPLAIN'		=> 'La langue dans laquelle cette question et ses réponses sont rédigées.',
 	'QUESTION_STRICT'			=> 'Vérification stricte',
-	'QUESTION_STRICT_EXPLAIN'	=> 'Activez cette option afin de prendre en compte les majuscules et minuscules, les signes de ponctuation et les espaces.',
+	'QUESTION_STRICT_EXPLAIN'	=> 'Activez cette option afin de prendre en compte la sensibilité à la casse, les signes de ponctuation et les espaces.',
 
 	'QUESTION_TEXT'				=> 'Question',
 	'QUESTION_TEXT_EXPLAIN'		=> 'La question qui sera affichée aux utilisateurs.',
 
-	'QA_ERROR_MSG'				=> 'Veuillez remplir tous les champs et saisir au moins une réponse.',
+	'QA_ERROR_MSG'				=> 'Veuillez compléter tous les champs et saisir au moins une réponse.',
 	'QA_LAST_QUESTION'			=> 'Vous ne pouvez pas supprimer toutes les questions lorsque le module d’extension est actif.',
 
 ));

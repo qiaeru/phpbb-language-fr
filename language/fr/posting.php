@@ -39,7 +39,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ADD_ATTACHMENT'			=> 'Transférer une pièce jointe',
+	'ADD_ATTACHMENT'			=> 'Insérer une pièce jointe',
 	'ADD_ATTACHMENT_EXPLAIN'	=> 'Si vous souhaitez insérer un ou plusieurs fichiers, veuillez compléter les informations demandées ci-dessous.',
 	'ADD_FILE'					=> 'Ajouter le fichier',
 	'ADD_POLL'					=> 'Créer un sondage',
@@ -134,7 +134,7 @@ $lang = array_merge($lang, array(
 
 	'IMAGES_ARE_OFF'			=> 'La balise [img] est <em>désactivée</em>',
 	'IMAGES_ARE_ON'				=> 'La balise [img] est <em>activée</em>',
-	'INVALID_FILENAME'			=> '%s est un nom de fichier incorrect.',
+	'INVALID_FILENAME'			=> '%s est un nom de fichier invalide.',
 
 	'LOAD'						=> 'Charger',
 	'LOAD_DRAFT'				=> 'Charger un brouillon',
@@ -207,7 +207,7 @@ $lang = array_merge($lang, array(
 	'POSTED_ATTACHMENTS'		=> 'Pièces jointes transférées',
 	'POST_APPROVAL_NOTIFY'		=> 'Une notification vous sera envoyé lorsque votre message sera approuvé.',
 	'POST_CONFIRMATION'			=> 'Confirmation du message',
-	'POST_CONFIRM_EXPLAIN'		=> 'Pour éviter la publication de messages automatisés, vous devez saisir un code de confirmation. Le code est affiché dans l’image que vous devriez apercevoir ci-dessous. Si vous êtes visuellement déficient ou que vous éprouvez des difficultés à lire ce code correctement, veuillez contacter l’%sadministrateur du forum%s.',
+	'POST_CONFIRM_EXPLAIN'		=> 'Pour éviter la publication de messages automatisés, vous devez saisir un code de confirmation. Le code est affiché dans l’image que vous devriez apercevoir ci-dessous. Si vous êtes visuellement déficient ou que vous éprouvez des difficultés à lire ce code correctement, veuillez contacter un %sadministrateur du forum%s.',
 	'POST_DELETED'				=> 'Le message a été supprimé.',
 	'POST_EDITED'				=> 'Le message a été édité.',
 	'POST_EDITED_MOD'			=> 'Le message a été édité mais il doit être approuvé par un modérateur afin d’être visible publiquement.',
@@ -265,7 +265,7 @@ $lang = array_merge($lang, array(
 	'UNSUPPORTED_CHARACTERS_MESSAGE'	=> 'Votre message contient les caractères non supportés suivants :<br />%s',
 	'UNSUPPORTED_CHARACTERS_SUBJECT'	=> 'Votre sujet contient les caractères non supportés suivants :<br />%s',
 	'UPDATE_COMMENT'			=> 'Mettre à jour la description',
-	'URL_INVALID'				=> 'Le lien que vous avez spécifié est incorrect.',
+	'URL_INVALID'				=> 'Le lien que vous avez spécifié est invalide.',
 	'URL_NOT_FOUND'				=> 'Le fichier que vous avez spécifié est introuvable.',
 	'URL_IS_OFF'				=> 'La balise [url] est <em>désactivée</em>',
 	'URL_IS_ON'					=> 'La balise [url] est <em>activée</em>',
@@ -275,9 +275,9 @@ $lang = array_merge($lang, array(
 	'USER_CANNOT_REPLY'			=> 'Vous ne pouvez pas répondre aux messages de ce forum.',
 	'USER_CANNOT_FORUM_POST'	=> 'Vous ne pouvez pas publier de messages dans ce type de forum.',
 
-	'VIEW_MESSAGE'				=> '%sConsulter le message que vous avez envoyé%s',
-	'VIEW_PRIVATE_MESSAGE'		=> '%sConsulter le message privé que vous avez envoyé%s',
+	'VIEW_MESSAGE'				=> '%sConsulter le message%s',
+	'VIEW_PRIVATE_MESSAGE'		=> '%sConsulter le message privé%s',
 
 	'WRONG_FILESIZE'			=> 'Le fichier est trop lourd, la taille maximale autorisée est de %1$d %2$s.',
-	'WRONG_SIZE'				=> 'La taille de l’image doit mesurer moins de %1$s de large et %2$s de haut et plus de %3$s de large et %4$s de haut. L’image que vous avez envoyée mesure %5$s de large et %6$s de haut.',
+	'WRONG_SIZE'				=> 'La taille de l’image doit mesurer moins de %1$s de large et %2$s de haut et plus de %3$s de large et %4$s de haut. Votre image mesure %5$s de large et %6$s de haut.',
 ));

@@ -227,9 +227,9 @@ $lang = array_merge($lang, array(
 	'ACC_ACTIVATION_EXPLAIN'		=> 'Détermine quels sont les utilisateurs qui bénéficieront d’un accès immédiat au forum ou si une confirmation leur sera demandée. Vous pouvez également désactiver entièrement les nouvelles inscriptions. <em>« L’envoi de courriels depuis le forum » doit être activé afin d’être en mesure de pouvoir utiliser l’activation par un administrateur ou par l’utilisateur lui-même.</em>',
 	'ACC_ACTIVATION_WARNING'		=> 'Veuillez noter que la méthode d’activation actuellement sélectionnée nécessite l’activation de la messagerie électronique, sinon l’inscription sera désactivée. Nous vous recommandons de soit activer la messagerie électronique, soit de sélectionner une autre méthode d’activation.',
 	'NEW_MEMBER_POST_LIMIT'			=> 'Limite de messages des nouveaux membres',
-	'NEW_MEMBER_POST_LIMIT_EXPLAIN'	=> 'Les nouveaux membres seront membres du groupe des <em>Utilisateurs inscrits récemment</em> jusqu’à ce qu’ils atteignent ce nombre de messages. Vous pouvez utiliser ce groupe afin d’empêcher ses membres à utiliser les fonctionnalités de la messagerie privée ou de contrôler leurs messages. <strong>Réglez cette valeur sur 0 afin de désactiver cette fonctionnalité.</strong>',
-	'NEW_MEMBER_GROUP_DEFAULT'		=> 'Instaurer le groupe des utilisateurs inscrits récemment en tant que groupe par défaut',
-	'NEW_MEMBER_GROUP_DEFAULT_EXPLAIN'	=> 'Si cette option est activée et qu’une nouvelle limite de messages des nouveaux membres est spécifiée, les nouveaux utilisateurs inscrits récemment ne seront pas uniquement membres du groupe des <em>Utilisateurs inscrits récemment</em> mais ce groupe sera également leur groupe par défaut. Cela peut être utile si vous souhaitez attribuer un rang ou un avatar par défaut afin que tous les utilisateurs en bénéficient.',
+	'NEW_MEMBER_POST_LIMIT_EXPLAIN'	=> 'Les nouveaux membres seront membres du groupe des <em>Utilisateurs nouvellement inscrits</em> jusqu’à ce qu’ils atteignent ce nombre de messages. Vous pouvez utiliser ce groupe afin d’empêcher ses membres à utiliser les fonctionnalités de la messagerie privée ou de contrôler leurs messages. <strong>Réglez cette valeur sur 0 afin de désactiver cette fonctionnalité.</strong>',
+	'NEW_MEMBER_GROUP_DEFAULT'		=> 'Instaurer le groupe des utilisateurs nouvellement inscrits en tant que groupe par défaut',
+	'NEW_MEMBER_GROUP_DEFAULT_EXPLAIN'	=> 'Si cette option est activée et qu’une nouvelle limite de messages des nouveaux membres est spécifiée, les utilisateurs nouvellement inscrits ne seront pas uniquement membres du groupe des <em>Utilisateurs nouvellement inscrits</em>, mais ce groupe sera également leur groupe par défaut. Cela peut être utile si vous souhaitez attribuer un rang ou un avatar par défaut afin que tous les utilisateurs en bénéficient.',
 
 	'ACC_ADMIN'					=> 'Par un administrateur',
 	'ACC_DISABLE'				=> 'Désactiver les inscriptions',
@@ -334,7 +334,7 @@ $lang = array_merge($lang, array(
 	'CAPTCHA_SELECT'						=> 'Modules d’extension installés',
 	'CAPTCHA_SELECT_EXPLAIN'				=> 'La liste déroulante contient les modules d’extension reconnus par le forum. Les éléments grisés correspondent aux modules d’extension qui ne sont pas encore disponibles et qui peuvent nécessiter une configuration avant leur utilisation.',
 	'CAPTCHA_CONFIGURE'						=> 'Configurer les modules d’extension',
-	'CAPTCHA_CONFIGURE_EXPLAIN'				=> 'Vous permet de configurer le module d’extension que vous avez sélectionné dans la liste déroulante.',
+	'CAPTCHA_CONFIGURE_EXPLAIN'				=> 'Vous permet de configurer le module d’extension sélectionné dans la liste déroulante.',
 	'CONFIGURE'								=> 'Configurer',
 	'CAPTCHA_NO_OPTIONS'					=> 'Ce module d’extension n’a aucune option de configuration.',
 
@@ -418,7 +418,7 @@ $lang = array_merge($lang, array(
 
 // Auth settings
 $lang = array_merge($lang, array(
-	'ACP_AUTH_SETTINGS_EXPLAIN'	=> 'Les modules d’extension d’authentification vous permettent de déterminer la manière dont les utilisateurs s’authentifient lors de leur connexion au forum. Quatre modules sont fournis par défaut : la base de données (DB), LDAP, Apache et OAuth. Toutes les méthodes d’authentification ne nécessitent pas forcément d’informations complémentaires, ne remplissez que les champs utiles à la méthode que vous avez sélectionnée.',
+	'ACP_AUTH_SETTINGS_EXPLAIN'	=> 'Les modules d’extension d’authentification vous permettent de déterminer la manière dont les utilisateurs s’authentifient lors de leur connexion au forum. Quatre modules sont fournis par défaut : la base de données (DB), LDAP, Apache et OAuth. Toutes les méthodes d’authentification ne nécessitent pas forcément d’informations complémentaires, ne remplissez que les champs utiles à la méthode sélectionnée.',
 
 	'AUTH_METHOD'				=> 'Sélectionner une méthode d’authentification',
 
@@ -454,7 +454,7 @@ $lang = array_merge($lang, array(
 
 // Server Settings
 $lang = array_merge($lang, array(
-	'ACP_SERVER_SETTINGS_EXPLAIN'	=> 'Vous pouvez effectuer sur cette page les réglages relatifs au serveur et au domaine. Veuillez vous assurer de la validité des données présentes ci-dessous car vos courriels pourraient contenir des informations erronées si des données incorrectes étaient présentes. Lorsque vous saisissez le nom de domaine, n’oubliez pas d’inclure son protocole, tel que http://. Ne modifiez le port que si votre serveur fonctionne sous un port différent dont vous avez connaissance, mais sachez néanmoins que le port 80 est correct dans la plupart des cas.',
+	'ACP_SERVER_SETTINGS_EXPLAIN'	=> 'Vous pouvez effectuer sur cette page les réglages relatifs au serveur et au domaine. Veuillez vous assurer de la validité des données présentes ci-dessous car vos courriels pourraient contenir des informations erronées si des données invalides étaient présentes. Lorsque vous saisissez le nom de domaine, n’oubliez pas d’inclure son protocole, tel que http://. Ne modifiez le port que si votre serveur fonctionne sous un port différent dont vous avez connaissance, mais sachez néanmoins que le port 80 est correct dans la plupart des cas.',
 
 	'ENABLE_GZIP'				=> 'Activer la compression GZip',
 	'ENABLE_GZIP_EXPLAIN'		=> 'Le contenu généré sera compressé avant d’être envoyé aux utilisateurs. Cela peut réduire le trafic du réseau mais augmentera en contrepartie l’utilisation du processeur de votre serveur et de vos utilisateurs. L’extension zlib de PHP doit être chargée afin que la compression fonctionne.',
@@ -508,7 +508,7 @@ $lang = array_merge($lang, array(
 	'FORCE_PASS_CHANGE'				=> 'Forcer la modification du mot de passe',
 	'FORCE_PASS_CHANGE_EXPLAIN'		=> 'Les utilisateurs devront modifier leur mot de passe après que le nombre de jours saisi dans ce champ ne soit écoulé. Réglez cette valeur sur 0 afin de désactiver cette fonctionnalité.',
 	'FORM_TIME_MAX'					=> 'Durée maximale de l’envoi des formulaires',
-	'FORM_TIME_MAX_EXPLAIN'			=> 'La durée maximale qu’un utilisateur ne doit pas dépasser afin d’envoyer un formulaire. Réglez cette valeur sur -1 afin de désactiver cette fonctionnalité. Veuillez noter qu’un formulaire peut devenir incorrect si la session d’un utilisateur expire, mais cela ne dépend pas de ce réglage.',
+	'FORM_TIME_MAX_EXPLAIN'			=> 'La durée maximale qu’un utilisateur ne doit pas dépasser afin d’envoyer un formulaire. Réglez cette valeur sur -1 afin de désactiver cette fonctionnalité. Veuillez noter qu’un formulaire peut devenir invalide si la session d’un utilisateur expire, mais cela ne dépend pas de ce réglage.',
 	'FORM_SID_GUESTS'				=> 'Lier les formulaires aux sessions des invités',
 	'FORM_SID_GUESTS_EXPLAIN'		=> 'Si cette option est activée, les formulaires émis aux invités seront exclusifs à leur session. Cela peut cependant entraîner quelques problèmes avec certains fournisseurs d’accès à internet.',
 	'FORWARDED_FOR_VALID'			=> 'Valider l’en-tête <var>X_FORWARDED_FOR</var>',

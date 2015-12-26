@@ -39,7 +39,7 @@ $help = array(
 	),
 	array(
 		0 => 'Pourquoi ai-je besoin de m’inscrire ?',
-		1 => 'Vous n’êtes pas dans l’obligation de le faire, mais l’administrateur du forum peut limiter la publication de messages aux utilisateurs inscrits. En vous inscrivant, vous pouvez également avoir accès à des fonctionnalités supplémentaires qui ne sont pas disponibles aux visiteurs, tels que l’affichage d’avatars personnalisés, l’utilisation de la messagerie privée, l’envoi de courriels aux autres utilisateurs, l’adhésion à un groupe d’utilisateurs, etc. L’inscription ne vous prend qu’un court instant, c’est pourquoi nous vous recommandons de le faire.'
+		1 => 'Vous n’êtes pas dans l’obligation de le faire, mais les administrateurs du forum peuvent limiter la publication de messages aux utilisateurs inscrits. En vous inscrivant, vous pouvez également avoir accès à des fonctionnalités supplémentaires qui ne sont pas disponibles aux visiteurs, tels que l’affichage d’avatars personnalisés, l’utilisation de la messagerie privée, l’envoi de courriels aux autres utilisateurs, l’adhésion à un groupe d’utilisateurs, etc. L’inscription ne vous prend qu’un court instant, c’est pourquoi nous vous recommandons de le faire.'
 	),
 	array(
 		0 => 'Qu’est-ce que la COPPA ?',
@@ -95,7 +95,7 @@ $help = array(
 	),
 	array(
 		0 => 'Ma langue n’apparaît pas dans la liste !',
-		1 => 'Soit l’administrateur n’a pas installé votre langue sur le forum, soit le logiciel n’a pas encore été traduit dans votre langue. Essayez de demander à un administrateur du forum s’il est possible qu’il puisse installer la traduction que vous souhaitez. Si la traduction désirée n’existe pas, vous êtes libre de vous porter volontaire et commencer une nouvelle traduction. Pour plus d’informations, veuillez vous rendre sur le site internet de <a href="https://www.phpbb.com/">phpBB</a>&reg; (en anglais).',
+		1 => 'Soit les administrateurs n’ont pas installé votre langue sur le forum, soit le logiciel n’a pas encore été traduit dans votre langue. Essayez de demander à un administrateur du forum s’il est possible qu’il puisse installer la traduction que vous souhaitez. Si la traduction désirée n’existe pas, vous êtes libre de vous porter volontaire et commencer une nouvelle traduction. Pour plus d’informations, veuillez vous rendre sur le site internet de <a href="https://www.phpbb.com/">phpBB</a>&reg; (en anglais).',
 	),
 	array(
 		0 => 'Que signifient les images situées à côté de mon nom d’utilisateur ?',
@@ -103,7 +103,7 @@ $help = array(
 	),
 	array(
 		0 => 'Comment puis-je afficher un avatar ?',
-		1 => 'Dans le panneau de contrôle de l’utilisateur, sous le « Profil », vous pouvez ajouter un avatar en utilisant une des quatre méthodes suivantes : le service Gravatar, la galerie d’avatars, les images distantes ou le transfert d’images locales. L’administrateur du forum peut choisir d’activer ou non la fonctionnalité des avatars et des méthodes qu’il veut rendre disponible aux utilisateurs. Si vous ne pouvez pas utiliser d’avatars, nous vous invitons à contacter un administrateur du forum.',
+		1 => 'Dans le panneau de contrôle de l’utilisateur, sous le « Profil », vous pouvez ajouter un avatar en utilisant une des quatre méthodes suivantes : le service Gravatar, la galerie d’avatars, les images distantes ou le transfert d’images locales. Les administrateurs du forum peuvent activer ou non la fonctionnalité des avatars et des méthodes qu’ils veuillent rendre disponible aux utilisateurs. Si vous ne pouvez pas utiliser d’avatars, nous vous invitons à contacter un administrateur du forum.',
 	),
 	array(
 		0 => 'Quel est mon rang et comment puis-je le modifier ?',
@@ -111,7 +111,7 @@ $help = array(
 	),
 	array(
 		0 => 'Pourquoi m’est-il demandé de me connecter lorsque je clique sur le lien de courriel d’un utilisateur ?',
-		1 => 'Si l’administrateur a activé cette fonctionnalité, seuls les utilisateurs inscrits peuvent envoyer des courriels aux autres utilisateurs depuis un formulaire dédié. Cela permet d’empêcher une utilisation abusive du système de messagerie électronique par des utilisateurs malveillants ou des robots.'
+		1 => 'Si les administrateurs ont activé cette fonctionnalité, seuls les utilisateurs inscrits peuvent envoyer des courriels aux autres utilisateurs depuis un formulaire dédié. Cela permet d’empêcher une utilisation abusive du système de messagerie électronique par des utilisateurs malveillants ou des robots.'
 	),
 	array(
 		0 => '--',
@@ -135,7 +135,7 @@ $help = array(
 	),
 	array(
 		0 => 'Pourquoi ne puis-je pas ajouter plus d’options à un sondage ?',
-		1 => 'La limite d’options d’un sondage est décidée par l’administrateur du forum. Si le nombre d’options que vous pouvez ajouter à un sondage vous semble trop restreint, essayez de demander à un administrateur du forum s’il est possible de l’augmenter.'
+		1 => 'La limite d’options d’un sondage est décidée par les administrateurs du forum. Si le nombre d’options que vous pouvez ajouter à un sondage vous semble trop restreint, essayez de demander à un administrateur du forum s’il est possible de l’augmenter.'
 	),
 	array(
 		0 => 'Comment puis-je éditer ou supprimer un sondage ?',
@@ -147,15 +147,15 @@ $help = array(
 	),
 	array(
 		0 => 'Pourquoi ne puis-je pas transférer de pièces jointes ?',
-		1 => 'Les permissions permettant de transférer des pièces jointes sont accordées par forum, par groupe ou par utilisateur. L’administrateur du forum n’a peut-être pas autorisé le transfert de pièces jointes dans le forum concerné, ou seuls certains groupes d’utilisateurs détiennent cette autorisation. Pour plus d’informations, veuillez contacter un administrateur du forum.'
+		1 => 'Les permissions permettant de transférer des pièces jointes sont accordées par forum, par groupe ou par utilisateur. Les administrateurs du forum ont peut-être désactivé le transfert de pièces jointes dans le forum concerné, ou seuls certains groupes d’utilisateurs détiennent cette autorisation. Pour plus d’informations, veuillez contacter un administrateur du forum.'
 	),
 	array(
 		0 => 'Pourquoi ai-je reçu un avertissement ?',
-		1 => 'Chaque forum a son propre ensemble de règles. Si vous ne respectez pas une de ces règles, vous recevrez un avertissement. Veuillez noter que cette décision n’appartient qu’à l’administrateur du forum concerné, phpBB Limited n’est en aucun cas responsable de ce qui est appliqué ou non. Pour plus d’informations, veuillez contacter un administrateur du forum.'
+		1 => 'Chaque forum a son propre ensemble de règles. Si vous ne respectez pas une de ces règles, vous recevrez un avertissement. Veuillez noter que cette décision n’appartient qu’aux administrateurs du forum, phpBB Limited n’est en aucun cas responsable du règlement instauré sur cet espace. Pour plus d’informations, veuillez contacter un administrateur du forum.'
 	),
 	array(
 		0 => 'Comment puis-je rapporter des messages à un modérateur ?',
-		1 => 'Si l’administrateur du forum a activé cette fonctionnalité, un bouton dédié devrait être affiché à côté du message que vous souhaitez rapporter. En cliquant sur celui-ci, vous trouverez toutes les étapes nécessaires afin de rapporter le message.'
+		1 => 'Si les administrateurs du forum ont activé cette fonctionnalité, un bouton dédié devrait être affiché à côté du message que vous souhaitez rapporter. En cliquant sur celui-ci, vous trouverez toutes les étapes nécessaires afin de rapporter le message.'
 	),
 	array(
 		0 => 'À quoi sert le bouton « Enregistrer comme brouillon » affiché lors de la rédaction d’un sujet ?',
@@ -163,7 +163,7 @@ $help = array(
 	),
 	array(
 		0 => 'Pourquoi mon message a-t-il besoin d’être approuvé ?',
-		1 => 'L’administrateur du forum peut décider de soumettre à des vérifications les messages que vous rédigez sur le forum. Il est également possible que l’administrateur vous ait placé dans un groupe d’utilisateurs restreint si ce dernier le juge nécessaire. Pour plus d’informations, veuillez contacter un administrateur du forum.'
+		1 => 'Les administrateurs du forum peuvent décider de soumettre à des vérifications les messages que vous rédigez sur le forum. Il est également possible que vous ayez été placé dans un groupe d’utilisateurs aux permissions limitées. Pour plus d’informations, veuillez contacter un administrateur du forum.'
 	),
 	array(
 		0 => 'Comment puis-je remonter mes sujets ?',
@@ -175,7 +175,7 @@ $help = array(
 	),
 	array(
 		0 => 'Qu’est-ce que le BBCode ?',
-		1 => 'Le BBCode est une implémentation spéciale du code HTML, vous offrant un meilleur contrôle sur la mise en forme d’un message. L’utilisation du BBCode est déterminée par l’administrateur mais il vous est également possible de la désactiver sur chaque message depuis le formulaire de rédaction. Le BBCode est similaire à l’architecture du code HTML, les balises sont contenues entre des crochets [ et ] à la place de &lt; et &gt;. Pour plus d’informations à propos du BBCode, veuillez consulter le guide qui est accessible depuis la page de rédaction.'
+		1 => 'Le BBCode est une implémentation spéciale du code HTML, vous offrant un meilleur contrôle sur la mise en forme d’un message. L’utilisation du BBCode est déterminée par les administrateurs, mais il vous est également possible de la désactiver sur chaque message depuis le formulaire de rédaction. Le BBCode est similaire à l’architecture du code HTML, les balises sont contenues entre des crochets [ et ] à la place de &lt; et &gt;. Pour plus d’informations à propos du BBCode, veuillez consulter le guide qui est accessible depuis la page de rédaction.'
 	),
 	array(
 		0 => 'Puis-je insérer du code HTML ?',
@@ -183,31 +183,31 @@ $help = array(
 	),
 	array(
 		0 => 'Que sont les émoticônes ?',
-		1 => 'Les émoticônes sont de petites images qui peuvent être utilisées grâce à un code court et qui permettent d’exprimer des sentiments. Par exemple, « :) » exprime la joie, alors qu’au contraire, « :( » exprime la tristesse. Vous pouvez consulter la liste complète des émoticônes depuis le formulaire de rédaction. Essayez cependant de ne pas abuser des émoticônes, elles peuvent rapidement rendre un message illisible et un modérateur pourrait décider de l’éditer ou de le supprimer complètement. L’administrateur du forum peut également limiter le nombre d’émoticônes qui peuvent être insérées à un message.'
+		1 => 'Les émoticônes sont de petites images qui peuvent être utilisées grâce à un code court et qui permettent d’exprimer des sentiments. Par exemple, « :) » exprime la joie, alors qu’au contraire, « :( » exprime la tristesse. Vous pouvez consulter la liste complète des émoticônes depuis le formulaire de rédaction. Essayez cependant de ne pas abuser des émoticônes, elles peuvent rapidement rendre un message illisible et un modérateur pourrait décider de l’éditer ou de le supprimer complètement. Les administrateurs du forum peuvent également limiter le nombre d’émoticônes qu’il est possible d’insérer à un message.'
 	),
 	array(
 		0 => 'Puis-je insérer des images ?',
-		1 => 'Oui, vous pouvez insérer des images à vos messages. Si l’administrateur du forum a autorisé l’insertion de pièces jointes, vous pourrez transférer des images sur le forum. Dans le cas contraire, vous devrez insérer un lien pointant vers une image distante, hébergée sur un serveur internet public, comme par exemple http://www.exemple.com/mon-image.gif. Vous ne pourrez cependant ni insérer de lien pointant vers des images présentes sur votre propre ordinateur (à moins, bien évidemment, que celui-ci soit en lui-même un serveur internet), ni insérer de lien pointant vers des images hébergées derrière un quelconque système d’authentification, comme par exemple les services de messagerie électronique de Outlook ou de Yahoo, les sites protégés par un mot de passe, etc. Pour insérer une image, utilisez la balise BBCode [img].'
+		1 => 'Oui, vous pouvez insérer des images à vos messages. Si les administrateurs du forum ont autorisé l’insertion de pièces jointes, vous pourrez transférer des images sur le forum. Dans le cas contraire, vous devrez insérer un lien pointant vers une image distante, hébergée sur un serveur internet public, comme par exemple http://www.exemple.com/mon-image.gif. Vous ne pourrez cependant ni insérer de lien pointant vers des images présentes sur votre propre ordinateur (à moins, bien évidemment, que celui-ci soit en lui-même un serveur internet), ni insérer de lien pointant vers des images hébergées derrière un quelconque système d’authentification, comme par exemple les services de messagerie électronique de Outlook ou de Yahoo, les sites protégés par un mot de passe, etc. Pour insérer une image, utilisez la balise BBCode [img].'
 	),
 	array(
 		0 => 'Que sont les annonces générales ?',
-		1 => 'Les annonces générales contiennent des informations très importantes que vous devriez consulter en priorité. Elles apparaissent en haut de chaque forum et dans le panneau de contrôle de l’utilisateur. Les permissions concernant les annonces générales sont définies par l’administrateur du forum.'
+		1 => 'Les annonces générales contiennent des informations très importantes que vous devriez consulter en priorité. Elles apparaissent en haut de chaque forum et dans le panneau de contrôle de l’utilisateur. Les permissions concernant les annonces générales sont définies par les administrateurs du forum.'
 	),
 	array(
 		0 => 'Que sont les annonces ?',
-		1 => 'Les annonces contiennent souvent des informations importantes sur le forum dans lequel vous naviguez et vous devriez les consulter en priorité. Les annonces apparaissent en haut de chaque page du forum dans lequel elles ont été publiées. Tout comme les annonces générales, les permissions concernant les annonces sont définies par l’administrateur du forum.'
+		1 => 'Les annonces contiennent souvent des informations importantes sur le forum dans lequel vous naviguez et vous devriez les consulter en priorité. Les annonces apparaissent en haut de chaque page du forum dans lequel elles ont été publiées. Tout comme les annonces générales, les permissions concernant les annonces sont définies par les administrateurs du forum.'
 	),
 	array(
 		0 => 'Que sont les notes ?',
-		1 => 'Les notes apparaissent en dessous des annonces et seulement sur la première page du forum concerné. Elles sont souvent assez importantes et il est recommandé de les consulter dès que vous en avez la possibilité. Tout comme les annonces et les annonces générales, les permissions concernant les notes sont définies par l’administrateur du forum.'
+		1 => 'Les notes apparaissent en dessous des annonces et seulement sur la première page du forum concerné. Elles sont souvent assez importantes et il est recommandé de les consulter dès que vous en avez la possibilité. Tout comme les annonces et les annonces générales, les permissions concernant les notes sont définies par les administrateurs du forum.'
 	),
 	array(
 		0 => 'Que sont les sujets verrouillés ?',
-		1 => 'Les sujets verrouillés sont des sujets dans lesquels les utilisateurs ne peuvent plus répondre et dans lesquels les sondages sont automatiquement expirés. Les sujets peuvent être verrouillés pour de nombreuses raisons par un administrateur ou un modérateur du forum. Vous pouvez également verrouiller vos propres sujets si l’administrateur en a décidé ainsi.'
+		1 => 'Les sujets verrouillés sont des sujets dans lesquels les utilisateurs ne peuvent plus répondre et dans lesquels les sondages sont automatiquement expirés. Les sujets peuvent être verrouillés pour de nombreuses raisons par un administrateur ou un modérateur du forum. Vous pouvez également verrouiller vos propres sujets si les administrateurs ont autorisé cette pratique.'
 	),
 	array(
 		0 => 'Que sont les icônes de sujet ?',
-		1 => 'Les icônes de sujet sont de petites images que l’auteur peut insérer afin d’illustrer le contenu de son sujet. L’administrateur du forum peut avoir désactivé cette fonctionnalité.'
+		1 => 'Les icônes de sujet sont de petites images que l’auteur peut insérer afin d’illustrer le contenu de son sujet. Les administrateurs du forum ont pu désactiver cette fonctionnalité.'
 	),
 	// This block will switch the FAQ-Questions to the second template column
 	array(
@@ -244,7 +244,7 @@ $help = array(
 	),
 	array(
 		0 => 'Qu’est-ce qu’un « groupe d’utilisateurs par défaut » ?',
-		1 => 'Si vous êtes membre de plus d’un groupe d’utilisateurs, votre groupe d’utilisateurs par défaut est utilisé afin de déterminer quelle sera la couleur et le rang qui vous sera assigné par défaut. L’administrateur du forum peut vous donner la permission de modifier vous-même votre groupe d’utilisateurs par défaut depuis le panneau de contrôle de l’utilisateur.'
+		1 => 'Si vous êtes membre de plus d’un groupe d’utilisateurs, votre groupe d’utilisateurs par défaut est utilisé afin de déterminer quelle sera la couleur et le rang qui vous sera assigné par défaut. Les administrateurs du forum peuvent vous autoriser à modifier vous-même votre groupe d’utilisateurs par défaut depuis le panneau de contrôle de l’utilisateur.'
 	),
 	array(
 		0 => 'Qu’est-ce que le lien « L’équipe » ?',
@@ -352,6 +352,6 @@ $help = array(
 	),
 	array(
 		0 => 'Comment puis-je contacter un administrateur du forum ?',
-		1 => 'Tous les utilisateurs du forum peuvent utiliser le formulaire disponible sur le lien « Nous contacter » si cette fonctionnalité a été activée par l’administrateur du forum.<br />Les membres du forum peuvent également utiliser le lien “L’équipe”.',
+		1 => 'Tous les utilisateurs du forum peuvent utiliser le formulaire disponible sur le lien « Nous contacter » si cette fonctionnalité a été activée par les administrateurs du forum.<br />Les membres du forum peuvent également utiliser le lien “L’équipe”.',
 	),
 );

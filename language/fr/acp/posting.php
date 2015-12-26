@@ -57,7 +57,7 @@ $lang = array_merge($lang, array(
 	'BBCODE_HELPLINE_TOO_LONG'	=> 'La ligne d’aide que vous avez saisie est trop longue.',
 
 	'BBCODE_INVALID_TAG_NAME'	=> 'Le nom de la balise BBCode que vous avez spécifié existe déjà.',
-	'BBCODE_INVALID'			=> 'Votre BBCode est construit dans une architecture incorrecte.',
+	'BBCODE_INVALID'			=> 'Votre BBCode est construit dans une architecture invalide.',
 	'BBCODE_OPEN_ENDED_TAG'		=> 'Votre BBCode personnalisé doit contenir une balise d’ouverture et de fermeture.',
 	'BBCODE_TAG'				=> 'Balise',
 	'BBCODE_TAG_TOO_LONG'		=> 'Le nom de la balise que vous avez spécifié est trop long.',
@@ -201,7 +201,7 @@ $lang = array_merge($lang, array(
 		2	=> 'La limite de %d émoticônes a été atteinte.',
 	),
 
-	'WRONG_PAK_TYPE'	=> 'L’archive que vous avez sélectionnée ne contient pas les données appropriées.',
+	'WRONG_PAK_TYPE'	=> 'L’archive ne contient pas les données appropriées.',
 ));
 
 // Word censors
@@ -212,7 +212,7 @@ $lang = array_merge($lang, array(
 	'EDIT_WORD'		=> 'Éditer la censure de mot',
 	'ENTER_WORD'	=> 'Vous devez saisir un mot et sa substitution.',
 
-	'NO_WORD'	=> 'Aucun mot à éditer n’a été sélectionné.',
+	'NO_WORD'	=> 'Vous n’avez sélectionné aucun mot à éditer.',
 
 	'REPLACEMENT'	=> 'Substitution',
 
@@ -220,8 +220,8 @@ $lang = array_merge($lang, array(
 
 	'WORD'				=> 'Mot',
 	'WORD_ADDED'		=> 'La censure de mot a été ajoutée.',
-	'WORD_REMOVED'		=> 'La censure de mot que vous avez sélectionnée a été supprimée.',
-	'WORD_UPDATED'		=> 'La censure de mot que vous avez sélectionnée a été mise à jour.',
+	'WORD_REMOVED'		=> 'La censure de mot a été supprimée.',
+	'WORD_UPDATED'		=> 'La censure de mot a été mise à jour.',
 ));
 
 // Ranks
@@ -258,8 +258,8 @@ $lang = array_merge($lang, array(
 	'DISALLOWED_DELETED'		=> 'Le nom d’utilisateur interdit a été supprimé.',
 	'DISALLOW_SUCCESSFUL'		=> 'Le nom d’utilisateur interdit a été ajouté.',
 
-	'NO_DISALLOWED'				=> 'Aucun nom d’utilisateur n’a été interdit',
-	'NO_USERNAME_SPECIFIED'		=> 'Aucun nom d’utilisateur permettant d’effectuer cette opération n’a été sélectionné.',
+	'NO_DISALLOWED'				=> 'Vous n’avez interdit aucun nom d’utilisateur',
+	'NO_USERNAME_SPECIFIED'		=> 'Impossible d’effectuer cette opération car vous n’avez sélectionné aucun nom d’utilisateur.',
 ));
 
 // Reasons

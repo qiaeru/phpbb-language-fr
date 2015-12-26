@@ -42,8 +42,8 @@ $lang = array_merge($lang, array(
 	'ABOUT_USER'			=> 'Profil',
 	'ACTIVE_IN_FORUM'		=> 'Forum le plus actif',
 	'ACTIVE_IN_TOPIC'		=> 'Sujet le plus actif',
-	'ADD_FOE'				=> 'Ajouter un ignoré',
-	'ADD_FRIEND'			=> 'Ajouter un ami',
+	'ADD_FOE'				=> 'Ajouter en ignoré',
+	'ADD_FRIEND'			=> 'Ajouter en ami',
 	'AFTER'					=> 'Après',
 
 	'ALL'					=> 'Tous',
@@ -106,8 +106,8 @@ $lang = array_merge($lang, array(
 	'MANAGE_GROUP'			=> 'Gérer le groupe',
 	'MORE_THAN'				=> 'Plus que',
 
-	'NO_CONTACT_FORM'		=> 'Le formulaire de contact de l’administrateur du forum a été désactivé.',
-	'NO_CONTACT_PAGE'		=> 'La page de contact de l’administrateur du forum a été désactivée.',
+	'NO_CONTACT_FORM'		=> 'Le formulaire de contact des administrateurs du forum a été désactivé.',
+	'NO_CONTACT_PAGE'		=> 'La page de contact des administrateurs du forum a été désactivée.',
 	'NO_EMAIL'				=> 'Vous ne pouvez pas envoyer de courriel à cet utilisateur.',
 	'NO_VIEW_USERS'			=> 'Vous ne pouvez pas consulter la liste des membres et le profil des utilisateurs.',
 
@@ -118,8 +118,8 @@ $lang = array_merge($lang, array(
 
 	'REAL_NAME'				=> 'Nom du destinataire',
 	'RECIPIENT'				=> 'Destinataire',
-	'REMOVE_FOE'			=> 'Retirer un ignoré',
-	'REMOVE_FRIEND'			=> 'Retirer un ami',
+	'REMOVE_FOE'			=> 'Retirer des personnes ignorées',
+	'REMOVE_FRIEND'			=> 'Retirer de mes amis',
 
 	'SELECT_MARKED'			=> 'Sélectionner la sélection',
 	'SELECT_SORT_METHOD'	=> 'Sélectionner la méthode de tri',

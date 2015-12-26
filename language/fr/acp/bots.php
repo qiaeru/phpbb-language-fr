@@ -66,7 +66,7 @@ $lang = array_merge($lang, array(
 	'BOT_UPDATED'		=> 'Le robot a été mis à jour.',
 
 	'ERR_BOT_AGENT_MATCHES_UA'	=> 'L’agent du robot que vous avez spécifié est identique à celui que vous utilisez actuellement. Veuillez en saisir un autre.',
-	'ERR_BOT_NO_IP'				=> 'Les adresses IP que vous avez spécifiées sont incorrectes ou le nom d’hôte est indisponible.',
+	'ERR_BOT_NO_IP'				=> 'Les adresses IP que vous avez spécifiées sont invalides ou le nom d’hôte est indisponible.',
 	'ERR_BOT_NO_MATCHES'		=> 'Vous devez saisir un agent ou une adresse IP concernant la correspondance de ce robot.',
 
 	'NO_BOT'		=> 'Aucun robot correspondant à l’identification spécifiée n’a été trouvé.',

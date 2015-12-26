@@ -189,7 +189,7 @@ $lang = array_merge($lang, array(
 	'DB_OPTION_SQLITE3'		=> 'SQLite 3',
 
 	// Errors
-	'INST_ERR_NO_DB'				=> 'Impossible de charger le module PHP concernant le type de base de données sélectionné.',
+	'INST_ERR_NO_DB'				=> 'Impossible de charger le module PHP concernant ce type de base de données.',
 	'INST_ERR_DB_INVALID_PREFIX'	=> 'Le préfixe saisi n’est pas valide. Il doit démarrer avec une lettre et ne doit être composé que de lettres, de nombres et de tirets bas.',
 	'INST_ERR_PREFIX_TOO_LONG'		=> 'Le préfixe saisi est trop long. Il ne doit pas dépasser %d caractères.',
 	'INST_ERR_DB_NO_NAME'			=> 'Aucun nom de base de données n’a été spécifié.',
@@ -197,11 +197,11 @@ $lang = array_merge($lang, array(
 	'INST_ERR_DB_CONNECT'			=> 'Impossible de se connecter à la base de données. Veuillez consulter le message d’erreur ci-dessous.',
 	'INST_ERR_DB_NO_ERROR'			=> 'Aucun message d’erreur.',
 	'INST_ERR_PREFIX'				=> 'Des tables contenant le préfixe spécifié existent déjà. Veuillez en choisir un autre.',
-	'INST_ERR_DB_NO_MYSQLI'			=> 'La version de MySQL installée sur votre serveur est incompatible avec l’option « MySQL avec l’extension MySQLi » que vous avez sélectionnée. Veuillez plutôt essayer de sélectionner l’option « MySQL ».',
+	'INST_ERR_DB_NO_MYSQLI'			=> 'La version de MySQL installée sur votre serveur est incompatible avec l’option « MySQL avec l’extension MySQLi » sélectionnée. Veuillez plutôt essayer de sélectionner l’option « MySQL ».',
 	'INST_ERR_DB_NO_SQLITE'			=> 'La version de l’extension SQLite installée sur votre serveur est obsolète. Elle doit être mise à jour vers la version 2.8.2 ou supérieure.',
 	'INST_ERR_DB_NO_SQLITE3'		=> 'La version de l’extension SQLite installée sur votre serveur est obsolète. Elle doit être mise à jour vers la version 3.6.15 ou supérieure.',
 	'INST_ERR_DB_NO_ORACLE'			=> 'La version d’Oracle installée sur votre serveur nécessite que vous régliez le paramètre <var>NLS_CHARACTERSET</var> sur <var>UTF8</var>. Veuillez modifier ce paramètre ou mettre à jour votre version vers la version 9.2 ou supérieure.',
-	'INST_ERR_DB_NO_POSTGRES'		=> 'La base de données que vous avez sélectionnée n’est pas encodée en <var>UNICODE</var> ou en <var>UTF8</var>. Veuillez essayer de sélectionner une base de données supportant un de ces encodages.',
+	'INST_ERR_DB_NO_POSTGRES'		=> 'La base de données sélectionnée n’est pas encodée en <var>UNICODE</var> ou en <var>UTF8</var>. Veuillez essayer de sélectionner une base de données supportant un de ces encodages.',
 
 	//
 	// Email data
@@ -231,7 +231,7 @@ $lang = array_merge($lang, array(
 
 	'RANKS_SITE_ADMIN_TITLE'		=> 'Administrateur',
 	'REPORT_WAREZ'					=> 'Le message rapporté contient du contenu portant atteinte au droit d’auteur, au droit des marques, au secret industriel ou à d’autres législations.',
-	'REPORT_SPAM'					=> 'Le message rapporté contient du contenu publicitaire indésirable visant à promouvoir une marque, un produit, une entreprise ou un site internet.',
+	'REPORT_SPAM'					=> 'Le message rapporté contient du contenu publicitaire indésirable dont le but est de promouvoir une marque, un produit, une entreprise ou un site internet.',
 	'REPORT_OFF_TOPIC'				=> 'Le message rapporté est hors-sujet.',
 	'REPORT_OTHER'					=> 'Le message rapporté ne correspond à aucune catégorie. Veuillez utiliser le champ d’information complémentaire.',
 

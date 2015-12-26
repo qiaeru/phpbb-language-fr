@@ -104,7 +104,7 @@ $help = array(
 	),
 	array(
 		0 => 'Transfert de pièces jointes dans un message',
-		1 => 'Les pièces jointes peuvent dès à présent être transférées dans les messages en utilisant le nouveau BBCode <strong>[attachment=][/attachment]</strong>, si cette fonctionnalité a été activée par l’administrateur du forum et si vous en avez les permissions appropriées. Pour transférer des pièces jointes en ligne, un onglet à cet effet est affiché en bas de l’écran de rédaction.'
+		1 => 'Les pièces jointes peuvent dès à présent être transférées dans les messages en utilisant le nouveau BBCode <strong>[attachment=][/attachment]</strong>, si cette fonctionnalité a été activée par les administrateurs du forum et si vous en avez l’autorisation. Pour transférer des pièces jointes en ligne, un onglet à cet effet est affiché en bas de l’écran de rédaction.'
 	),
 	array(
 		0 => '--',

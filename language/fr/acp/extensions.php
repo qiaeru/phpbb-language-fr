@@ -41,10 +41,10 @@ $lang = array_merge($lang, array(
 	'EXTENSIONS'				=> 'Extensions',
 	'EXTENSIONS_ADMIN'			=> 'Gestionnaire des extensions',
 	'EXTENSIONS_EXPLAIN'		=> 'Le gestionnaire des extensions est un outil vous permettant de gérer tous les statuts de vos extensions et consulter leurs informations.',
-	'EXTENSION_INVALID_LIST'	=> 'L’extension « %s » est incorrecte.<br />%s<br /><br />',
-	'EXTENSION_NOT_AVAILABLE'	=> 'L’extension que vous avez sélectionnée n’est pas disponible sur ce forum. Veuillez vérifier la compatibilité de vos versions de phpBB et de PHP.',
-	'EXTENSION_DIR_INVALID'		=> 'L’extension que vous avez sélectionnée est construite avec une structure de répertoire incorrecte et ne peut donc pas être activée.',
-	'EXTENSION_NOT_ENABLEABLE'	=> 'L’extension que vous avez sélectionnée ne peut pas être activée. Veuillez vérifier les prérequis de l’extension.',
+	'EXTENSION_INVALID_LIST'	=> 'L’extension « %s » est invalide.<br />%s<br /><br />',
+	'EXTENSION_NOT_AVAILABLE'	=> 'Cette extension n’est pas disponible sur ce forum. Veuillez vérifier la compatibilité de vos versions de phpBB et de PHP.',
+	'EXTENSION_DIR_INVALID'		=> 'Cette extension est construite avec une structure de répertoire invalide et ne peut donc pas être activée.',
+	'EXTENSION_NOT_ENABLEABLE'	=> 'Cette extension ne peut pas être activée. Veuillez vérifier les prérequis de l’extension.',
 
 	'DETAILS'				=> 'Informations',
 
@@ -130,5 +130,5 @@ $lang = array_merge($lang, array(
 	'BROWSE_EXTENSIONS_DATABASE'		=> 'Accéder à la base de données des extensions',
 
 	'META_FIELD_NOT_SET'	=> 'Le méta-champ %s est obligatoire et doit être réglé.',
-	'META_FIELD_INVALID'	=> 'Le méta-champ %s est incorrect.',
+	'META_FIELD_INVALID'	=> 'Le méta-champ %s est invalide.',
 ));

@@ -33,7 +33,7 @@ Date : _______________
 ------------------------------ COUPEZ ICI ------------------------------
 
 
-Une fois que l’administrateur aura reçu le texte ci-dessus par courriel, télécopie ou courrier postal, votre compte sera activé.
+Une fois qu’un administrateur aura reçu le texte ci-dessus par courriel, télécopie ou courrier postal, votre compte sera activé.
 
 Votre mot de passe a été stocké en toute sécurité dans notre base de données et ne pourra pas être retrouvé. Dans le cas où vous l’oubliez, vous pourrez le réinitialiser en utilisant l’adresse de courriel associée à votre compte.
 

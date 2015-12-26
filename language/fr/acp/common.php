@@ -371,7 +371,7 @@ $lang = array_merge($lang, array(
 
 	'GZIP_COMPRESSION'	=> 'Compression GZip',
 
-	'NO_SEARCH_INDEX'	=> 'La méthode d’indexation de la recherche que vous avez sélectionnée n’est pas associée à un index de recherche.<br />Veuillez créer l’index associé à « %1$s » dans la section %2$sIndex de recherche%3$s.',
+	'NO_SEARCH_INDEX'	=> 'La méthode d’indexation de la recherche sélectionnée n’est pas associée à un index de recherche.<br />Veuillez créer l’index associé à « %1$s » dans la section %2$sIndex de recherche%3$s.',
 	'NOT_AVAILABLE'		=> 'Non disponible',
 	'NUMBER_FILES'		=> 'Nombre de pièces jointes',
 	'NUMBER_POSTS'		=> 'Nombre de messages',
@@ -444,7 +444,7 @@ $lang = array_merge($lang, array(
 	'INACTIVE_REASON'				=> 'Raison',
 	'INACTIVE_REASON_MANUAL'		=> 'Le compte a été désactivé par un administrateur',
 	'INACTIVE_REASON_PROFILE'		=> 'Les informations du profil ont été modifiées',
-	'INACTIVE_REASON_REGISTER'		=> 'Le compte a été inscrit récemment',
+	'INACTIVE_REASON_REGISTER'		=> 'Le compte appartient à un utilisateur nouvellement inscrit',
 	'INACTIVE_REASON_REMIND'		=> 'Le compte doit être réactivé',
 	'INACTIVE_REASON_UNKNOWN'		=> 'Inconnue',
 	'INACTIVE_USERS'				=> 'Utilisateurs inactifs',
@@ -765,7 +765,7 @@ $lang = array_merge($lang, array(
 	'LOG_USER_MOVE_POSTS'	=> '<strong>Déplacement des messages d’un utilisateur</strong><br />» messages de « %1$s » vers le forum « %2$s »',
 	'LOG_USER_NEW_PASSWORD'	=> '<strong>Modification du mot de passe d’un utilisateur</strong><br />» %s',
 	'LOG_USER_REACTIVATE'	=> '<strong>Réactivation forcée du compte d’un utilisateur</strong><br />» %s',
-	'LOG_USER_REMOVED_NR'	=> '<strong>Suppression du statut d’utilisateur inscrit récemment du compte d’un utilisateur</strong><br />» %s',
+	'LOG_USER_REMOVED_NR'	=> '<strong>Suppression du statut d’utilisateur nouvellement inscrit du compte d’un utilisateur</strong><br />» %s',
 
 	'LOG_USER_UPDATE_EMAIL'	=> '<strong>Modification de l’adresse de courriel de l’utilisateur « %1$s »</strong><br />» de « %2$s » à « %3$s »',
 	'LOG_USER_UPDATE_NAME'	=> '<strong>Modification d’un nom d’utilisateur</strong><br />» de « %1$s » à « %2$s »',

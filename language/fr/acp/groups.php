@@ -42,10 +42,10 @@ $lang = array_merge($lang, array(
 	'ACP_GROUPS_MANAGE_EXPLAIN'		=> 'Vous pouvez administrer sur cette page tous les groupes d’utilisateurs de votre forum. Vous pouvez créer, éditer et supprimer des groupes d’utilisateurs, sélectionner leur statut (libre, restreint ou invisible) et saisir leur nom et leur description. De plus, vous pouvez nommer les responsables des différents groupes d’utilisateurs.',
 	'ADD_GROUP_CATEGORY'			=> 'Ajouter une catégorie',
 	'ADD_USERS'						=> 'Ajouter des utilisateurs',
-	'ADD_USERS_EXPLAIN'				=> 'Vous pouvez ajouter ici de nouveaux utilisateurs à un groupe d’utilisateurs. Vous pouvez également attribuer un groupe d’utilisateurs par défaut aux utilisateurs que vous avez sélectionnés. De plus, vous pouvez promouvoir certains membres d’un groupe d’utilisateurs comme responsables de ce dernier. Veuillez saisir chaque nom d’utilisateur sur une nouvelle ligne.',
+	'ADD_USERS_EXPLAIN'				=> 'Vous pouvez ajouter ici de nouveaux utilisateurs à un groupe d’utilisateurs. Vous pouvez également attribuer un groupe d’utilisateurs par défaut aux utilisateurs sélectionnés. De plus, vous pouvez promouvoir certains membres d’un groupe d’utilisateurs comme responsables de ce dernier. Veuillez saisir chaque nom d’utilisateur sur une nouvelle ligne.',
 
 	'COPY_PERMISSIONS'				=> 'Copier les permissions de',
-	'COPY_PERMISSIONS_EXPLAIN'		=> 'Une fois que ce groupe d’utilisateurs sera créé, ses permissions seront identiques à celles du groupe d’utilisateurs que vous avez sélectionné ici.',
+	'COPY_PERMISSIONS_EXPLAIN'		=> 'Une fois que ce groupe d’utilisateurs sera créé, ses permissions seront identiques à celles du groupe d’utilisateurs sélectionné.',
 	'CREATE_GROUP'					=> 'Créer un nouveau groupe d’utilisateurs',
 
 	'GROUPS_NO_MEMBERS'				=> 'Ce groupe d’utilisateurs n’a aucun membre',
@@ -111,7 +111,7 @@ $lang = array_merge($lang, array(
 	'GROUP_UPDATED'					=> 'Les préférences du groupe ont été mises à jour.',
 
 	'GROUP_USERS_ADDED'				=> 'Les nouveaux utilisateurs ont été ajoutés au groupe d’utilisateurs.',
-	'GROUP_USERS_EXIST'				=> 'Les utilisateurs que vous avez sélectionnés sont déjà des membres de ce groupe d’utilisateurs.',
+	'GROUP_USERS_EXIST'				=> 'Les utilisateurs sont déjà membres de ce groupe d’utilisateurs.',
 	'GROUP_USERS_REMOVE'			=> 'Les utilisateurs ont été supprimés de ce groupe d’utilisateurs. Ils ont été transférés dans le groupe d’utilisateurs par défaut.',
 
 	'LEGEND_EXPLAIN'				=> 'Cette liste correspond aux groupes d’utilisateurs qui sont affichés dans la légende des groupes :',

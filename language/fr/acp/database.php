@@ -44,7 +44,7 @@ $lang = array_merge($lang, array(
 	'ACP_RESTORE_EXPLAIN'	=> 'Cela effectuera une restauration complète de toutes les tables de phpBB à partir d’un fichier de sauvegarde. Si votre serveur le supporte, vous pouvez utiliser un fichier texte compressé en GZip ou BZip2 qui sera automatiquement décompressé. <strong>ATTENTION :</strong> cette opération écrasera toutes les données existantes. La restauration est un processus qui peut durer un certain temps, veillez à ne pas vous déplacer sur une autre page tant que l’opération n’est pas terminée. Les sauvegardes sont stockées dans le répertoire <samp>store/</samp> et sont supposées être générées par l’outil de restauration présent par défaut dans le logiciel phpBB. Il est possible que la restauration des bases de données qui n’ont pas été sauvegardées avec cet outil ne fonctionnent pas.',
 
 	'BACKUP_DELETE'		=> 'Le fichier de sauvegarde a été supprimé.',
-	'BACKUP_INVALID'	=> 'Le fichier de sauvegarde que vous avez sélectionné est incorrect.',
+	'BACKUP_INVALID'	=> 'Le fichier de sauvegarde est invalide.',
 	'BACKUP_OPTIONS'	=> 'Options de sauvegarde',
 	'BACKUP_SUCCESS'	=> 'Le fichier de sauvegarde a été créé.',
 	'BACKUP_TYPE'		=> 'Type de sauvegarde',
@@ -52,7 +52,7 @@ $lang = array_merge($lang, array(
 	'DATABASE'			=> 'Utilitaires de la base de données',
 	'DATA_ONLY'			=> 'Données uniquement',
 	'DELETE_BACKUP'		=> 'Supprimer la sauvegarde',
-	'DELETE_SELECTED_BACKUP'	=> 'Êtes-vous sûr de vouloir supprimer la sauvegarde sélectionnée ?',
+	'DELETE_SELECTED_BACKUP'	=> 'Êtes-vous sûr de vouloir supprimer cette sauvegarde ?',
 	'DESELECT_ALL'		=> 'Tout désélectionner',
 	'DOWNLOAD_BACKUP'	=> 'Télécharger la sauvegarde',
 
@@ -62,7 +62,7 @@ $lang = array_merge($lang, array(
 
 	'RESTORE_FAILURE'		=> 'Le fichier de sauvegarde semble corrompu.',
 	'RESTORE_OPTIONS'		=> 'Options de restauration',
-	'RESTORE_SELECTED_BACKUP'	=> 'Êtes-vous sûr de vouloir restaurer la sauvegarde sélectionnée ?',
+	'RESTORE_SELECTED_BACKUP'	=> 'Êtes-vous sûr de vouloir restaurer cette sauvegarde ?',
 	'RESTORE_SUCCESS'		=> 'La base de données a été restaurée.<br /><br />Votre forum devrait être tel qu’il était lors de la dernière sauvegarde.',
 
 	'SELECT_ALL'			=> 'Tout sélectionner',

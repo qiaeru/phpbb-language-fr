@@ -46,9 +46,9 @@ $lang = array_merge($lang, array(
 	'RECAPTCHA_NOSCRIPT'			=> 'Veuillez activer JavaScript dans votre navigateur afin de charger le formulaire.',
 
 	'RECAPTCHA_PUBLIC'				=> 'Clé publique reCAPTCHA',
-	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'Votre clé publique sur reCAPTCHA. Les clés peuvent être obtenues sur <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a> (en anglais).',
+	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'Votre clé publique de reCAPTCHA. Les clés peuvent être obtenues sur <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a> (en anglais).',
 	'RECAPTCHA_PRIVATE'				=> 'Clé privée reCAPTCHA',
-	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'Votre clé privée sur reCAPTCHA. Les clés peuvent être obtenues sur <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a> (en anglais).',
+	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'Votre clé privée de reCAPTCHA. Les clés peuvent être obtenues sur <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a> (en anglais).',
 
 	'RECAPTCHA_EXPLAIN'				=> 'Veuillez résoudre la vérification suivante afin de nous permettre de lutter contre les publications automatisées indésirables.',
 ));

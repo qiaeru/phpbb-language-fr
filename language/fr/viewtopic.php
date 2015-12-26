@@ -63,7 +63,7 @@ $lang = array_merge($lang, array(
 		2	=> 'Dernière édition par %2$s le %3$s, édité %1$d fois.',
 	),
 	'EMAIL_TOPIC'			=> 'Envoyer le sujet par courriel',
-	'ERROR_NO_ATTACHMENT'	=> 'La pièce jointe que vous avez sélectionnée n’existe plus.',
+	'ERROR_NO_ATTACHMENT'	=> 'La pièce jointe n’existe plus.',
 
 	'FILE_NOT_FOUND_404'	=> 'Le fichier <strong>%s</strong> n’existe pas.',
 	'FORK_TOPIC'			=> 'Copier le sujet',
@@ -84,7 +84,7 @@ $lang = array_merge($lang, array(
 	'MISSING_INLINE_ATTACHMENT'	=> 'La pièce jointe <strong>%s</strong> n’est plus disponible',
 	'MOVE_TOPIC'				=> 'Déplacer le sujet',
 
-	'NO_ATTACHMENT_SELECTED'=> 'Aucune pièce jointe à télécharger ou à consulter n’a été sélectionnée.',
+	'NO_ATTACHMENT_SELECTED'=> 'Vous n’avez sélectionné aucune pièce jointe à télécharger ou à consulter.',
 	'NO_NEWER_TOPICS'		=> 'Aucun nouveau sujet n’a été publié dans ce forum.',
 	'NO_OLDER_TOPICS'		=> 'Aucun ancien sujet n’a été publié dans ce forum.',
 	'NO_UNREAD_POSTS'		=> 'Aucun message non lu n’a été publié dans ce sujet.',

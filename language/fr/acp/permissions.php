@@ -77,7 +77,7 @@ $lang = array_merge($lang, array(
 
 	'ACL_NO'				=> 'Non',
 	'ACL_VIEW'				=> 'Consultation des permissions',
-	'ACL_VIEW_EXPLAIN'		=> 'Vous pouvez consulter sur cette page toutes les permissions effectives de l’utilisateur ou du groupe d’utilisateurs que vous avez sélectionné. Un rectangle rouge indique les permissions qu’il ne détient pas, un rectangle vert indique les permissions qu’il détient.',
+	'ACL_VIEW_EXPLAIN'		=> 'Vous pouvez consulter sur cette page toutes les permissions effectives de l’utilisateur ou du groupe d’utilisateurs sélectionné. Un rectangle rouge indique les permissions qu’il ne détient pas, un rectangle vert indique les permissions qu’il détient.',
 	'ACL_YES'				=> 'Oui',
 
 	'ACP_ADMINISTRATORS_EXPLAIN'				=> 'Vous pouvez attribuer sur cette page les permissions des administrateurs à des utilisateurs et des groupes d’utilisateurs, qui pourront alors accéder au panneau de contrôle d’administration.',
@@ -113,7 +113,7 @@ $lang = array_merge($lang, array(
 	'APPLY_PERMISSIONS_EXPLAIN'	=> 'Les permissions et les rôles de cet élément ne seront appliqués qu’aux éléments cochés et à ce dernier.',
 	'AUTH_UPDATED'				=> 'Les permissions ont été mises à jour.',
 
-	'COPY_PERMISSIONS_CONFIRM'				=> 'Êtes-vous sûr de vouloir effectuer cette opération ? Cela écrasera toutes les permissions existantes des forums que vous sélectionnés.',
+	'COPY_PERMISSIONS_CONFIRM'				=> 'Êtes-vous sûr de vouloir effectuer cette opération ? Cela écrasera toutes les permissions existantes des forums sélectionnés.',
 	'COPY_PERMISSIONS_FORUM_FROM_EXPLAIN'	=> 'Le forum source à partir duquel vous souhaitez copier les permissions.',
 	'COPY_PERMISSIONS_FORUM_TO_EXPLAIN'		=> 'Le ou les forums où les permissions que vous avez copiées seront appliquées.',
 	'COPY_PERMISSIONS_FROM'					=> 'Copier les permissions de',
@@ -145,7 +145,7 @@ $lang = array_merge($lang, array(
 	'NO_ROLE_AVAILABLE'			=> 'Aucun rôle n’est disponible',
 	'NO_ROLE_NAME_SPECIFIED'	=> 'Veuillez saisir le nom de ce rôle.',
 	'NO_ROLE_SELECTED'			=> 'Le rôle est introuvable.',
-	'NO_USER_GROUP_SELECTED'	=> 'Aucun utilisateur ou groupe d’utilisateurs n’a été sélectionné.',
+	'NO_USER_GROUP_SELECTED'	=> 'Vous n’avez sélectionné aucun utilisateur ou groupe d’utilisateurs.',
 
 	'ONLY_FORUM_DEFINED'	=> 'Vous n’avez sélectionné que des forums. Veuillez également sélectionner au moins un utilisateur ou groupe d’utilisateurs.',
 
@@ -174,7 +174,7 @@ $lang = array_merge($lang, array(
 	'ROLE_FORUM_POLLS'			=> 'Accès standard + sondages',
 	'ROLE_FORUM_READONLY'		=> 'Accès en lecture seule',
 	'ROLE_FORUM_STANDARD'		=> 'Accès standard',
-	'ROLE_FORUM_NEW_MEMBER'		=> 'Accès des utilisateurs inscrits récemment',
+	'ROLE_FORUM_NEW_MEMBER'		=> 'Accès des utilisateurs nouvellement inscrits',
 	'ROLE_MOD_FULL'				=> 'Modérateur aux pleins pouvoirs',
 	'ROLE_MOD_QUEUE'			=> 'Modérateur suppléant',
 	'ROLE_MOD_SIMPLE'			=> 'Modérateur simple',
@@ -184,7 +184,7 @@ $lang = array_merge($lang, array(
 	'ROLE_USER_NOAVATAR'		=> 'Privé d’avatar',
 	'ROLE_USER_NOPM'			=> 'Privé de messagerie privée',
 	'ROLE_USER_STANDARD'		=> 'Fonctionnalités standards',
-	'ROLE_USER_NEW_MEMBER'		=> 'Fonctionnalités des utilisateurs inscrits récemment',
+	'ROLE_USER_NEW_MEMBER'		=> 'Fonctionnalités des utilisateurs nouvellement inscrits',
 
 	'ROLE_DESCRIPTION_ADMIN_FORUM'			=> 'Peut accéder à la gestion du forum et aux réglages de ses permissions.',
 	'ROLE_DESCRIPTION_ADMIN_FULL'			=> 'Peut accéder à toutes les fonctionnalités des administrateurs.<br />Il n’est pas recommandé d’attribuer ce rôle.',
@@ -199,7 +199,7 @@ $lang = array_merge($lang, array(
 	'ROLE_DESCRIPTION_FORUM_POLLS'			=> 'Similaire à l’accès standard, mais peut également créer des sondages.',
 	'ROLE_DESCRIPTION_FORUM_READONLY'		=> 'Peut consulter le forum mais ne peut pas créer de nouveaux sujets et répondre aux messages.',
 	'ROLE_DESCRIPTION_FORUM_STANDARD'		=> 'Peut utiliser la plupart des fonctionnalités du forum, dont la possibilité de transférer des pièces jointes et de supprimer ses propres sujets, mais ne peut pas verrouiller ses propres sujets et ne peut pas créer de sondages.',
-	'ROLE_DESCRIPTION_FORUM_NEW_MEMBER'		=> 'Ce rôle est destiné aux membres du groupe des utilisateurs inscrits récemment. Il contient des permissions <strong>JAMAIS</strong> qui permettent de limiter certaines fonctionnalités aux nouveaux membres.',
+	'ROLE_DESCRIPTION_FORUM_NEW_MEMBER'		=> 'Ce rôle est destiné aux membres du groupe des utilisateurs nouvellement inscrits. Il contient des permissions <strong>JAMAIS</strong> qui permettent de limiter certaines fonctionnalités aux nouveaux membres.',
 	'ROLE_DESCRIPTION_MOD_FULL'				=> 'Peut utiliser toutes les fonctionnalités liées à la modération, dont le bannissement.',
 	'ROLE_DESCRIPTION_MOD_QUEUE'			=> 'Ne peut utiliser que la file d’attente de modération afin de valider et éditer des messages.',
 	'ROLE_DESCRIPTION_MOD_SIMPLE'			=> 'Ne peut effectuer que les opérations basiques liées aux sujets mais ne peut pas envoyer d’avertissements et accéder à la file d’attente de modération.',
@@ -209,7 +209,7 @@ $lang = array_merge($lang, array(
 	'ROLE_DESCRIPTION_USER_NOAVATAR'		=> 'Ne peut accéder qu’à un ensemble de fonctionnalités limité et n’est pas autorisé à utiliser la fonctionnalité des avatars.',
 	'ROLE_DESCRIPTION_USER_NOPM'			=> 'Ne peut accéder qu’à un ensemble de fonctionnalités limité et n’est pas autorisé à utiliser les fonctionnalités de la messagerie privée.',
 	'ROLE_DESCRIPTION_USER_STANDARD'		=> 'Peut accéder à la plupart des fonctionnalités des utilisateurs mais ne peut pas modifier son nom d’utilisateur et ignorer la limitation de flood.',
-	'ROLE_DESCRIPTION_USER_NEW_MEMBER'		=> 'Ce rôle est destiné aux membres du groupe des utilisateurs inscrits récemment. Il contient des permissions <strong>JAMAIS</strong> qui permettent de limiter certaines fonctionnalités aux nouveaux membres.',
+	'ROLE_DESCRIPTION_USER_NEW_MEMBER'		=> 'Ce rôle est destiné aux membres du groupe des utilisateurs nouvellement inscrits. Il contient des permissions <strong>JAMAIS</strong> qui permettent de limiter certaines fonctionnalités aux nouveaux membres.',
 
 	'ROLE_DESCRIPTION_EXPLAIN'		=> 'Vous pouvez saisir une brève explication de ce que fait le rôle ou de ce qu’il veut signifier. Le texte que vous saisissez ici sera également affiché sur la page des permissions.',
 	'ROLE_DESCRIPTION_LONG'			=> 'La description du rôle est trop longue. Veuillez ne pas dépasser 4000 caractères.',

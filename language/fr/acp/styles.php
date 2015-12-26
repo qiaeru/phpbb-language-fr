@@ -42,7 +42,7 @@ $lang = array_merge($lang, array(
 	'ACP_STYLES_EXPLAIN'	=> 'Vous pouvez gérer sur cette page les styles disponibles sur votre forum. Vous pouvez installer de nouveaux styles et modifier, supprimer, désactiver et réactiver les styles déjà installés. Vous pouvez également voir à quoi ressemble un style en utilisant la fonctionnalité de prévisualisation. De même, vous pouvez consulter le compteur du nombre total d’utilisateurs de chaque style. Veuillez cependant noter que lorsque vous écrasez un style, la comptabilisation du nombre total d’utilisateurs ne sera pas répercutée sur le style qui le remplacera.',
 
 	'CANNOT_BE_INSTALLED'			=> 'Ne peut pas être installé',
-	'CONFIRM_UNINSTALL_STYLES'		=> 'Êtes-vous sûr de vouloir désinstaller les styles que vous avez sélectionnés ?',
+	'CONFIRM_UNINSTALL_STYLES'		=> 'Êtes-vous sûr de vouloir désinstaller ces styles ?',
 	'COPYRIGHT'						=> 'Copyright',
 
 	'DEACTIVATE_DEFAULT'		=> 'Vous ne pouvez pas désactiver le style par défaut.',
@@ -55,7 +55,7 @@ $lang = array_merge($lang, array(
 	'INSTALL_STYLE'				=> 'Installer un style',
 	'INSTALL_STYLES'			=> 'Installer des styles',
 	'INSTALL_STYLES_EXPLAIN'	=> 'Vous pouvez installer sur cette page de nouveaux styles.<br />Si vous ne retrouvez pas dans la liste ci-dessous le style que vous avez transféré, assurez-vous que ce dernier ne soit pas déjà installé sur votre forum. Si ce n’est pas le cas, essayez de le transférer de nouveau.',
-	'INVALID_STYLE_ID'			=> 'L’identification du style est incorrecte.',
+	'INVALID_STYLE_ID'			=> 'L’identification du style est invalide.',
 
 	'NO_MATCHING_STYLES_FOUND'	=> 'Aucun style ne correspond à votre requête.',
 	'NO_UNINSTALLED_STYLE'		=> 'Aucun style n’a été désinstallé.',
@@ -69,7 +69,7 @@ $lang = array_merge($lang, array(
 	'STYLE_DEACTIVATE'			=> 'Désactiver',
 	'STYLE_DEFAULT'				=> 'En faire le style par défaut',
 	'STYLE_DEFAULT_CHANGE_INACTIVE'	=> 'Vous devez activer le style avant de pouvoir en faire le style par défaut.',
-	'STYLE_ERR_INVALID_PARENT'	=> 'Le style parent est incorrect.',
+	'STYLE_ERR_INVALID_PARENT'	=> 'Le style parent est invalide.',
 	'STYLE_ERR_NAME_EXIST'		=> 'Un style portant ce nom existe déjà.',
 	'STYLE_ERR_STYLE_NAME'		=> 'Vous devez saisir le nom de ce style.',
 	'STYLE_INSTALLED'			=> 'Le style « %s » a été installé.',
