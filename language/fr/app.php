@@ -1,6 +1,5 @@
 <?php
 /**
-*
 * This file is part of the official French Language Package
 * for the phpBB Forum Software.
 *
@@ -10,20 +9,17 @@
 *
 * For information about the language package, please see
 * https://www.phpbb.com/customise/db/translation/french/
-*
 */
 
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
-	exit;
+ * DO NOT CHANGE.
+ */
+if (!defined('IN_PHPBB')) {
+    exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
-	$lang = array();
+if (empty($lang) || !is_array($lang)) {
+    $lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -42,9 +38,9 @@ if (empty($lang) || !is_array($lang))
 // ’ » “ ” …
 //
 
-$lang = array_merge($lang, array(
-	'CONTROLLER_ARGUMENT_VALUE_MISSING'	=> 'Valeur manquante concernant l’argument #%1$s : <strong>%3$s</strong> dans la classe <strong>%2$s</strong>',
-	'CONTROLLER_NOT_SPECIFIED'			=> 'Aucun contrôleur n’a été spécifié.',
-	'CONTROLLER_METHOD_NOT_SPECIFIED'	=> 'Aucune méthode de contrôleur n’a été spécifiée.',
-	'CONTROLLER_SERVICE_UNDEFINED'		=> 'Le service du contrôleur « <strong>%s</strong> » n’est pas défini dans ./config/services.yml.',
-));
+$lang = array_merge($lang, [
+    'CONTROLLER_ARGUMENT_VALUE_MISSING'    => 'Valeur manquante concernant l’argument #%1$s : <strong>%3$s</strong> dans la classe <strong>%2$s</strong>',
+    'CONTROLLER_NOT_SPECIFIED'             => 'Aucun contrôleur n’a été spécifié.',
+    'CONTROLLER_METHOD_NOT_SPECIFIED'      => 'Aucune méthode de contrôleur n’a été spécifiée.',
+    'CONTROLLER_SERVICE_UNDEFINED'         => 'Le service du contrôleur « <strong>%s</strong> » n’est pas défini dans ./config/services.yml.',
+]);
