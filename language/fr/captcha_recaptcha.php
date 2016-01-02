@@ -36,7 +36,7 @@ if (empty($lang) || !is_array($lang)) {
 
 $lang = array_merge($lang, [
     'RECAPTCHA_LANG'                   => 'fr',
-    'RECAPTCHA_NOT_AVAILABLE'          => 'Vous devez créer un compte sur <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a> (en anglais) avant de pouvoir utiliser reCAPTCHA.',
+    'RECAPTCHA_NOT_AVAILABLE'          => 'Vous devez créer un compte sur <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a> (en anglais) avant de pouvoir utiliser reCAPTCHA.',
     'CAPTCHA_RECAPTCHA'                => 'reCAPTCHA',
     'RECAPTCHA_INCORRECT'              => 'La vérification a échoué',
     'RECAPTCHA_NOSCRIPT'               => 'Veuillez activer JavaScript dans votre navigateur afin de charger le formulaire.',
