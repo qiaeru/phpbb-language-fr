@@ -5,6 +5,9 @@ engines:
     enabled: true 
   phpcodesniffer:
     enabled: true
+    checks:
+      Generic Files LineLength TooLong:
+        enabled: false
     config:
       file_extensions: "php"
   phpmd:
