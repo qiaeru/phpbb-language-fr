@@ -1,6 +1,5 @@
 <?php
 /**
-*
 * This file is part of the official French Language Package
 * for the phpBB Forum Software.
 *
@@ -10,20 +9,17 @@
 *
 * For information about the language package, please see
 * https://www.phpbb.com/customise/db/translation/french/
-*
 */
 
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
-	exit;
+ * DO NOT CHANGE.
+ */
+if (!defined('IN_PHPBB')) {
+    exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
-	$lang = array();
+if (empty($lang) || !is_array($lang)) {
+    $lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -38,43 +34,43 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
-$lang = array_merge($lang, array(
-	'ACP_FILES'						=> 'Fichiers de langue de l’administration',
-	'ACP_LANGUAGE_PACKS_EXPLAIN'	=> 'Vous pouvez installer, modifier et supprimer sur cette page des traductions. La traduction par défaut est signalée par un astérisque (*).',
+$lang = array_merge($lang, [
+    'ACP_FILES'                        => 'Fichiers de langue de l’administration',
+    'ACP_LANGUAGE_PACKS_EXPLAIN'       => 'Vous pouvez installer, modifier et supprimer sur cette page des traductions. La traduction par défaut est signalée par un astérisque (*).',
 
-	'DELETE_LANGUAGE_CONFIRM'		=> 'Êtes-vous sûr de vouloir supprimer « %s » ?',
+    'DELETE_LANGUAGE_CONFIRM'        => 'Êtes-vous sûr de vouloir supprimer « %s » ?',
 
-	'INSTALLED_LANGUAGE_PACKS'		=> 'Traductions installées',
+    'INSTALLED_LANGUAGE_PACKS'        => 'Traductions installées',
 
-	'LANGUAGE_DETAILS_UPDATED'			=> 'Les informations concernant la langue ont été mises à jour.',
-	'LANGUAGE_PACK_ALREADY_INSTALLED'	=> 'Cette traduction est déjà installée.',
-	'LANGUAGE_PACK_DELETED'				=> 'La traduction « %s » a été supprimée. Tous les utilisateurs qui utilisaient cette langue utilisent à présent la langue par défaut du forum.',
-	'LANGUAGE_PACK_DETAILS'				=> 'Informations sur la traduction',
-	'LANGUAGE_PACK_INSTALLED'			=> 'La traduction « %s » a été installée.',
-	'LANGUAGE_PACK_CPF_UPDATE'			=> 'Les chaînes de langue des champs de profil personnalisés ont été copiées à partir de la langue par défaut. Veuillez les modifier si nécessaire.',
-	'LANGUAGE_PACK_ISO'					=> 'ISO',
-	'LANGUAGE_PACK_LOCALNAME'			=> 'Nom local',
-	'LANGUAGE_PACK_NAME'				=> 'Nom',
-	'LANGUAGE_PACK_NOT_EXIST'			=> 'La traduction n’existe pas.',
-	'LANGUAGE_PACK_USED_BY'				=> 'Utilisée par (inclut les robots)',
-	'LANGUAGE_VARIABLE'					=> 'Variable de langue',
-	'LANG_AUTHOR'						=> 'Auteur de la traduction',
-	'LANG_ENGLISH_NAME'					=> 'Nom en anglais',
-	'LANG_ISO_CODE'						=> 'Code ISO',
-	'LANG_LOCAL_NAME'					=> 'Nom local',
+    'LANGUAGE_DETAILS_UPDATED'             => 'Les informations concernant la langue ont été mises à jour.',
+    'LANGUAGE_PACK_ALREADY_INSTALLED'      => 'Cette traduction est déjà installée.',
+    'LANGUAGE_PACK_DELETED'                => 'La traduction « %s » a été supprimée. Tous les utilisateurs qui utilisaient cette langue utilisent à présent la langue par défaut du forum.',
+    'LANGUAGE_PACK_DETAILS'                => 'Informations sur la traduction',
+    'LANGUAGE_PACK_INSTALLED'              => 'La traduction « %s » a été installée.',
+    'LANGUAGE_PACK_CPF_UPDATE'             => 'Les chaînes de langue des champs de profil personnalisés ont été copiées à partir de la langue par défaut. Veuillez les modifier si nécessaire.',
+    'LANGUAGE_PACK_ISO'                    => 'ISO',
+    'LANGUAGE_PACK_LOCALNAME'              => 'Nom local',
+    'LANGUAGE_PACK_NAME'                   => 'Nom',
+    'LANGUAGE_PACK_NOT_EXIST'              => 'La traduction n’existe pas.',
+    'LANGUAGE_PACK_USED_BY'                => 'Utilisée par (inclut les robots)',
+    'LANGUAGE_VARIABLE'                    => 'Variable de langue',
+    'LANG_AUTHOR'                          => 'Auteur de la traduction',
+    'LANG_ENGLISH_NAME'                    => 'Nom en anglais',
+    'LANG_ISO_CODE'                        => 'Code ISO',
+    'LANG_LOCAL_NAME'                      => 'Nom local',
 
-	'MISSING_LANG_FILES'		=> 'Fichiers de langue manquants',
-	'MISSING_LANG_VARIABLES'	=> 'Variables de langue manquantes',
+    'MISSING_LANG_FILES'        => 'Fichiers de langue manquants',
+    'MISSING_LANG_VARIABLES'    => 'Variables de langue manquantes',
 
-	'NO_FILE_SELECTED'				=> 'Aucun fichier de langue n’a été spécifié.',
-	'NO_LANG_ID'					=> 'Aucune traduction n’a été spécifiée.',
-	'NO_REMOVE_DEFAULT_LANG'		=> 'Vous ne pouvez pas supprimer la traduction par défaut.<br />Si vous souhaitez supprimer cette traduction, veuillez tout d’abord modifier la langue par défaut de votre forum.',
-	'NO_UNINSTALLED_LANGUAGE_PACKS'	=> 'Aucune traduction non installée',
+    'NO_FILE_SELECTED'                 => 'Aucun fichier de langue n’a été spécifié.',
+    'NO_LANG_ID'                       => 'Aucune traduction n’a été spécifiée.',
+    'NO_REMOVE_DEFAULT_LANG'           => 'Vous ne pouvez pas supprimer la traduction par défaut.<br />Si vous souhaitez supprimer cette traduction, veuillez tout d’abord modifier la langue par défaut de votre forum.',
+    'NO_UNINSTALLED_LANGUAGE_PACKS'    => 'Aucune traduction non installée',
 
-	'THOSE_MISSING_LANG_FILES'			=> 'Les fichiers de langue suivants sont manquants du répertoire de langue « %s »',
-	'THOSE_MISSING_LANG_VARIABLES'		=> 'Les variables de langue suivantes sont manquantes de la traduction « %s ».',
+    'THOSE_MISSING_LANG_FILES'            => 'Les fichiers de langue suivants sont manquants du répertoire de langue « %s »',
+    'THOSE_MISSING_LANG_VARIABLES'        => 'Les variables de langue suivantes sont manquantes de la traduction « %s ».',
 
-	'UNINSTALLED_LANGUAGE_PACKS'	=> 'Traductions non installées',
+    'UNINSTALLED_LANGUAGE_PACKS'    => 'Traductions non installées',
 
-	'BROWSE_LANGUAGE_PACKS_DATABASE'	=> 'Accéder à la base de données des traductions',
-));
+    'BROWSE_LANGUAGE_PACKS_DATABASE'    => 'Accéder à la base de données des traductions',
+]);

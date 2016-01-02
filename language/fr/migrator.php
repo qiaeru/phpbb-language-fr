@@ -1,6 +1,5 @@
 <?php
 /**
-*
 * This file is part of the official French Language Package
 * for the phpBB Forum Software.
 *
@@ -10,20 +9,17 @@
 *
 * For information about the language package, please see
 * https://www.phpbb.com/customise/db/translation/french/
-*
 */
 
 /**
-* DO NOT CHANGE
-*/
-if (!defined('IN_PHPBB'))
-{
-	exit;
+ * DO NOT CHANGE.
+ */
+if (!defined('IN_PHPBB')) {
+    exit;
 }
 
-if (empty($lang) || !is_array($lang))
-{
-	$lang = array();
+if (empty($lang) || !is_array($lang)) {
+    $lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -38,41 +34,41 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
-$lang = array_merge($lang, array(
-	'CONFIG_NOT_EXIST'					=> 'Le réglage de configuration « %s » est introuvable.',
+$lang = array_merge($lang, [
+    'CONFIG_NOT_EXIST'                    => 'Le réglage de configuration « %s » est introuvable.',
 
-	'GROUP_NOT_EXIST'					=> 'Le groupe « %s » est introuvable.',
+    'GROUP_NOT_EXIST'                    => 'Le groupe « %s » est introuvable.',
 
-	'MIGRATION_APPLY_DEPENDENCIES'		=> 'Appliquer les dépendances de %s.',
-	'MIGRATION_DATA_DONE'				=> 'Données installées : %1$s ; durée : %2$.2f secondes',
-	'MIGRATION_DATA_IN_PROGRESS'		=> 'Installation des données : %1$s ; durée : %2$.2f secondes',
-	'MIGRATION_DATA_RUNNING'			=> 'Installation des données : %s.',
-	'MIGRATION_EFFECTIVELY_INSTALLED'	=> 'Migration déjà installée (mais ignorée) : %s',
-	'MIGRATION_EXCEPTION_ERROR'			=> 'Une erreur est survenue lors de la requête et une exception a été exécutée. Les modifications effectuées avant que l’erreur ne survienne ont été restaurées au mieux mais vous devriez vérifier que votre forum fonctionne correctement.',
-	'MIGRATION_NOT_FULFILLABLE'			=> 'La migration « %1$s » n’est pas exécutable car la migration « %2$s » est manquante.',
-	'MIGRATION_NOT_INSTALLED'			=> 'La migration « %s » n’est pas installée.',
-	'MIGRATION_NOT_VALID'				=> '%s n’est pas une migration valide.',
-	'MIGRATION_SCHEMA_DONE'				=> 'Schémas installés : %1$s ; durée : %2$.2f secondes',
-	'MIGRATION_SCHEMA_RUNNING'			=> 'Installation des schémas : %s.',
+    'MIGRATION_APPLY_DEPENDENCIES'         => 'Appliquer les dépendances de %s.',
+    'MIGRATION_DATA_DONE'                  => 'Données installées : %1$s ; durée : %2$.2f secondes',
+    'MIGRATION_DATA_IN_PROGRESS'           => 'Installation des données : %1$s ; durée : %2$.2f secondes',
+    'MIGRATION_DATA_RUNNING'               => 'Installation des données : %s.',
+    'MIGRATION_EFFECTIVELY_INSTALLED'      => 'Migration déjà installée (mais ignorée) : %s',
+    'MIGRATION_EXCEPTION_ERROR'            => 'Une erreur est survenue lors de la requête et une exception a été exécutée. Les modifications effectuées avant que l’erreur ne survienne ont été restaurées au mieux mais vous devriez vérifier que votre forum fonctionne correctement.',
+    'MIGRATION_NOT_FULFILLABLE'            => 'La migration « %1$s » n’est pas exécutable car la migration « %2$s » est manquante.',
+    'MIGRATION_NOT_INSTALLED'              => 'La migration « %s » n’est pas installée.',
+    'MIGRATION_NOT_VALID'                  => '%s n’est pas une migration valide.',
+    'MIGRATION_SCHEMA_DONE'                => 'Schémas installés : %1$s ; durée : %2$.2f secondes',
+    'MIGRATION_SCHEMA_RUNNING'             => 'Installation des schémas : %s.',
 
-	'MIGRATION_REVERT_DATA_DONE'		=> 'Données restaurées : %1$s ; durée : %2$.2f secondes',
-	'MIGRATION_REVERT_DATA_IN_PROGRESS'	=> 'Données restaurées : %1$s ; durée : %2$.2f secondes',
-	'MIGRATION_REVERT_DATA_RUNNING'		=> 'Données restaurées : %s.',
-	'MIGRATION_REVERT_SCHEMA_DONE'		=> 'Schémas restaurés : %1$s ; durée : %2$.2f secondes',
-	'MIGRATION_REVERT_SCHEMA_RUNNING'	=> 'Schémas restaurés : %s.',
+    'MIGRATION_REVERT_DATA_DONE'           => 'Données restaurées : %1$s ; durée : %2$.2f secondes',
+    'MIGRATION_REVERT_DATA_IN_PROGRESS'    => 'Données restaurées : %1$s ; durée : %2$.2f secondes',
+    'MIGRATION_REVERT_DATA_RUNNING'        => 'Données restaurées : %s.',
+    'MIGRATION_REVERT_SCHEMA_DONE'         => 'Schémas restaurés : %1$s ; durée : %2$.2f secondes',
+    'MIGRATION_REVERT_SCHEMA_RUNNING'      => 'Schémas restaurés : %s.',
 
-	'MIGRATION_INVALID_DATA_MISSING_CONDITION'		=> 'Une migration n’est pas valide. Une condition dans une instruction d’aide « IF » est manquant.',
-	'MIGRATION_INVALID_DATA_MISSING_STEP'			=> 'Une migration n’est pas valide. Un rappel valide à une étape de migration dans une instruction d’aide « IF » est manquant.',
-	'MIGRATION_INVALID_DATA_CUSTOM_NOT_CALLABLE'	=> 'Une migration n’est pas valide. Une fonction de rappel personnalisée n’a pas pu être rappelée.',
-	'MIGRATION_INVALID_DATA_UNKNOWN_TYPE'			=> 'Une migration n’est pas valide. Un type d’outil de migration inconnu a été découvert.',
-	'MIGRATION_INVALID_DATA_UNDEFINED_TOOL'			=> 'Une migration n’est pas valide. Un outil de migration indéfini a été découvert.',
-	'MIGRATION_INVALID_DATA_UNDEFINED_METHOD'		=> 'Une migration n’est pas valide. Une méthode d’outil de migration indéfini a été découvert.',
+    'MIGRATION_INVALID_DATA_MISSING_CONDITION'         => 'Une migration n’est pas valide. Une condition dans une instruction d’aide « IF » est manquant.',
+    'MIGRATION_INVALID_DATA_MISSING_STEP'              => 'Une migration n’est pas valide. Un rappel valide à une étape de migration dans une instruction d’aide « IF » est manquant.',
+    'MIGRATION_INVALID_DATA_CUSTOM_NOT_CALLABLE'       => 'Une migration n’est pas valide. Une fonction de rappel personnalisée n’a pas pu être rappelée.',
+    'MIGRATION_INVALID_DATA_UNKNOWN_TYPE'              => 'Une migration n’est pas valide. Un type d’outil de migration inconnu a été découvert.',
+    'MIGRATION_INVALID_DATA_UNDEFINED_TOOL'            => 'Une migration n’est pas valide. Un outil de migration indéfini a été découvert.',
+    'MIGRATION_INVALID_DATA_UNDEFINED_METHOD'          => 'Une migration n’est pas valide. Une méthode d’outil de migration indéfini a été découvert.',
 
-	'MODULE_ERROR'						=> 'Une erreur est survenue lors de la création d’un module : %s',
-	'MODULE_INFO_FILE_NOT_EXIST'		=> 'Un fichier d’information du module est manquant : %2$s',
-	'MODULE_NOT_EXIST'					=> 'Un module nécessaire est introuvable : %s',
+    'MODULE_ERROR'                        => 'Une erreur est survenue lors de la création d’un module : %s',
+    'MODULE_INFO_FILE_NOT_EXIST'          => 'Un fichier d’information du module est manquant : %2$s',
+    'MODULE_NOT_EXIST'                    => 'Un module nécessaire est introuvable : %s',
 
-	'PERMISSION_NOT_EXIST'				=> 'Le réglage de permission « %s » est introuvable.',
+    'PERMISSION_NOT_EXIST'                => 'Le réglage de permission « %s » est introuvable.',
 
-	'ROLE_NOT_EXIST'					=> 'Le rôle de permission « %s » est introuvable.',
-));
+    'ROLE_NOT_EXIST'                    => 'Le rôle de permission « %s » est introuvable.',
+]);
