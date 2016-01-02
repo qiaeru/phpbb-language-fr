@@ -1,8 +1,6 @@
 {
-	"name": "maelsoucaze/french",
-	"description": "French language pack for phpBB 3.2",
+	"description": "French language pack for phpBB",
 	"homepage": "https://www.phpbb.com/customise/db/translation/french/",
-	"keywords": ["phpbb", "french", "language", "locale"],
 	"license": "GPL-2.0",
 	"authors": [{
 			"name": "Maël Soucaze",
@@ -17,6 +15,6 @@
 		"php": ">=5.6"
 	},
 	"require-dev": {
-		"phpbb/translation-validator": "dev-master"
+		"phpbb/translation-validator": "1.3.*"
 	}
 }
