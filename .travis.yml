@@ -17,7 +17,6 @@ install:
   - composer install --no-interaction --prefer-source
   - git clone "https://github.com/phpbb/phpbb.git" --branch "master"
   - cp -R phpbb/phpBB/language/en/ phpBB/language/en/
-  - cp -R phpbb/phpBB/styles/prosilver/theme/en/ phpBB/styles/prosilver/theme/en/
 
 script:
   - php vendor/bin/PhpbbTranslationValidator.php validate --language-dir="phpBB/language" --phpbb-version="3.2" "fr" --display-notices
