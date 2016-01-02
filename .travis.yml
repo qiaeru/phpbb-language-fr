@@ -11,15 +11,27 @@ matrix:
     - php: hhvm
   fast_finish: true
 
+env:		
+  global:		
+    - PHPBB_BRANCH="master"		
+    - PHPBB_VERSION="3.2"		
+    - PHPBB_LANGUAGE="fr"
+
 sudo: false
 
 install:
+  - mkdir -p $PHPBB_VERSION/$PHPBB_LANGUAGE		
+  - mkdir -p $PHPBB_VERSION/en/language		
+  - mkdir -p $PHPBB_VERSION/en/styles/prosilver/theme
+  - mv language $PHPBB_VERSION/$PHPBB_LANGUAGE
+  - mv styles $PHPBB_VERSION/$PHPBB_LANGUAGE
+  - git clone "https://github.com/phpbb/phpbb.git" --branch=$PHPBB_BRANCH
+  - mv phpbb/phpBB/language/en $PHPBB_VERSION/en/language		
+  - mv phpbb/phpBB/styles/prosilver/theme/en $PHPBB_VERSION/en/styles/prosilver/theme
   - composer install --no-interaction --prefer-source
-  - git clone "https://github.com/phpbb/phpbb.git" --branch="master"
-  - cp -R phpbb/phpBB/language/en/ phpBB/language/en/
 
 script:
-  - php vendor/bin/PhpbbTranslationValidator.php validate --language-dir="phpBB/language" --phpbb-version="3.2" "fr" --display-notices
+  - php vendor/bin/PhpbbTranslationValidator.php validate --phpbb-version=$PHPBB_VERSION $PHPBB_LANGUAGE --display-notices
 
 notifications:
   email: change
