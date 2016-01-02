@@ -15,7 +15,7 @@ sudo: false
 
 install:
   - composer install --no-interaction --prefer-source
-  - git clone "https://github.com/phpbb/phpbb.git" --branch "master"
+  - git clone "https://github.com/phpbb/phpbb.git" --branch="master"
   - cp -R phpbb/phpBB/language/en/ phpBB/language/en/
 
 script:
