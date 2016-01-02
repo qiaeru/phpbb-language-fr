@@ -1,0 +1,23 @@
+languages:
+  php: true
+engines:
+  csslint:
+    enabled: true 
+  phpcodesniffer:
+    enabled: true
+    config:
+      file_extensions: "php"
+  phpmd:
+    enabled: true
+ratings:
+  paths:
+    - "**.php"
+    - "styles/prosilver/theme/fr/stylesheet.css"
+exclude_paths:
+  - "**.htm"
+  - "**.json"
+  - "**.md"
+  - "**.txt"
+  - "**.yml"
+  - "language/fr/email/**/*"
+  - "styles/prosilver/theme/fr/icon_user_online.gif"
