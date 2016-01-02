@@ -1,6 +1,5 @@
 # French Language Pack for [phpBB](https://www.phpbb.com/) 3.2
-
-[![Build Status](https://travis-ci.org/maelsoucaze/phpbb.svg?branch=master)](https://travis-ci.org/maelsoucaze/phpbb)
+[![Build Status](https://travis-ci.org/maelsoucaze/phpbb.svg?branch=master)](https://travis-ci.org/maelsoucaze/phpbb) [![Code Climate](https://codeclimate.com/github/maelsoucaze/phpbb/badges/gpa.svg)](https://codeclimate.com/github/maelsoucaze/phpbb) [![StyleCI](https://styleci.io/repos/18012355/shield)](https://styleci.io/repos/18012355)
 
 French language package to localise the phpBB "Rhea" 3.2 forum software.
 
@@ -8,7 +7,7 @@ French language package to localise the phpBB "Rhea" 3.2 forum software.
 
 Includes the following French locales compatible with:
 
-- [phpBB](https://github.com/phpbb/phpbb) [3.2.0-a3-dev (Build 1021)](https://bamboo.phpbb.com/browse/PHPBB3-RHEA-1021)
+- [phpBB](https://github.com/phpbb/phpbb) [3.2.0-a3-dev (Build 1030)](https://bamboo.phpbb.com/browse/PHPBB3-RHEA-1030)
 
 Released under the GNU General Public License 2.0. Please see the [license terms](https://github.com/maelsoucaze/phpbb/blob/master/language/fr/LICENSE).
 
