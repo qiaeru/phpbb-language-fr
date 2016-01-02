@@ -1,15 +1,15 @@
 <?php
 /**
-* This file is part of the official French Language Package
-* for the phpBB Forum Software.
-*
-* @copyright (c) phpBB Limited <https://www.phpbb.com>
-* @copyright (c) Maël Soucaze <https://www.maelsoucaze.com>
-* @license GNU General Public License, version 2 (GPL-2.0)
-*
-* For information about the language package, please see
-* https://www.phpbb.com/customise/db/translation/french/
-*/
+ * This file is part of the official French Language Package
+ * for the phpBB Forum Software.
+ *
+ * @copyright (c) phpBB Limited <https://www.phpbb.com>
+ * @copyright (c) Maël Soucaze <https://www.maelsoucaze.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ * For information about the language package, please see
+ * https://www.phpbb.com/customise/db/translation/french/
+ */
 
 /**
  * DO NOT CHANGE.
@@ -33,10 +33,6 @@ if (empty($lang) || !is_array($lang)) {
 // You do not need this where single placeholders are used, e.g. 'Message %d' is fine
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
-//
-// Some characters you may want to copy&paste:
-// ’ » “ ” …
-//
 
 $lang = array_merge($lang, [
     'TRANSLATION_INFO'     => '<a href="https://www.phpbb.com/customise/db/translation/french/">Traduction française officielle</a> &copy; <a href="https://www.maelsoucaze.com/">Maël Soucaze</a>',

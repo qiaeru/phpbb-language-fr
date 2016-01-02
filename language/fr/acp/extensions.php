@@ -1,27 +1,30 @@
 <?php
 /**
-* This file is part of the official French Language Package
-* for the phpBB Forum Software.
-*
-* @copyright (c) phpBB Limited <https://www.phpbb.com>
-* @copyright (c) Maël Soucaze <https://www.maelsoucaze.com>
-* @license GNU General Public License, version 2 (GPL-2.0)
-*
-* For information about the language package, please see
-* https://www.phpbb.com/customise/db/translation/french/
-*/
+ * This file is part of the official French Language Package
+ * for the phpBB Forum Software.
+ *
+ * @copyright (c) phpBB Limited <https://www.phpbb.com>
+ * @copyright (c) Maël Soucaze <https://www.maelsoucaze.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ * For information about the language package, please see
+ * https://www.phpbb.com/customise/db/translation/french/
+ */
+
+/**
+ * DO NOT CHANGE.
+ */
 if (!defined('IN_PHPBB')) {
     exit;
 }
 
-/*
-* DO NOT CHANGE
-*/
 if (empty($lang) || !is_array($lang)) {
     $lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
+//
+// All language files should use UTF-8 as their encoding and the files must not contain a BOM.
 //
 // Placeholders can now contain order information, e.g. instead of
 // 'Page %s of %s' you can (and should) write 'Page %1$s of %2$s', this allows
