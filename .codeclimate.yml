@@ -23,4 +23,5 @@ exclude_paths:
   - "**.txt"
   - "**.yml"
   - "language/fr/email/**/*"
+  - "language/fr/LICENSE"
   - "styles/prosilver/theme/fr/icon_user_online.gif"
