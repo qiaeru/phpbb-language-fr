@@ -24,7 +24,6 @@ if (!defined('IN_PHPBB'))
 if (empty($lang) || !is_array($lang))
 {
 	$lang = array();
->>>>>>> parent of 0a038c2... Merge pull request #4 from maelsoucaze/analysis-8KMj2q
 }
 
 // DEVELOPERS PLEASE NOTE
