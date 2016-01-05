@@ -1,17 +1,17 @@
 <?php
 /**
-*
-* This file is part of the official French Language Package
-* for the phpBB Forum Software.
-*
-* @copyright (c) phpBB Limited <https://www.phpbb.com>
-* @copyright (c) Maël Soucaze <https://www.maelsoucaze.com>
-* @license GNU General Public License, version 2 (GPL-2.0)
-*
-* For information about the language package, please see
-* https://www.phpbb.com/customise/db/translation/french/
-*
-*/
+ *
+ * This file is part of the official French Language Package
+ * for the phpBB Forum Software.
+ *
+ * @copyright (c) phpBB Limited <https://www.phpbb.com>
+ * @copyright (c) Maël Soucaze <https://www.maelsoucaze.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ * For information about the language package, please see
+ * https://www.phpbb.com/customise/db/translation/french/
+ *
+ */
 
 /**
  * DO NOT CHANGE
@@ -41,8 +41,8 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'TRANSLATION_INFO' => '<a href="https://www.phpbb.com/customise/db/translation/french/">Traduction française officielle</a> &copy; <a href="https://www.maelsoucaze.com/">Maël Soucaze</a>',
 	'DIRECTION'        => 'ltr',
-	'DATE_FORMAT'      => '|d F Y|',	// 01 January 2007 (with Relative days enabled)
-	'DATETIME_FORMAT'  => '|d F Y, H:i|',	// 01 January 2007, 13:37 (with Relative days enabled)
+	'DATE_FORMAT'      => '|d F Y|', // 01 January 2007 (with Relative days enabled)
+	'DATETIME_FORMAT'  => '|d F Y, H:i|', // 01 January 2007, 13:37 (with Relative days enabled)
 	'USER_LANG'        => 'fr',
 
 	// You can define different rules for the determination of plural forms here.
@@ -162,7 +162,7 @@ $lang = array_merge($lang, array(
 	'CLOSE_WINDOW'          => 'Fermer la fenêtre',
 	'COLOUR_SWATCH'         => 'Palette de couleurs',
 	'COLON'                 => ' :',
-	'COMMA_SEPARATOR'       => ', ',	// Comma used to join lists into a single string, use localised comma if appropriate, eg: Ideographic or Arabic
+	'COMMA_SEPARATOR'       => ', ', // Comma used to join lists into a single string, use localised comma if appropriate, eg: Ideographic or Arabic
 	'CONFIRM'               => 'Confirmer',
 	'CONFIRM_CODE'          => 'Code de confirmation',
 	'CONFIRM_CODE_EXPLAIN'  => 'Veuillez saisir le code tel qu’il apparaît dans l’image. Toutes les lettres sont insensibles à la casse.',
@@ -422,9 +422,9 @@ $lang = array_merge($lang, array(
 	'NEWEST_USER'              => 'Notre membre le plus récent est <strong>%s</strong>',
 	'NEW_MESSAGE'              => 'Nouveau message',
 	'NEW_MESSAGES'             => 'Nouveaux messages',
-	'NEW_POST'                 => 'Nouveau message',	// Not used anymore
-	'NEW_POSTS'                => 'Nouveaux messages',	// Not used anymore
-	'NEXT'                     => 'Suivant',		// Used in pagination
+	'NEW_POST'                 => 'Nouveau message', // Not used anymore
+	'NEW_POSTS'                => 'Nouveaux messages', // Not used anymore
+	'NEXT'                     => 'Suivant', // Used in pagination
 	'NEXT_STEP'                => 'Suivant',
 	'NEVER'                    => 'Jamais',
 	'NO'                       => 'Non',
@@ -505,14 +505,14 @@ $lang = array_merge($lang, array(
 	'NO_MODE'                   => 'Aucun mode n’a été sélectionné.',
 	'NO_MODERATORS'             => 'Il n’y a aucun modérateur.',
 	'NO_NEW_MESSAGES'           => 'Aucun nouveau message',
-	'NO_NEW_POSTS'              => 'Aucun nouveau message',	// Not used anymore
+	'NO_NEW_POSTS'              => 'Aucun nouveau message', // Not used anymore
 	'NO_ONLINE_USERS'           => 'Aucun utilisateur inscrit',
 	'NO_POSTS'                  => 'Aucun message',
 	'NO_POSTS_TIME_FRAME'       => 'Aucun message n’a été publié dans ce sujet lors de cette période.',
 	'NO_FEED_ENABLED'           => 'Les flux ne sont pas disponibles sur ce forum.',
 	'NO_FEED'                   => 'Le flux que vous recherchez n’est pas disponible.',
 	'NO_STYLE_DATA'             => 'Impossible d’accéder aux données du style',
-	'NO_SUBJECT'                => 'Aucun sujet n’a été spécifié',								// Used for posts having no subject defined but displayed within management pages.
+	'NO_SUBJECT'                => 'Aucun sujet n’a été spécifié', // Used for posts having no subject defined but displayed within management pages.
 	'NO_SUCH_SEARCH_MODULE'     => 'Le module de recherche que vous avez spécifié est introuvable.',
 	'NO_SUPPORTED_AUTH_METHODS' => 'Aucune méthode d’authentification n’est supportée.',
 	'NO_TOPIC'                  => 'Le sujet que vous souhaitez consulter est introuvable.',
@@ -531,9 +531,9 @@ $lang = array_merge($lang, array(
 		2 => '%d pièces jointes',
 	),
 	'NUM_POSTS_IN_QUEUE' => array(
-		0 => 'Aucun message en attente',		// 0
-		1 => '1 message en attente',		// 1
-		2 => '%d messages en attente',		// 2+
+		0 => 'Aucun message en attente', // 0
+		1 => '1 message en attente', // 1
+		2 => '%d messages en attente', // 2+
 	),
 
 	'OCCUPATION'     => 'Profession',
@@ -596,7 +596,7 @@ $lang = array_merge($lang, array(
 	'POST_UNAPPROVED'         => 'Ce message n’a pas été approuvé.',
 	'POWERED_BY'              => 'Développé par %s',
 	'PREVIEW'                 => 'Prévisualiser',
-	'PREVIOUS'                => 'Précédent',		// Used in pagination
+	'PREVIOUS'                => 'Précédent', // Used in pagination
 	'PREVIOUS_STEP'           => 'Précédent',
 	'PRIVACY'                 => 'Politique de confidentialité',
 	'PRIVATE_MESSAGE'         => 'Message privé',
@@ -688,7 +688,7 @@ $lang = array_merge($lang, array(
 	'SELECT_ALL_CODE'          => 'Tout sélectionner',
 	'SELECT_DESTINATION_FORUM' => 'Veuillez sélectionner un forum de destination',
 	'SELECT_FORUM'             => 'Sélectionner un forum',
-	'SEND_EMAIL'               => 'Envoyer un courriel',				// Used for submit buttons
+	'SEND_EMAIL'               => 'Envoyer un courriel', // Used for submit buttons
 	'SEND_EMAIL_USER'          => 'Envoyer un courriel à %s',
 	'SEND_PRIVATE_MESSAGE'     => 'Envoyer un message privé',
 	'SETTINGS'                 => 'Réglages',
@@ -829,7 +829,7 @@ $lang = array_merge($lang, array(
 
 	'USER_NEW_PERMISSION_DISALLOWED' => 'Vous ne pouvez pas utiliser cette fonctionnalité. Vous devez vous inscrire et participer activement aux discussions du forum.',
 
-	'VARIANT_DATE_SEPARATOR' => ' / ',	// Used in date format dropdown, eg: "Today, 13:37 / 01 Jan 2007, 13:37" ... to join a relative date with calendar date
+	'VARIANT_DATE_SEPARATOR' => ' / ', // Used in date format dropdown, eg: "Today, 13:37 / 01 Jan 2007, 13:37" ... to join a relative date with calendar date
 	'VIEWED'                 => 'Consulté',
 	'VIEWED_COUNTS'          => array(
 		0 => 'Aucune consultation',
@@ -936,7 +936,7 @@ $lang = array_merge($lang, array(
 		'Feb'       => 'févr.',
 		'Mar'       => 'mars',
 		'Apr'       => 'avr.',
-		'May_short' => 'mai',	// Short representation of "May". May_short used because in English the short and long date are the same for May.
+		'May_short' => 'mai', // Short representation of "May". May_short used because in English the short and long date are the same for May.
 		'Jun'       => 'juin',
 		'Jul'       => 'juil.',
 		'Aug'       => 'août',
@@ -1423,5 +1423,4 @@ $lang = array_merge($lang, array(
 	// The default dateformat which will be used on new installs in this language
 	// Translators should change this if a the usual date format is different
 	'default_dateformat' => 'd F Y, H:i', // 01 January 2007, 13:37
-
 ));

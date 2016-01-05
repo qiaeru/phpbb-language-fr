@@ -1,17 +1,17 @@
 <?php
 /**
-*
-* This file is part of the official French Language Package
-* for the phpBB Forum Software.
-*
-* @copyright (c) phpBB Limited <https://www.phpbb.com>
-* @copyright (c) Maël Soucaze <https://www.maelsoucaze.com>
-* @license GNU General Public License, version 2 (GPL-2.0)
-*
-* For information about the language package, please see
-* https://www.phpbb.com/customise/db/translation/french/
-*
-*/
+ *
+ * This file is part of the official French Language Package
+ * for the phpBB Forum Software.
+ *
+ * @copyright (c) phpBB Limited <https://www.phpbb.com>
+ * @copyright (c) Maël Soucaze <https://www.maelsoucaze.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ * For information about the language package, please see
+ * https://www.phpbb.com/customise/db/translation/french/
+ *
+ */
 
 /**
  * DO NOT CHANGE
@@ -235,7 +235,7 @@ $lang = array_merge($lang, array(
 	'ACC_DISABLE' => 'Désactiver les inscriptions',
 	'ACC_NONE'    => 'Aucune activation (accès immédiat)',
 	'ACC_USER'    => 'Par l’utilisateur (courriel)',
-//	'ACC_USER_ADMIN'			=> 'Par l’utilisateur et un administrateur',
+//	'ACC_USER_ADMIN'			  => 'Par l’utilisateur et un administrateur',
 	'ALLOW_EMAIL_REUSE'           => 'Autoriser les adresses de courriel identiques',
 	'ALLOW_EMAIL_REUSE_EXPLAIN'   => 'Les utilisateurs pourront s’inscrire sur le forum en renseignant une adresse de courriel identique à celle utilisée par un autre utilisateur.',
 	'COPPA'                       => 'COPPA',

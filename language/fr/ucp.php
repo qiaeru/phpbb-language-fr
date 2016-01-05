@@ -1,17 +1,17 @@
 <?php
 /**
-*
-* This file is part of the official French Language Package
-* for the phpBB Forum Software.
-*
-* @copyright (c) phpBB Limited <https://www.phpbb.com>
-* @copyright (c) Maël Soucaze <https://www.maelsoucaze.com>
-* @license GNU General Public License, version 2 (GPL-2.0)
-*
-* For information about the language package, please see
-* https://www.phpbb.com/customise/db/translation/french/
-*
-*/
+ *
+ * This file is part of the official French Language Package
+ * for the phpBB Forum Software.
+ *
+ * @copyright (c) phpBB Limited <https://www.phpbb.com>
+ * @copyright (c) Maël Soucaze <https://www.maelsoucaze.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ * For information about the language package, please see
+ * https://www.phpbb.com/customise/db/translation/french/
+ *
+ */
 
 /**
  * DO NOT CHANGE
@@ -475,7 +475,7 @@ $lang = array_merge($lang, array(
 	'SAME_PASSWORD_ERROR' => 'Le mot de passe que vous avez spécifié est identique à votre mot de passe actuel.',
 	'SEARCH_YOUR_POSTS'   => 'Afficher vos messages',
 	'SEND_PASSWORD'       => 'Envoyer le mot de passe',
-	'SENT_AT'             => 'Date d’envoi',			// Used before dates in private messages
+	'SENT_AT'             => 'Date d’envoi', // Used before dates in private messages
 	'SHOW_EMAIL'          => 'Autoriser les utilisateurs à me contacter par courriel',
 	'SIGNATURE_EXPLAIN'   => 'La signature est un bloc de texte qui sera inséré au pied de tous vos messages. Elle est limitée à %d caractères.',
 	'SIGNATURE_PREVIEW'   => 'Votre signature apparaîtra ainsi dans tous vos messages',

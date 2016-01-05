@@ -1,17 +1,17 @@
 <?php
 /**
-*
-* This file is part of the official French Language Package
-* for the phpBB Forum Software.
-*
-* @copyright (c) phpBB Limited <https://www.phpbb.com>
-* @copyright (c) Maël Soucaze <https://www.maelsoucaze.com>
-* @license GNU General Public License, version 2 (GPL-2.0)
-*
-* For information about the language package, please see
-* https://www.phpbb.com/customise/db/translation/french/
-*
-*/
+ *
+ * This file is part of the official French Language Package
+ * for the phpBB Forum Software.
+ *
+ * @copyright (c) phpBB Limited <https://www.phpbb.com>
+ * @copyright (c) Maël Soucaze <https://www.maelsoucaze.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ * For information about the language package, please see
+ * https://www.phpbb.com/customise/db/translation/french/
+ *
+ */
 
 /**
  * DO NOT CHANGE
@@ -124,5 +124,4 @@ $lang = array_merge($lang, array(
 	'VIEW_UNREAD_POST' => 'Premier message non lu',
 	'VOTE_SUBMITTED'   => 'Votre vote a bien été comptabilisé.',
 	'VOTE_CONVERTED'   => 'Impossible de modifier les votes d’un sondage qui a été converti.',
-
 ));

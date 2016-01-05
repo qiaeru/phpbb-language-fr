@@ -401,7 +401,7 @@ $lang = array_merge($lang, array(
 
 	'FILE_ALREADY_UP_TO_DATE'    => 'Le fichier est déjà à jour.',
 	'FILE_DIFF_NOT_ALLOWED'      => 'Le fichier ne peut pas être différencié.',
-	'FILE_USED'                  => 'Information utilisée depuis',			// Single file
+	'FILE_USED'                  => 'Information utilisée depuis', // Single file
 	'FILES_CONFLICT'             => 'Fichiers conflictuels',
 	'FILES_CONFLICT_EXPLAIN'     => 'Les fichiers suivants ont été modifiés par rapport aux fichiers originaux présents dans l’ancienne version. Ils ne pourront pas être fusionnés sans provoquer de conflits. Veuillez vérifier ces fichiers afin de détecter et résoudre manuellement les conflits ou continuez le processus de mise à jour en sélectionnant la méthode de fusion que vous souhaitez. Si vous résolvez les conflits manuellement, vérifiez de nouveau les fichiers une fois que les modifications ont été apportées. Vous pouvez également sélectionner pour chaque fichier la méthode de fusion qui vous semble la plus adaptée. La première méthode produira un fichier où les lignes conflictuelles présentes dans votre ancien fichier seront perdues. La seconde méthode ignorera toutes les modifications qui ont été apportées au nouveau fichier.',
 	'FILES_DELETED'              => 'Fichiers supprimés',
