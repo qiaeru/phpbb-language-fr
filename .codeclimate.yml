@@ -11,6 +11,8 @@ engines:
         enabled: false
       Generic WhiteSpace DisallowTabIndent NonIndentTabsUsed:
         enabled: false
+      Generic WhiteSpace DisallowTabIndent TabsUsed:
+        enabled: false
     config:
       file_extensions: "php"
   phpmd:
