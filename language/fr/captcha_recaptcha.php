@@ -1,25 +1,29 @@
 <?php
 /**
- * This file is part of the official French Language Package
- * for the phpBB Forum Software.
- *
- * @copyright (c) phpBB Limited <https://www.phpbb.com>
- * @copyright (c) Maël Soucaze <https://www.maelsoucaze.com>
- * @license GNU General Public License, version 2 (GPL-2.0)
- *
- * For information about the language package, please see
- * https://www.phpbb.com/customise/db/translation/french/
- */
+*
+* This file is part of the official French Language Package
+* for the phpBB Forum Software.
+*
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @copyright (c) Maël Soucaze <https://www.maelsoucaze.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For information about the language package, please see
+* https://www.phpbb.com/customise/db/translation/french/
+*
+*/
 
 /**
- * DO NOT CHANGE.
- */
-if (!defined('IN_PHPBB')) {
-    exit;
+* DO NOT CHANGE
+*/
+if (!defined('IN_PHPBB'))
+{
+	exit;
 }
 
-if (empty($lang) || !is_array($lang)) {
-    $lang = [];
+if (empty($lang) || !is_array($lang))
+{
+	$lang = array();
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -34,17 +38,17 @@ if (empty($lang) || !is_array($lang)) {
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
-$lang = array_merge($lang, [
-    'RECAPTCHA_LANG'                   => 'fr',
-    'RECAPTCHA_NOT_AVAILABLE'          => 'Vous devez créer un compte sur <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a> (en anglais) avant de pouvoir utiliser reCAPTCHA.',
-    'CAPTCHA_RECAPTCHA'                => 'reCAPTCHA',
-    'RECAPTCHA_INCORRECT'              => 'La vérification a échoué',
-    'RECAPTCHA_NOSCRIPT'               => 'Veuillez activer JavaScript dans votre navigateur afin de charger le formulaire.',
+$lang = array_merge($lang, array(
+	'RECAPTCHA_LANG'				=> 'fr',
+	'RECAPTCHA_NOT_AVAILABLE'		=> 'Vous devez créer un compte sur <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a> (en anglais) avant de pouvoir utiliser reCAPTCHA.',
+	'CAPTCHA_RECAPTCHA'				=> 'reCAPTCHA',
+	'RECAPTCHA_INCORRECT'			=> 'La vérification a échoué',
+	'RECAPTCHA_NOSCRIPT'			=> 'Veuillez activer JavaScript dans votre navigateur afin de charger le formulaire.',
 
-    'RECAPTCHA_PUBLIC'                 => 'Clé publique reCAPTCHA',
-    'RECAPTCHA_PUBLIC_EXPLAIN'         => 'Votre clé publique de reCAPTCHA. Les clés peuvent être obtenues sur <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a> (en anglais).',
-    'RECAPTCHA_PRIVATE'                => 'Clé privée reCAPTCHA',
-    'RECAPTCHA_PRIVATE_EXPLAIN'        => 'Votre clé privée de reCAPTCHA. Les clés peuvent être obtenues sur <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a> (en anglais).',
+	'RECAPTCHA_PUBLIC'				=> 'Clé publique reCAPTCHA',
+	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'Votre clé publique de reCAPTCHA. Les clés peuvent être obtenues sur <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a> (en anglais).',
+	'RECAPTCHA_PRIVATE'				=> 'Clé privée reCAPTCHA',
+	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'Votre clé privée de reCAPTCHA. Les clés peuvent être obtenues sur <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a> (en anglais).',
 
-    'RECAPTCHA_EXPLAIN'                => 'Veuillez résoudre la vérification suivante afin de nous permettre de lutter contre les publications automatisées indésirables.',
-]);
+	'RECAPTCHA_EXPLAIN'				=> 'Veuillez résoudre la vérification suivante afin de nous permettre de lutter contre les publications automatisées indésirables.',
+));

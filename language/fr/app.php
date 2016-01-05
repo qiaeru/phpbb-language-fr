@@ -1,25 +1,29 @@
 <?php
 /**
- * This file is part of the official French Language Package
- * for the phpBB Forum Software.
- *
- * @copyright (c) phpBB Limited <https://www.phpbb.com>
- * @copyright (c) Maël Soucaze <https://www.maelsoucaze.com>
- * @license GNU General Public License, version 2 (GPL-2.0)
- *
- * For information about the language package, please see
- * https://www.phpbb.com/customise/db/translation/french/
- */
+*
+* This file is part of the official French Language Package
+* for the phpBB Forum Software.
+*
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @copyright (c) Maël Soucaze <https://www.maelsoucaze.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For information about the language package, please see
+* https://www.phpbb.com/customise/db/translation/french/
+*
+*/
 
 /**
- * DO NOT CHANGE.
- */
-if (!defined('IN_PHPBB')) {
-    exit;
+* DO NOT CHANGE
+*/
+if (!defined('IN_PHPBB'))
+{
+	exit;
 }
 
-if (empty($lang) || !is_array($lang)) {
-    $lang = [];
+if (empty($lang) || !is_array($lang))
+{
+	$lang = array();
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -34,9 +38,9 @@ if (empty($lang) || !is_array($lang)) {
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
-$lang = array_merge($lang, [
-    'CONTROLLER_ARGUMENT_VALUE_MISSING'    => 'Valeur manquante concernant l’argument #%1$s : <strong>%3$s</strong> dans la classe <strong>%2$s</strong>',
-    'CONTROLLER_NOT_SPECIFIED'             => 'Aucun contrôleur n’a été spécifié.',
-    'CONTROLLER_METHOD_NOT_SPECIFIED'      => 'Aucune méthode de contrôleur n’a été spécifiée.',
-    'CONTROLLER_SERVICE_UNDEFINED'         => 'Le service du contrôleur « <strong>%s</strong> » n’est pas défini dans ./config/services.yml.',
-]);
+$lang = array_merge($lang, array(
+	'CONTROLLER_ARGUMENT_VALUE_MISSING'	=> 'Valeur manquante concernant l’argument #%1$s : <strong>%3$s</strong> dans la classe <strong>%2$s</strong>',
+	'CONTROLLER_NOT_SPECIFIED'			=> 'Aucun contrôleur n’a été spécifié.',
+	'CONTROLLER_METHOD_NOT_SPECIFIED'	=> 'Aucune méthode de contrôleur n’a été spécifiée.',
+	'CONTROLLER_SERVICE_UNDEFINED'		=> 'Le service du contrôleur « <strong>%s</strong> » n’est pas défini dans ./config/services.yml.',
+));
