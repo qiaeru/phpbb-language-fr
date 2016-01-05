@@ -44,28 +44,28 @@ $lang = array_merge($lang, array(
 
 	'CRITERIA' => 'Critère',
 
-	'DEACTIVATE_DELETE' => 'Désactiver ou supprimer',
+	'DEACTIVATE_DELETE'         => 'Désactiver ou supprimer',
 	'DEACTIVATE_DELETE_EXPLAIN' => 'Choisissez si vous souhaitez désactiver ou supprimer entièrement les utilisateurs. Veuillez noter que les utilisateurs supprimés ne peuvent pas être restaurés !',
-	'DELETE_USERS' => 'Supprimer',
-	'DELETE_USER_POSTS' => 'Supprimer les messages des utilisateurs délestés',
+	'DELETE_USERS'              => 'Supprimer',
+	'DELETE_USER_POSTS'         => 'Supprimer les messages des utilisateurs délestés',
 	'DELETE_USER_POSTS_EXPLAIN' => 'Supprime les messages des utilisateurs délestés. Cela ne fonctionne pas avec les utilisateurs désactivés.',
 
 	'JOINED_EXPLAIN' => 'Saisissez une date au format <kbd>AAAA-MM-JJ</kbd>. Vous pouvez utiliser les deux champs afin de sélectionner un intervalle, ou laisser un champ vide afin de spécifier une période de temps ouverte.',
 
 	'LAST_ACTIVE_EXPLAIN' => 'Saisissez une date au format <kbd>AAAA-MM-JJ</kbd>. Saisissez <kbd>0000-00-00</kbd> afin de délester les utilisateurs qui ne se sont jamais connectés, les conditions <em>Avant</em> et <em>Après</em> seront ignorées.',
 
-	'POSTS_ON_QUEUE' => 'Messages en attente d’approbation',
-	'PRUNE_USERS_GROUP_EXPLAIN' => 'Détermine une limite aux utilisateurs de ce groupe.',
-	'PRUNE_USERS_GROUP_NONE' => 'Tous les groupes',
-	'PRUNE_USERS_LIST' => 'Utilisateurs à délester',
-	'PRUNE_USERS_LIST_DELETE' => 'En accord avec le critère sélectionné concernant le délestage des utilisateurs, les comptes suivants seront supprimés. Vous pouvez supprimer individuellement des utilisateurs de la liste de suppression en décochant la case à côté de leur nom d’utilisateur.',
+	'POSTS_ON_QUEUE'              => 'Messages en attente d’approbation',
+	'PRUNE_USERS_GROUP_EXPLAIN'   => 'Détermine une limite aux utilisateurs de ce groupe.',
+	'PRUNE_USERS_GROUP_NONE'      => 'Tous les groupes',
+	'PRUNE_USERS_LIST'            => 'Utilisateurs à délester',
+	'PRUNE_USERS_LIST_DELETE'     => 'En accord avec le critère sélectionné concernant le délestage des utilisateurs, les comptes suivants seront supprimés. Vous pouvez supprimer individuellement des utilisateurs de la liste de suppression en décochant la case à côté de leur nom d’utilisateur.',
 	'PRUNE_USERS_LIST_DEACTIVATE' => 'En accord avec le critère sélectionné concernant le délestage des utilisateurs, les comptes suivants seront désactivés. Vous pouvez supprimer individuellement des utilisateurs de la liste de désactivation en décochant la case à côté de leur nom d’utilisateur.',
 
 	'SELECT_USERS_EXPLAIN' => 'Veuillez saisir ici des noms d’utilisateurs spécifiques. Ils seront utilisés de préférence en tenant compte du critère sélectionné ci-dessus. Les fondateurs ne peuvent pas être délestés.',
 
 	'USER_DEACTIVATE_SUCCESS' => 'Les utilisateurs ont été désactivés.',
-	'USER_DELETE_SUCCESS' => 'Les utilisateurs ont été supprimés.',
-	'USER_PRUNE_FAILURE' => 'Aucun utilisateur ne correspond au critère sélectionné.',
+	'USER_DELETE_SUCCESS'     => 'Les utilisateurs ont été supprimés.',
+	'USER_PRUNE_FAILURE'      => 'Aucun utilisateur ne correspond au critère sélectionné.',
 
 	'WRONG_ACTIVE_JOINED_DATE' => 'La date que vous avez spécifiée est incorrecte, elle doit obligatoirement respecter le format <kbd>AAAA-MM-JJ</kbd>',
 ));
@@ -78,20 +78,20 @@ $lang = array_merge($lang, array(
 
 	'NO_PRUNE' => 'Aucun forum n’a été délesté.',
 
-	'SELECTED_FORUM' => 'Forum sélectionné',
+	'SELECTED_FORUM'  => 'Forum sélectionné',
 	'SELECTED_FORUMS' => 'Forums sélectionnés',
 
-	'POSTS_PRUNED' => 'Messages délestés',
-	'PRUNE_ANNOUNCEMENTS' => 'Délester les annonces',
-	'PRUNE_FINISHED_POLLS' => 'Délester les sondages expirés',
+	'POSTS_PRUNED'                 => 'Messages délestés',
+	'PRUNE_ANNOUNCEMENTS'          => 'Délester les annonces',
+	'PRUNE_FINISHED_POLLS'         => 'Délester les sondages expirés',
 	'PRUNE_FINISHED_POLLS_EXPLAIN' => 'Les sujets dans lesquels les sondages sont expirés seront supprimés.',
-	'PRUNE_FORUM_CONFIRM' => 'Êtes-vous sûr de vouloir délester ces forums ? Une fois que les messages et les sujets délestés auront été supprimés, ils ne pourront pas être restaurés.',
-	'PRUNE_NOT_POSTED' => 'Nombre de jours depuis la dernière publication',
-	'PRUNE_NOT_VIEWED' => 'Nombre de jours depuis la dernière consultation',
-	'PRUNE_OLD_POLLS' => 'Délester les sondages obsolètes',
-	'PRUNE_OLD_POLLS_EXPLAIN' => 'Les sujets dans lesquels les sondages en cours sont inactifs depuis un certains temps seront supprimés.',
-	'PRUNE_STICKY' => 'Délester les notes',
-	'PRUNE_SUCCESS' => 'Les forums ont été délestés.',
+	'PRUNE_FORUM_CONFIRM'          => 'Êtes-vous sûr de vouloir délester ces forums ? Une fois que les messages et les sujets délestés auront été supprimés, ils ne pourront pas être restaurés.',
+	'PRUNE_NOT_POSTED'             => 'Nombre de jours depuis la dernière publication',
+	'PRUNE_NOT_VIEWED'             => 'Nombre de jours depuis la dernière consultation',
+	'PRUNE_OLD_POLLS'              => 'Délester les sondages obsolètes',
+	'PRUNE_OLD_POLLS_EXPLAIN'      => 'Les sujets dans lesquels les sondages en cours sont inactifs depuis un certains temps seront supprimés.',
+	'PRUNE_STICKY'                 => 'Délester les notes',
+	'PRUNE_SUCCESS'                => 'Les forums ont été délestés.',
 
 	'TOPICS_PRUNED' => 'Sujets délestés',
 ));
