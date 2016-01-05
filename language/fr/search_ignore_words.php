@@ -12,7 +12,6 @@
 * https://www.phpbb.com/customise/db/translation/french/
 *
 */
-
 if (!defined('IN_PHPBB'))
 {
 	exit;
