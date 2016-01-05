@@ -1,5 +1,5 @@
 languages:
-  php: true
+  PHP: true
 
 engines:
   csslint:

@@ -1,7 +1,3 @@
-# EditorConfig makes it easy to maintain the correct coding style
-# when switching between different text editors and projects.
-# http://editorconfig.org/
-
 root = true
 
 [*]

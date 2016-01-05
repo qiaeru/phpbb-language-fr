@@ -1,19 +1,4 @@
 {
-	"description": "French language pack for phpBB",
-	"homepage": "https://www.phpbb.com/customise/db/translation/french/",
-	"license": "GPL-2.0",
-	"authors": [{
-			"name": "Maël Soucaze",
-			"email": "maelsoucaze@gmail.com",
-			"homepage": "http://www.maelsoucaze.com"
-	}],
-	"support": {
-		"issues": "https://github.com/maelsoucaze/phpbb/issues",
-		"source": "https://github.com/maelsoucaze/phpbb"
-	},
-	"require": {
-		"php": ">=5.6"
-	},
 	"require-dev": {
 		"phpbb/translation-validator": "1.3.*"
 	}
