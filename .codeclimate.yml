@@ -1,5 +1,6 @@
 languages:
   php: true
+
 engines:
   csslint:
     enabled: true 
@@ -12,10 +13,12 @@ engines:
       file_extensions: "php"
   phpmd:
     enabled: true
+
 ratings:
   paths:
     - "**.php"
     - "styles/prosilver/theme/fr/stylesheet.css"
+
 exclude_paths:
   - "**.htm"
   - "**.json"
