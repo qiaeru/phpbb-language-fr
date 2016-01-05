@@ -9,6 +9,8 @@ engines:
     checks:
       Generic Files LineLength TooLong:
         enabled: false
+      Generic WhiteSpace DisallowTabIndent NonIndentTabsUsed:
+        enabled: false
     config:
       file_extensions: "php"
   phpmd:
