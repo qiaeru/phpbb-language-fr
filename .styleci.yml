@@ -1,0 +1,16 @@
+preset: recommended
+
+risky: false
+
+linting: true
+
+enabled:
+  - long_array_syntax
+
+disabled:
+  - braces
+  - indentation
+  - phpdoc_summary
+  - phpdoc_to_comment
+  - phpdoc_trim
+  - short_array_syntax
