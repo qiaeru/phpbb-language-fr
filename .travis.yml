@@ -35,4 +35,5 @@ script:
   - php vendor/bin/PhpbbTranslationValidator.php validate --phpbb-version=$PHPBB_VERSION $PHPBB_LANGUAGE --display-notices
 
 notifications:
-  email: change
+  email:
+    on_failure: change
