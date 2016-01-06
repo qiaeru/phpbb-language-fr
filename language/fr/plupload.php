@@ -1,17 +1,15 @@
 <?php
 /**
- *
- * This file is part of the official French Language Package
- * for the phpBB Forum Software.
+ * This file is part of the French language pack for the
+ * phpBB forum software.
  *
  * @copyright (c) phpBB Limited <https://www.phpbb.com>
- * @copyright (c) 2010-2013 Moxiecode Systems AB
+ * @copyright (c) Moxiecode Systems AB <http://www.moxiecode.com>
  * @copyright (c) Maël Soucaze <https://www.maelsoucaze.com>
  * @license GNU General Public License, version 2 (GPL-2.0)
  *
- * For information about the language package, please see
+ * For more information about the language pack, please visit
  * https://www.phpbb.com/customise/db/translation/french/
- *
  */
 
 /**
