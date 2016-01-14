@@ -1,0 +1,33 @@
+engines:
+  csslint:
+    enabled: true 
+  phpcodesniffer:
+    enabled: true
+    checks:
+      Generic Files LineLength TooLong:
+        enabled: false
+      Generic WhiteSpace DisallowTabIndent NonIndentTabsUsed:
+        enabled: false
+      Generic WhiteSpace DisallowTabIndent TabsUsed:
+        enabled: false
+      Squiz ControlStructures ControlSignature SpaceAfterCloseParenthesis:
+        enabled: false
+    config:
+      file_extensions: "php"
+  phpmd:
+    enabled: true
+
+ratings:
+  paths:
+    - "**.php"
+    - "styles/prosilver/theme/fr/stylesheet.css"
+
+exclude_paths:
+  - "**.htm"
+  - "**.json"
+  - "**.md"
+  - "**.txt"
+  - "**.yml"
+  - "language/fr/email/**/*"
+  - "language/fr/LICENSE"
+  - "styles/prosilver/theme/fr/icon_user_online.gif"
