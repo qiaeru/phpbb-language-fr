@@ -1,17 +1,19 @@
 <?php
 /**
-*
-* This file is part of the official French Language Package
-* for the phpBB Forum Software.
-*
-* @copyright (c) phpBB Limited <https://www.phpbb.com>
-* @copyright (c) Maël Soucaze <https://www.maelsoucaze.com>
-* @license GNU General Public License, version 2 (GPL-2.0)
-*
-* For information about the language package, please see
-* https://www.phpbb.com/customise/db/translation/french/
-*
-*/
+ * This file is part of the French language pack for the
+ * phpBB forum software.
+ *
+ * @copyright (c) phpBB Limited <https://www.phpbb.com>
+ * @copyright (c) Maël Soucaze <https://www.maelsoucaze.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ * For more information about the language pack, please visit
+ * https://www.phpbb.com/customise/db/translation/french/
+ */
+
+/**
+ * DO NOT CHANGE
+ */
 if (!defined('IN_PHPBB'))
 {
 	exit;

@@ -1,24 +1,26 @@
 <?php
 /**
-*
-* This file is part of the official French Language Package
-* for the phpBB Forum Software.
-*
-* @copyright (c) phpBB Limited <https://www.phpbb.com>
-* @copyright (c) Maël Soucaze <https://www.maelsoucaze.com>
-* @license GNU General Public License, version 2 (GPL-2.0)
-*
-* For information about the language package, please see
-* https://www.phpbb.com/customise/db/translation/french/
-*
-*/
+ * This file is part of the French language pack for the
+ * phpBB forum software.
+ *
+ * @copyright (c) phpBB Limited <https://www.phpbb.com>
+ * @copyright (c) Maël Soucaze <https://www.maelsoucaze.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ * For more information about the language pack, please visit
+ * https://www.phpbb.com/customise/db/translation/french/
+ */
+
+/**
+ * DO NOT CHANGE
+ */
 if (!defined('IN_PHPBB'))
 {
 	exit;
 }
 
 $synonyms = array(
-	'à posteriori' => 'à postériori',	// Or “a posteriori”
+	'à posteriori' => 'à postériori', // Or “a posteriori”
 	'abbattage'    => 'abattage',
 	'abbréviation' => 'abréviation',
 	'abcisse'      => 'abscisse',
@@ -93,7 +95,7 @@ $synonyms = array(
 
 	'baillage'     => 'bailliage',
 	'baillonette'  => 'baïonnette',
-	'ballade'      => 'balade',	// “Ballade” exist, but that does not mean a walk
+	'ballade'      => 'balade', // “Ballade” exist, but that does not mean a walk
 	'banquaire'    => 'bancaire',
 	'basalmique'   => 'balsamique',
 	'Bénélux'      => 'Benelux',
@@ -112,7 +114,7 @@ $synonyms = array(
 	'britaniques'  => 'britanniques',
 	'bruyament'    => 'bruyamment',
 
-	'çà'            => 'ça',	// “Çà” exist, but that means “here”, in the French expression “çà et là”
+	'çà'            => 'ça', // “Çà” exist, but that means “here”, in the French expression “çà et là”
 	'cable'         => 'câble',
 	'cantonnais'    => 'cantonais',
 	'capoiera'      => 'capoeira',
@@ -220,10 +222,10 @@ $synonyms = array(
 	'existances'   => 'existences',
 
 	'fabriquant'  => 'fabricant',
-	'faignant'    => 'fainéant',	// According to “fait” (verbal form to “faire”) and “néant”, cf. the French Academy
+	'faignant'    => 'fainéant', // According to “fait” (verbal form to “faire”) and “néant”, cf. the French Academy
 	'famillial'   => 'familial',
 	'fatiguant'   => 'fatigant',
-	'feignant'    => 'fainéant',	// According to “fait” (verbal form to “faire”) and “néant”, cf. the French Academy
+	'feignant'    => 'fainéant', // According to “fait” (verbal form to “faire”) and “néant”, cf. the French Academy
 	'fesait'      => 'faisait',
 	'filliale'    => 'filiale',
 	'filigramme'  => 'filigrane',
@@ -246,13 +248,13 @@ $synonyms = array(
 	'gravitationelle'     => 'gravitationnelle',
 	'gravitationellement' => 'gravitationnellement',
 	'grès'                => 'gré',
-	'Groënland'           => 'Groenland',	// Except the old French before the first half of the XIXe century
+	'Groënland'           => 'Groenland', // Except the old French before the first half of the XIXe century
 	'groseiller'          => 'groseillier',
 	'Guyanne'             => 'Guyane',
 
 	'hauts-parleurs' => 'haut-parleurs',
-	'Hawai'          => 'Hawaii',	// The “Hawaii” form is the English official writing
-	'Hawaii'         => 'Hawaï',	// Some dictionaries preach this form which explicitly prohibits any French digraph between the “a” and “i” character
+	'Hawai'          => 'Hawaii', // The “Hawaii” form is the English official writing
+	'Hawaii'         => 'Hawaï', // Some dictionaries preach this form which explicitly prohibits any French digraph between the “a” and “i” character
 	'hazard'         => 'hasard',
 	'hermite'        => 'ermite',
 	'hormi'          => 'hormis',
@@ -280,15 +282,15 @@ $synonyms = array(
 	'intentionnelement' => 'intentionnellement',
 	'intérressant'      => 'intéressant',
 	'interval'          => 'intervalle',
-	'imbecilité'        => 'imbécillité',	// Or “imbécilité”
+	'imbecilité'        => 'imbécillité', // Or “imbécilité”
 
 	'Japonnais' => 'Japonais',
 	'journeaux' => 'journaux',
 
 	'km2' => 'km²',
-	'kms' => 'km',	// Remains to the singular
+	'kms' => 'km', // Remains to the singular
 
-	'laisser-passer' => 'laissez-passer',	// “Laissez” is a granted verb
+	'laisser-passer' => 'laissez-passer', // “Laissez” is a granted verb
 	'language'       => 'langage',
 	'license'        => 'licence',
 	'litérature'     => 'littérature',
@@ -341,7 +343,7 @@ $synonyms = array(
 	'ocurrence'    => 'occurrence',
 	'omnibulé'     => 'obnubilé',
 	'omnubilé'     => 'obnubilé',
-	'orcheste'     => 'orchestre',	// “Orcheste” exists in biology
+	'orcheste'     => 'orchestre', // “Orcheste” exists in biology
 	'ornitorinque' => 'ornithorynque',
 	'oyé'          => 'oyez',
 
@@ -382,7 +384,7 @@ $synonyms = array(
 	'précipitament'   => 'précipitamment',
 	'précisemment'    => 'précisément',
 	'précisémment'    => 'précisément',
-	'prémice'         => 'prémisse',	// Or “prémices”
+	'prémice'         => 'prémisse', // Or “prémices”
 	'professionel'    => 'professionnel',
 	'professionelle'  => 'professionnelle',
 	'professionelles' => 'professionnelles',
@@ -453,7 +455,7 @@ $synonyms = array(
 	'télécomunication'  => 'télécommunication',
 	'télécomunications' => 'télécommunications',
 	'Thibet'            => 'Tibet',
-	'timbres-postes'    => 'timbres-poste',	// There are only one post office but several stamps
+	'timbres-postes'    => 'timbres-poste', // There are only one post office but several stamps
 	'tonnal'            => 'tonal',
 	'tonnale'           => 'tonale',
 	'tord'              => 'tort',
@@ -475,11 +477,11 @@ $synonyms = array(
 	'violamment'         => 'violemment',
 	'voierie'            => 'voirie',
 	'voiture'            => 'automobile',
-	'voluptes'           => 'volutes',	// Of smoke
+	'voluptes'           => 'volutes', // Of smoke
 	'vraissemblable'     => 'vraisemblable',
 	'vraissemblablement' => 'vraisemblablement',
 
 	'waggon' => 'wagon',
-	'Web'    => 'internet',	// Advised by the French Academy
+	'Web'    => 'internet', // Advised by the French Academy
 	'www'    => 'internet',
 );

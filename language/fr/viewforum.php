@@ -1,17 +1,15 @@
 <?php
 /**
-*
-* This file is part of the official French Language Package
-* for the phpBB Forum Software.
-*
-* @copyright (c) phpBB Limited <https://www.phpbb.com>
-* @copyright (c) Maël Soucaze <https://www.maelsoucaze.com>
-* @license GNU General Public License, version 2 (GPL-2.0)
-*
-* For information about the language package, please see
-* https://www.phpbb.com/customise/db/translation/french/
-*
-*/
+ * This file is part of the French language pack for the
+ * phpBB forum software.
+ *
+ * @copyright (c) phpBB Limited <https://www.phpbb.com>
+ * @copyright (c) Maël Soucaze <https://www.maelsoucaze.com>
+ * @license GNU General Public License, version 2 (GPL-2.0)
+ *
+ * For more information about the language pack, please visit
+ * https://www.phpbb.com/customise/db/translation/french/
+ */
 
 /**
  * DO NOT CHANGE
@@ -51,10 +49,10 @@ $lang = array_merge($lang, array(
 
 	'MARK_TOPICS_READ' => 'Marquer les sujets comme lus',
 
-	'NEW_POSTS_HOT'          => 'Nouveaux messages [ Populaires ]',	// Not used anymore
-	'NEW_POSTS_LOCKED'       => 'Nouveaux messages [ Verrouillés ]',	// Not used anymore
-	'NO_NEW_POSTS_HOT'       => 'Aucun nouveau message [ Populaire ]',	// Not used anymore
-	'NO_NEW_POSTS_LOCKED'    => 'Aucun nouveau message [ Verrouillé ]',	// Not used anymore
+	'NEW_POSTS_HOT'          => 'Nouveaux messages [ Populaires ]', // Not used anymore
+	'NEW_POSTS_LOCKED'       => 'Nouveaux messages [ Verrouillés ]', // Not used anymore
+	'NO_NEW_POSTS_HOT'       => 'Aucun nouveau message [ Populaire ]', // Not used anymore
+	'NO_NEW_POSTS_LOCKED'    => 'Aucun nouveau message [ Verrouillé ]', // Not used anymore
 	'NO_READ_ACCESS'         => 'Vous ne pouvez pas consulter les sujets de ce forum.',
 	'NO_UNREAD_POSTS_HOT'    => 'Aucun message non lu [ Populaire ]',
 	'NO_UNREAD_POSTS_LOCKED' => 'Aucun message non lu [ Verrouillé ]',

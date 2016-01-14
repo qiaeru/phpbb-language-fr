@@ -1,24 +1,5 @@
 {
-	"name": "maelsoucaze/phpbbfrench",
-	"type": "phpbb-language",
-	"description": "French language pack for phpBB 3.1",
-	"homepage": "https://www.phpbb.com/customise/db/translation/french/",
-	"version": "2.7.0-dev",
-	"keywords": ["phpbb", "french", "language", "locale"],
-	"license": "GPL-2.0",
-	"authors": [{
-			"name": "Maël Soucaze",
-			"email": "maelsoucaze@gmail.com",
-			"homepage": "http://www.maelsoucaze.com"
-	}],
-	"support": {
-		"issues": "https://github.com/maelsoucaze/phpbb/issues",
-		"source": "https://github.com/maelsoucaze/phpbb/tree/ascraeus"
-	},
-	"require": {
-		"php": ">=5.3.3"
-	},
 	"require-dev": {
-		"phpbb/translation-validator": "dev-master"
+		"phpbb/translation-validator": "1.3.*"
 	}
 }

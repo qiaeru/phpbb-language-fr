@@ -1,25 +1,16 @@
-# EditorConfig makes it easy to maintain the correct coding style
-# when switching between different text editors and projects.
-# http://editorconfig.org/
-
-# Top-most EditorConfig file. Do not search in parent directories.
 root = true
 
-# Set tab indentation, default charset to UTF-8, line endings to Unix
-# (LF) with a final newline, and trim trailing whitespace in all files.
 [*]
 indent_style = tab
 indent_size = 4
-charset = utf-8
 end_of_line = lf
-insert_final_newline = true
+charset = utf-8
 trim_trailing_whitespace = true
+insert_final_newline = true
 
-# Set two space indentation in Markdown and YAML files.
 [*.{md,yml}]
 indent_style = space
 indent_size = 2
 
-# Do not trim trailing whitespace in Markdown files.
 [*.md]
 trim_trailing_whitespace = false
