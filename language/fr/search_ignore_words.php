@@ -12,7 +12,6 @@
 * https://www.phpbb.com/customise/db/translation/french/
 *
 */
-
 if (!defined('IN_PHPBB'))
 {
 	exit;
@@ -83,7 +82,7 @@ $words = array(
 	'aurons',
 	'auront',
 	'aussi',
-	'autour',	
+	'autour',
 	'autre',
 	'autres',
 	'avant',
@@ -315,7 +314,7 @@ $words = array(
 	'nouveaux',
 	'nouvel',
 	'nouvelle',
-	'nouvelles',	
+	'nouvelles',
 	'ont',
 	'or',
 	'ou',
@@ -378,7 +377,7 @@ $words = array(
 	'quand',
 	'que',
 	'quel',
-	'quelconque',	
+	'quelconque',
 	'quels',
 	'question',
 	'questions',
