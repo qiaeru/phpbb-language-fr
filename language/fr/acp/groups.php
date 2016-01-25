@@ -130,6 +130,8 @@ $lang = array_merge($lang, array(
 	'NO_USERS_ADDED'    => 'Aucun utilisateur n’a été ajouté au groupe d’utilisateurs.',
 	'NO_VALID_USERS'    => 'Aucun utilisateur ne peut réaliser cette opération.',
 
+	'PENDING_MEMBERS' => 'En attente',
+
 	'SELECT_GROUP'           => 'Sélectionner un groupe',
 	'SPECIAL_GROUPS'         => 'Groupes prédéfinis',
 	'SPECIAL_GROUPS_EXPLAIN' => 'Les groupes prédéfinis sont des groupes spéciaux. Ils ne peuvent ni être supprimés, ni être directement modifiés. Cependant, vous pouvez gérer leurs membres et éditer certains de leurs réglages.',
