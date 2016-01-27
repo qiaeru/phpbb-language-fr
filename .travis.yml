@@ -19,6 +19,12 @@ env:
 
 sudo: false
 
+before_install:
+  - phpenv config-rm xdebug.ini
+  - php --version
+  - composer self-update
+  - composer --version
+
 install:
   - mkdir -p $PHPBB_VERSION/$PHPBB_LANGUAGE		
   - mkdir -p $PHPBB_VERSION/en/language		
@@ -28,7 +34,6 @@ install:
   - git clone "https://github.com/phpbb/phpbb.git" --branch=$PHPBB_BRANCH
   - mv phpbb/phpBB/language/en $PHPBB_VERSION/en/language		
   - mv phpbb/phpBB/styles/prosilver/theme/en $PHPBB_VERSION/en/styles/prosilver/theme
-  - composer self-update
   - composer install --no-interaction --prefer-source
 
 script:
