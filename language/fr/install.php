@@ -432,3 +432,112 @@ $lang = array_merge($lang, array(
 
 	'INLINE_UPDATE_SUCCESSFUL' => 'La mise à jour de la base de données a été effectuée.',
 ));
+
+// Converter
+$lang = array_merge($lang, array(
+	// Common converter messages
+	'CONVERT_NOT_EXIST'   => 'Le convertisseur spécifié n’existe pas.',
+	'DEV_NO_TEST_FILE'    => 'Aucune valeur n’a été spécifiée dans le convertisseur concernant la variable test_file. Si vous êtes un utilisateur de ce convertisseur, vous ne devriez pas voir cette erreur, veuillez donc rapporter ce message à l’auteur du convertisseur. Si vous êtes l’auteur du convertisseur, vous devez spécifier le nom d’un fichier existant dans le forum source afin de permettre la validation du chemin vers ce dernier.',
+	'COULD_NOT_FIND_PATH' => 'Le chemin vers votre ancien forum est introuvable. Veuillez vérifier vos réglages et réessayer.<br />» %s a été spécifié en tant que chemin source.',
+	'CONFIG_PHPBB_EMPTY'  => 'La variable de configuration de phpBB 3.2 « %s » est vide.',
+
+	'MAKE_FOLDER_WRITABLE'  => 'Veuillez vous assurer que ce répertoire existe et qu’il puisse être écrit par le serveur, puis réessayez :<br />»<strong>%s</strong>.',
+	'MAKE_FOLDERS_WRITABLE' => 'Veuillez vous assurer que ces répertoires existent et qu’ils puissent être écrits par le serveur, puis réessayez :<br />»<strong>%s</strong>.',
+
+	'INSTALL_TEST' => 'Tester de nouveau',
+
+	'NO_TABLES_FOUND'    => 'Aucun table n’a été trouvée.',
+	'TABLES_MISSING'     => 'Ces tables sont introuvables<br />» <strong>%s</strong>.',
+	'CHECK_TABLE_PREFIX' => 'Veuillez vérifier votre préfixe de table et réessayer.',
+
+	// Conversion in progress
+	'CONTINUE_CONVERT'        => 'Continuer la conversion',
+	'CONTINUE_CONVERT_BODY'   => 'Une tentative de conversion antérieure a été trouvée. Vous pouvez à présent choisir entre démarrer une nouvelle conversion ou continuer la conversion antérieure.',
+	'CONVERT_NEW_CONVERSION'  => 'Nouvelle conversion',
+	'CONTINUE_OLD_CONVERSION' => 'Continuer la conversion antérieure',
+
+	// Start conversion
+	'SUB_INTRO'            => 'Introduction',
+	'CONVERT_INTRO'        => 'Bienvenue sur le framework de conversion unifié de phpBB',
+	'CONVERT_INTRO_BODY'   => 'Vous pouvez importer ici les données d’autres logiciels de forum installés. La liste ci-dessous vous permet de consulter tous les modules de conversion actuellement disponibles. Si vous ne trouvez pas le logiciel de forum que vous souhaitez convertir dans cette liste, veuillez vérifier sur notre site internet où davantage modules de conversion peuvent être téléchargeables.',
+	'AVAILABLE_CONVERTORS' => 'Convertisseurs disponibles',
+	'NO_CONVERTORS'        => 'Aucun convertisseur n’est disponible.',
+	'CONVERT_OPTIONS'      => 'Options',
+	'SOFTWARE'             => 'Logiciel de forum',
+	'VERSION'              => 'Version',
+	'CONVERT'              => 'Convertir',
+
+	// Settings
+	'STAGE_SETTINGS'       => 'Réglages',
+	'TABLE_PREFIX_SAME'    => 'Le préfixe de table doit être celui qui utilisé par le logiciel que vous souhaitez convertir.<br />» Le préfixe de table qui était spécifié était %s.',
+	'DEFAULT_PREFIX_IS'    => 'Le convertisseur n’a pas été en mesure de trouver de tables comportant le préfixe spécifié. Veuillez vous assurer d’avoir saisi les informations correctes concernant le forum que vous souhaitez convertir. Le préfixe de table par défaut concernant %1$s est <strong>%2$s</strong>.',
+	'SPECIFY_OPTIONS'      => 'Spécifier les options de conversion',
+	'FORUM_PATH'           => 'Chemin du forum',
+	'FORUM_PATH_EXPLAIN'   => 'Doit être le chemin <strong>relatif</strong> sur le disque vers votre ancien forum depuis la <strong>racine de cette installation de phpBB 3.2</strong>.',
+	'REFRESH_PAGE'         => 'Actualiser la page pour continuer la conversion',
+	'REFRESH_PAGE_EXPLAIN' => 'Si activé, le convertisseur actualisera la page pour continuer la conversion après avoir terminé une étape. Si c’est votre première conversion qui vous permet de tester cet outil et de déterminer en avance de possibles erreurs, nous vous conseillons de ne pas activer cette option.',
+
+	// Conversion
+	'STAGE_IN_PROGRESS' => 'Conversion en cours',
+
+	'AUTHOR_NOTES'             => 'Notes de l’auteur<br />» %s',
+	'STARTING_CONVERT'         => 'Démarrage du processus de conversion',
+	'CONFIG_CONVERT'           => 'Conversion de la configuration',
+	'DONE'                     => 'Effectué',
+	'PREPROCESS_STEP'          => 'Exécution des fonctions et des requêtes de prétraitement',
+	'FILLING_TABLE'            => 'Alimentation de la table <strong>%s</strong>',
+	'FILLING_TABLES'           => 'Alimentation des tables',
+	'DB_ERR_INSERT'            => 'Une erreur est survenue lors du traitement de la requête <code>INSERT</code>.',
+	'DB_ERR_LAST'              => 'Une erreur est survenue lors du traitement de <var>query_last</var>.',
+	'DB_ERR_QUERY_FIRST'       => 'Une erreur est survenue lors de l’exécution de <var>query_first</var>.',
+	'DB_ERR_QUERY_FIRST_TABLE' => 'Une erreur est survenue lors de l’exécution de <var>query_first</var>, %s (« %s »).',
+	'DB_ERR_SELECT'            => 'Une erreur est survenue lors de l’exécution de <code>SELECT</code> query.',
+	'STEP_PERCENT_COMPLETED'   => 'Étape <strong>%d</strong> sur <strong>%d</strong>',
+	'FINAL_STEP'               => 'Étape finale',
+	'SYNC_FORUMS'              => 'Démarrage de la synchronisation des forums',
+	'SYNC_POST_COUNT'          => 'Synchronisation de post_counts',
+	'SYNC_POST_COUNT_ID'       => 'Synchronisation de post_counts à partir de <var>entry</var> %1$s vers %2$s.',
+	'SYNC_TOPICS'              => 'Démarrage de la synchronisation des sujets',
+	'SYNC_TOPIC_ID'            => 'Synchronisation des sujets à partir de <var>topic_id</var> %1$s vers %2$s.',
+	'PROCESS_LAST'             => 'Traitement des dernières opérations',
+	'UPDATE_TOPICS_POSTED'     => 'Génération des informations de publication des sujets',
+	'UPDATE_TOPICS_POSTED_ERR' => 'Une erreur est survenue lors de la génération des informations de publication des sujets. Vous pouvez réessayer cette étape depuis le panneau de contrôle d’administration une fois le processus de conversion terminé.',
+	'CONTINUE_LAST'            => 'Continuer les dernières opérations',
+	'CLEAN_VERIFY'             => 'Nettoyage et vérification de la structure finale',
+	'NOT_UNDERSTAND'           => 'Incompréhension de %s #%d, table %s (« %s »)',
+	'NAMING_CONFLICT'          => 'Conflit d’appelation: %s et %s sont tous deux des alias<br /><br />%s',
+
+	// Finish conversion
+	'CONVERT_COMPLETE'         => 'Conversion terminée',
+	'CONVERT_COMPLETE_EXPLAIN' => 'Félicitations ! Vous avez converti votre forum à phpBB 3.2. Vous pouvez à présent vous connecter et <a href="../">accéder à votre forum</a>. Veuillez vous assurer que les réglages ont été correctement transférées avant de mettre en ligne votre forum en supprimant le répertoire d’installation. Il vous est possible d’obtenir de l’aide sur l’utilisation de phpBB grâce à sa <a href="https://www.phpbb.com/support/docs/en/3.2/ug/">documentation</a> (en anglais) et ses <a href="https://www.phpbb.com/community/viewforum.php?f=466">forums de support</a> (en anglais).',
+
+	'CONV_ERROR_ATTACH_FTP_DIR'      => 'Le transfert de pièces jointes par FTP est activé sur l’ancien forum. Veuillez désactiver cette option et vous assurer qu’un répertoire valide de transfert est spécifié, puis copiez toutes les pièces jointes dans ce nouveau répertoire en ligne. Une fois cette opération effectuée, redémarrez le convertisseur.',
+	'CONV_ERROR_CONFIG_EMPTY'        => 'Aucune information de configuration sur ce convertisseur n’est disponible.',
+	'CONV_ERROR_FORUM_ACCESS'        => 'Impossible d’obtenir l’information d’accès au forum.',
+	'CONV_ERROR_GET_CATEGORIES'      => 'Impossible d’obtenir les catégories.',
+	'CONV_ERROR_GET_CONFIG'          => 'Impossible de retrouver la configuration de votre forum.',
+	'CONV_ERROR_COULD_NOT_READ'      => 'Impossible d’accéder et de lire « %s ».',
+	'CONV_ERROR_GROUP_ACCESS'        => 'Impossiblee d’obtenir l’information d’authentification des groupes.',
+	'CONV_ERROR_INCONSISTENT_GROUPS' => 'Incohérence dans le tableau des groupes détecté dans add_bots(). Vous devez ajouter tous les groupes spéciaux si vous le faites manuellement.',
+	'CONV_ERROR_INSERT_BOT'          => 'Impossible d’insérer le robot dans la table des utilisateurs.',
+	'CONV_ERROR_INSERT_BOTGROUP'     => 'Impossible d’insérer le robot dans la table des robots.',
+	'CONV_ERROR_INSERT_USER_GROUP'   => 'Impossible d’insérer l’utilisateurs dans la table user_group.',
+	'CONV_ERROR_MESSAGE_PARSER'      => 'Message d’erreur de l’analyseur',
+	'CONV_ERROR_NO_AVATAR_PATH'      => 'Note au développeur : vous devez spécifier $convertor[\'avatar_path\'] pour utiliser %s.',
+	'CONV_ERROR_NO_FORUM_PATH'       => 'Le chemin relatif au forum source n’a pas été spécifié.',
+	'CONV_ERROR_NO_GALLERY_PATH'     => 'Note au développeur : vous devez spécifier $convertor[\'avatar_gallery_path\'] pour utiliser %s.',
+	'CONV_ERROR_NO_GROUP'            => 'Le groupe « %1$s » est introuvable dans %2$s.',
+	'CONV_ERROR_NO_RANKS_PATH'       => 'Note au développeur : vous devez spécifier $convertor[\'ranks_path\'] pour utiliser %s.',
+	'CONV_ERROR_NO_SMILIES_PATH'     => 'Note au développeur : vous devez spécifier $convertor[\'smilies_path\'] pour utiliser %s.',
+	'CONV_ERROR_NO_UPLOAD_DIR'       => 'Note au développeur : vous devez spécifier $convertor[\'upload_path\'] pour utiliser %s.',
+	'CONV_ERROR_PERM_SETTING'        => 'Impossible d’insérer et de mettre à jour le réglage de permission.',
+	'CONV_ERROR_PM_COUNT'            => 'Impossible de sélectionner le dossier du compteur des messages privés.',
+	'CONV_ERROR_REPLACE_CATEGORY'    => 'Impossible d’insérer le nouveau forum en remplacement de l’ancienne catégorie.',
+	'CONV_ERROR_REPLACE_FORUM'       => 'Impossible d’insérer le nouveau forum en remplacement de l’ancien forum.',
+	'CONV_ERROR_USER_ACCESS'         => 'Impossible d’obtenir l’information sur l’authentification de l’utilisateur.',
+	'CONV_ERROR_WRONG_GROUP'         => 'Définition du mauvais groupe “%1$s” dans %2$s.',
+	'CONV_OPTIONS_BODY'              => 'Cette page collecte les données requises pour accéder au forum source. Veuillez saisir les informations de la base de données de votre ancien forum. Le convertisseur ne modifiera rien dans la base de données affichée ci-dessous. Le forum source devrait être désactivé pour permettre une conversion complète.',
+	'CONV_SAVED_MESSAGES'            => 'Messages sauvegardés',
+
+	'PRE_CONVERT_COMPLETE' => 'Toutes les étapes de préconversion ont été terminées. Vous pouvez à présent commencer le processus de conversion actuel. Veuillez notez que vous pourrez être amené à saisir et à effectuer manuellement quelques opérations. Après la conversion, vérifiez en particulier les permissions assignées, reconstruisez votre index de recherche qui ne sera pas converti et assurez-vous que les fichiers ont été correctement copiés, comme par exemple les avatars et les émoticônes.',
+));
