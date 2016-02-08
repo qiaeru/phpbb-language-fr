@@ -2,6 +2,10 @@
 # Git should ignore. Files already tracked by Git are not affected.
 # http://git-scm.com/docs/gitignore
 
+# Composer
+/vendor
+composer.phar
+
 # Operating systems
 *~
 ._*
