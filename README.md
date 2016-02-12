@@ -7,7 +7,7 @@ French language pack to localise the phpBB "Ascraeus" 3.1 forum software.
 
 Includes the following French locales compatible with:
 
-- [phpBB](https://github.com/phpbb/phpbb) [3.1.8-dev (Build 2755)](https://bamboo.phpbb.com/browse/PHPBB3-DEVELOP-2755)
+- [phpBB](https://github.com/phpbb/phpbb) [3.1.8-dev (Build 2770)](https://bamboo.phpbb.com/browse/PHPBB3-DEVELOP-2770)
 
 Released under the GNU General Public License 2.0. Please see the [license terms](https://github.com/maelsoucaze/phpbb-language-fr/blob/ascraeus/language/fr/LICENSE).
 
@@ -15,7 +15,7 @@ Released under the GNU General Public License 2.0. Please see the [license terms
 
 ### Manual Installation
 
-Please see [this step-by-step installation guide](https://www.phpbb.com/customise/db/translation/french/faq/1711).
+Please see [this step-by-step installation guide](https://github.com/maelsoucaze/phpbb-language-fr/wiki/Documentation).
 
 ## Contributing
 
