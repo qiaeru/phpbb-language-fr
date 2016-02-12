@@ -36,16 +36,15 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
-/**
- *	EXTENSION-DEVELOPERS PLEASE NOTE
- *
- *	You are able to put your permission sets into your extension.
- *	The permissions logic should be added via the 'core.permissions' event.
- *	You can easily add new permission categories, types and permissions, by
- *	simply merging them into the respective arrays.
- *	The respective language strings should be added into a language file, that
- *	start with 'permissions_', so they are automatically loaded within the ACP.
- */
+// EXTENSION-DEVELOPERS PLEASE NOTE
+//
+// You are able to put your permission sets into your extension.
+// The permissions logic should be added via the 'core.permissions' event.
+// You can easily add new permission categories, types and permissions, by
+// simply merging them into the respective arrays.
+// The respective language strings should be added into a language file, that
+// start with 'permissions_', so they are automatically loaded within the ACP.
+
 $lang = array_merge($lang, array(
 	'ACL_CAT_ACTIONS'       => 'Opérations',
 	'ACL_CAT_CONTENT'       => 'Contenu',

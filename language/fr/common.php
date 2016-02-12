@@ -37,7 +37,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'TRANSLATION_INFO' => '<a href="https://www.phpbb.com/customise/db/translation/french/">Traduction française officielle</a> &copy; <a href="https://www.maelsoucaze.com/">Maël Soucaze</a>',
+	'TRANSLATION_INFO' => '<a href="https://www.phpbb.com/customise/db/translation/french/">Traduction française</a> &copy; <a href="https://www.maelsoucaze.com/">Maël Soucaze</a>',
 	'DIRECTION'        => 'ltr',
 	'DATE_FORMAT'      => '|d F Y|', // 01 January 2007 (with Relative days enabled)
 	'DATETIME_FORMAT'  => '|d F Y, H:i|', // 01 January 2007, 13:37 (with Relative days enabled)
@@ -342,10 +342,10 @@ $lang = array_merge($lang, array(
 
 	'JABBER'             => 'Jabber',
 	'JOINED'             => 'Inscription',
-	'JUMP_PAGE'          => 'Saisissez le numéro de la page que vous souhaitez atteindre',
-	'JUMP_TO'            => 'Atteindre',
-	'JUMP_TO_PAGE'       => 'Atteindre la page',
-	'JUMP_TO_PAGE_CLICK' => 'Cliquez ici afin d’atteindre une page…',
+	'JUMP_PAGE'          => 'Saisissez le numéro de la page sur laquelle vous souhaitez aller',
+	'JUMP_TO'            => 'Aller',
+	'JUMP_TO_PAGE'       => 'Aller sur la page',
+	'JUMP_TO_PAGE_CLICK' => 'Cliquez ici afin d’aller sur une page…',
 
 	'KB'  => 'Ko',
 	'KIB' => 'Kio',

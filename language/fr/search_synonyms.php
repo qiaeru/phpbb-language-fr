@@ -95,7 +95,7 @@ $synonyms = array(
 
 	'baillage'     => 'bailliage',
 	'baillonette'  => 'baïonnette',
-	'ballade'      => 'balade', // “Ballade” exist, but that does not mean a walk
+	'ballade'      => 'balade', // “Ballade” exists, but that does not mean a walk
 	'banquaire'    => 'bancaire',
 	'basalmique'   => 'balsamique',
 	'Bénélux'      => 'Benelux',
@@ -114,7 +114,7 @@ $synonyms = array(
 	'britaniques'  => 'britanniques',
 	'bruyament'    => 'bruyamment',
 
-	'çà'            => 'ça', // “Çà” exist, but that means “here”, in the French expression “çà et là”
+	'çà'            => 'ça', // “Çà” exists, but means “here”, in the French expression “çà et là”
 	'cable'         => 'câble',
 	'cantonnais'    => 'cantonais',
 	'capoiera'      => 'capoeira',
@@ -222,10 +222,10 @@ $synonyms = array(
 	'existances'   => 'existences',
 
 	'fabriquant'  => 'fabricant',
-	'faignant'    => 'fainéant', // According to “fait” (verbal form to “faire”) and “néant”, cf. the French Academy
+	'faignant'    => 'fainéant', // According to “fait” (verbal form to “faire”) and “néant”
 	'famillial'   => 'familial',
 	'fatiguant'   => 'fatigant',
-	'feignant'    => 'fainéant', // According to “fait” (verbal form to “faire”) and “néant”, cf. the French Academy
+	'feignant'    => 'fainéant', // According to “fait” (verbal form to “faire”) and “néant”
 	'fesait'      => 'faisait',
 	'filliale'    => 'filiale',
 	'filigramme'  => 'filigrane',
@@ -482,6 +482,6 @@ $synonyms = array(
 	'vraissemblablement' => 'vraisemblablement',
 
 	'waggon' => 'wagon',
-	'Web'    => 'internet', // Advised by the French Academy
+	'Web'    => 'internet',
 	'www'    => 'internet',
 );
