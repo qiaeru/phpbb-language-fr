@@ -535,6 +535,8 @@ $lang = array_merge($lang, array(
 	'REFERRER_VALID_EXPLAIN'               => 'Si cette option est activée, le référant des requêtes POST sera vérifié et pourra servir à valider l’hôte et le chemin du forum. Si votre forum est accessibles sur plusieurs domaines ou utilise des connexions externes, vous ne devez pas autoriser le référant à valider le chemin afin d’éviter tout conflit.',
 	'TPL_ALLOW_PHP'                        => 'Autoriser le code PHP dans les modèles',
 	'TPL_ALLOW_PHP_EXPLAIN'                => 'Si cette option est activée, les instructions <code>PHP</code> et <code>INCLUDEPHP</code> seront reconnues et analysées dans les modèles.',
+	'UPLOAD_CERT_VALID'                    => 'Valider les certificats transférés',
+	'UPLOAD_CERT_VALID_EXPLAIN'            => 'Si cette option est activée, les certificats des transferts à distance seront validés. Le paquet de l’autorité de certification devra être défini en configurant <samp>openssl.cafile</samp> ou <samp>curl.cainfo</samp> dans le fichier php.ini.',
 ));
 
 // Email Settings
