@@ -289,7 +289,7 @@ $lang = array_merge($lang, array(
 	'TASK_POPULATE_MIGRATIONS' => 'Remplissage des migrations',
 
 	// Installer general progress messages
-	'INSTALLER_FINISHED' => 'Le programme d’installation a terminé avec succès',
+	'INSTALLER_FINISHED' => 'Le programme d’installation a terminé ses opérations',
 ));
 
 // Installer's general messages

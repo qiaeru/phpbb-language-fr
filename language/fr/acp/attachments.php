@@ -159,7 +159,7 @@ $lang = array_merge($lang, array(
 	'SETTINGS_CAT_IMAGES'            => 'Réglages des catégories d’images',
 	'SPECIAL_CATEGORY'               => 'Catégorie spéciale',
 	'SPECIAL_CATEGORY_EXPLAIN'       => 'Les catégories spéciales modifient la présentation des messages.',
-	'SUCCESSFULLY_UPLOADED'          => 'Transféré avec succès.',
+	'SUCCESSFULLY_UPLOADED'          => 'Transféré.',
 	'SUCCESS_EXTENSION_GROUP_ADD'    => 'Le groupe d’extensions a été ajouté.',
 	'SUCCESS_EXTENSION_GROUP_EDIT'   => 'Les groupes d’extensions ont été mis à jour.',
 
