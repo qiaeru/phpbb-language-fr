@@ -280,7 +280,7 @@ $lang = array_merge($lang, array(
 	'TASK_CREATE_CONFIG_FILE' => 'Création du fichier de configuration',
 
 	// Install database
-	'TASK_ADD_CONFIG_SETTINGS'         => 'Ajout de réglages de configuration',
+	'TASK_ADD_CONFIG_SETTINGS'         => 'Ajout des réglages de configuration',
 	'TASK_ADD_DEFAULT_DATA'            => 'Ajout des réglages par défaut à la base de données',
 	'TASK_CREATE_DATABASE_SCHEMA_FILE' => 'Création du shéma de base de données',
 	'TASK_SETUP_DATABASE'              => 'Mise en place de la base de données',
