@@ -512,7 +512,7 @@ $lang = array_merge($lang, array(
 	'CONTINUE_LAST'            => 'Continuer les dernières opérations',
 	'CLEAN_VERIFY'             => 'Nettoyage et vérification de la structure finale',
 	'NOT_UNDERSTAND'           => 'Incompréhension de %s #%d, table %s (« %s »)',
-	'NAMING_CONFLICT'          => 'Conflit d’appelation: %s et %s sont tous deux des alias<br /><br />%s',
+	'NAMING_CONFLICT'          => 'Conflit d’appelation : %s et %s sont tous deux des alias<br /><br />%s',
 
 	// Finish conversion
 	'CONVERT_COMPLETE'         => 'Conversion terminée',
