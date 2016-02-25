@@ -21,7 +21,7 @@
 		"php": ">=5.5"
 	},
 	"require-dev": {
-		"phpbb/translation-validator": "1.3.*"
+		"maelsoucaze/phpbb-translation-validator": "1.4.*"
 	},
 	"extra": {
 		"language-iso": "fr",
