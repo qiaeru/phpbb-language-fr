@@ -1,7 +1,7 @@
 # French Language Pack for [phpBB](https://www.phpbb.com/) 3.1
 [![Build Status](https://travis-ci.org/maelsoucaze/phpbb-language-fr.svg?branch=3.1.x)](https://travis-ci.org/maelsoucaze/phpbb-language-fr) [![Code Climate](https://codeclimate.com/github/maelsoucaze/phpbb-language-fr/badges/gpa.svg)](https://codeclimate.com/github/maelsoucaze/phpbb-language-fr) [![StyleCI](https://styleci.io/repos/18012355/shield)](https://styleci.io/repos/18012355)
 
-French language pack to localise the phpBB "Ascraeus" 3.1 forum software.
+French language pack to localise the phpBB 3.1 forum software.
 
 ## Informations
 
