@@ -1,5 +1,5 @@
 # French Language Pack for [phpBB](https://www.phpbb.com/) 3.1
-[![Build Status](https://travis-ci.org/maelsoucaze/phpbb-language-fr.svg?branch=ascraeus)](https://travis-ci.org/maelsoucaze/phpbb-language-fr) [![Code Climate](https://codeclimate.com/github/maelsoucaze/phpbb-language-fr/badges/gpa.svg)](https://codeclimate.com/github/maelsoucaze/phpbb-language-fr) [![StyleCI](https://styleci.io/repos/18012355/shield)](https://styleci.io/repos/18012355)
+[![Build Status](https://travis-ci.org/maelsoucaze/phpbb-language-fr.svg?branch=3.1.x)](https://travis-ci.org/maelsoucaze/phpbb-language-fr) [![Code Climate](https://codeclimate.com/github/maelsoucaze/phpbb-language-fr/badges/gpa.svg)](https://codeclimate.com/github/maelsoucaze/phpbb-language-fr) [![StyleCI](https://styleci.io/repos/18012355/shield)](https://styleci.io/repos/18012355)
 
 French language pack to localise the phpBB "Ascraeus" 3.1 forum software.
 
@@ -9,7 +9,7 @@ Includes the following French locales compatible with:
 
 - [phpBB](https://github.com/phpbb/phpbb) [3.1.9-dev (Build 2771)](https://bamboo.phpbb.com/browse/PHPBB3-DEVELOP-2771)
 
-Released under the GNU General Public License 2.0. Please see the [license terms](https://github.com/maelsoucaze/phpbb-language-fr/blob/ascraeus/language/fr/LICENSE).
+Released under the GNU General Public License 2.0. Please see the [license terms](https://github.com/maelsoucaze/phpbb-language-fr/blob/3.1.x/language/fr/LICENSE).
 
 ## Installation
 
