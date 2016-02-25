@@ -13,7 +13,7 @@ matrix:
 
 env:		
   global:		
-    - PHPBB_BRANCH="master"		
+    - PHPBB_BRANCH="3.2.x"		
     - PHPBB_VERSION="3.2"		
     - PHPBB_LANGUAGE="fr"
 
