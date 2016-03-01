@@ -7,7 +7,7 @@ French language pack to localise the phpBB 3.2 forum software.
 
 Includes the following French locales compatible with:
 
-- [phpBB](https://github.com/phpbb/phpbb) [3.2.0-b2-dev (Build 1106)](https://bamboo.phpbb.com/browse/PHPBB3-RHEA-1106)
+- [phpBB](https://github.com/phpbb/phpbb) [3.2.0-b2-dev (Build 1115)](https://bamboo.phpbb.com/browse/PHPBB3-RHEA-1115)
 
 Released under the GNU General Public License 2.0. Please see the [license terms](https://github.com/maelsoucaze/phpbb-language-fr/blob/3.2.x/language/fr/LICENSE).
 
