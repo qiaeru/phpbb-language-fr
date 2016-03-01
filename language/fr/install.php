@@ -121,8 +121,6 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'INST_ERR_MISSING_DATA' => 'Vous devez remplir tous les champs de ce bloc.',
 
-	'PHPBB_ALREADY_INSTALLED' => 'phpBB est déjà installé.',
-
 	'TIMEOUT_DETECTED_TITLE'   => 'L’installateur a cessé de fonctionner',
 	'TIMEOUT_DETECTED_MESSAGE' => 'L’installateur a cessé de fonctionner. Vous pouvez essayer d’actualiser la page, mais cela pourrait corrompre les données. Nous vous suggérons plutôt d’augmenter le délai de temps de dépassement ou d’utiliser l’interface en ligne de commande.',
 ));
@@ -319,12 +317,14 @@ $lang = array_merge($lang, array(
 // CLI messages
 $lang = array_merge($lang, array(
 	'CLI_INSTALL_BOARD'           => 'Installer phpBB',
+	'CLI_UPDATE_BOARD'            => 'Mettre à jour phpBB',
 	'CLI_INSTALL_SHOW_CONFIG'     => 'Afficher la configuration qui sera utilisée',
 	'CLI_INSTALL_VALIDATE_CONFIG' => 'Valider un fichier de configuration',
 	'CLI_CONFIG_FILE'             => 'Fichier de configuration à utiliser',
 	'MISSING_FILE'                => 'Impossible d’accéder au fichier %1$s',
 	'MISSING_DATA'                => 'Le fichier de configuration ne contient pas toutes les données ou celles-ci sont invalides.',
 	'INVALID_YAML_FILE'           => 'Impossible d’analyser le fichier YAML %1$s',
+	'CONFIGURATION_VALID'         => 'Le fichier de configuration est valide',
 ));
 
 // Common updater messages
