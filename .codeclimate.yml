@@ -1,6 +1,8 @@
 engines:
   csslint:
     enabled: true 
+  markdownlint:
+    enabled: true
   phpcodesniffer:
     enabled: true
     checks:
@@ -20,6 +22,7 @@ engines:
 ratings:
   paths:
     - "**.php"
+    - "README.md"
     - "styles/prosilver/theme/fr/stylesheet.css"
 
 exclude_paths:
