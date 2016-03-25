@@ -40,6 +40,7 @@ $lang = array_merge($lang, array(
 	'CAPTCHA_QA'               => 'Q&amp;R',
 	'CONFIRM_QUESTION_EXPLAIN' => 'Cette question est un moyen de prévention luttant contre l’envoi de formulaires par des robots indésirables.',
 	'CONFIRM_QUESTION_WRONG'   => 'Vous n’avez pas répondu correctement à la question.',
+	'CONFIRM_QUESTION_MISSING' => 'Les questions destinées au CAPTCHA sont introuvables. Veuillez contacter un administrateur du forum.',
 
 	'QUESTION_ANSWERS' => 'Réponses',
 	'ANSWERS_EXPLAIN'  => 'Veuillez répondre correctement à la question. Chaque réponse doit être saisie sur une nouvelle ligne.',
@@ -60,5 +61,4 @@ $lang = array_merge($lang, array(
 
 	'QA_ERROR_MSG'     => 'Veuillez remplir tous les champs et saisir au moins une réponse.',
 	'QA_LAST_QUESTION' => 'Vous ne pouvez pas supprimer toutes les questions lorsque le module d’extension est actif.',
-
 ));
