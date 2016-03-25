@@ -604,8 +604,9 @@ $lang = array_merge($lang, array(
 	'LOG_DOWNLOAD_IP'         => '<strong>Ajout d’un nom d’hôte ou d’une adresse IP dans la liste des téléchargements</strong><br />» %s',
 	'LOG_DOWNLOAD_REMOVE_IP'  => '<strong>Suppression d’un nom d’hôte ou d’une adresse IP de la liste des téléchargements</strong><br />» %s',
 
-	'LOG_ERROR_JABBER' => '<strong>Une erreur de Jabber est survenue</strong><br />» %s',
-	'LOG_ERROR_EMAIL'  => '<strong>Une erreur de courriel est survenue</strong><br />» %s',
+	'LOG_ERROR_JABBER'  => '<strong>Une erreur de Jabber est survenue</strong><br />» %s',
+	'LOG_ERROR_EMAIL'   => '<strong>Une erreur de courriel est survenue</strong><br />» %s',
+	'LOG_ERROR_CAPTCHA' => '<strong>Une erreur de CAPTCHA est survenue</strong><br />» %s',
 
 	'LOG_FORUM_ADD'                        => '<strong>Création d’un nouveau forum</strong><br />» %s',
 	'LOG_FORUM_COPIED_PERMISSIONS'         => '<strong>Copie des permissions d’un forum</strong> de %1$s<br />» %2$s',
