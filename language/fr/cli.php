@@ -84,6 +84,12 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_THUMBNAIL_GENERATE' => 'Générer toutes les vignettes manquantes.',
 	'CLI_DESCRIPTION_THUMBNAIL_RECREATE' => 'Recréer toutes les vignettes.',
 
+	'CLI_DESCRIPTION_USER_ADD'                 => 'Ajouter un nouvel utilisateur.',
+	'CLI_DESCRIPTION_USER_ADD_OPTION_USERNAME' => 'Nom d’utilisateur du nouvel utilisateur',
+	'CLI_DESCRIPTION_USER_ADD_OPTION_PASSWORD' => 'Mot de passe du nouvel utilisateur',
+	'CLI_DESCRIPTION_USER_ADD_OPTION_EMAIL'    => 'Adresse de courriel du nouvel utilisateur',
+	'CLI_DESCRIPTION_USER_ADD_OPTION_NOTIFY'   => 'Envoyer le courriel d’activation du compte au nouvel utilisateur (non envoyé par défaut)',
+
 	'CLI_EXTENSION_DISABLE_FAILURE' => 'Impossible de désactiver l’extension %s',
 	'CLI_EXTENSION_DISABLE_SUCCESS' => 'L’extension %s a été désactivée',
 	'CLI_EXTENSION_ENABLE_FAILURE'  => 'Impossible d’activer l’extension %s',
@@ -120,9 +126,14 @@ $lang = array_merge($lang, array(
 
 	'CLI_THUMBNAIL_NOTHING_TO_GENERATE' => 'Aucune vignette à générer.',
 	'CLI_THUMBNAIL_NOTHING_TO_DELETE'   => 'Aucune vignette à supprimer.',
+
+	'CLI_USER_ADD_SUCCESS' => 'Utilisateur %s ajouté.',
 ));
 
 // Additional help for commands.
 $lang = array_merge($lang, array(
 	'CLI_HELP_CRON_RUN' => $lang['CLI_DESCRIPTION_CRON_RUN'].'Vous pouvez éventuellement spécifier un nom de tâche cron afin d’exécuter seulement la tâche cron spécifiée.',
+	'CLI_HELP_USER_ADD' => 'La commande <info>%command.name%</info> vous permet d’ajouter un nouvel utilisateur :
+Si cette commande est exécutée sans option, vous serez invité à les saisir.
+Si vous souhaitez envoyer un courriel au nouvel utilisateur, veuillez utiliser l’option <info>--send-email</info>.',
 ));
