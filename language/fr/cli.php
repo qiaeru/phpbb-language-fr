@@ -133,7 +133,7 @@ $lang = array_merge($lang, array(
 // Additional help for commands.
 $lang = array_merge($lang, array(
 	'CLI_HELP_CRON_RUN' => $lang['CLI_DESCRIPTION_CRON_RUN'].'Vous pouvez éventuellement spécifier un nom de tâche cron afin d’exécuter seulement la tâche cron spécifiée.',
-	'CLI_HELP_USER_ADD'			=> 'La commande <info>%command.name%</info> vous permet d’ajouter un nouvel utilisateur :
+	'CLI_HELP_USER_ADD' => 'La commande <info>%command.name%</info> vous permet d’ajouter un nouvel utilisateur :
 Si cette commande est exécutée sans option, vous serez invité à les saisir.
 Si vous souhaitez envoyer un courriel au nouvel utilisateur, veuillez utiliser l’option <info>--send-email</info>.',
 ));
