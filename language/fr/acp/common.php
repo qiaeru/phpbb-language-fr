@@ -225,6 +225,16 @@ $lang = array_merge($lang, array(
 
 	'BACK' => 'Retour',
 
+	'CANNOT_CHANGE_FILE_GROUP'       => 'Impossible de modifier le groupe du fichier',
+	'CANNOT_CHANGE_FILE_PERMISSIONS' => 'Impossible de modifier les permissions du fichier',
+	'CANNOT_COPY_FILES'              => 'Impossible de copier les fichiers',
+	'CANNOT_CREATE_SYMLINK'          => 'Impossible de créer un lien symbolique',
+	'CANNOT_DELETE_FILES'            => 'Impossible de supprimer les fichiers du système',
+	'CANNOT_DUMP_FILE'               => 'Impossible de vider le fichier',
+	'CANNOT_MIRROR_DIRECTORY'        => 'Impossible de répliquer le répertoire',
+	'CANNOT_RENAME_FILE'             => 'Impossible de renommer un fichier du système',
+	'CANNOT_TOUCH_FILES'             => 'Impossible de déterminer si le fichier existe',
+
 	'CONTAINER_EXCEPTION' => 'phpBB a rencontré une erreur lors de la construction du conteneur en raison d’une extension installée. Pour cette raison, toutes les extensions ont été temporairement désactivées. Veuillez essayer de vider le cache de votre forum. Toutes les extensions seront automatiquement réactivées lorsque cette erreur de conteneur sera corrigée. Si cette erreur persiste, veuillez demander une assistance sur <a href="https://www.phpbb.com/support">phpBB.com</a>.',
 	'EXCEPTION'           => 'Exception',
 
