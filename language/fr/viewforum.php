@@ -65,8 +65,8 @@ $lang = array_merge($lang, [
 	'UNREAD_POSTS_LOCKED' => 'Messages non lus [ Verrouillés ]',
 
 	'VIEW_FORUM'        => 'Consulter le forum',
-	'VIEW_FORUM_TOPICS' => array(
+	'VIEW_FORUM_TOPICS' => [
 		1 => '%d sujet',
 		2 => '%d sujets',
-	),
+	],
 ]);

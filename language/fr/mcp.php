@@ -121,10 +121,10 @@ $lang = array_merge($lang, [
 	'LATEST_WARNING_TIME' => 'Le dernier avertissement publié',
 	'LATEST_WARNINGS'     => 'Les 5 derniers avertissements',
 	'LEAVE_SHADOW'        => 'Conserver sur place une redirection vers le sujet',
-	'LIST_REPORTS'        => array(
+	'LIST_REPORTS'        => [
 		1 => '%d rapport',
 		2 => '%d rapports',
-	),
+	],
 	'LOCK'                    => 'Verrouiller',
 	'LOCK_POST_POST'          => 'Verrouiller le message',
 	'LOCK_POST_POST_CONFIRM'  => 'Êtes-vous sûr de vouloir empêcher l’édition de ce message ?',
@@ -266,11 +266,11 @@ $lang = array_merge($lang, [
 	'PM_REPORTED_SUCCESS'        => 'Le message privé a été rapporté.',
 	'PM_REPORTS_CLOSED_SUCCESS'  => 'Les rapports de MP ont été clôturés.',
 	'PM_REPORTS_DELETED_SUCCESS' => 'Les rapport de MP ont été supprimés.',
-	'PM_REPORTS_TOTAL'           => array(
+	'PM_REPORTS_TOTAL'           => [
 		0 => 'Aucun rapport de MP.',
 		1 => 'Au total, il y a <strong>1</strong> rapport de MP à traiter.',
 		2 => 'Au total, il y a <strong>%d</strong> rapports de MP à traiter.',
-	),
+	],
 	'PM_REPORT_DETAILS'         => 'Informations sur le rapport de message privé',
 	'POSTER'                    => 'Auteur',
 	'POSTS_APPROVED_SUCCESS'    => 'Les messages ont été approuvés.',
@@ -299,11 +299,11 @@ $lang = array_merge($lang, [
 	'REPORTED_ON_DATE'        => 'le',
 	'REPORTS_CLOSED_SUCCESS'  => 'Les rapports ont été clôturés.',
 	'REPORTS_DELETED_SUCCESS' => 'Les rapports ont été supprimés.',
-	'REPORTS_TOTAL'           => array(
+	'REPORTS_TOTAL'           => [
 		0 => 'Aucun rapport.',
 		1 => 'Au total, il y a <strong>1</strong> rapport à traiter.',
 		2 => 'Au total, il y a <strong>%d</strong> rapports à traiter.',
-	),
+	],
 	'REPORT_CLOSED'          => 'Ce rapport a déjà été clôturé.',
 	'REPORT_CLOSED_SUCCESS'  => 'Le rapport a été clôturé.',
 	'REPORT_DELETED_SUCCESS' => 'Le rapport a été supprimé.',
@@ -383,11 +383,11 @@ $lang = array_merge($lang, [
 	'TOPIC_UNLOCKED_SUCCESS'     => 'Le sujet a été déverrouillé.',
 	'TOTAL_WARNINGS'             => 'Nombre total d’avertissements',
 
-	'UNAPPROVED_POSTS_TOTAL' => array(
+	'UNAPPROVED_POSTS_TOTAL' => [
 		0 => 'Aucun message n’est en attente d’approbation.',
 		1 => 'Au total, il y a <strong>1</strong> message en attente d’approbation.',
 		2 => 'Au total, il y a <strong>%d</strong> messages en attente d’approbation.',
-	),
+	],
 	'UNLOCK'                    => 'Déverrouiller',
 	'UNLOCK_POST'               => 'Déverrouiller le message',
 	'UNLOCK_POST_EXPLAIN'       => 'Autoriser l’édition',
@@ -417,18 +417,18 @@ $lang = array_merge($lang, [
 
 	'YOU_SELECTED_TOPIC' => 'Vous avez sélectionné le sujet numéro %d : %s.',
 
-	'report_reasons' => array(
-		'TITLE' => array(
+	'report_reasons' => [
+		'TITLE' => [
 			'WAREZ'     => 'Contenu illicite',
 			'SPAM'      => 'Publicité indésirable',
 			'OFF_TOPIC' => 'Hors-sujet',
 			'OTHER'     => 'Autre',
-		),
-		'DESCRIPTION' => array(
+		],
+		'DESCRIPTION' => [
 			'WAREZ'     => 'Le message rapporté contient du contenu portant atteinte au droit d’auteur, au droit des marques, au secret industriel ou à d’autres législations.',
 			'SPAM'      => 'Le message rapporté contient du contenu publicitaire indésirable dont le but est de promouvoir une marque, un produit, une entreprise ou un site internet.',
 			'OFF_TOPIC' => 'Le message rapporté est hors-sujet.',
 			'OTHER'     => 'Le message rapporté ne correspond à aucune catégorie. Veuillez utiliser le champ d’information complémentaire.',
-		),
-	),
+		],
+	],
 ]);

@@ -56,10 +56,10 @@ $lang = array_merge($lang, [
 	'DISAPPROVE'          => 'Désapprouver',
 	'DOWNLOAD_NOTICE'     => 'Vous ne pouvez pas consulter les fichiers insérés à ce message.',
 
-	'EDITED_TIMES_TOTAL' => array(
+	'EDITED_TIMES_TOTAL' => [
 		1 => 'Dernière édition par %2$s le %3$s, édité %1$d fois.',
 		2 => 'Dernière édition par %2$s le %3$s, édité %1$d fois.',
-	),
+	],
 	'EMAIL_TOPIC'         => 'Envoyer le sujet par courriel',
 	'ERROR_NO_ATTACHMENT' => 'La pièce jointe n’existe plus.',
 
@@ -75,10 +75,10 @@ $lang = array_merge($lang, [
 	'MAKE_GLOBAL'        => 'Modifier en « annonce générale »',
 	'MAKE_NORMAL'        => 'Modifier en « sujet standard »',
 	'MAKE_STICKY'        => 'Modifier en « note »',
-	'MAX_OPTIONS_SELECT' => array(
+	'MAX_OPTIONS_SELECT' => [
 		1 => 'Vous pouvez sélectionner <strong>%d</strong> option',
 		2 => 'Vous pouvez sélectionner jusqu’à <strong>%d</strong> options',
-	),
+	],
 	'MISSING_INLINE_ATTACHMENT' => 'La pièce jointe <strong>%s</strong> n’est plus disponible',
 	'MOVE_TOPIC'                => 'Déplacer le sujet',
 
@@ -115,10 +115,10 @@ $lang = array_merge($lang, [
 	'VIEW_NEXT_TOPIC'     => 'Sujet suivant',
 	'VIEW_PREVIOUS_TOPIC' => 'Sujet précédent',
 	'VIEW_RESULTS'        => 'Consulter les résultats',
-	'VIEW_TOPIC_POSTS'    => array(
+	'VIEW_TOPIC_POSTS'    => [
 		1 => '%d message',
 		2 => '%d messages',
-	),
+	],
 	'VIEW_UNREAD_POST' => 'Premier message non lu',
 	'VOTE_SUBMITTED'   => 'Votre vote a bien été comptabilisé.',
 	'VOTE_CONVERTED'   => 'Impossible de modifier les votes d’un sondage qui a été converti.',
