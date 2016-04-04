@@ -84,11 +84,20 @@ $lang = array_merge($lang, [
 	'CLI_DESCRIPTION_THUMBNAIL_GENERATE' => 'Générer toutes les vignettes manquantes.',
 	'CLI_DESCRIPTION_THUMBNAIL_RECREATE' => 'Recréer toutes les vignettes.',
 
+	'CLI_DESCRIPTION_USER_ACTIVATE'            => 'Activer (ou désactiver) le compte d’un utilisateur.',
+	'CLI_DESCRIPTION_USER_ACTIVATE_USERNAME'   => 'Nom d’utilisateur du compte à activer.',
+	'CLI_DESCRIPTION_USER_ACTIVATE_DEACTIVATE' => 'Désactiver le compte de l’utilisateur',
+	'CLI_DESCRIPTION_USER_ACTIVATE_ACTIVE'     => 'L’utilisateur est déjà actif.',
+	'CLI_DESCRIPTION_USER_ACTIVATE_INACTIVE'   => 'L’utilisateur est déjà inactif.',
 	'CLI_DESCRIPTION_USER_ADD'                 => 'Ajouter un nouvel utilisateur.',
 	'CLI_DESCRIPTION_USER_ADD_OPTION_USERNAME' => 'Nom d’utilisateur du nouvel utilisateur',
 	'CLI_DESCRIPTION_USER_ADD_OPTION_PASSWORD' => 'Mot de passe du nouvel utilisateur',
 	'CLI_DESCRIPTION_USER_ADD_OPTION_EMAIL'    => 'Adresse de courriel du nouvel utilisateur',
 	'CLI_DESCRIPTION_USER_ADD_OPTION_NOTIFY'   => 'Envoyer le courriel d’activation du compte au nouvel utilisateur (non envoyé par défaut)',
+	'CLI_DESCRIPTION_USER_DELETE'              => 'Supprimer le compte d’un utilisateur.',
+	'CLI_DESCRIPTION_USER_DELETE_USERNAME'     => 'Nom d’utilisateur du compte à supprimer',
+	'CLI_DESCRIPTION_USER_DELETE_OPTION_POSTS' => 'Supprimer tous les messages de cet utilisateur. Sans cette option, les messages de l’utilisateur seront conservés.',
+	'CLI_DESCRIPTION_USER_RECLEAN'             => 'Renettoyer les noms d’utilisateurs.',
 
 	'CLI_EXTENSION_DISABLE_FAILURE' => 'Impossible de désactiver l’extension %s',
 	'CLI_EXTENSION_DISABLE_SUCCESS' => 'L’extension %s a été désactivée',
@@ -127,13 +136,23 @@ $lang = array_merge($lang, [
 	'CLI_THUMBNAIL_NOTHING_TO_GENERATE' => 'Aucune vignette à générer.',
 	'CLI_THUMBNAIL_NOTHING_TO_DELETE'   => 'Aucune vignette à supprimer.',
 
-	'CLI_USER_ADD_SUCCESS' => 'Utilisateur %s ajouté.',
+	'CLI_USER_ADD_SUCCESS'    => 'Utilisateur %s ajouté.',
+	'CLI_USER_DELETE_CONFIRM' => 'Êtes-vous sûr de vouloir supprimer ‘%s’ ? [Oui = y/Non = N]',
+	'CLI_USER_RECLEAN_START'  => 'Renettoyage des noms d’utilisateurs',
+	'CLI_USER_RECLEAN_DONE'   => [
+		0 => 'Renettoyage terminé. Aucun nom d’utilisateur ne nécessite d’être nettoyé.',
+		1 => 'Renettoyage terminé. %d nom d’utilisateur a été nettoyé.',
+		2 => 'Renettoyage terminé. %d noms d’utilisateurs ont été nettoyés.',
+	],
 ]);
 
 // Additional help for commands.
-$lang = array_merge($lang, [
-	'CLI_HELP_CRON_RUN' => $lang['CLI_DESCRIPTION_CRON_RUN'].'Vous pouvez éventuellement spécifier un nom de tâche cron afin d’exécuter seulement la tâche cron spécifiée.',
-	'CLI_HELP_USER_ADD' => 'La commande <info>%command.name%</info> vous permet d’ajouter un nouvel utilisateur :
+$lang = array_merge($lang, array(
+	'CLI_HELP_CRON_RUN'      => $lang['CLI_DESCRIPTION_CRON_RUN'].'Vous pouvez éventuellement spécifier un nom de tâche cron afin d’exécuter seulement la tâche cron spécifiée.',
+	'CLI_HELP_USER_ACTIVATE' => 'L’option <info>--deactivate</info> vous permet d’activer ou de désactiver le compte d’un utilisateur.
+Si vous souhaitez envoyer un courriel d’activation à l’utilisateur, veuillez utiliser l’option <info>--send-email</info>.',
+	'CLI_HELP_USER_ADD'      => 'La commande <info>%command.name%</info> vous permet d’ajouter un nouvel utilisateur :
 Si cette commande est exécutée sans option, vous serez invité à les saisir.
 Si vous souhaitez envoyer un courriel au nouvel utilisateur, veuillez utiliser l’option <info>--send-email</info>.',
-]);
+	'CLI_HELP_USER_RECLEAN'  => 'Renettoyer les noms d’utilisateurs vous permet de vérifier tous les noms d’utilisateurs en s’assurant que les versions propres soient également stockées. Les noms d’utilisateurs propres ne sont pas sensibles à la casse, sont normalisés avec NFC et sont transformés en ASCII.',
+));
