@@ -55,7 +55,7 @@ $lang = array_merge($lang, [
 	<br />
 	Votre mot de passe est crypté (par un cryptage à sens unique) afin qu’il soit sécurisé. Cependant, il est recommandé de ne pas utiliser le même mot de passe sur plusieurs sites internet différents. Votre mot de passe est le moyen d’accès de votre compte sur « %1$s », veillez à le conservez précieusement. En aucun cas une personne affiliée à « %1$s », à phpBB ou à un site de tierce partie ne peut vous demander légitimement votre mot de passe. Si vous oubliez le mot de passe de votre compte, vous pouvez utiliser la fonction « J’ai perdu mon mot de passe » qui est fournie par le logiciel phpBB. Ce processus vous demandera de spécifier votre nom d’utilisateur et votre adresse de courriel. Le logiciel phpBB générera alors un nouveau mot de passe afin que vous puissiez reprendre le contrôle de votre compte.<br />
 	',
-));
+]);
 
 // Common language entries
 $lang = array_merge($lang, [
