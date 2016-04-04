@@ -21,7 +21,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -36,7 +36,7 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACP_SEARCH_INDEX_EXPLAIN'    => 'Vous pouvez gérer sur cette page les méthodes d’indexation de la recherche. Le moteur de recherche n’utilisant qu’une seule méthode d’indexation, vous devriez supprimer toutes les indexations inutilisées. Vous devriez également, après toute modification sur la plupart des réglages de la recherche comme le nombre minimal et maximal de caractères, recréer l’index afin qu’il prenne en compte ces modifications.',
 	'ACP_SEARCH_SETTINGS_EXPLAIN' => 'Vous pouvez définir sur cette page la méthode d’indexation de la recherche qui sera utilisée lors de l’indexation des messages et l’exécution des recherches. Vous pouvez régler différentes options qui peuvent influencer sur le nombre d’exécutions de ces opérations. Certains de ces réglages sont les mêmes que toutes les autres méthodes d’indexation du moteur de recherche.',
 
@@ -109,18 +109,18 @@ $lang = array_merge($lang, array(
 
 	'SEARCH_GUEST_INTERVAL'         => 'Intervalle d’affluence de la recherche des invités',
 	'SEARCH_GUEST_INTERVAL_EXPLAIN' => 'Le nombre de secondes qui s’écouleront avant qu’un invité puisse de nouveau effectuer une recherche. Si un invité est en train d’effectuer une recherche, tous les autres invités devront patienter le temps que cette durée soit écoulée avant de pouvoir effectuer eux-mêmes une recherche.',
-	'SEARCH_INDEX_CREATE_REDIRECT'  => array(
+	'SEARCH_INDEX_CREATE_REDIRECT'  => [
 		1 => 'Tous les messages allant jusqu’au message dont l’ID est %2$d sont à présent indexés, ce qui correspond à %1$d message.<br />',
 		2 => 'Tous les messages allant jusqu’au message dont l’ID est %2$d sont à présent indexés, ce qui correspond à %1$d messages.<br />',
-	),
-	'SEARCH_INDEX_CREATE_REDIRECT_RATE' => array(
+	],
+	'SEARCH_INDEX_CREATE_REDIRECT_RATE' => [
 		1 => 'Le taux d’indexation actuel est d’approximativement %1$.1f message par seconde.<br />Indexation en cours…',
 		2 => 'Le taux d’indexation actuel est d’approximativement %1$.1f messages par seconde.<br />Indexation en cours…',
-	),
-	'SEARCH_INDEX_DELETE_REDIRECT' => array(
+	],
+	'SEARCH_INDEX_DELETE_REDIRECT' => [
 		1 => 'Tous les messages allant jusqu’au message dont l’ID est %2$d ont été supprimés de l’index de recherche.<br />Suppression en cours…',
 		2 => 'Tous les messages allant jusqu’au message dont l’ID est %2$d ont été supprimés de l’index de recherche.<br />Suppression en cours…',
-	),
+	],
 	'SEARCH_INDEX_CREATED'         => 'Tous les messages ont été indexés dans la base de données du forum.',
 	'SEARCH_INDEX_REMOVED'         => 'L’index de recherche a été supprimé de cette méthode d’indexation.',
 	'SEARCH_INTERVAL'              => 'Intervalle d’affluence de la recherche des utilisateurs',
@@ -138,4 +138,4 @@ $lang = array_merge($lang, array(
 	'YES_SEARCH_EXPLAIN'        => 'Les utilisateurs pourront effectuer des recherches sur votre forum, dont la recherche de membres.',
 	'YES_SEARCH_UPDATE'         => 'Activer la mise à jour plein texte',
 	'YES_SEARCH_UPDATE_EXPLAIN' => 'Les index plein texte seront mis à jour au moment des publications. Ce réglage ne sera pas pris en compte si la recherche n’est pas activée.',
-));
+]);

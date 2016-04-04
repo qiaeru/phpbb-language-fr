@@ -21,7 +21,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -36,7 +36,7 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'TRANSLATION_INFO' => '<a href="https://www.phpbb.com/customise/db/translation/french/">Traduction française</a> &copy; <a href="https://www.maelsoucaze.com/">Maël Soucaze</a>',
 	'DIRECTION'        => 'ltr',
 	'DATE_FORMAT'      => '|d F Y|', // 01 January 2007 (with Relative days enabled)
@@ -129,10 +129,10 @@ $lang = array_merge($lang, array(
 	'BOARD_DISABLED'         => 'Le forum est actuellement désactivé.',
 	'BOARD_UNAVAILABLE'      => 'Le forum est temporairement indisponible. Veuillez réessayer ultérieurement.',
 	'BROWSING_FORUM'         => 'Utilisateurs parcourant ce forum : %1$s',
-	'BROWSING_FORUM_GUESTS'  => array(
+	'BROWSING_FORUM_GUESTS'  => [
 		1 => 'Utilisateurs parcourant ce forum : %2$s et %1$d invité',
 		2 => 'Utilisateurs parcourant ce forum : %2$s et %1$d invités',
-	),
+	],
 	'BUTTON_EDIT'         => 'Éditer',
 	'BUTTON_FORUM_LOCKED' => 'Verrouillé',
 	'BUTTON_NEW_TOPIC'    => 'Nouveau sujet',
@@ -152,10 +152,10 @@ $lang = array_merge($lang, array(
 	'CHANGE_FONT_SIZE'     => 'Modifier la taille de la police de caractères',
 	'CHANGING_PREFERENCES' => 'Modifie les préférences du forum',
 	'CHANGING_PROFILE'     => 'Modifie les réglages du profil',
-	'CHARACTERS'           => array(
+	'CHARACTERS'           => [
 		1 => '%d caractère',
 		2 => '%d caractères',
-	),
+	],
 	'COLLAPSE_VIEW'         => 'Réduire',
 	'CLOSE_WINDOW'          => 'Fermer la fenêtre',
 	'COLOUR_SWATCH'         => 'Palette de couleurs',
@@ -193,11 +193,11 @@ $lang = array_merge($lang, array(
 	'DISPLAY_TOPICS'   => 'Afficher les sujets publiés depuis',
 	'DOWNLOADED'       => 'Téléchargé',
 	'DOWNLOADING_FILE' => 'Téléchargement du fichier',
-	'DOWNLOAD_COUNTS'  => array(
+	'DOWNLOAD_COUNTS'  => [
 		0 => 'Aucun téléchargement',
 		1 => 'Téléchargé %d fois',
 		2 => 'Téléchargé %d fois',
-	),
+	],
 
 	'EDIT_POST'                        => 'Éditer le message',
 	'ELLIPSIS'                         => '…',
@@ -294,14 +294,14 @@ $lang = array_merge($lang, array(
 	'GROUP_ERR_USERNAME'  => 'Aucun nom de groupe n’a été spécifié.',
 	'GROUP_ERR_USER_LONG' => 'Le nom de groupe que vous avez spécifié est trop long. Les noms de groupe ne doivent pas dépasser 60 caractères.',
 	'GUEST'               => 'Invité',
-	'GUEST_USERS_ONLINE'  => array(
+	'GUEST_USERS_ONLINE'  => [
 		1 => 'Il y a %d invité en ligne',
 		2 => 'Il y a %d invités en ligne',
-	),
-	'GUEST_USERS_TOTAL' => array(
+	],
+	'GUEST_USERS_TOTAL' => [
 		1 => '%d invité',
 		2 => '%d invités',
-	),
+	],
 	'G_ADMINISTRATORS'    => 'Administrateurs',
 	'G_BOTS'              => 'Robots',
 	'G_GUESTS'            => 'Invités',
@@ -310,14 +310,14 @@ $lang = array_merge($lang, array(
 	'G_GLOBAL_MODERATORS' => 'Modérateurs généraux',
 	'G_NEWLY_REGISTERED'  => 'Utilisateurs nouvellement inscrits',
 
-	'HIDDEN_USERS_ONLINE' => array(
+	'HIDDEN_USERS_ONLINE' => [
 		1 => '%d utilisateur invisible',
 		2 => '%d utilisateurs invisibles',
-	),
-	'HIDDEN_USERS_TOTAL' => array(
+	],
+	'HIDDEN_USERS_TOTAL' => [
 		1 => '%d invisible',
 		2 => '%d invisibles',
-	),
+	],
 	'HIDE_GUESTS' => 'Masquer les invités',
 	'HIDE_ME'     => 'Masquer mon statut en ligne lors de cette session',
 	'HOURS'       => 'Heures',
@@ -401,10 +401,10 @@ $lang = array_merge($lang, array(
 	'MERGE_TOPIC'         => 'Fusionner le sujet',
 	'MESSAGE'             => 'Message',
 	'MESSAGES'            => 'Messages',
-	'MESSAGES_COUNT'      => array(
+	'MESSAGES_COUNT'      => [
 		1 => '%d message',
 		2 => '%d messages',
-	),
+	],
 	'MESSAGE_BODY'                => 'Corps du message',
 	'MINUTES'                     => 'minutes',
 	'MODERATE'                    => 'Modérer',
@@ -442,26 +442,26 @@ $lang = array_merge($lang, array(
 	// A, B and C replied...
 	// A, B, C and 2 others replied...
 	// A, B, C and others replied...
-	'NOTIFICATION_BOOKMARK' => array(
+	'NOTIFICATION_BOOKMARK' => [
 		1 => '<strong>Publication de message</strong> par %1$s dans le sujet ajouté aux favoris :',
 		2 => '<strong>Publication de messages</strong> par %1$s dans le sujet ajouté aux favoris :',
-	),
+	],
 	'NOTIFICATION_FORUM'                  => '<em>Forum :</em> %1$s',
 	'NOTIFICATION_GROUP_REQUEST'          => '<strong>Demande d’invitation</strong> par %1$s afin de rejoindre le groupe %2$s.',
 	'NOTIFICATION_GROUP_REQUEST_APPROVED' => '<strong>Demande d’invitation</strong> afin de rejoindre le groupe %1$s.',
 	'NOTIFICATION_METHOD_INVALID'         => 'La méthode « %s » ne fait pas référence à une méthode de notification valide.',
 	'NOTIFICATION_PM'                     => '<strong>Réception d’un message privé</strong> par %1$s :',
-	'NOTIFICATION_POST'                   => array(
+	'NOTIFICATION_POST'                   => [
 		1 => '<strong>Publication de message</strong> par %1$s dans le sujet :',
 		2 => '<strong>Publication de messages</strong> par %1$s dans le sujet :',
-	),
+	],
 	'NOTIFICATION_POST_APPROVED'    => '<strong>Approbation d’un message</strong> :',
 	'NOTIFICATION_POST_DISAPPROVED' => '<strong>Désapprobation d’un message</strong> :',
 	'NOTIFICATION_POST_IN_QUEUE'    => '<strong>Demande d’approbation d’un message</strong> par %1$s :',
-	'NOTIFICATION_QUOTE'            => array(
+	'NOTIFICATION_QUOTE'            => [
 		1 => '<strong>Citation</strong> par %1$s dans :',
 		2 => '<strong>Citations</strong> par %1$s dans :',
-	),
+	],
 	'NOTIFICATION_REFERENCE'           => '« %1$s »',
 	'NOTIFICATION_REASON'              => '<em>Raison :</em> %1$s.',
 	'NOTIFICATION_REPORT_PM'           => '<strong>Rapport d’un message privé</strong> par %1$s :',
@@ -475,10 +475,10 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_ADMIN_ACTIVATE_USER' => '<strong>Demande d’activation</strong> d’un utilisateur désactivé ou nouvellement inscrit : « %1$s »',
 	// Used in conjuction with NOTIFICATION_BOOKMARK and NOTIFICATION_POST.
 	'NOTIFICATION_MANY_OTHERS' => 'plusieurs autres utilisateurs',
-	'NOTIFICATION_X_OTHERS'    => array(
+	'NOTIFICATION_X_OTHERS'    => [
 		1 => '%d autre utilisateur',
 		2 => '%d autres utilisateurs',
-	),
+	],
 	'NOTIFY_ADMIN'              => 'Veuillez contacter un administrateur du forum.',
 	'NOTIFY_ADMIN_EMAIL'        => 'Veuillez contacter un administrateur du forum : <a href="mailto:%1$s">%1$s</a>',
 	'NO_ACCESS_ATTACHMENT'      => 'Vous ne pouvez pas accéder à ce fichier.',
@@ -524,40 +524,40 @@ $lang = array_merge($lang, array(
 	'NO_USER_SPECIFIED'         => 'Aucun nom d’utilisateur n’a été spécifié.',
 
 	// Nullar/Singular/Plural language entry. The key numbers define the number range in which a certain grammatical expression is valid.
-	'NUM_ATTACHMENTS' => array(
+	'NUM_ATTACHMENTS' => [
 		1 => '%d pièce jointe',
 		2 => '%d pièces jointes',
-	),
-	'NUM_POSTS_IN_QUEUE' => array(
+	],
+	'NUM_POSTS_IN_QUEUE' => [
 		0 => 'Aucun message en attente', // 0
 		1 => '1 message en attente', // 1
 		2 => '%d messages en attente', // 2+
-	),
+	],
 
 	'OCCUPATION'     => 'Profession',
 	'OFFLINE'        => 'Hors-ligne',
 	'ONLINE'         => 'En ligne',
 	'ONLINE_BUDDIES' => 'Amis en ligne',
 	// "... :: x registered and y hidden"
-	'ONLINE_USERS_TOTAL' => array(
+	'ONLINE_USERS_TOTAL' => [
 		1 => 'Au total, il y a <strong>%1$d</strong> utilisateur en ligne :: %2$s et %3$s',
 		2 => 'Au total, il y a <strong>%1$d</strong> utilisateurs en ligne :: %2$s et %3$s',
-	),
+	],
 	// "... :: x registered, y hidden and z guests"
-	'ONLINE_USERS_TOTAL_GUESTS' => array(
+	'ONLINE_USERS_TOTAL_GUESTS' => [
 		1 => 'Au total, il y a <strong>%1$d</strong> utilisateur en ligne :: %2$s, %3$s et %4$s',
 		2 => 'Au total, il y a <strong>%1$d</strong> utilisateurs en ligne :: %2$s, %3$s et %4$s',
-	),
+	],
 	'OPTIONS' => 'Options',
 
 	'PAGE_OF'           => 'Page <strong>%1$d</strong> sur <strong>%2$d</strong>',
 	'PAGE_TITLE_NUMBER' => 'Page %s',
 	'PASSWORD'          => 'Mot de passe',
 	'PIXEL'             => 'px',
-	'PIXELS'            => array(
+	'PIXELS'            => [
 		1 => '%d pixel',
 		2 => '%d pixels',
-	),
+	],
 	'PLEASE_WAIT'             => 'Veuillez patienter.',
 	'PM'                      => 'MP',
 	'PM_REPORTED'             => 'Cliquez ici afin de consulter le rapport',
@@ -617,14 +617,14 @@ $lang = array_merge($lang, array(
 	'REGISTER'                => 'Inscription',
 	'REGISTERED_USERS'        => 'Utilisateurs inscrits :',
 	// "... and 2 hidden users online"
-	'REG_USERS_ONLINE' => array(
+	'REG_USERS_ONLINE' => [
 		1 => 'Il y a %1$d utilisateur inscrit et %2$s en ligne',
 		2 => 'Il y a %1$d utilisateurs inscrits et %2$s en ligne',
-	),
-	'REG_USERS_TOTAL' => array(
+	],
+	'REG_USERS_TOTAL' => [
 		1 => '%d inscrit',
 		2 => '%d inscrits',
-	),
+	],
 	'REMOVE'                   => 'Supprimer',
 	'REMOVE_INSTALL'           => 'Veuillez supprimer, déplacer ou renommer le répertoire « install » de votre serveur afin d’utiliser votre forum. Tant que ce répertoire est présent, seul le panneau de contrôle d’administration sera accessible.',
 	'REPLIES'                  => 'Réponses',
@@ -770,29 +770,29 @@ $lang = array_merge($lang, array(
 	'TOPIC_UNAPPROVED'   => 'Ce sujet n’a pas été approuvé.',
 	'TOPIC_DELETED'      => 'Ce sujet a été supprimé.',
 	'TOTAL_ATTACHMENTS'  => 'Pièces jointes',
-	'TOTAL_LOGS'         => array(
+	'TOTAL_LOGS'         => [
 		1 => '%d historique',
 		2 => '%d historiques',
-	),
-	'TOTAL_PMS' => array(
+	],
+	'TOTAL_PMS' => [
 		1 => '%d message privé',
 		2 => '%d messages privés',
-	),
+	],
 	'TOPIC_POLL'        => 'Ce sujet contient un sondage.',
 	'TOTAL_POSTS'       => 'Nombre total de messages',
-	'TOTAL_POSTS_COUNT' => array(
+	'TOTAL_POSTS_COUNT' => [
 		1 => '<strong>%d</strong> message',
 		2 => '<strong>%d</strong> messages',
-	),
+	],
 	'TOPIC_REPORTED' => 'Ce sujet a été rapporté',
-	'TOTAL_TOPICS'   => array(
+	'TOTAL_TOPICS'   => [
 		1 => '<strong>%d</strong> sujet',
 		2 => '<strong>%d</strong> sujets',
-	),
-	'TOTAL_USERS' => array(
+	],
+	'TOTAL_USERS' => [
 		1 => '<strong>%d</strong> membre',
 		2 => '<strong>%d</strong> membres',
-	),
+	],
 	'TRACKED_PHP_ERROR' => 'Erreurs PHP survenues : %s',
 	'TWITTER'           => 'Twitter',
 
@@ -818,10 +818,10 @@ $lang = array_merge($lang, array(
 	'USERNAMES'               => 'Noms d’utilisateurs',
 	'USER_AVATAR'             => 'Avatar de l’utilisateur',
 	'USER_CANNOT_READ'        => 'Vous ne pouvez pas consulter les messages de ce forum.',
-	'USER_POSTS'              => array(
+	'USER_POSTS'              => [
 		1 => '%d message',
 		2 => '%d messages',
-	),
+	],
 	'USERS'           => 'Utilisateurs',
 	'USE_PERMISSIONS' => 'Tester les permissions de l’utilisateur',
 
@@ -829,11 +829,11 @@ $lang = array_merge($lang, array(
 
 	'VARIANT_DATE_SEPARATOR' => ' / ', // Used in date format dropdown, eg: "Today, 13:37 / 01 Jan 2007, 13:37" ... to join a relative date with calendar date
 	'VIEWED'                 => 'Consulté',
-	'VIEWED_COUNTS'          => array(
+	'VIEWED_COUNTS'          => [
 		0 => 'Aucune consultation',
 		1 => 'Consulté %d fois',
 		2 => 'Consulté %d fois',
-	),
+	],
 	'VIEWING_CONTACT_ADMIN'    => 'Consulte la page de contact',
 	'VIEWING_FAQ'              => 'Consulte la FAQ',
 	'VIEWING_MEMBERS'          => 'Consulte les informations d’un membre',
@@ -849,10 +849,10 @@ $lang = array_merge($lang, array(
 	'VIEW_LATEST_POST'         => 'Consulter le dernier message',
 	'VIEW_NEWEST_POST'         => 'Consulter le message non lu le plus récent',
 	'VIEW_NOTES'               => 'Consulter les remarques sur l’utilisateur',
-	'VIEW_ONLINE_TIMES'        => array(
+	'VIEW_ONLINE_TIMES'        => [
 		1 => 'selon le nombre d’utilisateurs actifs de la dernière minute',
 		2 => 'selon le nombre d’utilisateurs actifs des %d dernières minutes',
-	),
+	],
 	'VIEW_TOPIC'              => 'Consulter le sujet',
 	'VIEW_TOPIC_ANNOUNCEMENT' => 'Annonce : ',
 	'VIEW_TOPIC_GLOBAL'       => 'Annonce générale : ',
@@ -891,15 +891,15 @@ $lang = array_merge($lang, array(
 	'YES'            => 'Oui',
 	'YOU_LAST_VISIT' => 'Dernière visite : %s',
 
-	'datetime' => array(
+	'datetime' => [
 		'TODAY'     => 'Aujourd’hui',
 		'TOMORROW'  => 'Demain',
 		'YESTERDAY' => 'Hier',
-		'AGO'       => array(
+		'AGO'       => [
 			0 => 'il y a moins d’une minute',
 			1 => 'il y a %d minute',
 			2 => 'il y a %d minutes',
-		),
+		],
 
 		'Sunday'    => 'dimanche',
 		'Monday'    => 'lundi',
@@ -942,11 +942,11 @@ $lang = array_merge($lang, array(
 		'Oct'       => 'oct.',
 		'Nov'       => 'nov.',
 		'Dec'       => 'déc.',
-	),
+	],
 
 	// Timezones can be translated. We use this for the Etc/GMT timezones here,
 	// because they are named invers to their offset.
-	'timezones' => array(
+	'timezones' => [
 		'UTC'                => 'UTC',
 		'UTC_OFFSET'         => 'UTC%1$s',
 		'UTC_OFFSET_CURRENT' => 'UTC%1$s - %2$s',
@@ -1405,10 +1405,10 @@ $lang = array_merge($lang, array(
 		'Pacific/Tongatapu'    => 'Océan Pacifique/Tongatapu',
 		'Pacific/Wake'         => 'Océan Pacifique/Wake',
 		'Pacific/Wallis'       => 'Océan Pacifique/Wallis-et-Futuna',
-	),
+	],
 
 	// The value is only an example and will get replaced by the current time on view
-	'dateformats' => array(
+	'dateformats' => [
 		'd M Y, H:i'       => '01 janv. 2007, 13:37',
 		'd M Y H:i'        => '01 janv. 2007 13:37',
 		'M jS, \'y, H:i'   => 'janv. 1er, ’07, 13:37',
@@ -1416,9 +1416,9 @@ $lang = array_merge($lang, array(
 		'F jS, Y, g:i a'   => 'janvier 1er, 2007, 1:37 pm',
 		'|d M Y|, H:i'     => 'Aujourd’hui, 13:37 / 01 janv. 2007, 13:37',
 		'|F jS, Y|, g:i a' => 'Aujourd’hui, 1:37 pm / janv. 1er, 2007, 1:37 pm',
-	),
+	],
 
 	// The default dateformat which will be used on new installs in this language
 	// Translators should change this if a the usual date format is different
 	'default_dateformat' => 'd F Y, H:i', // 01 January 2007, 13:37
-));
+]);

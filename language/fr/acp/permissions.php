@@ -21,7 +21,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -36,7 +36,7 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACP_PERMISSIONS_EXPLAIN' => '
 		<p>Les permissions sont nombreuses et regroupées en quatre sections majeures :</p>
 
@@ -284,4 +284,4 @@ $lang = array_merge($lang, array(
 
 	'WRONG_PERMISSION_TYPE'           => 'Le type de permission que vous avez spécifié est incorrect.',
 	'WRONG_PERMISSION_SETTING_FORMAT' => 'Les réglages des permissions sont enregistrées dans un mauvais format, phpBB est incapable de les traiter correctement.',
-));
+]);

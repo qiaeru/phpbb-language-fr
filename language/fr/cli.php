@@ -21,7 +21,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -36,7 +36,7 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'CLI_CONFIG_CANNOT_CACHED'         => 'Réglez cette option si l’option de configuration change trop fréquemment pour être mis en cache efficacement.',
 	'CLI_CONFIG_CURRENT'               => 'La valeur de configuration actuelle. Utilisez 0 et 1 afin de spécifier des valeurs booléennes',
 	'CLI_CONFIG_DELETE_SUCCESS'        => 'La configuration %s a été supprimée.',
@@ -128,12 +128,12 @@ $lang = array_merge($lang, array(
 	'CLI_THUMBNAIL_NOTHING_TO_DELETE'   => 'Aucune vignette à supprimer.',
 
 	'CLI_USER_ADD_SUCCESS' => 'Utilisateur %s ajouté.',
-));
+]);
 
 // Additional help for commands.
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'CLI_HELP_CRON_RUN' => $lang['CLI_DESCRIPTION_CRON_RUN'].'Vous pouvez éventuellement spécifier un nom de tâche cron afin d’exécuter seulement la tâche cron spécifiée.',
 	'CLI_HELP_USER_ADD' => 'La commande <info>%command.name%</info> vous permet d’ajouter un nouvel utilisateur :
 Si cette commande est exécutée sans option, vous serez invité à les saisir.
 Si vous souhaitez envoyer un courriel au nouvel utilisateur, veuillez utiliser l’option <info>--send-email</info>.',
-));
+]);

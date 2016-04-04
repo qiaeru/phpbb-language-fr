@@ -21,7 +21,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -37,7 +37,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 // Banning
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'1_HOUR'  => '1 heure',
 	'30_MINS' => '30 minutes',
 	'6_HOURS' => '6 heures',
@@ -81,4 +81,4 @@ $lang = array_merge($lang, array(
 	'USER_NO_BANNED'           => 'Aucun nom d’utilisateur n’a été banni.',
 	'USER_UNBAN'               => 'Débannir ou ne plus exclure des utilisateurs par leur nom d’utilisateurs',
 	'USER_UNBAN_EXPLAIN'       => 'Vous pouvez débannir (ou ne plus exclure) plusieurs utilisateurs en une seule fois en utilisant la combinaison appropriée de la souris et du clavier de votre ordinateur et de votre navigateur. Les utilisateurs exclus apparaissent soulignés.',
-));
+]);

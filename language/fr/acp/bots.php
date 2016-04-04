@@ -21,7 +21,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -37,7 +37,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 // Bot settings
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'BOTS'              => 'Gérer les robots',
 	'BOTS_EXPLAIN'      => 'Les « robots » sont des agents automatisés qui sont, dans la plupart des cas, utilisés par les moteurs de recherche afin d’alimenter leur base de données. Étant donné qu’ils n’utilisent que très rarement les sessions de manière correcte, il est fréquent qu’ils augmentent inutilement la charge des serveurs et qu’ils n’indexent pas correctement certaines pages. Vous pouvez définir ici un type spécial d’utilisateurs qui vous permettra de résoudre ces problèmes.',
 	'BOT_ACTIVATE'      => 'Activer',
@@ -69,4 +69,4 @@ $lang = array_merge($lang, array(
 
 	'NO_BOT'       => 'Aucun robot correspondant à l’identification spécifiée n’a été trouvé.',
 	'NO_BOT_GROUP' => 'Le groupe d’utilisateurs des robots est introuvable.',
-));
+]);

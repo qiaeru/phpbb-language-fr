@@ -21,7 +21,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -38,7 +38,7 @@ if (empty($lang) || !is_array($lang))
 
 // BBCodes
 // Note to translators: you can translate everything but what's between { and }
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACP_BBCODES_EXPLAIN' => 'Le BBCode est une implémentation spéciale du code HTML qui offre un meilleur contrôle sur la mise en forme. De cette page, vous pouvez ajouter, supprimer et éditer des BBCodes personnalisés.',
 	'ADD_BBCODE'          => 'Ajouter un nouveau BBCode',
 
@@ -77,7 +77,7 @@ $lang = array_merge($lang, array(
 	'TOKEN_DEFINITION' => 'Qu’est-ce que c’est ?',
 	'TOO_MANY_BBCODES' => 'Vous ne pouvez pas créer d’autres BBCodes. Veuillez supprimer un ou plusieurs BBCodes et réessayer.',
 
-	'tokens' => array(
+	'tokens' => [
 		'TEXT'         => 'Du texte, comprenant les caractères étrangers, les chiffres, etc. Vous ne devriez pas utiliser cette chaîne de symboles dans les balises HTML. Essayez d’utiliser à la place IDENTIFIER, INTTEXT ou SIMPLETEXT.',
 		'SIMPLETEXT'   => 'Des caractères de l’alphabet latin (A-Z), des chiffres, des espaces, des virgules, des points, des tirets, des tirets bas et des signes plus et moins.',
 		'INTTEXT'      => 'Des lettres de caractères Unicode, des chiffres, des espaces, des virgules, des points, des tirets bas et des espaces insécables et des signes plus et moins.',
@@ -88,11 +88,11 @@ $lang = array_merge($lang, array(
 		'LOCAL_URL'    => 'Une adresse universelle locale. L’adresse doit être relative à la page du sujet et ne doit pas contenir de nom de serveur ou de protocole, tels que des liens qui sont précédés de « %s »',
 		'RELATIVE_URL' => 'Une adresse universelle relative. Vous pouvez utiliser des résultats partiels d’une adresse universelle, mais soyez vigilant : une adresse universelle complète est une adresse universelle relative correcte. Lorsque vous souhaitez utiliser les adresses universelles relatives de votre forum, utilisez la variable LOCAL_URL.',
 		'COLOR'        => 'Une couleur HTML qui peut être dans une forme hexadécimale <samp>#FF1234</samp> ou un <a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">nom de couleur CSS</a> (en anglais), tel que <samp>fuchsia</samp> ou <samp>InactiveBorder</samp>.',
-	),
-));
+	],
+]);
 
 // Smilies and topic icons
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACP_ICONS_EXPLAIN'   => 'Vous pouvez ajouter, supprimer ou éditer sur cette page les icônes que les utilisateurs peuvent insérer aux sujets et aux messages. Ces icônes sont généralement affichées à côté des titres des sujets sur la liste des forums ou à côté des titres des messages sur la liste des sujets. Vous pouvez également installer et créer de nouvelles archives d’icônes.',
 	'ACP_SMILIES_EXPLAIN' => 'Les émoticônes sont généralement de petites images, parfois animées, qui sont utilisées afin d’exprimer une émotion ou un sentiment. Vous pouvez ajouter, supprimer et éditer sur cette page les émoticônes que les utilisateurs peuvent insérer dans leurs messages et leurs messages privés. Vous pouvez également installer et créer de nouvelles archives d’émoticônes.',
 	'ADD_SMILIES'         => 'Ajouter plusieurs émoticônes',
@@ -122,19 +122,19 @@ $lang = array_merge($lang, array(
 	'FIRST' => 'Premier',
 
 	'ICONS_ADD'   => 'Ajouter une nouvelle icône',
-	'ICONS_ADDED' => array(
+	'ICONS_ADDED' => [
 		0 => 'Aucune icône n’a été ajoutée.',
 		1 => 'L’icône a été ajoutée.',
 		2 => 'Les icônes ont été ajoutées.',
-	),
+	],
 	'ICONS_CONFIG'  => 'Configuration de l’icône',
 	'ICONS_DELETED' => 'L’icône a été supprimée.',
 	'ICONS_EDIT'    => 'Éditer l’icône',
-	'ICONS_EDITED'  => array(
+	'ICONS_EDITED'  => [
 		0 => 'Aucune icône n’a été mise à jour.',
 		1 => 'L’icône a été mise à jour.',
 		2 => 'Les icônes ont été mises à jour.',
-	),
+	],
 	'ICONS_HEIGHT'         => 'Hauteur de l’icône',
 	'ICONS_IMAGE'          => 'Image de l’icône',
 	'ICONS_IMPORTED'       => 'L’archive d’icônes a été installée.',
@@ -166,11 +166,11 @@ $lang = array_merge($lang, array(
 
 	'SELECT_PACKAGE' => 'Sélectionner une archive',
 	'SMILIES_ADD'    => 'Ajouter une nouvelle émoticône',
-	'SMILIES_ADDED'  => array(
+	'SMILIES_ADDED'  => [
 		0 => 'Aucune émoticône n’a été ajoutée.',
 		1 => 'L’émoticône a été ajoutée.',
 		2 => 'Les émoticônes ont été ajoutées.',
-	),
+	],
 	'SMILIES_CODE'      => 'Code de l’émoticône',
 	'SMILIES_CONFIG'    => 'Configuration de l’émoticône',
 	'SMILIES_DELETED'   => 'L’émoticône a été supprimée.',
@@ -178,11 +178,11 @@ $lang = array_merge($lang, array(
 	'SMILIE_NO_CODE'    => 'L’émoticône « %s » a été ignorée car aucun code n’a été spécifié.',
 	'SMILIE_NO_EMOTION' => 'L’émoticône « %s » a été ignorée car aucune émoticône n’a été spécifiée.',
 	'SMILIE_NO_FILE'    => 'L’émoticône « %s » a été ignorée car le fichier est manquant.',
-	'SMILIES_EDITED'    => array(
+	'SMILIES_EDITED'    => [
 		0 => 'Aucune émoticône n’a été mise à jour.',
 		1 => 'L’émoticône a été mise à jour.',
 		2 => 'Les émoticônes ont été mises à jour.',
-	),
+	],
 	'SMILIES_EMOTION'        => 'Émotion',
 	'SMILIES_HEIGHT'         => 'Hauteur de l’émoticône',
 	'SMILIES_IMAGE'          => 'Image de l’émoticône',
@@ -194,16 +194,16 @@ $lang = array_merge($lang, array(
 	'SMILIES_URL'            => 'Image de l’émoticône',
 	'SMILIES_WIDTH'          => 'Largeur de l’émoticône',
 
-	'TOO_MANY_SMILIES' => array(
+	'TOO_MANY_SMILIES' => [
 		1 => 'La limite de %d émoticône a été atteinte.',
 		2 => 'La limite de %d émoticônes a été atteinte.',
-	),
+	],
 
 	'WRONG_PAK_TYPE' => 'L’archive ne contient pas les données appropriées.',
-));
+]);
 
 // Word censors
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACP_WORDS_EXPLAIN' => 'Vous pouvez ajouter, éditer et supprimer sur cette page les mots qui seront automatiquement censurés sur votre forum. Les mots censurés seront alors remplacés par les substitutions qui leurs sont assignées. Les visiteurs pourront tout de même s’inscrire avec des noms d’utilisateurs contenant ces mots. Les jokers (*) sont acceptés dans les champs. Par exemple, *test* censurera détestable, test* censurera testament, *test censurera alcootest.',
 	'ADD_WORD'          => 'Ajouter un nouveau mot',
 
@@ -220,10 +220,10 @@ $lang = array_merge($lang, array(
 	'WORD_ADDED'   => 'La censure de mot a été ajoutée.',
 	'WORD_REMOVED' => 'La censure de mot a été supprimée.',
 	'WORD_UPDATED' => 'La censure de mot a été mise à jour.',
-));
+]);
 
 // Ranks
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACP_RANKS_EXPLAIN' => 'Vous pouvez consulter, ajouter, éditer et supprimer sur cette page les rangs des utilisateurs de votre forum. Vous pouvez également créer des rangs personnalisés qui peuvent être mis en place sur certains de vos utilisateurs depuis la page de gestion des utilisateurs.',
 	'ADD_RANK'          => 'Ajouter un nouveau rang',
 
@@ -242,10 +242,10 @@ $lang = array_merge($lang, array(
 	'RANK_SPECIAL'       => 'Définir comme rang spécial',
 	'RANK_TITLE'         => 'Titre du rang',
 	'RANK_UPDATED'       => 'Le rang a été mis à jour.',
-));
+]);
 
 // Disallow Usernames
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACP_DISALLOW_EXPLAIN' => 'Vous pouvez gérer sur cette page les noms d’utilisateurs qui ne sont pas autorisés à être utilisés. Les noms d’utilisateurs interdits peuvent contenir un joker « * ».',
 	'ADD_DISALLOW_EXPLAIN' => 'Vous pouvez interdire un nom d’utilisateur en utilisant un joker « * » qui remplacera alors n’importe quel caractère.',
 	'ADD_DISALLOW_TITLE'   => 'Ajouter un nom d’utilisateur interdit',
@@ -258,10 +258,10 @@ $lang = array_merge($lang, array(
 
 	'NO_DISALLOWED'         => 'Vous n’avez interdit aucun nom d’utilisateur',
 	'NO_USERNAME_SPECIFIED' => 'Impossible d’effectuer cette opération car vous n’avez sélectionné aucun nom d’utilisateur.',
-));
+]);
 
 // Reasons
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACP_REASONS_EXPLAIN' => 'Vous pouvez gérer sur cette page les raisons utilisées dans les rapports lors de la désapprobation de messages. La raison par défaut (marquée avec « * ») ne peut pas être supprimée car elle est réservée aux messages personnalisés quand aucune raison n’est spécifiée.',
 	'ADD_NEW_REASON'      => 'Ajouter une nouvelle raison',
 	'AVAILABLE_TITLES'    => 'Titres des raisons traduites disponibles',
@@ -288,4 +288,4 @@ $lang = array_merge($lang, array(
 	'REASON_UPDATED'          => 'La raison a été mise à jour.',
 
 	'USED_IN_REPORTS' => 'Nombre d’utilisation',
-));
+]);

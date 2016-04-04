@@ -21,7 +21,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -36,7 +36,7 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACP_GROUPS_MANAGE_EXPLAIN' => 'Vous pouvez administrer sur cette page tous les groupes d’utilisateurs de votre forum. Vous pouvez créer, éditer et supprimer des groupes d’utilisateurs, sélectionner leur statut (restreint, privé ou invisible) et saisir leur nom et leur description. De plus, vous pouvez nommer les responsables des différents groupes d’utilisateurs.',
 	'ADD_GROUP_CATEGORY'        => 'Ajouter une catégorie',
 	'ADD_USERS'                 => 'Ajouter des utilisateurs',
@@ -57,10 +57,10 @@ $lang = array_merge($lang, array(
 	'GROUP_CLOSED'            => 'Privé',
 	'GROUP_COLOR'             => 'Couleur du groupe',
 	'GROUP_COLOR_EXPLAIN'     => 'La couleur dans laquelle les noms d’utilisateurs des membres du groupe apparaîtront. Laissez ce champ vide si vous souhaitez conserver la couleur des membres par défaut.',
-	'GROUP_CONFIRM_ADD_USERS' => array(
+	'GROUP_CONFIRM_ADD_USERS' => [
 		1 => 'Êtes-vous sûr de vouloir ajouter l’utilisateur %2$s au groupe d’utilisateurs ?',
 		2 => 'Êtes-vous sûr de vouloir ajouter les utilisateurs %2$s au groupe d’utilisateurs ?',
-	),
+	],
 	'GROUP_CREATED'                => 'Le groupe d’utilisateurs a été créé.',
 	'GROUP_DEFAULT'                => 'Définir comme groupe d’utilisateurs par défaut pour les membres',
 	'GROUP_DEFS_UPDATED'           => 'Le groupe d’utilisateurs a été réglé comme groupe d’utilisateurs par défaut pour tous les membres sélectionnés.',
@@ -154,4 +154,4 @@ $lang = array_merge($lang, array(
 	'USER_GROUP_DEFAULT'         => 'Définir comme groupe par défaut',
 	'USER_GROUP_DEFAULT_EXPLAIN' => 'Si cette option est activée, ce groupe d’utilisateurs sera considéré comme le groupe d’utilisateurs par défaut de tous les utilisateurs.',
 	'USER_GROUP_LEADER'          => 'Promouvoir en responsable du groupe',
-));
+]);

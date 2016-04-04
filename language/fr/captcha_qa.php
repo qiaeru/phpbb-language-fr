@@ -21,7 +21,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -36,7 +36,7 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'CAPTCHA_QA'               => 'Q&amp;R',
 	'CONFIRM_QUESTION_EXPLAIN' => 'Cette question est un moyen de lutter contre les publications automatisées indésirables.',
 	'CONFIRM_QUESTION_WRONG'   => 'Vous n’avez pas répondu correctement à la question.',
@@ -61,4 +61,4 @@ $lang = array_merge($lang, array(
 
 	'QA_ERROR_MSG'     => 'Veuillez compléter tous les champs et saisir au moins une réponse.',
 	'QA_LAST_QUESTION' => 'Vous ne pouvez pas supprimer toutes les questions lorsque le module d’extension est actif.',
-));
+]);

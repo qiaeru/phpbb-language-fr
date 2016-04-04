@@ -21,7 +21,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -36,7 +36,7 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACP_FILES'                  => 'Fichiers de langue de l’administration',
 	'ACP_LANGUAGE_PACKS_EXPLAIN' => 'Vous pouvez installer, modifier et supprimer sur cette page des traductions. La traduction par défaut est signalée par un astérisque (*).',
 
@@ -75,4 +75,4 @@ $lang = array_merge($lang, array(
 	'UNINSTALLED_LANGUAGE_PACKS' => 'Traductions non installées',
 
 	'BROWSE_LANGUAGE_PACKS_DATABASE' => 'Accéder à la base de données des traductions',
-));
+]);

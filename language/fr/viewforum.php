@@ -21,7 +21,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -36,7 +36,7 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACTIVE_TOPICS' => 'Sujets actifs',
 	'ANNOUNCEMENTS' => 'Annonces',
 
@@ -65,8 +65,8 @@ $lang = array_merge($lang, array(
 	'UNREAD_POSTS_LOCKED' => 'Messages non lus [ Verrouillés ]',
 
 	'VIEW_FORUM'        => 'Consulter le forum',
-	'VIEW_FORUM_TOPICS' => array(
+	'VIEW_FORUM_TOPICS' => [
 		1 => '%d sujet',
 		2 => '%d sujets',
-	),
-));
+	],
+]);

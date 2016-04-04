@@ -21,7 +21,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -37,7 +37,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 // Common
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACP_ADMINISTRATORS'      => 'Administrateurs',
 	'ACP_ADMIN_LOGS'          => 'Historique des administrateurs',
 	'ACP_ADMIN_ROLES'         => 'Rôles des administrateurs',
@@ -328,17 +328,17 @@ $lang = array_merge($lang, array(
 	'USER_CONTROL_PANEL' => 'Panneau de contrôle de l’utilisateur',
 
 	'WARNING' => 'Avertissement',
-));
+]);
 
 // PHP info
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACP_PHP_INFO_EXPLAIN' => 'Vous pouvez consulter sur cette page les informations sur la version de PHP qui est installée sur votre serveur. Cela comprend l’ensemble des informations sur les modules chargés, les variables disponibles et les réglages par défaut. Ces informations peuvent être utiles afin de diagnostiquer les problèmes présents sur votre serveur. Veuillez noter que certains hébergeurs peuvent limiter l’affichage de ces informations pour des raisons de sécurité. Il est déconseillé de divulguer les informations disponibles sur cette page, sauf si elles sont demandées par un des <a href="https://www.phpbb.com/about/team/">membres de l’équipe officielle</a> (en anglais) sur les forums de support.',
 
 	'NO_PHPINFO_AVAILABLE' => 'Impossible d’afficher les informations concernant votre configuration de PHP. La fonction phpinfo() a été désactivée pour des raisons de sécurité.',
-));
+]);
 
 // Logs
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACP_ADMIN_LOGS_EXPLAIN'    => 'Cette liste vous permet de consulter toutes les opérations qui ont été effectuées par les administrateurs du forum. Vous pouvez les classer par nom d’utilisateur, date, adresse IP ou opération. Si vous en avez les permissions, vous pouvez également effacer intégralement ou individuellement ces opérations.',
 	'ACP_CRITICAL_LOGS_EXPLAIN' => 'Cette liste vous permet de consulter toutes les opérations qui ont été effectuées par le forum lui-même. Cet historique vous informe des problèmes qui se sont produits, comme des courriels qui n’ont pas été correctement transférés. Vous pouvez les classer par nom d’utilisateur, date, adresse IP ou opération. Si vous en avez les permissions, vous pouvez également effacer intégralement ou individuellement ces opérations.',
 	'ACP_MOD_LOGS_EXPLAIN'      => 'Cette liste vous permet de consulter toutes les opérations qui ont été effectuées sur les forums, les sujets et les messages, ainsi que celles effectuées par les modérateurs sur des utilisateurs, comme les bannissements. Vous pouvez les classer par nom d’utilisateur, date, adresse IP ou opération. Si vous en avez les permissions, vous pouvez également effacer intégralement ou individuellement ces opérations.',
@@ -352,10 +352,10 @@ $lang = array_merge($lang, array(
 	'SORT_IP'     => 'Adresse IP',
 	'SORT_DATE'   => 'Date',
 	'SORT_ACTION' => 'Opération',
-));
+]);
 
 // Index page
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ADMIN_INTRO'             => 'Nous vous remercions d’utiliser le logiciel phpBB comme solution pour votre forum de discussions. Cette page vous offre un aperçu des nombreuses statistiques de votre forum. Les liens situés sur le volet à gauche de cette page vous permettent de personnaliser tous les aspects de votre forum. Chaque page contient des instructions vous informant sur l’utilisation des outils disponibles.',
 	'ADMIN_LOG'               => 'Historique des dernières opérations des administrateurs',
 	'ADMIN_LOG_INDEX_EXPLAIN' => 'Cet historique vous affiche les cinq dernières opérations effectuées par les administrateurs de ce forum. Vous pouvez consulter la totalité de cet historique depuis le menu approprié ou en cliquant sur le lien disponible ci-dessous.',
@@ -447,10 +447,10 @@ $lang = array_merge($lang, array(
 
 	'WELCOME_PHPBB'   => 'Bienvenue sur phpBB',
 	'WRITABLE_CONFIG' => 'Votre fichier de configuration (config.php) est actuellement inscriptible par tout le monde. Nous vous encourageons fortement à modifier vos permissions en 640 (<a href="http://fr.wikipedia.org/wiki/Chmod" rel="external">chmod</a> 640 config.php) ou, le cas échéant, en 644.',
-));
+]);
 
 // Inactive Users
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'INACTIVE_DATE'                => 'Date d’inactivité',
 	'INACTIVE_REASON'              => 'Raison',
 	'INACTIVE_REASON_MANUAL'       => 'Le compte a été désactivé par un administrateur',
@@ -472,10 +472,10 @@ $lang = array_merge($lang, array(
 	'SORT_REMINDER'      => 'Rappel envoyé',
 
 	'USER_IS_INACTIVE' => 'L’utilisateur est inactif',
-));
+]);
 
 // Send statistics page
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'EXPLAIN_SEND_STATISTICS' => 'Vous pouvez nous soumettre les informations statistiques sur votre serveur et sur la configuration de votre forum. Toutes les informations pouvant vous identifier ou identifier votre site internet ont été supprimées, les données sont entièrement <strong>anonymes</strong>. Nous utilisons ces informations afin de mieux adapter nos décisions sur les futures versions de phpBB. Les statistiques sont rendues publiques. Nous partageons également ces données avec le projet PHP, qui est l’auteur du langage de programmation du même nom, majoritairement utilisé dans phpBB.',
 	'EXPLAIN_SHOW_STATISTICS' => 'En cliquant sur le bouton ci-dessous, vous pouvez prévisualiser toutes les variables qui nous seront transmises.',
 	'DONT_SEND_STATISTICS'    => 'Revenir au panneau de contrôle d’administration sans envoyer les informations statistiques.',
@@ -484,10 +484,10 @@ $lang = array_merge($lang, array(
 	'SEND_STATISTICS'         => 'Envoyer les informations statistiques',
 	'SHOW_STATISTICS'         => 'Afficher les informations',
 	'THANKS_SEND_STATISTICS'  => 'Nous vous remercions d’avoir eu l’amabilité d’envoyer vos informations.',
-));
+]);
 
 // Log Entries
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'LOG_ACL_ADD_USER_GLOBAL_U_'  => '<strong>Ajout ou édition des permissions d’un utilisateur</strong><br />» %s',
 	'LOG_ACL_ADD_GROUP_GLOBAL_U_' => '<strong>Ajout ou édition des permissions d’un groupe d’utilisateurs</strong><br />» %s',
 	'LOG_ACL_ADD_USER_GLOBAL_M_'  => '<strong>Ajout ou édition des permissions des modérateurs généraux</strong><br />» %s',
@@ -803,10 +803,10 @@ $lang = array_merge($lang, array(
 	'LOG_USER_GROUP_RESIGN'       => '<strong>Désinscription d’un utilisateur d’un groupe d’utilisateurs</strong><br />» %s',
 
 	'LOG_WARNING_DELETED'  => '<strong>Suppression d’un avertissement prononcé à l’encontre d’un utilisateur</strong><br />» %s',
-	'LOG_WARNINGS_DELETED' => array(
+	'LOG_WARNINGS_DELETED' => [
 		1 => '<strong>Suppression d’un avertissement prononcé à l’encontre d’un utilisateur</strong><br />» %1$s',
 		2 => '<strong>Suppression de %2$d avertissements prononcés à l’encontre d’un utilisateur</strong><br />» %1$s', // Example: '<strong>Deleted 2 user warnings</strong><br />» username'
-	),
+	],
 	'LOG_WARNINGS_DELETED_ALL' => '<strong>Suppression de tous les avertissements prononcés à l’encontre d’un utilisateur</strong><br />» %s',
 
 	'LOG_WORD_ADD'    => '<strong>Ajout d’une censure de mot</strong><br />» %s',
@@ -816,4 +816,4 @@ $lang = array_merge($lang, array(
 	'LOG_EXT_ENABLE'  => '<strong>Activation d’une extension</strong><br />» %s',
 	'LOG_EXT_DISABLE' => '<strong>Désactivation d’une extension</strong><br />» %s',
 	'LOG_EXT_PURGE'   => '<strong>Suppression des données d’une extension</strong><br />» %s',
-));
+]);
