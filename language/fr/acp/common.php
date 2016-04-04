@@ -803,10 +803,10 @@ $lang = array_merge($lang, [
 	'LOG_USER_GROUP_RESIGN'       => '<strong>Désinscription d’un utilisateur d’un groupe d’utilisateurs</strong><br />» %s',
 
 	'LOG_WARNING_DELETED'  => '<strong>Suppression d’un avertissement prononcé à l’encontre d’un utilisateur</strong><br />» %s',
-	'LOG_WARNINGS_DELETED' => array(
+	'LOG_WARNINGS_DELETED' => [
 		1 => '<strong>Suppression d’un avertissement prononcé à l’encontre d’un utilisateur</strong><br />» %1$s',
 		2 => '<strong>Suppression de %2$d avertissements prononcés à l’encontre d’un utilisateur</strong><br />» %1$s', // Example: '<strong>Deleted 2 user warnings</strong><br />» username'
-	),
+	],
 	'LOG_WARNINGS_DELETED_ALL' => '<strong>Suppression de tous les avertissements prononcés à l’encontre d’un utilisateur</strong><br />» %s',
 
 	'LOG_WORD_ADD'    => '<strong>Ajout d’une censure de mot</strong><br />» %s',

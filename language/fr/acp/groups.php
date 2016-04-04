@@ -57,10 +57,10 @@ $lang = array_merge($lang, [
 	'GROUP_CLOSED'            => 'Privé',
 	'GROUP_COLOR'             => 'Couleur du groupe',
 	'GROUP_COLOR_EXPLAIN'     => 'La couleur dans laquelle les noms d’utilisateurs des membres du groupe apparaîtront. Laissez ce champ vide si vous souhaitez conserver la couleur des membres par défaut.',
-	'GROUP_CONFIRM_ADD_USERS' => array(
+	'GROUP_CONFIRM_ADD_USERS' => [
 		1 => 'Êtes-vous sûr de vouloir ajouter l’utilisateur %2$s au groupe d’utilisateurs ?',
 		2 => 'Êtes-vous sûr de vouloir ajouter les utilisateurs %2$s au groupe d’utilisateurs ?',
-	),
+	],
 	'GROUP_CREATED'                => 'Le groupe d’utilisateurs a été créé.',
 	'GROUP_DEFAULT'                => 'Définir comme groupe d’utilisateurs par défaut pour les membres',
 	'GROUP_DEFS_UPDATED'           => 'Le groupe d’utilisateurs a été réglé comme groupe d’utilisateurs par défaut pour tous les membres sélectionnés.',

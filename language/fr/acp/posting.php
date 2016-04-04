@@ -77,7 +77,7 @@ $lang = array_merge($lang, [
 	'TOKEN_DEFINITION' => 'Qu’est-ce que c’est ?',
 	'TOO_MANY_BBCODES' => 'Vous ne pouvez pas créer d’autres BBCodes. Veuillez supprimer un ou plusieurs BBCodes et réessayer.',
 
-	'tokens' => array(
+	'tokens' => [
 		'TEXT'         => 'Du texte, comprenant les caractères étrangers, les chiffres, etc. Vous ne devriez pas utiliser cette chaîne de symboles dans les balises HTML. Essayez d’utiliser à la place IDENTIFIER, INTTEXT ou SIMPLETEXT.',
 		'SIMPLETEXT'   => 'Des caractères de l’alphabet latin (A-Z), des chiffres, des espaces, des virgules, des points, des tirets, des tirets bas et des signes plus et moins.',
 		'INTTEXT'      => 'Des lettres de caractères Unicode, des chiffres, des espaces, des virgules, des points, des tirets bas et des espaces insécables et des signes plus et moins.',
@@ -88,7 +88,7 @@ $lang = array_merge($lang, [
 		'LOCAL_URL'    => 'Une adresse universelle locale. L’adresse doit être relative à la page du sujet et ne doit pas contenir de nom de serveur ou de protocole, tels que des liens qui sont précédés de « %s »',
 		'RELATIVE_URL' => 'Une adresse universelle relative. Vous pouvez utiliser des résultats partiels d’une adresse universelle, mais soyez vigilant : une adresse universelle complète est une adresse universelle relative correcte. Lorsque vous souhaitez utiliser les adresses universelles relatives de votre forum, utilisez la variable LOCAL_URL.',
 		'COLOR'        => 'Une couleur HTML qui peut être dans une forme hexadécimale <samp>#FF1234</samp> ou un <a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">nom de couleur CSS</a> (en anglais), tel que <samp>fuchsia</samp> ou <samp>InactiveBorder</samp>.',
-	),
+	],
 ]);
 
 // Smilies and topic icons
@@ -122,19 +122,19 @@ $lang = array_merge($lang, [
 	'FIRST' => 'Premier',
 
 	'ICONS_ADD'   => 'Ajouter une nouvelle icône',
-	'ICONS_ADDED' => array(
+	'ICONS_ADDED' => [
 		0 => 'Aucune icône n’a été ajoutée.',
 		1 => 'L’icône a été ajoutée.',
 		2 => 'Les icônes ont été ajoutées.',
-	),
+	],
 	'ICONS_CONFIG'  => 'Configuration de l’icône',
 	'ICONS_DELETED' => 'L’icône a été supprimée.',
 	'ICONS_EDIT'    => 'Éditer l’icône',
-	'ICONS_EDITED'  => array(
+	'ICONS_EDITED'  => [
 		0 => 'Aucune icône n’a été mise à jour.',
 		1 => 'L’icône a été mise à jour.',
 		2 => 'Les icônes ont été mises à jour.',
-	),
+	],
 	'ICONS_HEIGHT'         => 'Hauteur de l’icône',
 	'ICONS_IMAGE'          => 'Image de l’icône',
 	'ICONS_IMPORTED'       => 'L’archive d’icônes a été installée.',
@@ -166,11 +166,11 @@ $lang = array_merge($lang, [
 
 	'SELECT_PACKAGE' => 'Sélectionner une archive',
 	'SMILIES_ADD'    => 'Ajouter une nouvelle émoticône',
-	'SMILIES_ADDED'  => array(
+	'SMILIES_ADDED'  => [
 		0 => 'Aucune émoticône n’a été ajoutée.',
 		1 => 'L’émoticône a été ajoutée.',
 		2 => 'Les émoticônes ont été ajoutées.',
-	),
+	],
 	'SMILIES_CODE'      => 'Code de l’émoticône',
 	'SMILIES_CONFIG'    => 'Configuration de l’émoticône',
 	'SMILIES_DELETED'   => 'L’émoticône a été supprimée.',
@@ -178,11 +178,11 @@ $lang = array_merge($lang, [
 	'SMILIE_NO_CODE'    => 'L’émoticône « %s » a été ignorée car aucun code n’a été spécifié.',
 	'SMILIE_NO_EMOTION' => 'L’émoticône « %s » a été ignorée car aucune émoticône n’a été spécifiée.',
 	'SMILIE_NO_FILE'    => 'L’émoticône « %s » a été ignorée car le fichier est manquant.',
-	'SMILIES_EDITED'    => array(
+	'SMILIES_EDITED'    => [
 		0 => 'Aucune émoticône n’a été mise à jour.',
 		1 => 'L’émoticône a été mise à jour.',
 		2 => 'Les émoticônes ont été mises à jour.',
-	),
+	],
 	'SMILIES_EMOTION'        => 'Émotion',
 	'SMILIES_HEIGHT'         => 'Hauteur de l’émoticône',
 	'SMILIES_IMAGE'          => 'Image de l’émoticône',
@@ -194,10 +194,10 @@ $lang = array_merge($lang, [
 	'SMILIES_URL'            => 'Image de l’émoticône',
 	'SMILIES_WIDTH'          => 'Largeur de l’émoticône',
 
-	'TOO_MANY_SMILIES' => array(
+	'TOO_MANY_SMILIES' => [
 		1 => 'La limite de %d émoticône a été atteinte.',
 		2 => 'La limite de %d émoticônes a été atteinte.',
-	),
+	],
 
 	'WRONG_PAK_TYPE' => 'L’archive ne contient pas les données appropriées.',
 ]);
