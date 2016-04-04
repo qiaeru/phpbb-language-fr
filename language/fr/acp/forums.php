@@ -21,7 +21,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -37,7 +37,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 // Forum Admin
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'AUTO_PRUNE_DAYS'                => 'Intervalle du délestage automatique des sujets inactifs',
 	'AUTO_PRUNE_DAYS_EXPLAIN'        => 'Le nombre de jours qui s’écouleront entre la dernière publication d’un message dans un sujet et la suppression du sujet.',
 	'AUTO_PRUNE_FREQ'                => 'Fréquence du délestage automatique',
@@ -162,4 +162,4 @@ $lang = array_merge($lang, array(
 	'TYPE_LINK'  => 'Lien',
 
 	'UNLOCKED' => 'Déverrouillé',
-));
+]);

@@ -21,7 +21,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -36,20 +36,20 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ALL_AVAILABLE' => 'Tous disponibles',
 	'ALL_RESULTS'   => 'Tous les résultats',
 
 	'DISPLAY_RESULTS' => 'Afficher les résultats sous forme de',
 
-	'FOUND_SEARCH_MATCHES' => array(
+	'FOUND_SEARCH_MATCHES' => [
 		1 => 'La recherche a retourné %d résultat',
 		2 => 'La recherche a retourné %d résultats',
-	),
-	'FOUND_MORE_SEARCH_MATCHES' => array(
+	],
+	'FOUND_MORE_SEARCH_MATCHES' => [
 		1 => 'La recherche a retourné plus de %d résultat',
 		2 => 'La recherche a retourné plus de %d résultats',
-	),
+	],
 
 	'GLOBAL' => 'Annonce générale',
 
@@ -62,20 +62,20 @@ $lang = array_merge($lang, array(
 	'LOGIN_EXPLAIN_UNREADSEARCH' => 'Vous devez vous inscrire et vous connecter afin de consulter vos messages non lus.',
 	'LOGIN_EXPLAIN_NEWPOSTS'     => 'Vous devez vous inscrire et vous connecter afin de consulter les nouveaux messages qui ont été publiés depuis votre dernière visite.',
 
-	'MAX_NUM_SEARCH_KEYWORDS_REFINE' => array(
+	'MAX_NUM_SEARCH_KEYWORDS_REFINE' => [
 		1 => 'Vous avez spécifié un trop grand nombre de mots à rechercher. Veuillez ne pas saisir plus de %1$d mot.',
 		2 => 'Vous avez spécifié un trop grand nombre de mots à rechercher. Veuillez ne pas saisir plus de %1$d mots.',
-	),
+	],
 
 	'NO_KEYWORDS'        => 'Vous devez saisir au moins un mot afin d’effectuer une recherche. Chaque mot doit être composé d’au moins %s caractères et ne doit pas en contenir plus de %s, en excluant les jokers.',
 	'NO_RECENT_SEARCHES' => 'Aucune recherche n’a été effectuée récemment.',
 	'NO_SEARCH'          => 'Vous ne pouvez pas effectuer de recherche.',
 	'NO_SEARCH_RESULTS'  => 'Aucun résultat ne correspond aux termes que vous avez spécifiés.',
 	'NO_SEARCH_LOAD'     => 'Vous ne pouvez pas effectuer de recherche pour le moment. Le serveur est en surcharge. Veuillez réessayer ultérieurement.',
-	'NO_SEARCH_TIME'     => array(
+	'NO_SEARCH_TIME'     => [
 		1 => 'Vous ne pouvez pas effectuer de recherche pour le moment. Veuillez réessayer dans %d seconde.',
 		2 => 'Vous ne pouvez pas effectuer de recherche pour le moment. Veuillez réessayer dans %d secondes.',
-	),
+	],
 	'NO_SEARCH_UNREADS' => 'Le système de recherche des messages non lus a été désactivé sur ce forum.',
 	'WORD_IN_NO_POST'   => 'Le mot <strong>%s</strong> n’est présent dans aucun message.',
 	'WORDS_IN_NO_POST'  => 'Les mots <strong>%s</strong> ne sont présents dans aucun message.',
@@ -117,8 +117,8 @@ $lang = array_merge($lang, array(
 	'SPHINX_SEARCH_FAILED'     => 'La recherche a échoué : %s',
 	'SPHINX_SEARCH_FAILED_LOG' => 'Impossible d’effectuer la recherche. Pour plus d’informations à propos de ce dysfonctionnement, veuillez consulter l’historique des erreurs.',
 
-	'TOO_FEW_AUTHOR_CHARS' => array(
+	'TOO_FEW_AUTHOR_CHARS' => [
 		1 => 'Vous devez saisir au moins %d caractère du nom des auteurs.',
 		2 => 'Vous devez saisir au moins %d caractères du nom des auteurs.',
-	),
-));
+	],
+]);

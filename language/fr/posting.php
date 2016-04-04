@@ -21,7 +21,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -36,7 +36,7 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ADD_ATTACHMENT'         => 'Insérer une pièce jointe',
 	'ADD_ATTACHMENT_EXPLAIN' => 'Si vous souhaitez insérer un ou plusieurs fichiers, veuillez compléter les informations demandées ci-dessous.',
 	'ADD_FILE'               => 'Ajouter le fichier',
@@ -72,14 +72,14 @@ $lang = array_merge($lang, array(
 	'CANNOT_POST_ANNOUNCE'    => 'Vous ne pouvez pas publier d’annonces.',
 	'CANNOT_POST_STICKY'      => 'Vous ne pouvez pas publier de notes.',
 	'CHANGE_TOPIC_TO'         => 'Type de sujet',
-	'CHARS_POST_CONTAINS'     => array(
+	'CHARS_POST_CONTAINS'     => [
 		1 => 'Votre message contient %1$d caractère.',
 		2 => 'Votre message contient %1$d caractères.',
-	),
-	'CHARS_SIG_CONTAINS' => array(
+	],
+	'CHARS_SIG_CONTAINS' => [
 		1 => 'Votre signature contient %1$d caractère.',
 		2 => 'Votre signature contient %1$d caractères.',
-	),
+	],
 	'CLOSE_TAGS'    => 'Fermer les balises',
 	'CURRENT_TOPIC' => 'Sujet actuel',
 
@@ -144,28 +144,28 @@ $lang = array_merge($lang, array(
 	'LOGIN_EXPLAIN_REPLY'  => 'Vous devez vous connecter afin de pouvoir répondre aux sujets de ce forum.',
 
 	'MAX_FONT_SIZE_EXCEEDED'    => 'Vous ne devez utiliser que les polices de caractères dont la taille est inférieure à %1$d.',
-	'MAX_FLASH_HEIGHT_EXCEEDED' => array(
+	'MAX_FLASH_HEIGHT_EXCEEDED' => [
 		1 => 'Vos fichiers Flash ne doivent pas dépasser %d pixel de haut.',
 		2 => 'Vos fichiers Flash ne doivent pas dépasser %d pixels de haut.',
-	),
-	'MAX_FLASH_WIDTH_EXCEEDED' => array(
+	],
+	'MAX_FLASH_WIDTH_EXCEEDED' => [
 		1 => 'Vos fichiers Flash ne doivent pas dépasser %d pixel de large.',
 		2 => 'Vos fichiers Flash ne doivent pas dépasser %d pixels de large.',
-	),
-	'MAX_IMG_HEIGHT_EXCEEDED' => array(
+	],
+	'MAX_IMG_HEIGHT_EXCEEDED' => [
 		1 => 'Vos images ne doivent pas dépasser %1$d pixel de haut.',
 		2 => 'Vos images ne doivent pas dépasser %1$d pixels de haut.',
-	),
-	'MAX_IMG_WIDTH_EXCEEDED' => array(
+	],
+	'MAX_IMG_WIDTH_EXCEEDED' => [
 		1 => 'Vos images ne doivent pas dépasser %d pixel de large.',
 		2 => 'Vos images ne doivent pas dépasser %d pixels de large.',
-	),
+	],
 
-	'MESSAGE_BODY_EXPLAIN' => array(
+	'MESSAGE_BODY_EXPLAIN' => [
 		0 => '', // zero means no limit, so we don't view a message here.
 		1 => 'Saisissez votre message ici. Il ne doit contenir que <strong>%d</strong> caractère au maximum.',
 		2 => 'Saisissez votre message ici. Il ne doit contenir que <strong>%d</strong> caractères au maximum.',
-	),
+	],
 	'MESSAGE_DELETED' => 'Le message a été supprimé.',
 	'MORE_SMILIES'    => 'Accéder à davantage d’émoticônes',
 
@@ -189,14 +189,14 @@ $lang = array_merge($lang, array(
 	'POLL_MAX_OPTIONS'         => 'Options par utilisateur',
 	'POLL_MAX_OPTIONS_EXPLAIN' => 'Cette valeur correspond au nombre d’options que les utilisateurs peuvent sélectionner lors de leur vote.',
 	'POLL_OPTIONS'             => 'Options du sondage',
-	'POLL_OPTIONS_EXPLAIN'     => array(
+	'POLL_OPTIONS_EXPLAIN'     => [
 		1 => 'Insérez chaque option sur une nouvelle ligne. Vous pouvez saisir <strong>%d</strong> option.',
 		2 => 'Insérez chaque option sur une nouvelle ligne. Vous pouvez saisir jusqu’à <strong>%d</strong> options.',
-	),
-	'POLL_OPTIONS_EDIT_EXPLAIN' => array(
+	],
+	'POLL_OPTIONS_EDIT_EXPLAIN' => [
 		1 => 'Insérez chaque option sur une nouvelle ligne. Vous pouvez saisir <strong>%d</strong> option. Si vous supprimez ou ajoutez une ou plusieurs options, tous les votes effectués seront réinitialisés.',
 		2 => 'Insérez chaque option sur une nouvelle ligne. Vous pouvez saisir jusqu’à <strong>%d</strong> options. Si vous supprimez ou ajoutez une ou plusieurs options, tous les votes effectués seront réinitialisés.',
-	),
+	],
 	'POLL_QUESTION'            => 'Question du sondage',
 	'POLL_TITLE_TOO_LONG'      => 'Le titre du sondage ne doit pas dépasser 100 caractères.',
 	'POLL_TITLE_COMP_TOO_LONG' => 'La taille du titre de votre sondage est trop importante. Sachez que les BBCodes ou les émoticônes se sont pas pris en compte et qu’ils devraient par conséquent être supprimés.',
@@ -221,10 +221,10 @@ $lang = array_merge($lang, array(
 	'POST_TOPIC_AS'            => 'Format du sujet',
 	'PROGRESS_BAR'             => 'Barre de progression',
 
-	'QUOTE_DEPTH_EXCEEDED' => array(
+	'QUOTE_DEPTH_EXCEEDED' => [
 		1 => 'Vous ne pouvez insérer que %d citation imbriquée.',
 		2 => 'Vous ne pouvez insérer que %d citations imbriquées.',
-	),
+	],
 	'QUOTE_NO_NESTING' => 'Vous ne pouvez pas insérer de citations imbriquées.',
 
 	'REMOTE_UPLOAD_TIMEOUT'      => 'Le fichier que vous avez spécifié n’a pu être transféré car la requête a expiré.',
@@ -241,17 +241,17 @@ $lang = array_merge($lang, array(
 	'STYLES_TIP'                 => 'Astuce : les mises en forme peuvent rapidement être appliquées en sélectionnant le texte.',
 
 	'TOO_FEW_CHARS'       => 'Votre message ne contient pas assez de caractères.',
-	'TOO_FEW_CHARS_LIMIT' => array(
+	'TOO_FEW_CHARS_LIMIT' => [
 		1 => 'Vous devez saisir au moins %1$d caractère.',
 		2 => 'Vous devez saisir au moins %1$d caractères.',
-	),
+	],
 	'TOO_FEW_POLL_OPTIONS' => 'Vous devez saisir au moins deux options afin de créer le sondage.',
 	'TOO_MANY_ATTACHMENTS' => 'Impossible de transférer une nouvelle pièce jointe, la limite maximale est de %d.',
 	'TOO_MANY_CHARS'       => 'Votre message contient trop de caractères.',
-	'TOO_MANY_CHARS_LIMIT' => array(
+	'TOO_MANY_CHARS_LIMIT' => [
 		1 => 'Le nombre maximal de caractères autorisés est de %1$d.',
 		2 => 'Le nombre maximal de caractères autorisés est de %1$d.',
-	),
+	],
 	'TOO_MANY_POLL_OPTIONS' => 'Vous avez essayé de voter pour un trop grand nombre d’options.',
 	'TOO_MANY_SMILIES'      => 'Votre message contient trop d’émoticônes. Le nombre maximal d’émoticônes autorisées est de %d.',
 	'TOO_MANY_URLS'         => 'Votre message contient trop de liens. Le nombre maximal de liens autorisés est de %d.',
@@ -278,4 +278,4 @@ $lang = array_merge($lang, array(
 
 	'WRONG_FILESIZE' => 'Le fichier est trop lourd, la taille maximale autorisée est de %1$d %2$s.',
 	'WRONG_SIZE'     => 'La taille de l’image doit mesurer moins de %1$s de large et %2$s de haut et plus de %3$s de large et %4$s de haut. Votre image mesure %5$s de large et %6$s de haut.',
-));
+]);

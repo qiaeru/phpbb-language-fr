@@ -19,7 +19,7 @@ if (!defined('IN_PHPBB'))
 	exit;
 }
 
-$synonyms = array(
+$synonyms = [
 	'à posteriori' => 'à postériori', // Or “a posteriori”
 	'abbattage'    => 'abattage',
 	'abbréviation' => 'abréviation',
@@ -484,4 +484,4 @@ $synonyms = array(
 	'waggon' => 'wagon',
 	'Web'    => 'internet',
 	'www'    => 'internet',
-);
+];

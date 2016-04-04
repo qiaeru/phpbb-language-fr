@@ -21,7 +21,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -37,7 +37,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 // Board Settings
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACP_BOARD_SETTINGS_EXPLAIN'   => 'Vous pouvez effectuer sur cette page les opérations basiques de votre forum, comme lui attribuer un nom et une description, régler son fuseau horaire ou encore définir sa langue par défaut.',
 	'BOARD_INDEX_TEXT'             => 'Texte de l’index du forum',
 	'BOARD_INDEX_TEXT_EXPLAIN'     => 'Ce texte sera affiché comme accueil du forum dans le chemin de navigation du forum. Si aucun texte n’est spécifié, « Accueil du forum » sera affiché par défaut.',
@@ -66,10 +66,10 @@ $lang = array_merge($lang, array(
 	'SYSTEM_TIMEZONE_EXPLAIN'      => 'Ce fuseau horaire ne concerne que les utilisateurs qui ne sont pas connectés, tels que les invités et les robots. Les utilisateurs connectés peuvent régler leur fuseau horaire lors de leur inscription ou depuis le panneau de contrôle de l’utilisateur.',
 	'WARNINGS_EXPIRE'              => 'Durée des avertissements',
 	'WARNINGS_EXPIRE_EXPLAIN'      => 'Le nombre de jours qui s’écoulera avant qu’un avertissement n’expire automatiquement. Réglez cette valeur sur 0 afin de ne pas limiter les avertissements dans le temps.',
-));
+]);
 
 // Board Features
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACP_BOARD_FEATURES_EXPLAIN' => 'Vous pouvez activer ou désactiver sur cette page les diverses fonctionnalités du forum.',
 
 	'ALLOW_ATTACHMENTS'         => 'Activer les pièces jointes',
@@ -100,10 +100,10 @@ $lang = array_merge($lang, array(
 	'BOARD_PM'                  => 'Activer la messagerie privée',
 	'BOARD_PM_EXPLAIN'          => 'Les utilisateurs pourront utiliser la messagerie privée.',
 	'ALLOW_BOARD_NOTIFICATIONS' => 'Autoriser les notifications du forum',
-));
+]);
 
 // Avatar Settings
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACP_AVATAR_SETTINGS_EXPLAIN' => 'Les avatars sont généralement de petites images uniques qu’un utilisateur peut associer à sa personnalité. Selon le style utilisé, ils sont habituellement affichés sous le nom d’utilisateur lors de la consultation de sujets. Vous pouvez déterminer sur cette page quels avatars pourront être utilisés par les utilisateurs de votre forum. Veuillez noter que pour transférer des avatars, vous devez avoir préalablement créé le répertoire que vous indiquerez ci-dessous et vous assurer qu’il soit inscriptible par le serveur internet. Veuillez également noter que les limitations de taille ne sont imposées qu’aux avatars transférés mais s’appliquent pas aux images distantes.',
 
 	'ALLOW_AVATARS'               => 'Activer les avatars',
@@ -125,10 +125,10 @@ $lang = array_merge($lang, array(
 	'MAX_FILESIZE_EXPLAIN'        => 'Cette limitation ne concerne que les avatars qui seront transférés sur le serveur par les utilisateurs de votre forum. Si cette valeur est réglée sur 0, la taille ne sera limitée que par votre configuration de PHP.',
 	'MIN_AVATAR_SIZE'             => 'Dimensions minimales des avatars',
 	'MIN_AVATAR_SIZE_EXPLAIN'     => 'La largeur sur la hauteur, en nombre de pixels.',
-));
+]);
 
 // Message Settings
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACP_MESSAGE_SETTINGS_EXPLAIN' => 'Vous pouvez effectuer sur cette page tous les réglages relatifs aux messages privés.',
 
 	'ALLOW_BBCODE_PM'            => 'Autoriser l’utilisation du BBCode dans les messages privés',
@@ -154,10 +154,10 @@ $lang = array_merge($lang, array(
 	'PM_EDIT_TIME_EXPLAIN'       => 'Limite la durée d’édition des messages privés qui n’ont pas encore été consultés par leurs destinataires. Réglez cette valeur sur 0 afin de ne pas limiter cette durée.',
 	'PM_MAX_RECIPIENTS'          => 'Nombre maximal de destinataires par message privé',
 	'PM_MAX_RECIPIENTS_EXPLAIN'  => 'Le nombre maximal de destinataires autorisés par message privé. Réglez cette valeur sur 0 afin de ne pas limiter ce nombre. Vous pouvez imposer un nombre différent à chaque groupe d’utilisateurs depuis les réglages relatifs aux groupes.',
-));
+]);
 
 // Post Settings
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACP_POST_SETTINGS_EXPLAIN' => 'Vous pouvez effectuer sur cette page tous les réglages relatifs à la publication.',
 	'ALLOW_POST_LINKS'          => 'Autoriser l’insertion de liens dans les messages et les messages privés',
 	'ALLOW_POST_LINKS_EXPLAIN'  => 'Si vous n’autorisez pas cette fonctionnalité, l’utilisation de la balise BBCode <code>[URL]</code> et la transformation automatique de texte sous forme de lien sera désactivée.',
@@ -197,10 +197,10 @@ $lang = array_merge($lang, array(
 	'SMILIES_LIMIT_EXPLAIN'       => 'Le nombre maximal d’émoticônes que les utilisateurs peuvent insérer dans un message et dans un message privé. Réglez cette valeur sur 0 afin de ne pas limiter ce nombre.',
 	'SMILIES_PER_PAGE'            => 'Nombre d’émoticônes par page',
 	'TOPICS_PER_PAGE'             => 'Nombre de sujets par page',
-));
+]);
 
 // Signature Settings
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACP_SIGNATURE_SETTINGS_EXPLAIN' => 'Vous pouvez effectuer sur cette page tous les réglages relatifs aux signatures.',
 
 	'MAX_SIG_FONT_SIZE'          => 'Taille maximale de la police de caractères dans les signatures',
@@ -215,10 +215,10 @@ $lang = array_merge($lang, array(
 	'MAX_SIG_SMILIES_EXPLAIN'    => 'Le nombre maximal d’émoticônes que les utilisateurs pourront insérer dans leur signature. Réglez cette valeur sur 0 afin de ne pas limiter ce nombre.',
 	'MAX_SIG_URLS'               => 'Nombre maximal de liens dans les signatures',
 	'MAX_SIG_URLS_EXPLAIN'       => 'Le nombre maximal de liens que les utilisateurs pourront insérer dans leur signature. Réglez cette valeur sur 0 afin de ne pas limiter ce nombre.',
-));
+]);
 
 // Registration Settings
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACP_REGISTER_SETTINGS_EXPLAIN' => 'Vous pouvez effectuer sur cette page tous les réglages relatifs aux inscriptions et aux profils des utilisateurs.',
 
 	'ACC_ACTIVATION'                   => 'Méthode d’activation des comptes',
@@ -259,10 +259,10 @@ $lang = array_merge($lang, array(
 	'USERNAME_CHARS_EXPLAIN'      => 'Le contenu des noms d’utilisateurs. Les séparateurs comprennent les espaces, les tirets bas, les crochets et les signes plus et moins.',
 	'USERNAME_LENGTH'             => 'Longueur des noms d’utilisateurs',
 	'USERNAME_LENGTH_EXPLAIN'     => 'Le nombre de caractères minimaux et maximaux qui doivent être saisis dans les noms d’utilisateurs.',
-));
+]);
 
 // Feeds
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACP_FEED_MANAGEMENT'         => 'Réglages généraux des flux de syndication',
 	'ACP_FEED_MANAGEMENT_EXPLAIN' => 'Ce module met à disponibilité de multiples flux ATOM en décomposant les balises BBCodes contenues dans les messages afin de les rendre lisibles dans les flux externes.',
 
@@ -299,10 +299,10 @@ $lang = array_merge($lang, array(
 	'ACP_FEED_ITEM_STATISTICS_EXPLAIN' => 'Les statistiques individuelles sont affichées sous les articles du flux. Exemples de statistiques : auteur de la publication, date et heure de la publication, nombre de réponses, nombre de vues, etc.',
 	'ACP_FEED_EXCLUDE_ID'              => 'Ignorer ces forums',
 	'ACP_FEED_EXCLUDE_ID_EXPLAIN'      => 'Le contenu de ces forums ne sera <strong>pas affiché dans les flux</strong>. Si vous souhaitez extraire les données de tous les forums, ne sélectionnez aucun forum. Vous pouvez sélectionner ou désélectionner plusieurs forums en maintenant appuyé la touche <samp>CTRL</samp> du clavier de votre ordinateur et en cliquant.',
-));
+]);
 
 // Visual Confirmation Settings
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACP_VC_SETTINGS_EXPLAIN'             => 'Vous pouvez sélectionner et configurer sur cette page tous les modules d’extension qui permettent de lutter contre l’envoi de formulaires par des robots indésirables. Ces modules d’extension fonctionnent en général en demandant aux utilisateur de résoudre un <em>CAPTCHA</em>, qui est un outil permettant de différencier les humains aux robots.',
 	'ACP_VC_EXT_GET_MORE'                 => 'Vous pouvez obtenir des modules d’extension anti-spam supplémentaires (et probablement plus efficaces) en visitant la <a href="https://www.phpbb.com/go/anti-spam-ext"><strong>base de données des extensions de phpBB.com</strong></a> (en anglais). Pour plus d’informations concernant la prévention du spam sur votre forum, veuillez visiter la <a href="https://www.phpbb.com/go/anti-spam"><strong>base de connaissances de phpBB.com</strong></a> (en anglais).',
 	'AVAILABLE_CAPTCHAS'                  => 'Modules d’extension disponibles',
@@ -342,10 +342,10 @@ $lang = array_merge($lang, array(
 	'VISUAL_CONFIRM_REG_EXPLAIN'     => 'Les utilisateurs devront compléter des mesures de lutte contre les robots indésirables lors de leur inscription afin d’empêcher les inscriptions automatisées.',
 	'VISUAL_CONFIRM_REFRESH'         => 'Autoriser les utilisateurs à rafraîchir les mesures de lutte contre les robots indésirables',
 	'VISUAL_CONFIRM_REFRESH_EXPLAIN' => 'Les utilisateurs pourront demander une nouvelle mesure de lutte contre les robots indésirables s’ils sont incapables de déchiffrer la mesure actuelle. Certains modules d’extension peuvent ne pas supporter cette fonctionnalité.',
-));
+]);
 
 // Cookie Settings
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACP_COOKIE_SETTINGS_EXPLAIN' => 'Les informations de cette page permettent de définir les données qui seront utilisées afin d’envoyer des cookies au navigateur internet de vos utilisateurs. Dans la plupart des cas, les valeurs par défaut sont suffisantes. Si vous avez besoin de modifier ces dernières, faites-le avec précaution, des réglages incorrects peuvent empêcher les utilisateurs à se connecter correctement à votre forum.',
 
 	'COOKIE_DOMAIN'          => 'Domaine du cookie',
@@ -357,10 +357,10 @@ $lang = array_merge($lang, array(
 	'ONLINE_LENGTH_EXPLAIN'  => 'Le nombre de minutes qui s’écouleront avant que les utilisateurs inactifs n’apparaissent plus dans la liste des utilisateurs en ligne. Plus la valeur est élevée, plus le temps de génération de la liste sera long.',
 	'SESSION_LENGTH'         => 'Durée des sessions',
 	'SESSION_LENGTH_EXPLAIN' => 'Le nombre de secondes qui s’écouleront avant que les sessions expirent.',
-));
+]);
 
 // Contact Settings
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACP_CONTACT_SETTINGS_EXPLAIN' => 'Vous pouvez activer, modifier et désactiver sur cette page la page de contact.',
 
 	'CONTACT_US_ENABLE'         => 'Activer la page de contact',
@@ -370,10 +370,10 @@ $lang = array_merge($lang, array(
 	'CONTACT_US_INFO_EXPLAIN' => 'Le message est affiché sur la page de contact',
 	'CONTACT_US_INFO_PREVIEW' => 'Informations de la page de contact - Prévisualisation',
 	'CONTACT_US_INFO_UPDATED' => 'Les informations de la page de contact ont été mises à jour.',
-));
+]);
 
 // Load Settings
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACP_LOAD_SETTINGS_EXPLAIN' => 'Vous pouvez activer et désactiver sur cette page certaines fonctionnalités du forum qui pourront réduire la quantité de processus actifs. Sur la plupart des serveurs, il n’est pas nécessaire de désactiver ces fonctionnalités. Cependant, sur certains systèmes d’exploitation ou offres d’hébergement mutualisé, il est préférable de désactiver certaines fonctionnalités dont vous n’avez pas réellement besoin. Vous pouvez également limiter certains réglages relatifs à la charge du système et aux sessions actives qui désactiveront automatiquement votre forum si les valeurs sont dépassées.',
 
 	'ALLOW_CDN'                             => 'Autoriser l’utilisation de contenu hébergé sur des serveurs externes',
@@ -412,10 +412,10 @@ $lang = array_merge($lang, array(
 	'YES_READ_MARKING'                      => 'Activer l’indicateur de lecture par le serveur',
 	'YES_READ_MARKING_EXPLAIN'              => 'Les sujets seront marqués comme lus ou non lus dans la base de données de votre serveur au lieu de stocker cette information dans un cookie.',
 	'YES_UNREAD_SEARCH'                     => 'Activer la recherche des messages non lus',
-));
+]);
 
 // Auth settings
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACP_AUTH_SETTINGS_EXPLAIN' => 'Les modules d’extension d’authentification vous permettent de déterminer la manière dont les utilisateurs s’authentifient lors de leur connexion au forum. Quatre modules sont fournis par défaut : la base de données (DB), LDAP, Apache et OAuth. Toutes les méthodes d’authentification ne nécessitent pas forcément d’informations complémentaires, ne remplissez que les champs utiles à la méthode sélectionnée.',
 
 	'AUTH_METHOD' => 'Sélectionner une méthode d’authentification',
@@ -448,10 +448,10 @@ $lang = array_merge($lang, array(
 	'LDAP_USER_EXPLAIN'            => 'Si vous souhaitez utiliser une connexion anonyme, ne remplissez pas ce champ. Dans le cas contraire, si cela a été renseigné dans phpBB, vous pouvez utiliser le nom absolu que vous avez spécifié lors de vos tentatives de connexion pour retrouver l’utilisateur correct, tel que <samp>uid=Nom,ou=MonUnité,o=MaCompagnie,c=FR</samp>. Cette information est obligatoire pour les serveurs aux répertoires dits actifs.',
 	'LDAP_USER_FILTER'             => 'Filtre de l’utilisateur LDAP',
 	'LDAP_USER_FILTER_EXPLAIN'     => 'Si vous le souhaitez, vous pouvez limiter les objets recherchés grâce à des filtres additionnels. Par exemple, <samp>objectClass=posixGroup</samp> sera utilisé en tant que <samp>(&(uid=$username)(objectClass=posixGroup))</samp>',
-));
+]);
 
 // Server Settings
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACP_SERVER_SETTINGS_EXPLAIN' => 'Vous pouvez effectuer sur cette page les réglages relatifs au serveur et au domaine. Veuillez vous assurer de la validité des données présentes ci-dessous car vos courriels pourraient contenir des informations erronées si des données invalides étaient présentes. Lorsque vous saisissez le nom de domaine, n’oubliez pas d’inclure son protocole, tel que http://. Ne modifiez le port que si votre serveur fonctionne sous un port différent dont vous avez connaissance, mais sachez néanmoins que le port 80 est correct dans la plupart des cas.',
 
 	'ENABLE_GZIP'                         => 'Activer la compression GZip',
@@ -482,10 +482,10 @@ $lang = array_merge($lang, array(
 	'UPLOAD_ICONS_PATH_EXPLAIN'           => 'Le chemin relatif à la racine du répertoire de votre forum, tel que <samp>images/upload_icons</samp>.',
 	'USE_SYSTEM_CRON'                     => 'Exécuter les tâches périodiques à partir du service cron',
 	'USE_SYSTEM_CRON_EXPLAIN'             => 'Si cette option est désactivée, phpBB s’assurera que les tâches périodiques soient exécutées automatiquement. Si cette option est activée, phpBB ne planifiera aucune tâche périodique de lui-même. Un administrateur système devra alors s’assurer de faire exécuter <code>bin/phpbbcli.php cron:run</code> à des intervalles réguliers (toutes les 5 minutes par exemple) par le programme cron.',
-));
+]);
 
 // Security Settings
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACP_SECURITY_SETTINGS_EXPLAIN' => 'Vous pouvez effectuer sur cette page tous les réglages relatifs aux sessions et aux connexions.',
 
 	'ALL'                                  => 'Tout',
@@ -537,10 +537,10 @@ $lang = array_merge($lang, array(
 	'TPL_ALLOW_PHP_EXPLAIN'                => 'Si cette option est activée, les instructions <code>PHP</code> et <code>INCLUDEPHP</code> seront reconnues et analysées dans les modèles.',
 	'UPLOAD_CERT_VALID'                    => 'Valider les certificats transférés',
 	'UPLOAD_CERT_VALID_EXPLAIN'            => 'Si cette option est activée, les certificats des transferts à distance seront validés. Le paquet de l’autorité de certification devra être défini en configurant <samp>openssl.cafile</samp> ou <samp>curl.cainfo</samp> dans le fichier php.ini.',
-));
+]);
 
 // Email Settings
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACP_EMAIL_SETTINGS_EXPLAIN' => 'Ces informations sont utilisées lors de l’envoi de courriels à vos utilisateurs. Veuillez vous assurer que l’adresse de courriel spécifiée est correcte car les messages refusés ou échoués seront probablement retournés à cette adresse. Si votre hébergeur ne fournit aucun service d’envoi de courriels en PHP par défaut, vous pouvez envoyer directement des messages en utilisant le protocole SMTP. Cela demande l’adresse d’un serveur approprié (si besoin, demandez cette information à votre hébergeur internet). Si le serveur exige une authentification (et seulement dans ce cas), saisissez le nom d’utilisateur, le mot de passe et la méthode d’authentification nécessaire.',
 
 	'ADMIN_EMAIL'                 => 'Adresse de courriel de retour',
@@ -581,10 +581,10 @@ $lang = array_merge($lang, array(
 	'TEST_EMAIL_SENT'             => 'Le courriel de test a été envoyé.<br />Si vous ne le recevez pas, veuillez vérifier votre configuration des courriels.<br /><br />Si vous avez besoin d’aide, veuillez vous rendre sur <a href="https://www.phpbb.com/community/">les forums de support de phpBB</a> (en anglais).',
 	'USE_SMTP'                    => 'Envoyer les courriels par un serveur SMTP',
 	'USE_SMTP_EXPLAIN'            => 'Activez cette option si vous souhaitez envoyer les courriels par un serveur SMTP au lieu d’utiliser la fonction locale de la messagerie électronique.',
-));
+]);
 
 // Jabber settings
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACP_JABBER_SETTINGS_EXPLAIN' => 'Vous pouvez activer et contrôler sur cette page l’utilisation de Jabber afin d’envoyer des messages instantanés et des notifications sur le forum. Jabber est un protocole libre et gratuit utilisable par tous. Certains serveurs Jabber incluent des passerelles qui vous permettent de contacter les utilisateurs d’autres réseaux, mais tous les serveurs n’offrent pas cette possibilité. Veuillez vous assurer d’avoir saisi les informations du compte que vous avez inscrit, ces informations seront utilisées telles quelles.',
 
 	'JAB_ENABLE'               => 'Activer Jabber',
@@ -603,4 +603,4 @@ $lang = array_merge($lang, array(
 	'JAB_USE_SSL_EXPLAIN'      => 'Si cette option est activée, une connexion sécurisée essaiera d’être établie. Le port de Jabber sera modifié en 5223 si le port 5222 est utilisé.',
 	'JAB_USERNAME'             => 'Nom d’utilisateur Jabber ou JID',
 	'JAB_USERNAME_EXPLAIN'     => 'Saisissez un nom d’utilisateur inscrit ou un JID correct. La validité de ce nom d’utilisateur ne sera cependant pas vérifiée. Si vous ne saisissez qu’un nom d’utilisateur, votre JID correspondra à votre nom d’utilisateur et au serveur que vous avez spécifié ci-dessous. Dans le cas contraire, veuillez saisir un JID correct, tel que utilisateur@jabber.org.',
-));
+]);

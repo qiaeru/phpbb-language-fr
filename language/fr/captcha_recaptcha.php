@@ -21,7 +21,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -36,7 +36,7 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'RECAPTCHA_LANG'          => 'fr',
 	'RECAPTCHA_NOT_AVAILABLE' => 'Vous devez créer un compte sur <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a> (en anglais) avant de pouvoir utiliser reCAPTCHA.',
 	'CAPTCHA_RECAPTCHA'       => 'reCAPTCHA',
@@ -49,4 +49,4 @@ $lang = array_merge($lang, array(
 	'RECAPTCHA_PRIVATE_EXPLAIN' => 'Votre clé privée reCAPTCHA. Les clés peuvent être obtenues sur <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a> (en anglais).',
 
 	'RECAPTCHA_EXPLAIN' => 'Veuillez compléter la vérification suivante afin de nous permettre de lutter contre les publications automatisées indésirables.',
-));
+]);

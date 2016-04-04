@@ -21,7 +21,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -45,7 +45,7 @@ if (empty($lang) || !is_array($lang))
 // The respective language strings should be added into a language file, that
 // start with 'permissions_', so they are automatically loaded within the ACP.
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACL_CAT_ACTIONS'       => 'Opérations',
 	'ACL_CAT_CONTENT'       => 'Contenu',
 	'ACL_CAT_FORUMS'        => 'Forums',
@@ -60,10 +60,10 @@ $lang = array_merge($lang, array(
 	'ACL_CAT_SETTINGS'      => 'Réglages',
 	'ACL_CAT_TOPIC_ACTIONS' => 'Opérations des sujets',
 	'ACL_CAT_USER_GROUP'    => 'Utilisateurs et groupes',
-));
+]);
 
 // User Permissions
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACL_U_VIEWPROFILE'    => 'Peut consulter les profils, la liste des membres et la liste des utilisateurs en ligne',
 	'ACL_U_CHGNAME'        => 'Peut modifier son nom d’utilisateur',
 	'ACL_U_CHGPASSWD'      => 'Peut modifier son mot de passe',
@@ -100,10 +100,10 @@ $lang = array_merge($lang, array(
 	'ACL_U_HIDEONLINE'  => 'Peut masquer son statut en ligne',
 	'ACL_U_VIEWONLINE'  => 'Peut voir les utilisateurs invisibles en ligne',
 	'ACL_U_SEARCH'      => 'Peut rechercher sur le forum',
-));
+]);
 
 // Forum Permissions
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACL_F_LIST'      => 'Peut voir le forum',
 	'ACL_F_READ'      => 'Peut consulter les messages du forum',
 	'ACL_F_SEARCH'    => 'Peut effectuer des recherches sur le forum',
@@ -138,10 +138,10 @@ $lang = array_merge($lang, array(
 	'ACL_F_POLL'    => 'Peut créer des sondages',
 	'ACL_F_VOTE'    => 'Peut voter aux sondages',
 	'ACL_F_VOTECHG' => 'Peut modifier ses votes',
-));
+]);
 
 // Moderator Permissions
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACL_M_EDIT'       => 'Peut éditer les messages',
 	'ACL_M_DELETE'     => 'Peut supprimer définitivement les messages',
 	'ACL_M_SOFTDELETE' => 'Peut supprimer les messages<br /><em>Les modérateurs qui ont la permission d’approuver des messages pourront restaurer les messages supprimés.</em>',
@@ -158,10 +158,10 @@ $lang = array_merge($lang, array(
 	'ACL_M_WARN'      => 'Peut distribuer des avertissements<br /><em>Ce réglage n’est assigné que généralement.</em>', // This moderator setting is only global (and not local)
 	'ACL_M_PM_REPORT' => 'Peut fermer et supprimer les rapports de messages privés<br /><em>Ce réglage n’est assigné que généralement.</em>', // This moderator setting is only global (and not local)
 	'ACL_M_BAN'       => 'Peut gérer les bannissements<br /><em>Ce réglage n’est assigné que généralement.</em>', // This moderator setting is only global (and not local)
-));
+]);
 
 // Admin Permissions
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACL_A_BOARD'   => 'Peut modifier les réglages du forum et rechercher les mises à jour',
 	'ACL_A_SERVER'  => 'Peut modifier les réglages du serveur et de la communication',
 	'ACL_A_JABBER'  => 'Peut modifier les réglages de Jabber',
@@ -208,4 +208,4 @@ $lang = array_merge($lang, array(
 	'ACL_A_REASONS'    => 'Peut gérer les rapports et les raisons',
 	'ACL_A_BACKUP'     => 'Peut sauvegarder et restaurer la base de données',
 	'ACL_A_SEARCH'     => 'Peut gérer l’indexation et les réglages de la recherche',
-));
+]);

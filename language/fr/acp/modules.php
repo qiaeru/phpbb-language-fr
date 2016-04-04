@@ -21,7 +21,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -36,7 +36,7 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACP_MODULE_MANAGEMENT_EXPLAIN' => 'Vous pouvez gérer sur cette page toutes sortes de modules. Veuillez noter que le panneau de contrôle d’administration est divisé en structure à trois niveaux de menu (Catégorie -> Catégorie -> Module) alors que les autres panneaux de contrôle ne sont divisés qu’en structure à deux niveaux de menu (Catégorie -> Module). Cette structure doit être conservée. Veuillez noter également que vous pouvez vous bloquer si vous désactivez ou supprimez les modules responsables de la gestion des modules.',
 	'ADD_MODULE'                    => 'Ajouter un module',
 	'ADD_MODULE_CONFIRM'            => 'Êtes-vous sûr de vouloir ajouter ce module ?',
@@ -80,4 +80,4 @@ $lang = array_merge($lang, array(
 	'PARENT_NO_EXIST' => 'Le parent n’existe pas.',
 
 	'SELECT_MODULE' => 'Sélectionner un module',
-));
+]);

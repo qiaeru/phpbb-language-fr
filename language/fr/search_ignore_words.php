@@ -19,7 +19,7 @@ if (!defined('IN_PHPBB'))
 	exit;
 }
 
-$words = array(
+$words = [
 	'a',
 	'à',
 	'âge',
@@ -521,4 +521,4 @@ $words = array(
 	'vues',
 	'vus',
 	'www',
-);
+];
