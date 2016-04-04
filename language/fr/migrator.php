@@ -73,4 +73,4 @@ $lang = array_merge($lang, [
 	'PERMISSION_NOT_EXIST' => 'Le réglage de permission « %s » est introuvable.',
 
 	'ROLE_NOT_EXIST' => 'Le rôle de permission « %s » est introuvable.',
-));
+]);

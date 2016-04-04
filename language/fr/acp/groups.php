@@ -154,4 +154,4 @@ $lang = array_merge($lang, [
 	'USER_GROUP_DEFAULT'         => 'Définir comme groupe par défaut',
 	'USER_GROUP_DEFAULT_EXPLAIN' => 'Si cette option est activée, ce groupe d’utilisateurs sera considéré comme le groupe d’utilisateurs par défaut de tous les utilisateurs.',
 	'USER_GROUP_LEADER'          => 'Promouvoir en responsable du groupe',
-));
+]);

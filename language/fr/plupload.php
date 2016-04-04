@@ -76,4 +76,4 @@ $lang = array_merge($lang, [
 	// Note: This string is formatted independently by plupload and so does not
 	// use the same formatting rules as normal phpBB translation strings
 	'PLUPLOAD_UPLOADED' => '%d/%d fichier(s) transféré(s)',
-));
+]);

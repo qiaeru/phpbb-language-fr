@@ -170,4 +170,4 @@ $lang = array_merge($lang, [
 	'UPLOAD_DIR_EXPLAIN'  => 'Le répertoire de stockage des pièces jointes. Veuillez noter que si vous modifiez ce répertoire, vous devrez transférer manuellement toutes les pièces jointes existantes vers ce nouvel emplacement.',
 	'UPLOAD_ICON'         => 'Icône de transfert',
 	'UPLOAD_NOT_DIR'      => 'Le répertoire de transfert que vous avez spécifié est incorrect.',
-));
+]);

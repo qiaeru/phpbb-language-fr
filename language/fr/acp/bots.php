@@ -69,4 +69,4 @@ $lang = array_merge($lang, [
 
 	'NO_BOT'       => 'Aucun robot correspondant à l’identification spécifiée n’a été trouvé.',
 	'NO_BOT_GROUP' => 'Le groupe d’utilisateurs des robots est introuvable.',
-));
+]);

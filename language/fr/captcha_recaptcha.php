@@ -49,4 +49,4 @@ $lang = array_merge($lang, [
 	'RECAPTCHA_PRIVATE_EXPLAIN' => 'Votre clé privée reCAPTCHA. Les clés peuvent être obtenues sur <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a> (en anglais).',
 
 	'RECAPTCHA_EXPLAIN' => 'Veuillez compléter la vérification suivante afin de nous permettre de lutter contre les publications automatisées indésirables.',
-));
+]);

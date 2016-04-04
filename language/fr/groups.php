@@ -92,4 +92,4 @@ $lang = array_merge($lang, [
 	'USER_GROUP_DEMOTE'         => 'Abandonner la fonction de responsable',
 	'USER_GROUP_DEMOTE_CONFIRM' => 'Êtes-vous sûr de vouloir abandonner votre fonction de responsable de ce groupe ?',
 	'USER_GROUP_DEMOTED'        => 'Vous n’êtes à présent plus responsable de ce groupe.',
-));
+]);

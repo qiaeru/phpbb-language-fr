@@ -328,14 +328,14 @@ $lang = array_merge($lang, [
 	'USER_CONTROL_PANEL' => 'Panneau de contrôle de l’utilisateur',
 
 	'WARNING' => 'Avertissement',
-));
+]);
 
 // PHP info
 $lang = array_merge($lang, [
 	'ACP_PHP_INFO_EXPLAIN' => 'Vous pouvez consulter sur cette page les informations sur la version de PHP qui est installée sur votre serveur. Cela comprend l’ensemble des informations sur les modules chargés, les variables disponibles et les réglages par défaut. Ces informations peuvent être utiles afin de diagnostiquer les problèmes présents sur votre serveur. Veuillez noter que certains hébergeurs peuvent limiter l’affichage de ces informations pour des raisons de sécurité. Il est déconseillé de divulguer les informations disponibles sur cette page, sauf si elles sont demandées par un des <a href="https://www.phpbb.com/about/team/">membres de l’équipe officielle</a> (en anglais) sur les forums de support.',
 
 	'NO_PHPINFO_AVAILABLE' => 'Impossible d’afficher les informations concernant votre configuration de PHP. La fonction phpinfo() a été désactivée pour des raisons de sécurité.',
-));
+]);
 
 // Logs
 $lang = array_merge($lang, [
@@ -352,7 +352,7 @@ $lang = array_merge($lang, [
 	'SORT_IP'     => 'Adresse IP',
 	'SORT_DATE'   => 'Date',
 	'SORT_ACTION' => 'Opération',
-));
+]);
 
 // Index page
 $lang = array_merge($lang, [
@@ -447,7 +447,7 @@ $lang = array_merge($lang, [
 
 	'WELCOME_PHPBB'   => 'Bienvenue sur phpBB',
 	'WRITABLE_CONFIG' => 'Votre fichier de configuration (config.php) est actuellement inscriptible par tout le monde. Nous vous encourageons fortement à modifier vos permissions en 640 (<a href="http://fr.wikipedia.org/wiki/Chmod" rel="external">chmod</a> 640 config.php) ou, le cas échéant, en 644.',
-));
+]);
 
 // Inactive Users
 $lang = array_merge($lang, [
@@ -472,7 +472,7 @@ $lang = array_merge($lang, [
 	'SORT_REMINDER'      => 'Rappel envoyé',
 
 	'USER_IS_INACTIVE' => 'L’utilisateur est inactif',
-));
+]);
 
 // Send statistics page
 $lang = array_merge($lang, [
@@ -484,7 +484,7 @@ $lang = array_merge($lang, [
 	'SEND_STATISTICS'         => 'Envoyer les informations statistiques',
 	'SHOW_STATISTICS'         => 'Afficher les informations',
 	'THANKS_SEND_STATISTICS'  => 'Nous vous remercions d’avoir eu l’amabilité d’envoyer vos informations.',
-));
+]);
 
 // Log Entries
 $lang = array_merge($lang, [
@@ -816,4 +816,4 @@ $lang = array_merge($lang, [
 	'LOG_EXT_ENABLE'  => '<strong>Activation d’une extension</strong><br />» %s',
 	'LOG_EXT_DISABLE' => '<strong>Désactivation d’une extension</strong><br />» %s',
 	'LOG_EXT_PURGE'   => '<strong>Suppression des données d’une extension</strong><br />» %s',
-));
+]);

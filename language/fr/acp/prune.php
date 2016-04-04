@@ -66,7 +66,7 @@ $lang = array_merge($lang, [
 	'USER_PRUNE_FAILURE'      => 'Aucun utilisateur ne correspond au critère sélectionné.',
 
 	'WRONG_ACTIVE_JOINED_DATE' => 'La date que vous avez spécifiée est incorrecte, elle doit obligatoirement respecter le format <kbd>AAAA-MM-JJ</kbd>',
-));
+]);
 
 // Forum Pruning
 $lang = array_merge($lang, [
@@ -92,4 +92,4 @@ $lang = array_merge($lang, [
 	'PRUNE_SUCCESS'                => 'Les forums ont été délestés.',
 
 	'TOPICS_PRUNED' => 'Sujets délestés',
-));
+]);

@@ -431,4 +431,4 @@ $lang = array_merge($lang, [
 			'OTHER'     => 'Le message rapporté ne correspond à aucune catégorie. Veuillez utiliser le champ d’information complémentaire.',
 		),
 	),
-));
+]);

@@ -69,4 +69,4 @@ $lang = array_merge($lang, [
 		1 => '%d sujet',
 		2 => '%d sujets',
 	),
-));
+]);

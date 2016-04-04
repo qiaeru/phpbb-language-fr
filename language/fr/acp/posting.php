@@ -89,7 +89,7 @@ $lang = array_merge($lang, [
 		'RELATIVE_URL' => 'Une adresse universelle relative. Vous pouvez utiliser des résultats partiels d’une adresse universelle, mais soyez vigilant : une adresse universelle complète est une adresse universelle relative correcte. Lorsque vous souhaitez utiliser les adresses universelles relatives de votre forum, utilisez la variable LOCAL_URL.',
 		'COLOR'        => 'Une couleur HTML qui peut être dans une forme hexadécimale <samp>#FF1234</samp> ou un <a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">nom de couleur CSS</a> (en anglais), tel que <samp>fuchsia</samp> ou <samp>InactiveBorder</samp>.',
 	),
-));
+]);
 
 // Smilies and topic icons
 $lang = array_merge($lang, [
@@ -200,7 +200,7 @@ $lang = array_merge($lang, [
 	),
 
 	'WRONG_PAK_TYPE' => 'L’archive ne contient pas les données appropriées.',
-));
+]);
 
 // Word censors
 $lang = array_merge($lang, [
@@ -220,7 +220,7 @@ $lang = array_merge($lang, [
 	'WORD_ADDED'   => 'La censure de mot a été ajoutée.',
 	'WORD_REMOVED' => 'La censure de mot a été supprimée.',
 	'WORD_UPDATED' => 'La censure de mot a été mise à jour.',
-));
+]);
 
 // Ranks
 $lang = array_merge($lang, [
@@ -242,7 +242,7 @@ $lang = array_merge($lang, [
 	'RANK_SPECIAL'       => 'Définir comme rang spécial',
 	'RANK_TITLE'         => 'Titre du rang',
 	'RANK_UPDATED'       => 'Le rang a été mis à jour.',
-));
+]);
 
 // Disallow Usernames
 $lang = array_merge($lang, [
@@ -258,7 +258,7 @@ $lang = array_merge($lang, [
 
 	'NO_DISALLOWED'         => 'Vous n’avez interdit aucun nom d’utilisateur',
 	'NO_USERNAME_SPECIFIED' => 'Impossible d’effectuer cette opération car vous n’avez sélectionné aucun nom d’utilisateur.',
-));
+]);
 
 // Reasons
 $lang = array_merge($lang, [
@@ -288,4 +288,4 @@ $lang = array_merge($lang, [
 	'REASON_UPDATED'          => 'La raison a été mise à jour.',
 
 	'USED_IN_REPORTS' => 'Nombre d’utilisation',
-));
+]);

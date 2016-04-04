@@ -121,4 +121,4 @@ $lang = array_merge($lang, [
 		1 => 'Vous devez saisir au moins %d caractère du nom des auteurs.',
 		2 => 'Vous devez saisir au moins %d caractères du nom des auteurs.',
 	),
-));
+]);

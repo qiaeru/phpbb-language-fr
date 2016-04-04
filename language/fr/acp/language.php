@@ -75,4 +75,4 @@ $lang = array_merge($lang, [
 	'UNINSTALLED_LANGUAGE_PACKS' => 'Traductions non installées',
 
 	'BROWSE_LANGUAGE_PACKS_DATABASE' => 'Accéder à la base de données des traductions',
-));
+]);

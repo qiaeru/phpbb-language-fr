@@ -73,4 +73,4 @@ $lang = array_merge($lang, [
 
 	'TABLE_SELECT'       => 'Sélection de table',
 	'TABLE_SELECT_ERROR' => 'Vous devez sélectionner au moins une table.',
-));
+]);

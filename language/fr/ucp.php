@@ -655,4 +655,4 @@ $lang = array_merge($lang, [
 	'NO_MEMBER'    => 'Aucun membre du groupe',
 	'NO_PENDING'   => 'Aucun membre en attente',
 	'NO_NONMEMBER' => 'Aucun non-membre du groupe',
-));
+]);

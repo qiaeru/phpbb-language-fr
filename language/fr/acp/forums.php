@@ -162,4 +162,4 @@ $lang = array_merge($lang, [
 	'TYPE_LINK'  => 'Lien',
 
 	'UNLOCKED' => 'Déverrouillé',
-));
+]);

@@ -183,4 +183,4 @@ $lang = array_merge($lang, [
 	'HELP_FAQ_USERSETTINGS_SERVERTIME_QUESTION'      => 'J’ai réglé le fuseau horaire mais l’heure n’est toujours pas correcte !',
 	'HELP_FAQ_USERSETTINGS_TIMEZONE_ANSWER'          => 'Il est possible que l’heure affichée soit réglée sur un fuseau horaire différent du vôtre. Si tel était le cas, rendez-vous dans le panneau de contrôle de l’utilisateur et réglez le fuseau horaire afin de trouver votre zone adéquate, par exemple Londres, Paris, New York, Sydney, etc. Veuillez noter que le réglage du fuseau horaire, comme la plupart des autres réglages, n’est accessible qu’aux utilisateurs inscrits. Si vous n’êtes pas inscrit, c’est l’occasion idéale de le faire.',
 	'HELP_FAQ_USERSETTINGS_TIMEZONE_QUESTION'        => 'L’heure n’est pas correcte !',
-));
+]);

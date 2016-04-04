@@ -85,4 +85,4 @@ $lang = array_merge($lang, [
 	'UNINSTALL_DEFAULT' => 'Vous ne pouvez pas désinstaller le style par défaut.',
 
 	'BROWSE_STYLES_DATABASE' => 'Accéder à la base de données des styles',
-));
+]);

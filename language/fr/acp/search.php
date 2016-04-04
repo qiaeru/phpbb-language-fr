@@ -138,4 +138,4 @@ $lang = array_merge($lang, [
 	'YES_SEARCH_EXPLAIN'        => 'Les utilisateurs pourront effectuer des recherches sur votre forum, dont la recherche de membres.',
 	'YES_SEARCH_UPDATE'         => 'Activer la mise à jour plein texte',
 	'YES_SEARCH_UPDATE_EXPLAIN' => 'Les index plein texte seront mis à jour au moment des publications. Ce réglage ne sera pas pris en compte si la recherche n’est pas activée.',
-));
+]);

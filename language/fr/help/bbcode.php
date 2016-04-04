@@ -63,4 +63,4 @@ $lang = array_merge($lang, [
 	'HELP_BBCODE_TEXT_COLOR_QUESTION'   => 'Comment puis-je modifier la taille ou la couleur du texte ?',
 	'HELP_BBCODE_TEXT_COMBINE_ANSWER'   => 'Bien sûr ! Par exemple, pour obtenir l’attention de tout le monde, vous pouvez écrire :<br /><br /><strong>[size=200][color=red][b]</strong>REGARDEZ-MOI !<strong>[/b][/color][/size]</strong><br /><br />Ce qui deviendra : <span style="color:red;font-size:200%;"><strong>REGARDEZ-MOI !</strong></span><br /><br />Cependant, nous vous déconseillons fortement d’utiliser fréquemment ce genre de mise en forme ! Gardez à l’esprit qu’il faut simplement fermer les balises correctement et dans le bon ordre. Par exemple, ce qui suit est incorrect :<br /><br /><strong>[b][u]</strong>Ceci est incorrect<strong>[/b][/u]</strong>',
 	'HELP_BBCODE_TEXT_COMBINE_QUESTION' => 'Puis-je combiner des balises de mise en forme ?',
-));
+]);

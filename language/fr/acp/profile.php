@@ -173,4 +173,4 @@ $lang = array_merge($lang, [
 	'USER_FIELD_NAME' => 'Nom ou titre du champ affiché aux utilisateurs',
 
 	'VISIBILITY_OPTION' => 'Options de visibilité',
-));
+]);

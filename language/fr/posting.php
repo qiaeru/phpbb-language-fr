@@ -278,4 +278,4 @@ $lang = array_merge($lang, [
 
 	'WRONG_FILESIZE' => 'Le fichier est trop lourd, la taille maximale autorisée est de %1$d %2$s.',
 	'WRONG_SIZE'     => 'La taille de l’image doit mesurer moins de %1$s de large et %2$s de haut et plus de %3$s de large et %4$s de haut. Votre image mesure %5$s de large et %6$s de haut.',
-));
+]);

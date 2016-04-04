@@ -66,7 +66,7 @@ $lang = array_merge($lang, [
 	'SYSTEM_TIMEZONE_EXPLAIN'      => 'Ce fuseau horaire ne concerne que les utilisateurs qui ne sont pas connectés, tels que les invités et les robots. Les utilisateurs connectés peuvent régler leur fuseau horaire lors de leur inscription ou depuis le panneau de contrôle de l’utilisateur.',
 	'WARNINGS_EXPIRE'              => 'Durée des avertissements',
 	'WARNINGS_EXPIRE_EXPLAIN'      => 'Le nombre de jours qui s’écoulera avant qu’un avertissement n’expire automatiquement. Réglez cette valeur sur 0 afin de ne pas limiter les avertissements dans le temps.',
-));
+]);
 
 // Board Features
 $lang = array_merge($lang, [
@@ -100,7 +100,7 @@ $lang = array_merge($lang, [
 	'BOARD_PM'                  => 'Activer la messagerie privée',
 	'BOARD_PM_EXPLAIN'          => 'Les utilisateurs pourront utiliser la messagerie privée.',
 	'ALLOW_BOARD_NOTIFICATIONS' => 'Autoriser les notifications du forum',
-));
+]);
 
 // Avatar Settings
 $lang = array_merge($lang, [
@@ -125,7 +125,7 @@ $lang = array_merge($lang, [
 	'MAX_FILESIZE_EXPLAIN'        => 'Cette limitation ne concerne que les avatars qui seront transférés sur le serveur par les utilisateurs de votre forum. Si cette valeur est réglée sur 0, la taille ne sera limitée que par votre configuration de PHP.',
 	'MIN_AVATAR_SIZE'             => 'Dimensions minimales des avatars',
 	'MIN_AVATAR_SIZE_EXPLAIN'     => 'La largeur sur la hauteur, en nombre de pixels.',
-));
+]);
 
 // Message Settings
 $lang = array_merge($lang, [
@@ -154,7 +154,7 @@ $lang = array_merge($lang, [
 	'PM_EDIT_TIME_EXPLAIN'       => 'Limite la durée d’édition des messages privés qui n’ont pas encore été consultés par leurs destinataires. Réglez cette valeur sur 0 afin de ne pas limiter cette durée.',
 	'PM_MAX_RECIPIENTS'          => 'Nombre maximal de destinataires par message privé',
 	'PM_MAX_RECIPIENTS_EXPLAIN'  => 'Le nombre maximal de destinataires autorisés par message privé. Réglez cette valeur sur 0 afin de ne pas limiter ce nombre. Vous pouvez imposer un nombre différent à chaque groupe d’utilisateurs depuis les réglages relatifs aux groupes.',
-));
+]);
 
 // Post Settings
 $lang = array_merge($lang, [
@@ -197,7 +197,7 @@ $lang = array_merge($lang, [
 	'SMILIES_LIMIT_EXPLAIN'       => 'Le nombre maximal d’émoticônes que les utilisateurs peuvent insérer dans un message et dans un message privé. Réglez cette valeur sur 0 afin de ne pas limiter ce nombre.',
 	'SMILIES_PER_PAGE'            => 'Nombre d’émoticônes par page',
 	'TOPICS_PER_PAGE'             => 'Nombre de sujets par page',
-));
+]);
 
 // Signature Settings
 $lang = array_merge($lang, [
@@ -215,7 +215,7 @@ $lang = array_merge($lang, [
 	'MAX_SIG_SMILIES_EXPLAIN'    => 'Le nombre maximal d’émoticônes que les utilisateurs pourront insérer dans leur signature. Réglez cette valeur sur 0 afin de ne pas limiter ce nombre.',
 	'MAX_SIG_URLS'               => 'Nombre maximal de liens dans les signatures',
 	'MAX_SIG_URLS_EXPLAIN'       => 'Le nombre maximal de liens que les utilisateurs pourront insérer dans leur signature. Réglez cette valeur sur 0 afin de ne pas limiter ce nombre.',
-));
+]);
 
 // Registration Settings
 $lang = array_merge($lang, [
@@ -259,7 +259,7 @@ $lang = array_merge($lang, [
 	'USERNAME_CHARS_EXPLAIN'      => 'Le contenu des noms d’utilisateurs. Les séparateurs comprennent les espaces, les tirets bas, les crochets et les signes plus et moins.',
 	'USERNAME_LENGTH'             => 'Longueur des noms d’utilisateurs',
 	'USERNAME_LENGTH_EXPLAIN'     => 'Le nombre de caractères minimaux et maximaux qui doivent être saisis dans les noms d’utilisateurs.',
-));
+]);
 
 // Feeds
 $lang = array_merge($lang, [
@@ -299,7 +299,7 @@ $lang = array_merge($lang, [
 	'ACP_FEED_ITEM_STATISTICS_EXPLAIN' => 'Les statistiques individuelles sont affichées sous les articles du flux. Exemples de statistiques : auteur de la publication, date et heure de la publication, nombre de réponses, nombre de vues, etc.',
 	'ACP_FEED_EXCLUDE_ID'              => 'Ignorer ces forums',
 	'ACP_FEED_EXCLUDE_ID_EXPLAIN'      => 'Le contenu de ces forums ne sera <strong>pas affiché dans les flux</strong>. Si vous souhaitez extraire les données de tous les forums, ne sélectionnez aucun forum. Vous pouvez sélectionner ou désélectionner plusieurs forums en maintenant appuyé la touche <samp>CTRL</samp> du clavier de votre ordinateur et en cliquant.',
-));
+]);
 
 // Visual Confirmation Settings
 $lang = array_merge($lang, [
@@ -342,7 +342,7 @@ $lang = array_merge($lang, [
 	'VISUAL_CONFIRM_REG_EXPLAIN'     => 'Les utilisateurs devront compléter des mesures de lutte contre les robots indésirables lors de leur inscription afin d’empêcher les inscriptions automatisées.',
 	'VISUAL_CONFIRM_REFRESH'         => 'Autoriser les utilisateurs à rafraîchir les mesures de lutte contre les robots indésirables',
 	'VISUAL_CONFIRM_REFRESH_EXPLAIN' => 'Les utilisateurs pourront demander une nouvelle mesure de lutte contre les robots indésirables s’ils sont incapables de déchiffrer la mesure actuelle. Certains modules d’extension peuvent ne pas supporter cette fonctionnalité.',
-));
+]);
 
 // Cookie Settings
 $lang = array_merge($lang, [
@@ -357,7 +357,7 @@ $lang = array_merge($lang, [
 	'ONLINE_LENGTH_EXPLAIN'  => 'Le nombre de minutes qui s’écouleront avant que les utilisateurs inactifs n’apparaissent plus dans la liste des utilisateurs en ligne. Plus la valeur est élevée, plus le temps de génération de la liste sera long.',
 	'SESSION_LENGTH'         => 'Durée des sessions',
 	'SESSION_LENGTH_EXPLAIN' => 'Le nombre de secondes qui s’écouleront avant que les sessions expirent.',
-));
+]);
 
 // Contact Settings
 $lang = array_merge($lang, [
@@ -370,7 +370,7 @@ $lang = array_merge($lang, [
 	'CONTACT_US_INFO_EXPLAIN' => 'Le message est affiché sur la page de contact',
 	'CONTACT_US_INFO_PREVIEW' => 'Informations de la page de contact - Prévisualisation',
 	'CONTACT_US_INFO_UPDATED' => 'Les informations de la page de contact ont été mises à jour.',
-));
+]);
 
 // Load Settings
 $lang = array_merge($lang, [
@@ -412,7 +412,7 @@ $lang = array_merge($lang, [
 	'YES_READ_MARKING'                      => 'Activer l’indicateur de lecture par le serveur',
 	'YES_READ_MARKING_EXPLAIN'              => 'Les sujets seront marqués comme lus ou non lus dans la base de données de votre serveur au lieu de stocker cette information dans un cookie.',
 	'YES_UNREAD_SEARCH'                     => 'Activer la recherche des messages non lus',
-));
+]);
 
 // Auth settings
 $lang = array_merge($lang, [
@@ -448,7 +448,7 @@ $lang = array_merge($lang, [
 	'LDAP_USER_EXPLAIN'            => 'Si vous souhaitez utiliser une connexion anonyme, ne remplissez pas ce champ. Dans le cas contraire, si cela a été renseigné dans phpBB, vous pouvez utiliser le nom absolu que vous avez spécifié lors de vos tentatives de connexion pour retrouver l’utilisateur correct, tel que <samp>uid=Nom,ou=MonUnité,o=MaCompagnie,c=FR</samp>. Cette information est obligatoire pour les serveurs aux répertoires dits actifs.',
 	'LDAP_USER_FILTER'             => 'Filtre de l’utilisateur LDAP',
 	'LDAP_USER_FILTER_EXPLAIN'     => 'Si vous le souhaitez, vous pouvez limiter les objets recherchés grâce à des filtres additionnels. Par exemple, <samp>objectClass=posixGroup</samp> sera utilisé en tant que <samp>(&(uid=$username)(objectClass=posixGroup))</samp>',
-));
+]);
 
 // Server Settings
 $lang = array_merge($lang, [
@@ -482,7 +482,7 @@ $lang = array_merge($lang, [
 	'UPLOAD_ICONS_PATH_EXPLAIN'           => 'Le chemin relatif à la racine du répertoire de votre forum, tel que <samp>images/upload_icons</samp>.',
 	'USE_SYSTEM_CRON'                     => 'Exécuter les tâches périodiques à partir du service cron',
 	'USE_SYSTEM_CRON_EXPLAIN'             => 'Si cette option est désactivée, phpBB s’assurera que les tâches périodiques soient exécutées automatiquement. Si cette option est activée, phpBB ne planifiera aucune tâche périodique de lui-même. Un administrateur système devra alors s’assurer de faire exécuter <code>bin/phpbbcli.php cron:run</code> à des intervalles réguliers (toutes les 5 minutes par exemple) par le programme cron.',
-));
+]);
 
 // Security Settings
 $lang = array_merge($lang, [
@@ -537,7 +537,7 @@ $lang = array_merge($lang, [
 	'TPL_ALLOW_PHP_EXPLAIN'                => 'Si cette option est activée, les instructions <code>PHP</code> et <code>INCLUDEPHP</code> seront reconnues et analysées dans les modèles.',
 	'UPLOAD_CERT_VALID'                    => 'Valider les certificats transférés',
 	'UPLOAD_CERT_VALID_EXPLAIN'            => 'Si cette option est activée, les certificats des transferts à distance seront validés. Le paquet de l’autorité de certification devra être défini en configurant <samp>openssl.cafile</samp> ou <samp>curl.cainfo</samp> dans le fichier php.ini.',
-));
+]);
 
 // Email Settings
 $lang = array_merge($lang, [
@@ -581,7 +581,7 @@ $lang = array_merge($lang, [
 	'TEST_EMAIL_SENT'             => 'Le courriel de test a été envoyé.<br />Si vous ne le recevez pas, veuillez vérifier votre configuration des courriels.<br /><br />Si vous avez besoin d’aide, veuillez vous rendre sur <a href="https://www.phpbb.com/community/">les forums de support de phpBB</a> (en anglais).',
 	'USE_SMTP'                    => 'Envoyer les courriels par un serveur SMTP',
 	'USE_SMTP_EXPLAIN'            => 'Activez cette option si vous souhaitez envoyer les courriels par un serveur SMTP au lieu d’utiliser la fonction locale de la messagerie électronique.',
-));
+]);
 
 // Jabber settings
 $lang = array_merge($lang, [
@@ -603,4 +603,4 @@ $lang = array_merge($lang, [
 	'JAB_USE_SSL_EXPLAIN'      => 'Si cette option est activée, une connexion sécurisée essaiera d’être établie. Le port de Jabber sera modifié en 5223 si le port 5222 est utilisé.',
 	'JAB_USERNAME'             => 'Nom d’utilisateur Jabber ou JID',
 	'JAB_USERNAME_EXPLAIN'     => 'Saisissez un nom d’utilisateur inscrit ou un JID correct. La validité de ce nom d’utilisateur ne sera cependant pas vérifiée. Si vous ne saisissez qu’un nom d’utilisateur, votre JID correspondra à votre nom d’utilisateur et au serveur que vous avez spécifié ci-dessous. Dans le cas contraire, veuillez saisir un JID correct, tel que utilisateur@jabber.org.',
-));
+]);

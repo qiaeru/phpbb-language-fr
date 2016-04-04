@@ -80,4 +80,4 @@ $lang = array_merge($lang, [
 	'PARENT_NO_EXIST' => 'Le parent n’existe pas.',
 
 	'SELECT_MODULE' => 'Sélectionner un module',
-));
+]);

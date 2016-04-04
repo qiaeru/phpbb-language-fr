@@ -140,4 +140,4 @@ $lang = array_merge($lang, [
 	'USER_SIG_UPDATED'             => 'La signature de l’utilisateur a été mise à jour.',
 	'USER_WARNING_LOG_DELETED'     => 'Aucune information n’est disponible. Il est possible que l’historique d’entrée ait été supprimé.',
 	'USER_TOOLS'                   => 'Outils basiques',
-));
+]);

@@ -85,7 +85,7 @@ $lang = array_merge($lang, [
 
 	'INSTALL_PHPBB_INSTALLED'     => 'phpBB est déjà installé.',
 	'INSTALL_PHPBB_NOT_INSTALLED' => 'phpBB n’est pas encore installé.',
-));
+]);
 
 // Requirements translation
 $lang = array_merge($lang, [
@@ -115,7 +115,7 @@ $lang = array_merge($lang, [
 	'RETEST_REQUIREMENTS' => 'Revérifier les prérequis',
 
 	'STAGE_REQUIREMENTS' => 'Vérifier les prérequis',
-));
+]);
 
 // General error messages
 $lang = array_merge($lang, [
@@ -123,7 +123,7 @@ $lang = array_merge($lang, [
 
 	'TIMEOUT_DETECTED_TITLE'   => 'L’installateur a cessé de fonctionner',
 	'TIMEOUT_DETECTED_MESSAGE' => 'L’installateur a cessé de fonctionner. Vous pouvez essayer d’actualiser la page, mais cela pourrait corrompre les données. Nous vous suggérons plutôt d’augmenter le délai de temps de dépassement ou d’utiliser l’interface en ligne de commande.',
-));
+]);
 
 // Data obtaining translations
 $lang = array_merge($lang, [
@@ -216,7 +216,7 @@ $lang = array_merge($lang, [
 	'SERVER_CONFIG'       => 'Configuration du serveur',
 	'SCRIPT_PATH'         => 'Chemin du forum',
 	'SCRIPT_PATH_EXPLAIN' => 'Le chemin menant à votre forum par rapport au nom de domaine, tel que <samp>/phpBB3</samp>.',
-));
+]);
 
 // Default database schema entries...
 $lang = array_merge($lang, [
@@ -262,7 +262,7 @@ $lang = array_merge($lang, [
 	'SMILIES_WINK'         => 'Clin d’œil',
 
 	'TOPICS_TOPIC_TITLE' => 'Bienvenue sur phpBB 3.2',
-));
+]);
 
 // Common navigation items' translation
 $lang = array_merge($lang, [
@@ -270,7 +270,7 @@ $lang = array_merge($lang, [
 	'MENU_INTRO'    => 'Introduction',
 	'MENU_LICENSE'  => 'Licence',
 	'MENU_SUPPORT'  => 'Support',
-));
+]);
 
 // Task names
 $lang = array_merge($lang, [
@@ -295,7 +295,7 @@ $lang = array_merge($lang, [
 
 	// Installer general progress messages
 	'INSTALLER_FINISHED' => 'Le programme d’installation a terminé ses opérations',
-));
+]);
 
 // Installer's general messages
 $lang = array_merge($lang, [
@@ -312,7 +312,7 @@ $lang = array_merge($lang, [
 	'TASK_CLASS_NOT_FOUND'           => 'La définition du service de tâche du programme d’installation n’est pas valide. Le nom de service « %1$s » a été spécifié alors que l’espace de nom de classe attendue est « %2$s ». Pour plus d’informations, veuillez consulter la documentation sur task_interface.',
 
 	'INSTALLER_CONFIG_NOT_WRITABLE' => 'Le fichier de configuration du programme d’installation ne peut pas être écrit.',
-));
+]);
 
 // CLI messages
 $lang = array_merge($lang, [
@@ -325,7 +325,7 @@ $lang = array_merge($lang, [
 	'MISSING_DATA'                => 'Le fichier de configuration ne contient pas toutes les données ou celles-ci sont invalides.',
 	'INVALID_YAML_FILE'           => 'Impossible d’analyser le fichier YAML %1$s',
 	'CONFIGURATION_VALID'         => 'Le fichier de configuration est valide',
-));
+]);
 
 // Common updater messages
 $lang = array_merge($lang, [
@@ -348,7 +348,7 @@ $lang = array_merge($lang, [
 		Vous serez alors guidé par le processus de mise à jour, qui vous informera lorsque la mise à jour sera finalisée.
 		</p>
 	',
-));
+]);
 
 // Updater forms
 $lang = array_merge($lang, [
@@ -371,7 +371,7 @@ $lang = array_merge($lang, [
 
 	// FTP settings
 	'FTP_SETTINGS' => 'Réglages FTP',
-));
+]);
 
 // Requirements messages
 $lang = array_merge($lang, [
@@ -380,7 +380,7 @@ $lang = array_merge($lang, [
 	'NO_UPDATE_FILES_UP_TO_DATE' => 'Votre version est à jour. Il n’est pas nécessaire d’exécuter cet outil de mise à jour. Si vous souhaitez vérifier intégralement tous vos fichiers, veuillez vous assurer d’avoir transféré les fichiers de mise à jour nécessaires.',
 	'OLD_UPDATE_FILES'           => 'Les fichiers de mise à jour sont obsolètes. Les fichiers de mise à jour trouvés sont pour la mise à jour de phpBB %1$s à phpBB %2$s alors que la dernière version de phpBB est la %3$s.',
 	'INCOMPATIBLE_UPDATE_FILES'  => 'Les fichiers de mise à jour trouvés sont incompatibles avec la version actuellement installée. La version actuellement installée est la %1$s alors que le fichier de mise à jour est pour la mise à jour de phpBB %2$s à %3$s.',
-));
+]);
 
 // Update files
 $lang = array_merge($lang, [
@@ -431,14 +431,14 @@ $lang = array_merge($lang, [
 
 	'UPDATE_CONTINUE_UPDATE_PROCESS' => 'Continuer le processus de mise à jour',
 	'UPDATE_RECHECK_UPDATE_FILES'    => 'Vérifier à nouveau les fichier',
-));
+]);
 
 // Update database
 $lang = array_merge($lang, [
 	'STAGE_UPDATE_DATABASE' => 'Mettre à jour la base de données',
 
 	'INLINE_UPDATE_SUCCESSFUL' => 'La mise à jour de la base de données a été effectuée.',
-));
+]);
 
 // Converter
 $lang = array_merge($lang, [
@@ -547,4 +547,4 @@ $lang = array_merge($lang, [
 	'CONV_SAVED_MESSAGES'            => 'Messages sauvegardés',
 
 	'PRE_CONVERT_COMPLETE' => 'Toutes les étapes de préconversion sont terminées. Vous pouvez à présent commencer le processus de conversion actuel. Veuillez notez que vous pourrez être amené à saisir et à effectuer manuellement quelques opérations. Après la conversion, vérifiez en particulier les permissions assignées, reconstruisez votre index de recherche qui ne sera pas converti et assurez-vous que les fichiers ont été correctement copiés, comme par exemple les avatars et les émoticônes.',
-));
+]);

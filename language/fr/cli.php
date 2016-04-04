@@ -144,7 +144,7 @@ $lang = array_merge($lang, [
 		1 => 'Renettoyage terminé. %d nom d’utilisateur a été nettoyé.',
 		2 => 'Renettoyage terminé. %d noms d’utilisateurs ont été nettoyés.',
 	],
-));
+]);
 
 // Additional help for commands.
 $lang = array_merge($lang, [
@@ -155,4 +155,4 @@ Si vous souhaitez envoyer un courriel d’activation à l’utilisateur, veuille
 Si cette commande est exécutée sans option, vous serez invité à les saisir.
 Si vous souhaitez envoyer un courriel au nouvel utilisateur, veuillez utiliser l’option <info>--send-email</info>.',
 	'CLI_HELP_USER_RECLEAN'  => 'Renettoyer les noms d’utilisateurs vous permet de vérifier tous les noms d’utilisateurs en s’assurant que les versions propres soient également stockées. Les noms d’utilisateurs propres ne sont pas sensibles à la casse, sont normalisés avec NFC et sont transformés en ASCII.',
-));
+]);

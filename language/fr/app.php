@@ -41,4 +41,4 @@ $lang = array_merge($lang, [
 	'CONTROLLER_NOT_SPECIFIED'          => 'Aucun contrôleur n’a été spécifié.',
 	'CONTROLLER_METHOD_NOT_SPECIFIED'   => 'Aucune méthode de contrôleur n’a été spécifiée.',
 	'CONTROLLER_SERVICE_UNDEFINED'      => 'Le service du contrôleur « <strong>%s</strong> » n’est pas défini dans ./config/services.yml.',
-));
+]);

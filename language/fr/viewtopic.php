@@ -122,4 +122,4 @@ $lang = array_merge($lang, [
 	'VIEW_UNREAD_POST' => 'Premier message non lu',
 	'VOTE_SUBMITTED'   => 'Votre vote a bien été comptabilisé.',
 	'VOTE_CONVERTED'   => 'Impossible de modifier les votes d’un sondage qui a été converti.',
-));
+]);

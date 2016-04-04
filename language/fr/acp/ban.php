@@ -81,4 +81,4 @@ $lang = array_merge($lang, [
 	'USER_NO_BANNED'           => 'Aucun nom d’utilisateur n’a été banni.',
 	'USER_UNBAN'               => 'Débannir ou ne plus exclure des utilisateurs par leur nom d’utilisateurs',
 	'USER_UNBAN_EXPLAIN'       => 'Vous pouvez débannir (ou ne plus exclure) plusieurs utilisateurs en une seule fois en utilisant la combinaison appropriée de la souris et du clavier de votre ordinateur et de votre navigateur. Les utilisateurs exclus apparaissent soulignés.',
-));
+]);

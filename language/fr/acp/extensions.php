@@ -131,4 +131,4 @@ $lang = array_merge($lang, [
 
 	'META_FIELD_NOT_SET' => 'Le méta-champ %s est obligatoire et doit être réglé.',
 	'META_FIELD_INVALID' => 'Le méta-champ %s est invalide.',
-));
+]);

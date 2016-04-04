@@ -60,7 +60,7 @@ $lang = array_merge($lang, [
 	'ACL_CAT_SETTINGS'      => 'Réglages',
 	'ACL_CAT_TOPIC_ACTIONS' => 'Opérations des sujets',
 	'ACL_CAT_USER_GROUP'    => 'Utilisateurs et groupes',
-));
+]);
 
 // User Permissions
 $lang = array_merge($lang, [
@@ -100,7 +100,7 @@ $lang = array_merge($lang, [
 	'ACL_U_HIDEONLINE'  => 'Peut masquer son statut en ligne',
 	'ACL_U_VIEWONLINE'  => 'Peut voir les utilisateurs invisibles en ligne',
 	'ACL_U_SEARCH'      => 'Peut rechercher sur le forum',
-));
+]);
 
 // Forum Permissions
 $lang = array_merge($lang, [
@@ -138,7 +138,7 @@ $lang = array_merge($lang, [
 	'ACL_F_POLL'    => 'Peut créer des sondages',
 	'ACL_F_VOTE'    => 'Peut voter aux sondages',
 	'ACL_F_VOTECHG' => 'Peut modifier ses votes',
-));
+]);
 
 // Moderator Permissions
 $lang = array_merge($lang, [
@@ -158,7 +158,7 @@ $lang = array_merge($lang, [
 	'ACL_M_WARN'      => 'Peut distribuer des avertissements<br /><em>Ce réglage n’est assigné que généralement.</em>', // This moderator setting is only global (and not local)
 	'ACL_M_PM_REPORT' => 'Peut fermer et supprimer les rapports de messages privés<br /><em>Ce réglage n’est assigné que généralement.</em>', // This moderator setting is only global (and not local)
 	'ACL_M_BAN'       => 'Peut gérer les bannissements<br /><em>Ce réglage n’est assigné que généralement.</em>', // This moderator setting is only global (and not local)
-));
+]);
 
 // Admin Permissions
 $lang = array_merge($lang, [
@@ -208,4 +208,4 @@ $lang = array_merge($lang, [
 	'ACL_A_REASONS'    => 'Peut gérer les rapports et les raisons',
 	'ACL_A_BACKUP'     => 'Peut sauvegarder et restaurer la base de données',
 	'ACL_A_SEARCH'     => 'Peut gérer l’indexation et les réglages de la recherche',
-));
+]);

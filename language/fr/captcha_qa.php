@@ -61,4 +61,4 @@ $lang = array_merge($lang, [
 
 	'QA_ERROR_MSG'     => 'Veuillez compléter tous les champs et saisir au moins une réponse.',
 	'QA_LAST_QUESTION' => 'Vous ne pouvez pas supprimer toutes les questions lorsque le module d’extension est actif.',
-));
+]);
