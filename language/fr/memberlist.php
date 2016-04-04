@@ -92,10 +92,10 @@ $lang = array_merge($lang, [
 
 	'LAST_ACTIVE' => 'Dernière visite',
 	'LESS_THAN'   => 'Moins que',
-	'LIST_USERS'  => array(
+	'LIST_USERS'  => [
 		1 => '%d utilisateur',
 		2 => '%d utilisateurs',
-	),
+	],
 	'LOGIN_EXPLAIN_TEAM'        => 'Vous devez vous inscrire et vous connecter afin de pouvoir consulter la liste des membres de l’équipe.',
 	'LOGIN_EXPLAIN_MEMBERLIST'  => 'Vous devez vous inscrire et vous connecter afin de pouvoir consulter la liste des membres.',
 	'LOGIN_EXPLAIN_SEARCHUSER'  => 'Vous devez vous inscrire et vous connecter afin de pouvoir rechercher des utilisateurs.',
@@ -136,11 +136,11 @@ $lang = array_merge($lang, [
 	'USER_ADMIN'           => 'Administrer l’utilisateur',
 	'USER_BAN'             => 'Bannissement',
 	'USER_FORUM'           => 'Statistiques de l’utilisateur',
-	'USER_LAST_REMINDED'   => array(
+	'USER_LAST_REMINDED'   => [
 		0 => 'Aucun rappel n’a été envoyé pour le moment',
 		1 => '%1$d rappel a été envoyé<br />» %2$s',
 		2 => '%1$d rappels ont été envoyés<br />» %2$s',
-	),
+	],
 	'USER_ONLINE'    => 'En ligne',
 	'USER_PRESENCE'  => 'Présence sur le forum',
 	'USERS_PER_PAGE' => 'Utilisateurs par page',

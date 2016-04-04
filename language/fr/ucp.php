@@ -197,14 +197,14 @@ $lang = array_merge($lang, [
 	'EXPORT_FOLDER'       => 'Exporter la boîte',
 
 	'FIELD_REQUIRED'  => 'Le champ « %s » doit être complété.',
-	'FIELD_TOO_SHORT' => array(
+	'FIELD_TOO_SHORT' => [
 		1 => 'Le champ « %2$s » est trop court, vous devez saisir au moins %1$d caractère.',
 		2 => 'Le champ « %2$s » est trop court, vous devez saisir au moins %1$d caractères.',
-	),
-	'FIELD_TOO_LONG' => array(
+	],
+	'FIELD_TOO_LONG' => [
 		1 => 'Le champ « %2$s » est trop long, vous ne pouvez saisir que %1$d caractère au maximum.',
 		2 => 'Le champ « %2$s » est trop long, vous ne pouvez saisir que %1$d caractères au maximum.',
-	),
+	],
 	'FIELD_TOO_SMALL'                            => 'La valeur de « %2$s » est trop faible, la valeur minimale est de %1$d.',
 	'FIELD_TOO_LARGE'                            => 'La valeur de « %2$s » est trop importante, la valeur maximale est de %1$d.',
 	'FIELD_INVALID_CHARS_INVALID'                => 'Le champ « %s » contient des caractères invalides.',
@@ -227,19 +227,19 @@ $lang = array_merge($lang, [
 	'FOES_EXPLAIN'          => 'Les ignorés sont les utilisateurs dont vous ignorerez par défaut le contenu dont ils sont les auteurs. Les messages que ces utilisateurs publient ne vous seront pas entièrement visibles. Les ignorés peuvent néanmoins vous envoyer des messages privés. Veuillez noter que vous ne pouvez pas ignorer les modérateurs ou les administrateurs.',
 	'FOES_UPDATED'          => 'Votre liste d’ignorés a été mise à jour.',
 	'FOLDER_ADDED'          => 'La boîte a été ajoutée.',
-	'FOLDER_MESSAGE_STATUS' => array(
+	'FOLDER_MESSAGE_STATUS' => [
 		1 => '%2$d sur %1$s',
 		2 => '%2$d sur %1$s',
-	),
+	],
 	'FOLDER_NAME_EMPTY' => 'Vous devez saisir le nom de cette boîte.',
 	'FOLDER_NAME_EXIST' => 'La boîte <strong>%s</strong> existe déjà.',
 	'FOLDER_OPTIONS'    => 'Options des boîtes',
 	'FOLDER_RENAMED'    => 'La boîte a été renommée.',
 	'FOLDER_REMOVED'    => 'La boîte a été supprimée.',
-	'FOLDER_STATUS_MSG' => array(
+	'FOLDER_STATUS_MSG' => [
 		1 => 'La boîte est utilisée à %3$d %% (%2$d sur %1$s)',
 		2 => 'La boîte est utilisée à %3$d %% (%2$d sur %1$s)',
-	),
+	],
 	'FORWARD_PM'                 => 'Transférer le MP',
 	'FORCE_PASSWORD_EXPLAIN'     => 'Vous devez modifier votre mot de passe afin de continuer à naviguer sur le forum.',
 	'FRIEND_MESSAGE'             => 'Message d’un ami',
@@ -308,10 +308,10 @@ $lang = array_merge($lang, [
 	'MOVE_DELETED_MESSAGES_TO'    => 'Déplacer les messages de la boîte que vous avez supprimée vers',
 	'MOVE_DOWN'                   => 'Descendre',
 	'MOVE_MARKED_TO_FOLDER'       => 'Déplacer la sélection vers %s',
-	'MOVE_PM_ERROR'               => array(
+	'MOVE_PM_ERROR'               => [
 		1 => 'Une erreur est survenue lors du déplacement des messages vers la nouvelle boîte. Seul %2$d message sur %1$s a été déplacé.',
 		2 => 'Une erreur est survenue lors du déplacement des messages vers la nouvelle boîte. Seuls %2$d messages sur %1$s ont été déplacés.',
-	),
+	],
 	'MOVE_TO_FOLDER' => 'Déplacer vers la boîte',
 	'MOVE_UP'        => 'Monter',
 
@@ -359,10 +359,10 @@ $lang = array_merge($lang, [
 	'NOT_ADDED_FOES_SELF'         => 'Vous ne pouvez pas vous ajouter vous-même à la liste d’ignorés.',
 	'NOT_AGREE'                   => 'Je refuse ces conditions',
 	'NOT_ENOUGH_SPACE_FOLDER'     => 'La boîte de destination « %s » semble être pleine. L’opération n’a pas été prise en compte.',
-	'NOT_MOVED_MESSAGES'          => array(
+	'NOT_MOVED_MESSAGES'          => [
 		1 => 'Vous avez actuellement %d message privé en attente car la boîte de réception est pleine.',
 		2 => 'Vous avez actuellement %d messages privés en attente car la boîte de réception est pleine.',
-	),
+	],
 	'NO_ACTION_MODE'     => 'Aucune opération n’a été sélectionnée.',
 	'NO_AUTHOR'          => 'Aucun auteur n’a été spécifié',
 	'NO_AVATAR'          => 'Aucun avatar n’a été sélectionné',
@@ -465,10 +465,10 @@ $lang = array_merge($lang, [
 	'RULE_DELETED'                      => 'La règle a été supprimée.',
 	'RULE_LIMIT_REACHED'                => 'Vous ne pouvez pas ajouter plus de règles de MP. Vous avez atteint le nombre maximal de règles.',
 	'RULE_NOT_DEFINED'                  => 'La règle n’est pas correctement spécifiée.',
-	'RULE_REMOVED_MESSAGES'             => array(
+	'RULE_REMOVED_MESSAGES'             => [
 		1 => '%d message privé a été supprimé par les filtres de la messagerie privée.',
 		2 => '%d messages privés ont été supprimés par les filtres de la messagerie privée.',
-	),
+	],
 
 	'SAME_PASSWORD_ERROR' => 'Le mot de passe que vous avez spécifié est identique à votre mot de passe actuel.',
 	'SEARCH_YOUR_POSTS'   => 'Afficher vos messages',
@@ -586,10 +586,10 @@ $lang = array_merge($lang, [
 	'VIEW_NEXT_PM'      => 'MP suivant',
 	'VIEW_PM'           => 'Consulter le message',
 	'VIEW_PM_INFO'      => 'Informations sur le message',
-	'VIEW_PM_MESSAGES'  => array(
+	'VIEW_PM_MESSAGES'  => [
 		1 => '%d message',
 		2 => '%d messages',
-	),
+	],
 	'VIEW_PREVIOUS_HISTORY' => 'MP précédent dans l’ordre chronologique',
 	'VIEW_PREVIOUS_PM'      => 'MP précédent',
 	'VIEW_PROFILE'          => 'Consulter le profil',
@@ -614,20 +614,20 @@ $lang = array_merge($lang, [
 	'YOUR_FRIENDS_EXPLAIN' => 'Pour supprimer des noms d’utilisateurs, sélectionnez-les et envoyez les données.',
 	'YOUR_WARNINGS'        => 'Votre niveau d’avertissement',
 
-	'PM_ACTION' => array(
+	'PM_ACTION' => [
 		'PLACE_INTO_FOLDER' => 'Placer dans la boîte',
 		'MARK_AS_READ'      => 'Marquer comme lu',
 		'MARK_AS_IMPORTANT' => 'Marquer le message',
 		'DELETE_MESSAGE'    => 'Supprimer le message',
-	),
-	'PM_CHECK' => array(
+	],
+	'PM_CHECK' => [
 		'SUBJECT' => 'Sujet',
 		'SENDER'  => 'Expéditeur',
 		'MESSAGE' => 'Message',
 		'STATUS'  => 'Statut du message',
 		'TO'      => 'Envoyé à',
-	),
-	'PM_RULE' => array(
+	],
+	'PM_RULE' => [
 		'IS_LIKE'     => 'est comme',
 		'IS_NOT_LIKE' => 'n’est pas comme',
 		'IS'          => 'est',
@@ -642,7 +642,7 @@ $lang = array_merge($lang, [
 		'FORWARDED'   => 'transféré',
 		'TO_GROUP'    => 'à mon groupe d’utilisateurs par défaut',
 		'TO_ME'       => 'à moi',
-	),
+	],
 
 	'GROUPS_EXPLAIN'  => 'Les groupes d’utilisateurs permettent aux administrateurs de gérer plus facilement les utilisateurs. Dès votre inscription, vous êtes automatiquement membre d’un groupe d’utilisateurs par défaut. Ce groupe spécifie votre apparence auprès des autres utilisateurs, grâce à, par exemple, une colorisation de votre nom d’utilisateur, un avatar, un rang, etc. Selon la politique des administrateurs du forum, vous pouvez être autorisé à modifier votre groupe d’utilisateurs par défaut, à être membre de plusieurs groupes d’utilisateurs et à rejoindre de nouveaux groupes d’utilisateurs. Certains groupes d’utilisateurs peuvent vous procurer des permissions supplémentaires qui vous permettront de consulter du contenu exclusif ou de profiter de nouvelles fonctionnalités dans d’autres domaines.',
 	'GROUP_LEADER'    => 'Responsable',
