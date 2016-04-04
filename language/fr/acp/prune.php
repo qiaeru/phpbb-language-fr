@@ -21,7 +21,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -37,7 +37,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 // User pruning
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACP_PRUNE_USERS_EXPLAIN' => 'Vous pouvez supprimer et désactiver sur cette page des utilisateurs de votre forum. Les comptes peuvent être filtrés de différentes manières ; par le nombre de messages, par l’activité la plus récente, etc. Des critères peuvent être combinés afin de restreindre les comptes qui sont affectés. Par exemple, vous pouvez délester les utilisateurs qui ont publiés moins de 10 messages et qui sont inactifs depuis le 01/01/2002. Utilisez * comme joker dans les champs de texte. De même, vous pouvez ignorer complètement la sélection des critères en saisissant directement une liste d’utilisateurs dans le champ de texte, en prenant le soin de séparer chaque nom d’utilisateurs sur une nouvelle ligne. Soyez prudent lorsque vous utilisez cette fonctionnalité ! Une fois qu’un utilisateur a été supprimé, il ne peut pas être restauré.',
 
 	'CRITERIA' => 'Critère',
@@ -69,7 +69,7 @@ $lang = array_merge($lang, array(
 ));
 
 // Forum Pruning
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACP_PRUNE_FORUMS_EXPLAIN' => 'Le délestage vous permet de supprimer tous les sujets considérés inactifs ou impopulaires du fait qu’ils n’ont pas été consultés depuis un certain nombre de jours. Si vous ne saisissez pas de nombre de jours, tous les sujets seront alors supprimés. Par défaut, les annonces, les notes et les sujets dans lesquels un sondage est en cours ne seront pas supprimés.',
 
 	'FORUM_PRUNE' => 'Délester le forum',

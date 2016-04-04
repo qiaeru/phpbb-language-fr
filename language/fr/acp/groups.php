@@ -21,7 +21,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -36,7 +36,7 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACP_GROUPS_MANAGE_EXPLAIN' => 'Vous pouvez administrer sur cette page tous les groupes d’utilisateurs de votre forum. Vous pouvez créer, éditer et supprimer des groupes d’utilisateurs, sélectionner leur statut (restreint, privé ou invisible) et saisir leur nom et leur description. De plus, vous pouvez nommer les responsables des différents groupes d’utilisateurs.',
 	'ADD_GROUP_CATEGORY'        => 'Ajouter une catégorie',
 	'ADD_USERS'                 => 'Ajouter des utilisateurs',

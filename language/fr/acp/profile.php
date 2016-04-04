@@ -21,7 +21,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -37,7 +37,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 // Custom profile fields
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ADDED_PROFILE_FIELD' => 'Le champ de profil personnalisé a été ajouté.',
 	'ALPHA_DOTS'          => 'Lettres (sans accent), chiffres et points',
 	'ALPHA_ONLY'          => 'Lettres (sans accent) et chiffres uniquement',

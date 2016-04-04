@@ -21,7 +21,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -37,7 +37,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 // Database Backup/Restore
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACP_BACKUP_EXPLAIN'  => 'Vous pouvez sauvegarder sur cette page toutes les données relatives à votre forum. Vous pouvez stocker l’archive de sauvegarde dans votre répertoire <samp>store/</samp> ou la télécharger directement. Selon la configuration de votre serveur, vous pourrez compresser cette archive sous plusieurs formats.',
 	'ACP_RESTORE_EXPLAIN' => 'Cela effectuera une restauration complète de toutes les tables de phpBB à partir d’un fichier de sauvegarde. Si votre serveur le supporte, vous pouvez utiliser un fichier texte compressé en GZip ou BZip2 qui sera automatiquement décompressé. <strong>ATTENTION :</strong> cette opération écrasera toutes les données existantes. La restauration est un processus qui peut durer un certain temps, veillez à ne pas vous déplacer sur une autre page tant que l’opération n’est pas terminée. Les sauvegardes sont stockées dans le répertoire <samp>store/</samp> et sont supposées être générées par l’outil de restauration présent par défaut dans le logiciel phpBB. Il est possible que la restauration des bases de données qui n’ont pas été sauvegardées avec cet outil ne fonctionnent pas.',
 

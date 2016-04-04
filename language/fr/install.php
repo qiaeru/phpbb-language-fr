@@ -21,7 +21,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -37,7 +37,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 // Common installer pages
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'INSTALL_PANEL' => 'Panneau d’installation',
 	'SELECT_LANG'   => 'Sélectionner une langue',
 
@@ -88,7 +88,7 @@ $lang = array_merge($lang, array(
 ));
 
 // Requirements translation
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	// Filesystem requirements
 	'FILE_NOT_EXISTS'           => 'Le fichier n’existe pas',
 	'FILE_NOT_EXISTS_EXPLAIN'   => 'Pour pouvoir installer phpBB, le fichier %1$s doit exister.',
@@ -118,7 +118,7 @@ $lang = array_merge($lang, array(
 ));
 
 // General error messages
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'INST_ERR_MISSING_DATA' => 'Vous devez remplir tous les champs de ce bloc.',
 
 	'TIMEOUT_DETECTED_TITLE'   => 'L’installateur a cessé de fonctionner',
@@ -126,7 +126,7 @@ $lang = array_merge($lang, array(
 ));
 
 // Data obtaining translations
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'STAGE_OBTAIN_DATA' => 'Régler les données d’installation',
 
 	//
@@ -219,7 +219,7 @@ $lang = array_merge($lang, array(
 ));
 
 // Default database schema entries...
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'CONFIG_BOARD_EMAIL_SIG' => 'Cordialement, l’équipe du forum.',
 	'CONFIG_SITE_DESC'       => 'Une courte description de votre forum',
 	'CONFIG_SITENAME'        => 'votredomaine.com',
@@ -265,7 +265,7 @@ $lang = array_merge($lang, array(
 ));
 
 // Common navigation items' translation
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'MENU_OVERVIEW' => 'Général',
 	'MENU_INTRO'    => 'Introduction',
 	'MENU_LICENSE'  => 'Licence',
@@ -273,7 +273,7 @@ $lang = array_merge($lang, array(
 ));
 
 // Task names
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	// Install filesystem
 	'TASK_CREATE_CONFIG_FILE' => 'Création du fichier de configuration',
 
@@ -298,7 +298,7 @@ $lang = array_merge($lang, array(
 ));
 
 // Installer's general messages
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'MODULE_NOT_FOUND'             => 'Module introuvable',
 	'MODULE_NOT_FOUND_DESCRIPTION' => 'Un module n’a pas pu être trouvé car le service, %s, n’est pas défini.',
 
@@ -315,7 +315,7 @@ $lang = array_merge($lang, array(
 ));
 
 // CLI messages
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'CLI_INSTALL_BOARD'           => 'Installer phpBB',
 	'CLI_UPDATE_BOARD'            => 'Mettre à jour phpBB',
 	'CLI_INSTALL_SHOW_CONFIG'     => 'Afficher la configuration qui sera utilisée',
@@ -328,7 +328,7 @@ $lang = array_merge($lang, array(
 ));
 
 // Common updater messages
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'UPDATE_INSTALLATION'         => 'Mettre à jour l’installation de phpBB',
 	'UPDATE_INSTALLATION_EXPLAIN' => 'Grâce à cette option, il est possible de mettre à jour le logiciel de votre forum vers la dernière version stable.<br />Durant le processus, tous vos fichiers seront vérifiés dans leur intégralité. Vous pourrez prévisualiser toutes les différences et tous les fichiers avant d’exécuter la mise à jour.<br /><br />Le fichier de mise à jour peut se générer de deux manières différentes.</p><h2>Mise à jour manuelle</h2><p>Avec cette mise à jour, vous ne téléchargez que les réglages des fichiers modifiés afin de vous assurer de ne perdre aucune modification. Après avoir téléchargé cette archive, vous devez mettre à jour manuellement les fichiers à leur emplacement respectif, selon la racine du répertoire de votre forum. Une fois la mise à jour terminée, vous pouvez recommencer l’étape de vérification des fichiers afin de vous assurer d’avoir déplacé les fichiers à leur emplacement respectif.</p><h2>Mise à jour automatique par FTP</h2><p>Cette méthode est similaire à la première, mais elle ne nécessite pas de télécharger et de transférer manuellement les fichiers modifiés, cela sera fait automatiquement. Pour utiliser cette méthode, vous devez connaître les informations concernant votre connexion FTP car cela vous sera demandé. Une fois la mise à jour terminée, vous serez redirigé une fois de plus à la vérification des fichiers afin de vous assurer du bon déroulement de la mise à jour.<br /><br />',
 	'UPDATE_INSTRUCTIONS'         => '
@@ -351,7 +351,7 @@ $lang = array_merge($lang, array(
 ));
 
 // Updater forms
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	// Updater types
 	'UPDATE_TYPE' => 'Type de mise à jour à exécuter',
 
@@ -374,7 +374,7 @@ $lang = array_merge($lang, array(
 ));
 
 // Requirements messages
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'UPDATE_FILES_NOT_FOUND' => 'Aucun répertoire de mise à jour n’a été trouvé, veuillez vous assurer d’avoir transféré les fichiers nécessaires.',
 
 	'NO_UPDATE_FILES_UP_TO_DATE' => 'Votre version est à jour. Il n’est pas nécessaire d’exécuter cet outil de mise à jour. Si vous souhaitez vérifier intégralement tous vos fichiers, veuillez vous assurer d’avoir transféré les fichiers de mise à jour nécessaires.',
@@ -383,7 +383,7 @@ $lang = array_merge($lang, array(
 ));
 
 // Update files
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'STAGE_UPDATE_FILES' => 'Mettre à jour les fichiers',
 
 	// Check files
@@ -434,14 +434,14 @@ $lang = array_merge($lang, array(
 ));
 
 // Update database
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'STAGE_UPDATE_DATABASE' => 'Mettre à jour la base de données',
 
 	'INLINE_UPDATE_SUCCESSFUL' => 'La mise à jour de la base de données a été effectuée.',
 ));
 
 // Converter
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	// Common converter messages
 	'CONVERT_NOT_EXIST'   => 'Le convertisseur spécifié n’existe pas.',
 	'DEV_NO_TEST_FILE'    => 'Aucune valeur n’a été spécifiée dans le convertisseur concernant la variable test_file. Si vous êtes un utilisateur de ce convertisseur, vous ne devriez pas voir cette erreur, veuillez donc rapporter ce message à l’auteur du convertisseur. Si vous êtes l’auteur du convertisseur, vous devez spécifier le nom d’un fichier existant dans le forum source afin de permettre la validation du chemin vers ce dernier.',

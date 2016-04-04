@@ -21,7 +21,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -36,7 +36,7 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ADMIN_SIG_PREVIEW'    => 'Prévisualiser la signature',
 	'AT_LEAST_ONE_FOUNDER' => 'Vous ne pouvez pas modifier ce fondateur en utilisateur ordinaire. Il est nécessaire d’avoir au moins un fondateur sur le forum. Si vous souhaitez modifier le statut de ce fondateur, vous devez tout d’abord promouvoir un autre utilisateur en fondateur.',
 

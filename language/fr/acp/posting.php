@@ -21,7 +21,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -38,7 +38,7 @@ if (empty($lang) || !is_array($lang))
 
 // BBCodes
 // Note to translators: you can translate everything but what's between { and }
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACP_BBCODES_EXPLAIN' => 'Le BBCode est une implémentation spéciale du code HTML qui offre un meilleur contrôle sur la mise en forme. De cette page, vous pouvez ajouter, supprimer et éditer des BBCodes personnalisés.',
 	'ADD_BBCODE'          => 'Ajouter un nouveau BBCode',
 
@@ -92,7 +92,7 @@ $lang = array_merge($lang, array(
 ));
 
 // Smilies and topic icons
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACP_ICONS_EXPLAIN'   => 'Vous pouvez ajouter, supprimer ou éditer sur cette page les icônes que les utilisateurs peuvent insérer aux sujets et aux messages. Ces icônes sont généralement affichées à côté des titres des sujets sur la liste des forums ou à côté des titres des messages sur la liste des sujets. Vous pouvez également installer et créer de nouvelles archives d’icônes.',
 	'ACP_SMILIES_EXPLAIN' => 'Les émoticônes sont généralement de petites images, parfois animées, qui sont utilisées afin d’exprimer une émotion ou un sentiment. Vous pouvez ajouter, supprimer et éditer sur cette page les émoticônes que les utilisateurs peuvent insérer dans leurs messages et leurs messages privés. Vous pouvez également installer et créer de nouvelles archives d’émoticônes.',
 	'ADD_SMILIES'         => 'Ajouter plusieurs émoticônes',
@@ -203,7 +203,7 @@ $lang = array_merge($lang, array(
 ));
 
 // Word censors
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACP_WORDS_EXPLAIN' => 'Vous pouvez ajouter, éditer et supprimer sur cette page les mots qui seront automatiquement censurés sur votre forum. Les mots censurés seront alors remplacés par les substitutions qui leurs sont assignées. Les visiteurs pourront tout de même s’inscrire avec des noms d’utilisateurs contenant ces mots. Les jokers (*) sont acceptés dans les champs. Par exemple, *test* censurera détestable, test* censurera testament, *test censurera alcootest.',
 	'ADD_WORD'          => 'Ajouter un nouveau mot',
 
@@ -223,7 +223,7 @@ $lang = array_merge($lang, array(
 ));
 
 // Ranks
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACP_RANKS_EXPLAIN' => 'Vous pouvez consulter, ajouter, éditer et supprimer sur cette page les rangs des utilisateurs de votre forum. Vous pouvez également créer des rangs personnalisés qui peuvent être mis en place sur certains de vos utilisateurs depuis la page de gestion des utilisateurs.',
 	'ADD_RANK'          => 'Ajouter un nouveau rang',
 
@@ -245,7 +245,7 @@ $lang = array_merge($lang, array(
 ));
 
 // Disallow Usernames
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACP_DISALLOW_EXPLAIN' => 'Vous pouvez gérer sur cette page les noms d’utilisateurs qui ne sont pas autorisés à être utilisés. Les noms d’utilisateurs interdits peuvent contenir un joker « * ».',
 	'ADD_DISALLOW_EXPLAIN' => 'Vous pouvez interdire un nom d’utilisateur en utilisant un joker « * » qui remplacera alors n’importe quel caractère.',
 	'ADD_DISALLOW_TITLE'   => 'Ajouter un nom d’utilisateur interdit',
@@ -261,7 +261,7 @@ $lang = array_merge($lang, array(
 ));
 
 // Reasons
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACP_REASONS_EXPLAIN' => 'Vous pouvez gérer sur cette page les raisons utilisées dans les rapports lors de la désapprobation de messages. La raison par défaut (marquée avec « * ») ne peut pas être supprimée car elle est réservée aux messages personnalisés quand aucune raison n’est spécifiée.',
 	'ADD_NEW_REASON'      => 'Ajouter une nouvelle raison',
 	'AVAILABLE_TITLES'    => 'Titres des raisons traduites disponibles',

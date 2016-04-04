@@ -21,10 +21,10 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'HELP_BBCODE_BLOCK_IMAGES' => 'Affichage d’images dans les messages',
 	'HELP_BBCODE_BLOCK_INTRO'  => 'Introduction',
 	'HELP_BBCODE_BLOCK_LINKS'  => 'Insertion de liens',

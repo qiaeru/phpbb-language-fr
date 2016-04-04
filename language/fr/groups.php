@@ -21,7 +21,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -36,7 +36,7 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ALREADY_DEFAULT_GROUP'    => 'Ce groupe est déjà votre groupe par défaut.',
 	'ALREADY_IN_GROUP'         => 'Vous êtes déjà membre de ce groupe.',
 	'ALREADY_IN_GROUP_PENDING' => 'Vous avez déjà demandé à rejoindre ce groupe.',

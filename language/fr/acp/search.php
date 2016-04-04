@@ -21,7 +21,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -36,7 +36,7 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACP_SEARCH_INDEX_EXPLAIN'    => 'Vous pouvez gérer sur cette page les méthodes d’indexation de la recherche. Le moteur de recherche n’utilisant qu’une seule méthode d’indexation, vous devriez supprimer toutes les indexations inutilisées. Vous devriez également, après toute modification sur la plupart des réglages de la recherche comme le nombre minimal et maximal de caractères, recréer l’index afin qu’il prenne en compte ces modifications.',
 	'ACP_SEARCH_SETTINGS_EXPLAIN' => 'Vous pouvez définir sur cette page la méthode d’indexation de la recherche qui sera utilisée lors de l’indexation des messages et l’exécution des recherches. Vous pouvez régler différentes options qui peuvent influencer sur le nombre d’exécutions de ces opérations. Certains de ces réglages sont les mêmes que toutes les autres méthodes d’indexation du moteur de recherche.',
 

@@ -21,7 +21,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -37,7 +37,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 // Privacy policy and T&C
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'TERMS_OF_USE_CONTENT' => 'En accédant à « %1$s » (désigné ici par « nous », « notre », « nos », « %1$s », « %2$s »), vous acceptez d’être légalement responsable des conditions suivantes. Si vous n’acceptez pas d’être légalement responsable de toutes les conditions suivantes, veuillez ne pas utiliser et/ou accéder à « %1$s ». Nous pouvons modifier ces conditions à n’importe quel moment et nous essaierons de vous informer de ces modifications, bien que nous vous conseillons de vérifier régulièrement cela par vous-même car si vous continuez à participer à « %1$s » après que les modifications aient été effectuées, vous acceptez d’être légalement responsable des conditions modifiées et/ou mises à jour.<br />
 	<br />
 	Nos forums sont développés par phpBB (désignés ici par « ils », « eux », « leur », « logiciel phpBB », « www.phpbb.com », « phpBB Limited », « équipes de phpBB ») qui est une solution de création de forums déclarée sous la « <a href="http://opensource.org/licenses/GPL-2.0">Licence Publique Générale GNU v2</a> » (désignée ici par « GPL ») et qui peut être téléchargée sur <a href="https://www.phpbb.com/">www.phpbb.com</a> (en anglais). Le logiciel phpBB a pour seul but de faciliter les discussions sur internet, phpBB Limited n’est en aucun cas responsable de la conduite et/ou du contenu que nous acceptons et/ou que nous n’acceptons pas. Si vous souhaitez obtenir plus d’informations concernant phpBB, nous vous invitons à consulter <a href="https://www.phpbb.com/">https://www.phpbb.com/</a> (en anglais).<br />
@@ -58,7 +58,7 @@ $lang = array_merge($lang, array(
 ));
 
 // Common language entries
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACCOUNT_ACTIVE'                 => 'Votre compte est à présent activé. Nous vous remercions de votre inscription.',
 	'ACCOUNT_ACTIVE_ADMIN'           => 'Le compte est à présent activé.',
 	'ACCOUNT_ACTIVE_PROFILE'         => 'Votre compte est à présent réactivé.',

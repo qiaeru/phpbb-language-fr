@@ -21,7 +21,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -36,7 +36,7 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACP_ATTACHMENT_SETTINGS_EXPLAIN' => 'Vous pouvez configurer sur cette page les réglages relatifs aux pièces jointes et à leurs catégories spéciales.',
 	'ACP_EXTENSION_GROUPS_EXPLAIN'    => 'Vous pouvez ajouter, supprimer, modifier ou désactiver sur cette page les groupes d’extensions des pièces jointes. Vous pouvez également leur attribuer des catégories spéciales, modifier le mécanisme de téléchargement et définir une icône de transfert qui sera alors affichée devant la pièce jointe appartenant au groupe d’extensions.',
 	'ACP_MANAGE_EXTENSIONS_EXPLAIN'   => 'Vous pouvez gérer sur cette page les extensions des pièces jointes autorisées à être transférées et téléchargées sur votre forum. Si vous souhaitez activer une extension, vous devez vous rendre sur le panneau de gestion des groupes d’extensions. Nous vous recommandons fortement de ne pas autoriser les extensions de langages de programmation (telles que <code>php</code>, <code>php3</code>, <code>php4</code>, <code>phtml</code>, <code>pl</code>, <code>cgi</code>, <code>py</code>, <code>rb</code>, <code>asp</code>, <code>aspx</code>, etc.).',

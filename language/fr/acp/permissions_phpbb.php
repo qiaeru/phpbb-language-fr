@@ -21,7 +21,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -45,7 +45,7 @@ if (empty($lang) || !is_array($lang))
 // The respective language strings should be added into a language file, that
 // start with 'permissions_', so they are automatically loaded within the ACP.
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACL_CAT_ACTIONS'       => 'Opérations',
 	'ACL_CAT_CONTENT'       => 'Contenu',
 	'ACL_CAT_FORUMS'        => 'Forums',
@@ -63,7 +63,7 @@ $lang = array_merge($lang, array(
 ));
 
 // User Permissions
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACL_U_VIEWPROFILE'    => 'Peut consulter les profils, la liste des membres et la liste des utilisateurs en ligne',
 	'ACL_U_CHGNAME'        => 'Peut modifier son nom d’utilisateur',
 	'ACL_U_CHGPASSWD'      => 'Peut modifier son mot de passe',
@@ -103,7 +103,7 @@ $lang = array_merge($lang, array(
 ));
 
 // Forum Permissions
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACL_F_LIST'      => 'Peut voir le forum',
 	'ACL_F_READ'      => 'Peut consulter les messages du forum',
 	'ACL_F_SEARCH'    => 'Peut effectuer des recherches sur le forum',
@@ -141,7 +141,7 @@ $lang = array_merge($lang, array(
 ));
 
 // Moderator Permissions
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACL_M_EDIT'       => 'Peut éditer les messages',
 	'ACL_M_DELETE'     => 'Peut supprimer définitivement les messages',
 	'ACL_M_SOFTDELETE' => 'Peut supprimer les messages<br /><em>Les modérateurs qui ont la permission d’approuver des messages pourront restaurer les messages supprimés.</em>',
@@ -161,7 +161,7 @@ $lang = array_merge($lang, array(
 ));
 
 // Admin Permissions
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACL_A_BOARD'   => 'Peut modifier les réglages du forum et rechercher les mises à jour',
 	'ACL_A_SERVER'  => 'Peut modifier les réglages du serveur et de la communication',
 	'ACL_A_JABBER'  => 'Peut modifier les réglages de Jabber',

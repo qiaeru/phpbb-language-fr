@@ -21,7 +21,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -37,7 +37,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 // Banning
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'1_HOUR'  => '1 heure',
 	'30_MINS' => '30 minutes',
 	'6_HOURS' => '6 heures',

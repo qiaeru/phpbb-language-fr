@@ -21,10 +21,10 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'HELP_FAQ_ATTACHMENTS_ALLOWED_ANSWER'   => 'Chaque administrateur peut autoriser ou interdire certains types de pièces jointes. Si vous n’êtes pas certain de savoir ce qui est autorisé ou non, nous vous invitons à contacter un administrateur du forum.',
 	'HELP_FAQ_ATTACHMENTS_ALLOWED_QUESTION' => 'Quelles pièces jointes sont autorisées sur ce forum ?',
 	'HELP_FAQ_ATTACHMENTS_OWN_ANSWER'       => 'Pour retrouver la liste des pièces jointes que vous avez transférées, rendez-vous dans le panneau de contrôle de l’utilisateur et suivez les liens vers la section des pièces jointes.',

@@ -21,7 +21,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -36,7 +36,7 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'CLI_CONFIG_CANNOT_CACHED'         => 'Réglez cette option si l’option de configuration change trop fréquemment pour être mis en cache efficacement.',
 	'CLI_CONFIG_CURRENT'               => 'La valeur de configuration actuelle. Utilisez 0 et 1 afin de spécifier des valeurs booléennes',
 	'CLI_CONFIG_DELETE_SUCCESS'        => 'La configuration %s a été supprimée.',
@@ -147,7 +147,7 @@ $lang = array_merge($lang, array(
 ));
 
 // Additional help for commands.
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'CLI_HELP_CRON_RUN'      => $lang['CLI_DESCRIPTION_CRON_RUN'].'Vous pouvez éventuellement spécifier un nom de tâche cron afin d’exécuter seulement la tâche cron spécifiée.',
 	'CLI_HELP_USER_ACTIVATE' => 'L’option <info>--deactivate</info> vous permet d’activer ou de désactiver le compte d’un utilisateur.
 Si vous souhaitez envoyer un courriel d’activation à l’utilisateur, veuillez utiliser l’option <info>--send-email</info>.',
