@@ -90,15 +90,19 @@ $lang = array_merge($lang, [
 // Requirements translation
 $lang = array_merge($lang, [
 	// Filesystem requirements
-	'FILE_NOT_EXISTS'           => 'Le fichier n’existe pas',
-	'FILE_NOT_EXISTS_EXPLAIN'   => 'Pour pouvoir installer phpBB, le fichier %1$s doit exister.',
-	'FILE_NOT_WRITABLE'         => 'Le fichier ne peut pas être écrit',
-	'FILE_NOT_WRITABLE_EXPLAIN' => 'Pour pouvoir installer phpBB, le fichier %1$s doit pouvoir être écrit.',
+	'FILE_NOT_EXISTS'                    => 'Le fichier n’existe pas',
+	'FILE_NOT_EXISTS_EXPLAIN'            => 'Pour pouvoir installer phpBB, le fichier %1$s doit exister.',
+	'FILE_NOT_EXISTS_EXPLAIN_OPTIONAL'   => 'Il est recommandé que le fichier %1$s existe afin de bénéficier d’une meilleure expérience utilisateur.',
+	'FILE_NOT_WRITABLE'                  => 'Le fichier ne peut pas être écrit',
+	'FILE_NOT_WRITABLE_EXPLAIN'          => 'Pour pouvoir installer phpBB, le fichier %1$s doit pouvoir être écrit.',
+	'FILE_NOT_WRITABLE_EXPLAIN_OPTIONAL' => 'Il est recommandé que le fichier %1$s puisse être écrit afin de bénéficier d’une meilleure expérience utilisateur.',
 
-	'DIRECTORY_NOT_EXISTS'           => 'Le répertoire n’existe pas',
-	'DIRECTORY_NOT_EXISTS_EXPLAIN'   => 'Pour pouvoir installer phpBB, le répertoire %1$s doit exister.',
-	'DIRECTORY_NOT_WRITABLE'         => 'Le répertoire ne peut pas être écrit',
-	'DIRECTORY_NOT_WRITABLE_EXPLAIN' => 'Pour pouvoir installer phpBB, le répertoire %1$s doit pouvoir être écrit.',
+	'DIRECTORY_NOT_EXISTS'                    => 'Le répertoire n’existe pas',
+	'DIRECTORY_NOT_EXISTS_EXPLAIN'            => 'Pour pouvoir installer phpBB, le répertoire %1$s doit exister.',
+	'DIRECTORY_NOT_EXISTS_EXPLAIN_OPTIONAL'   => 'Il est recommandé que le répertoire %1$s existe afin de bénéficier d’une meilleure expérience utilisateur.',
+	'DIRECTORY_NOT_WRITABLE'                  => 'Le répertoire ne peut pas être écrit',
+	'DIRECTORY_NOT_WRITABLE_EXPLAIN'          => 'Pour pouvoir installer phpBB, le répertoire %1$s doit pouvoir être écrit.',
+	'DIRECTORY_NOT_WRITABLE_EXPLAIN_OPTIONAL' => 'Il est recommandé que le répertoire %1$s puisse être écrit afin de bénéficier d’une meilleure expérience utilisateur.',
 
 	// Server requirements
 	'PHP_VERSION_REQD'                 => 'Version de PHP',
