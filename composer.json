@@ -4,7 +4,6 @@
 	"type": "phpbb-language",
 	"homepage": "https://www.phpbb.com/customise/db/translation/french/",
 	"version": "3.0.0-dev",
-	"keywords": ["français", "francais", "french", "language", "locale", "localisation", "localization", "translate", "translation"],
 	"license": "GPL-2.0",
 	"authors": [
 		{
