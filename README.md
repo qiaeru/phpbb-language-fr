@@ -7,7 +7,7 @@ French language pack to localise the phpBB 3.1 forum software.
 
 Includes the following French locales compatible with:
 
-- [phpBB 3.1.10-dev](https://github.com/phpbb/phpbb/tree/3.1.x)
+- [phpBB 3.1.9](https://download.phpbb.com/pub/release/3.1/3.1.9/)
 
 Released under the GNU General Public License 2.0. Please see the [license terms](https://github.com/maelsoucaze/phpbb-language-fr/blob/3.1.x/language/fr/LICENSE).
 
