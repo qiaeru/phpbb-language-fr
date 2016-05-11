@@ -2,7 +2,8 @@ engines:
   duplication:
     enabled: true
     config:
-      languages: "php"
+      languages:
+        - php
   markdownlint:
     enabled: true
     checks:
