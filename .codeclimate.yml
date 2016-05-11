@@ -29,5 +29,5 @@ engines:
 
 ratings:
   paths:
-    - "**.php"
     - "**.md"
+    - "**.php"
