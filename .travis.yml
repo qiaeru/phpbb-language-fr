@@ -1,22 +1,20 @@
 language: php
 
 php:
-  - 5.5
   - 5.6
   - 7.0
   - hhvm
 
 matrix:
   allow_failures:
-    - php: 5.5
     - php: 7.0
     - php: hhvm
   fast_finish: true
 
-env:		
-  global:		
-    - PHPBB_BRANCH="3.1.x"		
-    - PHPBB_VERSION="3.1"		
+env:
+  global:
+    - PHPBB_BRANCH="3.1.x"
+    - PHPBB_VERSION="3.1"
     - PHPBB_LANGUAGE="fr"
 
 sudo: false
@@ -28,13 +26,13 @@ before_install:
   - composer --version
 
 install:
-  - mkdir -p $PHPBB_VERSION/$PHPBB_LANGUAGE		
-  - mkdir -p $PHPBB_VERSION/en/language		
+  - mkdir -p $PHPBB_VERSION/$PHPBB_LANGUAGE
+  - mkdir -p $PHPBB_VERSION/en/language
   - mkdir -p $PHPBB_VERSION/en/styles/prosilver/theme
   - mv language $PHPBB_VERSION/$PHPBB_LANGUAGE
   - mv styles $PHPBB_VERSION/$PHPBB_LANGUAGE
   - git clone "https://github.com/phpbb/phpbb.git" --branch=$PHPBB_BRANCH
-  - mv phpbb/phpBB/language/en $PHPBB_VERSION/en/language		
+  - mv phpbb/phpBB/language/en $PHPBB_VERSION/en/language
   - mv phpbb/phpBB/styles/prosilver/theme/en $PHPBB_VERSION/en/styles/prosilver/theme
   - composer install --no-interaction --prefer-source
 
