@@ -1,8 +1,13 @@
 engines:
-  csslint:
+  duplication:
     enabled: true
+    config:
+      languages: "php"
   markdownlint:
     enabled: true
+    checks:
+      MD013:
+        enabled: false
   phpcodesniffer:
     enabled: true
     checks:
@@ -18,18 +23,10 @@ engines:
       file_extensions: "php"
   phpmd:
     enabled: true
+    config:
+      file_extensions: "php"
 
 ratings:
   paths:
     - "**.php"
-    - "README.md"
-    - "styles/prosilver/theme/fr/stylesheet.css"
-
-exclude_paths:
-  - "**.gif"
-  - "**.htm"
-  - "**.json"
-  - "**.txt"
-  - "**.yml"
-  - "language/fr/email/**/*"
-  - "language/fr/LICENSE"
+    - "**.md"
