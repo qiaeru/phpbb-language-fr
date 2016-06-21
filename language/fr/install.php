@@ -178,6 +178,7 @@ $lang = array_merge($lang, [
 	'DB_PASSWORD'          => 'Mot de passe de la base de données',
 	'DB_NAME'              => 'Nom de la base de données',
 	'DB_USERNAME'          => 'Nom d’utilisateur de la base de données',
+	'DATABASE_VERSION'     => 'Version de la base de données',
 	'TABLE_PREFIX'         => 'Préfixe des tables dans la base de données',
 	'TABLE_PREFIX_EXPLAIN' => 'Le préfixe doit démarrer avec une lettre et ne doit contenir que des lettres, des nombres et des tirets bas.',
 
@@ -212,6 +213,13 @@ $lang = array_merge($lang, [
 	// Email data
 	//
 	'EMAIL_CONFIG' => 'Configuration de la messagerie électronique',
+
+	// Package info
+	'PACKAGE_VERSION'           => 'Version de l’archive installée',
+	'UPDATE_INCOMPLETE'         => 'Votre installation de phpBB n’a pas été correctement mise à jour.',
+	'UPDATE_INCOMPLETE_MORE'    => 'Veuillez consulter l’information ci-dessous avant de corriger cette erreur.',
+	'UPDATE_INCOMPLETE_EXPLAIN' => '<h1>Mise à jour incomplète</h1>
+                                    <p>Nous avons remarqué que la dernière mise à jour de votre installation de phpBB n’a pas été finalisée. Veuillez vous rendre <a href="%1$s" title="%1$s">sur le script de mise à jour de la base de données</a> et l’exécuter. S’il n’est pas présent, veuillez <a href="https://www.phpbb.com/downloads/" title="Téléchargements de phpBB">télécharger l’archive de la version que vous utilisez</a>, transférer le répertoire « install » à la racine de votre forum (où le fichier « config.php » est présent) et <a href="%1$s" title="%1$s">exécuter le script de mise à jour de la base de données</a>.</p>',
 
 	//
 	// Server data
@@ -425,6 +433,7 @@ $lang = array_merge($lang, [
 	'FILES_NOT_MODIFIED_EXPLAIN' => 'Les fichiers suivants n’ont pas été modifiés par rapport aux fichiers originaux de la version que vous souhaitez mettre à jour.',
 	'FILES_UP_TO_DATE'           => 'Fichiers déjà à jour',
 	'FILES_UP_TO_DATE_EXPLAIN'   => 'Les fichiers suivants sont déjà à jour et ne nécessitent pas d’être mis à jour.',
+	'FILES_VERSION'              => 'Version des fichiers',
 	'TOGGLE_DISPLAY'             => 'Afficher ou masquer la liste des fichiers',
 
 	// File updater
