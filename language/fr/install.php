@@ -527,15 +527,15 @@ $lang = array_merge($lang, array(
 	'TRY_DOWNLOAD_METHOD'        => 'Vous devriez essayer la méthode de téléchargement des fichiers modifiés.<br />Cette méthode vous permettra de mettre à jour votre forum en toute sérénité.',
 	'TRY_DOWNLOAD_METHOD_BUTTON' => 'Essayer maintenant cette méthode',
 
-	'UPDATE_COMPLETED'            => 'Mise à jour correctement effectuée',
-	'UPDATE_DATABASE'             => 'Mettre à jour la base de données',
-	'UPDATE_DATABASE_EXPLAIN'     => 'Dans la prochaine étape, la base de données sera mise à jour.',
-	'UPDATE_DATABASE_SCHEMA'      => 'Mise à jour du schéma de la base de données',
-	'UPDATE_FILES'                => 'Mettre à jour les fichiers',
-	'UPDATE_FILES_NOTICE'         => 'Veuillez vous assurer d’avoir également mis à jour tous les fichiers de votre forum car ce fichier ne met à jour que votre base de données.',
-	'UPDATE_INCOMPLETE'           => 'Votre installation de phpBB n’a pas été correctement mise à jour.',
-	'UPDATE_INCOMPLETE_MORE'      => 'Veuillez consulter l’information ci-dessous avant de corriger cette erreur.',
-	'UPDATE_INCOMPLETE_EXPLAIN'   => '<h1>Mise à jour incomplète</h1>
+	'UPDATE_COMPLETED'          => 'Mise à jour correctement effectuée',
+	'UPDATE_DATABASE'           => 'Mettre à jour la base de données',
+	'UPDATE_DATABASE_EXPLAIN'   => 'Dans la prochaine étape, la base de données sera mise à jour.',
+	'UPDATE_DATABASE_SCHEMA'    => 'Mise à jour du schéma de la base de données',
+	'UPDATE_FILES'              => 'Mettre à jour les fichiers',
+	'UPDATE_FILES_NOTICE'       => 'Veuillez vous assurer d’avoir également mis à jour tous les fichiers de votre forum car ce fichier ne met à jour que votre base de données.',
+	'UPDATE_INCOMPLETE'         => 'Votre installation de phpBB n’a pas été correctement mise à jour.',
+	'UPDATE_INCOMPLETE_MORE'    => 'Veuillez consulter l’information ci-dessous avant de corriger cette erreur.',
+	'UPDATE_INCOMPLETE_EXPLAIN' => '<h1>Mise à jour incomplète</h1>
 
 		<p>Nous avons remarqué que la dernière mise à jour de votre installation de phpBB n’a pas été finalisée. Veuillez vous rendre <a href="%1$s" title="%1$s">sur le script de mise à jour de la base de données</a> et l’exécuter. S’il n’est pas présent, veuillez <a href="https://www.phpbb.com/downloads/" title="Téléchargements de phpBB">télécharger l’archive de la version que vous utilisez</a>, transférer le répertoire « install » à la racine de votre forum (où le fichier « config.php » est présent) et <a href="%1$s" title="%1$s">exécuter le script de mise à jour de la base de données</a>.</p>',
 
