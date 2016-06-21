@@ -400,6 +400,7 @@ $lang = array_merge($lang, array(
 	'DATABASE_UPDATE_CONTINUE'       => 'Continuer la mise à jour de la base de données.',
 	'DATABASE_UPDATE_INFO_OLD'       => 'Le fichier de mise à jour de la base de données, situé dans le répertoire d’installation, est obsolète. Veuillez vous assurer d’avoir transféré la dernière version de ce fichier.',
 	'DATABASE_UPDATE_NOT_COMPLETED'  => 'L’outil de mise à jour de la base de données n’a pas encore terminé toutes ses opérations.',
+	'DATABASE_VERSION'               => 'Version de la base de données',
 	'DELETE_USER_REMOVE'             => 'Supprimer l’utilisateur et effacer ses messages',
 	'DELETE_USER_RETAIN'             => 'Supprimer l’utilisateur mais conserver ses messages',
 	'DESTINATION'                    => 'Fichier de destination',
@@ -439,6 +440,7 @@ $lang = array_merge($lang, array(
 	'FILES_NOT_MODIFIED_EXPLAIN' => 'Les fichiers suivants n’ont pas été modifiés par rapport aux fichiers originaux de la version que vous souhaitez mettre à jour.',
 	'FILES_UP_TO_DATE'           => 'Fichiers déjà à jour',
 	'FILES_UP_TO_DATE_EXPLAIN'   => 'Les fichiers suivants sont déjà à jour et ne nécessitent pas d’être mis à jour.',
+	'FILES_VERSION'              => 'Version des fichiers',
 	'FTP_SETTINGS'               => 'Réglages FTP',
 	'FTP_UPDATE_METHOD'          => 'Transfert par FTP',
 
@@ -486,6 +488,7 @@ $lang = array_merge($lang, array(
 	'OLD_UPDATE_FILES' => 'Les fichiers de mise à jour sont obsolètes. Les fichiers de mise à jour présents correspondent à la mise à jour de phpBB %1$s vers phpBB %2$s alors que la dernière version stable est la %3$s.',
 
 	'PACKAGE_UPDATES_TO'              => 'Mise à jour de l’archive actuelle vers la version',
+	'PACKAGE_VERSION'                 => 'Version de l’archive installée',
 	'PERFORM_DATABASE_UPDATE'         => 'Exécuter la mise à jour de la base de données',
 	'PERFORM_DATABASE_UPDATE_EXPLAIN' => 'Vous trouverez ci-dessous un bouton vers l’outil de mise à jour de la base de données. La mise à jour de la base de données peut prendre un certain temps, veillez à ne pas arrêter son exécution même lorsque celle-ci semble bloquée. Une fois que la mise à jour de la base de données ait été effectuée, suivez les instructions affichées à l’écran afin de continuer le processus de mise à jour.',
 	'PREVIOUS_VERSION'                => 'Version antérieure',
@@ -530,6 +533,12 @@ $lang = array_merge($lang, array(
 	'UPDATE_DATABASE_SCHEMA'      => 'Mise à jour du schéma de la base de données',
 	'UPDATE_FILES'                => 'Mettre à jour les fichiers',
 	'UPDATE_FILES_NOTICE'         => 'Veuillez vous assurer d’avoir également mis à jour tous les fichiers de votre forum car ce fichier ne met à jour que votre base de données.',
+	'UPDATE_INCOMPLETE'           => 'Votre installation de phpBB n’a pas été correctement mise à jour.',
+	'UPDATE_INCOMPLETE_MORE'      => 'Veuillez consulter l’information ci-dessous avant de corriger cette erreur.',
+	'UPDATE_INCOMPLETE_EXPLAIN'   => '<h1>Mise à jour incomplète</h1>
+
+		<p>Nous avons remarqué que la dernière mise à jour de votre installation de phpBB n’a pas été finalisée. Veuillez vous rendre <a href="%1$s" title="%1$s">sur le script de mise à jour de la base de données</a> et l’exécuter. S’il n’est pas présent, veuillez <a href="https://www.phpbb.com/downloads/" title="Téléchargements de phpBB">télécharger l’archive de la version que vous utilisez</a>, transférer le répertoire « install » à la racine de votre forum (où le fichier « config.php » est présent) et <a href="%1$s" title="%1$s">exécuter le script de mise à jour de la base de données</a>.</p>',
+
 	'UPDATE_INSTALLATION'         => 'Mettre à jour l’installation de phpBB',
 	'UPDATE_INSTALLATION_EXPLAIN' => 'Grâce à cette option, il est possible de mettre à jour le logiciel de votre forum vers la dernière version stable.<br />Durant le processus, tous vos fichiers seront vérifiés dans leur intégralité. Vous pourrez prévisualiser toutes les différences et tous les fichiers avant d’exécuter la mise à jour.<br /><br />Le fichier de mise à jour peut se générer de deux manières différentes.</p><h2>Mise à jour manuelle</h2><p>Avec cette mise à jour, vous ne téléchargez que les réglages des fichiers modifiés afin de vous assurer de ne perdre aucune modification. Après avoir téléchargé cette archive, vous devez mettre à jour manuellement les fichiers à leur emplacement respectif, selon la racine du répertoire de votre forum. Une fois la mise à jour terminée, vous pouvez recommencer l’étape de vérification des fichiers afin de vous assurer d’avoir déplacé les fichiers à leur emplacement respectif.</p><h2>Mise à jour automatique par FTP</h2><p>Cette méthode est similaire à la première, mais elle ne nécessite pas de télécharger et de transférer manuellement les fichiers modifiés, cela sera fait automatiquement. Pour utiliser cette méthode, vous devez connaître les informations concernant votre connexion FTP car cela vous sera demandé. Une fois la mise à jour terminée, vous serez redirigé(e) une fois de plus à la vérification des fichiers afin de vous assurer du bon déroulement de la mise à jour.<br /><br />',
 	'UPDATE_INSTRUCTIONS'         => '
