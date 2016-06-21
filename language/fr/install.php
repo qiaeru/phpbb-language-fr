@@ -215,10 +215,10 @@ $lang = array_merge($lang, [
 	'EMAIL_CONFIG' => 'Configuration de la messagerie électronique',
 
 	// Package info
-	'PACKAGE_VERSION'             => 'Version de l’archive installée',
-	'UPDATE_INCOMPLETE'           => 'Votre installation de phpBB n’a pas été correctement mise à jour.',
-	'UPDATE_INCOMPLETE_MORE'      => 'Veuillez consulter l’information ci-dessous avant de corriger cette erreur.',
-	'UPDATE_INCOMPLETE_EXPLAIN'   => '<h1>Mise à jour incomplète</h1>
+	'PACKAGE_VERSION'           => 'Version de l’archive installée',
+	'UPDATE_INCOMPLETE'         => 'Votre installation de phpBB n’a pas été correctement mise à jour.',
+	'UPDATE_INCOMPLETE_MORE'    => 'Veuillez consulter l’information ci-dessous avant de corriger cette erreur.',
+	'UPDATE_INCOMPLETE_EXPLAIN' => '<h1>Mise à jour incomplète</h1>
 
 		<p>Nous avons remarqué que la dernière mise à jour de votre installation de phpBB n’a pas été finalisée. Veuillez vous rendre <a href="%1$s" title="%1$s">sur le script de mise à jour de la base de données</a> et l’exécuter. S’il n’est pas présent, veuillez <a href="https://www.phpbb.com/downloads/" title="Téléchargements de phpBB">télécharger l’archive de la version que vous utilisez</a>, transférer le répertoire « install » à la racine de votre forum (où le fichier « config.php » est présent) et <a href="%1$s" title="%1$s">exécuter le script de mise à jour de la base de données</a>.</p>',
 
