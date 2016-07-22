@@ -94,6 +94,7 @@ $lang = array_merge($lang, [
 	'AUTH_PROVIDER_OAUTH_SERVICE_BITLY'                  => 'Bitly',
 	'AUTH_PROVIDER_OAUTH_SERVICE_FACEBOOK'               => 'Facebook',
 	'AUTH_PROVIDER_OAUTH_SERVICE_GOOGLE'                 => 'Google',
+	'AUTH_PROVIDER_OAUTH_SERVICE_TWITTER'                => 'Twitter',
 	'AUTH_PROVIDER_OAUTH_TOKEN_ERROR_NOT_STORED'         => 'Le jeton OAuth n’est pas stocké.',
 	'AUTH_PROVIDER_OAUTH_TOKEN_ERROR_INCORRECTLY_STORED' => 'Le jeton OAuth n’est pas stockée correctement.',
 	'AVATAR_DISALLOWED_CONTENT'                          => 'Le transfert a été interrompu car le fichier que vous avez souhaité transférer a été identifié comme une vulnérabilité potentielle.',
