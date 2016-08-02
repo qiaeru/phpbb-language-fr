@@ -113,6 +113,8 @@ $lang = array_merge($lang, [
 	'PCRE_UTF_SUPPORT_EXPLAIN'         => 'phpBB ne fonctionnera que si votre installation PHP est compilée dans l’extension PCRE avec le support de d’UTF-8.',
 	'PHP_JSON_SUPPORT'                 => 'Support de PHP JSON',
 	'PHP_JSON_SUPPORT_EXPLAIN'         => 'Pour que phpBB puisse fonctionner correctement, l’extension PHP JSON doit être disponible.',
+	'PHP_XML_SUPPORT'                  => 'Support de PHP XML/DOM',
+	'PHP_XML_SUPPORT_EXPLAIN'          => 'Pour que phpBB puisse fonctionner correctement, l’extension PHP XML/DOM doit être disponible.',
 	'PHP_SUPPORTED_DB'                 => 'Base de données supportées',
 	'PHP_SUPPORTED_DB_EXPLAIN'         => 'Votre serveur doit supporter au moins une base de données compatible avec PHP. Si aucun module de base de données n’est disponible, vous devriez contacter votre hébergeur ou vous renseigner en consultant la documentation appropriée sur PHP.',
 
