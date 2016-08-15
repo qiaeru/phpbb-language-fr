@@ -49,8 +49,9 @@ $lang = array_merge($lang, array(
 	'MIGRATION_EXCEPTION_ERROR'       => 'Une erreur est survenue lors de la requête et une exception a été exécutée. Les modifications effectuées avant que l’erreur ne survienne ont été restaurées au mieux mais vous devriez vérifier que votre forum fonctionne correctement.',
 	'MIGRATION_NOT_FULFILLABLE'       => 'La migration « %1$s » n’est pas exécutable car la migration « %2$s » est manquante.',
 	'MIGRATION_NOT_VALID'             => '%s n’est pas une migration valide.',
-	'MIGRATION_SCHEMA_DONE'           => 'Schémas installés : %1$s ; durée : %2$.2f secondes',
-	'MIGRATION_SCHEMA_RUNNING'        => 'Installation des schémas : %s.',
+	'MIGRATION_SCHEMA_DONE'           => 'Schéma installé : %1$s ; durée : %2$.2f secondes',
+	'MIGRATION_SCHEMA_IN_PROGRESS'    => 'Installation du schéma : %1$s ; durée : %2$.2f secondes',
+	'MIGRATION_SCHEMA_RUNNING'        => 'Installation du schéma : %s.',
 
 	'MIGRATION_INVALID_DATA_MISSING_CONDITION'   => 'Une migration n’est pas valide. Une condition dans une instruction d’aide « IF » est manquant.',
 	'MIGRATION_INVALID_DATA_MISSING_STEP'        => 'Une migration n’est pas valide. Un rappel valide à une étape de migration dans une instruction d’aide « IF » est manquant.',
