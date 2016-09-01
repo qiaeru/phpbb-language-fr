@@ -69,10 +69,13 @@ $lang = array_merge($lang, [
 	'MIGRATION_INVALID_DATA_UNDEFINED_METHOD'    => 'Une migration n’est pas valide. Une méthode d’outil de migration indéfini a été découvert.',
 
 	'MODULE_ERROR'               => 'Une erreur est survenue lors de la création d’un module : %s',
+	'MODULE_EXISTS'              => 'Un module existe déjà : %s',
+	'MODULE_EXIST_MULTIPLE'      => 'Plusieurs modules avec ce nom de langue de module parent existent déjà : %s. Veuillez essayer d’utiliser des clés « Before » (avant) et « After » (après) afin de positionner l’emplacement du module.',
 	'MODULE_INFO_FILE_NOT_EXIST' => 'Un fichier d’information du module est manquant : %2$s',
 	'MODULE_NOT_EXIST'           => 'Un module nécessaire est introuvable : %s',
 
-	'PERMISSION_NOT_EXIST' => 'Le réglage de permission « %s » est introuvable.',
+	'PARENT_MODULE_FIND_ERROR' => 'Impossible de déterminer l’identifiant du module parent : %s',
+	'PERMISSION_NOT_EXIST'     => 'Le réglage de permission « %s » est introuvable.',
 
 	'ROLE_NOT_EXIST' => 'Le rôle de permission « %s » est introuvable.',
 ]);
