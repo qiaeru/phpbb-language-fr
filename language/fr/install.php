@@ -185,7 +185,6 @@ $lang = array_merge($lang, [
 	'TABLE_PREFIX_EXPLAIN' => 'Le préfixe doit démarrer avec une lettre et ne doit contenir que des lettres, des nombres et des tirets bas.',
 
 	// Database options
-	'DB_OPTION_MSSQL'       => 'MSSQL Server 2000+',
 	'DB_OPTION_MSSQL_ODBC'  => 'MSSQL Server 2000+ via ODBC',
 	'DB_OPTION_MSSQLNATIVE' => 'MSSQL Server 2005+ [ Natif ]',
 	'DB_OPTION_MYSQL'       => 'MySQL',
