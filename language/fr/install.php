@@ -71,7 +71,6 @@ $lang = array_merge($lang, [
 	<ul>
 		<li>MySQL 3.23 ou supérieur (MySQLi supporté)</li>
 		<li>PostgreSQL 8.3+</li>
-		<li>SQLite 2.8.2+</li>
 		<li>SQLite 3.6.15+</li>
 		<li>MS SQL Server 2000 ou supérieur (directement ou depuis ODBC)</li>
 		<li>MS SQL Server 2005 ou supérieur (en natif)</li>
@@ -190,7 +189,6 @@ $lang = array_merge($lang, [
 	'DB_OPTION_MYSQLI'      => 'MySQL avec l’extension MySQLi',
 	'DB_OPTION_ORACLE'      => 'Oracle',
 	'DB_OPTION_POSTGRES'    => 'PostgreSQL',
-	'DB_OPTION_SQLITE'      => 'SQLite 2',
 	'DB_OPTION_SQLITE3'     => 'SQLite 3',
 
 	// Errors
@@ -203,7 +201,6 @@ $lang = array_merge($lang, [
 	'INST_ERR_DB_NO_ERROR'          => 'Aucun message d’erreur.',
 	'INST_ERR_PREFIX'               => 'Des tables contenant le préfixe spécifié existent déjà. Veuillez en choisir un autre.',
 	'INST_ERR_DB_NO_MYSQLI'         => 'La version de MySQL installée sur votre serveur est incompatible avec l’option « MySQL avec l’extension MySQLi » sélectionnée. Veuillez plutôt essayer de sélectionner l’option « MySQL ».',
-	'INST_ERR_DB_NO_SQLITE'         => 'La version de l’extension SQLite installée sur votre serveur est obsolète. Elle doit être mise à jour vers la version 2.8.2 ou supérieure.',
 	'INST_ERR_DB_NO_SQLITE3'        => 'La version de l’extension SQLite installée sur votre serveur est obsolète. Elle doit être mise à jour vers la version 3.6.15 ou supérieure.',
 	'INST_ERR_DB_NO_ORACLE'         => 'La version d’Oracle installée sur votre serveur nécessite que vous régliez le paramètre <var>NLS_CHARACTERSET</var> sur <var>UTF8</var>. Veuillez modifier ce paramètre ou mettre à jour votre version vers la version 9.2 ou supérieure.',
 	'INST_ERR_DB_NO_POSTGRES'       => 'La base de données sélectionnée n’est pas encodée en <var>UNICODE</var> ou en <var>UTF8</var>. Veuillez essayer de sélectionner une base de données supportant un de ces encodages.',
