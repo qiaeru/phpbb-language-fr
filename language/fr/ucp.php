@@ -99,6 +99,7 @@ $lang = array_merge($lang, [
 	'AVATAR_DRIVER_UPLOAD_TITLE'     => 'Avatar local',
 	'AVATAR_DRIVER_UPLOAD_EXPLAIN'   => 'Transférez une image présente sur votre ordinateur afin d’en faire votre avatar.',
 	'AVATAR_EXPLAIN'                 => 'Dimensions maximales : %1$s de large et %2$s de haut, %3$.2f Kio.',
+	'AVATAR_EXPLAIN_NO_FILESIZE'     => 'Dimensions maximales : %1$s de large et %2$s de haut.',
 	'AVATAR_FEATURES_DISABLED'       => 'Les avatars sont actuellement désactivés.',
 	'AVATAR_GALLERY'                 => 'Galerie locale',
 	'AVATAR_GENERAL_UPLOAD_ERROR'    => 'Impossible de transférer l’avatar vers %s.',
