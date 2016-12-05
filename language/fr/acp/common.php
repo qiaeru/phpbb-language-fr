@@ -107,6 +107,8 @@ $lang = array_merge($lang, [
 	'ACP_GROUPS_PERMISSIONS'       => 'Permissions des groupes',
 	'ACP_GROUPS_POSITION'          => 'Gérer la position des groupes',
 
+	'ACP_HELP_PHPBB' => 'Aide au support de phpBB',
+
 	'ACP_ICONS'          => 'Icônes de sujet',
 	'ACP_ICONS_SMILIES'  => 'Icônes de sujet et émoticônes',
 	'ACP_INACTIVE_USERS' => 'Utilisateurs inactifs',
@@ -166,7 +168,6 @@ $lang = array_merge($lang, [
 	'ACP_SEARCH_SETTINGS' => 'Réglages de la recherche',
 
 	'ACP_SECURITY_SETTINGS'    => 'Réglages de sécurité',
-	'ACP_SEND_STATISTICS'      => 'Envoyer les informations statistiques',
 	'ACP_SERVER_CONFIGURATION' => 'Configuration du serveur',
 	'ACP_SERVER_SETTINGS'      => 'Réglages du serveur',
 	'ACP_SIGNATURE_SETTINGS'   => 'Réglages des signatures',
@@ -473,16 +474,18 @@ $lang = array_merge($lang, [
 	'USER_IS_INACTIVE' => 'L’utilisateur est inactif',
 ]);
 
-// Send statistics page
+// Help support phpBB page
 $lang = array_merge($lang, [
 	'EXPLAIN_SEND_STATISTICS' => 'Vous pouvez nous soumettre les informations statistiques sur votre serveur et sur la configuration de votre forum. Toutes les informations pouvant vous identifier ou identifier votre site internet ont été supprimées, les données sont entièrement <strong>anonymes</strong>. Nous utilisons ces informations afin de mieux adapter nos décisions sur les futures versions de phpBB. Les statistiques sont rendues publiques. Nous partageons également ces données avec le projet PHP, qui est l’auteur du langage de programmation du même nom, majoritairement utilisé dans phpBB.',
 	'EXPLAIN_SHOW_STATISTICS' => 'En cliquant sur le bouton ci-dessous, vous pouvez prévisualiser toutes les variables qui nous seront transmises.',
 	'DONT_SEND_STATISTICS'    => 'Revenir au panneau de contrôle d’administration sans envoyer les informations statistiques.',
 	'GO_ACP_MAIN'             => 'Aller sur la page de démarrage du PCA',
 	'HIDE_STATISTICS'         => 'Masquer les informations',
-	'SEND_STATISTICS'         => 'Envoyer les informations statistiques',
+	'SEND_STATISTICS'         => 'Envoyer les statistiques',
+	'SEND_STATISTICS_LONG'    => 'Envoyer les informations statistiques',
 	'SHOW_STATISTICS'         => 'Afficher les informations',
 	'THANKS_SEND_STATISTICS'  => 'Nous vous remercions d’avoir eu l’amabilité d’envoyer vos informations.',
+	'FAIL_SEND_STATISTICS'    => 'Échec de l’envoi des statistiquues',
 ]);
 
 // Log Entries
@@ -815,4 +818,5 @@ $lang = array_merge($lang, [
 	'LOG_EXT_ENABLE'  => '<strong>Activation d’une extension</strong><br />» %s',
 	'LOG_EXT_DISABLE' => '<strong>Désactivation d’une extension</strong><br />» %s',
 	'LOG_EXT_PURGE'   => '<strong>Suppression des données d’une extension</strong><br />» %s',
+	'LOG_EXT_UPDATE'  => '<strong>Mise à jour d’une extension</strong><br />» %s',
 ]);
