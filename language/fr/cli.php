@@ -66,7 +66,8 @@ $lang = array_merge($lang, [
 	'CLI_DESCRIPTION_OPTION_SAFE_MODE' => 'Exécuter en mode sans échec (sans extension).',
 	'CLI_DESCRIPTION_OPTION_SHELL'     => 'Lancer la console.',
 
-	'CLI_DESCRIPTION_PURGE_EXTENSION'                 => 'Purge l’extension spécifiée.',
+	'CLI_DESCRIPTION_PURGE_EXTENSION' => 'Purge l’extension spécifiée.',
+
 	'CLI_DESCRIPTION_REPARSER_LIST'                   => 'Liste les types de texte qui peuvent être réanalysés.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE'                => 'Réanalyse le texte stocké avec les services actuels text_formatter.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_ARG_1'          => 'Le type de texte à réanalyser. Laissez ce champ vide afin de tout réanalyser.',
@@ -75,13 +76,22 @@ $lang = array_merge($lang, [
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MAX'  => 'Plus important numéro d’enregistrement à traiter',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_SIZE' => 'Nombre approximatif d’enregistrements à traiter à la fois',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RESUME'     => 'Démarrer la réanalyse où la dernière exécution s’est arrêtée',
-	'CLI_DESCRIPTION_RECALCULATE_EMAIL_HASH'          => 'Recalcule la colonne user_email_hash de la table des utilisateurs.',
-	'CLI_DESCRIPTION_SET_ATOMIC_CONFIG'               => 'Règle une valeur de l’option de configuration si l’ancienne valeur est identique à la valeur actuelle',
-	'CLI_DESCRIPTION_SET_CONFIG'                      => 'Règle une valeur de l’option de configuration',
+
+	'CLI_DESCRIPTION_RECALCULATE_EMAIL_HASH' => 'Recalcule la colonne user_email_hash de la table des utilisateurs.',
+
+	'CLI_DESCRIPTION_SET_ATOMIC_CONFIG' => 'Règle une valeur de l’option de configuration si l’ancienne valeur est identique à la valeur actuelle',
+	'CLI_DESCRIPTION_SET_CONFIG'        => 'Règle une valeur de l’option de configuration',
 
 	'CLI_DESCRIPTION_THUMBNAIL_DELETE'   => 'Supprimer toutes les vignettes existantes.',
 	'CLI_DESCRIPTION_THUMBNAIL_GENERATE' => 'Générer toutes les vignettes manquantes.',
 	'CLI_DESCRIPTION_THUMBNAIL_RECREATE' => 'Recréer toutes les vignettes.',
+
+	'CLI_DESCRIPTION_UPDATE_CHECK'                  => 'Vérifier si le forum est à jour.',
+	'CLI_DESCRIPTION_UPDATE_CHECK_ARGUMENT_1'       => 'Nom de l’extension à vérifier (si tout, cela vérifiera toutes les extensions)',
+	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_CACHE'     => 'Exécuter la commande de vérification avec le cache.',
+	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_STABILITY' => 'Exécuter la commande en choisissant de ne vérifier que les versions stables ou instables.',
+
+	'CLI_ERROR_INVALID_STABILITY' => '« %s » n’est pas une stabilité valide.',
 
 	'CLI_DESCRIPTION_USER_ACTIVATE'            => 'Activer (ou désactiver) le compte d’un utilisateur.',
 	'CLI_DESCRIPTION_USER_ACTIVATE_USERNAME'   => 'Nom d’utilisateur du compte à activer.',
