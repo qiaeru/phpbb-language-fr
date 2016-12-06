@@ -327,6 +327,10 @@ $lang = array_merge($lang, [
 	'USERNAMES_EXPLAIN'  => 'Insérez chaque nom d’utilisateur sur une nouvelle ligne.',
 	'USER_CONTROL_PANEL' => 'Panneau de contrôle de l’utilisateur',
 
+	'UPDATE_NEEDED'     => 'Le forum n’est pas à jour.',
+	'UPDATE_NOT_NEEDED' => 'Le forum est à jour.',
+	'UPDATES_AVAILABLE' => 'Mises à jour disponibles :',
+
 	'WARNING' => 'Avertissement',
 ]);
 
