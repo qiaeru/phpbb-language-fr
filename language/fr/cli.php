@@ -69,13 +69,14 @@ $lang = array_merge($lang, [
 	'CLI_DESCRIPTION_PURGE_EXTENSION' => 'Purge l’extension spécifiée.',
 
 	'CLI_DESCRIPTION_REPARSER_LIST'                   => 'Liste les types de texte qui peuvent être réanalysés.',
+	'CLI_DESCRIPTION_REPARSER_AVAILABLE'              => 'Réanalyseurs syntaxiques disponibles :',
 	'CLI_DESCRIPTION_REPARSER_REPARSE'                => 'Réanalyse le texte stocké avec les services actuels text_formatter.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_ARG_1'          => 'Le type de texte à réanalyser. Laissez ce champ vide afin de tout réanalyser.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_DRY_RUN'    => 'Ne sauvegarder aucune modification, imprimer seulement ce qui se passerait',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MIN'  => 'Plus faible numéro d’enregistrement à traiter',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MAX'  => 'Plus important numéro d’enregistrement à traiter',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_SIZE' => 'Nombre approximatif d’enregistrements à traiter à la fois',
-	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RESUME'     => 'Démarrer la réanalyse où la dernière exécution s’est arrêtée',
+	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RESUME'     => 'Démarrer la réanalyse syntaxique où la dernière exécution s’est arrêtée',
 
 	'CLI_DESCRIPTION_RECALCULATE_EMAIL_HASH' => 'Recalcule la colonne user_email_hash de la table des utilisateurs.',
 
