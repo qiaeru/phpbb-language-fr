@@ -88,7 +88,7 @@ $lang = array_merge($lang, [
 	'CLI_DESCRIPTION_THUMBNAIL_RECREATE' => 'Recréer toutes les vignettes.',
 
 	'CLI_DESCRIPTION_UPDATE_CHECK'                  => 'Vérifier si le forum est à jour.',
-	'CLI_DESCRIPTION_UPDATE_CHECK_ARGUMENT_1'       => 'Nom de l’extension à vérifier (si tout, cela vérifiera toutes les extensions)',
+	'CLI_DESCRIPTION_UPDATE_CHECK_ARGUMENT_1'       => 'Nom de l’extension à vérifier (si « all », cela vérifiera toutes les extensions)',
 	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_CACHE'     => 'Exécuter la commande de vérification avec le cache.',
 	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_STABILITY' => 'Exécuter la commande en choisissant de ne vérifier que les versions stables ou instables.',
 
