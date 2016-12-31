@@ -47,5 +47,5 @@ $lang = array_merge($lang, [
 	'ACP_VIGLINK_CLAIM'            => 'Me reverser toutes les parts des commissions',
 	'ACP_VIGLINK_CLAIM_EXPLAIN'    => 'Vous pouvez récupérer la totalité des parts des commissions sur les ventes générées à partir des liens monétisés de votre forum au lieu de verser ces parts comme des donations au projet phpBB. Pour récupérer ces parts, vous devez posséder un compte « VigLink Convert ».',
 	'ACP_VIGLINK_CONVERT_ACCOUNT'  => 'Compte « VigLink Convert »',
-	'ACP_VIGLINK_NO_CONVERT_LINK'  => 'Le lien vers votre compte « VigLink Convert » est introuvable.'
+	'ACP_VIGLINK_NO_CONVERT_LINK'  => 'Le lien vers votre compte « VigLink Convert » est introuvable.',
 ]);
