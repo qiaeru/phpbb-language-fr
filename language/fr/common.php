@@ -336,6 +336,7 @@ $lang = array_merge($lang, [
 	'INTERESTS'                => 'Centres d’intérêt',
 	'INVALID_DIGEST_CHALLENGE' => 'Le Digest Challenge est invalide.',
 	'INVALID_EMAIL_LOG'        => '<strong>%s</strong> est une adresse de courriel potentiellement invalide ?',
+	'INVALID_FEED_ATTACHMENTS' => 'Le flux sélectionné a tenté d’extraire des pièces jointes avec des contraintes non valides.',
 	'INVALID_PLURAL_RULE'      => 'Cette règle de pluriel est invalide. Seuls les nombres entiers compris entre 0 et 15 sont autorisés.',
 	'IP'                       => 'IP',
 	'IP_BLACKLISTED'           => 'Votre adresse IP %1$s a été bloquée car elle est présente dans la liste noire. Pour plus d’informations, veuillez consulter <a href="%2$s">%2$s</a>.',
