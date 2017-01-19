@@ -157,11 +157,13 @@ $lang = array_merge($lang, [
 
 // Post Settings
 $lang = array_merge($lang, [
-	'ACP_POST_SETTINGS_EXPLAIN' => 'Vous pouvez effectuer sur cette page tous les réglages relatifs à la publication.',
-	'ALLOW_POST_LINKS'          => 'Autoriser l’insertion de liens dans les messages et les messages privés',
-	'ALLOW_POST_LINKS_EXPLAIN'  => 'Si vous n’autorisez pas cette fonctionnalité, l’utilisation de la balise BBCode <code>[URL]</code> et la transformation automatique de texte sous forme de lien sera désactivée.',
-	'ALLOW_POST_FLASH'          => 'Autoriser l’utilisation de la balise BBCode <code>[FLASH]</code> dans les messages',
-	'ALLOW_POST_FLASH_EXPLAIN'  => 'Si vous n’autorisez pas cette fonctionnalité, l’utilisation de la balise BBCode <code>[FLASH]</code> sera désactivée dans tous les messages. Dans le cas contraire, vous pourrez déterminer depuis le système de permissions quels seront les utilisateurs qui pourront, ou non, utiliser la balise BBCode <code>[FLASH]</code>.',
+	'ACP_POST_SETTINGS_EXPLAIN'     => 'Vous pouvez effectuer sur cette page tous les réglages relatifs à la publication.',
+	'ALLOW_POST_LINKS'              => 'Autoriser l’insertion de liens dans les messages et les messages privés',
+	'ALLOW_POST_LINKS_EXPLAIN'      => 'Si vous n’autorisez pas cette fonctionnalité, l’utilisation de la balise BBCode <code>[URL]</code> et la transformation automatique de texte sous forme de lien sera désactivée.',
+	'ALLOWED_SCHEMES_LINKS'         => 'Systèmes de liens autorisés',
+	'ALLOWED_SCHEMES_LINKS_EXPLAIN' => 'Les utilisateurs ne peuvent publier que les liens sans système de liens ou les liens avec des systèmes de liens autorisés ici, en les séparant par une virgule.',
+	'ALLOW_POST_FLASH'              => 'Autoriser l’utilisation de la balise BBCode <code>[FLASH]</code> dans les messages',
+	'ALLOW_POST_FLASH_EXPLAIN'      => 'Si vous n’autorisez pas cette fonctionnalité, l’utilisation de la balise BBCode <code>[FLASH]</code> sera désactivée dans tous les messages. Dans le cas contraire, vous pourrez déterminer depuis le système de permissions quels seront les utilisateurs qui pourront, ou non, utiliser la balise BBCode <code>[FLASH]</code>.',
 
 	'BUMP_INTERVAL'               => 'Intervalle de remontée des sujets',
 	'BUMP_INTERVAL_EXPLAIN'       => 'Le nombre de minutes, d’heures ou de jours qui s’écoulera entre le dernier message d’un sujet et la possibilité de remonter ce même sujet. Réglez cette valeur sur 0 afin de désactiver cette fonctionnalité.',
