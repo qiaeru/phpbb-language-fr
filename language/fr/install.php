@@ -573,6 +573,7 @@ $lang = array_merge($lang, array(
 	'UPDATING_DATA'             => 'Mise à jour des données',
 	'UPDATING_TO_LATEST_STABLE' => 'Mise à jour de la base de données vers la dernière version stable',
 	'UPDATED_VERSION'           => 'Version mise à jour',
+	'UPGRADE_INSTRUCTIONS'      => 'La version <strong>%1$s</strong>, incluant de nouvelles fonctionnalités, est disponible. Veuillez consulter <a href="%2$s" title="%2$s"><strong>l’annonce de sortie</strong></a> (en anglais) pour vous renseigner sur tout ce qu’elle apporte et savoir comment mettre à jour votre forum.',
 	'UPLOAD_METHOD'             => 'Méthode de transfert',
 
 	'UPDATE_DB_SUCCESS'   => 'La mise à jour de la base de données a été effectuée.',
