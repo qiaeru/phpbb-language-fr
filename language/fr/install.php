@@ -223,9 +223,10 @@ $lang = array_merge($lang, [
 	// Server data
 	//
 	// Form labels
-	'SERVER_CONFIG'       => 'Configuration du serveur',
-	'SCRIPT_PATH'         => 'Chemin du forum',
-	'SCRIPT_PATH_EXPLAIN' => 'Le chemin menant à votre forum par rapport au nom de domaine, tel que <samp>/phpBB3</samp>.',
+	'UPGRADE_INSTRUCTIONS' => 'La version <strong>%1$s</strong>, incluant de nouvelles fonctionnalités, est disponible. Veuillez consulter <a href="%2$s" title="%2$s"><strong>l’annonce de sortie</strong></a> (en anglais) pour vous renseigner sur tout ce qu’elle apporte et savoir comment mettre à jour votre forum.',
+	'SERVER_CONFIG'        => 'Configuration du serveur',
+	'SCRIPT_PATH'          => 'Chemin du forum',
+	'SCRIPT_PATH_EXPLAIN'  => 'Le chemin menant à votre forum par rapport au nom de domaine, tel que <samp>/phpBB3</samp>.',
 ]);
 
 // Default database schema entries...
