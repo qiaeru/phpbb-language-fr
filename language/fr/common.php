@@ -106,7 +106,7 @@ $lang = array_merge($lang, [
 	'AVATAR_NO_SIZE'                                     => 'La taille de l’avatar lié n’a pas pu être déterminée. Veuillez la saisir manuellement.',
 	'AVATAR_PARTIAL_UPLOAD'                              => 'Le fichier que vous avez spécifié n’a été que partiellement transféré.',
 	'AVATAR_PHP_SIZE_NA'                                 => 'La taille de l’avatar est trop importante.<br />La taille maximale autorisée, située dans le fichier php.ini, n’a pas pu être déterminée.',
-	'AVATAR_PHP_SIZE_OVERRUN'                            => 'La taille de l’avatar est trop importante. La taille maximale autorisée est de %1$d %2$s.<br />Veuillez noter que ce Paramètre est situé dans le fichier php.ini et qu’il ne peut pas être écrasé.',
+	'AVATAR_PHP_SIZE_OVERRUN'                            => 'La taille de l’avatar est trop importante. La taille maximale autorisée est de %1$d %2$s.<br />Veuillez noter que cette option est située dans le fichier php.ini et qu’elle ne peut pas être écrasée.',
 	'AVATAR_REMOTE_UPLOAD_TIMEOUT'                       => 'L’avatar que vous avez spécifié n’a pu être transféré car la requête a expiré.',
 	'AVATAR_PHP_UPLOAD_STOPPED'                          => 'Une extension PHP a interrompu le transfert du fichier.',
 	'AVATAR_URL_INVALID'                                 => 'Le lien que vous avez spécifié est invalide.',
@@ -150,8 +150,8 @@ $lang = array_merge($lang, [
 	'CANCEL'               => 'Annuler',
 	'CHANGE'               => 'Modifier',
 	'CHANGE_FONT_SIZE'     => 'Modifier la taille de la police de caractères',
-	'CHANGING_PREFERENCES' => 'Modifie les préférences du forum',
-	'CHANGING_PROFILE'     => 'Modifie les Paramètres du profil',
+	'CHANGING_PREFERENCES' => 'Configure les préférences du forum',
+	'CHANGING_PROFILE'     => 'Configure les paramètres du profil',
 	'CHARACTERS'           => [
 		1 => '%d caractère',
 		2 => '%d caractères',
@@ -671,7 +671,7 @@ $lang = array_merge($lang, [
 	'SEARCH'                   => 'Rechercher',
 	'SEARCH_MINI'              => 'Rechercher…',
 	'SEARCH_ADV'               => 'Recherche avancée',
-	'SEARCH_ADV_EXPLAIN'       => 'Accéder aux Paramètres avancés de la recherche',
+	'SEARCH_ADV_EXPLAIN'       => 'Accéder aux paramètres avancés de la recherche',
 	'SEARCH_KEYWORDS'          => 'Rechercher par mots-clés',
 	'SEARCHING_FORUMS'         => 'Recherche dans les forums',
 	'SEARCH_ACTIVE_TOPICS'     => 'Sujets actifs',
@@ -733,7 +733,7 @@ $lang = array_merge($lang, [
 	'TIMEOUT_PROCESSING_REQ' => 'Délai dépassé.',
 
 	'TOO_LARGE'                => 'La valeur que vous avez spécifiée est trop importante.',
-	'TOO_LARGE_MAX_RECIPIENTS' => 'La valeur du Paramètre <strong>Nombre maximal de destinataires autorisés par message privé</strong> que vous avez spécifiée est trop importante.',
+	'TOO_LARGE_MAX_RECIPIENTS' => 'La valeur du <strong>Nombre maximal de destinataires autorisés par message privé</strong> que vous avez spécifiée est trop importante.',
 
 	'TOO_LONG' => 'La valeur que vous avez spécifiée est trop longue.',
 
@@ -760,7 +760,7 @@ $lang = array_merge($lang, [
 	'TOO_SHORT_EMAIL'            => 'L’adresse de courriel que vous avez spécifiée est trop courte.',
 	'TOO_SHORT_EMAIL_CONFIRM'    => 'L’adresse de courriel de confirmation que vous avez spécifiée est trop courte.',
 	'TOO_SMALL'                  => 'La valeur que vous avez spécifiée est trop faible.',
-	'TOO_SMALL_MAX_RECIPIENTS'   => 'La valeur du Paramètre <strong>Nombre maximal de destinataires autorisés par message privé</strong> que vous avez spécifiée est trop faible.',
+	'TOO_SMALL_MAX_RECIPIENTS'   => 'La valeur du <strong>Nombre maximal de destinataires autorisés par message privé</strong> que vous avez spécifiée est trop faible.',
 
 	'TOPIC'              => 'Sujet',
 	'TOPICS'             => 'Sujets',

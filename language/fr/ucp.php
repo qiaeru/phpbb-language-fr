@@ -532,21 +532,21 @@ $lang = array_merge($lang, [
 	'UCP_NOTIFICATION_OPTIONS_EXPLAIN' => 'Vous pouvez définir sur cette page les méthodes de notification du forum.',
 
 	'UCP_PREFS'          => 'Préférences du forum',
-	'UCP_PREFS_PERSONAL' => 'Éditer les Paramètres généraux',
+	'UCP_PREFS_PERSONAL' => 'Éditer les paramètres généraux',
 	'UCP_PREFS_POST'     => 'Éditer les préférences de publication par défaut',
 	'UCP_PREFS_VIEW'     => 'Éditer les options d’affichage',
 
 	'UCP_PM'         => 'Messages privés',
 	'UCP_PM_COMPOSE' => 'Rédiger un message',
 	'UCP_PM_DRAFTS'  => 'Gérer les brouillons de MP',
-	'UCP_PM_OPTIONS' => 'Boîtes, règles et Paramètres',
+	'UCP_PM_OPTIONS' => 'Boîtes, règles et paramètres',
 	'UCP_PM_UNREAD'  => 'Messages non lus',
 	'UCP_PM_VIEW'    => 'Consulter les messages',
 
 	'UCP_PROFILE'                => 'Profil',
 	'UCP_PROFILE_AVATAR'         => 'Éditer l’avatar',
 	'UCP_PROFILE_PROFILE_INFO'   => 'Éditer le profil',
-	'UCP_PROFILE_REG_DETAILS'    => 'Éditer les Paramètres du compte',
+	'UCP_PROFILE_REG_DETAILS'    => 'Éditer les paramètres du compte',
 	'UCP_PROFILE_SIGNATURE'      => 'Éditer la signature',
 	'UCP_PROFILE_AUTOLOGIN_KEYS' => 'Gérer les clés de connexions automatiques',
 

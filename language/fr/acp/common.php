@@ -300,7 +300,7 @@ $lang = array_merge($lang, [
 	'PARSE_SMILIES'                   => 'Analyser la syntaxe des émoticônes',
 	'PARSE_URLS'                      => 'Analyser la syntaxe des liens',
 	'PERMISSIONS_TRANSFERRED'         => 'Permissions transférées',
-	'PERMISSIONS_TRANSFERRED_EXPLAIN' => 'Vous détenez actuellement les permissions de %1$s. Vous pouvez parcourir le forum avec les permissions de cet utilisateur mais vous ne pouvez pas accéder au panneau de contrôle d’administration car les permissions des administrateurs ne sont pas transférées. Vous pouvez <a href="%2$s"><strong>réinitialiser les Paramètres de vos permissions</strong></a> à tout moment.',
+	'PERMISSIONS_TRANSFERRED_EXPLAIN' => 'Vous détenez actuellement les permissions de %1$s. Vous pouvez parcourir le forum avec les permissions de cet utilisateur mais vous ne pouvez pas accéder au panneau de contrôle d’administration car les permissions des administrateurs ne sont pas transférées. Vous pouvez <a href="%2$s"><strong>réinitialiser la configuration de vos permissions</strong></a> à tout moment.',
 	'PROCEED_TO_ACP'                  => '%sAller au PCA%s',
 
 	'RELEASE_ANNOUNCEMENT' => 'Annonce',
@@ -312,10 +312,10 @@ $lang = array_merge($lang, [
 	'SELECT_ANONYMOUS' => 'Sélectionner un utilisateur anonyme',
 	'SELECT_OPTION'    => 'Sélectionner une option',
 
-	'SETTING_TOO_LOW'   => 'La valeur que vous avez spécifiée concernant le Paramètre « %1$s » est trop faible. Cette valeur doit être supérieure ou égale à %2$d.',
-	'SETTING_TOO_BIG'   => 'La valeur que vous avez spécifiée concernant le Paramètre « %1$s » est trop élevée. Cette valeur doit être inférieure ou égale à %2$d.',
-	'SETTING_TOO_LONG'  => 'La valeur que vous avez spécifiée concernant le Paramètre « %1$s » est trop longue. Cette valeur doit être inférieure ou égale à %2$d.',
-	'SETTING_TOO_SHORT' => 'La valeur que vous avez spécifiée concernant le Paramètre « %1$s » est trop courte. Cette valeur doit être supérieure ou égale à %2$d.',
+	'SETTING_TOO_LOW'   => 'La valeur que vous avez spécifiée concernant « %1$s » est trop faible. Cette valeur doit être supérieure ou égale à %2$d.',
+	'SETTING_TOO_BIG'   => 'La valeur que vous avez spécifiée concernant « %1$s » est trop élevée. Cette valeur doit être inférieure ou égale à %2$d.',
+	'SETTING_TOO_LONG'  => 'La valeur que vous avez spécifiée concernant « %1$s » est trop longue. Cette valeur doit être inférieure ou égale à %2$d.',
+	'SETTING_TOO_SHORT' => 'La valeur que vous avez spécifiée concernant « %1$s » est trop courte. Cette valeur doit être supérieure ou égale à %2$d.',
 
 	'SHOW_ALL_OPERATIONS' => 'Afficher toutes les opérations',
 
@@ -336,7 +336,7 @@ $lang = array_merge($lang, [
 
 // PHP info
 $lang = array_merge($lang, [
-	'ACP_PHP_INFO_EXPLAIN' => 'Vous pouvez consulter sur cette page les informations sur la version de PHP qui est installée sur votre serveur. Cela comprend l’ensemble des informations sur les modules chargés, les variables disponibles et les Paramètres par défaut. Ces informations peuvent être utiles afin de diagnostiquer les problèmes présents sur votre serveur. Veuillez noter que certains hébergeurs peuvent limiter l’affichage de ces informations pour des raisons de sécurité. Il est déconseillé de divulguer les informations disponibles sur cette page, sauf si elles sont demandées par un des <a href="https://www.phpbb.com/about/team/">membres de l’équipe officielle</a> (en anglais) sur les forums de support.',
+	'ACP_PHP_INFO_EXPLAIN' => 'Vous pouvez consulter sur cette page les informations sur la version de PHP qui est installée sur votre serveur. Cela comprend l’ensemble des informations sur les modules chargés, les variables disponibles et les paramètres par défaut. Ces informations peuvent être utiles afin de diagnostiquer les problèmes présents sur votre serveur. Veuillez noter que certains hébergeurs peuvent limiter l’affichage de ces informations pour des raisons de sécurité. Il est déconseillé de divulguer les informations disponibles sur cette page, sauf si elles sont demandées par un des <a href="https://www.phpbb.com/about/team/">membres de l’équipe officielle</a> (en anglais) sur les forums de support.',
 
 	'NO_PHPINFO_AVAILABLE' => 'Impossible d’afficher les informations concernant votre configuration de PHP. La fonction phpinfo() a été désactivée pour des raisons de sécurité.',
 ]);
@@ -464,7 +464,7 @@ $lang = array_merge($lang, [
 	'INACTIVE_REASON_UNKNOWN'      => 'Inconnue',
 	'INACTIVE_USERS'               => 'Utilisateurs inactifs',
 	'INACTIVE_USERS_EXPLAIN'       => 'Cette liste vous affiche les utilisateurs inscrits dont le compte est actuellement inactif. Vous pouvez activer, supprimer ou rappeler (en envoyant un courriel) ces utilisateurs.',
-	'INACTIVE_USERS_EXPLAIN_INDEX' => 'Cette liste vous affiche les dix derniers utilisateurs inscrits dont le compte est actuellement inactif. Les comptes d’utilisateurs peuvent être inactifs lorsqu’une activation est requise dans le Paramètre des inscriptions mais que certains comptes d’utilisateurs n’ont pas encore été activés. Les comptes d’utilisateurs désactivés sont également affichés dans cette liste. Vous pouvez consulter la totalité de la liste des utilisateurs inactifs depuis le menu approprié ou en cliquant sur le lien ci-dessous d’où vous pourrez activer, supprimer ou rappeler (en envoyant un courriel) ces utilisateurs.',
+	'INACTIVE_USERS_EXPLAIN_INDEX' => 'Cette liste vous affiche les dix derniers utilisateurs inscrits dont le compte est actuellement inactif. Les comptes d’utilisateurs peuvent être inactifs lorsqu’une activation est requise dans les paramètres des inscriptions mais que certains comptes d’utilisateurs n’ont pas encore été activés. Les comptes d’utilisateurs désactivés sont également affichés dans cette liste. Vous pouvez consulter la totalité de la liste des utilisateurs inactifs depuis le menu approprié ou en cliquant sur le lien ci-dessous d’où vous pourrez activer, supprimer ou rappeler (en envoyant un courriel) ces utilisateurs.',
 
 	'NO_INACTIVE_USERS' => 'Aucun utilisateur inactif',
 

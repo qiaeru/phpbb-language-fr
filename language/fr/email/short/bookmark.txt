@@ -13,7 +13,7 @@ Si vous souhaitez consulter le sujet, veuillez cliquer sur le lien suivant :
 Si vous souhaitez consulter le forum, veuillez cliquer sur le lien suivant :
 {U_FORUM}
 
-Si vous ne souhaitez plus recevoir de notifications lorsqu’un utilisateur répond à un sujet que vous avez ajouté aux favoris, vous pouvez modifier les Paramètres de notification sur le lien suivant :
+Si vous ne souhaitez plus recevoir de notifications lorsqu’un utilisateur répond à un sujet que vous avez ajouté aux favoris, vous pouvez configurer les paramètres de notification sur le lien suivant :
 
 {U_NOTIFICATION_SETTINGS}
 

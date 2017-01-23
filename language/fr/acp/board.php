@@ -73,7 +73,7 @@ $lang = array_merge($lang, [
 
 	'ALLOW_ATTACHMENTS'         => 'Activer les pièces jointes',
 	'ALLOW_BIRTHDAYS'           => 'Activer les anniversaires',
-	'ALLOW_BIRTHDAYS_EXPLAIN'   => 'Les utilisateurs pourront saisir leur date de naissance et leur âge sera affiché sur leur profil. Veuillez noter que la liste des anniversaires qui est affichée sur l’index du forum ne dépend pas de ce Paramètre.',
+	'ALLOW_BIRTHDAYS_EXPLAIN'   => 'Les utilisateurs pourront saisir leur date de naissance et leur âge sera affiché sur leur profil. Veuillez noter que la liste des anniversaires qui est affichée sur l’index du forum ne dépend pas de ce paramètre.',
 	'ALLOW_BOOKMARKS'           => 'Autoriser l’ajout de sujets aux favoris',
 	'ALLOW_BOOKMARKS_EXPLAIN'   => 'Les utilisateurs pourront ajouter des sujets à leurs favoris.',
 	'ALLOW_BBCODE'              => 'Activer le BBCode',
@@ -85,7 +85,7 @@ $lang = array_merge($lang, [
 	'ALLOW_PM_REPORT'           => 'Autoriser les utilisateurs à rapporter des messages privés',
 	'ALLOW_PM_REPORT_EXPLAIN'   => 'Si cette option est activée, les utilisateurs pourront rapporter aux modérateurs du forum les messages privés qu’ils ont reçus ou qu’ils ont envoyés. Ces messages privés seront alors visibles depuis le panneau de contrôle du modérateur.',
 	'ALLOW_QUICK_REPLY'         => 'Activer la réponse rapide',
-	'ALLOW_QUICK_REPLY_EXPLAIN' => 'Si cette option est activée, la réponse rapide devra être autorisée dans les Paramètres spécifiques de chaque forum afin que les utilisateurs puissent utiliser cette fonctionnalité.',
+	'ALLOW_QUICK_REPLY_EXPLAIN' => 'Si cette option est activée, la réponse rapide devra être autorisée dans les paramètres spécifiques de chaque forum afin que les utilisateurs puissent utiliser cette fonctionnalité.',
 	'ALLOW_QUICK_REPLY_BUTTON'  => 'Activer et autoriser la réponse rapide dans tous les forums',
 	'ALLOW_SIG'                 => 'Activer les signatures',
 	'ALLOW_SIG_BBCODE'          => 'Autoriser l’utilisation du BBCode dans les signatures',
@@ -128,7 +128,7 @@ $lang = array_merge($lang, [
 
 // Message Settings
 $lang = array_merge($lang, [
-	'ACP_MESSAGE_SETTINGS_EXPLAIN' => 'Vous pouvez effectuer sur cette page tous les Paramètres relatifs aux messages privés.',
+	'ACP_MESSAGE_SETTINGS_EXPLAIN' => 'Vous pouvez configurer sur cette page tous les paramètres relatifs aux messages privés.',
 
 	'ALLOW_BBCODE_PM'            => 'Autoriser l’utilisation du BBCode dans les messages privés',
 	'ALLOW_FLASH_PM'             => 'Autoriser l’utilisation de la balise BBCode <code>[FLASH]</code>',
@@ -136,7 +136,7 @@ $lang = array_merge($lang, [
 	'ALLOW_FORWARD_PM'           => 'Autoriser le transfert de messages privés',
 	'ALLOW_IMG_PM'               => 'Autoriser l’utilisation de la balise BBCode <code>[IMG]</code>',
 	'ALLOW_MASS_PM'              => 'Autoriser l’envoi de messages privés de masse',
-	'ALLOW_MASS_PM_EXPLAIN'      => 'Les utilisateurs pourront envoyer un message privé à plusieurs utilisateurs et groupes d’utilisateurs. Vous pouvez restreindre l’envoi de messages privés à chaque groupe d’utilisateurs depuis les Paramètres relatifs aux groupes.',
+	'ALLOW_MASS_PM_EXPLAIN'      => 'Les utilisateurs pourront envoyer un message privé à plusieurs utilisateurs et groupes d’utilisateurs. Vous pouvez restreindre l’envoi de messages privés à chaque groupe d’utilisateurs depuis les paramètres relatifs aux groupes.',
 	'ALLOW_PRINT_PM'             => 'Autoriser l’aperçu avant impression dans les messages privés',
 	'ALLOW_QUOTE_PM'             => 'Autoriser les citations dans les messages privés',
 	'ALLOW_SIG_PM'               => 'Autoriser l’insertion de signatures dans les messages privés',
@@ -152,12 +152,12 @@ $lang = array_merge($lang, [
 	'PM_EDIT_TIME'               => 'Limite de la durée d’édition',
 	'PM_EDIT_TIME_EXPLAIN'       => 'Limite la durée d’édition des messages privés qui n’ont pas encore été consultés par leurs destinataires. Réglez cette valeur sur 0 afin de ne pas limiter cette durée.',
 	'PM_MAX_RECIPIENTS'          => 'Nombre maximal de destinataires par message privé',
-	'PM_MAX_RECIPIENTS_EXPLAIN'  => 'Le nombre maximal de destinataires autorisés par message privé. Réglez cette valeur sur 0 afin de ne pas limiter ce nombre. Vous pouvez imposer un nombre différent à chaque groupe d’utilisateurs depuis les Paramètres relatifs aux groupes.',
+	'PM_MAX_RECIPIENTS_EXPLAIN'  => 'Le nombre maximal de destinataires autorisés par message privé. Réglez cette valeur sur 0 afin de ne pas limiter ce nombre. Vous pouvez imposer un nombre différent à chaque groupe d’utilisateurs depuis les paramètres relatifs aux groupes.',
 ]);
 
 // Post Settings
 $lang = array_merge($lang, [
-	'ACP_POST_SETTINGS_EXPLAIN'     => 'Vous pouvez effectuer sur cette page tous les Paramètres relatifs à la publication.',
+	'ACP_POST_SETTINGS_EXPLAIN'     => 'Vous pouvez configurer sur cette page tous les paramètres relatifs à la publication.',
 	'ALLOW_POST_LINKS'              => 'Autoriser l’insertion de liens dans les messages et les messages privés',
 	'ALLOW_POST_LINKS_EXPLAIN'      => 'Si vous n’autorisez pas cette fonctionnalité, l’utilisation de la balise BBCode <code>[URL]</code> et la transformation automatique de texte sous forme de lien sera désactivée.',
 	'ALLOWED_SCHEMES_LINKS'         => 'Systèmes de liens autorisés',
@@ -189,7 +189,7 @@ $lang = array_merge($lang, [
 	'MAX_POST_URLS'               => 'Nombre maximal de liens par message et message privé',
 	'MAX_POST_URLS_EXPLAIN'       => 'Le nombre maximal de liens que les utilisateurs peuvent insérer dans un message et dans un message privé. Réglez cette valeur sur 0 afin de ne pas limiter ce nombre.',
 	'MIN_CHAR_LIMIT'              => 'Nombre minimal de caractères par message et message privé',
-	'MIN_CHAR_LIMIT_EXPLAIN'      => 'Le nombre minimal de caractères que les utilisateurs doivent saisir afin de pouvoir publier un message ou un message privé. La valeur minimale de ce Paramètre est de 1.',
+	'MIN_CHAR_LIMIT_EXPLAIN'      => 'Le nombre minimal de caractères que les utilisateurs doivent saisir afin de pouvoir publier un message ou un message privé. La valeur minimale de cette option est de 1.',
 	'POSTING'                     => 'Publication',
 	'POSTS_PER_PAGE'              => 'Nombre de messages par page',
 	'QUOTE_DEPTH_LIMIT'           => 'Nombre maximal d’imbrications de citations',
@@ -202,7 +202,7 @@ $lang = array_merge($lang, [
 
 // Signature Settings
 $lang = array_merge($lang, [
-	'ACP_SIGNATURE_SETTINGS_EXPLAIN' => 'Vous pouvez effectuer sur cette page tous les Paramètres relatifs aux signatures.',
+	'ACP_SIGNATURE_SETTINGS_EXPLAIN' => 'Vous pouvez configurer sur cette page tous les paramètres relatifs aux signatures.',
 
 	'MAX_SIG_FONT_SIZE'          => 'Taille maximale de la police de caractères dans les signatures',
 	'MAX_SIG_FONT_SIZE_EXPLAIN'  => 'La taille maximale de la police de caractères que les utilisateurs pourront spécifier dans leur signature. Réglez cette valeur sur 0 afin de ne pas limiter cette taille.',
@@ -220,7 +220,7 @@ $lang = array_merge($lang, [
 
 // Registration Settings
 $lang = array_merge($lang, [
-	'ACP_REGISTER_SETTINGS_EXPLAIN' => 'Vous pouvez effectuer sur cette page tous les Paramètres relatifs aux inscriptions et aux profils des utilisateurs.',
+	'ACP_REGISTER_SETTINGS_EXPLAIN' => 'Vous pouvez configurer sur cette page tous les paramètres relatifs aux inscriptions et aux profils des utilisateurs.',
 
 	'ACC_ACTIVATION'                   => 'Méthode d’activation des comptes',
 	'ACC_ACTIVATION_EXPLAIN'           => 'Détermine quels sont les utilisateurs qui bénéficieront d’un accès immédiat au forum ou si une confirmation leur sera demandée. Vous pouvez également désactiver entièrement les nouvelles inscriptions. <em>« L’envoi de courriels depuis le forum » doit être activé afin d’être en mesure de pouvoir utiliser l’activation par un administrateur ou par l’utilisateur lui-même.</em>',
@@ -270,10 +270,10 @@ $lang = array_merge($lang, [
 	'ACP_FEED_GENERAL'        => 'Paramètres généraux des flux',
 	'ACP_FEED_POST_BASED'     => 'Paramètres des flux de messages',
 	'ACP_FEED_TOPIC_BASED'    => 'Paramètres des flux de sujets',
-	'ACP_FEED_SETTINGS_OTHER' => 'Autres Paramètres de flux',
+	'ACP_FEED_SETTINGS_OTHER' => 'Autres paramètres de flux',
 
 	'ACP_FEED_ENABLE'         => 'Activer les flux',
-	'ACP_FEED_ENABLE_EXPLAIN' => 'Active ou désactive les flux ATOM dans la totalité du forum. Si cette option est désactivée, tous les flux seront désactivés, sans prendre en compte les Paramètres des options situées ci-dessous.',
+	'ACP_FEED_ENABLE_EXPLAIN' => 'Active ou désactive les flux ATOM dans la totalité du forum. Si cette option est désactivée, tous les flux seront désactivés, sans prendre en compte les paramètres ci-dessous.',
 	'ACP_FEED_LIMIT'          => 'Nombre d’objets',
 	'ACP_FEED_LIMIT_EXPLAIN'  => 'Le nombre maximal d’objets à afficher dans les flux.',
 
@@ -295,7 +295,7 @@ $lang = array_merge($lang, [
 	'ACP_FEED_OVERALL_FORUMS_EXPLAIN' => 'Le flux des forums affiche une liste de tous les forums.',
 
 	'ACP_FEED_HTTP_AUTH'               => 'Authentification HTTP',
-	'ACP_FEED_HTTP_AUTH_EXPLAIN'       => 'L’authentification HTTP permet aux utilisateurs de recevoir un contenu caché aux invités en ajoutant le paramètre <samp>auth=http</samp> à l’adresse du flux. Veuillez noter que pour fonctionner correctement, certaines installations de PHP peuvent nécessiter des modifications additionnelles sur le fichier .htaccess.',
+	'ACP_FEED_HTTP_AUTH_EXPLAIN'       => 'L’authentification HTTP permet aux utilisateurs de recevoir un contenu caché aux invités en ajoutant <samp>auth=http</samp> à l’adresse du flux. Veuillez noter que pour fonctionner correctement, certaines installations de PHP peuvent nécessiter des modifications additionnelles sur le fichier .htaccess.',
 	'ACP_FEED_ITEM_STATISTICS'         => 'Statistiques des objets',
 	'ACP_FEED_ITEM_STATISTICS_EXPLAIN' => 'Les statistiques individuelles sont affichées sous les articles du flux. Exemples de statistiques : auteur de la publication, date et heure de la publication, nombre de réponses, nombre de vues, etc.',
 	'ACP_FEED_EXCLUDE_ID'              => 'Ignorer ces forums',
@@ -322,7 +322,7 @@ $lang = array_merge($lang, [
 	'CAPTCHA_GD_3D_NOISE'                 => 'Ajouter des objets de bruit en 3D',
 	'CAPTCHA_GD_3D_NOISE_EXPLAIN'         => 'Cela ajoutera sur l’image des objets supplémentaires, par-dessus les lettres.',
 	'CAPTCHA_GD_FONTS'                    => 'Utiliser des polices de caractères différentes',
-	'CAPTCHA_GD_FONTS_EXPLAIN'            => 'Ce Paramètre contrôle le nombre de différentes formes de lettres qui seront utilisées. Vous pouvez seulement utiliser les formes présentes par défaut ou introduire de nouvelles lettres. Il est également possible d’ajouter des lettres en minuscule.',
+	'CAPTCHA_GD_FONTS_EXPLAIN'            => 'Cette option contrôle le nombre de différentes formes de lettres qui seront utilisées. Vous pouvez seulement utiliser les formes présentes par défaut ou introduire de nouvelles lettres. Il est également possible d’ajouter des lettres en minuscule.',
 	'CAPTCHA_FONT_DEFAULT'                => 'Par défaut',
 	'CAPTCHA_FONT_NEW'                    => 'Nouvelles formes',
 	'CAPTCHA_FONT_LOWER'                  => 'Utiliser également des lettres en minuscule',
@@ -347,7 +347,7 @@ $lang = array_merge($lang, [
 
 // Cookie Settings
 $lang = array_merge($lang, [
-	'ACP_COOKIE_SETTINGS_EXPLAIN' => 'Les informations de cette page permettent de définir les données qui seront utilisées afin d’envoyer des cookies au navigateur internet de vos utilisateurs. Dans la plupart des cas, les valeurs par défaut sont suffisantes. Si vous avez besoin de modifier ces dernières, faites-le avec précaution, des Paramètres incorrects peuvent empêcher les utilisateurs à se connecter correctement à votre forum.',
+	'ACP_COOKIE_SETTINGS_EXPLAIN' => 'Les informations de cette page permettent de définir les données qui seront utilisées afin d’envoyer des cookies au navigateur internet de vos utilisateurs. Dans la plupart des cas, les valeurs par défaut sont suffisantes. Si vous avez besoin de modifier ces dernières, faites-le avec précaution, une mauvaise configuration peut empêcher les utilisateurs de se connecter correctement à votre forum.',
 
 	'COOKIE_DOMAIN'          => 'Domaine du cookie',
 	'COOKIE_NAME'            => 'Nom du cookie',
@@ -377,7 +377,7 @@ $lang = array_merge($lang, [
 
 // Load Settings
 $lang = array_merge($lang, [
-	'ACP_LOAD_SETTINGS_EXPLAIN' => 'Vous pouvez activer et désactiver sur cette page certaines fonctionnalités du forum qui pourront réduire la quantité de processus actifs. Sur la plupart des serveurs, il n’est pas nécessaire de désactiver ces fonctionnalités. Cependant, sur certains systèmes d’exploitation ou offres d’hébergement mutualisé, il est préférable de désactiver certaines fonctionnalités dont vous n’avez pas réellement besoin. Vous pouvez également limiter certains Paramètres relatifs à la charge du système et aux sessions actives qui désactiveront automatiquement votre forum si les valeurs sont dépassées.',
+	'ACP_LOAD_SETTINGS_EXPLAIN' => 'Vous pouvez activer et désactiver sur cette page certaines fonctionnalités du forum qui pourront réduire la quantité de processus actifs. Sur la plupart des serveurs, il n’est pas nécessaire de désactiver ces fonctionnalités. Cependant, sur certains systèmes d’exploitation ou offres d’hébergement mutualisé, il est préférable de désactiver certaines fonctionnalités dont vous n’avez pas réellement besoin. Vous pouvez également limiter certaines options relatives à la charge du système et aux sessions actives qui désactiveront automatiquement votre forum si les valeurs sont dépassées.',
 
 	'ALLOW_CDN'                             => 'Autoriser l’utilisation de contenu hébergé sur des serveurs externes',
 	'ALLOW_CDN_EXPLAIN'                     => 'Si cette option est activée, certains fichiers seront distribués par des serveurs externes au lieu de votre serveur. Cette fonctionnalité réduira la bande passante de votre serveur mais peut poser des problèmes de confidentialité concernant les administrateurs soucieux de l’anonymat de leur forum. Dans une installation par défaut, la librairie « jQuery » et la police de caractères « Open Sans » seront distribués par le réseau de distribution de contenu de Google.',
@@ -385,7 +385,7 @@ $lang = array_merge($lang, [
 	'ALLOW_LIVE_SEARCHES_EXPLAIN'           => 'Si cette option est activée, les utilisateurs bénéficieront de suggestions de mots-clés lors de la rédaction de texte dans certains champs du forum.',
 	'CUSTOM_PROFILE_FIELDS'                 => 'Champs de profil personnalisés',
 	'LIMIT_LOAD'                            => 'Limite de la charge du système',
-	'LIMIT_LOAD_EXPLAIN'                    => 'Si la charge du système dépasse cette valeur durant une minute, le forum sera automatiquement désactivé. Une valeur de 1.0 correspond à 100 % de l’utilisation des processus d’un processeur. Cette fonctionnalité ne fonctionne que sur les serveurs basés sous UNIX et dans lesquels ce Paramètre est accessible. Cette valeur se réinitialise sur 0 si phpBB n’arrive pas à charger la limite de la charge du système.',
+	'LIMIT_LOAD_EXPLAIN'                    => 'Si la charge du système dépasse cette valeur durant une minute, le forum sera automatiquement désactivé. Une valeur de 1.0 correspond à 100 % de l’utilisation des processus d’un processeur. Cette fonctionnalité ne fonctionne que sur les serveurs basés sous UNIX et dans lesquels cette option est accessible. Cette valeur se réinitialise sur 0 si phpBB n’arrive pas à charger la limite de la charge du système.',
 	'LIMIT_SESSIONS'                        => 'Limiter le nombre de sessions',
 	'LIMIT_SESSIONS_EXPLAIN'                => 'Si le nombre de sessions dépasse cette valeur durant une minute, le forum sera automatiquement désactivé. Réglez cette valeur sur 0 si vous ne souhaitez pas limiter le nombre de sessions.',
 	'LOAD_CPF_MEMBERLIST'                   => 'Afficher les champs de profil personnalisés dans la liste des membres',
@@ -455,12 +455,12 @@ $lang = array_merge($lang, [
 
 // Server Settings
 $lang = array_merge($lang, [
-	'ACP_SERVER_SETTINGS_EXPLAIN' => 'Vous pouvez effectuer sur cette page les Paramètres relatifs au serveur et au domaine. Veuillez vous assurer de la validité des données présentes ci-dessous car vos courriels pourraient contenir des informations erronées si des données invalides étaient présentes. Lorsque vous saisissez le nom de domaine, n’oubliez pas d’inclure son protocole, tel que http://. Ne modifiez le port que si votre serveur fonctionne sous un port différent dont vous avez connaissance, mais sachez néanmoins que le port 80 est correct dans la plupart des cas.',
+	'ACP_SERVER_SETTINGS_EXPLAIN' => 'Vous pouvez configurer sur cette page les paramètres relatifs au serveur et au domaine. Veuillez vous assurer de la validité des données présentes ci-dessous car vos courriels pourraient contenir des informations erronées si des données invalides étaient présentes. Lorsque vous saisissez le nom de domaine, n’oubliez pas d’inclure son protocole, tel que http://. Ne modifiez le port que si votre serveur fonctionne sous un port différent dont vous avez connaissance, mais sachez néanmoins que le port 80 est correct dans la plupart des cas.',
 
 	'ENABLE_GZIP'                         => 'Activer la compression GZip',
 	'ENABLE_GZIP_EXPLAIN'                 => 'Le contenu généré sera compressé avant d’être envoyé aux utilisateurs. Cela peut réduire le trafic du réseau mais augmentera en contrepartie l’utilisation du processeur de votre serveur et de vos utilisateurs. L’extension zlib de PHP doit être chargée afin que la compression fonctionne.',
-	'FORCE_SERVER_VARS'                   => 'Forcer les Paramètres de la redirection du serveur',
-	'FORCE_SERVER_VARS_EXPLAIN'           => 'Si cette option est activée, les Paramètres de la redirection du serveur spécifiés ci-dessous seront utilisés à la place des valeurs déterminées automatiquement.',
+	'FORCE_SERVER_VARS'                   => 'Forcer les paramètres de la redirection du serveur',
+	'FORCE_SERVER_VARS_EXPLAIN'           => 'Si cette option est activée, les paramètres de la redirection du serveur spécifiés ci-dessous seront utilisés à la place des valeurs déterminées automatiquement.',
 	'ICONS_PATH'                          => 'Chemin vers le répertoire de stockage des icônes de message',
 	'ICONS_PATH_EXPLAIN'                  => 'Le chemin relatif à la racine du répertoire de votre forum, tel que <samp>images/icons</samp>.',
 	'MOD_REWRITE_ENABLE'                  => 'Activer la réécriture des liens',
@@ -477,7 +477,7 @@ $lang = array_merge($lang, [
 	'SERVER_PORT'                         => 'Port du serveur',
 	'SERVER_PORT_EXPLAIN'                 => 'Le port qui sert à vous connecter à votre serveur, généralement le 80.',
 	'SERVER_PROTOCOL'                     => 'Protocole du serveur',
-	'SERVER_PROTOCOL_EXPLAIN'             => 'Le protocole du serveur qui sera utilisé si les Paramètres de la redirection du serveur sont forcés. Si ces derniers ne sont pas forcés ou que ce champ est vide, le protocole sera alors déterminé selon le Paramètre du cookie sécurisé (qui choisira entre utiliser <samp>http://</samp> ou <samp>https://</samp>).',
+	'SERVER_PROTOCOL_EXPLAIN'             => 'Le protocole du serveur qui sera utilisé si les paramètres de la redirection du serveur sont forcés. Si ces derniers ne sont pas forcés ou que ce champ est vide, le protocole sera alors déterminé selon le paramètre du cookie sécurisé (qui choisira entre utiliser <samp>http://</samp> ou <samp>https://</samp>).',
 	'SERVER_URL_SETTINGS'                 => 'Paramètres de la redirection du serveur',
 	'SMILIES_PATH'                        => 'Chemin vers le répertoire de stockage des émoticônes',
 	'SMILIES_PATH_EXPLAIN'                => 'Le chemin relatif à la racine du répertoire de votre forum, tel que <samp>images/smilies</samp>.',
@@ -489,7 +489,7 @@ $lang = array_merge($lang, [
 
 // Security Settings
 $lang = array_merge($lang, [
-	'ACP_SECURITY_SETTINGS_EXPLAIN' => 'Vous pouvez effectuer sur cette page tous les Paramètres relatifs aux sessions et aux connexions.',
+	'ACP_SECURITY_SETTINGS_EXPLAIN' => 'Vous pouvez configurer sur cette page tous les paramètres relatifs aux sessions et aux connexions.',
 
 	'ALL'                                  => 'Tout',
 	'ALLOW_AUTOLOGIN'                      => 'Activer la fonctionnalité « Se souvenir de moi »',
@@ -509,7 +509,7 @@ $lang = array_merge($lang, [
 	'FORCE_PASS_CHANGE'                    => 'Forcer la modification du mot de passe',
 	'FORCE_PASS_CHANGE_EXPLAIN'            => 'Les utilisateurs devront modifier leur mot de passe après que le nombre de jours saisi dans ce champ ne soit écoulé. Réglez cette valeur sur 0 afin de désactiver cette fonctionnalité.',
 	'FORM_TIME_MAX'                        => 'Durée maximale de l’envoi des formulaires',
-	'FORM_TIME_MAX_EXPLAIN'                => 'La durée maximale qu’un utilisateur ne doit pas dépasser afin d’envoyer un formulaire. Réglez cette valeur sur -1 afin de désactiver cette fonctionnalité. Veuillez noter qu’un formulaire peut devenir invalide si la session d’un utilisateur expire, mais cela ne dépend pas de ce Paramètre.',
+	'FORM_TIME_MAX_EXPLAIN'                => 'La durée maximale qu’un utilisateur ne doit pas dépasser afin d’envoyer un formulaire. Réglez cette valeur sur -1 afin de désactiver cette fonctionnalité. Veuillez noter qu’un formulaire peut devenir invalide si la session d’un utilisateur expire, mais cela ne dépend pas de cette option.',
 	'FORM_SID_GUESTS'                      => 'Lier les formulaires aux sessions des invités',
 	'FORM_SID_GUESTS_EXPLAIN'              => 'Si cette option est activée, les formulaires émis aux invités seront exclusifs à leur session. Cela peut cependant entraîner quelques problèmes avec certains fournisseurs d’accès à internet.',
 	'FORWARDED_FOR_VALID'                  => 'Valider l’en-tête <var>X_FORWARDED_FOR</var>',
@@ -559,11 +559,11 @@ $lang = array_merge($lang, [
 	'EMAIL_FUNCTION_NAME'         => 'Nom de la fonction de la messagerie électronique',
 	'EMAIL_FUNCTION_NAME_EXPLAIN' => 'Le nom de la fonction PHP utilisée par la messagerie électronique afin d’envoyer des courriels.',
 	'EMAIL_PACKAGE_SIZE'          => 'Nombre de courriels envoyés en une seule fois',
-	'EMAIL_PACKAGE_SIZE_EXPLAIN'  => 'Le nombre de courriels envoyés en une seule fois. Ce Paramètre est appliqué à la file d’attente de la messagerie électronique interne. Si vous rencontrez des difficultés lors de l’envoi de courriels alors que cette option est activée, nous vous conseillons de régler cette valeur sur 0.',
+	'EMAIL_PACKAGE_SIZE_EXPLAIN'  => 'Le nombre de courriels envoyés en une seule fois. Ce paramètre est appliqué à la file d’attente de la messagerie électronique interne. Si vous rencontrez des difficultés lors de l’envoi de courriels alors que cette option est activée, nous vous conseillons de régler cette valeur sur 0.',
 	'EMAIL_SIG'                   => 'Signature des courriels',
 	'EMAIL_SIG_EXPLAIN'           => 'Ce texte sera inséré en bas de tous les courriels envoyés à partir du forum.',
 	'ENABLE_EMAIL'                => 'Activer l’envoi de courriels à partir du forum',
-	'ENABLE_EMAIL_EXPLAIN'        => 'Si cette option est désactivée, aucun courriel ne pourra être envoyé à partir du forum. <em>Notez que ce Paramètre doit être activé afin que l’activation par l’utilisateur ou par l’administrateur soit fonctionnelle. Si vous utilisez actuellement l’activation « par l’utilisateur » ou « par l’administrateur » et que vous n’activez pas ce Paramètre, l’inscription sera désactivée.</em>',
+	'ENABLE_EMAIL_EXPLAIN'        => 'Si cette option est désactivée, aucun courriel ne pourra être envoyé à partir du forum. <em>Notez que cette option doit être activée afin que l’activation par l’utilisateur ou par l’administrateur soit fonctionnelle. Si vous utilisez actuellement l’activation « par l’utilisateur » ou « par l’administrateur » et que vous n’activez pas cette option, l’inscription sera désactivée.</em>',
 	'SEND_TEST_EMAIL'             => 'Envoyer un courriel de test',
 	'SEND_TEST_EMAIL_EXPLAIN'     => 'Cela enverra un courriel de test à l’adresse de courriel spécifiée dans votre compte.',
 	'SMTP_AUTH_METHOD'            => 'Méthode d’authentification du protocole SMTP',
@@ -602,7 +602,7 @@ $lang = array_merge($lang, [
 	'JAB_PORT_EXPLAIN'         => 'Ne modifiez ce dernier que si le serveur utilise un port différent du 5222 dont vous avez connaissance.',
 	'JAB_SERVER'               => 'Serveur Jabber',
 	'JAB_SERVER_EXPLAIN'       => 'La liste des serveurs est disponible sur le site internet %sjabber.org%s.',
-	'JAB_SETTINGS_CHANGED'     => 'Les Paramètres de Jabber ont été modifiés.',
+	'JAB_SETTINGS_CHANGED'     => 'Les paramètres de Jabber ont été modifiés.',
 	'JAB_USE_SSL'              => 'Utiliser une connexion SSL',
 	'JAB_USE_SSL_EXPLAIN'      => 'Si cette option est activée, une connexion sécurisée essaiera d’être établie. Le port de Jabber sera modifié en 5223 si le port 5222 est utilisé.',
 	'JAB_USERNAME'             => 'Nom d’utilisateur Jabber ou JID',

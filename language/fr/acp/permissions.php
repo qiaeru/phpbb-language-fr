@@ -53,12 +53,12 @@ $lang = array_merge($lang, [
 
 		<br />
 
-		<p>Pour plus d’informations concernant le Paramètre des permissions sur votre forum, veuillez consulter la section sur le <a href="https://www.phpbb.com/support/docs/en/3.3/ug/quickstart/permissions/">Paramètre des permissions de notre guide de démarrage rapide</a> (en anglais).</p>
+		<p>Pour plus d’informations concernant la configuration des permissions sur votre forum, veuillez consulter la section sur le <a href="https://www.phpbb.com/support/docs/en/3.3/ug/quickstart/permissions/">Paramètre des permissions de notre guide de démarrage rapide</a> (en anglais).</p>
 	',
 
 	'ACL_NEVER'       => 'Jamais',
 	'ACL_SET'         => 'Paramètre des permissions',
-	'ACL_SET_EXPLAIN' => 'Les permissions sont basées sur un système simpliste de <strong>OUI</strong> et de <strong>NON</strong>. Sélectionnez <strong>JAMAIS</strong> si vous souhaitez écraser les valeurs assignées dans un autre système de permissions. Si vous ne souhaitez pas assigner de valeur à une option par ce système de permissions, sélectionnez <strong>NON</strong>. Si des valeurs sont assignées dans un autre système de permissions, elles seront alors utilisées de préférence, sauf dans le cas où <strong>JAMAIS</strong> est sélectionné. Tous les forums cochés grâce à la boîte de sélection située à côté du nom qui leur a été attribué copieront les Paramètres des permissions que vous avez spécifiées.',
+	'ACL_SET_EXPLAIN' => 'Les permissions sont basées sur un système simpliste de <strong>OUI</strong> et de <strong>NON</strong>. Sélectionnez <strong>JAMAIS</strong> si vous souhaitez écraser les valeurs assignées dans un autre système de permissions. Si vous ne souhaitez pas assigner de valeur à une option par ce système de permissions, sélectionnez <strong>NON</strong>. Si des valeurs sont assignées dans un autre système de permissions, elles seront alors utilisées de préférence, sauf dans le cas où <strong>JAMAIS</strong> est sélectionné. Tous les forums cochés grâce à la boîte de sélection située à côté du nom qui leur a été attribué copieront les paramètres des permissions que vous avez spécifiées.',
 	'ACL_SETTING'     => 'Paramètre',
 
 	'ACL_TYPE_A_' => 'Permissions des administrateurs',
@@ -89,7 +89,7 @@ $lang = array_merge($lang, [
 	'ACP_MOD_ROLES_EXPLAIN'                   => 'Vous pouvez gérer sur cette page les rôles des permissions des modérateurs. Les rôles sont des permissions effectives. Si vous modifiez un rôle, les éléments assignés à ce rôle modifieront également leurs permissions.',
 	'ACP_USER_ROLES_EXPLAIN'                  => 'Vous pouvez gérer sur cette page les rôles des permissions des utilisateurs. Les rôles sont des permissions effectives. Si vous modifiez un rôle, les éléments assignés à ce rôle modifieront également leurs permissions.',
 	'ACP_USERS_FORUM_PERMISSIONS_EXPLAIN'     => 'Vous pouvez attribuer sur cette page les permissions des forums à des utilisateurs.',
-	'ACP_USERS_PERMISSIONS_EXPLAIN'           => 'Vous pouvez attribuer sur cette page les permissions générales à des utilisateurs, comme les permissions des utilisateurs, les permissions des modérateurs généraux et les permissions des administrateurs. Les permissions des utilisateurs incluent des fonctionnalités comme l’utilisation d’avatars, l’envoi de messages privés, etc. Les permissions des modérateurs généraux incluent des fonctionnalités comme l’approbation de messages, la gestion de sujets, la gestion des bannissements, etc. Enfin, les permissions des administrateurs incluent des fonctionnalités comme la modification de permissions, la gestion des BBCodes personnalisés, la gestion de forums, etc. Pour impacter les Paramètres à un grand nombre d’utilisateurs, il est préférable d’utiliser le système des permissions des groupes. Les permissions individuelles des utilisateurs ne devraient être modifiées que dans de rares occasions, il est préférable de les ajouter à un groupe d’utilisateurs, puis de définir les permissions de ce dernier.',
+	'ACP_USERS_PERMISSIONS_EXPLAIN'           => 'Vous pouvez attribuer sur cette page les permissions générales à des utilisateurs, comme les permissions des utilisateurs, les permissions des modérateurs généraux et les permissions des administrateurs. Les permissions des utilisateurs incluent des fonctionnalités comme l’utilisation d’avatars, l’envoi de messages privés, etc. Les permissions des modérateurs généraux incluent des fonctionnalités comme l’approbation de messages, la gestion de sujets, la gestion des bannissements, etc. Enfin, les permissions des administrateurs incluent des fonctionnalités comme la modification de permissions, la gestion des BBCodes personnalisés, la gestion de forums, etc. Pour partager les mêmes paramètres à un grand nombre d’utilisateurs, il est préférable d’utiliser le système des permissions des groupes. Les permissions individuelles des utilisateurs ne devraient être modifiées que dans de rares occasions, il est préférable de les ajouter à un groupe d’utilisateurs, puis de définir les permissions de ce dernier.',
 	'ACP_VIEW_ADMIN_PERMISSIONS_EXPLAIN'      => 'Vous pouvez consulter sur cette page les permissions effectives des administrateurs assignées aux utilisateurs et aux groupes d’utilisateurs sélectionnés.',
 	'ACP_VIEW_GLOBAL_MOD_PERMISSIONS_EXPLAIN' => 'Vous pouvez consulter sur cette page les permissions effectives des modérateurs généraux assignées aux utilisateurs et aux groupes d’utilisateurs sélectionnés.',
 	'ACP_VIEW_FORUM_PERMISSIONS_EXPLAIN'      => 'Vous pouvez consulter sur cette page les permissions effectives des forums assignées aux utilisateurs et aux groupes d’utilisateurs sélectionnés.',
@@ -117,12 +117,12 @@ $lang = array_merge($lang, [
 	'COPY_PERMISSIONS_TO'                 => 'Appliquer les permissions sur',
 
 	'CREATE_ROLE'      => 'Créer un rôle',
-	'CREATE_ROLE_FROM' => 'Utiliser les Paramètres de…',
+	'CREATE_ROLE_FROM' => 'Utiliser les paramètres de…',
 	'CUSTOM'           => 'Personnaliser…',
 
 	'DEFAULT'             => 'Par défaut',
 	'DELETE_ROLE'         => 'Supprimer le rôle',
-	'DELETE_ROLE_CONFIRM' => 'Êtes-vous sûr de vouloir supprimer ce rôle ? Les éléments assignés à ce rôle ne perdront <strong>pas</strong> leurs Paramètres de permissions.',
+	'DELETE_ROLE_CONFIRM' => 'Êtes-vous sûr de vouloir supprimer ce rôle ? Les éléments assignés à ce rôle ne perdront <strong>pas</strong> leurs paramètres de permissions.',
 	'DISPLAY_ROLE_ITEMS'  => 'Consulter les éléments assignés à ce rôle',
 
 	'EDIT_PERMISSIONS' => 'Éditer les permissions',
@@ -138,7 +138,7 @@ $lang = array_merge($lang, [
 
 	'NO_AUTH_SETTING_FOUND'    => 'Paramètres de permissions non définis.',
 	'NO_ROLE_ASSIGNED'         => 'Aucun rôle n’est assigné…',
-	'NO_ROLE_ASSIGNED_EXPLAIN' => 'Le Paramètre de ce rôle ne modifie pas les permissions de droite. Si vous souhaitez supprimer toutes les permissions, vous devez utiliser le lien « Tous sur <strong>NON</strong> ».',
+	'NO_ROLE_ASSIGNED_EXPLAIN' => 'La configuration de ce rôle ne modifie pas les permissions de droite. Si vous souhaitez supprimer toutes les permissions, vous devez utiliser le lien « Tous sur <strong>NON</strong> ».',
 	'NO_ROLE_AVAILABLE'        => 'Aucun rôle n’est disponible',
 	'NO_ROLE_NAME_SPECIFIED'   => 'Veuillez saisir le nom de ce rôle.',
 	'NO_ROLE_SELECTED'         => 'Le rôle est introuvable.',
@@ -183,10 +183,10 @@ $lang = array_merge($lang, [
 	'ROLE_USER_STANDARD'       => 'Fonctionnalités standards',
 	'ROLE_USER_NEW_MEMBER'     => 'Fonctionnalités des utilisateurs nouvellement inscrits',
 
-	'ROLE_DESCRIPTION_ADMIN_FORUM'         => 'Peut accéder à la gestion du forum et aux Paramètres de ses permissions.',
+	'ROLE_DESCRIPTION_ADMIN_FORUM'         => 'Peut accéder à la gestion du forum et aux paramètres de ses permissions.',
 	'ROLE_DESCRIPTION_ADMIN_FULL'          => 'Peut accéder à toutes les fonctionnalités des administrateurs.<br />Il n’est pas recommandé d’attribuer ce rôle.',
 	'ROLE_DESCRIPTION_ADMIN_STANDARD'      => 'Peut accéder à la plupart des fonctionnalités des administrateurs mais ne peut pas modifier les options relatives au système et au serveur.',
-	'ROLE_DESCRIPTION_ADMIN_USERGROUP'     => 'Peut gérer les utilisateurs et les groupes d’utilisateurs (gestion des permissions, des Paramètres, des bannissements et des rangs).',
+	'ROLE_DESCRIPTION_ADMIN_USERGROUP'     => 'Peut gérer les utilisateurs et les groupes d’utilisateurs (gestion des permissions, des paramètres, des bannissements et des rangs).',
 	'ROLE_DESCRIPTION_FORUM_BOT'           => 'Il recommandé d’attribuer ce rôle aux robots des moteurs de recherche.',
 	'ROLE_DESCRIPTION_FORUM_FULL'          => 'Peut utiliser toutes les fonctionnalités du forum, dont la publication d’annonces et de notes. Peut également ignorer la limitation de flood.<br />Il n’est pas recommandé d’attribuer ce rôle aux utilisateurs ordinaires.',
 	'ROLE_DESCRIPTION_FORUM_LIMITED'       => 'Peut utiliser certaines fonctionnalités du forum mais ne peut pas transférer de pièces jointes et insérer des icônes aux messages.',
@@ -227,7 +227,7 @@ $lang = array_merge($lang, [
 	'SET_USERS_PERMISSIONS'         => 'Définir les permissions des utilisateurs',
 	'SET_USERS_FORUM_PERMISSIONS'   => 'Définir les permissions des forums aux utilisateurs',
 
-	'TRACE_DEFAULT'                       => 'Par défaut, toutes les permissions sont configurées sur <strong>NON</strong>. La permission peut alors être écrasée par d’autres Paramètres.',
+	'TRACE_DEFAULT'                       => 'Par défaut, toutes les permissions sont configurées sur <strong>NON</strong>. La permission peut alors être écrasée par d’autres paramètres.',
 	'TRACE_FOR'                           => 'Suivre pour',
 	'TRACE_GLOBAL_SETTING'                => '%s (général)',
 	'TRACE_GROUP_NEVER_TOTAL_NEVER'       => 'Cette permission de groupe est configurée sur <strong>JAMAIS</strong> tout comme le résultat total. L’ancien résultat est donc conservé.',
@@ -246,7 +246,7 @@ $lang = array_merge($lang, [
 	'TRACE_GROUP_YES_TOTAL_YES_LOCAL'     => 'Cette permission de groupe concernant ce forum est configurée sur <strong>OUI</strong> mais la permission totale est déjà configurée sur <strong>OUI</strong>. Le résultat total est donc conservé.',
 	'TRACE_PERMISSION'                    => 'Suivre la permission - %s',
 	'TRACE_RESULT'                        => 'Suivre le résultat',
-	'TRACE_SETTING'                       => 'Suivre le Paramètre',
+	'TRACE_SETTING'                       => 'Suivre le paramètre',
 
 	'TRACE_USER_GLOBAL_YES_TOTAL_YES'    => 'La permission indépendante de l’utilisateur dans ce forum est configurée sur <strong>OUI</strong> mais la permission totale est déjà configurée sur <strong>OUI</strong>. Le résultat total est donc conservé. %sSuivre la permission générale%s',
 	'TRACE_USER_GLOBAL_YES_TOTAL_NEVER'  => 'La permission indépendante de l’utilisateur dans ce le forum est configurée sur <strong>OUI</strong> ce qui écrase l’actuel résultat local <strong>JAMAIS</strong>. %sSuivre la permission générale%s',
@@ -282,5 +282,5 @@ $lang = array_merge($lang, [
 	'VIEW_PERMISSIONS'    => 'Consulter les permissions',
 
 	'WRONG_PERMISSION_TYPE'           => 'Le type de permission que vous avez spécifié est incorrect.',
-	'WRONG_PERMISSION_SETTING_FORMAT' => 'Les Paramètres des permissions sont enregistrées dans un mauvais format, phpBB est incapable de les traiter correctement.',
+	'WRONG_PERMISSION_SETTING_FORMAT' => 'Les paramètres des permissions sont enregistrées dans un mauvais format, phpBB est incapable de les traiter correctement.',
 ]);

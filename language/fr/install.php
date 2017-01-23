@@ -202,7 +202,7 @@ $lang = array_merge($lang, [
 	'INST_ERR_PREFIX'               => 'Des tables contenant le préfixe spécifié existent déjà. Veuillez en choisir un autre.',
 	'INST_ERR_DB_NO_MYSQLI'         => 'La version de MySQL installée sur votre serveur est incompatible avec l’option « MySQL avec l’extension MySQLi » sélectionnée. Veuillez plutôt essayer de sélectionner l’option « MySQL ».',
 	'INST_ERR_DB_NO_SQLITE3'        => 'La version de l’extension SQLite installée sur votre serveur est obsolète. Elle doit être mise à jour vers la version 3.6.15 ou supérieure.',
-	'INST_ERR_DB_NO_ORACLE'         => 'La version d’Oracle installée sur votre serveur nécessite de définir le paramètre <var>NLS_CHARACTERSET</var> sur <var>UTF8</var>. Veuillez modifier ce paramètre ou mettre à jour votre version vers la version 9.2 ou supérieure.',
+	'INST_ERR_DB_NO_ORACLE'         => 'La version d’Oracle installée sur votre serveur nécessite de définir <var>NLS_CHARACTERSET</var> sur <var>UTF8</var>. Veuillez modifier cette configuration ou mettre à jour votre version vers la version 9.2 ou supérieure.',
 	'INST_ERR_DB_NO_POSTGRES'       => 'La base de données sélectionnée n’est pas encodée en <var>UNICODE</var> ou en <var>UTF8</var>. Veuillez essayer de sélectionner une base de données supportant un de ces encodages.',
 	'INST_SCHEMA_FILE_NOT_WRITABLE' => 'Le fichier du schéma de base de données ne peut pas être écrit',
 
@@ -289,8 +289,8 @@ $lang = array_merge($lang, [
 	'TASK_CREATE_CONFIG_FILE' => 'Création du fichier de configuration',
 
 	// Install database
-	'TASK_ADD_CONFIG_SETTINGS'         => 'Ajout des Paramètres de configuration',
-	'TASK_ADD_DEFAULT_DATA'            => 'Ajout des Paramètres par défaut à la base de données',
+	'TASK_ADD_CONFIG_SETTINGS'         => 'Ajout des paramètres de configuration',
+	'TASK_ADD_DEFAULT_DATA'            => 'Ajout des paramètres par défaut à la base de données',
 	'TASK_CREATE_DATABASE_SCHEMA_FILE' => 'Création du shéma de base de données',
 	'TASK_SETUP_DATABASE'              => 'Mise en place de la base de données',
 	'TASK_CREATE_TABLES'               => 'Création des tables',
@@ -342,7 +342,7 @@ $lang = array_merge($lang, [
 // Common updater messages
 $lang = array_merge($lang, [
 	'UPDATE_INSTALLATION'         => 'Mettre à jour l’installation de phpBB',
-	'UPDATE_INSTALLATION_EXPLAIN' => 'Grâce à cette option, il est possible de mettre à jour le logiciel de votre forum vers la dernière version stable.<br />Durant le processus, tous vos fichiers seront vérifiés dans leur intégralité. Vous pourrez prévisualiser toutes les différences et tous les fichiers avant d’exécuter la mise à jour.<br /><br />Le fichier de mise à jour peut se générer de deux manières différentes.</p><h2>Mise à jour manuelle</h2><p>Avec cette mise à jour, vous ne téléchargez que les Paramètres des fichiers modifiés afin de vous assurer de ne perdre aucune modification. Après avoir téléchargé cette archive, vous devez mettre à jour manuellement les fichiers à leur emplacement respectif, selon la racine du répertoire de votre forum. Une fois la mise à jour terminée, vous pouvez recommencer l’étape de vérification des fichiers afin de vous assurer d’avoir déplacé les fichiers à leur emplacement respectif.</p><h2>Mise à jour automatique par FTP</h2><p>Cette méthode est similaire à la première, mais elle ne nécessite pas de télécharger et de transférer manuellement les fichiers modifiés, cela sera fait automatiquement. Pour utiliser cette méthode, vous devez connaître les informations concernant votre connexion FTP car cela vous sera demandé. Une fois la mise à jour terminée, vous serez redirigé une fois de plus à la vérification des fichiers afin de vous assurer du bon déroulement de la mise à jour.<br /><br />',
+	'UPDATE_INSTALLATION_EXPLAIN' => 'Grâce à cette option, il est possible de mettre à jour le logiciel de votre forum vers la dernière version stable.<br />Durant le processus, tous vos fichiers seront vérifiés dans leur intégralité. Vous pourrez prévisualiser toutes les différences et tous les fichiers avant d’exécuter la mise à jour.<br /><br />Le fichier de mise à jour peut se générer de deux manières différentes.</p><h2>Mise à jour manuelle</h2><p>Avec cette mise à jour, vous ne téléchargez que les paramètres des fichiers modifiés afin de vous assurer de ne perdre aucune modification. Après avoir téléchargé cette archive, vous devez mettre à jour manuellement les fichiers à leur emplacement respectif, selon la racine du répertoire de votre forum. Une fois la mise à jour terminée, vous pouvez recommencer l’étape de vérification des fichiers afin de vous assurer d’avoir déplacé les fichiers à leur emplacement respectif.</p><h2>Mise à jour automatique par FTP</h2><p>Cette méthode est similaire à la première, mais elle ne nécessite pas de télécharger et de transférer manuellement les fichiers modifiés, cela sera fait automatiquement. Pour utiliser cette méthode, vous devez connaître les informations concernant votre connexion FTP car cela vous sera demandé. Une fois la mise à jour terminée, vous serez redirigé une fois de plus à la vérification des fichiers afin de vous assurer du bon déroulement de la mise à jour.<br /><br />',
 	'UPDATE_INSTRUCTIONS'         => '
 		<h1>Annonce de sortie</h1>
 		<p>Veuillez consulter l’annonce relative à la sortie de la dernière version avant de continuer le processus de mise à jour. Elle contient des informations qui pourraient vous intéresser, les différents liens de téléchargement et l’historique des modifications.</p>
@@ -460,7 +460,7 @@ $lang = array_merge($lang, [
 	// Common converter messages
 	'CONVERT_NOT_EXIST'   => 'Le convertisseur spécifié n’existe pas.',
 	'DEV_NO_TEST_FILE'    => 'Aucune valeur n’a été spécifiée dans le convertisseur concernant la variable test_file. Si vous êtes un utilisateur de ce convertisseur, vous ne devriez pas voir cette erreur, veuillez donc rapporter ce message à l’auteur du convertisseur. Si vous êtes l’auteur du convertisseur, vous devez spécifier le nom d’un fichier existant dans le forum source afin de permettre la validation du chemin vers ce dernier.',
-	'COULD_NOT_FIND_PATH' => 'Le chemin vers votre ancien forum est introuvable. Veuillez vérifier vos Paramètres et réessayer.<br />» %s a été spécifié en tant que chemin source.',
+	'COULD_NOT_FIND_PATH' => 'Le chemin vers votre ancien forum est introuvable. Veuillez vérifier vos paramètres et réessayer.<br />» %s a été spécifié en tant que chemin source.',
 	'CONFIG_PHPBB_EMPTY'  => 'La variable de configuration de phpBB 3.3 « %s » est vide.',
 
 	'MAKE_FOLDER_WRITABLE'  => 'Veuillez vous assurer que ce répertoire existe et qu’il puisse être écrit par le serveur, puis réessayez :<br />»<strong>%s</strong>.',
@@ -531,7 +531,7 @@ $lang = array_merge($lang, [
 
 	// Finish conversion
 	'CONVERT_COMPLETE'         => 'Conversion terminée',
-	'CONVERT_COMPLETE_EXPLAIN' => 'Félicitations ! Vous avez converti votre forum à phpBB 3.3. Vous pouvez à présent vous connecter et <a href="../">accéder à votre forum</a>. Veuillez vous assurer que les Paramètres ont été correctement transférées avant de mettre en ligne votre forum en supprimant le répertoire d’installation. Il vous est possible d’obtenir de l’aide sur l’utilisation de phpBB grâce à sa <a href="https://www.phpbb.com/support/docs/en/3.3/ug/">documentation</a> (en anglais) et ses <a href="https://www.phpbb.com/community/viewforum.php?f=466">forums de support</a> (en anglais).',
+	'CONVERT_COMPLETE_EXPLAIN' => 'Félicitations ! Vous avez converti votre forum à phpBB 3.3. Vous pouvez à présent vous connecter et <a href="../">accéder à votre forum</a>. Veuillez vous assurer que les paramètres ont été correctement transférées avant de mettre en ligne votre forum en supprimant le répertoire d’installation. Il vous est possible d’obtenir de l’aide sur l’utilisation de phpBB grâce à sa <a href="https://www.phpbb.com/support/docs/en/3.3/ug/">documentation</a> (en anglais) et ses <a href="https://www.phpbb.com/community/viewforum.php?f=466">forums de support</a> (en anglais).',
 
 	'CONV_ERROR_ATTACH_FTP_DIR'      => 'Le transfert de pièces jointes par FTP est activé sur l’ancien forum. Veuillez désactiver cette option et vous assurer qu’un répertoire valide de transfert est spécifié, puis copiez toutes les pièces jointes dans ce nouveau répertoire en ligne. Une fois cette opération effectuée, redémarrez le convertisseur.',
 	'CONV_ERROR_CONFIG_EMPTY'        => 'Aucune information de configuration sur ce convertisseur n’est disponible.',
@@ -552,7 +552,7 @@ $lang = array_merge($lang, [
 	'CONV_ERROR_NO_RANKS_PATH'       => 'Note au développeur : vous devez spécifier $convertor[\'ranks_path\'] pour utiliser %s.',
 	'CONV_ERROR_NO_SMILIES_PATH'     => 'Note au développeur : vous devez spécifier $convertor[\'smilies_path\'] pour utiliser %s.',
 	'CONV_ERROR_NO_UPLOAD_DIR'       => 'Note au développeur : vous devez spécifier $convertor[\'upload_path\'] pour utiliser %s.',
-	'CONV_ERROR_PERM_SETTING'        => 'Impossible d’insérer et de mettre à jour le Paramètre de permission.',
+	'CONV_ERROR_PERM_SETTING'        => 'Impossible d’insérer et de mettre à jour le paramètre de permission.',
 	'CONV_ERROR_PM_COUNT'            => 'Impossible de sélectionner le dossier du compteur des messages privés.',
 	'CONV_ERROR_REPLACE_CATEGORY'    => 'Impossible d’insérer le nouveau forum en remplacement de l’ancienne catégorie.',
 	'CONV_ERROR_REPLACE_FORUM'       => 'Impossible d’insérer le nouveau forum en remplacement de l’ancien forum.',
