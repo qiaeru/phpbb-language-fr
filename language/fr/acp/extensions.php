@@ -55,8 +55,8 @@ $lang = array_merge($lang, [
 	'EXTENSION_DISABLE'     => 'Désactiver',
 	'EXTENSION_ENABLE'      => 'Activer',
 
-	'EXTENSION_DELETE_DATA_EXPLAIN' => 'La suppression des données d’une extension supprime toutes ses données et ses réglages. Les fichiers de l’extension sont conservés afin de pouvoir la réactiver de nouveau.',
-	'EXTENSION_DISABLE_EXPLAIN'     => 'La désactivation d’une extension conserve ses fichiers, ses données et ses réglages mais supprime toutes les fonctionnalités ajoutées par l’extension.',
+	'EXTENSION_DELETE_DATA_EXPLAIN' => 'La suppression des données d’une extension supprime toutes ses données et ses Paramètres. Les fichiers de l’extension sont conservés afin de pouvoir la réactiver de nouveau.',
+	'EXTENSION_DISABLE_EXPLAIN'     => 'La désactivation d’une extension conserve ses fichiers, ses données et ses Paramètres mais supprime toutes les fonctionnalités ajoutées par l’extension.',
 	'EXTENSION_ENABLE_EXPLAIN'      => 'L’activation d’une extension vous permet d’utiliser cette dernière sur votre forum.',
 
 	'EXTENSION_DELETE_DATA_IN_PROGRESS' => 'Les données de l’extension sont en cours de suppression. Veuillez ne pas quitter ou rafraîchir la page avant la fin de toutes les opérations.',
@@ -90,7 +90,7 @@ $lang = array_merge($lang, [
 			<li>Supprimez les fichiers de l’extension de votre serveur</li>
 		</ol>',
 
-	'EXTENSION_DELETE_DATA_CONFIRM'    => 'Êtes-vous sûr de vouloir supprimer les données associées à « %s » ?<br /><br />Cela supprimera toutes les données et les réglages de l’extension qui ne pourront pas être restaurés !',
+	'EXTENSION_DELETE_DATA_CONFIRM'    => 'Êtes-vous sûr de vouloir supprimer les données associées à « %s » ?<br /><br />Cela supprimera toutes les données et les Paramètres de l’extension qui ne pourront pas être restaurés !',
 	'EXTENSION_DISABLE_CONFIRM'        => 'Êtes-vous sûr de vouloir désactiver l’extension « %s » ?',
 	'EXTENSION_ENABLE_CONFIRM'         => 'Êtes-vous sûr de vouloir activer l’extension « %s » ?',
 	'EXTENSION_FORCE_UNSTABLE_CONFIRM' => 'Êtes-vous sûr de vouloir forcer l’utilisation d’une version instable ?',
@@ -125,10 +125,10 @@ $lang = array_merge($lang, [
 
 	'VERSIONCHECK_FORCE_UPDATE_ALL'     => 'Vérifier de nouveau les mises à jour',
 	'FORCE_UNSTABLE'                    => 'Toujours vérifier la disponibilité de versions instables',
-	'EXTENSIONS_VERSION_CHECK_SETTINGS' => 'Réglages de la vérification des mises à jour',
+	'EXTENSIONS_VERSION_CHECK_SETTINGS' => 'Paramètres de la vérification des mises à jour',
 
 	'BROWSE_EXTENSIONS_DATABASE' => 'Accéder à la base de données des extensions',
 
-	'META_FIELD_NOT_SET' => 'Le méta-champ %s est obligatoire et doit être réglé.',
+	'META_FIELD_NOT_SET' => 'Le méta-champ %s est obligatoire et doit être paramétré.',
 	'META_FIELD_INVALID' => 'Le méta-champ %s est invalide.',
 ]);

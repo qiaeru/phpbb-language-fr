@@ -54,7 +54,7 @@ $lang = array_merge($lang, [
 	'DELETE_MODULE_CONFIRM' => 'Êtes-vous sûr de vouloir supprimer ce module ?',
 
 	'EDIT_MODULE'         => 'Éditer le module',
-	'EDIT_MODULE_EXPLAIN' => 'Vous pouvez paramétrer sur cette page les réglages spécifiques au module.',
+	'EDIT_MODULE_EXPLAIN' => 'Vous pouvez paramétrer sur cette page les Paramètres spécifiques au module.',
 
 	'HIDDEN_MODULE' => 'Module masqué',
 

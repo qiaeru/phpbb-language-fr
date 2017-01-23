@@ -36,8 +36,8 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, [
-	'ACP_SEARCH_INDEX_EXPLAIN'    => 'Vous pouvez gérer sur cette page les méthodes d’indexation de la recherche. Le moteur de recherche n’utilisant qu’une seule méthode d’indexation, vous devriez supprimer toutes les indexations inutilisées. Vous devriez également, après toute modification sur la plupart des réglages de la recherche comme le nombre minimal et maximal de caractères, recréer l’index afin qu’il prenne en compte ces modifications.',
-	'ACP_SEARCH_SETTINGS_EXPLAIN' => 'Vous pouvez définir sur cette page la méthode d’indexation de la recherche qui sera utilisée lors de l’indexation des messages et l’exécution des recherches. Vous pouvez régler différentes options qui peuvent influencer sur le nombre d’exécutions de ces opérations. Certains de ces réglages sont les mêmes que toutes les autres méthodes d’indexation du moteur de recherche.',
+	'ACP_SEARCH_INDEX_EXPLAIN'    => 'Vous pouvez gérer sur cette page les méthodes d’indexation de la recherche. Le moteur de recherche n’utilisant qu’une seule méthode d’indexation, vous devriez supprimer toutes les indexations inutilisées. Vous devriez également, après toute modification sur la plupart des Paramètres de la recherche comme le nombre minimal et maximal de caractères, recréer l’index afin qu’il prenne en compte ces modifications.',
+	'ACP_SEARCH_SETTINGS_EXPLAIN' => 'Vous pouvez définir sur cette page la méthode d’indexation de la recherche qui sera utilisée lors de l’indexation des messages et l’exécution des recherches. Vous pouvez paramétrer différentes options qui peuvent influencer sur le nombre d’exécutions de ces opérations. Certains de ces Paramètres sont les mêmes que toutes les autres méthodes d’indexation du moteur de recherche.',
 
 	'COMMON_WORD_THRESHOLD'           => 'Seuil de mot commun',
 	'COMMON_WORD_THRESHOLD_EXPLAIN'   => 'Les mots contenus dans la majorité des messages seront considérés comme communs. Les mots communs sont ignorés des recherches. Réglez cette valeur sur 0 afin de désactiver cette fonctionnalité. Les mots ne deviennent communs que s’ils ont été utilisés dans au moins 100 messages. Si vous souhaitez que les mots communs soient reconsidérés, vous devez recréer un index.',
@@ -55,8 +55,8 @@ $lang = array_merge($lang, [
 	'FULLTEXT_MYSQL_INCOMPATIBLE_DATABASE'    => 'L’indexation plein texte de MySQL ne peut être utilisée qu’avec MySQL4 ou ses versions plus récentes.',
 	'FULLTEXT_MYSQL_NOT_SUPPORTED'            => 'Les indexations plein texte de MySQL ne peuvent être utilisées qu’avec les tables MyISAM ou InnoDB. MySQL 5.6.8 ou ses versions plus récentes sont obligatoires si vous souhaitez utiliser des indexations plein texte sur des tables InnoDB.',
 	'FULLTEXT_MYSQL_TOTAL_POSTS'              => 'Nombre total de messages indexés',
-	'FULLTEXT_MYSQL_MIN_SEARCH_CHARS_EXPLAIN' => 'Les mots ne contenant pas moins de caractères que ce nombre seront indexés. Seul vous et votre hébergeur internet êtes en mesure de modifier ce réglage par la configuration de MySQL.',
-	'FULLTEXT_MYSQL_MAX_SEARCH_CHARS_EXPLAIN' => 'Les mots ne contenant pas plus de caractères que ce nombre seront indexés. Seul vous et votre hébergeur internet êtes en mesure de modifier ce réglage par la configuration de MySQL.',
+	'FULLTEXT_MYSQL_MIN_SEARCH_CHARS_EXPLAIN' => 'Les mots ne contenant pas moins de caractères que ce nombre seront indexés. Seul vous et votre hébergeur internet êtes en mesure de modifier ce Paramètre par la configuration de MySQL.',
+	'FULLTEXT_MYSQL_MAX_SEARCH_CHARS_EXPLAIN' => 'Les mots ne contenant pas plus de caractères que ce nombre seront indexés. Seul vous et votre hébergeur internet êtes en mesure de modifier ce Paramètre par la configuration de MySQL.',
 
 	'FULLTEXT_POSTGRES_INCOMPATIBLE_DATABASE' => 'L’indexation plein texte de PostgreSQL ne peut être utilisée qu’avec PostgreSQL.',
 	'FULLTEXT_POSTGRES_TOTAL_POSTS'           => 'Nombre total de messages indexés',
@@ -69,7 +69,7 @@ $lang = array_merge($lang, [
 	'FULLTEXT_POSTGRES_MIN_WORD_LEN_EXPLAIN'  => 'Les mots contenant au moins ce nombre de caractères seront indexés.',
 	'FULLTEXT_POSTGRES_MAX_WORD_LEN_EXPLAIN'  => 'Les mots ne contenant pas plus de caractères que ce nombre seront indexés.',
 
-	'FULLTEXT_SPHINX_CONFIGURE'                 => 'Configurez les réglages suivants afin de générer le fichier de configuration de Sphinx',
+	'FULLTEXT_SPHINX_CONFIGURE'                 => 'Configurez les Paramètres suivants afin de générer le fichier de configuration de Sphinx',
 	'FULLTEXT_SPHINX_DATA_PATH'                 => 'Chemin vers le répertoire de données',
 	'FULLTEXT_SPHINX_DATA_PATH_EXPLAIN'         => 'Le répertoire de données sera utilisé afin de stocker les index et les fichiers contenant les historiques. Vous devriez créer ce répertoire en prenant soin qu’il ne soit pas accessible en ligne. Veuillez vous assurer d’ajouter une barre oblique à la fin du nom du répertoire.',
 	'FULLTEXT_SPHINX_DELTA_POSTS'               => 'Nombre de messages dans l’index delta qui est fréquemment mis à jour',
@@ -85,7 +85,7 @@ $lang = array_merge($lang, [
 	'FULLTEXT_SPHINX_CONFIG_FILE_EXPLAIN'       => 'Le contenu du fichier de configuration de Sphinx. Ce contenu doit être retranscrit dans le fichier sphinx.conf qui est utilisé par le programme en attente de recherche Sphinx. Veuillez remplacer les marques substitutives [dbuser] et [dbpassword] par vos identifiants de base de données.',
 	'FULLTEXT_SPHINX_NO_CONFIG_DATA'            => 'Le chemin vers le répertoire de données de Sphinx n’a pas été renseigné. Veuillez spécifier et envoyer le chemin afin de générer le fichier de configuration.',
 
-	'GENERAL_SEARCH_SETTINGS' => 'Réglages généraux de la recherche',
+	'GENERAL_SEARCH_SETTINGS' => 'Paramètres généraux de la recherche',
 	'GO_TO_SEARCH_INDEX'      => 'Aller sur la page d’index de la recherche',
 
 	'INDEX_STATS'                  => 'Statistiques de l’index',
@@ -136,5 +136,5 @@ $lang = array_merge($lang, [
 	'YES_SEARCH'                => 'Activer la recherche',
 	'YES_SEARCH_EXPLAIN'        => 'Les utilisateurs pourront effectuer des recherches sur votre forum, dont la recherche de membres.',
 	'YES_SEARCH_UPDATE'         => 'Activer la mise à jour plein texte',
-	'YES_SEARCH_UPDATE_EXPLAIN' => 'Les index plein texte seront mis à jour au moment des publications. Ce réglage ne sera pas pris en compte si la recherche n’est pas activée.',
+	'YES_SEARCH_UPDATE_EXPLAIN' => 'Les index plein texte seront mis à jour au moment des publications. Ce Paramètre ne sera pas pris en compte si la recherche n’est pas activée.',
 ]);

@@ -76,7 +76,7 @@ $lang = array_merge($lang, [
 	'DISPLAY_ON_VT'                 => 'Afficher sur la page de la liste des sujets',
 	'DISPLAY_ON_VT_EXPLAIN'         => 'Si cette option est activée, le champ sera affiché dans le profil miniature de la page de la liste des sujets.',
 	'DISPLAY_PROFILE_FIELD'         => 'Afficher publiquement le champ de profil',
-	'DISPLAY_PROFILE_FIELD_EXPLAIN' => 'Le champ de profil sera affiché dans tous les endroits autorisés par les réglages de la charge. Veuillez désactiver cette option si vous souhaitez masquer le champ sur les pages des sujets, les profils et la liste des membres.',
+	'DISPLAY_PROFILE_FIELD_EXPLAIN' => 'Le champ de profil sera affiché dans tous les endroits autorisés par les Paramètres de la charge. Veuillez désactiver cette option si vous souhaitez masquer le champ sur les pages des sujets, les profils et la liste des membres.',
 	'DROPDOWN_ENTRIES_EXPLAIN'      => 'Saisissez à présent vos options. Chaque option doit être saisie sur une nouvelle ligne.',
 
 	'EDIT_DROPDOWN_LANG_EXPLAIN' => 'Veuillez noter que vous pourrez modifier les options du texte et ajouter de nouvelles options ultérieurement. Il n’est pas conseillé d’ajouter de nouvelles options entre des options déjà existantes car cela pourrait attribuer des options erronées à vos utilisateurs. Il en est de même si vous supprimez une option que des utilisateurs utilisent. Ces derniers seront alors redirigés vers l’élément par défaut.',

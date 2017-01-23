@@ -36,7 +36,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, [
-	'CONFIG_NOT_EXIST' => 'Le réglage de configuration « %s » est introuvable.',
+	'CONFIG_NOT_EXIST' => 'Le Paramètre de configuration « %s » est introuvable.',
 
 	'GROUP_NOT_EXIST' => 'Le groupe « %s » est introuvable.',
 
@@ -74,7 +74,7 @@ $lang = array_merge($lang, [
 	'MODULE_NOT_EXIST'           => 'Un module nécessaire est introuvable : %s',
 
 	'PARENT_MODULE_FIND_ERROR' => 'Impossible de déterminer l’identifiant du module parent : %s',
-	'PERMISSION_NOT_EXIST'     => 'Le réglage de permission « %s » est introuvable.',
+	'PERMISSION_NOT_EXIST'     => 'Le Paramètre de permission « %s » est introuvable.',
 
 	'ROLE_NOT_EXIST' => 'Le rôle de permission « %s » est introuvable.',
 ]);

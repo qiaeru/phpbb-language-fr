@@ -41,10 +41,10 @@ $lang = array_merge($lang, [
 	'ACP_ADMIN_LOGS'          => 'Historique des administrateurs',
 	'ACP_ADMIN_ROLES'         => 'Rôles des administrateurs',
 	'ACP_ATTACHMENTS'         => 'Pièces jointes',
-	'ACP_ATTACHMENT_SETTINGS' => 'Réglages des pièces jointes',
+	'ACP_ATTACHMENT_SETTINGS' => 'Paramètres des pièces jointes',
 	'ACP_AUTH_SETTINGS'       => 'Authentification',
 	'ACP_AUTOMATION'          => 'Automatisation',
-	'ACP_AVATAR_SETTINGS'     => 'Réglages des avatars',
+	'ACP_AVATAR_SETTINGS'     => 'Paramètres des avatars',
 
 	'ACP_BACKUP'              => 'Sauvegarder',
 	'ACP_BAN'                 => 'Bannissement',
@@ -55,7 +55,7 @@ $lang = array_merge($lang, [
 	'ACP_BOARD_CONFIGURATION' => 'Configuration du forum',
 	'ACP_BOARD_FEATURES'      => 'Fonctionnalités du forum',
 	'ACP_BOARD_MANAGEMENT'    => 'Gestion du forum',
-	'ACP_BOARD_SETTINGS'      => 'Réglages du forum',
+	'ACP_BOARD_SETTINGS'      => 'Paramètres du forum',
 	'ACP_BOTS'                => 'Robots',
 
 	'ACP_CAPTCHA' => 'CAPTCHA',
@@ -73,9 +73,9 @@ $lang = array_merge($lang, [
 	'ACP_CAT_USERGROUP'         => 'Utilisateurs et groupes',
 	'ACP_CAT_USERS'             => 'Utilisateurs',
 	'ACP_CLIENT_COMMUNICATION'  => 'Communication',
-	'ACP_COOKIE_SETTINGS'       => 'Réglages des cookies',
+	'ACP_COOKIE_SETTINGS'       => 'Paramètres des cookies',
 	'ACP_CONTACT'               => 'Page de contact',
-	'ACP_CONTACT_SETTINGS'      => 'Réglages de la page de contact',
+	'ACP_CONTACT_SETTINGS'      => 'Paramètres de la page de contact',
 	'ACP_CRITICAL_LOGS'         => 'Historique des erreurs',
 	'ACP_CUSTOM_PROFILE_FIELDS' => 'Champs de profil personnalisés',
 
@@ -114,11 +114,11 @@ $lang = array_merge($lang, [
 	'ACP_INACTIVE_USERS' => 'Utilisateurs inactifs',
 	'ACP_INDEX'          => 'Accueil du PCA',
 
-	'ACP_JABBER_SETTINGS' => 'Réglages de Jabber',
+	'ACP_JABBER_SETTINGS' => 'Paramètres de Jabber',
 
 	'ACP_LANGUAGE'       => 'Gestion des langues',
 	'ACP_LANGUAGE_PACKS' => 'Traductions',
-	'ACP_LOAD_SETTINGS'  => 'Réglages de la charge',
+	'ACP_LOAD_SETTINGS'  => 'Paramètres de la charge',
 	'ACP_LOGGING'        => 'Connexion',
 
 	'ACP_MAIN' => 'Accueil du PCA',
@@ -133,7 +133,7 @@ $lang = array_merge($lang, [
 	'ACP_MANAGE_USERS'      => 'Gérer les utilisateurs',
 	'ACP_MASS_EMAIL'        => 'Courriel de masse',
 	'ACP_MESSAGES'          => 'Messages',
-	'ACP_MESSAGE_SETTINGS'  => 'Réglages des messages privés',
+	'ACP_MESSAGE_SETTINGS'  => 'Paramètres des messages privés',
 	'ACP_MODULE_MANAGEMENT' => 'Gestion des modules',
 	'ACP_MOD_LOGS'          => 'Historique des modérateurs',
 	'ACP_MOD_ROLES'         => 'Rôles des modérateurs',
@@ -147,7 +147,7 @@ $lang = array_merge($lang, [
 	'ACP_PERMISSION_ROLES' => 'Rôles des permissions',
 	'ACP_PERMISSION_TRACE' => 'Trace de permission',
 	'ACP_PHP_INFO'         => 'Informations sur PHP',
-	'ACP_POST_SETTINGS'    => 'Réglages de la publication',
+	'ACP_POST_SETTINGS'    => 'Paramètres de la publication',
 	'ACP_PRUNE_FORUMS'     => 'Délester des forums',
 	'ACP_PRUNE_USERS'      => 'Délester des utilisateurs',
 	'ACP_PRUNING'          => 'Délestage',
@@ -156,21 +156,21 @@ $lang = array_merge($lang, [
 
 	'ACP_RANKS'             => 'Rangs',
 	'ACP_REASONS'           => 'Raisons de rapport',
-	'ACP_REGISTER_SETTINGS' => 'Réglages des inscriptions',
+	'ACP_REGISTER_SETTINGS' => 'Paramètres des inscriptions',
 
 	'ACP_RESTORE' => 'Restaurer',
 
 	'ACP_FEED'          => 'Gestion des flux',
-	'ACP_FEED_SETTINGS' => 'Réglages des flux',
+	'ACP_FEED_SETTINGS' => 'Paramètres des flux',
 
 	'ACP_SEARCH'          => 'Configuration de la recherche',
 	'ACP_SEARCH_INDEX'    => 'Indexation de la recherche',
-	'ACP_SEARCH_SETTINGS' => 'Réglages de la recherche',
+	'ACP_SEARCH_SETTINGS' => 'Paramètres de la recherche',
 
-	'ACP_SECURITY_SETTINGS'    => 'Réglages de sécurité',
+	'ACP_SECURITY_SETTINGS'    => 'Paramètres de sécurité',
 	'ACP_SERVER_CONFIGURATION' => 'Configuration du serveur',
-	'ACP_SERVER_SETTINGS'      => 'Réglages du serveur',
-	'ACP_SIGNATURE_SETTINGS'   => 'Réglages des signatures',
+	'ACP_SERVER_SETTINGS'      => 'Paramètres du serveur',
+	'ACP_SIGNATURE_SETTINGS'   => 'Paramètres des signatures',
 	'ACP_SMILIES'              => 'Émoticônes',
 	'ACP_STYLE_MANAGEMENT'     => 'Gestion des styles',
 	'ACP_STYLES'               => 'Styles',
@@ -263,7 +263,7 @@ $lang = array_merge($lang, [
 	'EXPORT_STORE'    => 'Stocker',
 
 	'GENERAL_OPTIONS'  => 'Options générales',
-	'GENERAL_SETTINGS' => 'Réglages généraux',
+	'GENERAL_SETTINGS' => 'Paramètres généraux',
 	'GLOBAL_MASK'      => 'Masque de permission générale',
 
 	'INSTALL'     => 'Installer',
@@ -300,7 +300,7 @@ $lang = array_merge($lang, [
 	'PARSE_SMILIES'                   => 'Analyser la syntaxe des émoticônes',
 	'PARSE_URLS'                      => 'Analyser la syntaxe des liens',
 	'PERMISSIONS_TRANSFERRED'         => 'Permissions transférées',
-	'PERMISSIONS_TRANSFERRED_EXPLAIN' => 'Vous détenez actuellement les permissions de %1$s. Vous pouvez parcourir le forum avec les permissions de cet utilisateur mais vous ne pouvez pas accéder au panneau de contrôle d’administration car les permissions des administrateurs ne sont pas transférées. Vous pouvez <a href="%2$s"><strong>réinitialiser les réglages de vos permissions</strong></a> à tout moment.',
+	'PERMISSIONS_TRANSFERRED_EXPLAIN' => 'Vous détenez actuellement les permissions de %1$s. Vous pouvez parcourir le forum avec les permissions de cet utilisateur mais vous ne pouvez pas accéder au panneau de contrôle d’administration car les permissions des administrateurs ne sont pas transférées. Vous pouvez <a href="%2$s"><strong>réinitialiser les Paramètres de vos permissions</strong></a> à tout moment.',
 	'PROCEED_TO_ACP'                  => '%sAller au PCA%s',
 
 	'RELEASE_ANNOUNCEMENT' => 'Annonce',
@@ -312,10 +312,10 @@ $lang = array_merge($lang, [
 	'SELECT_ANONYMOUS' => 'Sélectionner un utilisateur anonyme',
 	'SELECT_OPTION'    => 'Sélectionner une option',
 
-	'SETTING_TOO_LOW'   => 'La valeur que vous avez spécifiée concernant le réglage « %1$s » est trop faible. Cette valeur doit être supérieure ou égale à %2$d.',
-	'SETTING_TOO_BIG'   => 'La valeur que vous avez spécifiée concernant le réglage « %1$s » est trop élevée. Cette valeur doit être inférieure ou égale à %2$d.',
-	'SETTING_TOO_LONG'  => 'La valeur que vous avez spécifiée concernant le réglage « %1$s » est trop longue. Cette valeur doit être inférieure ou égale à %2$d.',
-	'SETTING_TOO_SHORT' => 'La valeur que vous avez spécifiée concernant le réglage « %1$s » est trop courte. Cette valeur doit être supérieure ou égale à %2$d.',
+	'SETTING_TOO_LOW'   => 'La valeur que vous avez spécifiée concernant le Paramètre « %1$s » est trop faible. Cette valeur doit être supérieure ou égale à %2$d.',
+	'SETTING_TOO_BIG'   => 'La valeur que vous avez spécifiée concernant le Paramètre « %1$s » est trop élevée. Cette valeur doit être inférieure ou égale à %2$d.',
+	'SETTING_TOO_LONG'  => 'La valeur que vous avez spécifiée concernant le Paramètre « %1$s » est trop longue. Cette valeur doit être inférieure ou égale à %2$d.',
+	'SETTING_TOO_SHORT' => 'La valeur que vous avez spécifiée concernant le Paramètre « %1$s » est trop courte. Cette valeur doit être supérieure ou égale à %2$d.',
 
 	'SHOW_ALL_OPERATIONS' => 'Afficher toutes les opérations',
 
@@ -336,7 +336,7 @@ $lang = array_merge($lang, [
 
 // PHP info
 $lang = array_merge($lang, [
-	'ACP_PHP_INFO_EXPLAIN' => 'Vous pouvez consulter sur cette page les informations sur la version de PHP qui est installée sur votre serveur. Cela comprend l’ensemble des informations sur les modules chargés, les variables disponibles et les réglages par défaut. Ces informations peuvent être utiles afin de diagnostiquer les problèmes présents sur votre serveur. Veuillez noter que certains hébergeurs peuvent limiter l’affichage de ces informations pour des raisons de sécurité. Il est déconseillé de divulguer les informations disponibles sur cette page, sauf si elles sont demandées par un des <a href="https://www.phpbb.com/about/team/">membres de l’équipe officielle</a> (en anglais) sur les forums de support.',
+	'ACP_PHP_INFO_EXPLAIN' => 'Vous pouvez consulter sur cette page les informations sur la version de PHP qui est installée sur votre serveur. Cela comprend l’ensemble des informations sur les modules chargés, les variables disponibles et les Paramètres par défaut. Ces informations peuvent être utiles afin de diagnostiquer les problèmes présents sur votre serveur. Veuillez noter que certains hébergeurs peuvent limiter l’affichage de ces informations pour des raisons de sécurité. Il est déconseillé de divulguer les informations disponibles sur cette page, sauf si elles sont demandées par un des <a href="https://www.phpbb.com/about/team/">membres de l’équipe officielle</a> (en anglais) sur les forums de support.',
 
 	'NO_PHPINFO_AVAILABLE' => 'Impossible d’afficher les informations concernant votre configuration de PHP. La fonction phpinfo() a été désactivée pour des raisons de sécurité.',
 ]);
@@ -373,13 +373,13 @@ $lang = array_merge($lang, [
 
 	// Enviroment configuration checks, mbstring related
 	'ERROR_MBSTRING_FUNC_OVERLOAD'                => 'La fonction de surcharge n’est pas correctement configurée',
-	'ERROR_MBSTRING_FUNC_OVERLOAD_EXPLAIN'        => 'La variable <var>mbstring.func_overload</var> doit être réglée sur 0 ou 4. Vous pouvez consulter la valeur actuelle sur la page <samp>Informations sur PHP</samp>.',
+	'ERROR_MBSTRING_FUNC_OVERLOAD_EXPLAIN'        => 'La variable <var>mbstring.func_overload</var> doit être sur 0 ou 4. Vous pouvez consulter la valeur actuelle sur la page <samp>Informations sur PHP</samp>.',
 	'ERROR_MBSTRING_ENCODING_TRANSLATION'         => 'L’encodage des caractères transparents n’est pas correctement configuré',
-	'ERROR_MBSTRING_ENCODING_TRANSLATION_EXPLAIN' => 'La variable <var>mbstring.encoding_translation</var> doit être réglée sur 0. Vous pouvez consulter la valeur actuelle sur la page <samp>Informations sur PHP</samp>.',
+	'ERROR_MBSTRING_ENCODING_TRANSLATION_EXPLAIN' => 'La variable <var>mbstring.encoding_translation</var> doit être sur 0. Vous pouvez consulter la valeur actuelle sur la page <samp>Informations sur PHP</samp>.',
 	'ERROR_MBSTRING_HTTP_INPUT'                   => 'La conversion des caractères d’entrée HTTP n’est pas correctement configurée',
-	'ERROR_MBSTRING_HTTP_INPUT_EXPLAIN'           => 'La variable <var>mbstring.http_input</var> doit être réglée sur <samp>pass</samp>. Vous pouvez consulter la valeur actuelle sur la page <samp>Informations sur PHP</samp>.',
+	'ERROR_MBSTRING_HTTP_INPUT_EXPLAIN'           => 'La variable <var>mbstring.http_input</var> doit être paramétrée sur <samp>pass</samp>. Vous pouvez consulter la valeur actuelle sur la page <samp>Informations sur PHP</samp>.',
 	'ERROR_MBSTRING_HTTP_OUTPUT'                  => 'La conversion des caractères de sortie HTTP n’est pas correctement configurée',
-	'ERROR_MBSTRING_HTTP_OUTPUT_EXPLAIN'          => 'La variable <var>mbstring.http_output</var> doit être réglée sur <samp>pass</samp>. Vous pouvez consulter la valeur actuelle sur la page <samp>Informations sur PHP</samp>.',
+	'ERROR_MBSTRING_HTTP_OUTPUT_EXPLAIN'          => 'La variable <var>mbstring.http_output</var> doit être paramétrée sur <samp>pass</samp>. Vous pouvez consulter la valeur actuelle sur la page <samp>Informations sur PHP</samp>.',
 
 	'FILES_PER_DAY' => 'Moyenne de pièces jointes par jour',
 	'FORUM_STATS'   => 'Statistiques du forum',
@@ -464,7 +464,7 @@ $lang = array_merge($lang, [
 	'INACTIVE_REASON_UNKNOWN'      => 'Inconnue',
 	'INACTIVE_USERS'               => 'Utilisateurs inactifs',
 	'INACTIVE_USERS_EXPLAIN'       => 'Cette liste vous affiche les utilisateurs inscrits dont le compte est actuellement inactif. Vous pouvez activer, supprimer ou rappeler (en envoyant un courriel) ces utilisateurs.',
-	'INACTIVE_USERS_EXPLAIN_INDEX' => 'Cette liste vous affiche les dix derniers utilisateurs inscrits dont le compte est actuellement inactif. Les comptes d’utilisateurs peuvent être inactifs lorsqu’une activation est requise dans le réglage des inscriptions mais que certains comptes d’utilisateurs n’ont pas encore été activés. Les comptes d’utilisateurs désactivés sont également affichés dans cette liste. Vous pouvez consulter la totalité de la liste des utilisateurs inactifs depuis le menu approprié ou en cliquant sur le lien ci-dessous d’où vous pourrez activer, supprimer ou rappeler (en envoyant un courriel) ces utilisateurs.',
+	'INACTIVE_USERS_EXPLAIN_INDEX' => 'Cette liste vous affiche les dix derniers utilisateurs inscrits dont le compte est actuellement inactif. Les comptes d’utilisateurs peuvent être inactifs lorsqu’une activation est requise dans le Paramètre des inscriptions mais que certains comptes d’utilisateurs n’ont pas encore été activés. Les comptes d’utilisateurs désactivés sont également affichés dans cette liste. Vous pouvez consulter la totalité de la liste des utilisateurs inactifs depuis le menu approprié ou en cliquant sur le lien ci-dessous d’où vous pourrez activer, supprimer ou rappeler (en envoyant un courriel) ces utilisateurs.',
 
 	'NO_INACTIVE_USERS' => 'Aucun utilisateur inactif',
 
@@ -558,22 +558,22 @@ $lang = array_merge($lang, [
 	'LOG_CLEAR_USER'     => '<strong>Nettoyage de l’historique d’un utilisateur</strong><br />» %s',
 	'LOG_CLEAR_USERS'    => '<strong>Nettoyage de l’historique des utilisateurs</strong>',
 
-	'LOG_CONFIG_ATTACH'       => '<strong>Modification des réglages des pièces jointes</strong>',
-	'LOG_CONFIG_AUTH'         => '<strong>Modification des réglages d’authentification</strong>',
-	'LOG_CONFIG_AVATAR'       => '<strong>Modification des réglages des avatars</strong>',
-	'LOG_CONFIG_COOKIE'       => '<strong>Modification des réglages des cookies</strong>',
-	'LOG_CONFIG_EMAIL'        => '<strong>Modification des réglages de la messagerie électronique</strong>',
+	'LOG_CONFIG_ATTACH'       => '<strong>Modification des Paramètres des pièces jointes</strong>',
+	'LOG_CONFIG_AUTH'         => '<strong>Modification des Paramètres d’authentification</strong>',
+	'LOG_CONFIG_AVATAR'       => '<strong>Modification des Paramètres des avatars</strong>',
+	'LOG_CONFIG_COOKIE'       => '<strong>Modification des Paramètres des cookies</strong>',
+	'LOG_CONFIG_EMAIL'        => '<strong>Modification des Paramètres de la messagerie électronique</strong>',
 	'LOG_CONFIG_FEATURES'     => '<strong>Modification des fonctionnalités du forum</strong>',
-	'LOG_CONFIG_LOAD'         => '<strong>Modification des réglages de la charge du système</strong>',
-	'LOG_CONFIG_MESSAGE'      => '<strong>Modification des réglages de la messagerie privée</strong>',
-	'LOG_CONFIG_POST'         => '<strong>Modification des réglages de la publication</strong>',
-	'LOG_CONFIG_REGISTRATION' => '<strong>Modification des réglages des inscriptions</strong>',
-	'LOG_CONFIG_FEED'         => '<strong>Modification des réglages des flux de syndication</strong>',
-	'LOG_CONFIG_SEARCH'       => '<strong>Modification des réglages de la recherche</strong>',
-	'LOG_CONFIG_SECURITY'     => '<strong>Modification des réglages de sécurité</strong>',
-	'LOG_CONFIG_SERVER'       => '<strong>Modification des réglages du serveur</strong>',
-	'LOG_CONFIG_SETTINGS'     => '<strong>Modification des réglages du forum</strong>',
-	'LOG_CONFIG_SIGNATURE'    => '<strong>Modification des réglages des signatures</strong>',
+	'LOG_CONFIG_LOAD'         => '<strong>Modification des Paramètres de la charge du système</strong>',
+	'LOG_CONFIG_MESSAGE'      => '<strong>Modification des Paramètres de la messagerie privée</strong>',
+	'LOG_CONFIG_POST'         => '<strong>Modification des Paramètres de la publication</strong>',
+	'LOG_CONFIG_REGISTRATION' => '<strong>Modification des Paramètres des inscriptions</strong>',
+	'LOG_CONFIG_FEED'         => '<strong>Modification des Paramètres des flux de syndication</strong>',
+	'LOG_CONFIG_SEARCH'       => '<strong>Modification des Paramètres de la recherche</strong>',
+	'LOG_CONFIG_SECURITY'     => '<strong>Modification des Paramètres de sécurité</strong>',
+	'LOG_CONFIG_SERVER'       => '<strong>Modification des Paramètres du serveur</strong>',
+	'LOG_CONFIG_SETTINGS'     => '<strong>Modification des Paramètres du forum</strong>',
+	'LOG_CONFIG_SIGNATURE'    => '<strong>Modification des Paramètres des signatures</strong>',
 	'LOG_CONFIG_VISUAL'       => '<strong>Modification des mesures de lutte contre les robots indésirables</strong>',
 
 	'LOG_APPROVE_TOPIC'       => '<strong>Approbation d’un sujet</strong><br />» %s',
@@ -667,7 +667,7 @@ $lang = array_merge($lang, [
 	'LOG_JAB_CHANGED'          => '<strong>Modification d’un compte Jabber</strong>',
 	'LOG_JAB_PASSCHG'          => '<strong>Modification d’un mot de passe de Jabber</strong>',
 	'LOG_JAB_REGISTER'         => '<strong>Inscription d’un compte Jabber</strong>',
-	'LOG_JAB_SETTINGS_CHANGED' => '<strong>Modification des réglages de Jabber</strong>',
+	'LOG_JAB_SETTINGS_CHANGED' => '<strong>Modification des Paramètres de Jabber</strong>',
 
 	'LOG_LANGUAGE_PACK_DELETED'   => '<strong>Suppression d’une traduction</strong><br />» %s',
 	'LOG_LANGUAGE_PACK_INSTALLED' => '<strong>Installation d’une traduction</strong><br />» %s',

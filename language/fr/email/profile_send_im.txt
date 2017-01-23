@@ -5,7 +5,7 @@ Ce qui suit est un message qui vous a été envoyé par {FROM_USERNAME} depuis v
 
 {BOARD_CONTACT}
 
-Incluez ce courriel en entier. Veuillez noter que l’adresse de l’expéditeur a été réglée sur le compte IM des forums.
+Incluez ce courriel en entier. Veuillez noter que l’adresse de l’expéditeur a été définie sur le compte IM des forums.
 
 Le message qui vous a été envoyé est le suivant :
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

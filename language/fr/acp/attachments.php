@@ -36,7 +36,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, [
-	'ACP_ATTACHMENT_SETTINGS_EXPLAIN' => 'Vous pouvez configurer sur cette page les réglages relatifs aux pièces jointes et à leurs catégories spéciales.',
+	'ACP_ATTACHMENT_SETTINGS_EXPLAIN' => 'Vous pouvez configurer sur cette page les Paramètres relatifs aux pièces jointes et à leurs catégories spéciales.',
 	'ACP_EXTENSION_GROUPS_EXPLAIN'    => 'Vous pouvez ajouter, supprimer, modifier ou désactiver sur cette page les groupes d’extensions des pièces jointes. Vous pouvez également leur attribuer des catégories spéciales, modifier le mécanisme de téléchargement et définir une icône de transfert qui sera alors affichée devant la pièce jointe appartenant au groupe d’extensions.',
 	'ACP_MANAGE_EXTENSIONS_EXPLAIN'   => 'Vous pouvez gérer sur cette page les extensions des pièces jointes autorisées à être transférées et téléchargées sur votre forum. Si vous souhaitez activer une extension, vous devez vous rendre sur le panneau de gestion des groupes d’extensions. Nous vous recommandons fortement de ne pas autoriser les extensions de langages de programmation (telles que <code>php</code>, <code>php3</code>, <code>php4</code>, <code>phtml</code>, <code>pl</code>, <code>cgi</code>, <code>py</code>, <code>rb</code>, <code>asp</code>, <code>aspx</code>, etc.).',
 	'ACP_ORPHAN_ATTACHMENTS_EXPLAIN'  => 'Vous pouvez consulter sur cette page tous les fichiers orphelins qui sont des pièces jointes qui ont été transférées et insérées à des messages qui n’ont pas été envoyés par leur auteur. Vous pouvez supprimer ces fichiers ou les insérer à des messages existants en saisissant leurs numéros d’identification.',
@@ -57,7 +57,7 @@ $lang = array_merge($lang, [
 	'ATTACH_EXT_GROUPS_URL'           => 'Groupes d’extensions',
 	'ATTACH_ID'                       => 'Identification',
 	'ATTACH_MAX_FILESIZE'             => 'Taille maximale des pièces jointes',
-	'ATTACH_MAX_FILESIZE_EXPLAIN'     => 'La taille maximale des pièces jointes. Si cette valeur est réglée sur 0, la taille ne sera limitée que par votre configuration de PHP.',
+	'ATTACH_MAX_FILESIZE_EXPLAIN'     => 'La taille maximale des pièces jointes. Si cette valeur est sur 0, la taille ne sera limitée que par votre configuration de PHP.',
 	'ATTACH_MAX_PM_FILESIZE'          => 'Taille maximale des pièces jointes dans les messages privés',
 	'ATTACH_MAX_PM_FILESIZE_EXPLAIN'  => 'La taille maximale des pièces jointes insérées dans les messages privés. Réglez cette valeur sur 0 si vous ne souhaitez pas limiter cette taille.',
 	'ATTACH_ORPHAN_URL'               => 'Pièces jointes orphelines',
@@ -151,11 +151,11 @@ $lang = array_merge($lang, [
 	'SECURE_ALLOW_DENY_EXPLAIN'      => 'Si les téléchargements sécurisés sont activés, cette option vous permet de modifier le comportement par défaut en autorisant, sous forme de <strong>liste blanche</strong>, ou en interdisant, sous forme de <strong>liste noire</strong>, les adresses IP et les noms d’hôtes spécifiés à télécharger les pièces jointes de votre forum.',
 	'SECURE_DOWNLOADS'               => 'Activer les téléchargements sécurisés',
 	'SECURE_DOWNLOADS_EXPLAIN'       => 'Si cette option est activée, les téléchargements ne seront limités qu’aux adresses IP et aux noms d’hôtes que vous spécifiez.',
-	'SECURE_DOWNLOAD_NOTICE'         => 'Les téléchargements sécurisés sont désactivés. Les réglages ci-dessous ne seront appliqués que si les téléchargements sécurisés sont activés.',
+	'SECURE_DOWNLOAD_NOTICE'         => 'Les téléchargements sécurisés sont désactivés. Les Paramètres ci-dessous ne seront appliqués que si les téléchargements sécurisés sont activés.',
 	'SECURE_DOWNLOAD_UPDATE_SUCCESS' => 'La liste des adresses IP a été mise à jour.',
 	'SECURE_EMPTY_REFERRER'          => 'Autoriser les téléchargements aux référants vides',
 	'SECURE_EMPTY_REFERRER_EXPLAIN'  => 'Les téléchargements sécurisés sont basés sur les référants. Souhaitez-vous autoriser les téléchargements aux utilisateurs qui ne divulguent pas leur référant ?',
-	'SETTINGS_CAT_IMAGES'            => 'Réglages des catégories d’images',
+	'SETTINGS_CAT_IMAGES'            => 'Paramètres des catégories d’images',
 	'SPECIAL_CATEGORY'               => 'Catégorie spéciale',
 	'SPECIAL_CATEGORY_EXPLAIN'       => 'Les catégories spéciales modifient la présentation des messages.',
 	'SUCCESSFULLY_UPLOADED'          => 'Transféré.',

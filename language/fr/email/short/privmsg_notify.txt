@@ -10,6 +10,6 @@ Vous pouvez consulter votre nouveau message en cliquant sur le lien suivant :
 
 {U_VIEW_MESSAGE}
 
-Vous avez demandé à être notifié lors de cet événement. Sachez que vous pouvez choisir de ne plus recevoir de notifications lors de la réception de nouveaux messages privés en modifiant les réglages de votre profil.
+Vous avez demandé à être notifié lors de cet événement. Sachez que vous pouvez choisir de ne plus recevoir de notifications lors de la réception de nouveaux messages privés en modifiant les Paramètres de votre profil.
 
 {EMAIL_SIG}

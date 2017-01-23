@@ -36,17 +36,17 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, [
-	'CLI_CONFIG_CANNOT_CACHED'         => 'Réglez cette option si l’option de configuration change trop fréquemment pour être mis en cache efficacement.',
+	'CLI_CONFIG_CANNOT_CACHED'         => 'Modifiez cette option si l’option de configuration change trop fréquemment pour être mis en cache efficacement.',
 	'CLI_CONFIG_CURRENT'               => 'La valeur de configuration actuelle. Utilisez 0 et 1 afin de spécifier des valeurs booléennes',
 	'CLI_CONFIG_DELETE_SUCCESS'        => 'La configuration %s a été supprimée.',
 	'CLI_CONFIG_NEW'                   => 'La nouvelle valeur de configuration. Utilisez 0 et 1 afin de spécifier des valeurs booléennes',
 	'CLI_CONFIG_NOT_EXISTS'            => 'La configuration %s n’existe pas',
 	'CLI_CONFIG_OPTION_NAME'           => 'Le nom de l’option de configuration',
-	'CLI_CONFIG_PRINT_WITHOUT_NEWLINE' => 'Réglez cette option si la valeur doit être affichée sans effectuer de retour à la ligne.',
+	'CLI_CONFIG_PRINT_WITHOUT_NEWLINE' => 'Modifiez cette option si la valeur doit être affichée sans effectuer de retour à la ligne.',
 	'CLI_CONFIG_INCREMENT_BY'          => 'Montant de l’incrément',
 	'CLI_CONFIG_INCREMENT_SUCCESS'     => 'La configuration %s a été incrémentée',
-	'CLI_CONFIG_SET_FAILURE'           => 'Impossible de régler la configuration %s',
-	'CLI_CONFIG_SET_SUCCESS'           => 'La configuration %s a été réglée',
+	'CLI_CONFIG_SET_FAILURE'           => 'Impossible de paramétrer la configuration %s',
+	'CLI_CONFIG_SET_SUCCESS'           => 'La configuration %s a été paramétrée',
 
 	'CLI_DESCRIPTION_CRON_LIST'           => 'Affiche une liste des tâches cron prêtes et non prêtes.',
 	'CLI_DESCRIPTION_CRON_RUN'            => 'Exécute toutes les tâches cron prêtes.',
