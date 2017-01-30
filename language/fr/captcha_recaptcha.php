@@ -47,5 +47,5 @@ $lang = array_merge($lang, [
 	'RECAPTCHA_PRIVATE'         => 'Clé privée de reCAPTCHA',
 	'RECAPTCHA_PRIVATE_EXPLAIN' => 'Votre clé privée de reCAPTCHA. Les clés sont disponibles sur <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a> (en anglais).',
 
-	'RECAPTCHA_EXPLAIN' => 'Veuillez compléter la vérification suivante afin de nous permettre de nous prémunir contre les inscriptions automatisées et intensives réalisées par des robots malveillants.',
+	'RECAPTCHA_EXPLAIN' => 'Veuillez compléter la vérification suivante afin de nous permettre de nous prémunir contre les soumissions automatisées et intensives réalisées par des robots malveillants.',
 ]);
