@@ -41,7 +41,7 @@ $lang = array_merge($lang, [
 	'ALREADY_IN_GROUP_PENDING' => 'Vous avez déjà demandé à rejoindre ce groupe.',
 
 	'CANNOT_JOIN_GROUP'     => 'Vous ne pouvez pas rejoindre ce groupe. Vous ne pouvez rejoindre que les groupes publics ou restreints.',
-	'CANNOT_RESIGN_GROUP'   => 'Vous ne pouvez pas vous retirer de ce groupe. Vous ne pouvez vous retirer que des groupes publics ou restreints.',
+	'CANNOT_RESIGN_GROUP'   => 'Vous ne pouvez pas quitter ce groupe. Vous ne pouvez quitter que les groupes publics ou restreints.',
 	'CHANGED_DEFAULT_GROUP' => 'Le groupe par défaut a été modifié.',
 
 	'GROUP_AVATAR'                    => 'Avatar du groupe',
@@ -49,18 +49,18 @@ $lang = array_merge($lang, [
 	'GROUP_CLOSED'                    => 'Privé',
 	'GROUP_DESC'                      => 'Description du groupe',
 	'GROUP_HIDDEN'                    => 'Invisible',
-	'GROUP_INFORMATION'               => 'Informations sur le groupe d’utilisateurs',
+	'GROUP_INFORMATION'               => 'Informations sur le groupe',
 	'GROUP_IS_CLOSED'                 => 'Ce groupe est un groupe privé. Les utilisateurs ne peuvent le rejoindre que sur invitation du responsable du groupe.',
 	'GROUP_IS_FREE'                   => 'Ce groupe est un groupe public. Tous les utilisateurs peuvent le rejoindre sans aucune restriction.',
 	'GROUP_IS_HIDDEN'                 => 'Ce groupe est un groupe invisible. Seuls les membres de ce groupe peuvent voir ses adhérents.',
-	'GROUP_IS_OPEN'                   => 'Ce groupe est un groupe restreint. Les utilisateurs peuvent le rejoindre sur demande qui devra être approuvée.',
-	'GROUP_IS_SPECIAL'                => 'Ce groupe est un groupe spécial. Il est exclusivement géré par les administrateurs du forum.',
+	'GROUP_IS_OPEN'                   => 'Ce groupe est un groupe restreint. Les utilisateurs peuvent le rejoindre sur demande qui sera soumise à approbation.',
+	'GROUP_IS_SPECIAL'                => 'Ce groupe est un groupe spécial. Il est géré par les administrateurs du forum.',
 	'GROUP_JOIN'                      => 'Rejoindre le groupe',
 	'GROUP_JOIN_CONFIRM'              => 'Êtes-vous sûr de vouloir rejoindre ce groupe ?',
 	'GROUP_JOIN_PENDING'              => 'Demander à rejoindre le groupe',
 	'GROUP_JOIN_PENDING_CONFIRM'      => 'Êtes-vous sûr de vouloir demander à rejoindre ce groupe ?',
 	'GROUP_JOINED'                    => 'Vous avez rejoint ce groupe.',
-	'GROUP_JOINED_PENDING'            => 'Votre demande d’adhésion a bien été prise en compte. Veuillez patienter le temps qu’un responsable du groupe examine votre adhésion.',
+	'GROUP_JOINED_PENDING'            => 'Votre demande d’adhésion a bien été prise en compte. Veuillez patienter le temps que le responsable du groupe examine votre demande.',
 	'GROUP_LIST'                      => 'Gérer les utilisateurs',
 	'GROUP_MEMBERS'                   => 'Membres du groupe',
 	'GROUP_NAME'                      => 'Nom du groupe',
@@ -76,11 +76,11 @@ $lang = array_merge($lang, [
 	'GROUP_UNDISCLOSED'               => 'Groupe invisible',
 	'FORUM_UNDISCLOSED'               => 'Modération des forums invisibles',
 
-	'LOGIN_EXPLAIN_GROUP' => 'Vous devez vous connecter afin de consulter les informations sur le groupe.',
+	'LOGIN_EXPLAIN_GROUP' => 'Vous devez vous connecter afin de pouvoir consulter les informations sur ce groupe.',
 
-	'NO_LEADERS'                    => 'Vous n’êtes le responsable d’aucun groupe.',
-	'NOT_LEADER_OF_GROUP'           => 'L’opération a échoué car vous n’êtes pas le responsable de ce groupe.',
-	'NOT_MEMBER_OF_GROUP'           => 'L’opération a échoué car vous n’êtes pas membre de ce groupe, ou votre demande d’adhésion n’a pas encore été approuvée.',
+	'NO_LEADERS'                    => 'Vous n’êtes responsable d’aucun groupe.',
+	'NOT_LEADER_OF_GROUP'           => 'Cette opération n’a pas pu aboutir car vous n’êtes pas responsable de ce groupe.',
+	'NOT_MEMBER_OF_GROUP'           => 'Cette opération n’a pas pu aboutir car vous n’êtes pas membre de ce groupe ou votre demande d’adhésion n’a pas encore été approuvée.',
 	'NOT_RESIGN_FROM_DEFAULT_GROUP' => 'Vous ne pouvez pas vous retirer de votre groupe par défaut.',
 
 	'PRIMARY_GROUP' => 'Groupe principal',
@@ -88,7 +88,7 @@ $lang = array_merge($lang, [
 	'REMOVE_SELECTED' => 'Supprimer la sélection',
 
 	'USER_GROUP_CHANGE'         => 'De « %1$s » au groupe « %2$s »',
-	'USER_GROUP_DEMOTE'         => 'Abandonner la fonction de responsable',
-	'USER_GROUP_DEMOTE_CONFIRM' => 'Êtes-vous sûr de vouloir abandonner votre fonction de responsable de ce groupe ?',
-	'USER_GROUP_DEMOTED'        => 'Vous n’êtes à présent plus responsable de ce groupe.',
+	'USER_GROUP_DEMOTE'         => 'Quitter la fonction de responsable',
+	'USER_GROUP_DEMOTE_CONFIRM' => 'Êtes-vous sûr de vouloir quitter votre fonction de responsable de ce groupe ?',
+	'USER_GROUP_DEMOTED'        => 'Vous n’êtes plus responsable de ce groupe.',
 ]);
