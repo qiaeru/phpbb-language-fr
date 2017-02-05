@@ -38,8 +38,8 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, [
 	'PLUPLOAD_ADD_FILES'            => 'Ajouter des fichiers',
-	'PLUPLOAD_ADD_FILES_TO_QUEUE'   => 'Ajoutez des fichiers à la file de transfert et cliquez sur le bouton de démarrage afin de les transférer.',
-	'PLUPLOAD_ALREADY_QUEUED'       => '%s fichiers déjà présents dans la file.',
+	'PLUPLOAD_ADD_FILES_TO_QUEUE'   => 'Ajoutez des fichiers à la file d’attente de transfert et cliquez sur le bouton de démarrage afin de les transférer.',
+	'PLUPLOAD_ALREADY_QUEUED'       => '%s fichiers déjà présents dans la file d’attente.',
 	'PLUPLOAD_CLOSE'                => 'Fermer',
 	'PLUPLOAD_DRAG'                 => 'Glissez et déposez ici les fichiers que vous souhaitez transférer.',
 	'PLUPLOAD_DUPLICATE_ERROR'      => 'Erreur de duplicata de fichier.',
@@ -50,19 +50,19 @@ $lang = array_merge($lang, [
 	'PLUPLOAD_ERR_FILE_TOO_LARGE'   => 'La taille du fichier est trop importante :',
 	'PLUPLOAD_ERR_FILE_COUNT'       => 'Erreur sur le nombre de fichiers.',
 	'PLUPLOAD_ERR_FILE_INVALID_EXT' => 'L’extension du fichier est invalide :',
-	'PLUPLOAD_ERR_RUNTIME_MEMORY'   => 'Mémoire disponible insuffisante.',
+	'PLUPLOAD_ERR_RUNTIME_MEMORY'   => 'La mémoire disponible est insuffisante.',
 	'PLUPLOAD_ERR_UPLOAD_URL'       => 'Le lien de transfert semble invalide ou n’existe pas.',
 	'PLUPLOAD_EXTENSION_ERROR'      => 'Erreur d’extension de fichier.',
 	'PLUPLOAD_FILE'                 => 'Fichier : %s',
-	'PLUPLOAD_FILE_DETAILS'         => 'Fichier : %s. Taille : %d. Taille maximale : %d',
+	'PLUPLOAD_FILE_DETAILS'         => 'Fichier : %s ; taille : %d ; taille maximale autorisée : %d',
 	'PLUPLOAD_FILENAME'             => 'Nom',
-	'PLUPLOAD_FILES_QUEUED'         => '%d fichier(s) en attente',
+	'PLUPLOAD_FILES_QUEUED'         => '%d fichiers en attente',
 	'PLUPLOAD_GENERIC_ERROR'        => 'Erreur générique.',
 	'PLUPLOAD_HTTP_ERROR'           => 'Erreur HTTP.',
-	'PLUPLOAD_IMAGE_FORMAT'         => 'Le format de l’image est invalide ou n’est pas supporté.',
+	'PLUPLOAD_IMAGE_FORMAT'         => 'Le format de l’image est invalide ou n’est pas pris en charge.',
 	'PLUPLOAD_INIT_ERROR'           => 'Erreur d’initialisation.',
 	'PLUPLOAD_IO_ERROR'             => 'Erreur E/S.',
-	'PLUPLOAD_NOT_APPLICABLE'       => 'N/A',
+	'PLUPLOAD_NOT_APPLICABLE'       => 'ND',
 	'PLUPLOAD_SECURITY_ERROR'       => 'Erreur de sécurité.',
 	'PLUPLOAD_SELECT_FILES'         => 'Sélectionner des fichiers',
 	'PLUPLOAD_SIZE'                 => 'Taille',
@@ -74,5 +74,5 @@ $lang = array_merge($lang, [
 	'PLUPLOAD_STOP_CURRENT_UPLOAD'  => 'Interrompre le transfert actuel',
 	// Note: This string is formatted independently by plupload and so does not
 	// use the same formatting rules as normal phpBB translation strings
-	'PLUPLOAD_UPLOADED' => '%d/%d fichier(s) transféré(s)',
+	'PLUPLOAD_UPLOADED' => '%d/%d fichiers transférés',
 ]);

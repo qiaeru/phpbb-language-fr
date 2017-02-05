@@ -36,9 +36,9 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, [
-	'CONFIG_NOT_EXIST' => 'La configuration « %s » est introuvable.',
+	'CONFIG_NOT_EXIST' => 'La configuration « %s » n’existe pas.',
 
-	'GROUP_NOT_EXIST' => 'Le groupe « %s » est introuvable.',
+	'GROUP_NOT_EXIST' => 'Le groupe « %s » n’existe pas.',
 
 	'MIGRATION_APPLY_DEPENDENCIES'    => 'Appliquer les dépendances de %s.',
 	'MIGRATION_DATA_DONE'             => 'Données installées : %1$s ; durée : %2$.2f secondes',
@@ -69,12 +69,12 @@ $lang = array_merge($lang, [
 
 	'MODULE_ERROR'               => 'Une erreur est survenue lors de la création d’un module : %s',
 	'MODULE_EXISTS'              => 'Un module existe déjà : %s',
-	'MODULE_EXIST_MULTIPLE'      => 'Plusieurs modules avec ce nom de langue de module parent existent déjà : %s. Veuillez essayer d’utiliser des clés « Before » (avant) et « After » (après) afin de positionner l’emplacement du module.',
+	'MODULE_EXIST_MULTIPLE'      => 'Plusieurs modules portant ce nom de langue existent déjà dans le module parent : %s. Veuillez essayer d’utiliser des clés « Before » (avant) et « After » (après) afin de positionner l’emplacement du module.',
 	'MODULE_INFO_FILE_NOT_EXIST' => 'Un fichier d’information du module est manquant : %2$s',
-	'MODULE_NOT_EXIST'           => 'Un module nécessaire est introuvable : %s',
+	'MODULE_NOT_EXIST'           => 'Un module nécessaire est manquant : %s',
 
 	'PARENT_MODULE_FIND_ERROR' => 'Impossible de déterminer l’identifiant du module parent : %s',
-	'PERMISSION_NOT_EXIST'     => 'Le paramètre de permission « %s » est introuvable.',
+	'PERMISSION_NOT_EXIST'     => 'Le paramètre de permission « %s » n’existe pas.',
 
-	'ROLE_NOT_EXIST' => 'Le rôle de permission « %s » est introuvable.',
+	'ROLE_NOT_EXIST' => 'Le rôle de permission « %s » n’existe pas.',
 ]);

@@ -53,7 +53,7 @@ $lang = array_merge($lang, [
 	'GLOBAL' => 'Annonce générale',
 
 	'IGNORED_TERMS'         => 'ignorés',
-	'IGNORED_TERMS_EXPLAIN' => 'Les mots suivants ont été ignorés lors de votre recherche car ils sont considérés comme trop courants : <strong>%s</strong>.',
+	'IGNORED_TERMS_EXPLAIN' => 'Les mots suivants ont été ignorés car ils sont considérés comme trop communs : <strong>%s</strong>.',
 
 	'JUMP_TO_POST' => 'Aller au message',
 
@@ -70,7 +70,7 @@ $lang = array_merge($lang, [
 	'NO_RECENT_SEARCHES' => 'Aucune recherche n’a été effectuée récemment.',
 	'NO_SEARCH'          => 'Vous ne pouvez pas effectuer de recherche.',
 	'NO_SEARCH_RESULTS'  => 'Aucun résultat ne correspond aux termes que vous avez spécifiés.',
-	'NO_SEARCH_LOAD'     => 'Vous ne pouvez pas effectuer de recherche pour le moment. Le serveur est en surcharge. Veuillez réessayer ultérieurement.',
+	'NO_SEARCH_LOAD'     => 'Vous ne pouvez pas effectuer de recherche pour le moment car le serveur est en surcharge. Veuillez réessayer ultérieurement.',
 	'NO_SEARCH_TIME'     => [
 		1 => 'Vous ne pouvez pas effectuer de recherche pour le moment. Veuillez réessayer dans %d seconde.',
 		2 => 'Vous ne pouvez pas effectuer de recherche pour le moment. Veuillez réessayer dans %d secondes.',
@@ -80,7 +80,7 @@ $lang = array_merge($lang, [
 	'WORDS_IN_NO_POST'  => 'Les mots <strong>%s</strong> ne sont présents dans aucun message.',
 
 	'POST_CHARACTERS'        => 'caractères des messages',
-	'PHRASE_SEARCH_DISABLED' => 'La recherche de phrases exactes n’est pas supportée par ce forum.',
+	'PHRASE_SEARCH_DISABLED' => 'La recherche par phrase exacte n’est pas prise en charge sur ce forum.',
 
 	'RECENT_SEARCHES'  => 'Recherches récentes',
 	'RESULT_DAYS'      => 'Limiter les résultats selon leur ancienneté',
@@ -92,7 +92,7 @@ $lang = array_merge($lang, [
 	'SEARCHED_TOPIC'           => 'Sujet recherché',
 	'SEARCHED_QUERY'           => 'Requête recherchée',
 	'SEARCH_ALL_TERMS'         => 'Rechercher tous les termes ou utiliser une question comme élément',
-	'SEARCH_ANY_TERMS'         => 'Rechercher n’importe quels de ces termes',
+	'SEARCH_ANY_TERMS'         => 'Rechercher n’importe quel de ces termes',
 	'SEARCH_AUTHOR'            => 'Rechercher par auteur',
 	'SEARCH_AUTHOR_EXPLAIN'    => 'Utilisez * comme joker si vous souhaitez effectuer des recherches partielles.',
 	'SEARCH_FIRST_POST'        => 'Le premier message des sujets uniquement',
@@ -102,7 +102,7 @@ $lang = array_merge($lang, [
 	'SEARCH_KEYWORDS_EXPLAIN'  => 'Insérez <strong>+</strong> devant un mot qui doit être trouvé et <strong>-</strong> devant un mot qui doit être ignoré. Insérez une liste de mots séparés entre des barres verticales discontinues <strong>|</strong> si seul un des mots doit être trouvé. Utilisez * comme joker si vous souhaitez effectuer des recherches partielles.',
 	'SEARCH_MSG_ONLY'          => 'Le contenu des messages uniquement',
 	'SEARCH_OPTIONS'           => 'Préférences de la recherche',
-	'SEARCH_QUERY'             => 'Question de la recherche',
+	'SEARCH_QUERY'             => 'Requête de la recherche',
 	'SEARCH_SUBFORUMS'         => 'Rechercher dans les sous-forums',
 	'SEARCH_TITLE_MSG'         => 'Le titre des sujets et le contenu des messages',
 	'SEARCH_TITLE_ONLY'        => 'Le titre des sujets uniquement',
@@ -112,9 +112,9 @@ $lang = array_merge($lang, [
 	'SORT_DESCENDING'          => 'Décroissant',
 	'SORT_FORUM'               => 'Forum',
 	'SORT_POST_SUBJECT'        => 'Sujet du message',
-	'SORT_TIME'                => 'Heure du message',
-	'SPHINX_SEARCH_FAILED'     => 'La recherche a échoué : %s',
-	'SPHINX_SEARCH_FAILED_LOG' => 'Impossible d’effectuer la recherche. Pour plus d’informations à propos de ce dysfonctionnement, veuillez consulter l’historique des erreurs.',
+	'SORT_TIME'                => 'Date du message',
+	'SPHINX_SEARCH_FAILED'     => 'Une erreur est survenue lors de la recherche : %s',
+	'SPHINX_SEARCH_FAILED_LOG' => 'Une erreur est survenue lors de la recherche. Pour plus d’informations, veuillez consulter l’historique des erreurs.',
 
 	'TOO_FEW_AUTHOR_CHARS' => [
 		1 => 'Vous devez saisir au moins %d caractère du nom des auteurs.',

@@ -38,7 +38,7 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, [
 	'APPROVE'                           => 'Approuver',
 	'ATTACHMENT'                        => 'Pièce jointe',
-	'ATTACHMENT_FUNCTIONALITY_DISABLED' => 'La fonctionnalité liée aux pièces jointes est désactivée.',
+	'ATTACHMENT_FUNCTIONALITY_DISABLED' => 'Les pièces jointes ont été désactivées.',
 
 	'BOOKMARK_ADDED'        => 'Le sujet a été ajouté aux favoris.',
 	'BOOKMARK_ERR'          => 'Le sujet n’a pas pu être ajouté aux favoris. Veuillez réessayer ultérieurement.',
@@ -53,11 +53,11 @@ $lang = array_merge($lang, [
 	'DELETE_TOPIC'        => 'Supprimer le sujet',
 	'DELETED_INFORMATION' => 'Supprimé par %1$s le %2$s',
 	'DISAPPROVE'          => 'Désapprouver',
-	'DOWNLOAD_NOTICE'     => 'Vous ne pouvez pas consulter les fichiers insérés à ce message.',
+	'DOWNLOAD_NOTICE'     => 'Vous ne pouvez pas consulter les pièces jointes insérées à ce message.',
 
 	'EDITED_TIMES_TOTAL' => [
-		1 => 'Dernière édition par %2$s le %3$s, édité %1$d fois.',
-		2 => 'Dernière édition par %2$s le %3$s, édité %1$d fois.',
+		1 => 'Dernière modification par %2$s le %3$s, modifié %1$d fois.',
+		2 => 'Dernière modification par %2$s le %3$s, modifié %1$d fois.',
 	],
 	'EMAIL_TOPIC'         => 'Envoyer le sujet par courriel',
 	'ERROR_NO_ATTACHMENT' => 'La pièce jointe n’existe plus.',
@@ -66,8 +66,8 @@ $lang = array_merge($lang, [
 	'FORK_TOPIC'         => 'Copier le sujet',
 	'FULL_EDITOR'        => 'Éditeur avancé et prévisualisation',
 
-	'LINKAGE_FORBIDDEN'  => 'Vous ne pouvez pas consulter, télécharger ou insérer de lien vers ce site.',
-	'LOGIN_NOTIFY_TOPIC' => 'Vous avez reçu une notification concernant un message de ce sujet. Veuillez vous connecter afin de consulter ce dernier.',
+	'LINKAGE_FORBIDDEN'  => 'Vous ne pouvez pas consulter, télécharger ou insérer de liens vers ce site.',
+	'LOGIN_NOTIFY_TOPIC' => 'Vous avez reçu une notification concernant un message de ce sujet. Veuillez vous connecter afin de le consulter.',
 	'LOGIN_VIEWTOPIC'    => 'Vous devez être inscrit et connecté afin de consulter ce sujet.',
 
 	'MAKE_ANNOUNCE'      => 'Modifier en « annonce »',
@@ -76,7 +76,7 @@ $lang = array_merge($lang, [
 	'MAKE_STICKY'        => 'Modifier en « note »',
 	'MAX_OPTIONS_SELECT' => [
 		1 => 'Vous pouvez sélectionner <strong>%d</strong> option',
-		2 => 'Vous pouvez sélectionner jusqu’à <strong>%d</strong> options',
+		2 => 'Vous pouvez sélectionner <strong>%d</strong> options',
 	],
 	'MISSING_INLINE_ATTACHMENT' => 'La pièce jointe <strong>%s</strong> n’est plus disponible',
 	'MOVE_TOPIC'                => 'Déplacer le sujet',
@@ -85,16 +85,16 @@ $lang = array_merge($lang, [
 	'NO_NEWER_TOPICS'        => 'Aucun nouveau sujet n’a été publié dans ce forum.',
 	'NO_OLDER_TOPICS'        => 'Aucun ancien sujet n’a été publié dans ce forum.',
 	'NO_UNREAD_POSTS'        => 'Aucun message non lu n’a été publié dans ce sujet.',
-	'NO_VOTE_OPTION'         => 'Vous devez sélectionner une option lors du vote.',
+	'NO_VOTE_OPTION'         => 'Vous devez sélectionner une option afin de voter.',
 	'NO_VOTES'               => 'Aucun vote',
 
-	'POLL_ENDED_AT'        => 'Le sondage a expiré le %s',
-	'POLL_RUN_TILL'        => 'Le sondage est ouvert jusqu’au %s',
+	'POLL_ENDED_AT'        => 'Le sondage est terminé depuis le %s',
+	'POLL_RUN_TILL'        => 'Le sondage est actif jusqu’au %s',
 	'POLL_VOTED_OPTION'    => 'Vous avez voté pour cette option',
 	'POST_DELETED_RESTORE' => 'Le message a été supprimé. Il peut être restauré.',
 	'PRINT_TOPIC'          => 'Aperçu avant impression',
 
-	'QUICK_MOD'  => 'Outils de modération rapide',
+	'QUICK_MOD'  => 'Actions rapides de modération',
 	'QUICKREPLY' => 'Réponse rapide',
 	'QUOTE'      => 'Citer',
 
@@ -120,5 +120,5 @@ $lang = array_merge($lang, [
 	],
 	'VIEW_UNREAD_POST' => 'Premier message non lu',
 	'VOTE_SUBMITTED'   => 'Votre vote a bien été comptabilisé.',
-	'VOTE_CONVERTED'   => 'Impossible de modifier les votes d’un sondage qui a été converti.',
+	'VOTE_CONVERTED'   => 'Les votes d’un sondage qui a été converti ne peuvent pas être modifiés.',
 ]);

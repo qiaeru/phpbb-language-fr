@@ -82,7 +82,7 @@ $lang = array_merge($lang, [
 	'NO_WARNINGS'        => 'Aucun avertissement.',
 	'NOT_MANAGE_FOUNDER' => 'Vous avez essayé de modifier un utilisateur qui détient le statut de fondateur. Seuls les fondateurs sont autorisés à gérer les autres fondateurs.',
 
-	'QUICK_TOOLS' => 'Outils rapides',
+	'QUICK_TOOLS' => 'Actions rapides',
 
 	'REGISTERED'    => 'Inscription',
 	'REGISTERED_IP' => 'Adresse IP lors de l’inscription',
