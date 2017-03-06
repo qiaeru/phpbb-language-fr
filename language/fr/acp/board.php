@@ -37,63 +37,63 @@ if (empty($lang) || !is_array($lang))
 
 // Board Settings
 $lang = array_merge($lang, [
-	'ACP_BOARD_SETTINGS_EXPLAIN'   => 'Vous pouvez effectuer sur cette page les opérations basiques de votre forum, comme lui attribuer un nom et une description, régler son fuseau horaire ou encore définir sa langue par défaut.',
-	'BOARD_INDEX_TEXT'             => 'Texte de l’index du forum',
+	'ACP_BOARD_SETTINGS_EXPLAIN'   => 'Depuis cette page, vous pouvez effectuer les opérations basiques de votre forum, comme lui attribuer un nom et une description, régler son fuseau horaire ou encore définir sa langue par défaut.',
+	'BOARD_INDEX_TEXT'             => 'Texte de l’accueil du forum',
 	'BOARD_INDEX_TEXT_EXPLAIN'     => 'Ce texte sera affiché comme accueil du forum dans le chemin de navigation du forum. Si aucun texte n’est spécifié, « Accueil du forum » sera affiché par défaut.',
 	'BOARD_STYLE'                  => 'Style du forum',
 	'CUSTOM_DATEFORMAT'            => 'Personnaliser…',
 	'DEFAULT_DATE_FORMAT'          => 'Format de date',
-	'DEFAULT_DATE_FORMAT_EXPLAIN'  => 'Le format de date est similaire à celui qui est utilisé par la fonction PHP <code>date</code>.',
+	'DEFAULT_DATE_FORMAT_EXPLAIN'  => 'Le format de date est similaire à celui qui est utilisé par la fonction <code>date</code> de PHP.',
 	'DEFAULT_LANGUAGE'             => 'Langue par défaut',
 	'DEFAULT_STYLE'                => 'Style par défaut',
-	'DEFAULT_STYLE_EXPLAIN'        => 'Le style par défaut pour les nouveaux utilisateurs.',
+	'DEFAULT_STYLE_EXPLAIN'        => 'Le style par défaut affiché aux nouveaux utilisateurs.',
 	'DISABLE_BOARD'                => 'Désactiver le forum',
 	'DISABLE_BOARD_EXPLAIN'        => 'Le forum sera indisponible aux utilisateurs qui ne sont ni administrateurs, ni modérateurs. Si vous le souhaitez, vous pouvez également fournir une brève explication (de 255 caractères au maximum) qui sera affichée aux utilisateurs.',
 	'DISPLAY_LAST_SUBJECT'         => 'Afficher le sujet du dernier message publié dans la liste du forum',
-	'DISPLAY_LAST_SUBJECT_EXPLAIN' => 'Le sujet du dernier message qui a été publié dans un forum sera affiché dans la liste de ce dernier sous forme de lien redirigeant vers le message. Les sujets des forums qui sont protégés par un mot de passe et des forums qui sont en lecture seule ne sont pas affichés.',
+	'DISPLAY_LAST_SUBJECT_EXPLAIN' => 'Le sujet du dernier message qui a été publié dans un forum sera affiché dans la liste de ce forum sous forme de lien redirigeant vers le message. Les sujets publiés dans les forums qui sont protégés par un mot de passe et les forums qui sont en lecture seule ne sont pas affichés.',
 	'GUEST_STYLE'                  => 'Styles des invités',
-	'GUEST_STYLE_EXPLAIN'          => 'Le style du forum pour les invités.',
+	'GUEST_STYLE_EXPLAIN'          => 'Le style affiché aux invités.',
 	'OVERRIDE_STYLE'               => 'Écraser le style des utilisateurs',
 	'OVERRIDE_STYLE_EXPLAIN'       => 'Le style des utilisateurs (et des invités) sera remplacé par celui qui a été sélectionné sous « Style par défaut ».',
 	'SITE_DESC'                    => 'Description du forum',
 	'SITE_HOME_TEXT'               => 'Texte du lien vers le site internet principal',
 	'SITE_HOME_TEXT_EXPLAIN'       => 'Ce texte sera affiché sous forme de lien redirigeant vers votre site internet et sera inséré dans les liens de navigation de votre forum. Si aucun texte n’est spécifié, « Page d’accueil » sera affiché par défaut.',
 	'SITE_HOME_URL'                => 'Lien vers le site internet principal',
-	'SITE_HOME_URL_EXPLAIN'        => 'Si vous en saisissez un, ce lien sera placé dans les liens de navigation de votre forum et remplacera par la destination souhaitée le lien présent sur le logo du forum, redirigeant par défaut les utilisateurs sur l’index de votre forum. Veuillez saisir un lien absolu, tel que <samp>https://www.phpbb.com</samp>.',
+	'SITE_HOME_URL_EXPLAIN'        => 'Si vous saisissez un lien, il sera inséré dans les liens de navigation de votre forum et remplacera le lien présent sur le logo du forum, redirigeant par défaut les utilisateurs sur l’accueil du forum, par la destination souhaitée. Veuillez saisir un lien absolu, tel que <samp>https://www.phpbb.com</samp>.',
 	'SITE_NAME'                    => 'Nom du forum',
 	'SYSTEM_TIMEZONE'              => 'Fuseau horaire des invités',
-	'SYSTEM_TIMEZONE_EXPLAIN'      => 'Ce fuseau horaire ne concerne que les utilisateurs qui ne sont pas connectés, tels que les invités et les robots. Les utilisateurs connectés peuvent régler leur fuseau horaire lors de leur inscription ou depuis le panneau de contrôle de l’utilisateur.',
+	'SYSTEM_TIMEZONE_EXPLAIN'      => 'Ce fuseau horaire ne concerne que les utilisateurs qui ne sont pas connectés sous un compte, tels que les invités et les robots. Les utilisateurs connectés peuvent régler leur fuseau horaire lors de leur inscription ou depuis le panneau de contrôle de l’utilisateur.',
 	'WARNINGS_EXPIRE'              => 'Durée des avertissements',
-	'WARNINGS_EXPIRE_EXPLAIN'      => 'Le nombre de jours qui s’écoulera avant qu’un avertissement n’expire automatiquement. Réglez cette valeur sur 0 afin de ne pas limiter les avertissements dans le temps.',
+	'WARNINGS_EXPIRE_EXPLAIN'      => 'Le nombre de jours qui s’écoulera avant qu’un avertissement n’expire automatiquement. Réglez cette valeur sur 0 afin de ne pas faire expirer les avertissements dans le temps.',
 ]);
 
 // Board Features
 $lang = array_merge($lang, [
-	'ACP_BOARD_FEATURES_EXPLAIN' => 'Vous pouvez activer ou désactiver sur cette page les diverses fonctionnalités du forum.',
+	'ACP_BOARD_FEATURES_EXPLAIN' => 'Depuis cette page, vous pouvez activer et désactiver les diverses fonctionnalités du forum.',
 
 	'ALLOW_ATTACHMENTS'         => 'Activer les pièces jointes',
 	'ALLOW_BIRTHDAYS'           => 'Activer les anniversaires',
-	'ALLOW_BIRTHDAYS_EXPLAIN'   => 'Les utilisateurs pourront saisir leur date de naissance et leur âge sera affiché sur leur profil. Veuillez noter que la liste des anniversaires qui est affichée sur l’index du forum ne dépend pas de ce paramètre.',
+	'ALLOW_BIRTHDAYS_EXPLAIN'   => 'Les utilisateurs pourront saisir leur date de naissance afin que leur âge soit affiché sur leur profil. Veuillez noter que la liste des anniversaires qui est affichée sur l’accueil du forum ne dépend pas de ce paramètre.',
 	'ALLOW_BOOKMARKS'           => 'Autoriser l’ajout de sujets aux favoris',
 	'ALLOW_BOOKMARKS_EXPLAIN'   => 'Les utilisateurs pourront ajouter des sujets à leurs favoris.',
 	'ALLOW_BBCODE'              => 'Activer le BBCode',
 	'ALLOW_FORUM_NOTIFY'        => 'Autoriser l’abonnement aux forums',
 	'ALLOW_NAME_CHANGE'         => 'Autoriser la modification des noms d’utilisateurs',
 	'ALLOW_NO_CENSORS'          => 'Autoriser la désactivation de la censure de mots',
-	'ALLOW_NO_CENSORS_EXPLAIN'  => 'Les utilisateurs pourront désactiver la censure automatique de mots dans les messages et les messages privés qui ne s’appliquera donc pas au contenu qu’ils publieront.',
+	'ALLOW_NO_CENSORS_EXPLAIN'  => 'Les utilisateurs pourront désactiver la censure automatique de mots dans le contenu des messages et des messages privés.',
 	'ALLOW_PM_ATTACHMENTS'      => 'Autoriser le transfert de pièces jointes dans les messages privés',
 	'ALLOW_PM_REPORT'           => 'Autoriser les utilisateurs à rapporter des messages privés',
 	'ALLOW_PM_REPORT_EXPLAIN'   => 'Si cette option est activée, les utilisateurs pourront rapporter aux modérateurs du forum les messages privés qu’ils ont reçus ou qu’ils ont envoyés. Ces messages privés seront alors visibles depuis le panneau de contrôle du modérateur.',
 	'ALLOW_QUICK_REPLY'         => 'Activer la réponse rapide',
-	'ALLOW_QUICK_REPLY_EXPLAIN' => 'Si cette option est activée, la réponse rapide devra être autorisée dans les paramètres spécifiques de chaque forum afin que les utilisateurs puissent utiliser cette fonctionnalité.',
+	'ALLOW_QUICK_REPLY_EXPLAIN' => 'La réponse rapide doit également être autorisée dans les paramètres spécifiques de chaque forum afin que les utilisateurs puissent utiliser cette fonctionnalité.',
 	'ALLOW_QUICK_REPLY_BUTTON'  => 'Activer et autoriser la réponse rapide dans tous les forums',
 	'ALLOW_SIG'                 => 'Activer les signatures',
-	'ALLOW_SIG_BBCODE'          => 'Autoriser l’utilisation du BBCode dans les signatures',
-	'ALLOW_SIG_FLASH'           => 'Autoriser l’utilisation de la balise BBCode <code>[FLASH]</code> dans les signatures',
-	'ALLOW_SIG_IMG'             => 'Autoriser l’utilisation de la balise BBCode <code>[IMG]</code> dans les signatures',
-	'ALLOW_SIG_LINKS'           => 'Autoriser l’insertion de liens dans les signatures',
-	'ALLOW_SIG_LINKS_EXPLAIN'   => 'Si cette option est désactivée, l’utilisation de la balise BBCode <code>[URL]</code> et la transformation automatique de texte sous forme de lien sera désactivée.',
-	'ALLOW_SIG_SMILIES'         => 'Autoriser l’insertion d’émoticônes dans les signatures',
+	'ALLOW_SIG_BBCODE'          => 'Autoriser le BBCode dans les signatures',
+	'ALLOW_SIG_FLASH'           => 'Autoriser la balise BBCode <code>[FLASH]</code> dans les signatures',
+	'ALLOW_SIG_IMG'             => 'Autoriser la balise BBCode <code>[IMG]</code> dans les signatures',
+	'ALLOW_SIG_LINKS'           => 'Autoriser les liens dans les signatures',
+	'ALLOW_SIG_LINKS_EXPLAIN'   => 'Si cette option est désactivée, l’utilisation de la balise BBCode <code>[URL]</code> et la transformation automatique de textes sous forme de liens sera désactivée.',
+	'ALLOW_SIG_SMILIES'         => 'Autoriser les émoticônes dans les signatures',
 	'ALLOW_SMILIES'             => 'Activer les émoticônes',
 	'ALLOW_TOPIC_NOTIFY'        => 'Autoriser l’abonnement aux sujets',
 	'BOARD_PM'                  => 'Activer la messagerie privée',
@@ -103,21 +103,21 @@ $lang = array_merge($lang, [
 
 // Avatar Settings
 $lang = array_merge($lang, [
-	'ACP_AVATAR_SETTINGS_EXPLAIN' => 'Les avatars sont généralement de petites images uniques qu’un utilisateur peut associer à sa personnalité. Selon le style utilisé, ils sont habituellement affichés sous le nom d’utilisateur lors de la consultation de sujets. Vous pouvez déterminer sur cette page quels avatars pourront être utilisés par les utilisateurs de votre forum. Veuillez noter que pour transférer des avatars, vous devez avoir préalablement créé le répertoire que vous indiquerez ci-dessous et vous assurer qu’il soit inscriptible par le serveur internet. Veuillez également noter que les limitations de taille ne sont imposées qu’aux avatars transférés mais s’appliquent pas aux images distantes.',
+	'ACP_AVATAR_SETTINGS_EXPLAIN' => 'Les avatars sont généralement de petites images uniques qu’un utilisateur peut associer à sa personnalité. Les avatars sont habituellement affichés sous le nom d’utilisateur lors de la consultation de sujets, bien que cette apparence puisse être différente selon le style utilisé sur le forum. Depuis cette page, vous pouvez déterminer quels avatars pourront être utilisés par les utilisateurs de votre forum. Veuillez noter que pour transférer des avatars, vous devez avoir préalablement créé le répertoire que vous indiquerez ci-dessous et vous assurer qu’il soit inscriptible par le serveur internet. Veuillez également noter que les limitations de taille ne sont imposées qu’aux avatars transférés mais s’appliquent pas aux images distantes.',
 
 	'ALLOW_AVATARS'               => 'Activer les avatars',
 	'ALLOW_AVATARS_EXPLAIN'       => 'Les utilisateurs pourront afficher un avatar. Si vous désactivez les avatars, ces derniers ne seront plus affichés sur le forum mais les utilisateurs pourront toujours télécharger leur avatar depuis le panneau de contrôle de l’utilisateur.',
-	'ALLOW_GRAVATAR'              => 'Autoriser l’utilisation d’images de Gravatar',
-	'ALLOW_LOCAL'                 => 'Autoriser l’utilisation d’images de la galerie d’avatars',
-	'ALLOW_REMOTE'                => 'Autoriser l’utilisation d’images distantes',
+	'ALLOW_GRAVATAR'              => 'Autoriser les images de Gravatar',
+	'ALLOW_LOCAL'                 => 'Autoriser les images de la galerie d’avatars',
+	'ALLOW_REMOTE'                => 'Autoriser les images distantes',
 	'ALLOW_REMOTE_EXPLAIN'        => 'Les avatars situés sur un site internet externe.',
 	'ALLOW_REMOTE_UPLOAD'         => 'Autoriser le transfert d’images distantes',
-	'ALLOW_REMOTE_UPLOAD_EXPLAIN' => 'Les utilisateurs de votre forum pourront transférer sur le serveur des images de sites internet externes et se servir de ces dernières comme avatars.',
+	'ALLOW_REMOTE_UPLOAD_EXPLAIN' => 'Les utilisateurs de votre forum pourront transférer sur le serveur des images de sites internet externes et les utiliser comme avatars.',
 	'ALLOW_UPLOAD'                => 'Autoriser le transfert d’images locales',
 	'AVATAR_GALLERY_PATH'         => 'Chemin vers la galerie d’avatars',
-	'AVATAR_GALLERY_PATH_EXPLAIN' => 'Le chemin relatif à la racine du répertoire de votre forum, tel que <samp>images/avatars/gallery</samp>.<br />Les deux points tels que <samp>../</samp> seront retirés du chemin pour des raisons de sécurité.',
+	'AVATAR_GALLERY_PATH_EXPLAIN' => 'Le chemin relatif à la racine du répertoire de votre forum, tel que <samp>images/avatars/gallery</samp>.<br />Pour des raisons de sécurité, les deux points tels que <samp>../</samp> seront retirés du chemin.',
 	'AVATAR_STORAGE_PATH'         => 'Chemin vers le répertoire de stockage des avatars',
-	'AVATAR_STORAGE_PATH_EXPLAIN' => 'Le chemin relatif à la racine du répertoire de votre forum, tel que <samp>images/avatars/upload</samp>.<br />Le transfert des avatars <strong>ne sera pas disponible</strong> si l’écriture est impossible dans ce chemin.<br />Les deux points tels que <samp>../</samp> seront retirés du chemin pour des raisons de sécurité.',
+	'AVATAR_STORAGE_PATH_EXPLAIN' => 'Le chemin relatif à la racine du répertoire de votre forum, tel que <samp>images/avatars/upload</samp>.<br />Le transfert des avatars <strong>ne sera pas disponible</strong> si l’écriture est impossible dans ce chemin.<br />Pour des raisons de sécurité, les deux points tels que <samp>../</samp> seront retirés du chemin.',
 	'MAX_AVATAR_SIZE'             => 'Dimensions maximales des avatars',
 	'MAX_AVATAR_SIZE_EXPLAIN'     => 'La largeur sur la hauteur, en nombre de pixels.',
 	'MAX_FILESIZE'                => 'Taille maximale des avatars',
@@ -128,19 +128,19 @@ $lang = array_merge($lang, [
 
 // Message Settings
 $lang = array_merge($lang, [
-	'ACP_MESSAGE_SETTINGS_EXPLAIN' => 'Vous pouvez configurer sur cette page tous les paramètres relatifs aux messages privés.',
+	'ACP_MESSAGE_SETTINGS_EXPLAIN' => 'Depuis cette page, vous pouvez configurer tous les paramètres relatifs aux messages privés.',
 
-	'ALLOW_BBCODE_PM'            => 'Autoriser l’utilisation du BBCode dans les messages privés',
-	'ALLOW_FLASH_PM'             => 'Autoriser l’utilisation de la balise BBCode <code>[FLASH]</code>',
+	'ALLOW_BBCODE_PM'            => 'Autoriser le BBCode dans les messages privés',
+	'ALLOW_FLASH_PM'             => 'Autoriser la balise BBCode <code>[FLASH]</code>',
 	'ALLOW_FLASH_PM_EXPLAIN'     => 'Veuillez noter que l’utilisation du Flash dans les messages privés dépend également des permissions.',
 	'ALLOW_FORWARD_PM'           => 'Autoriser le transfert de messages privés',
-	'ALLOW_IMG_PM'               => 'Autoriser l’utilisation de la balise BBCode <code>[IMG]</code>',
+	'ALLOW_IMG_PM'               => 'Autoriser la balise BBCode <code>[IMG]</code>',
 	'ALLOW_MASS_PM'              => 'Autoriser l’envoi de messages privés de masse',
-	'ALLOW_MASS_PM_EXPLAIN'      => 'Les utilisateurs pourront envoyer un message privé à plusieurs utilisateurs et groupes d’utilisateurs. Vous pouvez restreindre l’envoi de messages privés à chaque groupe d’utilisateurs depuis les paramètres relatifs aux groupes.',
+	'ALLOW_MASS_PM_EXPLAIN'      => 'Les utilisateurs pourront envoyer en une seule fois un message privé à plusieurs utilisateurs et groupes d’utilisateurs. Vous pouvez restreindre l’envoi de messages privés à chaque groupe d’utilisateurs depuis les paramètres relatifs aux groupes.',
 	'ALLOW_PRINT_PM'             => 'Autoriser l’aperçu avant impression dans les messages privés',
 	'ALLOW_QUOTE_PM'             => 'Autoriser les citations dans les messages privés',
-	'ALLOW_SIG_PM'               => 'Autoriser l’insertion de signatures dans les messages privés',
-	'ALLOW_SMILIES_PM'           => 'Autoriser l’insertion d’émoticônes dans les messages privés',
+	'ALLOW_SIG_PM'               => 'Autoriser les signatures dans les messages privés',
+	'ALLOW_SMILIES_PM'           => 'Autoriser les émoticônes dans les messages privés',
 	'BOXES_LIMIT'                => 'Nombre maximal de messages privés par boîte',
 	'BOXES_LIMIT_EXPLAIN'        => 'Si leur boîte est pleine, les utilisateurs ne pourront pas recevoir davantage de messages privés que ce nombre. Réglez cette valeur sur 0 afin de ne pas limiter le nombre de messages privés par boîte.',
 	'BOXES_MAX'                  => 'Nombre maximal de boîtes de messages privés',
@@ -149,21 +149,21 @@ $lang = array_merge($lang, [
 	'FULL_FOLDER_ACTION'         => 'Opération à effectuer par défaut lorsqu’une boîte est pleine',
 	'FULL_FOLDER_ACTION_EXPLAIN' => 'L’opération à effectuer par défaut lorsque la boîte d’un utilisateur est pleine si l’opération spécifiée par l’utilisateur est impossible. La seule exception s’applique à la boîte des « Messages envoyés », où les messages les plus anciens seront automatiquement supprimés par défaut.',
 	'HOLD_NEW_MESSAGES'          => 'Mettre en attente les nouveaux messages',
-	'PM_EDIT_TIME'               => 'Limite de la durée d’édition',
-	'PM_EDIT_TIME_EXPLAIN'       => 'Limite la durée d’édition des messages privés qui n’ont pas encore été consultés par leurs destinataires. Réglez cette valeur sur 0 afin de ne pas limiter cette durée.',
+	'PM_EDIT_TIME'               => 'Limite de la durée de modificiation',
+	'PM_EDIT_TIME_EXPLAIN'       => 'Limite la durée de modification des messages privés qui n’ont pas encore été consultés par leurs destinataires. Réglez cette valeur sur 0 afin de ne pas limiter cette durée.',
 	'PM_MAX_RECIPIENTS'          => 'Nombre maximal de destinataires par message privé',
 	'PM_MAX_RECIPIENTS_EXPLAIN'  => 'Le nombre maximal de destinataires autorisés par message privé. Réglez cette valeur sur 0 afin de ne pas limiter ce nombre. Vous pouvez imposer un nombre différent à chaque groupe d’utilisateurs depuis les paramètres relatifs aux groupes.',
 ]);
 
 // Post Settings
 $lang = array_merge($lang, [
-	'ACP_POST_SETTINGS_EXPLAIN'     => 'Vous pouvez configurer sur cette page tous les paramètres relatifs à la publication.',
-	'ALLOW_POST_LINKS'              => 'Autoriser l’insertion de liens dans les messages et les messages privés',
-	'ALLOW_POST_LINKS_EXPLAIN'      => 'Si vous n’autorisez pas cette fonctionnalité, l’utilisation de la balise BBCode <code>[URL]</code> et la transformation automatique de texte sous forme de lien sera désactivée.',
+	'ACP_POST_SETTINGS_EXPLAIN'     => 'Depuis cette page, vous pouvez configurer tous les paramètres relatifs à la publication.',
+	'ALLOW_POST_LINKS'              => 'Autoriser les liens dans les messages et les messages privés',
+	'ALLOW_POST_LINKS_EXPLAIN'      => 'Si vous n’autorisez pas cette fonctionnalité, l’utilisation de la balise BBCode <code>[URL]</code> et la transformation automatique de textes sous forme de liens sera désactivée.',
 	'ALLOWED_SCHEMES_LINKS'         => 'Systèmes de liens autorisés',
-	'ALLOWED_SCHEMES_LINKS_EXPLAIN' => 'Les utilisateurs ne peuvent publier que les liens sans système de liens ou les liens avec des systèmes de liens autorisés ici, en les séparant par une virgule.',
-	'ALLOW_POST_FLASH'              => 'Autoriser l’utilisation de la balise BBCode <code>[FLASH]</code> dans les messages',
-	'ALLOW_POST_FLASH_EXPLAIN'      => 'Si vous n’autorisez pas cette fonctionnalité, l’utilisation de la balise BBCode <code>[FLASH]</code> sera désactivée dans tous les messages. Dans le cas contraire, vous pourrez déterminer depuis le système de permissions quels seront les utilisateurs qui pourront, ou non, utiliser la balise BBCode <code>[FLASH]</code>.',
+	'ALLOWED_SCHEMES_LINKS_EXPLAIN' => 'Les utilisateurs ne peuvent publier que les liens sans système de liens ou les liens avec des systèmes de liens autorisés dans ce champ, en les séparant par une virgule.',
+	'ALLOW_POST_FLASH'              => 'Autoriser la balise BBCode <code>[FLASH]</code> dans les messages',
+	'ALLOW_POST_FLASH_EXPLAIN'      => 'Si vous n’autorisez pas cette fonctionnalité, l’utilisation de la balise BBCode <code>[FLASH]</code> sera désactivée dans tous les messages. Dans le cas contraire, vous pourrez déterminer depuis le système de permissions quels utilisateurs pourront, ou non, utiliser cette balise.',
 
 	'BUMP_INTERVAL'               => 'Intervalle de remontée des sujets',
 	'BUMP_INTERVAL_EXPLAIN'       => 'Le nombre de minutes, d’heures ou de jours qui s’écoulera entre le dernier message d’un sujet et la possibilité de remonter ce même sujet. Réglez cette valeur sur 0 afin de désactiver cette fonctionnalité.',
@@ -171,10 +171,10 @@ $lang = array_merge($lang, [
 	'CHAR_LIMIT_EXPLAIN'          => 'Le nombre maximal de caractères que les utilisateurs peuvent saisir dans un message et dans un message privé. Réglez cette valeur sur 0 afin de ne pas limiter ce nombre.',
 	'DELETE_TIME'                 => 'Limite de la durée de suppression',
 	'DELETE_TIME_EXPLAIN'         => 'Limite la durée de suppression des messages publiés. Réglez cette valeur sur 0 afin de ne pas limiter cette durée.',
-	'DISPLAY_LAST_EDITED'         => 'Afficher la date de la dernière édition',
-	'DISPLAY_LAST_EDITED_EXPLAIN' => 'La date de la dernière édition des messages sera affichée sur ces derniers.',
-	'EDIT_TIME'                   => 'Limite de la durée d’édition',
-	'EDIT_TIME_EXPLAIN'           => 'Limite la durée d’édition des messages publiés. Réglez cette valeur sur 0 afin de ne pas limiter cette durée.',
+	'DISPLAY_LAST_EDITED'         => 'Afficher la date de la dernière modification',
+	'DISPLAY_LAST_EDITED_EXPLAIN' => 'La date de la dernière modification des messages sera affichée sur ces derniers.',
+	'EDIT_TIME'                   => 'Limite de la durée de modification',
+	'EDIT_TIME_EXPLAIN'           => 'Limite la durée de modification des messages publiés. Réglez cette valeur sur 0 afin de ne pas limiter cette durée.',
 	'FLOOD_INTERVAL'              => 'Intervalle de publication',
 	'FLOOD_INTERVAL_EXPLAIN'      => 'Le nombre de secondes qui s’écouleront avant qu’un utilisateur puisse de nouveau avoir la possibilité de publier de nouveaux messages. Si vous souhaitez autoriser les utilisateurs à ignorer cet intervalle, vous devrez modifier leurs permissions.',
 	'HOT_THRESHOLD'               => 'Seuil de popularité des sujets',
@@ -202,7 +202,7 @@ $lang = array_merge($lang, [
 
 // Signature Settings
 $lang = array_merge($lang, [
-	'ACP_SIGNATURE_SETTINGS_EXPLAIN' => 'Vous pouvez configurer sur cette page tous les paramètres relatifs aux signatures.',
+	'ACP_SIGNATURE_SETTINGS_EXPLAIN' => 'Depuis cette page, vous pouvez configurer tous les paramètres relatifs aux signatures.',
 
 	'MAX_SIG_FONT_SIZE'          => 'Taille maximale de la police de caractères dans les signatures',
 	'MAX_SIG_FONT_SIZE_EXPLAIN'  => 'La taille maximale de la police de caractères que les utilisateurs pourront spécifier dans leur signature. Réglez cette valeur sur 0 afin de ne pas limiter cette taille.',
@@ -220,13 +220,13 @@ $lang = array_merge($lang, [
 
 // Registration Settings
 $lang = array_merge($lang, [
-	'ACP_REGISTER_SETTINGS_EXPLAIN' => 'Vous pouvez configurer sur cette page tous les paramètres relatifs aux inscriptions et aux profils des utilisateurs.',
+	'ACP_REGISTER_SETTINGS_EXPLAIN' => 'Depuis cette page, vous pouvez configurer tous les paramètres relatifs aux inscriptions et aux profils des utilisateurs.',
 
 	'ACC_ACTIVATION'                   => 'Méthode d’activation des comptes',
-	'ACC_ACTIVATION_EXPLAIN'           => 'Détermine quels sont les utilisateurs qui bénéficieront d’un accès immédiat au forum ou si une confirmation leur sera demandée. Vous pouvez également désactiver entièrement les nouvelles inscriptions. <em>« L’envoi de courriels depuis le forum » doit être activé afin d’être en mesure de pouvoir utiliser l’activation par un administrateur ou par l’utilisateur lui-même.</em>',
-	'ACC_ACTIVATION_WARNING'           => 'Veuillez noter que la méthode d’activation actuellement sélectionnée nécessite l’activation de la messagerie électronique, sinon l’inscription sera désactivée. Nous vous recommandons de soit activer la messagerie électronique, soit de sélectionner une autre méthode d’activation.',
+	'ACC_ACTIVATION_EXPLAIN'           => 'Détermine quels utilisateurs bénéficieront d’un accès immédiat au forum ou si une confirmation leur sera demandée. Vous pouvez également désactiver entièrement les nouvelles inscriptions. <em>« L’envoi de courriels depuis le forum » doit être activée afin d’être en mesure de pouvoir utiliser l’activation par un administrateur ou par l’utilisateur lui-même.</em>',
+	'ACC_ACTIVATION_WARNING'           => 'Veuillez noter que la méthode d’activation actuellement sélectionnée nécessite l’activation de la messagerie électronique, sinon l’inscription sera désactivée. Nous vous recommandons d’activer la messagerie électronique ou de sélectionner une autre méthode d’activation.',
 	'NEW_MEMBER_POST_LIMIT'            => 'Limite de messages des nouveaux membres',
-	'NEW_MEMBER_POST_LIMIT_EXPLAIN'    => 'Les nouveaux membres seront membres du groupe des <em>Utilisateurs nouvellement inscrits</em> jusqu’à ce qu’ils atteignent ce nombre de messages. Vous pouvez utiliser ce groupe afin d’empêcher ses membres à utiliser les fonctionnalités de la messagerie privée ou de contrôler leurs messages. <strong>Réglez cette valeur sur 0 afin de désactiver cette fonctionnalité.</strong>',
+	'NEW_MEMBER_POST_LIMIT_EXPLAIN'    => 'Les nouveaux membres seront ajoutés au groupe des <em>Utilisateurs nouvellement inscrits</em> jusqu’à ce qu’ils atteignent ce nombre de messages. Vous pouvez utiliser ce groupe afin d’empêcher ces membres à utiliser la messagerie privée ou de contrôler leurs messages. <strong>Réglez cette valeur sur 0 afin de désactiver cette fonctionnalité.</strong>',
 	'NEW_MEMBER_GROUP_DEFAULT'         => 'Instaurer le groupe des utilisateurs nouvellement inscrits en tant que groupe par défaut',
 	'NEW_MEMBER_GROUP_DEFAULT_EXPLAIN' => 'Si cette option est activée et qu’une nouvelle limite de messages des nouveaux membres est spécifiée, les utilisateurs nouvellement inscrits ne seront pas uniquement membres du groupe des <em>Utilisateurs nouvellement inscrits</em>, mais ce groupe sera également leur groupe par défaut. Cela peut être utile si vous souhaitez attribuer un rang ou un avatar par défaut afin que tous les utilisateurs en bénéficient.',
 
@@ -240,9 +240,9 @@ $lang = array_merge($lang, [
 	'COPPA'                       => 'COPPA',
 	'COPPA_FAX'                   => 'Numéro de fax de la COPPA',
 	'COPPA_MAIL'                  => 'Adresse de courriel de la COPPA',
-	'COPPA_MAIL_EXPLAIN'          => 'L’adresse de courriel qui recevra les formulaires d’inscription de la COPPA que les parents devront envoyer.',
+	'COPPA_MAIL_EXPLAIN'          => 'L’adresse de courriel qui recevra les formulaires d’inscription de la COPPA que les tuteurs légaux devront envoyer.',
 	'ENABLE_COPPA'                => 'Activer la COPPA',
-	'ENABLE_COPPA_EXPLAIN'        => 'Les utilisateurs devront déclarer qu’ils ont 13 ans ou plus afin de se conformer à la COPPA, loi des États-Unis d’Amérique visant à protéger la vie privée des enfants sur Internet. Si cette option est désactivée, les groupes d’utilisateurs liés à la COPPA ne seront pas affichés.',
+	'ENABLE_COPPA_EXPLAIN'        => 'Les utilisateurs devront déclarer qu’ils ont 13 ans ou plus afin de se conformer à la COPPA, loi des États-Unis d’Amérique visant à protéger la vie privée des enfants sur internet. Si cette option est désactivée, les groupes d’utilisateurs liés à la COPPA ne seront pas affichés.',
 	'MAX_CHARS'                   => 'max',
 	'MIN_CHARS'                   => 'min',
 	'NO_AUTH_PLUGIN'              => 'Aucun module d’extension d’authentification n’a été trouvé.',
@@ -295,7 +295,7 @@ $lang = array_merge($lang, [
 	'ACP_FEED_OVERALL_FORUMS_EXPLAIN' => 'Le flux des forums affiche une liste de tous les forums.',
 
 	'ACP_FEED_HTTP_AUTH'               => 'Authentification HTTP',
-	'ACP_FEED_HTTP_AUTH_EXPLAIN'       => 'L’authentification HTTP permet aux utilisateurs de recevoir un contenu caché aux invités en ajoutant <samp>auth=http</samp> à l’adresse du flux. Veuillez noter que pour fonctionner correctement, certaines installations de PHP peuvent nécessiter des modifications additionnelles sur le fichier .htaccess.',
+	'ACP_FEED_HTTP_AUTH_EXPLAIN'       => 'L’authentification HTTP permet aux utilisateurs de recevoir un contenu caché aux invités en ajoutant <samp>auth=http</samp> à l’adresse du flux. Veuillez noter que pour fonctionner correctement, certaines installations de PHP peuvent nécessiter des modifications additionnelles dans le fichier .htaccess.',
 	'ACP_FEED_ITEM_STATISTICS'         => 'Statistiques des objets',
 	'ACP_FEED_ITEM_STATISTICS_EXPLAIN' => 'Les statistiques individuelles sont affichées sous les articles du flux. Exemples de statistiques : auteur de la publication, date et heure de la publication, nombre de réponses, nombre de vues, etc.',
 	'ACP_FEED_EXCLUDE_ID'              => 'Ignorer ces forums',
@@ -304,14 +304,14 @@ $lang = array_merge($lang, [
 
 // Visual Confirmation Settings
 $lang = array_merge($lang, [
-	'ACP_VC_SETTINGS_EXPLAIN'             => 'Vous pouvez sélectionner et configurer sur cette page tous les modules d’extension qui permettent de lutter contre l’envoi de formulaires par des robots indésirables. Ces modules d’extension fonctionnent en général en demandant aux utilisateur de résoudre un <em>CAPTCHA</em>, qui est un outil permettant de différencier les humains aux robots.',
-	'ACP_VC_EXT_GET_MORE'                 => 'Vous pouvez obtenir des modules d’extension anti-spam supplémentaires (et probablement plus efficaces) en visitant la <a href="https://www.phpbb.com/go/anti-spam-ext"><strong>base de données des extensions de phpBB.com</strong></a> (en anglais). Pour plus d’informations concernant la prévention du spam sur votre forum, veuillez visiter la <a href="https://www.phpbb.com/go/anti-spam"><strong>base de connaissances de phpBB.com</strong></a> (en anglais).',
+	'ACP_VC_SETTINGS_EXPLAIN'             => 'Depuis cette page, vous pouvez sélectionner et configurer tous les modules d’extension qui permettent de se prémunir contre les soumissions automatisées et intensives réalisées par des robots malveillants. Ces modules d’extension demandent en général aux utilisateur de résoudre un <em>CAPTCHA</em>, qui est un outil permettant de différencier les humains aux robots.',
+	'ACP_VC_EXT_GET_MORE'                 => 'Vous pouvez obtenir d’autres modules d’extension contre les soumissions automatisées et intensives, qui seront probablement plus efficaces, en visitant la <a href="https://www.phpbb.com/go/anti-spam-ext"><strong>base de données des extensions de phpBB.com</strong></a> (en anglais). Pour plus d’informations concernant la prévention des soumissions automatisées et intensives sur votre forum, veuillez visiter la <a href="https://www.phpbb.com/go/anti-spam"><strong>base de connaissances de phpBB.com</strong></a> (en anglais).',
 	'AVAILABLE_CAPTCHAS'                  => 'Modules d’extension disponibles',
 	'CAPTCHA_UNAVAILABLE'                 => 'Le module d’extension ne peut pas être sélectionné tant que ses prérequis ne sont pas respectés.',
 	'CAPTCHA_GD'                          => 'Bruit GD de l’image',
-	'CAPTCHA_GD_3D'                       => 'Bruit GD en 3D de l’image',
+	'CAPTCHA_GD_3D'                       => 'Bruit GD de l’image en 3D',
 	'CAPTCHA_GD_FOREGROUND_NOISE'         => 'Bruit de premier plan',
-	'CAPTCHA_GD_EXPLAIN'                  => 'Utilise la bibliothèque graphique GD afin de rendre l’image permettant de lutter contre les robots indésirables plus difficilement déchiffrable.',
+	'CAPTCHA_GD_EXPLAIN'                  => 'Utilise la bibliothèque graphique GD afin de rendre l’image permettant de se prémunir contre les soumissions automatisées et intensives réalisées par des robots malveillants plus difficilement déchiffrable.',
 	'CAPTCHA_GD_FOREGROUND_NOISE_EXPLAIN' => 'Utilise un bruit de premier plan afin de rendre l’image plus difficilement déchiffrable.',
 	'CAPTCHA_GD_X_GRID'                   => 'Bruit de fond sur l’axe des abscisses',
 	'CAPTCHA_GD_X_GRID_EXPLAIN'           => 'Utilisez ici des valeurs faibles afin de rendre l’image plus difficilement déchiffrable. Réglez cette valeur sur 0 afin de désactiver le bruit de fond sur l’axe des abscisses.',
@@ -337,22 +337,22 @@ $lang = array_merge($lang, [
 	'CONFIGURE'                 => 'Configurer',
 	'CAPTCHA_NO_OPTIONS'        => 'Ce module d’extension n’a aucune option de configuration.',
 
-	'VISUAL_CONFIRM_POST'            => 'Activer les mesures de lutte contre les robots indésirables aux invités',
-	'VISUAL_CONFIRM_POST_EXPLAIN'    => 'Les utilisateurs qui ne sont pas connectés seront invités à compléter des mesures de lutte contre les robots indésirables afin d’empêcher la publication de messages automatisés.',
-	'VISUAL_CONFIRM_REG'             => 'Activer les mesures de lutte contre les robots indésirables lors des inscriptions',
-	'VISUAL_CONFIRM_REG_EXPLAIN'     => 'Les utilisateurs devront compléter des mesures de lutte contre les robots indésirables lors de leur inscription afin d’empêcher les inscriptions automatisées.',
-	'VISUAL_CONFIRM_REFRESH'         => 'Autoriser les utilisateurs à rafraîchir les mesures de lutte contre les robots indésirables',
-	'VISUAL_CONFIRM_REFRESH_EXPLAIN' => 'Les utilisateurs pourront demander une nouvelle mesure de lutte contre les robots indésirables s’ils sont incapables de déchiffrer la mesure actuelle. Certains modules d’extension peuvent ne pas supporter cette fonctionnalité.',
+	'VISUAL_CONFIRM_POST'            => 'Activer les mesures de lutte contre les soumissions automatisées et intensives aux invités',
+	'VISUAL_CONFIRM_POST_EXPLAIN'    => 'Les utilisateurs qui ne sont pas connectés seront invités à compléter des mesures permettant de se prémunir contre les publications automatisées et intensives réalisées par des robots malveillants.',
+	'VISUAL_CONFIRM_REG'             => 'Activer les mesures de lutte contre les soumissions automatisées et intensives lors des inscriptions',
+	'VISUAL_CONFIRM_REG_EXPLAIN'     => 'Les utilisateurs seront invités à compléter des mesures permettant de se prémunir contre les soumissions automatisées et intensives réalisées par des robots malveillants lors de leurs inscriptions.',
+	'VISUAL_CONFIRM_REFRESH'         => 'Autoriser les utilisateurs à rafraîchir les mesures de lutte contre les soumissions automatisées et intensives',
+	'VISUAL_CONFIRM_REFRESH_EXPLAIN' => 'Les utilisateurs, s’ils sont incapables de déchiffrer la mesure actuelle, pourront demander une nouvelle mesure de lutte contre les soumissions automatisées et intensives réalisées par des robots malveillants. Certains modules d’extension peuvent ne pas supporter cette fonctionnalité.',
 ]);
 
 // Cookie Settings
 $lang = array_merge($lang, [
-	'ACP_COOKIE_SETTINGS_EXPLAIN' => 'Les informations de cette page permettent de définir les données qui seront utilisées afin d’envoyer des cookies au navigateur internet de vos utilisateurs. Dans la plupart des cas, les valeurs par défaut sont suffisantes. Si vous avez besoin de modifier ces dernières, faites-le avec précaution, une mauvaise configuration peut empêcher les utilisateurs de se connecter correctement à votre forum.',
+	'ACP_COOKIE_SETTINGS_EXPLAIN' => 'Les informations de cette page permettent de définir les données qui seront utilisées afin d’envoyer des cookies au navigateur internet de vos utilisateurs. Dans la plupart des cas, les valeurs par défaut sont suffisantes. Si vous avez besoin de les modifier, faites-le avec précaution, une mauvaise configuration peut empêcher les utilisateurs de se connecter à votre forum.',
 
 	'COOKIE_DOMAIN'          => 'Domaine du cookie',
 	'COOKIE_NAME'            => 'Nom du cookie',
 	'COOKIE_NOTICE'          => 'Information sur les cookies',
-	'COOKIE_NOTICE_EXPLAIN'  => 'Si cette option est activée, une information concernant l’utilisation de cookies sera affichée aux utilisateurs lors de leur navigation sur votre forum. Cette information est une obligation légale dans certains pays selon le contenu et les extensions activées sur votre forum.',
+	'COOKIE_NOTICE_EXPLAIN'  => 'Si cette option est activée, une information concernant l’utilisation des cookies sera affichée aux utilisateurs lors de leur navigation sur votre forum. Cette information est une obligation légale dans certains pays, selon le contenu et les extensions activées sur votre forum.',
 	'COOKIE_PATH'            => 'Chemin du cookie',
 	'COOKIE_SECURE'          => 'Cookie sécurisé',
 	'COOKIE_SECURE_EXPLAIN'  => 'Si votre serveur est sécurisé avec un certificat SSL, vous devez activer cette option. Si vous activez cette option alors que votre serveur n’est pas sécurisé avec un certificat SSL, il est probable que des erreurs surviennent lors des redirections.',
@@ -364,7 +364,7 @@ $lang = array_merge($lang, [
 
 // Contact Settings
 $lang = array_merge($lang, [
-	'ACP_CONTACT_SETTINGS_EXPLAIN' => 'Vous pouvez activer, modifier et désactiver sur cette page la page de contact.',
+	'ACP_CONTACT_SETTINGS_EXPLAIN' => 'Depuis cette page, vous pouvez activer, modifier et désactiver la page de contact.',
 
 	'CONTACT_US_ENABLE'         => 'Activer la page de contact',
 	'CONTACT_US_ENABLE_EXPLAIN' => 'Cette page permet aux utilisateurs d’envoyer des courriels aux administrateurs du forum',
@@ -377,15 +377,15 @@ $lang = array_merge($lang, [
 
 // Load Settings
 $lang = array_merge($lang, [
-	'ACP_LOAD_SETTINGS_EXPLAIN' => 'Vous pouvez activer et désactiver sur cette page certaines fonctionnalités du forum qui pourront réduire la quantité de processus actifs. Sur la plupart des serveurs, il n’est pas nécessaire de désactiver ces fonctionnalités. Cependant, sur certains systèmes d’exploitation ou offres d’hébergement mutualisé, il est préférable de désactiver certaines fonctionnalités dont vous n’avez pas réellement besoin. Vous pouvez également limiter certaines options relatives à la charge du système et aux sessions actives qui désactiveront automatiquement votre forum si les valeurs sont dépassées.',
+	'ACP_LOAD_SETTINGS_EXPLAIN' => 'Depuis cette page, vous pouvez activer et désactiver certaines fonctionnalités du forum qui pourront réduire la quantité de processus actifs. Sur la plupart des serveurs, il n’est pas nécessaire de désactiver ces fonctionnalités. Cependant, sur certains systèmes d’exploitation ou offres d’hébergements mutualisés, il est préférable de désactiver certaines fonctionnalités dont vous n’avez pas réellement besoin. Vous pouvez également limiter certaines options relatives à la charge du système et aux sessions actives qui désactiveront automatiquement votre forum si les valeurs sont dépassées.',
 
 	'ALLOW_CDN'                             => 'Autoriser l’utilisation de contenu hébergé sur des serveurs externes',
-	'ALLOW_CDN_EXPLAIN'                     => 'Si cette option est activée, certains fichiers seront distribués par des serveurs externes au lieu de votre serveur. Cette fonctionnalité réduira la bande passante de votre serveur mais peut poser des problèmes de confidentialité concernant les administrateurs soucieux de l’anonymat de leur forum. Dans une installation par défaut, la librairie « jQuery » et la police de caractères « Open Sans » seront distribués par le réseau de distribution de contenu de Google.',
+	'ALLOW_CDN_EXPLAIN'                     => 'Si cette option est activée, certains fichiers seront distribués par des serveurs externes au lieu de votre serveur. Cette fonctionnalité réduira la bande passante de votre serveur mais peut poser des problèmes de confidentialité pour les administrateurs soucieux de l’anonymat du contenu de leur forum. Dans une installation par défaut, la librairie « jQuery » et la police de caractères « Open Sans » sont distribués par le réseau de distribution de contenu de Google.',
 	'ALLOW_LIVE_SEARCHES'                   => 'Autoriser les prédictions de recherche',
 	'ALLOW_LIVE_SEARCHES_EXPLAIN'           => 'Si cette option est activée, les utilisateurs bénéficieront de suggestions de mots-clés lors de la rédaction de texte dans certains champs du forum.',
 	'CUSTOM_PROFILE_FIELDS'                 => 'Champs de profil personnalisés',
 	'LIMIT_LOAD'                            => 'Limite de la charge du système',
-	'LIMIT_LOAD_EXPLAIN'                    => 'Si la charge du système dépasse cette valeur durant une minute, le forum sera automatiquement désactivé. Une valeur de 1.0 correspond à 100 % de l’utilisation des processus d’un processeur. Cette fonctionnalité ne fonctionne que sur les serveurs basés sous UNIX et dans lesquels cette option est accessible. Cette valeur se réinitialise sur 0 si phpBB n’arrive pas à charger la limite de la charge du système.',
+	'LIMIT_LOAD_EXPLAIN'                    => 'Si la charge du système dépasse cette valeur durant une minute, le forum sera automatiquement désactivé. Une valeur de 1.0 correspond à 100 % de l’utilisation des processus d’un processeur. Cette fonctionnalité ne fonctionne que sur les serveurs basés sous UNIX et dans lesquels cette option est accessible. Cette valeur se réinitialise sur 0 si le logiciel n’arrive pas à charger la limite de la charge du système.',
 	'LIMIT_SESSIONS'                        => 'Limiter le nombre de sessions',
 	'LIMIT_SESSIONS_EXPLAIN'                => 'Si le nombre de sessions dépasse cette valeur durant une minute, le forum sera automatiquement désactivé. Réglez cette valeur sur 0 si vous ne souhaitez pas limiter le nombre de sessions.',
 	'LOAD_CPF_MEMBERLIST'                   => 'Afficher les champs de profil personnalisés dans la liste des membres',
@@ -455,7 +455,7 @@ $lang = array_merge($lang, [
 
 // Server Settings
 $lang = array_merge($lang, [
-	'ACP_SERVER_SETTINGS_EXPLAIN' => 'Vous pouvez configurer sur cette page les paramètres relatifs au serveur et au domaine. Veuillez vous assurer de la validité des données présentes ci-dessous car vos courriels pourraient contenir des informations erronées si des données invalides étaient présentes. Lorsque vous saisissez le nom de domaine, n’oubliez pas d’inclure son protocole, tel que http://. Ne modifiez le port que si votre serveur fonctionne sous un port différent dont vous avez connaissance, mais sachez néanmoins que le port 80 est correct dans la plupart des cas.',
+	'ACP_SERVER_SETTINGS_EXPLAIN' => 'Depuis cette page, vous pouvez configurer les paramètres relatifs au serveur et au domaine. Veuillez vous assurer de la validité des données présentes ci-dessous car vos courriels pourraient contenir des informations erronées si des données invalides étaient présentes. Lorsque vous saisissez le nom de domaine, n’oubliez pas d’inclure le protocole, tel que http://. Ne modifiez le port que si votre serveur fonctionne sous un port différent dont vous avez connaissance, mais sachez néanmoins que le port 80 convient dans la plupart des cas.',
 
 	'ENABLE_GZIP'                         => 'Activer la compression GZip',
 	'ENABLE_GZIP_EXPLAIN'                 => 'Le contenu généré sera compressé avant d’être envoyé aux utilisateurs. Cela peut réduire le trafic du réseau mais augmentera en contrepartie l’utilisation du processeur de votre serveur et de vos utilisateurs. L’extension zlib de PHP doit être chargée afin que la compression fonctionne.',
@@ -489,7 +489,7 @@ $lang = array_merge($lang, [
 
 // Security Settings
 $lang = array_merge($lang, [
-	'ACP_SECURITY_SETTINGS_EXPLAIN' => 'Vous pouvez configurer sur cette page tous les paramètres relatifs aux sessions et aux connexions.',
+	'ACP_SECURITY_SETTINGS_EXPLAIN' => 'Depuis cette page, vous pouvez configurer tous les paramètres relatifs aux sessions et aux connexions.',
 
 	'ALL'                                  => 'Tout',
 	'ALLOW_AUTOLOGIN'                      => 'Activer la fonctionnalité « Se souvenir de moi »',
@@ -499,7 +499,7 @@ $lang = array_merge($lang, [
 	'AUTOLOGIN_LENGTH'                     => 'Délai d’expiration des clés de connexions automatiques',
 	'AUTOLOGIN_LENGTH_EXPLAIN'             => 'Le nombre de jours qui s’écouleront avant que les clés de connexions automatiques soient supprimées. Réglez cette valeur sur 0 si vous ne souhaitez pas limiter la durée des clés de connexions automatiques.',
 	'BROWSER_VALID'                        => 'Valider les navigateurs internet',
-	'BROWSER_VALID_EXPLAIN'                => 'Les navigateurs internet seront validés lors de chaque session, ce qui en améliore la sécurité.',
+	'BROWSER_VALID_EXPLAIN'                => 'Les navigateurs internet seront validés lors de chaque session, ce qui améliore la sécurité.',
 	'CHECK_DNSBL'                          => 'Vérifier les adresses IP sur les listes des systèmes de noms de domaine',
 	'CHECK_DNSBL_EXPLAIN'                  => 'Si cette option est activée, l’adresse IP des utilisateurs sera vérifiée par les services DNSBL <a href="http://spamcop.net">spamcop.net</a> et <a href="http://www.spamhaus.org">www.spamhaus.org</a> (en anglais) lors des inscriptions et des publications de messages. Cette vérification peut durer un certain temps, selon la configuration du serveur sélectionné. Désactivez cette fonctionnalité si vous constatez des ralentissements ou des erreurs d’appréciation.',
 	'CLASS_B'                              => 'A.B',
@@ -544,7 +544,7 @@ $lang = array_merge($lang, [
 
 // Email Settings
 $lang = array_merge($lang, [
-	'ACP_EMAIL_SETTINGS_EXPLAIN' => 'Ces informations sont utilisées lors de l’envoi de courriels à vos utilisateurs. Veuillez vous assurer que l’adresse de courriel spécifiée est correcte car les messages refusés ou échoués seront probablement retournés à cette adresse. Si votre hébergeur ne fournit aucun service d’envoi de courriels en PHP par défaut, vous pouvez envoyer directement des messages en utilisant le protocole SMTP. Cela demande l’adresse d’un serveur approprié (si besoin, demandez cette information à votre hébergeur internet). Si le serveur exige une authentification (et seulement dans ce cas), saisissez le nom d’utilisateur, le mot de passe et la méthode d’authentification nécessaire.',
+	'ACP_EMAIL_SETTINGS_EXPLAIN' => 'Ces informations sont utilisées lors de l’envoi de courriels à vos utilisateurs. Veuillez vous assurer que l’adresse de courriel spécifiée est correcte car les messages refusés ou échoués seront probablement retournés à cette adresse. Si votre hébergeur ne fournit aucun service d’envoi de courriels en PHP par défaut, vous pouvez envoyer directement des messages en utilisant le protocole SMTP. Cela nécessite l’adresse d’un serveur approprié (si besoin, demandez cette information à votre hébergeur internet). Si le serveur exige une authentification (et seulement dans ce cas), saisissez le nom d’utilisateur, le mot de passe et la méthode d’authentification nécessaire.',
 
 	'ADMIN_EMAIL'                 => 'Adresse de courriel de retour',
 	'ADMIN_EMAIL_EXPLAIN'         => 'Cette adresse sera utilisée comme l’adresse de retour dans tous les courriels. Cela correspond à l’adresse de courriel du contact technique. Elle sera toujours utilisée comme l’adresse du chemin de retour et considérée comme celle de l’expéditeur dans les courriels.',
@@ -589,7 +589,7 @@ $lang = array_merge($lang, [
 
 // Jabber settings
 $lang = array_merge($lang, [
-	'ACP_JABBER_SETTINGS_EXPLAIN' => 'Vous pouvez activer et contrôler sur cette page l’utilisation de Jabber afin d’envoyer des messages instantanés et des notifications sur le forum. Jabber est un protocole libre et gratuit utilisable par tous. Certains serveurs Jabber incluent des passerelles qui vous permettent de contacter les utilisateurs d’autres réseaux, mais tous les serveurs n’offrent pas cette possibilité. Veuillez vous assurer d’avoir saisi les informations du compte que vous avez inscrit, ces informations seront utilisées telles quelles.',
+	'ACP_JABBER_SETTINGS_EXPLAIN' => 'Depuis cette page, vous pouvez activer et contrôler l’utilisation de Jabber afin d’envoyer des messages instantanés et des notifications sur le forum. Jabber est un protocole libre et gratuit utilisable par tous. Certains serveurs Jabber incluent des passerelles qui vous permettent de contacter les utilisateurs d’autres réseaux, mais tous les serveurs n’offrent pas cette possibilité. Veuillez vous assurer d’avoir saisi les informations du compte que vous avez inscrit, ces informations seront utilisées telles quelles.',
 
 	'JAB_ENABLE'               => 'Activer Jabber',
 	'JAB_ENABLE_EXPLAIN'       => 'La messagerie et les notifications de Jabber seront activées.',
