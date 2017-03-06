@@ -109,7 +109,7 @@ $lang = array_merge($lang, [
 	'GROUP_NAME'       => 'Nom du groupe d’extensions',
 
 	'IMAGE_LINK_SIZE'         => 'Dimensions maximales des images avant la mise en lien',
-	'IMAGE_LINK_SIZE_EXPLAIN' => 'Les images transférées en pièces jointes seront affichées sous forme de lien si elles dépassent ces valeurs. Réglez ces deux valeurs sur 0 si vous souhaitez désactiver ce comportement.',
+	'IMAGE_LINK_SIZE_EXPLAIN' => 'Les images transférées en pièces jointes seront affichées sous forme de lien si elles dépassent ces valeurs. Réglez ces deux valeurs sur 0 si vous souhaitez désactiver cette fonctionnalité.',
 	'IMAGICK_PATH'            => 'Chemin d’ImageMagick',
 	'IMAGICK_PATH_EXPLAIN'    => 'Le chemin complet vers l’application de conversion ImageMagick, tel que <samp>/usr/bin/</samp>.',
 
