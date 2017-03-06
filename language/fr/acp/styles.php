@@ -52,7 +52,7 @@ $lang = array_merge($lang, [
 	'INSTALL_STYLE'          => 'Installer un style',
 	'INSTALL_STYLES'         => 'Installer des styles',
 	'INSTALL_STYLES_EXPLAIN' => 'Vous pouvez installer sur cette page de nouveaux styles.<br />Si vous ne retrouvez pas dans la liste ci-dessous le style que vous avez transféré, assurez-vous que ce dernier ne soit pas déjà installé sur votre forum. Si ce n’est pas le cas, essayez de le transférer de nouveau.',
-	'INVALID_STYLE_ID'       => 'L’identification du style est invalide.',
+	'INVALID_STYLE_ID'       => 'L’identifiant du style est invalide.',
 
 	'NO_MATCHING_STYLES_FOUND' => 'Aucun style ne correspond à votre requête.',
 	'NO_UNINSTALLED_STYLE'     => 'Aucun style n’a été désinstallé.',

@@ -71,8 +71,8 @@ $lang = array_merge($lang, [
 
 	'NO_CATEGORY_TO_MODULE' => 'Impossible de modifier cette catégorie en module. Veuillez supprimer ou déplacer tous les sous-modules avant d’effectuer cette opération.',
 	'NO_MODULE'             => 'Aucun module n’a été trouvé.',
-	'NO_MODULE_ID'          => 'Aucun numéro d’identification du module n’a été spécifié.',
-	'NO_MODULE_LANGNAME'    => 'Aucun nom de langue du module n’a été spécifié.',
+	'NO_MODULE_ID'          => 'L’identifiant du module n’a pas été spécifié.',
+	'NO_MODULE_LANGNAME'    => 'Le nom de langue du module n’a pas été spécifié.',
 	'NO_PARENT'             => 'Aucun parent',
 
 	'PARENT'          => 'Parent',

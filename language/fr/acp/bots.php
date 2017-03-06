@@ -66,6 +66,6 @@ $lang = array_merge($lang, [
 	'ERR_BOT_NO_IP'            => 'Les adresses IP que vous avez spécifiées sont invalides ou le nom d’hôte est indisponible.',
 	'ERR_BOT_NO_MATCHES'       => 'Vous devez saisir un agent ou une adresse IP concernant la correspondance de ce robot.',
 
-	'NO_BOT'       => 'Aucun robot correspondant à l’identification spécifiée n’a été trouvé.',
+	'NO_BOT'       => 'Aucun robot correspondant à l’identifiant spécifié n’a été trouvé.',
 	'NO_BOT_GROUP' => 'Le groupe d’utilisateurs des robots est introuvable.',
 ]);
