@@ -85,7 +85,7 @@ $lang = array_merge($lang, [
 	'ALLOW_PM'                       => 'Autoriser les utilisateurs à me contacter par message privé',
 	'ALLOW_PM_EXPLAIN'               => 'Veuillez noter que malgré la désactivation de cette option, les administrateurs et les modérateurs pourront toujours vous envoyer des messages privés.',
 	'ALREADY_ACTIVATED'              => 'Vous avez déjà activé votre compte.',
-	'ATTACHMENTS_EXPLAIN'            => 'Vous pouvez consulter sur cette page la liste des pièces jointes que vous avez transférées et insérées à vos messages sur le forum.',
+	'ATTACHMENTS_EXPLAIN'            => 'Depuis cette page, vous pouvez consulter la liste des pièces jointes que vous avez transférées et insérées à vos messages sur le forum.',
 	'ATTACHMENTS_DELETED'            => 'Les pièces jointes ont été supprimées.',
 	'ATTACHMENT_DELETED'             => 'La pièce jointe a été supprimée.',
 	'AUTOLOGIN_SESSION_KEYS_DELETED' => 'Les clés de connexions automatiques ont été supprimées.',
@@ -180,7 +180,7 @@ $lang = array_merge($lang, [
 	'DOMAIN_NO_MX_RECORD_EMAIL'  => 'Le domaine de cette adresse de courriel ne contient pas d’enregistrement MX valide.',
 	'DOWNLOADS'                  => 'Téléchargements',
 	'DRAFTS_DELETED'             => 'Les brouillons ont été supprimés.',
-	'DRAFTS_EXPLAIN'             => 'Vous pouvez consulter, modifier et supprimer sur cette page les brouillons que vous avez préalablement enregistrés.',
+	'DRAFTS_EXPLAIN'             => 'Depuis cette page, vous pouvez consulter, modifier et supprimer les brouillons que vous avez préalablement enregistrés.',
 	'DRAFT_UPDATED'              => 'Le brouillon a été mis à jour.',
 
 	'EDIT_DRAFT_EXPLAIN'  => 'Vous pouvez modifier ici votre brouillon. Les brouillons ne peuvent pas contenir de pièces jointes et de sondages.',
@@ -439,7 +439,7 @@ $lang = array_merge($lang, [
 	'PREFERENCES_UPDATED'            => 'Vos préférences ont été mises à jour.',
 	'PROFILE_INFO_NOTICE'            => 'Veuillez noter que ces informations peuvent être visibles aux autres membres. Soyez prudent lors de la saisie d’informations personnelles. Tous les champs marqués par * sont obligatoires.',
 	'PROFILE_UPDATED'                => 'Votre profil a été mis à jour.',
-	'PROFILE_AUTOLOGIN_KEYS'         => 'Les clés de connexions automatiques vous permettent de vous connecter automatiquement lors de vos différentes visites sur le forum. Si vous vous déconnectez, la clé de connexion automatique ne sera supprimée que de l’ordinateur que vous utilisiez au moment de votre déconnexion. Vous pouvez consulter sur cette page les clés de connexions automatiques générées sur les ordinateurs qui ont été utilisés afin d’accéder à ce forum.',
+	'PROFILE_AUTOLOGIN_KEYS'         => 'Les clés de connexions automatiques vous permettent de vous connecter automatiquement lors de vos différentes visites sur le forum. Si vous vous déconnectez, la clé de connexion automatique ne sera supprimée que de l’ordinateur que vous utilisiez au moment de votre déconnexion. Depuis cette page, vous pouvez consulter les clés de connexions automatiques générées sur les ordinateurs qui ont été utilisés afin d’accéder à ce forum.',
 	'PROFILE_NO_AUTOLOGIN_KEYS'      => 'Aucune clé de connexion automatique n’a été sauvegardée.',
 
 	'RECIPIENT'                         => 'Destinataire',
@@ -527,9 +527,9 @@ $lang = array_merge($lang, [
 	'UCP_NO_ATTACHMENTS' => 'Aucune pièce jointe n’a été insérée.',
 
 	'UCP_NOTIFICATION_LIST'            => 'Gérer les notifications',
-	'UCP_NOTIFICATION_LIST_EXPLAIN'    => 'Vous pouvez consulter sur cette page l’historique de vos notifications.',
+	'UCP_NOTIFICATION_LIST_EXPLAIN'    => 'Depuis cette page, vous pouvez consulter l’historique de vos notifications.',
 	'UCP_NOTIFICATION_OPTIONS'         => 'Modifier les méthodes de notification',
-	'UCP_NOTIFICATION_OPTIONS_EXPLAIN' => 'Vous pouvez définir sur cette page les méthodes de notification du forum.',
+	'UCP_NOTIFICATION_OPTIONS_EXPLAIN' => 'Depuis cette page, vous pouvez définir les méthodes de notification du forum.',
 
 	'UCP_PREFS'          => 'Préférences du forum',
 	'UCP_PREFS_PERSONAL' => 'Modifier les paramètres généraux',

@@ -36,7 +36,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, [
-	'ACP_MODULE_MANAGEMENT_EXPLAIN' => 'Vous pouvez gérer sur cette page toutes sortes de modules. Veuillez noter que le panneau de contrôle d’administration est divisé en structure à trois niveaux de menu (Catégorie -> Catégorie -> Module) alors que les autres panneaux de contrôle ne sont divisés qu’en structure à deux niveaux de menu (Catégorie -> Module). Cette structure doit être conservée. Veuillez noter également que vous pouvez vous bloquer si vous désactivez ou supprimez les modules responsables de la gestion des modules.',
+	'ACP_MODULE_MANAGEMENT_EXPLAIN' => 'Depuis cette page, vous pouvez gérer toutes sortes de modules. Veuillez noter que le panneau de contrôle d’administration est divisé en structure à trois niveaux de menu (Catégorie -> Catégorie -> Module) alors que les autres panneaux de contrôle ne sont divisés qu’en structure à deux niveaux de menu (Catégorie -> Module). Cette structure doit être conservée. Veuillez noter également que vous pouvez vous bloquer si vous désactivez ou supprimez les modules responsables de la gestion des modules.',
 	'ADD_MODULE'                    => 'Ajouter un module',
 	'ADD_MODULE_CONFIRM'            => 'Êtes-vous sûr de vouloir ajouter ce module ?',
 	'ADD_MODULE_TITLE'              => 'Ajouter un module',
@@ -53,8 +53,8 @@ $lang = array_merge($lang, [
 	'DELETE_MODULE'         => 'Supprimer le module',
 	'DELETE_MODULE_CONFIRM' => 'Êtes-vous sûr de vouloir supprimer ce module ?',
 
-	'EDIT_MODULE'         => 'Éditer le module',
-	'EDIT_MODULE_EXPLAIN' => 'Vous pouvez configurer sur cette page les paramètres spécifiques au module.',
+	'EDIT_MODULE'         => 'Modifier le module',
+	'EDIT_MODULE_EXPLAIN' => 'Depuis cette page, vous pouvez configurer les paramètres relatifs au module.',
 
 	'HIDDEN_MODULE' => 'Module masqué',
 
@@ -63,7 +63,7 @@ $lang = array_merge($lang, [
 	'MODULE_DELETED'           => 'Le module a été supprimé.',
 	'MODULE_DISPLAYED'         => 'Module affiché',
 	'MODULE_DISPLAYED_EXPLAIN' => 'Si vous ne souhaitez pas afficher ce module mais que vous souhaitez l’utiliser, désactivez cette option.',
-	'MODULE_EDITED'            => 'Le module a été édité.',
+	'MODULE_EDITED'            => 'Le module a été modifié.',
 	'MODULE_ENABLED'           => 'Module activé',
 	'MODULE_LANGNAME'          => 'Nom de la langue du module',
 	'MODULE_LANGNAME_EXPLAIN'  => 'Le nom du module qui sera affiché. Saisissez une variable de langue si le nom souhaité est présent dans un fichier de langue.',

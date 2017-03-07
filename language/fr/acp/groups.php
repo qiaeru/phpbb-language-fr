@@ -36,7 +36,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, [
-	'ACP_GROUPS_MANAGE_EXPLAIN' => 'Vous pouvez administrer sur cette page tous les groupes d’utilisateurs de votre forum. Vous pouvez créer, éditer et supprimer des groupes d’utilisateurs, sélectionner leur statut (restreint, privé ou invisible) et saisir leur nom et leur description. De plus, vous pouvez nommer les responsables des différents groupes d’utilisateurs.',
+	'ACP_GROUPS_MANAGE_EXPLAIN' => 'Depuis cette page, vous pouvez administrer tous les groupes d’utilisateurs de votre forum. Vous pouvez créer, modifier et supprimer des groupes d’utilisateurs, sélectionner leur statut (restreint, privé ou invisible) et saisir leur nom et leur description. De plus, vous pouvez nommer les responsables des différents groupes d’utilisateurs.',
 	'ADD_GROUP_CATEGORY'        => 'Ajouter une catégorie',
 	'ADD_USERS'                 => 'Ajouter des utilisateurs',
 	'ADD_USERS_EXPLAIN'         => 'Vous pouvez ajouter ici de nouveaux utilisateurs à un groupe d’utilisateurs. Vous pouvez également attribuer un groupe d’utilisateurs par défaut aux utilisateurs sélectionnés. De plus, vous pouvez promouvoir certains membres d’un groupe d’utilisateurs comme responsables de ce dernier. Veuillez saisir chaque nom d’utilisateur sur une nouvelle ligne.',
@@ -68,7 +68,7 @@ $lang = array_merge($lang, [
 	'GROUP_DEMOTE'                 => 'Rétrograder le responsable du groupe',
 	'GROUP_DESC'                   => 'Description du groupe',
 	'GROUP_DETAILS'                => 'Informations sur le groupe',
-	'GROUP_EDIT_EXPLAIN'           => 'Vous pouvez éditer sur cette page un groupe d’utilisateurs déjà existant. Vous pouvez modifier son nom, sa description et son type (restreint, privé, etc.). Vous pouvez également modifier certains aspects visuels comme la couleur, le rang, etc. Les modifications effectuées sur cette page écraseront les paramètres individuels des utilisateurs. Veuillez noter que si les permissions des utilisateurs le permettent, les membres d’un groupe d’utilisateurs pourront outrepasser la configuration de l’avatar en sélectionnant eux-mêmes un avatar personnalisé.',
+	'GROUP_EDIT_EXPLAIN'           => 'Depuis cette page, vous pouvez modifier un groupe d’utilisateurs déjà existant. Vous pouvez modifier son nom, sa description et son type (restreint, privé, etc.). Vous pouvez également modifier certains aspects visuels comme la couleur, le rang, etc. Les modifications effectuées sur cette page écraseront les paramètres individuels des utilisateurs. Veuillez noter que si les permissions des utilisateurs le permettent, les membres d’un groupe d’utilisateurs pourront outrepasser la configuration de l’avatar en sélectionnant eux-mêmes un avatar personnalisé.',
 	'GROUP_ERR_USERS_EXIST'        => 'Les utilisateurs que vous avez spécifiés sont déjà des membres de ce groupe d’utilisateurs.',
 	'GROUP_FOUNDER_MANAGE'         => 'Limiter la gestion aux fondateurs uniquement',
 	'GROUP_FOUNDER_MANAGE_EXPLAIN' => 'Le groupe d’utilisateurs ne pourra être géré que par les fondateurs du forum. Les membres du groupe d’utilisateurs peuvent cependant consulter ce dernier.',

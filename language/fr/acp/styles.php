@@ -36,7 +36,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, [
-	'ACP_STYLES_EXPLAIN' => 'Vous pouvez gérer sur cette page les styles disponibles sur votre forum. Vous pouvez installer de nouveaux styles et modifier, supprimer, désactiver et réactiver les styles déjà installés. Vous pouvez également voir à quoi ressemble un style en utilisant la fonctionnalité de prévisualisation. De même, vous pouvez consulter le compteur du nombre total d’utilisateurs de chaque style. Veuillez cependant noter que lorsque vous écrasez un style, la comptabilisation du nombre total d’utilisateurs ne sera pas répercutée sur le style qui le remplacera.',
+	'ACP_STYLES_EXPLAIN' => 'Depuis cette page, vous pouvez gérer les styles disponibles sur votre forum. Vous pouvez installer de nouveaux styles et modifier, supprimer, désactiver et réactiver les styles déjà installés. Vous pouvez également voir à quoi ressemble un style en utilisant la fonctionnalité de prévisualisation. De même, vous pouvez consulter le compteur du nombre total d’utilisateurs de chaque style. Veuillez cependant noter que lorsque vous écrasez un style, la comptabilisation du nombre total d’utilisateurs ne sera pas répercutée sur le style qui le remplacera.',
 
 	'CANNOT_BE_INSTALLED'      => 'Ne peut pas être installé',
 	'CONFIRM_UNINSTALL_STYLES' => 'Êtes-vous sûr de vouloir désinstaller ces styles ?',
@@ -51,7 +51,7 @@ $lang = array_merge($lang, [
 	'INHERITING_FROM'        => 'Hérite de',
 	'INSTALL_STYLE'          => 'Installer un style',
 	'INSTALL_STYLES'         => 'Installer des styles',
-	'INSTALL_STYLES_EXPLAIN' => 'Vous pouvez installer sur cette page de nouveaux styles.<br />Si vous ne retrouvez pas dans la liste ci-dessous le style que vous avez transféré, assurez-vous que ce dernier ne soit pas déjà installé sur votre forum. Si ce n’est pas le cas, essayez de le transférer de nouveau.',
+	'INSTALL_STYLES_EXPLAIN' => 'Depuis cette page, vous pouvez installer de nouveaux styles.<br />Si vous ne retrouvez pas dans la liste ci-dessous le style que vous avez transféré, assurez-vous que ce dernier ne soit pas déjà installé sur votre forum. Si ce n’est pas le cas, essayez de le transférer de nouveau.',
 	'INVALID_STYLE_ID'       => 'L’identifiant du style est invalide.',
 
 	'NO_MATCHING_STYLES_FOUND' => 'Aucun style ne correspond à votre requête.',

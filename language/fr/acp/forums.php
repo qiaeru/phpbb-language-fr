@@ -64,11 +64,11 @@ $lang = array_merge($lang, [
 	'DISPLAY_ACTIVE_TOPICS'         => 'Activer les sujets actifs',
 	'DISPLAY_ACTIVE_TOPICS_EXPLAIN' => 'Si cette option est activée, les sujets actifs des sous-forums sélectionnés seront affichés sous cette catégorie.',
 
-	'EDIT_FORUM'                 => 'Éditer le forum',
+	'EDIT_FORUM'                 => 'Modifier le forum',
 	'ENABLE_INDEXING'            => 'Activer l’indexation de la recherche',
 	'ENABLE_INDEXING_EXPLAIN'    => 'Si cette option est activée, les messages publiés dans ce forum seront indexés afin qu’ils puissent être pris en compte lors des recherches.',
-	'ENABLE_POST_REVIEW'         => 'Autoriser la réédition des messages',
-	'ENABLE_POST_REVIEW_EXPLAIN' => 'Si cette option est activée, les utilisateurs pourront éditer leurs messages malgré que d’autres utilisateurs aient répondu au sujet. Il n’est pas conseillé d’activer cette option sur les forums de discussions.',
+	'ENABLE_POST_REVIEW'         => 'Autoriser la révision des messages',
+	'ENABLE_POST_REVIEW_EXPLAIN' => 'Si cette option est activée, les utilisateurs pourront modifier leurs messages malgré que d’autres utilisateurs aient répondu au sujet. Il n’est pas conseillé d’activer cette option sur les forums de discussions.',
 	'ENABLE_QUICK_REPLY'         => 'Autoriser la réponse rapide',
 	'ENABLE_QUICK_REPLY_EXPLAIN' => 'Si cette option est activée, les utilisateurs pourront utiliser la réponse rapide sur ce forum. Cette option n’est pas prise en compte si la réponse rapide a été désactivée dans les paramètres de la publication. Le champ de la réponse rapide ne sera visible qu’aux utilisateurs autorisés à publier dans ce forum.',
 	'ENABLE_RECENT'              => 'Afficher les sujets actifs',
@@ -76,7 +76,7 @@ $lang = array_merge($lang, [
 	'ENABLE_TOPIC_ICONS'         => 'Activer les icônes de sujet',
 
 	'FORUM_ADMIN'                    => 'Administration du forum',
-	'FORUM_ADMIN_EXPLAIN'            => 'Dans phpBB 3.3, tout est basé sur la notion de forum. Ainsi, même les catégories ne sont plus qu’un type de forum. Chaque forum peut contenir un nombre illimité de sous-forums et vous pouvez spécifier s’ils peuvent contenir ou non des messages (comme c’était le cas avec les anciennes catégories). Vous pouvez, de manière individuelle, ajouter, éditer, supprimer, verrouiller ou déverrouiller sur cette page les forums et définir certaines permissions additionnelles. Si certains messages et sujets ne sont plus synchronisés, vous pouvez également exécuter une resynchronisation. <strong>Si vous souhaitez que les forums que vous créez soient visibles publiquement, n’oubliez pas de copier ou de définir les permissions de chaque nouveau forum.</strong>',
+	'FORUM_ADMIN_EXPLAIN'            => 'Dans phpBB 3.3, tout est basé sur la notion de forum. Ainsi, même les catégories ne sont plus qu’un type de forum. Chaque forum peut contenir un nombre illimité de sous-forums et vous pouvez spécifier s’ils peuvent contenir ou non des messages (comme c’était le cas avec les anciennes catégories). Depuis cette page, vous pouvez, de manière individuelle, ajouter, modifier, supprimer, verrouiller ou déverrouiller les forums et définir certaines permissions additionnelles. Si certains messages et sujets ne sont plus synchronisés, vous pouvez également exécuter une resynchronisation. <strong>Si vous souhaitez que les forums que vous créez soient visibles publiquement, n’oubliez pas de copier ou de définir les permissions de chaque nouveau forum.</strong>',
 	'FORUM_AUTO_PRUNE'               => 'Activer le délestage automatique',
 	'FORUM_AUTO_PRUNE_EXPLAIN'       => 'Si cette option est activée, les sujets de ce forum seront délestés selon les paramètres de fréquence et d’intervalles du délestage automatique spécifiés ci-dessous.',
 	'FORUM_CREATED'                  => 'Le forum a été créé.',

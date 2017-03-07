@@ -38,14 +38,14 @@ if (empty($lang) || !is_array($lang))
 // BBCodes
 // Note to translators: you can translate everything but what's between { and }
 $lang = array_merge($lang, [
-	'ACP_BBCODES_EXPLAIN' => 'Le BBCode est une implémentation spéciale du code HTML qui offre un meilleur contrôle sur la mise en forme. De cette page, vous pouvez ajouter, supprimer et éditer des BBCodes personnalisés.',
+	'ACP_BBCODES_EXPLAIN' => 'Le BBCode est une implémentation spéciale du code HTML qui offre un meilleur contrôle sur la mise en forme. De cette page, vous pouvez ajouter, supprimer et modifier des BBCodes personnalisés.',
 	'ADD_BBCODE'          => 'Ajouter un nouveau BBCode',
 
 	'BBCODE_DANGER'         => 'Le BBCode que vous essayez d’ajouter semble utiliser une chaîne de symboles {TEXT} dans un attribut HTML. Cela peut présenter une éventuelle faille de sécurité XSS. Veuillez plutôt essayer d’utiliser un type plus restrictif, tel que {SIMPLETEXT} ou {INTTEXT}. Ne procédez à cette opération que si vous comprenez les risque encourus et que vous considérez que l’utilisation de {TEXT} est absolumement inévitable.',
 	'BBCODE_DANGER_PROCEED' => 'Procéder', //'I understand the risk',
 
 	'BBCODE_ADDED'             => 'Le BBCode a été ajouté.',
-	'BBCODE_EDITED'            => 'Le BBCode a été édité.',
+	'BBCODE_EDITED'            => 'Le BBCode a été modifié.',
 	'BBCODE_DELETED'           => 'Le BBCode a été supprimé.',
 	'BBCODE_NOT_EXIST'         => 'Le BBCode que vous avez spécifié n’existe pas.',
 	'BBCODE_HELPLINE'          => 'Ligne d’aide',
@@ -92,8 +92,8 @@ $lang = array_merge($lang, [
 
 // Smilies and topic icons
 $lang = array_merge($lang, [
-	'ACP_ICONS_EXPLAIN'   => 'Vous pouvez ajouter, supprimer ou éditer sur cette page les icônes que les utilisateurs peuvent insérer aux sujets et aux messages. Ces icônes sont généralement affichées à côté des titres des sujets sur la liste des forums ou à côté des titres des messages sur la liste des sujets. Vous pouvez également installer et créer de nouvelles archives d’icônes.',
-	'ACP_SMILIES_EXPLAIN' => 'Les émoticônes sont généralement de petites images, parfois animées, qui sont utilisées afin d’exprimer une émotion ou un sentiment. Vous pouvez ajouter, supprimer et éditer sur cette page les émoticônes que les utilisateurs peuvent insérer dans leurs messages et leurs messages privés. Vous pouvez également installer et créer de nouvelles archives d’émoticônes.',
+	'ACP_ICONS_EXPLAIN'   => 'Depuis cette page, vous pouvez ajouter, supprimer ou modifier les icônes que les utilisateurs peuvent insérer aux sujets et aux messages. Ces icônes sont généralement affichées à côté des titres des sujets sur la liste des forums ou à côté des titres des messages sur la liste des sujets. Vous pouvez également installer et créer de nouvelles archives d’icônes.',
+	'ACP_SMILIES_EXPLAIN' => 'Les émoticônes sont généralement de petites images, parfois animées, qui sont utilisées afin d’exprimer une émotion ou un sentiment. Depuis cette page, vous pouvez ajouter, supprimer et modifier les émoticônes que les utilisateurs peuvent insérer dans leurs messages et leurs messages privés. Vous pouvez également installer et créer de nouvelles archives d’émoticônes.',
 	'ADD_SMILIES'         => 'Ajouter plusieurs émoticônes',
 	'ADD_SMILEY_CODE'     => 'Ajouter un code d’émoticône additionnel',
 	'ADD_ICONS'           => 'Ajouter plusieurs icônes',
@@ -110,8 +110,8 @@ $lang = array_merge($lang, [
 	'DISPLAY_POSTING'    => 'Sur la page de rédaction',
 	'DISPLAY_POSTING_NO' => 'Pas sur la page de rédaction',
 
-	'EDIT_ICONS'             => 'Éditer les icônes',
-	'EDIT_SMILIES'           => 'Éditer les émoticônes',
+	'EDIT_ICONS'             => 'Modifier les icônes',
+	'EDIT_SMILIES'           => 'Modifier les émoticônes',
 	'EMOTION'                => 'Émotion',
 	'EXPORT_ICONS'           => 'Exporter et télécharger icons.pak',
 	'EXPORT_ICONS_EXPLAIN'   => '%sEn cliquant sur ce lien, la configuration des icônes que vous avez installées sera archivée dans <samp>icons.pak</samp> qui, une fois téléchargé, pourra être utilisé afin de créer un fichier <samp>.zip</samp> ou <samp>.tgz</samp> qui contiendra toutes vos icônes, ainsi que le fichier de configuration <samp>icons.pak</samp>%s.',
@@ -128,7 +128,7 @@ $lang = array_merge($lang, [
 	],
 	'ICONS_CONFIG'  => 'Configuration de l’icône',
 	'ICONS_DELETED' => 'L’icône a été supprimée.',
-	'ICONS_EDIT'    => 'Éditer l’icône',
+	'ICONS_EDIT'    => 'Modifier l’icône',
 	'ICONS_EDITED'  => [
 		0 => 'Aucune icône n’a été mise à jour.',
 		1 => 'L’icône a été mise à jour.',
@@ -173,7 +173,7 @@ $lang = array_merge($lang, [
 	'SMILIES_CODE'      => 'Code de l’émoticône',
 	'SMILIES_CONFIG'    => 'Configuration de l’émoticône',
 	'SMILIES_DELETED'   => 'L’émoticône a été supprimée.',
-	'SMILIES_EDIT'      => 'Éditer l’émoticône',
+	'SMILIES_EDIT'      => 'Modifier l’émoticône',
 	'SMILIE_NO_CODE'    => 'L’émoticône « %s » a été ignorée car aucun code n’a été spécifié.',
 	'SMILIE_NO_EMOTION' => 'L’émoticône « %s » a été ignorée car aucune émoticône n’a été spécifiée.',
 	'SMILIE_NO_FILE'    => 'L’émoticône « %s » a été ignorée car le fichier est manquant.',
@@ -203,13 +203,13 @@ $lang = array_merge($lang, [
 
 // Word censors
 $lang = array_merge($lang, [
-	'ACP_WORDS_EXPLAIN' => 'Vous pouvez ajouter, éditer et supprimer sur cette page les mots qui seront automatiquement censurés sur votre forum. Les mots censurés seront alors remplacés par les substitutions qui leurs sont assignées. Les visiteurs pourront tout de même s’inscrire avec des noms d’utilisateurs contenant ces mots. Les jokers (*) sont acceptés dans les champs. Par exemple, *test* censurera détestable, test* censurera testament, *test censurera alcootest.',
+	'ACP_WORDS_EXPLAIN' => 'Depuis cette page, vous pouvez ajouter, modifier et supprimer les mots qui seront automatiquement censurés sur votre forum. Les mots censurés seront alors remplacés par les substitutions qui leurs sont assignées. Les visiteurs pourront tout de même s’inscrire avec des noms d’utilisateurs contenant ces mots. Les jokers (*) sont acceptés dans les champs. Par exemple, *test* censurera détestable, test* censurera testament, *test censurera alcootest.',
 	'ADD_WORD'          => 'Ajouter un nouveau mot',
 
-	'EDIT_WORD'  => 'Éditer la censure de mot',
+	'EDIT_WORD'  => 'Modifier la censure de mot',
 	'ENTER_WORD' => 'Vous devez saisir un mot et sa substitution.',
 
-	'NO_WORD' => 'Vous n’avez sélectionné aucun mot à éditer.',
+	'NO_WORD' => 'Vous n’avez sélectionné aucun mot à modifier.',
 
 	'REPLACEMENT' => 'Substitution',
 
@@ -223,7 +223,7 @@ $lang = array_merge($lang, [
 
 // Ranks
 $lang = array_merge($lang, [
-	'ACP_RANKS_EXPLAIN' => 'Vous pouvez consulter, ajouter, éditer et supprimer sur cette page les rangs des utilisateurs de votre forum. Vous pouvez également créer des rangs personnalisés qui peuvent être mis en place sur certains de vos utilisateurs depuis la page de gestion des utilisateurs.',
+	'ACP_RANKS_EXPLAIN' => 'Depuis cette page, vous pouvez consulter, ajouter, modifier et supprimer les rangs des utilisateurs de votre forum. Vous pouvez également créer des rangs personnalisés qui peuvent être mis en place sur certains de vos utilisateurs depuis la page de gestion des utilisateurs.',
 	'ADD_RANK'          => 'Ajouter un nouveau rang',
 
 	'MUST_SELECT_RANK' => 'Vous devez sélectionner un rang.',
@@ -245,7 +245,7 @@ $lang = array_merge($lang, [
 
 // Disallow Usernames
 $lang = array_merge($lang, [
-	'ACP_DISALLOW_EXPLAIN' => 'Vous pouvez gérer sur cette page les noms d’utilisateurs qui ne sont pas autorisés à être utilisés. Les noms d’utilisateurs interdits peuvent contenir un joker « * ».',
+	'ACP_DISALLOW_EXPLAIN' => 'Depuis cette page, vous pouvez gérer les noms d’utilisateurs qui ne sont pas autorisés à être utilisés. Les noms d’utilisateurs interdits peuvent contenir un joker « * ».',
 	'ADD_DISALLOW_EXPLAIN' => 'Vous pouvez interdire un nom d’utilisateur en utilisant un joker « * » qui remplacera alors n’importe quel caractère.',
 	'ADD_DISALLOW_TITLE'   => 'Ajouter un nom d’utilisateur interdit',
 
@@ -261,7 +261,7 @@ $lang = array_merge($lang, [
 
 // Reasons
 $lang = array_merge($lang, [
-	'ACP_REASONS_EXPLAIN' => 'Vous pouvez gérer sur cette page les raisons utilisées dans les rapports lors de la désapprobation de messages. La raison par défaut (marquée avec « * ») ne peut pas être supprimée car elle est réservée aux messages personnalisés quand aucune raison n’est spécifiée.',
+	'ACP_REASONS_EXPLAIN' => 'Depuis cette page, vous pouvez gérer les raisons utilisées dans les rapports lors de la désapprobation de messages. La raison par défaut (marquée avec « * ») ne peut pas être supprimée car elle est réservée aux messages personnalisés quand aucune raison n’est spécifiée.',
 	'ADD_NEW_REASON'      => 'Ajouter une nouvelle raison',
 	'AVAILABLE_TITLES'    => 'Titres des raisons traduites disponibles',
 
@@ -279,8 +279,8 @@ $lang = array_merge($lang, [
 	'REASON_ALREADY_EXIST'    => 'Une raison portant ce titre existe déjà. Veuillez en saisir un autre.',
 	'REASON_DESCRIPTION'      => 'Description de la raison',
 	'REASON_DESC_TRANSLATED'  => 'Description de la raison affichée',
-	'REASON_EDIT'             => 'Éditer la raison',
-	'REASON_EDIT_EXPLAIN'     => 'Vous pouvez ajouter ou éditer sur cette page une raison. Si la raison est traduite, la traduction sera utilisée à la place de la description spécifiée dans le champ correspondant.',
+	'REASON_EDIT'             => 'Modifier la raison',
+	'REASON_EDIT_EXPLAIN'     => 'Depuis cette page, vous pouvez ajouter ou modifier une raison. Si la raison est traduite, la traduction sera utilisée à la place de la description spécifiée dans le champ correspondant.',
 	'REASON_REMOVED'          => 'La raison a été supprimée.',
 	'REASON_TITLE'            => 'Titre de la raison',
 	'REASON_TITLE_TRANSLATED' => 'Titre de la raison affiché',

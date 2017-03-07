@@ -81,7 +81,7 @@ $lang = array_merge($lang, [
 	'ACL_U_MASSPM'       => 'Peut envoyer des messages privés à plusieurs utilisateurs',
 	'ACL_U_MASSPM_GROUP' => 'Peut envoyer des messages privés aux groupes d’utilisateurs',
 	'ACL_U_READPM'       => 'Peut lire ses messages privés',
-	'ACL_U_PM_EDIT'      => 'Peut éditer ses messages privés',
+	'ACL_U_PM_EDIT'      => 'Peut modifier ses messages privés',
 	'ACL_U_PM_DELETE'    => 'Peut supprimer les messages privés de ses boîtes',
 	'ACL_U_PM_FORWARD'   => 'Peut transférer les messages privés',
 	'ACL_U_PM_EMAILPM'   => 'Peut envoyer les messages privés par courriel',
@@ -119,7 +119,7 @@ $lang = array_merge($lang, [
 	'ACL_F_ANNOUNCE'        => 'Peut publier des annonces',
 	'ACL_F_ANNOUNCE_GLOBAL' => 'Peut publier des annonces générales',
 	'ACL_F_REPLY'           => 'Peut répondre aux sujets',
-	'ACL_F_EDIT'            => 'Peut éditer ses messages',
+	'ACL_F_EDIT'            => 'Peut modifier ses messages',
 	'ACL_F_DELETE'          => 'Peut supprimer définitivement ses messages',
 	'ACL_F_SOFTDELETE'      => 'Peut supprimer ses messages<br /><em>Les modérateurs qui ont la permission d’approuver des messages pourront restaurer les messages supprimés.</em>',
 	'ACL_F_IGNOREFLOOD'     => 'Peut ignorer la limite de flood',
@@ -141,7 +141,7 @@ $lang = array_merge($lang, [
 
 // Moderator Permissions
 $lang = array_merge($lang, [
-	'ACL_M_EDIT'       => 'Peut éditer les messages',
+	'ACL_M_EDIT'       => 'Peut modifier les messages',
 	'ACL_M_DELETE'     => 'Peut supprimer définitivement les messages',
 	'ACL_M_SOFTDELETE' => 'Peut supprimer les messages<br /><em>Les modérateurs qui ont la permission d’approuver des messages pourront restaurer les messages supprimés.</em>',
 	'ACL_M_APPROVE'    => 'Peut approuver et restaurer les messages',
