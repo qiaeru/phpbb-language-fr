@@ -38,13 +38,13 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, [
 	'EXTENSION'                => 'Extension',
 	'EXTENSIONS'               => 'Extensions',
-	'EXTENSIONS_ADMIN'         => 'Gestionnaire des extensions',
-	'EXTENSIONS_EXPLAIN'       => 'Le gestionnaire des extensions est un outil vous permettant de gérer tous les statuts de vos extensions et consulter leurs informations.',
+	'EXTENSIONS_ADMIN'         => 'Gestionnaire d’extensions',
+	'EXTENSIONS_EXPLAIN'       => 'Le gestionnaire d’extensions est un outil vous permettant de gérer tous les statuts de vos extensions et de consulter les informations associées.',
 	'EXTENSION_INVALID_LIST'   => 'L’extension « %s » est invalide.<br />%s<br /><br />',
 	'EXTENSION_NOT_AVAILABLE'  => 'Cette extension n’est pas disponible sur ce forum. Veuillez vérifier la compatibilité de vos versions de phpBB et de PHP.',
 	'EXTENSION_DIR_INVALID'    => 'Cette extension est construite avec une structure de répertoire invalide et ne peut donc pas être activée.',
 	'EXTENSION_NOT_ENABLEABLE' => 'Cette extension ne peut pas être activée. Veuillez vérifier les prérequis de l’extension.',
-	'EXTENSION_NOT_INSTALLED'  => 'L’extension %s n’est pas disponible. Veuillez vérifier si elle a été correctement installée.',
+	'EXTENSION_NOT_INSTALLED'  => 'L’extension %s n’est pas disponible. Veuillez vérifier si elle a été installée correctement.',
 
 	'DETAILS' => 'Informations',
 
@@ -55,13 +55,13 @@ $lang = array_merge($lang, [
 	'EXTENSION_DISABLE'     => 'Désactiver',
 	'EXTENSION_ENABLE'      => 'Activer',
 
-	'EXTENSION_DELETE_DATA_EXPLAIN' => 'La suppression des données d’une extension supprime toutes ses données et sa configuration. Les fichiers de l’extension sont conservés afin de pouvoir la réactiver de nouveau.',
-	'EXTENSION_DISABLE_EXPLAIN'     => 'La désactivation d’une extension conserve ses fichiers, ses données et sa configuration mais supprime toutes les fonctionnalités ajoutées par l’extension.',
-	'EXTENSION_ENABLE_EXPLAIN'      => 'L’activation d’une extension vous permet d’utiliser cette dernière sur votre forum.',
+	'EXTENSION_DELETE_DATA_EXPLAIN' => 'La suppression des données d’une extension supprime toutes ses données et sa configuration. Les fichiers de l’extension sont conservés afin de pouvoir la réactiver ultérieurement.',
+	'EXTENSION_DISABLE_EXPLAIN'     => 'La désactivation d’une extension conserve ses fichiers, ses données et sa configuration mais supprime toutes les fonctionnalités qu’elle ajoute.',
+	'EXTENSION_ENABLE_EXPLAIN'      => 'L’activation d’une extension vous permet de l’utiliser sur votre forum.',
 
-	'EXTENSION_DELETE_DATA_IN_PROGRESS' => 'Les données de l’extension sont en cours de suppression. Veuillez ne pas quitter ou rafraîchir la page avant la fin de toutes les opérations.',
-	'EXTENSION_DISABLE_IN_PROGRESS'     => 'L’extension est en cours de désactivation. Veuillez ne pas quitter ou rafraîchir la page avant la fin de toutes les opérations.',
-	'EXTENSION_ENABLE_IN_PROGRESS'      => 'L’extension est en cours d’activation. Veuillez ne pas quitter ou rafraîchir la page avant la fin de toutes les opérations.',
+	'EXTENSION_DELETE_DATA_IN_PROGRESS' => 'Les données de l’extension sont en cours de suppression. Veillez à ne pas quitter ou rafraîchir la page avant la fin de toutes les opérations.',
+	'EXTENSION_DISABLE_IN_PROGRESS'     => 'L’extension est en cours de désactivation. Veillez à ne pas quitter ou rafraîchir la page avant la fin de toutes les opérations.',
+	'EXTENSION_ENABLE_IN_PROGRESS'      => 'L’extension est en cours d’activation. Veillez à ne pas quitter ou rafraîchir la page avant la fin de toutes les opérations.',
 
 	'EXTENSION_DELETE_DATA_SUCCESS' => 'L’extension a été supprimée',
 	'EXTENSION_DISABLE_SUCCESS'     => 'L’extension a été désactivée',
@@ -70,10 +70,10 @@ $lang = array_merge($lang, [
 	'EXTENSION_NAME'             => 'Nom de l’extension',
 	'EXTENSION_ACTIONS'          => 'Opérations',
 	'EXTENSION_OPTIONS'          => 'Options',
-	'EXTENSION_INSTALL_HEADLINE' => 'Installer d’une extension',
+	'EXTENSION_INSTALL_HEADLINE' => 'Installer une extension',
 	'EXTENSION_INSTALL_EXPLAIN'  => '<ol>
 			<li>Téléchargez une extension à partir de la base de données des extensions de phpBB</li>
-			<li>Décompressez l’extension et transférez cette dernière dans le répertoire <samp>ext/</samp> de votre forum phpBB</li>
+			<li>Décompressez et transférez l’extension dans le répertoire <samp>ext/</samp> de votre forum</li>
 			<li>Activez l’extension à partir du gestionnaire d’extensions</li>
 		</ol>',
 	'EXTENSION_UPDATE_HEADLINE' => 'Mettre à jour une extension',
@@ -129,6 +129,6 @@ $lang = array_merge($lang, [
 
 	'BROWSE_EXTENSIONS_DATABASE' => 'Accéder à la base de données des extensions',
 
-	'META_FIELD_NOT_SET' => 'Le méta-champ %s est obligatoire et doit être paramétré.',
+	'META_FIELD_NOT_SET' => 'Le méta-champ %s est obligatoire et doit être configuré.',
 	'META_FIELD_INVALID' => 'Le méta-champ %s est invalide.',
 ]);

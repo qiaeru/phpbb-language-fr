@@ -440,8 +440,8 @@ $lang = array_merge($lang, [
 	// File updater
 	'UPDATE_UPDATING_FILES' => 'Mise à jour des fichiers',
 
-	'UPDATE_FILE_UPDATER_HAS_FAILED'   => 'L’assistant de mise à jour des fichiers « %1$s » a échoué. L’installateur va essayer de revenir à « %2$s ».',
-	'UPDATE_FILE_UPDATERS_HAVE_FAILED' => 'L’assistant de mise à jour des fichiers a échoué. Il n’est pas possible de revenir en arrière.',
+	'UPDATE_FILE_UPDATER_HAS_FAILED'   => 'L’assistant de mise à jour des fichiers « %1$s » a rencontré un problème. L’installateur va essayer de revenir à « %2$s ».',
+	'UPDATE_FILE_UPDATERS_HAVE_FAILED' => 'L’assistant de mise à jour des fichiers a rencontré un problème. Il n’est pas possible de revenir en arrière.',
 
 	'UPDATE_CONTINUE_UPDATE_PROCESS' => 'Continuer la mise à jour',
 	'UPDATE_RECHECK_UPDATE_FILES'    => 'Vérifier à nouveau les fichier',
