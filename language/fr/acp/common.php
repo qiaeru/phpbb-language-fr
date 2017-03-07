@@ -50,7 +50,7 @@ $lang = array_merge($lang, [
 	'ACP_BAN'                 => 'Bannissement',
 	'ACP_BAN_EMAILS'          => 'Bannir des adresses de courriel',
 	'ACP_BAN_IPS'             => 'Bannir des adresses IP',
-	'ACP_BAN_USERNAMES'       => 'Bannir des utilisateurs',
+	'ACP_BAN_USERNAMES'       => 'Bannir des noms d’utilisateurs',
 	'ACP_BBCODES'             => 'BBCode',
 	'ACP_BOARD_CONFIGURATION' => 'Configuration du forum',
 	'ACP_BOARD_FEATURES'      => 'Fonctionnalités du forum',
@@ -83,7 +83,7 @@ $lang = array_merge($lang, [
 	'ACP_DISALLOW'           => 'Interdire',
 	'ACP_DISALLOW_USERNAMES' => 'Interdire des noms d’utilisateurs',
 
-	'ACP_EMAIL_SETTINGS'       => 'Messagerie électronique',
+	'ACP_EMAIL_SETTINGS'       => 'Paramètres des courriels',
 	'ACP_EXTENSION_GROUPS'     => 'Gérer les groupes d’extensions des pièces jointes',
 	'ACP_EXTENSION_MANAGEMENT' => 'Gestion des extensions',
 	'ACP_EXTENSIONS'           => 'Gérer les extensions',
@@ -107,7 +107,7 @@ $lang = array_merge($lang, [
 	'ACP_GROUPS_PERMISSIONS'       => 'Permissions des groupes',
 	'ACP_GROUPS_POSITION'          => 'Gérer la position des groupes',
 
-	'ACP_HELP_PHPBB' => 'Aide au support de phpBB',
+	'ACP_HELP_PHPBB' => 'Aider et soutenir phpBB',
 
 	'ACP_ICONS'          => 'Icônes de sujet',
 	'ACP_ICONS_SMILIES'  => 'Icônes de sujet et émoticônes',
@@ -124,12 +124,12 @@ $lang = array_merge($lang, [
 	'ACP_MAIN' => 'Accueil du PCA',
 
 	'ACP_MANAGE_ATTACHMENTS'         => 'Gérer les pièces jointes',
-	'ACP_MANAGE_ATTACHMENTS_EXPLAIN' => 'Vous pouvez lister et supprimer sur cette page les fichiers insérés aux messages et aux messages privés.',
+	'ACP_MANAGE_ATTACHMENTS_EXPLAIN' => 'Depuis cette page, vous pouvez lister et supprimer les fichiers insérés aux messages et aux messages privés.',
 
 	'ACP_MANAGE_EXTENSIONS' => 'Gérer les extensions des pièces jointes',
 	'ACP_MANAGE_FORUMS'     => 'Gérer les forums',
 	'ACP_MANAGE_RANKS'      => 'Gérer les rangs',
-	'ACP_MANAGE_REASONS'    => 'Gérer les raisons de rapport',
+	'ACP_MANAGE_REASONS'    => 'Gérer les rapports et raisons',
 	'ACP_MANAGE_USERS'      => 'Gérer les utilisateurs',
 	'ACP_MASS_EMAIL'        => 'Courriel de masse',
 	'ACP_MESSAGES'          => 'Messages',
@@ -138,7 +138,7 @@ $lang = array_merge($lang, [
 	'ACP_MOD_LOGS'          => 'Historique des modérateurs',
 	'ACP_MOD_ROLES'         => 'Rôles des modérateurs',
 
-	'ACP_NO_ITEMS' => 'Aucun objet.',
+	'ACP_NO_ITEMS' => 'Aucun élément.',
 
 	'ACP_ORPHAN_ATTACHMENTS' => 'Pièces jointes orphelines',
 
@@ -155,7 +155,7 @@ $lang = array_merge($lang, [
 	'ACP_QUICK_ACCESS' => 'Accès rapide',
 
 	'ACP_RANKS'             => 'Rangs',
-	'ACP_REASONS'           => 'Raisons de rapport',
+	'ACP_REASONS'           => 'Rapports et raisons',
 	'ACP_REGISTER_SETTINGS' => 'Paramètres des inscriptions',
 
 	'ACP_RESTORE' => 'Restaurer',
@@ -235,7 +235,7 @@ $lang = array_merge($lang, [
 	'CANNOT_RENAME_FILE'             => 'Impossible de renommer un fichier du système',
 	'CANNOT_TOUCH_FILES'             => 'Impossible de déterminer si le fichier existe',
 
-	'CONTAINER_EXCEPTION' => 'phpBB a rencontré une erreur lors de la construction du conteneur en raison d’une extension installée. Pour cette raison, toutes les extensions ont été temporairement désactivées. Veuillez essayer de vider le cache de votre forum. Toutes les extensions seront automatiquement réactivées lorsque cette erreur de conteneur sera corrigée. Si cette erreur persiste, veuillez demander une assistance sur <a href="https://www.phpbb.com/support">phpBB.com</a>.',
+	'CONTAINER_EXCEPTION' => 'Une erreur est survenue lors de la construction du conteneur en raison d’une extension installée. Par mesure de sécurité, toutes les extensions ont été temporairement désactivées. Veuillez essayer de vider le cache de votre forum. Toutes les extensions seront automatiquement réactivées lorsque cette erreur de conteneur sera corrigée. Si cette erreur persiste, veuillez demander une assistance sur <a href="https://www.phpbb.com/support">phpBB.com</a> (en anglais).',
 	'EXCEPTION'           => 'Exception',
 
 	'COLOUR_SWATCH'     => 'Palette de couleurs internet',
@@ -257,7 +257,7 @@ $lang = array_merge($lang, [
 	'DOWNLOAD_STORE_EXPLAIN'   => 'Vous pouvez télécharger directement le fichier ou le sauvegarder dans votre répertoire <samp>store/</samp>.',
 	'DOWNLOADS'                => 'Téléchargements',
 
-	'EDIT'            => 'Éditer',
+	'EDIT'            => 'Modifier',
 	'ENABLE'          => 'Activer',
 	'EXPORT_DOWNLOAD' => 'Télécharger',
 	'EXPORT_STORE'    => 'Stocker',
@@ -282,14 +282,14 @@ $lang = array_merge($lang, [
 
 	'MANAGE'           => 'Gérer',
 	'MENU_TOGGLE'      => 'Masquer ou afficher le menu latéral',
-	'MORE'             => 'Plus',			// Not used at the moment
+	'MORE'             => 'Plus', // Not used at the moment
 	'MORE_INFORMATION' => 'Plus d’informations »',
 	'MOVE_DOWN'        => 'Descendre',
 	'MOVE_UP'          => 'Monter',
 
 	'NOTIFY'               => 'Notification',
 	'NO_ADMIN'             => 'Vous ne pouvez pas administrer ce forum.',
-	'NO_EMAILS_DEFINED'    => 'Aucune adresse de courriel correcte n’a été trouvée.',
+	'NO_EMAILS_DEFINED'    => 'Aucune adresse de courriel valide n’a été spécifiée.',
 	'NO_FILES_TO_DELETE'   => 'Les pièces jointes que vous souhaitez supprimer n’existent pas.',
 	'NO_PASSWORD_SUPPLIED' => 'Vous devez saisir votre mot de passe afin d’accéder au panneau de contrôle d’administration.',
 
@@ -305,7 +305,7 @@ $lang = array_merge($lang, [
 
 	'RELEASE_ANNOUNCEMENT' => 'Annonce',
 	'REMIND'               => 'Rappel',
-	'REPARSE_LOCK_ERROR'   => 'L’analyse est déjà en cours par un autre par un autre processus.',
+	'REPARSE_LOCK_ERROR'   => 'L’analyse est déjà en cours par un autre processus.',
 	'RESYNC'               => 'Resynchroniser',
 
 	'RUNNING_TASK'     => 'Exécution de la tâche : %s.',
@@ -324,7 +324,7 @@ $lang = array_merge($lang, [
 	'TOTAL_SIZE'      => 'Taille totale',
 
 	'UCP'                => 'Panneau de contrôle de l’utilisateur',
-	'USERNAMES_EXPLAIN'  => 'Insérez chaque nom d’utilisateur sur une nouvelle ligne.',
+	'USERNAMES_EXPLAIN'  => 'Veuillez insérer chaque nom d’utilisateur sur une nouvelle ligne.',
 	'USER_CONTROL_PANEL' => 'Panneau de contrôle de l’utilisateur',
 
 	'UPDATE_NEEDED'     => 'Le forum n’est pas à jour.',
@@ -336,7 +336,7 @@ $lang = array_merge($lang, [
 
 // PHP info
 $lang = array_merge($lang, [
-	'ACP_PHP_INFO_EXPLAIN' => 'Vous pouvez consulter sur cette page les informations sur la version de PHP qui est installée sur votre serveur. Cela comprend l’ensemble des informations sur les modules chargés, les variables disponibles et les paramètres par défaut. Ces informations peuvent être utiles afin de diagnostiquer les problèmes présents sur votre serveur. Veuillez noter que certains hébergeurs peuvent limiter l’affichage de ces informations pour des raisons de sécurité. Il est déconseillé de divulguer les informations disponibles sur cette page, sauf si elles sont demandées par un des <a href="https://www.phpbb.com/about/team/">membres de l’équipe officielle</a> (en anglais) sur les forums de support.',
+	'ACP_PHP_INFO_EXPLAIN' => 'Depuis cette page, vous pouvez consulter les informations sur la version de PHP qui est installée sur votre serveur. Cela comprend l’ensemble des informations sur les modules chargés, les variables disponibles et les paramètres par défaut. Ces informations peuvent être utiles afin de diagnostiquer les problèmes présents sur votre serveur. Veuillez noter que certains hébergeurs peuvent limiter l’affichage de ces informations pour des raisons de sécurité. Il est déconseillé de divulguer les informations disponibles sur cette page, sauf si elles sont demandées par un des <a href="https://www.phpbb.com/about/team/">membres de l’équipe</a> (en anglais) des forums d’assistance.',
 
 	'NO_PHPINFO_AVAILABLE' => 'Impossible d’afficher les informations concernant votre configuration de PHP. La fonction phpinfo() a été désactivée pour des raisons de sécurité.',
 ]);
@@ -344,7 +344,7 @@ $lang = array_merge($lang, [
 // Logs
 $lang = array_merge($lang, [
 	'ACP_ADMIN_LOGS_EXPLAIN'    => 'Cette liste vous permet de consulter toutes les opérations qui ont été effectuées par les administrateurs du forum. Vous pouvez les classer par nom d’utilisateur, date, adresse IP ou opération. Si vous en avez les permissions, vous pouvez également effacer intégralement ou individuellement ces opérations.',
-	'ACP_CRITICAL_LOGS_EXPLAIN' => 'Cette liste vous permet de consulter toutes les opérations qui ont été effectuées par le forum lui-même. Cet historique vous informe des problèmes qui se sont produits, comme des courriels qui n’ont pas été correctement transférés. Vous pouvez les classer par nom d’utilisateur, date, adresse IP ou opération. Si vous en avez les permissions, vous pouvez également effacer intégralement ou individuellement ces opérations.',
+	'ACP_CRITICAL_LOGS_EXPLAIN' => 'Cette liste vous permet de consulter toutes les opérations qui ont été effectuées par le forum. Cet historique vous informe des problèmes qui se sont produits, comme des courriels qui n’ont pas été correctement transférés. Vous pouvez les classer par nom d’utilisateur, date, adresse IP ou opération. Si vous en avez les permissions, vous pouvez également effacer intégralement ou individuellement ces opérations.',
 	'ACP_MOD_LOGS_EXPLAIN'      => 'Cette liste vous permet de consulter toutes les opérations qui ont été effectuées sur les forums, les sujets et les messages, ainsi que celles effectuées par les modérateurs sur des utilisateurs, comme les bannissements. Vous pouvez les classer par nom d’utilisateur, date, adresse IP ou opération. Si vous en avez les permissions, vous pouvez également effacer intégralement ou individuellement ces opérations.',
 	'ACP_USERS_LOGS_EXPLAIN'    => 'Cette liste vous permet de consulter toutes les opérations qui ont été effectuées par les utilisateurs ou sur des utilisateurs (comme les rapports, les avertissements et les remarques).',
 	'ALL_ENTRIES'               => 'Tous les éléments',
@@ -404,8 +404,8 @@ $lang = array_merge($lang, [
 	'PURGE_CACHE_SUCCESS' => 'La cache a été vidé.',
 
 	'PURGE_SESSIONS'         => 'Vider toutes les sessions',
-	'PURGE_SESSIONS_CONFIRM' => 'Êtes-vous sûr de vouloir vider toutes les sessions ? Tous les utilisateurs seront alors déconnectés.',
-	'PURGE_SESSIONS_EXPLAIN' => 'Toutes les sessions seront vidées. Tous les utilisateurs seront alors déconnectés.',
+	'PURGE_SESSIONS_CONFIRM' => 'Êtes-vous sûr de vouloir vider toutes les sessions ? Tous les utilisateurs seront déconnectés.',
+	'PURGE_SESSIONS_EXPLAIN' => 'Toutes les sessions seront vidées et tous les utilisateurs seront déconnectés.',
 	'PURGE_SESSIONS_SUCCESS' => 'Les sessions ont été vidées.',
 
 	'RESET_DATE'                  => 'Réinitialiser la date d’ouverture du forum',
@@ -431,7 +431,7 @@ $lang = array_merge($lang, [
 	'STATISTIC'                => 'Statistiques',
 	'STATISTIC_RESYNC_OPTIONS' => 'Resynchroniser ou réinitialiser les statistiques',
 
-	'TIMEZONE_INVALID'  => 'Le fuseau horaire que vous avez spécifié est incorrect.',
+	'TIMEZONE_INVALID'  => 'Le fuseau horaire que vous avez spécifié est invalide.',
 	'TIMEZONE_SELECTED' => '(actuellement sélectionné)',
 	'TOPICS_PER_DAY'    => 'Moyenne de sujets par jour',
 
@@ -450,7 +450,7 @@ $lang = array_merge($lang, [
 	'VIEW_INACTIVE_USERS'          => 'Consulter la liste des utilisateurs inactifs',
 
 	'WELCOME_PHPBB'   => 'Bienvenue sur phpBB',
-	'WRITABLE_CONFIG' => 'Votre fichier de configuration (config.php) est actuellement inscriptible par tout le monde. Nous vous encourageons fortement à modifier vos permissions en 640 (<a href="http://fr.wikipedia.org/wiki/Chmod" rel="external">chmod</a> 640 config.php) ou, le cas échéant, en 644.',
+	'WRITABLE_CONFIG' => 'Votre fichier de configuration (config.php) est actuellement inscriptible publiquement. Nous vous encourageons fortement à modifier vos permissions en 640 (<a href="http://fr.wikipedia.org/wiki/Chmod" rel="external">chmod</a> 640 config.php) ou, le cas échéant, en 644.',
 ]);
 
 // Inactive Users
@@ -480,7 +480,7 @@ $lang = array_merge($lang, [
 
 // Help support phpBB page
 $lang = array_merge($lang, [
-	'EXPLAIN_SEND_STATISTICS' => 'Vous pouvez nous soumettre les informations statistiques sur votre serveur et sur la configuration de votre forum. Toutes les informations pouvant vous identifier ou identifier votre site internet ont été supprimées, les données sont entièrement <strong>anonymes</strong>. Nous utilisons ces informations afin de mieux adapter nos décisions sur les futures versions de phpBB. Les statistiques sont rendues publiques. Nous partageons également ces données avec le projet PHP, qui est l’auteur du langage de programmation du même nom, majoritairement utilisé dans phpBB.',
+	'EXPLAIN_SEND_STATISTICS' => 'Vous pouvez nous soumettre des informations statistiques sur votre serveur et sur la configuration de votre forum. Toutes les informations pouvant vous identifier ou identifier votre site internet ont été supprimées, les données sont entièrement <strong>anonymes</strong>. Nous utilisons ces informations afin de mieux adapter nos décisions sur les futures versions de notre logiciel. Les statistiques sont rendues publiques. Nous partageons également ces données avec le projet PHP, qui est l’auteur du langage de programmation du même nom, majoritairement utilisé dans phpBB.',
 	'EXPLAIN_SHOW_STATISTICS' => 'En cliquant sur le bouton ci-dessous, vous pouvez prévisualiser toutes les variables qui nous seront transmises.',
 	'DONT_SEND_STATISTICS'    => 'Revenir au panneau de contrôle d’administration sans envoyer les informations statistiques.',
 	'GO_ACP_MAIN'             => 'Aller sur la page de démarrage du PCA',
@@ -488,29 +488,29 @@ $lang = array_merge($lang, [
 	'SEND_STATISTICS'         => 'Envoyer les statistiques',
 	'SEND_STATISTICS_LONG'    => 'Envoyer les informations statistiques',
 	'SHOW_STATISTICS'         => 'Afficher les informations',
-	'THANKS_SEND_STATISTICS'  => 'Nous vous remercions d’avoir eu l’amabilité d’envoyer vos informations.',
-	'FAIL_SEND_STATISTICS'    => 'Échec de l’envoi des statistiquues',
+	'THANKS_SEND_STATISTICS'  => 'Nous vous remercions d’avoir partagé vos informations.',
+	'FAIL_SEND_STATISTICS'    => 'Une erreur est survenue lors de l’envoi des statistiquues',
 ]);
 
 // Log Entries
 $lang = array_merge($lang, [
-	'LOG_ACL_ADD_USER_GLOBAL_U_'  => '<strong>Ajout ou édition des permissions d’un utilisateur</strong><br />» %s',
-	'LOG_ACL_ADD_GROUP_GLOBAL_U_' => '<strong>Ajout ou édition des permissions d’un groupe d’utilisateurs</strong><br />» %s',
-	'LOG_ACL_ADD_USER_GLOBAL_M_'  => '<strong>Ajout ou édition des permissions des modérateurs généraux</strong><br />» %s',
-	'LOG_ACL_ADD_GROUP_GLOBAL_M_' => '<strong>Ajout ou édition des permissions d’un groupe de modérateurs généraux</strong><br />» %s',
-	'LOG_ACL_ADD_USER_GLOBAL_A_'  => '<strong>Ajout ou édition des permissions d’administrateurs</strong><br />» %s',
-	'LOG_ACL_ADD_GROUP_GLOBAL_A_' => '<strong>Ajout ou édition des permissions d’un groupe d’administrateurs</strong><br />» %s',
+	'LOG_ACL_ADD_USER_GLOBAL_U_'  => '<strong>Ajout ou modification des permissions d’un utilisateur</strong><br />» %s',
+	'LOG_ACL_ADD_GROUP_GLOBAL_U_' => '<strong>Ajout ou modification des permissions d’un groupe d’utilisateurs</strong><br />» %s',
+	'LOG_ACL_ADD_USER_GLOBAL_M_'  => '<strong>Ajout ou modification des permissions des modérateurs généraux</strong><br />» %s',
+	'LOG_ACL_ADD_GROUP_GLOBAL_M_' => '<strong>Ajout ou modification des permissions d’un groupe de modérateurs généraux</strong><br />» %s',
+	'LOG_ACL_ADD_USER_GLOBAL_A_'  => '<strong>Ajout ou modification des permissions d’administrateurs</strong><br />» %s',
+	'LOG_ACL_ADD_GROUP_GLOBAL_A_' => '<strong>Ajout ou modification des permissions d’un groupe d’administrateurs</strong><br />» %s',
 
-	'LOG_ACL_ADD_ADMIN_GLOBAL_A_' => '<strong>Ajout ou édition d’administrateurs</strong><br />» %s',
-	'LOG_ACL_ADD_MOD_GLOBAL_M_'   => '<strong>Ajout ou édition de modérateurs généraux</strong><br />» %s',
+	'LOG_ACL_ADD_ADMIN_GLOBAL_A_' => '<strong>Ajout ou modification d’administrateurs</strong><br />» %s',
+	'LOG_ACL_ADD_MOD_GLOBAL_M_'   => '<strong>Ajout ou modification de modérateurs généraux</strong><br />» %s',
 
-	'LOG_ACL_ADD_USER_LOCAL_F_'  => '<strong>Ajout ou édition de l’accès des utilisateurs à un forum</strong> de %1$s<br />» %2$s',
-	'LOG_ACL_ADD_USER_LOCAL_M_'  => '<strong>Ajout ou édition de l’accès des modérateurs à un forum</strong> de %1$s<br />» %2$s',
-	'LOG_ACL_ADD_GROUP_LOCAL_F_' => '<strong>Ajout ou édition de l’accès des groupes d’utilisateurs à un forum</strong> de %1$s<br />» %2$s',
-	'LOG_ACL_ADD_GROUP_LOCAL_M_' => '<strong>Ajout ou édition de l’accès des groupes de modérateurs à un forum</strong> de %1$s<br />» %2$s',
+	'LOG_ACL_ADD_USER_LOCAL_F_'  => '<strong>Ajout ou modification de l’accès des utilisateurs à un forum</strong> de %1$s<br />» %2$s',
+	'LOG_ACL_ADD_USER_LOCAL_M_'  => '<strong>Ajout ou modification de l’accès des modérateurs à un forum</strong> de %1$s<br />» %2$s',
+	'LOG_ACL_ADD_GROUP_LOCAL_F_' => '<strong>Ajout ou modification de l’accès des groupes d’utilisateurs à un forum</strong> de %1$s<br />» %2$s',
+	'LOG_ACL_ADD_GROUP_LOCAL_M_' => '<strong>Ajout ou modification de l’accès des groupes de modérateurs à un forum</strong> de %1$s<br />» %2$s',
 
-	'LOG_ACL_ADD_MOD_LOCAL_M_'   => '<strong>Ajout ou édition de modérateurs</strong> de %1$s<br />» %2$s',
-	'LOG_ACL_ADD_FORUM_LOCAL_F_' => '<strong>Ajout ou édition des permissions d’un forum</strong> de %1$s<br />» %2$s',
+	'LOG_ACL_ADD_MOD_LOCAL_M_'   => '<strong>Ajout ou modification de modérateurs</strong> de %1$s<br />» %2$s',
+	'LOG_ACL_ADD_FORUM_LOCAL_F_' => '<strong>Ajout ou modification des permissions d’un forum</strong> de %1$s<br />» %2$s',
 
 	'LOG_ACL_DEL_ADMIN_GLOBAL_A_' => '<strong>Suppression d’administrateurs</strong><br />» %s',
 	'LOG_ACL_DEL_MOD_GLOBAL_M_'   => '<strong>Suppression de modérateurs généraux</strong><br />» %s',
@@ -525,11 +525,11 @@ $lang = array_merge($lang, [
 
 	'LOG_ATTACHMENTS_DELETED' => '<strong>Suppression des pièces jointes d’un utilisateur</strong><br />» %s',
 
-	'LOG_ATTACH_EXT_ADD'       => '<strong>Ajout ou édition d’une extension de pièce jointe</strong><br />» %s',
+	'LOG_ATTACH_EXT_ADD'       => '<strong>Ajout ou modification d’une extension de pièce jointe</strong><br />» %s',
 	'LOG_ATTACH_EXT_DEL'       => '<strong>Suppression d’une extension de pièce jointe</strong><br />» %s',
 	'LOG_ATTACH_EXT_UPDATE'    => '<strong>Mise à jour d’une extension de pièce jointe</strong><br />» %s',
 	'LOG_ATTACH_EXTGROUP_ADD'  => '<strong>Ajout d’un groupe d’extensions</strong><br />» %s',
-	'LOG_ATTACH_EXTGROUP_EDIT' => '<strong>Édition d’un groupe d’extensions</strong><br />» %s',
+	'LOG_ATTACH_EXTGROUP_EDIT' => '<strong>Modification d’un groupe d’extensions</strong><br />» %s',
 	'LOG_ATTACH_EXTGROUP_DEL'  => '<strong>Suppression d’un groupe d’extensions</strong><br />» %s',
 	'LOG_ATTACH_FILEUPLOAD'    => '<strong>Transfert d’une pièce jointe orpheline vers un message</strong><br />» ID %1$d - %2$s',
 	'LOG_ATTACH_ORPHAN_DEL'    => '<strong>Suppression d’une pièce jointe orpheline</strong><br />» %s',
@@ -545,7 +545,7 @@ $lang = array_merge($lang, [
 	'LOG_UNBAN_EMAIL'       => '<strong>Débannissement d’une adresse de courriel</strong><br />» %s',
 
 	'LOG_BBCODE_ADD'    => '<strong>Ajout d’un nouveau BBCode</strong><br />» %s',
-	'LOG_BBCODE_EDIT'   => '<strong>Édition d’un BBCode</strong><br />» %s',
+	'LOG_BBCODE_EDIT'   => '<strong>Modification d’un BBCode</strong><br />» %s',
 	'LOG_BBCODE_DELETE' => '<strong>Suppression d’un BBCode</strong><br />» %s',
 
 	'LOG_BOT_ADDED'   => '<strong>Ajout d’un nouveau robot</strong><br />» %s',
@@ -591,7 +591,7 @@ $lang = array_merge($lang, [
 	'LOG_PM_REPORT_DELETED'   => '<strong>Suppression d’un rapport de MP</strong><br />» %s',
 	'LOG_POST_APPROVED'       => '<strong>Approbation d’un message</strong><br />» %s',
 	'LOG_POST_DISAPPROVED'    => '<strong>Désapprobation du message « %1$s » publié par « %3$s » en spécifiant une raison</strong><br />» %2$s',
-	'LOG_POST_EDITED'         => '<strong>Édition du message « %1$s » publié par « %2$s » en spécifiant une raison</strong><br />» %3$s',
+	'LOG_POST_EDITED'         => '<strong>Modification du message « %1$s » publié par « %2$s » en spécifiant une raison</strong><br />» %3$s',
 	'LOG_POST_RESTORED'       => '<strong>Restauration d’un message</strong><br />» %s',
 	'LOG_REPORT_CLOSED'       => '<strong>Fermeture d’un rapport</strong><br />» %s',
 	'LOG_REPORT_DELETED'      => '<strong>Suppression d’un rapport</strong><br />» %s',
@@ -635,7 +635,7 @@ $lang = array_merge($lang, [
 	'LOG_FORUM_DEL_POSTS'                  => '<strong>Suppression d’un forum et de ses messages</strong><br />» %s',
 	'LOG_FORUM_DEL_POSTS_FORUMS'           => '<strong>Suppression d’un forum, de ses messages et de ses sous-forums</strong><br />» %s',
 	'LOG_FORUM_DEL_POSTS_MOVE_FORUMS'      => '<strong>Suppression d’un forum et de ses messages, puis déplacement des sous-forums</strong> vers %1$s<br />» %2$s',
-	'LOG_FORUM_EDIT'                       => '<strong>Édition des informations d’un forum</strong><br />» %s',
+	'LOG_FORUM_EDIT'                       => '<strong>Modification des informations d’un forum</strong><br />» %s',
 	'LOG_FORUM_MOVE_DOWN'                  => '<strong>Déplacement du forum</strong> %1$s <strong>en dessous de</strong> %2$s',
 	'LOG_FORUM_MOVE_UP'                    => '<strong>Déplacement du forum</strong> %1$s <strong>au-dessus de</strong> %2$s',
 	'LOG_FORUM_SYNC'                       => '<strong>Resynchronisation d’un forum</strong><br />» %s',
@@ -685,19 +685,19 @@ $lang = array_merge($lang, [
 	'LOG_MODULE_MOVE_UP'   => '<strong>Rehaussement d’un module</strong><br />» %1$s au-dessus de %2$s',
 	'LOG_MODULE_REMOVED'   => '<strong>Suppression d’un module</strong><br />» %s',
 	'LOG_MODULE_ADD'       => '<strong>Ajout d’un module</strong><br />» %s',
-	'LOG_MODULE_EDIT'      => '<strong>Édition d’un module</strong><br />» %s',
+	'LOG_MODULE_EDIT'      => '<strong>Modification d’un module</strong><br />» %s',
 
 	'LOG_A_ROLE_ADD'     => '<strong>Ajout d’un rôle d’administrateur</strong><br />» %s',
-	'LOG_A_ROLE_EDIT'    => '<strong>Édition d’un rôle d’administrateur</strong><br />» %s',
+	'LOG_A_ROLE_EDIT'    => '<strong>Modification d’un rôle d’administrateur</strong><br />» %s',
 	'LOG_A_ROLE_REMOVED' => '<strong>Suppression d’un rôle d’administrateur</strong><br />» %s',
 	'LOG_F_ROLE_ADD'     => '<strong>Ajout d’un rôle d’un forum</strong><br />» %s',
-	'LOG_F_ROLE_EDIT'    => '<strong>Édition d’un rôle d’un forum</strong><br />» %s',
+	'LOG_F_ROLE_EDIT'    => '<strong>Modification d’un rôle d’un forum</strong><br />» %s',
 	'LOG_F_ROLE_REMOVED' => '<strong>Suppression d’un rôle d’un forum</strong><br />» %s',
 	'LOG_M_ROLE_ADD'     => '<strong>Ajout d’un rôle de modérateur</strong><br />» %s',
-	'LOG_M_ROLE_EDIT'    => '<strong>Édition d’un rôle de modérateur</strong><br />» %s',
+	'LOG_M_ROLE_EDIT'    => '<strong>Modification d’un rôle de modérateur</strong><br />» %s',
 	'LOG_M_ROLE_REMOVED' => '<strong>Suppression d’un rôle de modérateur</strong><br />» %s',
 	'LOG_U_ROLE_ADD'     => '<strong>Ajout d’un rôle d’utilisateur</strong><br />» %s',
-	'LOG_U_ROLE_EDIT'    => '<strong>Édition d’un rôle d’utilisateur</strong><br />» %s',
+	'LOG_U_ROLE_EDIT'    => '<strong>Modification d’un rôle d’utilisateur</strong><br />» %s',
 	'LOG_U_ROLE_REMOVED' => '<strong>Suppression d’un rôle d’utilisateur</strong><br />» %s',
 
 	'LOG_PLUPLOAD_TIDY_FAILED' => '<strong>Le rangement a échoué car il n’a pas été possible d’ouvrir %1$s. Veuillez vérifier les permissions.</strong><br />Exception : %2$s<br />Localisation : %3$s',
@@ -739,7 +739,7 @@ $lang = array_merge($lang, [
 	'LOG_SPHINX_ERROR'         => '<strong>Erreur de Sphinx</strong><br />» %s',
 	'LOG_STYLE_ADD'            => '<strong>Ajout d’un nouveau style</strong><br />» %s',
 	'LOG_STYLE_DELETE'         => '<strong>Suppression d’un style</strong><br />» %s',
-	'LOG_STYLE_EDIT_DETAILS'   => '<strong>Édition d’un style</strong><br />» %s',
+	'LOG_STYLE_EDIT_DETAILS'   => '<strong>Modification d’un style</strong><br />» %s',
 	'LOG_STYLE_EXPORT'         => '<strong>Exportation d’un style</strong><br />» %s',
 
 	// @deprecated 3.1
@@ -748,8 +748,8 @@ $lang = array_merge($lang, [
 	'LOG_TEMPLATE_ADD_FS'        => '<strong>Ajout d’un nouvel ensemble de modèles au système de fichiers</strong><br />» %s',
 	'LOG_TEMPLATE_CACHE_CLEARED' => '<strong>Rafraîchissement de l’ensemble de modèles de <em>%1$s</em></strong><br />» %2$s',
 	'LOG_TEMPLATE_DELETE'        => '<strong>Suppression d’un ensemble de modèles</strong><br />» %s',
-	'LOG_TEMPLATE_EDIT'          => '<strong>Édition de l’ensemble de modèles de <em>%1$s</em></strong><br />» %2$s',
-	'LOG_TEMPLATE_EDIT_DETAILS'  => '<strong>Édition des informations d’un ensemble de modèles</strong><br />» %s',
+	'LOG_TEMPLATE_EDIT'          => '<strong>Modification de l’ensemble de modèles de <em>%1$s</em></strong><br />» %2$s',
+	'LOG_TEMPLATE_EDIT_DETAILS'  => '<strong>Modification des informations d’un ensemble de modèles</strong><br />» %s',
 	'LOG_TEMPLATE_EXPORT'        => '<strong>Exportation d’un ensemble de modèles</strong><br />» %s',
 	// @deprecated 3.1
 	'LOG_TEMPLATE_REFRESHED' => '<strong>Rafraîchissement d’un ensemble de modèles</strong><br />» %s',
@@ -759,9 +759,9 @@ $lang = array_merge($lang, [
 	// @deprecated 3.1
 	'LOG_THEME_ADD_FS'       => '<strong>Ajout d’un nouveau ensemble de thèmes au système de fichiers</strong><br />» %s',
 	'LOG_THEME_DELETE'       => '<strong>Suppression d’un ensemble de thèmes</strong><br />» %s',
-	'LOG_THEME_EDIT_DETAILS' => '<strong>Édition des informations d’un ensemble de thèmes</strong><br />» %s',
-	'LOG_THEME_EDIT'         => '<strong>Édition de l’ensemble de thèmes de <em>%1$s</em></strong>',
-	'LOG_THEME_EDIT_FILE'    => '<strong>Édition de l’ensemble de thèmes de <em>%1$s</em></strong><br />» Le fichier modifié est <em>%2$s</em>',
+	'LOG_THEME_EDIT_DETAILS' => '<strong>Modification des informations d’un ensemble de thèmes</strong><br />» %s',
+	'LOG_THEME_EDIT'         => '<strong>Modification de l’ensemble de thèmes de <em>%1$s</em></strong>',
+	'LOG_THEME_EDIT_FILE'    => '<strong>Modification de l’ensemble de thèmes de <em>%1$s</em></strong><br />» Le fichier modifié est <em>%2$s</em>',
 	'LOG_THEME_EXPORT'       => '<strong>Exportation d’un ensemble de thèmes</strong><br />» %s',
 	// @deprecated 3.1
 	'LOG_THEME_REFRESHED' => '<strong>Rafraîchissement d’un ensemble de thèmes</strong><br />» %s',
@@ -817,7 +817,7 @@ $lang = array_merge($lang, [
 
 	'LOG_WORD_ADD'    => '<strong>Ajout d’une censure de mot</strong><br />» %s',
 	'LOG_WORD_DELETE' => '<strong>Suppression d’une censure de mot</strong><br />» %s',
-	'LOG_WORD_EDIT'   => '<strong>Édition d’une censure de mot</strong><br />» %s',
+	'LOG_WORD_EDIT'   => '<strong>Modification d’une censure de mot</strong><br />» %s',
 
 	'LOG_EXT_ENABLE'  => '<strong>Activation d’une extension</strong><br />» %s',
 	'LOG_EXT_DISABLE' => '<strong>Désactivation d’une extension</strong><br />» %s',

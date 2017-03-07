@@ -134,7 +134,7 @@ $lang = array_merge($lang, [
 	'NO_EXT_GROUP_SPECIFIED' => 'Vous n’avez spécifié aucun groupe d’extensions.',
 	'NO_FILE_CAT'            => 'Aucune',
 	'NO_IMAGE'               => 'Aucune image',
-	'NO_THUMBNAIL_SUPPORT'   => 'Le support des miniatures a été désactivé. Pour que cette fonctionnalité fonctionne correctement, la bibliothèque graphique GD doit être disponible ou ImageMagick doit être installé. Actuellement, les deux sont introuvables.',
+	'NO_THUMBNAIL_SUPPORT'   => 'Les miniatures ne sont pas prises en charge. Pour que cette fonctionnalité fonctionne correctement, la bibliothèque graphique GD doit être disponible ou ImageMagick doit être installé. Actuellement, les deux sont introuvables.',
 	'NO_UPLOAD_DIR'          => 'Le répertoire de transfert que vous avez spécifié n’existe pas.',
 	'NO_WRITE_UPLOAD'        => 'Le répertoire de transfert que vous avez spécifié n’est pas inscriptible. Veuillez modifier les permissions d’écriture du serveur internet.',
 

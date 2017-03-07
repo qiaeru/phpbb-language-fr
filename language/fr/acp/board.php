@@ -342,7 +342,7 @@ $lang = array_merge($lang, [
 	'VISUAL_CONFIRM_REG'             => 'Activer les mesures de lutte contre les soumissions automatisées et intensives lors des inscriptions',
 	'VISUAL_CONFIRM_REG_EXPLAIN'     => 'Les utilisateurs seront invités à compléter des mesures permettant de se prémunir contre les soumissions automatisées et intensives réalisées par des robots malveillants lors de leurs inscriptions.',
 	'VISUAL_CONFIRM_REFRESH'         => 'Autoriser les utilisateurs à rafraîchir les mesures de lutte contre les soumissions automatisées et intensives',
-	'VISUAL_CONFIRM_REFRESH_EXPLAIN' => 'Les utilisateurs, s’ils sont incapables de déchiffrer la mesure actuelle, pourront demander une nouvelle mesure de lutte contre les soumissions automatisées et intensives réalisées par des robots malveillants. Certains modules d’extension peuvent ne pas supporter cette fonctionnalité.',
+	'VISUAL_CONFIRM_REFRESH_EXPLAIN' => 'Les utilisateurs, s’ils sont incapables de déchiffrer la mesure actuelle, pourront demander une nouvelle mesure de lutte contre les soumissions automatisées et intensives réalisées par des robots malveillants. Certains modules d’extension peuvent ne pas prendre en charge cette fonctionnalité.',
 ]);
 
 // Cookie Settings
@@ -582,7 +582,7 @@ $lang = array_merge($lang, [
 	'SMTP_SETTINGS'               => 'Paramètres du protocole SMTP',
 	'SMTP_USERNAME'               => 'Nom d’utilisateur SMTP',
 	'SMTP_USERNAME_EXPLAIN'       => 'Ne saisissez un nom d’utilisateur que si votre serveur SMTP le demande.',
-	'TEST_EMAIL_SENT'             => 'Le courriel de test a été envoyé.<br />Si vous ne le recevez pas, veuillez vérifier votre configuration des courriels.<br /><br />Si vous avez besoin d’aide, veuillez vous rendre sur <a href="https://www.phpbb.com/community/">les forums de support de phpBB</a> (en anglais).',
+	'TEST_EMAIL_SENT'             => 'Le courriel de test a été envoyé.<br />Si vous ne le recevez pas, veuillez vérifier votre configuration des courriels.<br /><br />Si vous avez besoin d’aide, veuillez vous rendre sur <a href="https://www.phpbb.com/community/">les forums d’assistance de phpBB</a> (en anglais).',
 	'USE_SMTP'                    => 'Envoyer les courriels par un serveur SMTP',
 	'USE_SMTP_EXPLAIN'            => 'Activez cette option si vous souhaitez envoyer les courriels par un serveur SMTP au lieu d’utiliser la fonction locale de la messagerie électronique.',
 ]);
