@@ -12,12 +12,6 @@ Includes the following French locales compatible with:
 
 Released under the GNU General Public License 2.0. Please see the [license terms](https://github.com/milescellar/phpbb-language-fr/blob/3.1.x/language/fr/LICENSE).
 
-## Installation
-
-### Manual Installation
-
-Please see [this step-by-step installation guide](https://github.com/milescellar/phpbb-language-fr/wiki/Documentation).
-
 ## Contributing
 
 Thank you a lot to wish to contribute. I sincerely appreciate your commitment. Using the language pack is already a huge support, but best other ways to contribute are:
