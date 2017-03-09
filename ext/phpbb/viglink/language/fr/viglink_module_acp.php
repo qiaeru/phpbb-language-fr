@@ -36,9 +36,9 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, [
-	'ACP_VIGLINK_SETTINGS'         => 'Réglages de VigLink',
+	'ACP_VIGLINK_SETTINGS'         => 'Paramètres de VigLink',
 	'ACP_VIGLINK_SETTINGS_EXPLAIN' => 'VigLink est un service tiers qui permet de monétiser discrètement les liens publiés par les utilisateurs de votre forum sans que cela ait un impact sur leur expérience utilisateur. Lorsque les utilisateurs cliquent sur des liens menant à des produits ou à des services et achètent quelque chose à un marchand partenaire, ce dernier verse à VigLink une commission dont une partie du montant est partagée au projet phpBB. En choisissant d’activer VigLink et en laissant les parts des commissions au projet phpBB, vous aidez considérablement notre organisation de logiciels au code source ouvert et assurez la continuité de notre sécurité financière.',
-	'ACP_VIGLINK_SETTINGS_CHANGE'  => 'Vous pouvez modifier ces réglages à tout moment dans le panneau « <a href="%1$s">Réglages de VigLink</a> ».',
+	'ACP_VIGLINK_SETTINGS_CHANGE'  => 'Vous pouvez modifier ces paramètres à tout moment dans le panneau « <a href="%1$s">Paramètres de VigLink</a> ».',
 	'ACP_VIGLINK_ENABLE'           => 'Activer VigLink',
 	'ACP_VIGLINK_ENABLE_EXPLAIN'   => 'Permet l’utilisation des services de VigLink.',
 	'ACP_VIGLINK_EARNINGS'         => 'Me reverser mes parts des commissions (optionnel)',
