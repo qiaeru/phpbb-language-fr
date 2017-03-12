@@ -127,7 +127,7 @@ $lang = array_merge($lang, [
 	'FORCE_UNSTABLE'                    => 'Toujours vérifier la disponibilité de versions instables',
 	'EXTENSIONS_VERSION_CHECK_SETTINGS' => 'Paramètres de la vérification des mises à jour',
 
-	'BROWSE_EXTENSIONS_DATABASE' => 'Accéder à la base de données des extensions',
+	'BROWSE_EXTENSIONS_DATABASE' => 'Parcourir la base de données des extensions',
 
 	'META_FIELD_NOT_SET' => 'Le méta-champ %s est obligatoire et doit être configuré.',
 	'META_FIELD_INVALID' => 'Le méta-champ %s est invalide.',

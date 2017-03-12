@@ -117,7 +117,7 @@ $lang = array_merge($lang, [
 	'ACP_JABBER_SETTINGS' => 'Paramètres de Jabber',
 
 	'ACP_LANGUAGE'       => 'Gestion des langues',
-	'ACP_LANGUAGE_PACKS' => 'Traductions',
+	'ACP_LANGUAGE_PACKS' => 'Langues',
 	'ACP_LOAD_SETTINGS'  => 'Paramètres de la charge',
 	'ACP_LOGGING'        => 'Connexion',
 
@@ -669,9 +669,9 @@ $lang = array_merge($lang, [
 	'LOG_JAB_REGISTER'         => '<strong>Inscription d’un compte Jabber</strong>',
 	'LOG_JAB_SETTINGS_CHANGED' => '<strong>Modification des paramètres de Jabber</strong>',
 
-	'LOG_LANGUAGE_PACK_DELETED'   => '<strong>Suppression d’une traduction</strong><br />» %s',
-	'LOG_LANGUAGE_PACK_INSTALLED' => '<strong>Installation d’une traduction</strong><br />» %s',
-	'LOG_LANGUAGE_PACK_UPDATED'   => '<strong>Mise à jour des informations d’une traduction</strong><br />» %s',
+	'LOG_LANGUAGE_PACK_DELETED'   => '<strong>Suppression d’une langue</strong><br />» %s',
+	'LOG_LANGUAGE_PACK_INSTALLED' => '<strong>Installation d’une langue</strong><br />» %s',
+	'LOG_LANGUAGE_PACK_UPDATED'   => '<strong>Mise à jour des informations d’une langue</strong><br />» %s',
 	'LOG_LANGUAGE_FILE_REPLACED'  => '<strong>Remplacement d’un fichier de langue</strong><br />» %s',
 	'LOG_LANGUAGE_FILE_SUBMITTED' => '<strong>Envoi et déplacement dans le répertoire de stockage d’un fichier de langue</strong><br />» %s',
 

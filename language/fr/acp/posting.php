@@ -114,9 +114,9 @@ $lang = array_merge($lang, [
 	'EDIT_SMILIES'           => 'Modifier les émoticônes',
 	'EMOTION'                => 'Émotion',
 	'EXPORT_ICONS'           => 'Exporter et télécharger icons.pak',
-	'EXPORT_ICONS_EXPLAIN'   => '%sEn cliquant sur ce lien, la configuration des icônes que vous avez installées sera archivée dans <samp>icons.pak</samp> qui, une fois téléchargé, pourra être utilisé afin de créer un fichier <samp>.zip</samp> ou <samp>.tgz</samp> qui contiendra toutes vos icônes, ainsi que le fichier de configuration <samp>icons.pak</samp>%s.',
+	'EXPORT_ICONS_EXPLAIN'   => '%sEn cliquant sur ce lien, la configuration des icônes installées sera archivée dans <samp>icons.pak</samp> qui, une fois téléchargé, pourra être utilisé afin de créer un fichier <samp>.zip</samp> ou <samp>.tgz</samp> qui contiendra toutes vos icônes, ainsi que le fichier de configuration <samp>icons.pak</samp>%s.',
 	'EXPORT_SMILIES'         => 'Exporter et télécharger smilies.pak',
-	'EXPORT_SMILIES_EXPLAIN' => '%sEn cliquant sur ce lien, la configuration des émoticônes que vous avez installées sera archivée dans <samp>smilies.pak</samp> qui, une fois téléchargé, pourra être utilisé afin de créer un fichier <samp>.zip</samp> ou <samp>.tgz</samp> qui contiendra toutes vos émoticônes, ainsi que le fichier de configuration <samp>smilies.pak</samp>%s.',
+	'EXPORT_SMILIES_EXPLAIN' => '%sEn cliquant sur ce lien, la configuration des émoticônes installées sera archivée dans <samp>smilies.pak</samp> qui, une fois téléchargé, pourra être utilisé afin de créer un fichier <samp>.zip</samp> ou <samp>.tgz</samp> qui contiendra toutes vos émoticônes, ainsi que le fichier de configuration <samp>smilies.pak</samp>%s.',
 
 	'FIRST' => 'Premier',
 
@@ -235,7 +235,7 @@ $lang = array_merge($lang, [
 	'RANK_ADDED'         => 'Le rang a été ajouté.',
 	'RANK_IMAGE'         => 'Image du rang',
 	'RANK_IMAGE_EXPLAIN' => 'Vous permet de définir une petite image à associer au rang. Le chemin est relatif à la racine du répertoire de votre forum.',
-	'RANK_IMAGE_IN_USE'  => '(En cours d’utilisation)',
+	'RANK_IMAGE_IN_USE'  => '(en cours d’utilisation)',
 	'RANK_MINIMUM'       => 'Nombre minimal de messages',
 	'RANK_REMOVED'       => 'Le rang a été supprimé.',
 	'RANK_SPECIAL'       => 'Définir comme rang spécial',
@@ -286,5 +286,5 @@ $lang = array_merge($lang, [
 	'REASON_TITLE_TRANSLATED' => 'Titre de la raison affiché',
 	'REASON_UPDATED'          => 'La raison a été mise à jour.',
 
-	'USED_IN_REPORTS' => 'Nombre d’utilisation',
+	'USED_IN_REPORTS' => 'Nombre d’utilisations',
 ]);

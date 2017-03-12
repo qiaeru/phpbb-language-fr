@@ -40,7 +40,7 @@ $lang = array_merge($lang, [
 		<p>Les permissions sont nombreuses et regroupées en quatre sections majeures :</p>
 
 		<h2>Les permissions générales</h2>
-		<p>Elles sont utilisées afin de contrôler l’accès sur l’ensemble du forum. Elles sont divisées en permissions des utilisateurs, permissions des groupes, permissions des administrateurs et permissions des modérateurs généraux.</p>
+		<p>Elles sont utilisées afin de contrôler l’accès à l’ensemble du forum. Elles sont divisées en permissions des utilisateurs, permissions des groupes, permissions des administrateurs et permissions des modérateurs généraux.</p>
 
 		<h2>Les permissions liées aux forums</h2>
 		<p>Elles sont utilisées afin de contrôler l’accès à chaque forum. Elles sont divisées en permissions des forums, permissions des forums aux modérateurs, permissions des forums aux utilisateurs et permissions des forums aux groupes.</p>
@@ -161,12 +161,12 @@ $lang = array_merge($lang, [
 	'ROLE_ADMIN_FORUM'         => 'Administrateur du forum',
 	'ROLE_ADMIN_FULL'          => 'Administrateur aux pleins pouvoirs',
 	'ROLE_ADMIN_STANDARD'      => 'Administrateur standard',
-	'ROLE_ADMIN_USERGROUP'     => 'Utilisateurs et groupes d’administrateurs',
+	'ROLE_ADMIN_USERGROUP'     => 'Administrateur des utilisateurs et des groupes',
 	'ROLE_FORUM_BOT'           => 'Accès des robots',
-	'ROLE_FORUM_FULL'          => 'Accès illimité',
+	'ROLE_FORUM_FULL'          => 'Accès total',
 	'ROLE_FORUM_LIMITED'       => 'Accès limité',
 	'ROLE_FORUM_LIMITED_POLLS' => 'Accès limité + sondages',
-	'ROLE_FORUM_NOACCESS'      => 'Privé d’accès',
+	'ROLE_FORUM_NOACCESS'      => 'Aucun accès',
 	'ROLE_FORUM_ONQUEUE'       => 'File d’attente de modération',
 	'ROLE_FORUM_POLLS'         => 'Accès standard + sondages',
 	'ROLE_FORUM_READONLY'      => 'Accès en lecture seule',
@@ -191,7 +191,7 @@ $lang = array_merge($lang, [
 	'ROLE_DESCRIPTION_FORUM_FULL'          => 'Peut utiliser toutes les fonctionnalités du forum, dont la publication d’annonces et de notes. Peut également ignorer la limitation de flood.<br />Il n’est pas recommandé d’attribuer ce rôle aux utilisateurs ordinaires.',
 	'ROLE_DESCRIPTION_FORUM_LIMITED'       => 'Peut utiliser certaines fonctionnalités du forum mais ne peut pas transférer de pièces jointes et insérer des icônes aux messages.',
 	'ROLE_DESCRIPTION_FORUM_LIMITED_POLLS' => 'Similaire à l’accès limité, mais peut également créer des sondages.',
-	'ROLE_DESCRIPTION_FORUM_NOACCESS'      => 'Ne peut pas consulter et accéder au forum.',
+	'ROLE_DESCRIPTION_FORUM_NOACCESS'      => 'Ne peut ni consulter ni accéder au forum.',
 	'ROLE_DESCRIPTION_FORUM_ONQUEUE'       => 'Peut utiliser la plupart des fonctionnalités du forum, dont la possibilité de transférer des pièces jointes, mais les messages et les sujets doivent être approuvés par un modérateur avant leur publication.',
 	'ROLE_DESCRIPTION_FORUM_POLLS'         => 'Similaire à l’accès standard, mais peut également créer des sondages.',
 	'ROLE_DESCRIPTION_FORUM_READONLY'      => 'Peut consulter le forum mais ne peut pas créer de nouveaux sujets et répondre aux messages.',
@@ -244,9 +244,9 @@ $lang = array_merge($lang, [
 	'TRACE_GROUP_YES_TOTAL_NO_LOCAL'      => 'Cette permission de groupe concernant ce forum est configurée sur <strong>OUI</strong> ce qui devient la nouvelle valeur totale car elle n’était pas encore définie (configurée sur <strong>NON</strong>).',
 	'TRACE_GROUP_YES_TOTAL_YES'           => 'Cette permission de groupe est configurée sur <strong>OUI</strong> mais la permission totale est déjà configurée sur <strong>OUI</strong>. Le résultat total est donc conservé.',
 	'TRACE_GROUP_YES_TOTAL_YES_LOCAL'     => 'Cette permission de groupe concernant ce forum est configurée sur <strong>OUI</strong> mais la permission totale est déjà configurée sur <strong>OUI</strong>. Le résultat total est donc conservé.',
-	'TRACE_PERMISSION'                    => 'Suivre la permission - %s',
-	'TRACE_RESULT'                        => 'Suivre le résultat',
-	'TRACE_SETTING'                       => 'Suivre le paramètre',
+	'TRACE_PERMISSION'                    => 'Suivi de la permission - %s',
+	'TRACE_RESULT'                        => 'Résultat du suivi',
+	'TRACE_SETTING'                       => 'Paramètre du suivi',
 
 	'TRACE_USER_GLOBAL_YES_TOTAL_YES'    => 'La permission indépendante de l’utilisateur dans ce forum est configurée sur <strong>OUI</strong> mais la permission totale est déjà configurée sur <strong>OUI</strong>. Le résultat total est donc conservé. %sSuivre la permission générale%s',
 	'TRACE_USER_GLOBAL_YES_TOTAL_NEVER'  => 'La permission indépendante de l’utilisateur dans ce le forum est configurée sur <strong>OUI</strong> ce qui écrase l’actuel résultat local <strong>JAMAIS</strong>. %sSuivre la permission générale%s',
@@ -282,5 +282,5 @@ $lang = array_merge($lang, [
 	'VIEW_PERMISSIONS'    => 'Consulter les permissions',
 
 	'WRONG_PERMISSION_TYPE'           => 'Le type de permission que vous avez spécifié est incorrect.',
-	'WRONG_PERMISSION_SETTING_FORMAT' => 'Les paramètres des permissions sont enregistrées dans un mauvais format, phpBB est incapable de les traiter correctement.',
+	'WRONG_PERMISSION_SETTING_FORMAT' => 'Une erreur est survenue lors du traitement des paramètres des permissions car elles sont enregistrés dans un mauvais format.',
 ]);
