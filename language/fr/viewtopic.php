@@ -60,9 +60,9 @@ $lang = array_merge($lang, [
 		2 => 'Dernière modification par %2$s le %3$s, modifié %1$d fois.',
 	],
 	'EMAIL_TOPIC'         => 'Envoyer le sujet par courriel',
-	'ERROR_NO_ATTACHMENT' => 'La pièce jointe n’existe plus.',
+	'ERROR_NO_ATTACHMENT' => 'La pièce jointe est introuvable.',
 
-	'FILE_NOT_FOUND_404' => 'Le fichier <strong>%s</strong> n’existe pas.',
+	'FILE_NOT_FOUND_404' => 'Le fichier <strong>%s</strong> est introuvable.',
 	'FORK_TOPIC'         => 'Copier le sujet',
 	'FULL_EDITOR'        => 'Éditeur avancé et prévisualisation',
 

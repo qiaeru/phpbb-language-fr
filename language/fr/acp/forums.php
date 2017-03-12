@@ -90,7 +90,7 @@ $lang = array_merge($lang, [
 	'FORUM_EDIT_EXPLAIN'             => 'Le formulaire ci-dessous vous permet de personnaliser le forum sélectionné. Veuillez noter que la modération et que les paramètres relatifs aux compteurs de messages sont disponibles depuis les permissions des forums aux utilisateurs et aux groupes d’utilisateurs.',
 	'FORUM_IMAGE'                    => 'Image du forum',
 	'FORUM_IMAGE_EXPLAIN'            => 'L’image associée à ce forum dont l’emplacement est relatif à la racine du répertoire de votre forum.',
-	'FORUM_IMAGE_NO_EXIST'           => 'L’image du forum que vous avez spécifiée n’existe pas',
+	'FORUM_IMAGE_NO_EXIST'           => 'L’image du forum que vous avez spécifiée est introuvable',
 	'FORUM_LINK_EXPLAIN'             => 'Le lien complet (incluant le protocole <samp>http://</samp>) qui redirigera les utilisateurs vers la destination souhaitée, tel que <samp>https://www.phpbb.com/</samp>.',
 	'FORUM_LINK_TRACK'               => 'Afficher le nombre de redirections',
 	'FORUM_LINK_TRACK_EXPLAIN'       => 'Le nombre de redirections effectués à partir du forum-lien seront comptabilisées et affichées.',
@@ -145,7 +145,7 @@ $lang = array_merge($lang, [
 	'NO_PERMISSION_FORUM_DELETE' => 'Vous ne pouvez pas supprimer de forum.',
 
 	'PARENT_IS_LINK_FORUM'    => 'Ce forum parent est un forum-lien et ne peut pas contenir d’autres forums. Veuillez sélectionner une catégorie ou un forum comme forum parent.',
-	'PARENT_NOT_EXIST'        => 'Le parent n’existe pas.',
+	'PARENT_NOT_EXIST'        => 'Le forum parent est introuvable.',
 	'PRUNE_ANNOUNCEMENTS'     => 'Délester les annonces',
 	'PRUNE_STICKY'            => 'Délester les notes',
 	'PRUNE_OLD_POLLS'         => 'Délester les sondages expirés',

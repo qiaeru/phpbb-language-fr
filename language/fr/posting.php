@@ -179,7 +179,7 @@ $lang = array_merge($lang, [
 	'NO_DELETE_POLL_OPTIONS' => 'Vous ne pouvez pas supprimer les options d’un sondage qui existent déjà.',
 	'NO_PM_ICON'             => 'Aucune',
 	'NO_POLL_TITLE'          => 'Vous devez saisir le titre du sondage.',
-	'NO_POST'                => 'Le message que vous souhaitez consulter n’existe pas.',
+	'NO_POST'                => 'Le message que vous souhaitez consulter est introuvable.',
 	'NO_POST_MODE'           => 'Aucun mode de message n’a été sélectionné.',
 	'NO_TEMP_DIR'            => 'Le répertoire temporaire est introuvable ou ne peut pas être écrit.',
 
@@ -210,7 +210,7 @@ $lang = array_merge($lang, [
 	'POSTED_ATTACHMENTS'        => 'Pièces jointes transférées',
 	'POST_APPROVAL_NOTIFY'      => 'Vous recevrez une notification lorsque votre message sera approuvé.',
 	'POST_CONFIRMATION'         => 'Confirmation du message',
-	'POST_CONFIRM_EXPLAIN'      => 'Vous devez saisir un code de confirmation afin de nous permettre de nous prémunir contre les soumissions automatisées et intensives réalisées par des robots malveillants. Le code est affiché dans l’image ci-dessous. Si vous êtes visuellement déficient ou que vous éprouvez des difficultés à lire ce code correctement, veuillez contacter un %sadministrateur du forum%s.',
+	'POST_CONFIRM_EXPLAIN'      => 'Vous devez saisir un code de confirmation afin de nous permettre de nous prémunir contre les soumissions automatisées et intensives réalisées par des robots malveillants. Le code est affiché dans l’image ci-dessous. Si vous éprouvez des difficultés à lire ce code correctement, veuillez contacter un %sadministrateur du forum%s.',
 	'POST_DELETED'              => 'Le message a été supprimé.',
 	'POST_EDITED'               => 'Le message a été modifié.',
 	'POST_EDITED_MOD'           => 'Le message a été modifié mais il doit être approuvé par un modérateur avant de pouvoir être visible publiquement.',

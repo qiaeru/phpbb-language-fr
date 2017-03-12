@@ -36,9 +36,9 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, [
-	'CONFIG_NOT_EXIST' => 'La configuration « %s » n’existe pas.',
+	'CONFIG_NOT_EXIST' => 'La configuration « %s » est introuvable.',
 
-	'GROUP_NOT_EXIST' => 'Le groupe « %s » n’existe pas.',
+	'GROUP_NOT_EXIST' => 'Le groupe « %s » est introuvable.',
 
 	'MIGRATION_APPLY_DEPENDENCIES'    => 'Appliquer les dépendances de %s.',
 	'MIGRATION_DATA_DONE'             => 'Données installées : %1$s ; durée : %2$.2f secondes',
@@ -74,7 +74,7 @@ $lang = array_merge($lang, [
 	'MODULE_NOT_EXIST'           => 'Un module nécessaire est manquant : %s',
 
 	'PARENT_MODULE_FIND_ERROR' => 'Impossible de déterminer l’identifiant du module parent : %s',
-	'PERMISSION_NOT_EXIST'     => 'Le paramètre de permission « %s » n’existe pas.',
+	'PERMISSION_NOT_EXIST'     => 'Le paramètre de permission « %s » est introuvable.',
 
-	'ROLE_NOT_EXIST' => 'Le rôle de permission « %s » n’existe pas.',
+	'ROLE_NOT_EXIST' => 'Le rôle de permission « %s » est introuvable.',
 ]);

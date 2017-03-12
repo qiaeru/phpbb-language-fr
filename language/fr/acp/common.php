@@ -247,7 +247,7 @@ $lang = array_merge($lang, [
 	'CURRENT_VERSION'   => 'Version actuelle',
 
 	'DEACTIVATE'               => 'Désactiver',
-	'DIRECTORY_DOES_NOT_EXIST' => 'Le chemin « %s » que vous avez spécifié n’existe pas.',
+	'DIRECTORY_DOES_NOT_EXIST' => 'Le chemin « %s » que vous avez spécifié est introuvable.',
 	'DIRECTORY_NOT_DIR'        => 'Le chemin « %s » que vous avez spécifié n’est pas un répertoire.',
 	'DIRECTORY_NOT_WRITABLE'   => 'Le chemin « %s » que vous avez spécifié n’est pas inscriptible.',
 	'DISABLE'                  => 'Désactiver',
@@ -290,7 +290,7 @@ $lang = array_merge($lang, [
 	'NOTIFY'               => 'Notification',
 	'NO_ADMIN'             => 'Vous ne pouvez pas administrer ce forum.',
 	'NO_EMAILS_DEFINED'    => 'Aucune adresse de courriel valide n’a été spécifiée.',
-	'NO_FILES_TO_DELETE'   => 'Les pièces jointes que vous souhaitez supprimer n’existent pas.',
+	'NO_FILES_TO_DELETE'   => 'Les pièces jointes que vous souhaitez supprimer sont introuvables.',
 	'NO_PASSWORD_SUPPLIED' => 'Vous devez saisir votre mot de passe afin d’accéder au panneau de contrôle d’administration.',
 
 	'OFF' => 'Désactivé',

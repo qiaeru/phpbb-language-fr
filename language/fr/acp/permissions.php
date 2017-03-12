@@ -216,9 +216,9 @@ $lang = array_merge($lang, [
 	'ROLE_NAME_ALREADY_EXIST'  => 'Un rôle portant le nom de <strong>%s</strong> existe déjà. Veuillez en saisir un autre.',
 	'ROLE_NOT_ASSIGNED'        => 'Le rôle n’a pas encore été attribué.',
 
-	'SELECTED_FORUM_NOT_EXIST'      => 'Le forum que vous avez spécifié n’existe pas.',
-	'SELECTED_GROUP_NOT_EXIST'      => 'Le groupe d’utilisateurs que vous avez spécifié n’existe pas.',
-	'SELECTED_USER_NOT_EXIST'       => 'L’utilisateur que vous avez spécifié n’existe pas.',
+	'SELECTED_FORUM_NOT_EXIST'      => 'Le forum que vous avez spécifié est introuvable.',
+	'SELECTED_GROUP_NOT_EXIST'      => 'Le groupe d’utilisateurs que vous avez spécifié est introuvable.',
+	'SELECTED_USER_NOT_EXIST'       => 'L’utilisateur que vous avez spécifié est introuvable.',
 	'SELECT_FORUM_SUBFORUM_EXPLAIN' => 'Le forum que vous sélectionnez dans la liste déroulante comprendra également tous ses sous-forums.',
 	'SELECT_ROLE'                   => 'Sélectionner un rôle…',
 	'SELECT_TYPE'                   => 'Sélectionner un type',

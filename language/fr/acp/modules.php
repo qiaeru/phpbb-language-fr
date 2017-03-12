@@ -76,7 +76,7 @@ $lang = array_merge($lang, [
 	'NO_PARENT'             => 'Aucun parent',
 
 	'PARENT'          => 'Parent',
-	'PARENT_NO_EXIST' => 'Le parent n’existe pas.',
+	'PARENT_NO_EXIST' => 'Le parent est introuvable.',
 
 	'SELECT_MODULE' => 'Sélectionner un module',
 ]);

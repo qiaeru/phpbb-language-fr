@@ -88,15 +88,15 @@ $lang = array_merge($lang, [
 // Requirements translation
 $lang = array_merge($lang, [
 	// Filesystem requirements
-	'FILE_NOT_EXISTS'                    => 'Le fichier n’existe pas',
-	'FILE_NOT_EXISTS_EXPLAIN'            => 'Le fichier %1$s doit exister afin d’installer phpBB.',
+	'FILE_NOT_EXISTS'                    => 'Le fichier est introuvable',
+	'FILE_NOT_EXISTS_EXPLAIN'            => 'Assurez-vous que le fichier %1$s existe afin d’installer phpBB.',
 	'FILE_NOT_EXISTS_EXPLAIN_OPTIONAL'   => 'Il est recommandé que le fichier %1$s existe afin de bénéficier d’une meilleure expérience utilisateur.',
 	'FILE_NOT_WRITABLE'                  => 'Le fichier ne peut pas être écrit',
 	'FILE_NOT_WRITABLE_EXPLAIN'          => 'Le fichier %1$s doit pouvoir être écrit afin d’installer phpBB.',
 	'FILE_NOT_WRITABLE_EXPLAIN_OPTIONAL' => 'Il est recommandé que le fichier %1$s puisse être écrit afin de bénéficier d’une meilleure expérience utilisateur.',
 
-	'DIRECTORY_NOT_EXISTS'                    => 'Le répertoire n’existe pas',
-	'DIRECTORY_NOT_EXISTS_EXPLAIN'            => 'Le répertoire %1$s doit exister afin d’installer phpBB.',
+	'DIRECTORY_NOT_EXISTS'                    => 'Le répertoire est introuvable',
+	'DIRECTORY_NOT_EXISTS_EXPLAIN'            => 'Assurez-vous que le répertoire %1$s existe afin d’installer phpBB.',
 	'DIRECTORY_NOT_EXISTS_EXPLAIN_OPTIONAL'   => 'Il est recommandé que le répertoire %1$s existe afin de bénéficier d’une meilleure expérience utilisateur.',
 	'DIRECTORY_NOT_WRITABLE'                  => 'Le répertoire ne peut pas être écrit',
 	'DIRECTORY_NOT_WRITABLE_EXPLAIN'          => 'Le répertoire %1$s doit pouvoir être écrit afin d’installer phpBB.',
@@ -423,11 +423,11 @@ $lang = array_merge($lang, [
 	'FILES_CONFLICT'             => 'Fichiers conflictuels',
 	'FILES_CONFLICT_EXPLAIN'     => 'Les fichiers suivants ont été modifiés par rapport aux fichiers originaux présents dans l’ancienne version. Ils ne pourront pas être fusionnés sans provoquer des conflits. Veuillez vérifier ces fichiers afin de détecter et résoudre manuellement les conflits ou continuez le processus de mise à jour en sélectionnant la méthode de fusion souhaitée. Si vous résolvez les conflits manuellement, vérifiez de nouveau les fichiers une fois que les modifications ont été apportées. Vous pouvez également sélectionner pour chaque fichier la méthode de fusion qui vous semble la plus adaptée. La première méthode produira un fichier où les lignes conflictuelles présentes dans votre ancien fichier seront perdues. La seconde méthode ignorera toutes les modifications qui ont été apportées au nouveau fichier.',
 	'FILES_DELETED'              => 'Fichiers supprimés',
-	'FILES_DELETED_EXPLAIN'      => 'Les fichiers suivants n’existent plus dans la nouvelle version. Ces fichiers doivent être supprimés de votre installation.',
+	'FILES_DELETED_EXPLAIN'      => 'Les fichiers suivants ne sont plus présents dans la nouvelle version. Ils doivent être supprimés de votre installation actuelle.',
 	'FILES_MODIFIED'             => 'Fichiers modifiés',
 	'FILES_MODIFIED_EXPLAIN'     => 'Les fichiers suivants ont été modifiés par rapport aux fichiers originaux présents dans l’ancienne version. Le fichier mis à jour correspondra à une fusion de vos modifications et du nouveau fichier.',
 	'FILES_NEW'                  => 'Nouveaux fichiers',
-	'FILES_NEW_EXPLAIN'          => 'Les fichiers suivants n’existent pas dans votre installation actuelle. Ils seront ajoutés à votre installation.',
+	'FILES_NEW_EXPLAIN'          => 'Les fichiers suivants sont introuvables dans votre installation actuelle. Ils seront ajoutés à votre installation.',
 	'FILES_NEW_CONFLICT'         => 'Nouveaux fichiers conflictuels',
 	'FILES_NEW_CONFLICT_EXPLAIN' => 'Les fichiers suivants ont été ajoutés dans la dernière version stable du logiciel, mais certains fichiers du même nom, situés dans le même emplacement, existent déjà. Ils seront écrasés par les nouveaux fichiers.',
 	'FILES_NOT_MODIFIED'         => 'Fichiers inchangés',
@@ -459,7 +459,7 @@ $lang = array_merge($lang, [
 // Converter
 $lang = array_merge($lang, [
 	// Common converter messages
-	'CONVERT_NOT_EXIST'   => 'Le convertisseur spécifié n’existe pas.',
+	'CONVERT_NOT_EXIST'   => 'Le convertisseur que vous avez spécifié est introuvable.',
 	'DEV_NO_TEST_FILE'    => 'Aucune valeur n’a été spécifiée dans le convertisseur concernant la variable test_file. Si vous êtes un utilisateur de ce convertisseur, vous ne devriez pas être en mesure de voir cette erreur. Veuillez rapporter ce message à l’auteur du convertisseur. Si vous êtes l’auteur du convertisseur, vous devez spécifier le nom d’un fichier existant dans le forum source afin de permettre la validation du chemin vers ce dernier.',
 	'COULD_NOT_FIND_PATH' => 'Le chemin menant à votre ancien forum est introuvable. Veuillez vérifier vos paramètres et réessayer.<br />» %s a été spécifié en tant que chemin source.',
 	'CONFIG_PHPBB_EMPTY'  => 'La variable de configuration « %s » de phpBB 3.3 est vide.',
