@@ -351,7 +351,7 @@ $lang = array_merge($lang, [
 		<h1>Mettre à jour votre installation avec l’archive de mise à jour automatique</h1>
 		<p>Cette méthode n’est valable que pour l’archive de mise à jour automatique. Vous pouvez également mettre à jour votre installation en utilisant les méthodes alternatives listées dans le document INSTALL.html. Les étapes de mise à jour automatique de phpBB 3.3 sont :</p>
 		<ul style="margin-left: 20px; font-size: 1.1em;">
-			<li>Rendez-vous sur <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">la page des téléchargements de phpBB.com</a> (en anglais) et téléchargez l’archive de mise à jour automatique.<br /><br /></li>
+			<li>Accédez à <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">la page des téléchargements de phpBB.com</a> (en anglais) et téléchargez l’archive de mise à jour automatique.<br /><br /></li>
 			<li>Décompressez l’archive.<br /><br /></li>
 			<li>Transférez les répertoires décompressés « install » et « vendor » à la racine du répertoire de votre forum, où se trouve le fichier « config.php ».<br /><br /></li>
 		</ul>
@@ -562,5 +562,5 @@ $lang = array_merge($lang, [
 	'CONV_OPTIONS_BODY'              => 'Cette page collecte les données requises pour accéder au forum source. Veuillez saisir les informations sur la base de données de votre ancien forum. Le convertisseur ne modifiera rien dans la base de données affichée ci-dessous. Le forum source devrait être désactivé pour permettre une conversion complète.',
 	'CONV_SAVED_MESSAGES'            => 'Messages sauvegardés',
 
-	'PRE_CONVERT_COMPLETE' => 'Toutes les étapes de préconversion sont terminées. Vous pouvez à présent commencer le processus de conversion actuel. Veuillez notez que vous pourrez être amené à saisir et à effectuer manuellement quelques opérations. Après la conversion, vérifiez en particulier les permissions assignées, reconstruisez votre index de recherche qui ne sera pas converti et assurez-vous que les fichiers ont été correctement copiés, comme par exemple les avatars et les émoticônes.',
+	'PRE_CONVERT_COMPLETE' => 'Toutes les étapes de préconversion sont terminées. Vous pouvez à présent commencer le processus de conversion actuel. Veuillez noter que vous pourrez être amené à saisir et à effectuer manuellement quelques opérations. Après la conversion, vérifiez en particulier les permissions assignées, reconstruisez votre index de recherche qui ne sera pas converti et assurez-vous que les fichiers ont été correctement copiés, comme par exemple les avatars et les émoticônes.',
 ]);
