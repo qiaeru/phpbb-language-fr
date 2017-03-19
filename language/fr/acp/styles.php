@@ -80,6 +80,7 @@ $lang = array_merge($lang, array(
 	'STYLE_UNINSTALL_DEPENDENT'                 => 'Le style « %s » ne peut pas être désinstallé car un ou plusieurs styles sont dépendants de ce dernier.',
 	'STYLE_UNINSTALLED'                         => 'Le style « %s » a été désinstallé.',
 	'STYLE_USED_BY'                             => 'Utilisé par (inclut les robots)',
+	'STYLE_VERSION'                             => 'Version du style',
 
 	'UNINSTALL_DEFAULT' => 'Vous ne pouvez pas désinstaller le style par défaut.',
 
