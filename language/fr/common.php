@@ -176,6 +176,7 @@ $lang = array_merge($lang, [
 	'COOKIE_CONSENT_INFO'   => 'En savoir plus…',
 	'COOKIE_CONSENT_MSG'    => 'En poursuivant votre navigation sur ce site, vous acceptez l’utilisation de cookies vous permettant de bénéficier d’une expérience de navigation optimale.',
 	'COOKIE_CONSENT_OK'     => 'J’accepte',
+	'COOKIE_CONSENT_HREF'   => 'http://cookies.insites.com',
 	'COOKIES_DELETED'       => 'Les cookies du forum ont été supprimés.',
 	'CURRENT_TIME'          => 'Nous sommes actuellement le %s',
 

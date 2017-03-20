@@ -92,7 +92,7 @@ $lang = array_merge($lang, [
 	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_CACHE'     => 'Exécuter la commande en ne vérifiant que les versions mises en cache.',
 	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_STABILITY' => 'Exécuter la commande en ne vérifiant que les versions stables ou instables.',
 
-	'CLI_ERROR_INVALID_STABILITY' => '« %s » n’est pas un statut de stabilité valide.',
+	'CLI_ERROR_INVALID_STABILITY' => '« %s » doit être paramétré sur « stable » ou « instable ».',
 
 	'CLI_DESCRIPTION_USER_ACTIVATE'            => 'Activer (ou désactiver) le compte d’un utilisateur.',
 	'CLI_DESCRIPTION_USER_ACTIVATE_USERNAME'   => 'Nom d’utilisateur du compte à activer.',
@@ -111,8 +111,10 @@ $lang = array_merge($lang, [
 
 	'CLI_EXTENSION_DISABLE_FAILURE' => 'Impossible de désactiver l’extension %s',
 	'CLI_EXTENSION_DISABLE_SUCCESS' => 'L’extension %s a été désactivée',
+	'CLI_EXTENSION_DISABLED'        => 'L’extension %s n’est pas activée',
 	'CLI_EXTENSION_ENABLE_FAILURE'  => 'Impossible d’activer l’extension %s',
 	'CLI_EXTENSION_ENABLE_SUCCESS'  => 'L’extension %s a été activée',
+	'CLI_EXTENSION_ENABLED'         => 'L’extension %s est déjà activée',
 	'CLI_EXTENSION_NAME'            => 'Nom de l’extension',
 	'CLI_EXTENSION_PURGE_FAILURE'   => 'Impossible de purger l’extension %s',
 	'CLI_EXTENSION_PURGE_SUCCESS'   => 'L’extension %s a été purgée',
@@ -120,8 +122,8 @@ $lang = array_merge($lang, [
 	'CLI_EXTENSION_UPDATE_SUCCESS'  => 'L’extension %s a été mise à jour',
 	'CLI_EXTENSION_NOT_FOUND'       => 'Aucune extension.',
 	'CLI_EXTENSIONS_AVAILABLE'      => 'Disponible',
-	'CLI_EXTENSIONS_DISABLED'       => 'Désactivé',
-	'CLI_EXTENSIONS_ENABLED'        => 'Activé',
+	'CLI_EXTENSIONS_DISABLED'       => 'Désactivée',
+	'CLI_EXTENSIONS_ENABLED'        => 'Activée',
 
 	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS' => 'Tous les hachages des courriels ont été recalculés.',
 
