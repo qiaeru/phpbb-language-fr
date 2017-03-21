@@ -240,9 +240,9 @@ $lang = array_merge($lang, [
 	'SMILIES'                    => 'Émoticônes',
 	'SMILIES_ARE_OFF'            => 'Les émoticônes sont <em>désactivées</em>',
 	'SMILIES_ARE_ON'             => 'Les émoticônes sont <em>activées</em>',
-	'STICKY_ANNOUNCE_TIME_LIMIT' => 'Durée limite de la note/annonce',
+	'STICKY_ANNOUNCE_TIME_LIMIT' => 'Durée limite de la note, annonce ou annonce générale',
 	'STICK_TOPIC_FOR'            => 'Durée limite de la note',
-	'STICK_TOPIC_FOR_EXPLAIN'    => 'Laissez cette valeur à 0 si vous ne souhaitez pas que la note ou l’annonce expire et se transforme en sujet normal. Veuillez noter que le nombre de jours est relatif à la date de publication du message.',
+	'STICK_TOPIC_FOR_EXPLAIN'    => 'Laissez cette valeur à 0 si vous ne souhaitez pas que la note, l’annonce ou l’annonce générale expire et se transforme en sujet normal. Veuillez noter que le nombre de jours est relatif à la date de publication du message.',
 	'STYLES_TIP'                 => 'Astuce : les mises en forme peuvent rapidement être appliquées en sélectionnant le texte.',
 
 	'TOO_FEW_CHARS'         => 'Votre message ne contient pas assez de caractères.',
