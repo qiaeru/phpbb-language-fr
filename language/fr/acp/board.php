@@ -590,8 +590,8 @@ $lang = array_merge($lang, [
 	'SMTP_VERIFY_PEER_NAME_EXPLAIN'  => 'Force la vérification du nom de pair des serveurs SMTP qui utilisent des connexions SSL/TLS. <em><strong>Attention :</strong> la connexion à des pairs qui ne sont pas vérifiés peut avoir des implications sur la sécurité.</em>',
 	'TEST_EMAIL_SENT'                => 'Le courriel de test a été envoyé.<br />Si vous ne le recevez pas, veuillez vérifier votre configuration des courriels.<br /><br />Si vous avez besoin d’aide, veuillez vous rendre sur <a href="https://www.phpbb.com/community/">les forums de support de phpBB</a> (en anglais).',
 
-	'USE_SMTP'                    => 'Envoyer les courriels par un serveur SMTP',
-	'USE_SMTP_EXPLAIN'            => 'Activez cette option si vous souhaitez envoyer les courriels par un serveur SMTP au lieu d’utiliser la fonction locale de la messagerie électronique.',
+	'USE_SMTP'         => 'Envoyer les courriels par un serveur SMTP',
+	'USE_SMTP_EXPLAIN' => 'Activez cette option si vous souhaitez envoyer les courriels par un serveur SMTP au lieu d’utiliser la fonction locale de la messagerie électronique.',
 ]);
 
 // Jabber settings
