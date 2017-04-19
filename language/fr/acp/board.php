@@ -347,13 +347,16 @@ $lang = array_merge($lang, [
 
 // Cookie Settings
 $lang = array_merge($lang, [
-	'ACP_COOKIE_SETTINGS_EXPLAIN' => 'Les informations de cette page permettent de définir les données qui seront utilisées afin d’envoyer des cookies au navigateur internet de vos utilisateurs. Dans la plupart des cas, les valeurs par défaut sont suffisantes. Si vous avez besoin de les modifier, faites-le avec précaution, une mauvaise configuration peut empêcher les utilisateurs de se connecter à votre forum.',
+	'ACP_COOKIE_SETTINGS_EXPLAIN' => 'Les informations de cette page permettent de définir les données qui seront utilisées afin d’envoyer des cookies au navigateur internet de vos utilisateurs. Dans la plupart des cas, les valeurs par défaut sont suffisantes. Si vous avez besoin de les modifier, faites-le avec précaution, une mauvaise configuration peut empêcher les utilisateurs de se connecter à votre forum. Si vous rencontrez des problèmes d’utilisateurs qui restent constamment connectés à votre forum, veuillez consulter l’article <b><a href="https://www.phpbb.com/support/go/cookie-settings/">Corriger des paramètres incorrects de cookies</a></b> (en anglais) de la base de connaissances de phpBB.com.',
 
 	'COOKIE_DOMAIN'          => 'Domaine du cookie',
+	'COOKIE_DOMAIN_EXPLAIN'  => 'Dans la plupart des cas, le domaine du cookie est facultatif. Laissez ce champ vide si vous avez des doutes.<br /><br />Cependant, dans le cas où votre forum est intégré à un autre logiciel ou est hébergé sur plusieurs domaines, vous devrez alors déterminer le domaine du cookie. Si vous avez quelque chose comme <i>exemple.com</i> et <i>forums.exemple.com</i>, ou encore <i>forums.exemple.com</i> et <i>blog.exemple.com</i>, supprimez les sous-domaines pour ne conserver que le domaine commun, <i>exemple.com</i>. Il vous suffit alors d’ajouter un point avant ce domaine commun, et le domaine du cookie ressemblera alors à .exemple.com (notez le point au début).',
 	'COOKIE_NAME'            => 'Nom du cookie',
+	'COOKIE_NAME_EXPLAIN'    => 'Le choix du nom est entièrement libre, essayez d’être original. À chaque fois que les paramètres du cookie sont modifiés, il est recommandé de modifier également le nom du cookie.',
 	'COOKIE_NOTICE'          => 'Information sur les cookies',
 	'COOKIE_NOTICE_EXPLAIN'  => 'Si cette option est activée, une information concernant l’utilisation des cookies sera affichée aux utilisateurs lors de leur navigation sur votre forum. Cette information est une obligation légale dans certains pays, selon le contenu et les extensions activées sur votre forum.',
 	'COOKIE_PATH'            => 'Chemin du cookie',
+	'COOKIE_PATH_EXPLAIN'    => 'Le chemin est toujours une barre oblique, peu importe l’adresse de votre forum.',
 	'COOKIE_SECURE'          => 'Cookie sécurisé',
 	'COOKIE_SECURE_EXPLAIN'  => 'Si votre serveur est sécurisé avec un certificat SSL, vous devez activer cette option. Si vous activez cette option alors que votre serveur n’est pas sécurisé avec un certificat SSL, il est probable que des erreurs surviennent lors des redirections.',
 	'ONLINE_LENGTH'          => 'Durée d’apparition dans la liste des utilisateurs en ligne',

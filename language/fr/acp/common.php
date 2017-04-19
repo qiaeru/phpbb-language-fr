@@ -366,7 +366,7 @@ $lang = array_merge($lang, [
 	'AVATAR_DIR_SIZE'         => 'Taille du répertoire des avatars',
 
 	'BOARD_STARTED' => 'Date d’ouverture du forum',
-	'BOARD_VERSION' => 'Version du forum',
+	'BOARD_VERSION' => 'phpBB',
 
 	'DATABASE_SERVER_INFO' => 'Serveur de la base de données',
 	'DATABASE_SIZE'        => 'Taille de la base de données',
@@ -394,6 +394,7 @@ $lang = array_merge($lang, [
 	'NUMBER_USERS'    => 'Nombre d’utilisateurs',
 	'NUMBER_ORPHAN'   => 'Nombre de pièces jointes orphelines',
 
+	'PHP_VERSION'     => 'PHP',
 	'PHP_VERSION_OLD' => 'La version de PHP de ce serveur (%1$s) ne sera plus compatible avec les futures versions de phpBB. La version minimale requise sera PHP %2$s. %3$sEn savoir plus…%4$s',
 
 	'POSTS_PER_DAY' => 'Moyenne de messages par jour',
@@ -427,6 +428,10 @@ $lang = array_merge($lang, [
 	'RESYNC_STATS_EXPLAIN'        => 'Les statistiques sur le nombre total de messages, de sujets, d’utilisateurs et de fichiers seront recomptabilisées.',
 	'RESYNC_STATS_SUCCESS'        => 'Les statistiques ont été resynchronisées',
 	'RUN'                         => 'Exécuter maintenant',
+
+	'SOFTWARE_HEADING' => 'Logiciel installé',
+	'SOFTWARE_PRODUCT' => 'Produit',
+	'SOFTWARE_VERSION' => 'Version',
 
 	'STATISTIC'                => 'Statistiques',
 	'STATISTIC_RESYNC_OPTIONS' => 'Resynchroniser ou réinitialiser les statistiques',
