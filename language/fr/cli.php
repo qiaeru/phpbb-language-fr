@@ -158,6 +158,18 @@ $lang = array_merge($lang, [
 		1 => 'Renettoyage terminé. %d nom d’utilisateur a été nettoyé.',
 		2 => 'Renettoyage terminé. %d noms d’utilisateurs ont été nettoyés.',
 	],
+
+	'CLI_DESCRIPTION_EXTENSION_MANAGE'                => 'Gérer une extension',
+	'CLI_DESCRIPTION_EXTENSION_MANAGE_ARGUMENT'       => 'Extension à gérer',
+	'CLI_DESCRIPTION_EXTENSION_INSTALL'               => 'Installer les extensions spécifiées.',
+	'CLI_DESCRIPTION_EXTENSION_INSTALL_OPTION_ENABLE' => 'Activer les extensions après leur installation',
+	'CLI_DESCRIPTION_EXTENSION_INSTALL_ARGUMENT'      => 'Extensions à installer, telle que « vendor/package »',
+	'CLI_DESCRIPTION_EXTENSION_LIST_AVAILABLE'        => 'Lister les extensions disponibles à l’installation.',
+	'CLI_DESCRIPTION_EXTENSION_REMOVE'                => 'Supprimer les extensions spécifiées.',
+	'CLI_DESCRIPTION_EXTENSION_REMOVE_OPTION_PURGE'   => 'Purger les extensions lors de leur suppression',
+	'CLI_DESCRIPTION_EXTENSION_REMOVE_ARGUMENT'       => 'Extensions à supprimer, telle que « vendor/package »',
+	'CLI_DESCRIPTION_EXTENSION_UPDATE'                => 'Mettre à jour les extensions spécifiées.',
+	'CLI_DESCRIPTION_EXTENSION_UPDATE_ARGUMENT'       => 'Extensions à mettre à jour, telle que « vendor/package »',
 ]);
 
 // Additional help for commands.

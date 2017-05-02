@@ -87,6 +87,11 @@ $lang = array_merge($lang, [
 	'ACP_EXTENSION_GROUPS'     => 'Gérer les groupes d’extensions des pièces jointes',
 	'ACP_EXTENSION_MANAGEMENT' => 'Gestion des extensions',
 	'ACP_EXTENSIONS'           => 'Gérer les extensions',
+	'ACP_EXTENSIONS_CATALOG'   => 'Catalogue d’extensions',
+	'ACP_EXTENSIONS_INSTALL'   => 'Installer des extensions',
+	'ACP_EXTENSIONS_REMOVE'    => 'Supprimer des extensions',
+	'ACP_EXTENSIONS_UPDATE'    => 'Mettre à jour des extensions',
+	'ACP_EXTENSIONS_MANAGE'    => 'Gérer l’extension automatiquement',
 
 	'ACP_FORUM_BASED_PERMISSIONS' => 'Permissions liées aux forums',
 	'ACP_FORUM_LOGS'              => 'Historique du forum',
@@ -238,7 +243,18 @@ $lang = array_merge($lang, [
 	'CONTAINER_EXCEPTION' => 'Une erreur est survenue lors de la construction du conteneur en raison d’une extension installée. Par mesure de sécurité, toutes les extensions ont été temporairement désactivées. Veuillez essayer de vider le cache de votre forum. Toutes les extensions seront automatiquement réactivées lorsque cette erreur de conteneur sera corrigée. Si cette erreur persiste, veuillez demander une assistance sur <a href="https://www.phpbb.com/support">phpBB.com</a> (en anglais).',
 	'EXCEPTION'           => 'Exception',
 
-	'COLOUR_SWATCH'     => 'Palette de couleurs internet',
+	'COLOUR_SWATCH' => 'Palette de couleurs internet',
+
+	'COMPOSER_UNSUPPORTED_OPERATION'  => 'Opération non supportée pour le type de paquet « %s ».',
+	'COMPOSER_UPDATING_DEPENDENCIES'  => 'Mise à jour des paquets',
+	'COMPOSER_LOADING_REPOSITORIES'   => 'Chargement des dépôts distants avec les informations sur les paquets',
+	'COMPOSER_ERROR_CONFLICT'         => 'Vos prérequis n’ont pas pu être réglés à un ensemble de paquets installable.',
+	'COMPOSER_REPOSITORY_UNAVAILABLE' => 'Une erreur est survenue lors de la récupération du dépôt « %s ».',
+	'COMPOSER_INSTALLING_PACKAGE'     => '  - Installation de %1$s (%2$s)',
+	'COMPOSER_DELETING'               => '  - Suppression de %s',
+	'COMPOSER_UPDATE_NOTHING'         => 'Aucune mise à jour disponible',
+	'COMPOSER_OUTPUT'                 => 'Commandes de Composer',
+
 	'CONFIG_UPDATED'    => 'La configuration a été mise à jour.',
 	'CRON_LOCK_ERROR'   => 'Impossible d’obtenir le verrouillage de cron.',
 	'CRON_NO_SUCH_TASK' => 'La tâche cron « %s » est introuvable.',
@@ -366,7 +382,7 @@ $lang = array_merge($lang, [
 	'AVATAR_DIR_SIZE'         => 'Taille du répertoire des avatars',
 
 	'BOARD_STARTED' => 'Date d’ouverture du forum',
-	'BOARD_VERSION' => 'phpBB',
+	'BOARD_VERSION' => 'Version du forum',
 
 	'DATABASE_SERVER_INFO' => 'Serveur de la base de données',
 	'DATABASE_SIZE'        => 'Taille de la base de données',
@@ -394,7 +410,7 @@ $lang = array_merge($lang, [
 	'NUMBER_USERS'    => 'Nombre d’utilisateurs',
 	'NUMBER_ORPHAN'   => 'Nombre de pièces jointes orphelines',
 
-	'PHP_VERSION'     => 'PHP',
+	'PHP_VERSION'     => 'Version de PHP',
 	'PHP_VERSION_OLD' => 'La version de PHP de ce serveur (%1$s) ne sera plus compatible avec les futures versions de phpBB. La version minimale requise sera PHP %2$s. %3$sEn savoir plus…%4$s',
 
 	'POSTS_PER_DAY' => 'Moyenne de messages par jour',
@@ -428,10 +444,6 @@ $lang = array_merge($lang, [
 	'RESYNC_STATS_EXPLAIN'        => 'Les statistiques sur le nombre total de messages, de sujets, d’utilisateurs et de fichiers seront recomptabilisées.',
 	'RESYNC_STATS_SUCCESS'        => 'Les statistiques ont été resynchronisées',
 	'RUN'                         => 'Exécuter maintenant',
-
-	'SOFTWARE_HEADING' => 'Logiciel installé',
-	'SOFTWARE_PRODUCT' => 'Produit',
-	'SOFTWARE_VERSION' => 'Version',
 
 	'STATISTIC'                => 'Statistiques',
 	'STATISTIC_RESYNC_OPTIONS' => 'Resynchroniser ou réinitialiser les statistiques',

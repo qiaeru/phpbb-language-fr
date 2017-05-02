@@ -148,6 +148,7 @@ $lang = array_merge($lang, [
 	'BYTES_SHORT'         => 'o',
 
 	'CANCEL'               => 'Annuler',
+	'CANNOT_RENAME_FILE'   => 'Impossible de renommer « %s »',
 	'CHANGE'               => 'Modifier',
 	'CHANGE_FONT_SIZE'     => 'Modifier la taille de la police de caractères',
 	'CHANGING_PREFERENCES' => 'Modifie les préférences du forum',
