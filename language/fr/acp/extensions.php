@@ -170,11 +170,11 @@ $lang = array_merge($lang, [
 	'EXTENSIONS_CATALOG_NOT_AVAILABLE' => 'Le catalogue d’extensions n’est pas disponible',
 	'EXTENSIONS_COMPOSER_NOT_WRITABLE' => 'Pour utiliser le catalogue, les droits d’accès aux fichiers et aux répertoires devraient être modifiées pour écriture : « ext/ », « vendor-ext/ », « composer-ext.json » et « composer-ext.lock ».',
 
-	'STABILITY_STABLE'	=> 'stable',
-	'STABILITY_RC'		=> 'RC',
-	'STABILITY_BETA'	=> 'beta',
-	'STABILITY_ALPHA'	=> 'alpha',
-	'STABILITY_DEV'		=> 'dev',
+	'STABILITY_STABLE' => 'stable',
+	'STABILITY_RC'     => 'RC',
+	'STABILITY_BETA'   => 'bêta',
+	'STABILITY_ALPHA'  => 'alpha',
+	'STABILITY_DEV'    => 'dev',
 
 	'COMPOSER_MINIMUM_STABILITY'         => 'Stabilité minimale',
 	'COMPOSER_MINIMUM_STABILITY_EXPLAIN' => 'Il est recommandé d’utiliser les versions <samp>stable</samp> sur un forum en ligne. Les versions instables peuvent être en cours de développement et provoquer des erreurs inattendues à votre forum. Elles devraient donc être limitées à une utilisation en local par des développeurs.',
