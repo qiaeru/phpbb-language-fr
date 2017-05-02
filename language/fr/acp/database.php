@@ -54,7 +54,7 @@ $lang = array_merge($lang, [
 	'DOWNLOAD_BACKUP'        => 'Télécharger la sauvegarde',
 
 	'FILE_TYPE'       => 'Type de fichier',
-	'FILE_WRITE_FAIL' => 'Une erreur est survenue lors de l’écriture du fichier dans le répertoire de stockage.',
+	'FILE_WRITE_FAIL' => 'Le répertoire de stockage est en lecture seule. Veuillez modifier les droits d’accès.',
 	'FULL_BACKUP'     => 'Complète',
 
 	'RESTORE_FAILURE'         => 'Le fichier de sauvegarde semble corrompu.',

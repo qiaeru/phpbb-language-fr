@@ -91,16 +91,16 @@ $lang = array_merge($lang, [
 	'FILE_NOT_EXISTS'                    => 'Le fichier est introuvable',
 	'FILE_NOT_EXISTS_EXPLAIN'            => 'Assurez-vous que le fichier %1$s existe afin d’installer phpBB.',
 	'FILE_NOT_EXISTS_EXPLAIN_OPTIONAL'   => 'Il est recommandé que le fichier %1$s existe afin de bénéficier d’une meilleure expérience utilisateur.',
-	'FILE_NOT_WRITABLE'                  => 'Le fichier ne peut pas être écrit',
-	'FILE_NOT_WRITABLE_EXPLAIN'          => 'Le fichier %1$s doit pouvoir être écrit afin d’installer phpBB.',
-	'FILE_NOT_WRITABLE_EXPLAIN_OPTIONAL' => 'Il est recommandé que le fichier %1$s puisse être écrit afin de bénéficier d’une meilleure expérience utilisateur.',
+	'FILE_NOT_WRITABLE'                  => 'Le fichier est en lecture seule',
+	'FILE_NOT_WRITABLE_EXPLAIN'          => 'Les droits d’accès du fichier %1$s doivent être modifiés pour écriture afin d’installer phpBB.',
+	'FILE_NOT_WRITABLE_EXPLAIN_OPTIONAL' => 'Il est recommandé de modifier les droits d’accès du fichier %1$s pour écriture afin de bénéficier d’une meilleure expérience utilisateur.',
 
 	'DIRECTORY_NOT_EXISTS'                    => 'Le répertoire est introuvable',
 	'DIRECTORY_NOT_EXISTS_EXPLAIN'            => 'Assurez-vous que le répertoire %1$s existe afin d’installer phpBB.',
 	'DIRECTORY_NOT_EXISTS_EXPLAIN_OPTIONAL'   => 'Il est recommandé que le répertoire %1$s existe afin de bénéficier d’une meilleure expérience utilisateur.',
-	'DIRECTORY_NOT_WRITABLE'                  => 'Le répertoire ne peut pas être écrit',
-	'DIRECTORY_NOT_WRITABLE_EXPLAIN'          => 'Le répertoire %1$s doit pouvoir être écrit afin d’installer phpBB.',
-	'DIRECTORY_NOT_WRITABLE_EXPLAIN_OPTIONAL' => 'Il est recommandé que le répertoire %1$s puisse être écrit afin de bénéficier d’une meilleure expérience utilisateur.',
+	'DIRECTORY_NOT_WRITABLE'                  => 'Le répertoire est en lecture seule',
+	'DIRECTORY_NOT_WRITABLE_EXPLAIN'          => 'Les droits d’accès du répertoire %1$s doivent être modifiés pour écriture afin d’installer phpBB.',
+	'DIRECTORY_NOT_WRITABLE_EXPLAIN_OPTIONAL' => 'Il est recommandé de modifier les droits d’accès du répertoire %1$s pour écriture afin de bénéficier d’une meilleure expérience utilisateur.',
 
 	// Server requirements
 	'PHP_VERSION_REQD'                 => 'Version de PHP',
@@ -204,7 +204,7 @@ $lang = array_merge($lang, [
 	'INST_ERR_DB_NO_SQLITE3'        => 'La version de l’extension SQLite installée sur votre serveur est obsolète. Elle doit être mise à jour vers la version 3.6.15 ou supérieure.',
 	'INST_ERR_DB_NO_ORACLE'         => 'La version d’Oracle installée sur votre serveur nécessite de définir <var>NLS_CHARACTERSET</var> sur <var>UTF8</var>. Veuillez modifier cette configuration ou mettre à jour votre version vers la version 9.2 ou supérieure.',
 	'INST_ERR_DB_NO_POSTGRES'       => 'La base de données sélectionnée n’est pas encodée en <var>UNICODE</var> ou en <var>UTF8</var>. Veuillez sélectionner une base de données prenant en charge au moins un de ces encodages.',
-	'INST_SCHEMA_FILE_NOT_WRITABLE' => 'Le fichier du schéma de votre base de données ne peut pas être écrit',
+	'INST_SCHEMA_FILE_NOT_WRITABLE' => 'Le fichier du schéma de votre base de données est en lecture seule',
 
 	//
 	// Email data
@@ -324,7 +324,7 @@ $lang = array_merge($lang, [
 	'TASK_SERVICE_INSTALLER_MISSING' => 'Tous les services de tâches du programme d’installation doivent commencer par « installer »',
 	'TASK_CLASS_NOT_FOUND'           => 'La définition du service de tâches du programme d’installation est invalide. Le nom de service « %1$s » a été spécifié alors que l’espace de nom de classe attendu est « %2$s ». Pour plus d’informations, veuillez consulter la documentation sur task_interface.',
 
-	'INSTALLER_CONFIG_NOT_WRITABLE' => 'Le fichier de configuration de l’assistant d’installation ne peut pas être écrit.',
+	'INSTALLER_CONFIG_NOT_WRITABLE' => 'Le fichier de configuration de l’assistant d’installation est en lecture seule.',
 ]);
 
 // CLI messages
@@ -464,8 +464,8 @@ $lang = array_merge($lang, [
 	'COULD_NOT_FIND_PATH' => 'Le chemin menant à votre ancien forum est introuvable. Veuillez vérifier vos paramètres et réessayer.<br />» %s a été spécifié en tant que chemin source.',
 	'CONFIG_PHPBB_EMPTY'  => 'La variable de configuration « %s » de phpBB 3.3 est vide.',
 
-	'MAKE_FOLDER_WRITABLE'  => 'Veuillez vous assurer que ce répertoire existe et qu’il puisse être écrit par le serveur, puis réessayez :<br />»<strong>%s</strong>.',
-	'MAKE_FOLDERS_WRITABLE' => 'Veuillez vous assurer que ces répertoires existent et qu’ils puissent être écrits par le serveur, puis réessayez :<br />»<strong>%s</strong>.',
+	'MAKE_FOLDER_WRITABLE'  => 'Veuillez vous assurer que ce répertoire existe et que les droits d’accès soient disponibles pour écriture par le serveur internet, puis réessayez :<br />»<strong>%s</strong>.',
+	'MAKE_FOLDERS_WRITABLE' => 'Veuillez vous assurer que ces répertoires existent et que les droits d’accès soient disponibles pour écriture par le serveur internet, puis réessayez :<br />»<strong>%s</strong>.',
 
 	'INSTALL_TEST' => 'Tester à nouveau',
 

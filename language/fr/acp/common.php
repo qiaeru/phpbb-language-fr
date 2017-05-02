@@ -265,7 +265,7 @@ $lang = array_merge($lang, [
 	'DEACTIVATE'               => 'Désactiver',
 	'DIRECTORY_DOES_NOT_EXIST' => 'Le chemin « %s » que vous avez spécifié est introuvable.',
 	'DIRECTORY_NOT_DIR'        => 'Le chemin « %s » que vous avez spécifié n’est pas un répertoire.',
-	'DIRECTORY_NOT_WRITABLE'   => 'Le chemin « %s » que vous avez spécifié n’est pas inscriptible.',
+	'DIRECTORY_NOT_WRITABLE'   => 'Le répertoire du chemin « %s » que vous avez spécifié est en lecture seule.',
 	'DISABLE'                  => 'Désactiver',
 	'DOWNLOAD'                 => 'Télécharger',
 	'DOWNLOAD_AS'              => 'Télécharger sous',
@@ -467,7 +467,7 @@ $lang = array_merge($lang, [
 	'VIEW_INACTIVE_USERS'          => 'Consulter la liste des utilisateurs inactifs',
 
 	'WELCOME_PHPBB'   => 'Bienvenue sur phpBB',
-	'WRITABLE_CONFIG' => 'Votre fichier de configuration (config.php) est actuellement inscriptible publiquement. Nous vous encourageons fortement à modifier vos permissions en 640 (<a href="http://fr.wikipedia.org/wiki/Chmod" rel="external">chmod</a> 640 config.php) ou, le cas échéant, en 644.',
+	'WRITABLE_CONFIG' => 'Les droits d’accès de votre fichier de configuration (config.php) sont actuellement disponibles pour écriture par tout le monde. Nous vous encourageons fortement à modifier vos permissions en 640 (<a href="http://fr.wikipedia.org/wiki/Chmod" rel="external">chmod</a> 640 config.php) ou, le cas échéant, en 644.',
 ]);
 
 // Inactive Users

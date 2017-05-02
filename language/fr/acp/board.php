@@ -103,7 +103,7 @@ $lang = array_merge($lang, [
 
 // Avatar Settings
 $lang = array_merge($lang, [
-	'ACP_AVATAR_SETTINGS_EXPLAIN' => 'Les avatars sont généralement de petites images uniques qu’un utilisateur peut associer à sa personnalité. Les avatars sont habituellement affichés sous le nom d’utilisateur lors de la consultation de sujets, bien que cette apparence puisse être différente selon le style utilisé sur le forum. Depuis cette page, vous pouvez déterminer quels avatars pourront être utilisés par les utilisateurs de votre forum. Veuillez noter que pour transférer des avatars, vous devez avoir préalablement créé le répertoire que vous indiquerez ci-dessous et vous assurer qu’il soit inscriptible par le serveur internet. Veuillez également noter que les limitations de taille ne sont imposées qu’aux avatars transférés mais s’appliquent pas aux images distantes.',
+	'ACP_AVATAR_SETTINGS_EXPLAIN' => 'Les avatars sont généralement de petites images uniques qu’un utilisateur peut associer à sa personnalité. Les avatars sont habituellement affichés sous le nom d’utilisateur lors de la consultation de sujets, bien que cette apparence puisse être différente selon le style utilisé sur le forum. Depuis cette page, vous pouvez déterminer quels avatars pourront être utilisés par les utilisateurs de votre forum. Veuillez noter que pour transférer des avatars, vous devez avoir préalablement créé le répertoire que vous indiquerez ci-dessous et vous assurer que ses droits d’accès soient disponibles pour écriture par le serveur internet. Veuillez également noter que les limitations de taille ne sont imposées qu’aux avatars transférés mais s’appliquent pas aux images distantes.',
 
 	'ALLOW_AVATARS'               => 'Activer les avatars',
 	'ALLOW_AVATARS_EXPLAIN'       => 'Les utilisateurs pourront afficher un avatar. Si vous désactivez les avatars, ces derniers ne seront plus affichés sur le forum mais les utilisateurs pourront toujours télécharger leur avatar depuis le panneau de contrôle de l’utilisateur.',
@@ -117,7 +117,7 @@ $lang = array_merge($lang, [
 	'AVATAR_GALLERY_PATH'         => 'Chemin vers la galerie d’avatars',
 	'AVATAR_GALLERY_PATH_EXPLAIN' => 'Le chemin relatif à la racine du répertoire de votre forum, tel que <samp>images/avatars/gallery</samp>.<br />Pour des raisons de sécurité, les deux points tels que <samp>../</samp> seront retirés du chemin.',
 	'AVATAR_STORAGE_PATH'         => 'Chemin vers le répertoire de stockage des avatars',
-	'AVATAR_STORAGE_PATH_EXPLAIN' => 'Le chemin relatif à la racine du répertoire de votre forum, tel que <samp>images/avatars/upload</samp>.<br />Le transfert des avatars <strong>ne sera pas disponible</strong> si l’écriture est impossible dans ce chemin.<br />Pour des raisons de sécurité, les deux points tels que <samp>../</samp> seront retirés du chemin.',
+	'AVATAR_STORAGE_PATH_EXPLAIN' => 'Le chemin relatif à la racine du répertoire de votre forum, tel que <samp>images/avatars/upload</samp>.<br />Le transfert des avatars <strong>ne sera pas disponible</strong> si le répertoire spécifié est en lecture seule.<br />Pour des raisons de sécurité, les deux points tels que <samp>../</samp> seront retirés du chemin.',
 	'MAX_AVATAR_SIZE'             => 'Dimensions maximales des avatars',
 	'MAX_AVATAR_SIZE_EXPLAIN'     => 'La largeur sur la hauteur, en nombre de pixels.',
 	'MAX_FILESIZE'                => 'Taille maximale des avatars',

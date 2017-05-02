@@ -168,7 +168,7 @@ $lang = array_merge($lang, [
 	'EXTENSIONS_UPDATED'        => 'Les extensions ont été mises à jour.',
 
 	'EXTENSIONS_CATALOG_NOT_AVAILABLE' => 'Le catalogue d’extensions n’est pas disponible',
-	'EXTENSIONS_COMPOSER_NOT_WRITABLE' => 'Pour utiliser le catalogue, les permissions des fichiers et des répertoires devraient être modifiées pour écriture : « ext/ », « vendor-ext/ », « composer-ext.json » et « composer-ext.lock ».',
+	'EXTENSIONS_COMPOSER_NOT_WRITABLE' => 'Pour utiliser le catalogue, les droits d’accès aux fichiers et aux répertoires devraient être modifiées pour écriture : « ext/ », « vendor-ext/ », « composer-ext.json » et « composer-ext.lock ».',
 
 	'STABILITY_STABLE'	=> 'stable',
 	'STABILITY_RC'		=> 'RC',

@@ -181,7 +181,7 @@ $lang = array_merge($lang, [
 	'NO_POLL_TITLE'          => 'Vous devez saisir le titre du sondage.',
 	'NO_POST'                => 'Le message que vous souhaitez consulter est introuvable.',
 	'NO_POST_MODE'           => 'Aucun mode de message n’a été sélectionné.',
-	'NO_TEMP_DIR'            => 'Le répertoire temporaire est introuvable ou ne peut pas être écrit.',
+	'NO_TEMP_DIR'            => 'Le répertoire temporaire est introuvable ou est en lecture seule.',
 
 	'PARTIAL_UPLOAD'            => 'Le fichier n’a été que partiellement transféré.',
 	'PHP_UPLOAD_STOPPED'        => 'Une extension PHP a interrompu le transfert du fichier.',
