@@ -136,7 +136,7 @@ $lang = array_merge($lang, [
 	'NO_IMAGE'               => 'Aucune image',
 	'NO_THUMBNAIL_SUPPORT'   => 'Les miniatures ne sont pas prises en charge. Pour que cette fonctionnalité fonctionne correctement, la bibliothèque graphique GD doit être disponible ou ImageMagick doit être installé. Actuellement, les deux sont introuvables.',
 	'NO_UPLOAD_DIR'          => 'Le répertoire de transfert que vous avez spécifié est introuvable.',
-	'NO_WRITE_UPLOAD'        => 'Le répertoire de transfert que vous avez spécifié est en lecture seule. Veuillez modifier les droits d’accès du serveur internet.',
+	'NO_WRITE_UPLOAD'        => 'Le répertoire de transfert que vous avez spécifié est en lecture seule. Veuillez modifier ses droits d’accès pour écriture par le serveur internet.',
 
 	'ONLY_ALLOWED_IN_PM' => 'Autorisé uniquement dans les messages privés',
 	'ORDER_ALLOW_DENY'   => 'Autoriser',
