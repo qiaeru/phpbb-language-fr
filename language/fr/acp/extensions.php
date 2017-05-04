@@ -49,7 +49,7 @@ $lang = array_merge($lang, [
 	'ENABLING_EXTENSIONS'  => 'Activation des extensions',
 	'DISABLING_EXTENSIONS' => 'Désactivation des extensions',
 
-	'EXTENSIONS_CATALOG'         => 'Catalogue d’extensions',
+	'EXTENSIONS_CATALOG'         => 'Bibliothèque d’extensions',
 	'EXTENSIONS_CATALOG_EXPLAIN' => 'Depuis cette page, vous pouvez consulter toutes les extensions disponibles sur votre forum. Les extensions peuvent facilement être installées ou supprimées par un simple clic. Ajustez les paramètres afin d’autoriser l’activation et la purge instantanées des extensions.',
 
 	'EXTENSION'                => 'Extension',
@@ -107,10 +107,10 @@ $lang = array_merge($lang, [
 			<li>Supprimez les fichiers de l’extension de votre serveur</li>
 		</ol>',
 
-	'EXTENSION_DELETE_DATA_CONFIRM'    => 'Êtes-vous sûr de supprimer les données associées à « %s » ?<br /><br />Cela supprimera toutes les données et la configuration de l’extension qui ne pourront pas être restaurés !',
-	'EXTENSION_DISABLE_CONFIRM'        => 'Êtes-vous sûr de désactiver l’extension « %s » ?',
-	'EXTENSION_ENABLE_CONFIRM'         => 'Êtes-vous sûr d’activer l’extension « %s » ?',
-	'EXTENSION_FORCE_UNSTABLE_CONFIRM' => 'Êtes-vous sûr de forcer l’utilisation d’une version instable ?',
+	'EXTENSION_DELETE_DATA_CONFIRM'    => 'Êtes-vous sûr de vouloir supprimer les données associées à « %s » ?<br /><br />Cela supprimera toutes les données et la configuration de l’extension qui ne pourront pas être restaurés !',
+	'EXTENSION_DISABLE_CONFIRM'        => 'Êtes-vous sûr de vouloir désactiver l’extension « %s » ?',
+	'EXTENSION_ENABLE_CONFIRM'         => 'Êtes-vous sûr de vouloir activer l’extension « %s » ?',
+	'EXTENSION_FORCE_UNSTABLE_CONFIRM' => 'Êtes-vous sûr de vouloir forcer l’utilisation d’une version instable ?',
 
 	'INSTALLED'          => 'Installée',
 	'INSTALLED_MANUALLY' => 'Installée manuellement',
@@ -152,12 +152,12 @@ $lang = array_merge($lang, [
 	'META_FIELD_NOT_SET' => 'Le méta-champ %s est obligatoire et doit être configuré.',
 	'META_FIELD_INVALID' => 'Le méta-champ %s est invalide.',
 
-	'EXTENSIONS_CATALOG_SETTINGS'   => 'Paramètres du catalogue d’extensions',
+	'EXTENSIONS_CATALOG_SETTINGS'   => 'Paramètres de la bibliothèque d’extensions',
 	'ENABLE_ON_INSTALL'             => 'Activer les extensions lors de leur installation',
 	'PURGE_ON_REMOVE'               => 'Purger les extensions lors de leur suppression',
-	'ENABLE_PACKAGIST'              => 'Rechercher par Packagist',
-	'ENABLE_PACKAGIST_EXPLAIN'      => 'Recherche les extensions en utilisant Packagist. Attention, Packagist peut contenir des extensions qui n’ont pas été validées par l’équipe des extensions de phpBB.',
-	'ENABLE_PACKAGIST_CONFIRM'      => 'Êtes-vous sûr de vouloir rechercher par Packagist ?',
+	'ENABLE_PACKAGIST'              => 'Rechercher les extensions sur Packagist',
+	'ENABLE_PACKAGIST_EXPLAIN'      => 'Recherche les extensions sur Packagist. Attention, Packagist peut référencer des extensions qui n’ont pas été validées par l’équipe des extensions de phpBB.',
+	'ENABLE_PACKAGIST_CONFIRM'      => 'Êtes-vous sûr de vouloir rechercher les extensions sur Packagist ?',
 	'COMPOSER_REPOSITORIES'         => 'Dépôts',
 	'COMPOSER_REPOSITORIES_EXPLAIN' => 'Ajoute des liens aux dépôts de Composer des extensions à rechercher. Chaque dépôt doit être ajouté sur une nouvelle ligne. Les adresses doivent correspondrent à l’adresse de base du fichier « packages.json ».',
 	'NO_EXTENSION_AVAILABLE'        => 'Aucune extension n’est disponible pour votre forum',
@@ -167,8 +167,8 @@ $lang = array_merge($lang, [
 	'EXTENSIONS_REMOVED'        => 'Les extensions ont été supprimées.',
 	'EXTENSIONS_UPDATED'        => 'Les extensions ont été mises à jour.',
 
-	'EXTENSIONS_CATALOG_NOT_AVAILABLE' => 'Le catalogue d’extensions n’est pas disponible',
-	'EXTENSIONS_COMPOSER_NOT_WRITABLE' => 'Pour utiliser le catalogue, les droits d’accès aux fichiers et aux répertoires devraient être modifiées pour écriture par le serveur internet : « ext/ », « vendor-ext/ », « composer-ext.json » et « composer-ext.lock ».',
+	'EXTENSIONS_CATALOG_NOT_AVAILABLE' => 'La bibliothèque d’extensions n’est pas disponible',
+	'EXTENSIONS_COMPOSER_NOT_WRITABLE' => 'Pour utiliser la bibliothèque, les droits d’accès aux fichiers et aux répertoires devraient être modifiées pour écriture par votre serveur : « ext/ », « vendor-ext/ », « composer-ext.json » et « composer-ext.lock ».',
 
 	'STABILITY_STABLE' => 'stable',
 	'STABILITY_RC'     => 'RC',
