@@ -458,7 +458,7 @@ $lang = array_merge($lang, [
 
 // Server Settings
 $lang = array_merge($lang, [
-	'ACP_SERVER_SETTINGS_EXPLAIN' => 'Depuis cette page, vous pouvez configurer les paramètres relatifs au serveur et au domaine. Veuillez vous assurer de la validité des données présentes ci-dessous car vos courriels pourraient contenir des informations erronées si des données invalides étaient présentes. Lorsque vous saisissez le nom de domaine, n’oubliez pas d’inclure le protocole, tel que http://. Ne modifiez le port que si votre serveur fonctionne sous un port différent dont vous avez connaissance, mais sachez néanmoins que le port 80 convient dans la plupart des cas.',
+	'ACP_SERVER_SETTINGS_EXPLAIN' => 'Depuis cette page, vous pouvez configurer les paramètres relatifs au serveur et au domaine. Veuillez vous assurer de la validité des données présentes ci-dessous car vos courriels pourraient contenir des informations erronées si des données invalides étaient présentes. Lorsque vous saisissez le nom de domaine, n’oubliez pas d’inclure le protocole, tel que « http:// » ou « https:// ». Ne modifiez le port que si votre serveur fonctionne sous un port différent dont vous avez connaissance, mais sachez néanmoins que le port 80 convient dans la plupart des cas.',
 
 	'ENABLE_GZIP'                         => 'Activer la compression GZip',
 	'ENABLE_GZIP_EXPLAIN'                 => 'Le contenu généré sera compressé avant d’être envoyé aux utilisateurs. Cela peut réduire le trafic du réseau mais augmentera en contrepartie l’utilisation du processeur de votre serveur et de vos utilisateurs. L’extension zlib de PHP doit être chargée afin que la compression fonctionne.',
@@ -480,7 +480,7 @@ $lang = array_merge($lang, [
 	'SERVER_PORT'                         => 'Port du serveur',
 	'SERVER_PORT_EXPLAIN'                 => 'Le port qui sert à vous connecter à votre serveur, généralement le 80.',
 	'SERVER_PROTOCOL'                     => 'Protocole du serveur',
-	'SERVER_PROTOCOL_EXPLAIN'             => 'Le protocole du serveur qui sera utilisé si les paramètres de la redirection du serveur sont forcés. Si ces derniers ne sont pas forcés ou que ce champ est vide, le protocole sera alors déterminé selon le paramètre du cookie sécurisé (qui choisira entre utiliser <samp>http://</samp> ou <samp>https://</samp>).',
+	'SERVER_PROTOCOL_EXPLAIN'             => 'Le protocole du serveur qui sera utilisé si les paramètres de la redirection du serveur sont forcés. Si ces derniers ne sont pas forcés ou que ce champ est vide, le protocole sera alors déterminé selon le paramètre du cookie sécurisé, qui choisira entre utiliser « http:// » ou « https:// ».',
 	'SERVER_URL_SETTINGS'                 => 'Paramètres de la redirection du serveur',
 	'SMILIES_PATH'                        => 'Chemin vers le répertoire de stockage des émoticônes',
 	'SMILIES_PATH_EXPLAIN'                => 'Le chemin relatif à la racine du répertoire de votre forum, tel que <samp>images/smilies</samp>.',
@@ -504,7 +504,7 @@ $lang = array_merge($lang, [
 	'BROWSER_VALID'                        => 'Valider les navigateurs internet',
 	'BROWSER_VALID_EXPLAIN'                => 'Les navigateurs internet seront validés lors de chaque session, ce qui améliore la sécurité.',
 	'CHECK_DNSBL'                          => 'Vérifier les adresses IP sur les listes des systèmes de noms de domaine',
-	'CHECK_DNSBL_EXPLAIN'                  => 'Si cette option est activée, l’adresse IP des utilisateurs sera vérifiée par les services DNSBL <a href="http://spamcop.net">spamcop.net</a> et <a href="http://www.spamhaus.org">www.spamhaus.org</a> (en anglais) lors des inscriptions et des publications de messages. Cette vérification peut durer un certain temps, selon la configuration du serveur sélectionné. Désactivez cette fonctionnalité si vous constatez des ralentissements ou des erreurs d’appréciation.',
+	'CHECK_DNSBL_EXPLAIN'                  => 'Si cette option est activée, l’adresse IP des utilisateurs sera vérifiée par les services DNSBL <a href="https://www.spamcop.net">SpamCop</a> et <a href="https://www.spamhaus.org">Spamhaus</a> (en anglais) lors des inscriptions et des publications de messages. Cette vérification peut durer un certain temps, selon la configuration du serveur sélectionné. Désactivez cette fonctionnalité si vous constatez des ralentissements ou des erreurs d’appréciation.',
 	'CLASS_B'                              => 'A.B',
 	'CLASS_C'                              => 'A.B.C',
 	'EMAIL_CHECK_MX'                       => 'Vérifier l’enregistrement MX des adresses de courriel',

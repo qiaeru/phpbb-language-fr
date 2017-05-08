@@ -43,7 +43,7 @@ $lang = array_merge($lang, [
 	'USER_LANG'        => 'fr',
 
 	// You can define different rules for the determination of plural forms here.
-	// See http://wiki.phpbb.com/Plural_Rules for more information
+	// See https://wiki.phpbb.com/Plural_Rules for more information
 	// or ask the translation manager for help.
 	'PLURAL_RULE' => 2,
 
