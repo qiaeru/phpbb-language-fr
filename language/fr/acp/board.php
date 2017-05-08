@@ -504,7 +504,7 @@ $lang = array_merge($lang, [
 	'BROWSER_VALID'                        => 'Valider les navigateurs internet',
 	'BROWSER_VALID_EXPLAIN'                => 'Les navigateurs internet seront validés lors de chaque session, ce qui améliore la sécurité.',
 	'CHECK_DNSBL'                          => 'Vérifier les adresses IP sur les listes des systèmes de noms de domaine',
-	'CHECK_DNSBL_EXPLAIN'                  => 'Si cette option est activée, l’adresse IP des utilisateurs sera vérifiée par les services DNSBL <a href="https://www.spamcop.net">SpamCop</a> et <a href="https://www.spamhaus.org">Spamhaus</a> (en anglais) lors des inscriptions et des publications de messages. Cette vérification peut durer un certain temps, selon la configuration du serveur sélectionné. Désactivez cette fonctionnalité si vous constatez des ralentissements ou des erreurs d’appréciation.',
+	'CHECK_DNSBL_EXPLAIN'                  => 'Si cette option est activée, l’adresse IP des utilisateurs sera vérifiée par les services DNSBL <a href="https://www.spamcop.net/">SpamCop</a> et <a href="https://www.spamhaus.org/">Spamhaus</a> (en anglais) lors des inscriptions et des publications de messages. Cette vérification peut durer un certain temps, selon la configuration du serveur sélectionné. Désactivez cette fonctionnalité si vous constatez des ralentissements ou des erreurs d’appréciation.',
 	'CLASS_B'                              => 'A.B',
 	'CLASS_C'                              => 'A.B.C',
 	'EMAIL_CHECK_MX'                       => 'Vérifier l’enregistrement MX des adresses de courriel',
