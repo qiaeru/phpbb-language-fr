@@ -467,7 +467,7 @@ $lang = array_merge($lang, [
 	'VIEW_INACTIVE_USERS'          => 'Consulter la liste des utilisateurs inactifs',
 
 	'WELCOME_PHPBB'   => 'Bienvenue sur phpBB',
-	'WRITABLE_CONFIG' => 'Les droits d’accès pour écriture de votre fichier de configuration (config.php) sont actuellement publics. Nous vous encourageons fortement à modifier vos permissions en 640 (<a href="https://fr.wikipedia.org/wiki/Chmod" rel="external">chmod</a> 640 config.php) ou, le cas échéant, en 644.',
+	'WRITABLE_CONFIG' => 'Les droits d’accès pour écriture de votre fichier de configuration (config.php) sont actuellement publics. Nous vous encourageons fortement à modifier vos permissions en 640 (<a href="https://fr.wikipedia.org/wiki/Chmod">chmod</a> 640 config.php) ou, le cas échéant, en 644.',
 ]);
 
 // Inactive Users
