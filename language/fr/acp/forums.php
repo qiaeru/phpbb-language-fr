@@ -154,7 +154,7 @@ $lang = array_merge($lang, [
 	'REDIRECT_ACL' => 'Vous pouvez à présent %sdéfinir les permissions%s de ce forum.',
 
 	'SYNC_IN_PROGRESS'         => 'Synchronisation du forum',
-	'SYNC_IN_PROGRESS_EXPLAIN' => 'Resynchronisation des sujets %1$d/%2$d en cours.',
+	'SYNC_IN_PROGRESS_EXPLAIN' => 'Resynchronisation des sujets %1$d/%2$d.',
 
 	'TYPE_CAT'   => 'Catégorie',
 	'TYPE_FORUM' => 'Forum',

@@ -304,14 +304,14 @@ $lang = array_merge($lang, [
 
 // Visual Confirmation Settings
 $lang = array_merge($lang, [
-	'ACP_VC_SETTINGS_EXPLAIN'             => 'Depuis cette page, vous pouvez sélectionner et configurer tous les modules d’extension qui permettent de se prémunir contre les soumissions automatisées et intensives réalisées par des robots malveillants. Ces modules d’extension demandent en général aux utilisateur de résoudre un <em>CAPTCHA</em>, qui est un outil permettant de différencier les humains aux robots.',
+	'ACP_VC_SETTINGS_EXPLAIN'             => 'Depuis cette page, vous pouvez sélectionner et configurer tous les modules d’extension qui permettent de se prémunir contre les soumissions automatisées et intensives effectuées par des robots malveillants. Ces modules d’extension demandent en général aux utilisateur de résoudre un <em>CAPTCHA</em>, qui est un outil permettant de différencier les humains aux robots.',
 	'ACP_VC_EXT_GET_MORE'                 => 'Vous pouvez obtenir d’autres modules d’extension contre les soumissions automatisées et intensives, qui seront probablement plus efficaces, en visitant la <a href="https://www.phpbb.com/go/anti-spam-ext"><strong>base de données des extensions de phpBB.com</strong></a> (en anglais). Pour plus d’informations concernant la prévention des soumissions automatisées et intensives sur votre forum, veuillez visiter la <a href="https://www.phpbb.com/go/anti-spam"><strong>base de connaissances de phpBB.com</strong></a> (en anglais).',
 	'AVAILABLE_CAPTCHAS'                  => 'Modules d’extension disponibles',
 	'CAPTCHA_UNAVAILABLE'                 => 'Le module d’extension ne peut pas être sélectionné tant que ses prérequis ne sont pas respectés.',
 	'CAPTCHA_GD'                          => 'Bruit GD de l’image',
 	'CAPTCHA_GD_3D'                       => 'Bruit GD de l’image en 3D',
 	'CAPTCHA_GD_FOREGROUND_NOISE'         => 'Bruit de premier plan',
-	'CAPTCHA_GD_EXPLAIN'                  => 'Utilise la bibliothèque graphique GD afin de rendre l’image permettant de se prémunir contre les soumissions automatisées et intensives réalisées par des robots malveillants plus difficilement déchiffrable.',
+	'CAPTCHA_GD_EXPLAIN'                  => 'Utilise la bibliothèque graphique GD afin de rendre l’image permettant de se prémunir contre les soumissions automatisées et intensives effectuées par des robots malveillants plus difficilement déchiffrable.',
 	'CAPTCHA_GD_FOREGROUND_NOISE_EXPLAIN' => 'Utilise un bruit de premier plan afin de rendre l’image plus difficilement déchiffrable.',
 	'CAPTCHA_GD_X_GRID'                   => 'Bruit de fond sur l’axe des abscisses',
 	'CAPTCHA_GD_X_GRID_EXPLAIN'           => 'Utilisez ici des valeurs faibles afin de rendre l’image plus difficilement déchiffrable. Réglez cette valeur sur 0 afin de désactiver le bruit de fond sur l’axe des abscisses.',
@@ -338,11 +338,11 @@ $lang = array_merge($lang, [
 	'CAPTCHA_NO_OPTIONS'        => 'Ce module d’extension n’a aucune option de configuration.',
 
 	'VISUAL_CONFIRM_POST'            => 'Activer les mesures de lutte contre les soumissions automatisées et intensives aux invités',
-	'VISUAL_CONFIRM_POST_EXPLAIN'    => 'Les utilisateurs qui ne sont pas connectés seront invités à compléter des mesures permettant de se prémunir contre les publications automatisées et intensives réalisées par des robots malveillants.',
+	'VISUAL_CONFIRM_POST_EXPLAIN'    => 'Les utilisateurs qui ne sont pas connectés seront invités à compléter des mesures permettant de se prémunir contre les publications automatisées et intensives effectuées par des robots malveillants.',
 	'VISUAL_CONFIRM_REG'             => 'Activer les mesures de lutte contre les soumissions automatisées et intensives lors des inscriptions',
-	'VISUAL_CONFIRM_REG_EXPLAIN'     => 'Les utilisateurs seront invités à compléter des mesures permettant de se prémunir contre les soumissions automatisées et intensives réalisées par des robots malveillants lors de leurs inscriptions.',
+	'VISUAL_CONFIRM_REG_EXPLAIN'     => 'Les utilisateurs seront invités à compléter des mesures permettant de se prémunir contre les soumissions automatisées et intensives effectuées par des robots malveillants lors de leurs inscriptions.',
 	'VISUAL_CONFIRM_REFRESH'         => 'Autoriser les utilisateurs à rafraîchir les mesures de lutte contre les soumissions automatisées et intensives',
-	'VISUAL_CONFIRM_REFRESH_EXPLAIN' => 'Les utilisateurs, s’ils sont incapables de déchiffrer la mesure actuelle, pourront demander une nouvelle mesure de lutte contre les soumissions automatisées et intensives réalisées par des robots malveillants. Certains modules d’extension peuvent ne pas prendre en charge cette fonctionnalité.',
+	'VISUAL_CONFIRM_REFRESH_EXPLAIN' => 'Les utilisateurs, s’ils sont incapables de déchiffrer la mesure actuelle, pourront demander une nouvelle mesure de lutte contre les soumissions automatisées et intensives effectuées par des robots malveillants. Certains modules d’extension peuvent ne pas prendre en charge cette fonctionnalité.',
 ]);
 
 // Cookie Settings

@@ -217,7 +217,7 @@ $lang = array_merge($lang, [
 	'UPDATE_INCOMPLETE_MORE'    => 'Veuillez consulter les informations ci-dessous afin de corriger cette erreur.',
 	'UPDATE_INCOMPLETE_EXPLAIN' => '<h1>Mise à jour incomplète</h1>
 
-		<p>La dernière mise à jour de votre installation de phpBB ne semble pas complète. Veuillez vous rendre <a href="%1$s" title="%1$s">sur la page de mise à jour de la base de données</a>, vous assurer que <em>Mettre à jour uniquement la base de données</em> soit coché et cliquer sur <strong>Envoyer</strong>. Assurez-vous de supprimer le répertoire « install » après avoir mis à jour votre base de données.</p>',
+		<p>La dernière mise à jour de votre installation de phpBB ne semble pas complète. Veuillez vous rendre <a href="%1$s" title="%1$s">sur la page de mise à jour de la base de données</a>, vous assurer que <em>Mettre à jour uniquement la base de données</em> soit coché et cliquer sur <strong>Envoyer</strong>. Assurez-vous de supprimer le répertoire « install/ » après avoir mis à jour votre base de données.</p>',
 
 	//
 	// Server data
@@ -353,7 +353,7 @@ $lang = array_merge($lang, [
 		<ul style="margin-left: 20px; font-size: 1.1em;">
 			<li>Accédez à <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">la page des téléchargements de phpBB.com</a> (en anglais) et téléchargez l’archive de mise à jour automatique.<br /><br /></li>
 			<li>Décompressez l’archive.<br /><br /></li>
-			<li>Transférez les répertoires décompressés « install » et « vendor » à la racine du répertoire de votre forum, où se trouve le fichier « config.php ».<br /><br /></li>
+			<li>Transférez les répertoires décompressés « install/ » et « vendor/ » à la racine du répertoire de votre forum, où se trouve le fichier « config.php ».<br /><br /></li>
 		</ul>
 		<p>Pour des raisons de sécurité, une fois que les répertoires et leur contenu ont été transférés, votre forum apparaîtra hors-ligne aux utilisateurs.<br /><br />
 		<strong><a href="%1$s" title="%1$s">Commencez dès à présent le processus de mise à jour en dirigeant votre navigateur vers le répertoire d’installation</a>.</strong><br />

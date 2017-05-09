@@ -134,7 +134,7 @@ $lang = array_merge($lang, [
 	'CLICK_RETURN_FOLDER'        => '%1$sRevenir sur votre boîte « %3$s »%2$s',
 	'CONFIRMATION'               => 'Confirmation d’inscription',
 	'CONFIRM_CHANGES'            => 'Confirmer les modifications',
-	'CONFIRM_EXPLAIN'            => 'Vous devez saisir un code de confirmation afin de nous permettre de nous prémunir contre les soumissions automatisées et intensives réalisées par des robots malveillants. Le code est affiché dans l’image ci-dessous. Si vous éprouvez des difficultés à lire ce code correctement, veuillez contacter un %sadministrateur du forum%s.',
+	'CONFIRM_EXPLAIN'            => 'Vous devez saisir un code de confirmation afin de nous permettre de nous prémunir contre les soumissions automatisées et intensives effectuées par des robots malveillants. Le code est affiché dans l’image ci-dessous. Si vous éprouvez des difficultés à lire ce code correctement, veuillez contacter un %sadministrateur du forum%s.',
 	'VC_REFRESH'                 => 'Générer un nouveau code de confirmation',
 	'VC_REFRESH_EXPLAIN'         => 'Si vous éprouvez des difficultés à lire ce code correctement, vous pouvez générer un nouveau code en cliquant sur le bouton suivant.',
 

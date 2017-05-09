@@ -37,15 +37,15 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, [
 	'RECAPTCHA_LANG'          => 'fr',
-	'RECAPTCHA_NOT_AVAILABLE' => 'Vous devez créer un compte sur <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a> (en anglais) afin de pouvoir utiliser reCAPTCHA.',
+	'RECAPTCHA_NOT_AVAILABLE' => 'Vous devez créer un compte sur <a href="https://www.google.com/recaptcha">le site de reCAPTCHA</a> (en anglais) afin de pouvoir utiliser reCAPTCHA.',
 	'CAPTCHA_RECAPTCHA'       => 'reCAPTCHA',
 	'RECAPTCHA_INCORRECT'     => 'La vérification a échoué',
 	'RECAPTCHA_NOSCRIPT'      => 'Vous devez activer JavaScript dans votre navigateur afin de charger le formulaire.',
 
 	'RECAPTCHA_PUBLIC'          => 'Clé publique de reCAPTCHA',
-	'RECAPTCHA_PUBLIC_EXPLAIN'  => 'Votre clé publique de reCAPTCHA. Les clés sont disponibles sur <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a> (en anglais).',
+	'RECAPTCHA_PUBLIC_EXPLAIN'  => 'Votre clé publique de reCAPTCHA. Les clés sont disponibles sur <a href="https://www.google.com/recaptcha">le site de reCAPTCHA</a> (en anglais).',
 	'RECAPTCHA_PRIVATE'         => 'Clé privée de reCAPTCHA',
-	'RECAPTCHA_PRIVATE_EXPLAIN' => 'Votre clé privée de reCAPTCHA. Les clés sont disponibles sur <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a> (en anglais).',
+	'RECAPTCHA_PRIVATE_EXPLAIN' => 'Votre clé privée de reCAPTCHA. Les clés sont disponibles sur <a href="https://www.google.com/recaptcha">le site de reCAPTCHA</a> (en anglais).',
 
-	'RECAPTCHA_EXPLAIN' => 'Veuillez compléter la vérification suivante afin de nous permettre de nous prémunir contre les soumissions automatisées et intensives réalisées par des robots malveillants.',
+	'RECAPTCHA_EXPLAIN' => 'Veuillez compléter la vérification suivante afin de nous permettre de nous prémunir contre les soumissions automatisées et intensives effectuées par des robots malveillants.',
 ]);

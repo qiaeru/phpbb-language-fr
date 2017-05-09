@@ -37,16 +37,16 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, [
 	'CLI_CONFIG_CANNOT_CACHED'         => 'Modifiez ce paramètre si l’option de configuration change trop fréquemment. Elle pourra alors être plus efficacement mise en cache.',
-	'CLI_CONFIG_CURRENT'               => 'La valeur de configuration actuelle. Utilisez 0 et 1 afin de spécifier des valeurs booléennes',
-	'CLI_CONFIG_DELETE_SUCCESS'        => 'La configuration %s a été supprimée.',
-	'CLI_CONFIG_NEW'                   => 'La nouvelle valeur de configuration. Utilisez 0 et 1 afin de spécifier des valeurs booléennes',
-	'CLI_CONFIG_NOT_EXISTS'            => 'La configuration %s est introuvable',
+	'CLI_CONFIG_CURRENT'               => 'La valeur de configuration actuelle. Utilisez « 0 » et « 1 » afin de spécifier des valeurs booléennes',
+	'CLI_CONFIG_DELETE_SUCCESS'        => 'La configuration « %s » a été supprimée.',
+	'CLI_CONFIG_NEW'                   => 'La nouvelle valeur de configuration. Utilisez « 0 » et « 1 » afin de spécifier des valeurs booléennes',
+	'CLI_CONFIG_NOT_EXISTS'            => 'La configuration « %s » est introuvable',
 	'CLI_CONFIG_OPTION_NAME'           => 'Le nom de l’option de configuration',
 	'CLI_CONFIG_PRINT_WITHOUT_NEWLINE' => 'Modifiez cette option si la valeur doit être affichée sans effectuer de retour à la ligne.',
 	'CLI_CONFIG_INCREMENT_BY'          => 'Valeur de l’incrément',
-	'CLI_CONFIG_INCREMENT_SUCCESS'     => 'La valeur de la configuration %s a été incrémentée',
-	'CLI_CONFIG_SET_FAILURE'           => 'Impossible de paramétrer la configuration %s',
-	'CLI_CONFIG_SET_SUCCESS'           => 'La configuration %s a été paramétrée',
+	'CLI_CONFIG_INCREMENT_SUCCESS'     => 'La valeur de la configuration « %s » a été incrémentée',
+	'CLI_CONFIG_SET_FAILURE'           => 'Impossible de paramétrer la configuration « %s »',
+	'CLI_CONFIG_SET_SUCCESS'           => 'La configuration « %s » a été paramétrée',
 
 	'CLI_DESCRIPTION_CRON_LIST'           => 'Affiche une liste de tâches cron prêtes et non prêtes.',
 	'CLI_DESCRIPTION_CRON_RUN'            => 'Exécute toutes les tâches cron prêtes.',
@@ -70,7 +70,7 @@ $lang = array_merge($lang, [
 
 	'CLI_DESCRIPTION_REPARSER_LIST'                   => 'Liste les types de textes qui peuvent être réanalysés.',
 	'CLI_DESCRIPTION_REPARSER_AVAILABLE'              => 'Réanalyseurs syntaxiques disponibles :',
-	'CLI_DESCRIPTION_REPARSER_REPARSE'                => 'Réanalyse le texte stocké avec les services text_formatter actuels.',
+	'CLI_DESCRIPTION_REPARSER_REPARSE'                => 'Réanalyse le texte stocké avec les services « text_formatter » actuels.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_ARG_1'          => 'Le type de texte à réanalyser. Laissez ce champ vide afin de tout réanalyser.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_DRY_RUN'    => 'Ne sauvegarder aucune modification et afficher uniquement ce qui se passerait',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MIN'  => 'Plus faible identifiant d’enregistrement à traiter',
@@ -78,7 +78,7 @@ $lang = array_merge($lang, [
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_SIZE' => 'Nombre approximatif d’enregistrements à traiter à la fois',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RESUME'     => 'Démarrer la réanalyse syntaxique où la dernière exécution s’est arrêtée',
 
-	'CLI_DESCRIPTION_RECALCULATE_EMAIL_HASH' => 'Recalcule la colonne user_email_hash de la table des utilisateurs.',
+	'CLI_DESCRIPTION_RECALCULATE_EMAIL_HASH' => 'Recalcule la colonne « user_email_hash » de la table des utilisateurs.',
 
 	'CLI_DESCRIPTION_SET_ATOMIC_CONFIG' => 'Configure une valeur de l’option de configuration uniquement lorsque l’ancienne valeur est identique à la valeur actuelle',
 	'CLI_DESCRIPTION_SET_CONFIG'        => 'Configure une valeur de l’option de configuration',
@@ -88,7 +88,7 @@ $lang = array_merge($lang, [
 	'CLI_DESCRIPTION_THUMBNAIL_RECREATE' => 'Recréer toutes les vignettes.',
 
 	'CLI_DESCRIPTION_UPDATE_CHECK'                  => 'Vérifier si le forum est à jour.',
-	'CLI_DESCRIPTION_UPDATE_CHECK_ARGUMENT_1'       => 'Nom de l’extension à vérifier (si « all », toutes les extensions seront vérifiées)',
+	'CLI_DESCRIPTION_UPDATE_CHECK_ARGUMENT_1'       => 'Nom de l’extension à vérifier (si « all » est sélectionné, toutes les extensions seront vérifiées)',
 	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_CACHE'     => 'Exécuter la commande en ne vérifiant que les versions mises en cache.',
 	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_STABILITY' => 'Exécuter la commande en ne vérifiant que les versions stables ou instables.',
 
@@ -109,17 +109,17 @@ $lang = array_merge($lang, [
 	'CLI_DESCRIPTION_USER_DELETE_OPTION_POSTS' => 'Supprimer tous les messages de cet utilisateur. Les messages de l’utilisateur seront conservés si cette option n’est pas utilisée.',
 	'CLI_DESCRIPTION_USER_RECLEAN'             => 'Renettoyer les noms d’utilisateurs.',
 
-	'CLI_EXTENSION_DISABLE_FAILURE' => 'Impossible de désactiver l’extension %s',
-	'CLI_EXTENSION_DISABLE_SUCCESS' => 'L’extension %s a été désactivée',
-	'CLI_EXTENSION_DISABLED'        => 'L’extension %s n’est pas activée',
-	'CLI_EXTENSION_ENABLE_FAILURE'  => 'Impossible d’activer l’extension %s',
-	'CLI_EXTENSION_ENABLE_SUCCESS'  => 'L’extension %s a été activée',
-	'CLI_EXTENSION_ENABLED'         => 'L’extension %s est déjà activée',
+	'CLI_EXTENSION_DISABLE_FAILURE' => 'Impossible de désactiver l’extension « %s »',
+	'CLI_EXTENSION_DISABLE_SUCCESS' => 'L’extension « %s » a été désactivée',
+	'CLI_EXTENSION_DISABLED'        => 'L’extension « %s » n’est pas activée',
+	'CLI_EXTENSION_ENABLE_FAILURE'  => 'Impossible d’activer l’extension « %s »',
+	'CLI_EXTENSION_ENABLE_SUCCESS'  => 'L’extension « %s » a été activée',
+	'CLI_EXTENSION_ENABLED'         => 'L’extension « %s » est déjà activée',
 	'CLI_EXTENSION_NAME'            => 'Nom de l’extension',
-	'CLI_EXTENSION_PURGE_FAILURE'   => 'Impossible de purger l’extension %s',
-	'CLI_EXTENSION_PURGE_SUCCESS'   => 'L’extension %s a été purgée',
-	'CLI_EXTENSION_UPDATE_FAILURE'  => 'Impossible de mettre à jour l’extension %s',
-	'CLI_EXTENSION_UPDATE_SUCCESS'  => 'L’extension %s a été mise à jour',
+	'CLI_EXTENSION_PURGE_FAILURE'   => 'Impossible de purger l’extension « %s »',
+	'CLI_EXTENSION_PURGE_SUCCESS'   => 'L’extension « %s » a été purgée',
+	'CLI_EXTENSION_UPDATE_FAILURE'  => 'Impossible de mettre à jour l’extension « %s »',
+	'CLI_EXTENSION_UPDATE_SUCCESS'  => 'L’extension « %s » a été mise à jour',
 	'CLI_EXTENSION_NOT_FOUND'       => 'Aucune extension.',
 	'CLI_EXTENSIONS_AVAILABLE'      => 'Disponible',
 	'CLI_EXTENSIONS_DISABLED'       => 'Désactivée',
@@ -127,31 +127,31 @@ $lang = array_merge($lang, [
 
 	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS' => 'Tous les hachages des courriels ont été recalculés.',
 
-	'CLI_MIGRATION_NAME'            => 'Le nom de la migration, espace de noms inclus (veuillez utiliser des barres obliques à la place de barres obliques inversées).',
+	'CLI_MIGRATION_NAME'            => 'Le nom de la migration, espaces de noms inclus (veuillez utiliser des barres obliques à la place de barres obliques inversées).',
 	'CLI_MIGRATIONS_AVAILABLE'      => 'Migrations disponibles',
 	'CLI_MIGRATIONS_INSTALLED'      => 'Migrations installées',
 	'CLI_MIGRATIONS_ONLY_AVAILABLE' => 'N’afficher que les migrations disponibles',
 	'CLI_MIGRATIONS_EMPTY'          => 'Aucune migration.',
 
-	'CLI_REPARSER_REPARSE_REPARSING'       => 'Réanalyse de %1$s (rangée %2$d..%3$d)',
-	'CLI_REPARSER_REPARSE_REPARSING_START' => 'Réanalyse de %s…',
+	'CLI_REPARSER_REPARSE_REPARSING'       => 'Réanalyse de « %1$s » (rangée %2$d sur %3$d)',
+	'CLI_REPARSER_REPARSE_REPARSING_START' => 'Réanalyse de « %s »…',
 	'CLI_REPARSER_REPARSE_SUCCESS'         => 'Réanalyse terminée',
 
 	// In all the case %1$s is the logical name of the file and %2$s the real name on the filesystem
 	// eg: big_image.png (2_a51529ae7932008cf8454a95af84cacd) generated.
-	'CLI_THUMBNAIL_DELETED'         => '%1$s (%2$s) supprimée.',
+	'CLI_THUMBNAIL_DELETED'         => '%1$s (%2$s) a été supprimée.',
 	'CLI_THUMBNAIL_DELETING'        => 'Suppression des vignettes',
-	'CLI_THUMBNAIL_SKIPPED'         => '%1$s (%2$s) ignorée.',
-	'CLI_THUMBNAIL_GENERATED'       => '%1$s (%2$s) générée.',
+	'CLI_THUMBNAIL_SKIPPED'         => '%1$s (%2$s) a été ignorée.',
+	'CLI_THUMBNAIL_GENERATED'       => '%1$s (%2$s) a été générée.',
 	'CLI_THUMBNAIL_GENERATING'      => 'Génération des vignettes',
-	'CLI_THUMBNAIL_GENERATING_DONE' => 'Toutes les vignettes ont été régénérées.',
+	'CLI_THUMBNAIL_GENERATING_DONE' => 'Toutes les vignettes ont été générées.',
 	'CLI_THUMBNAIL_DELETING_DONE'   => 'Toutes les vignettes ont été supprimées.',
 
 	'CLI_THUMBNAIL_NOTHING_TO_GENERATE' => 'Aucune vignette à générer.',
 	'CLI_THUMBNAIL_NOTHING_TO_DELETE'   => 'Aucune vignette à supprimer.',
 
-	'CLI_USER_ADD_SUCCESS'    => 'L’utilisateur %s a été ajouté.',
-	'CLI_USER_DELETE_CONFIRM' => 'Êtes-vous sûr de vouloir supprimer « %s » ? (oui : y, non : N)',
+	'CLI_USER_ADD_SUCCESS'    => 'L’utilisateur « %s » a été ajouté.',
+	'CLI_USER_DELETE_CONFIRM' => 'Êtes-vous sûr de vouloir supprimer « %s » ? Saisissez « y » pour confirmer ou « N » pour abandonner.',
 	'CLI_USER_RECLEAN_START'  => 'Renettoyage des noms d’utilisateurs',
 	'CLI_USER_RECLEAN_DONE'   => [
 		0 => 'Renettoyage terminé. Aucun nom d’utilisateur n’a nécessité d’être nettoyé.',

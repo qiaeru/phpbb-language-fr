@@ -49,7 +49,7 @@ $lang = array_merge($lang, [
 	'CREATE_INDEX'                    => 'Créer un index',
 
 	'DELETE_INDEX'                       => 'Supprimer un index',
-	'DELETING_INDEX_IN_PROGRESS'         => 'Suppression de l’index en cours.',
+	'DELETING_INDEX_IN_PROGRESS'         => 'Suppression de l’index.',
 	'DELETING_INDEX_IN_PROGRESS_EXPLAIN' => 'La méthode d’indexation de la recherche est actuellement en train de vider son index. Cela peut prendre quelques minutes.',
 
 	'FULLTEXT_MYSQL_INCOMPATIBLE_DATABASE'    => 'L’indexation plein texte de MySQL ne peut être utilisée qu’avec MySQL4 ou ses versions plus récentes.',
