@@ -15,6 +15,7 @@
 *.yml  text eol=lf
 
 # Files and directories with this attribute won't be added to archive files.
+/.github         export-ignore
 .codeclimate.yml export-ignore
 .editorconfig    export-ignore
 .gitattributes   export-ignore
@@ -22,5 +23,6 @@
 .styleci.yml     export-ignore
 .travis.yml      export-ignore
 CHANGELOG.md     export-ignore
+CONTRIBUTING.md  export-ignore
 composer.json    export-ignore
 README.md        export-ignore
