@@ -12,15 +12,4 @@ Includes the following French locales compatible with:
   - Bundled extension:
     - [VigLink 1.0.1](https://github.com/phpbb-extensions/viglink/releases/tag/release-1.0.1)
 
-Released under the GNU General Public License 2.0. Please see the [license terms](https://github.com/milescellar/phpbb-language-fr/blob/3.2.x/language/fr/LICENSE).
-
-## Contributing
-
-Thank you a lot to wish to contribute. I sincerely appreciate your commitment. Using the language pack is already a huge support, but best other ways to contribute are:
-
-- Star on GitHub. Because if you use it and like it, you can at least be a stargazer!
-- Follow on GitHub. You will be notified in real time of all changes. No more misses!
-- Report [issues](https://github.com/milescellar/phpbb-language-fr/issues) on GitHub. Any feedback is welcome.
-- Open pull requests on GitHub to submit fixes and improvements. Be listed as a [contributor](https://github.com/milescellar/phpbb-language-fr/graphs/contributors)!
-- Follow me [on Twitter](https://twitter.com/milescellar). Promise, I don't spam pictures of kittens and puppies (too much).
-- Let's have a drink if you are near Paris!
+Released under the GNU General Public License 2.0. Please see [the license terms](https://github.com/milescellar/phpbb-language-fr/blob/3.2.x/language/fr/LICENSE).
