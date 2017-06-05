@@ -7,7 +7,13 @@ engines:
   markdownlint:
     enabled: true
     checks:
+      MD002:
+        enabled: false
+      MD009:
+        enabled: false
       MD013:
+        enabled: false
+      MD024:
         enabled: false
   phpcodesniffer:
     enabled: true
