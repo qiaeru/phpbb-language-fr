@@ -65,6 +65,7 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_RECALCULATE_EMAIL_HASH' => 'Recalcule la colonne user_email_hash de la table des utilisateurs.',
 	'CLI_DESCRIPTION_SET_ATOMIC_CONFIG'      => 'Règle une valeur de l’option de configuration si l’ancienne valeur est identique à la valeur actuelle',
 	'CLI_DESCRIPTION_SET_CONFIG'             => 'Règle une valeur de l’option de configuration',
+	'CLI_DESCRIPTION_UPDATE_HASH_BCRYPT'     => 'Met à jour les hachages des mots de passe qui sont obsolètes afin de les encoder avec « bcrypt ».',
 
 	'CLI_EXTENSION_DISABLE_FAILURE' => 'Impossible de désactiver l’extension %s',
 	'CLI_EXTENSION_DISABLE_SUCCESS' => 'L’extension %s a été désactivée',
@@ -79,6 +80,7 @@ $lang = array_merge($lang, array(
 	'CLI_EXTENSIONS_ENABLED'        => 'Activé',
 
 	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS' => 'Tous les hachages des courriers électroniques ont été recalculés.',
+	'CLI_FIXUP_UPDATE_HASH_BCRYPT_SUCCESS'     => 'Les hachages des mots de passe qui étaient obsolètes ont été encodés avec « bcrypt ».',
 ));
 
 // Additional help for commands.
