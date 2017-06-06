@@ -6,7 +6,7 @@ The following is a set of guidelines for contributing to the French language pac
 
 ## Introduction
 
-The French language pack for phpBB is under the [GNU General Public License 2.0](https://github.com/milescellar/phpbb-language-fr/blob/3.2.x/language/fr/LICENSE) and is open source, so it can be freely accessed, used, changed, and shared (in modified or unmodified form) by anyone.
+The French language pack for phpBB is under the [GNU General Public License 2.0](https://github.com/milescellar/phpbb-language-fr/blob/master/language/fr/LICENSE) and is open source, so it can be freely accessed, used, changed, and shared (in modified or unmodified form) by anyone.
 
 If you want to directly contribute to the project, you accept to grant a nonexclusive, irrevocable license to use your submitted code in any way. Please don't contribute with something which legally doesn't belong to you. It's prohibited by the law, contrary to the spirit of open source and the contribution will inevitably end up being removed, causing troubles. The code you wrote is your original work (meaning that you own the copyright) or you otherwise have the right to submit the work.
 
