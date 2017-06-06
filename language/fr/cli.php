@@ -92,6 +92,8 @@ $lang = array_merge($lang, [
 	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_CACHE'     => 'Exécuter la commande de vérification avec le cache.',
 	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_STABILITY' => 'Exécuter la commande en choisissant de ne vérifier que les versions stables ou instables.',
 
+	'CLI_DESCRIPTION_UPDATE_HASH_BCRYPT' => 'Met à jour les hachages des mots de passe qui sont obsolètes afin de les encoder avec « bcrypt ».',
+
 	'CLI_ERROR_INVALID_STABILITY' => '« %s » doit être paramétré sur « stable » ou « instable ».',
 
 	'CLI_DESCRIPTION_USER_ACTIVATE'            => 'Activer (ou désactiver) le compte d’un utilisateur.',
@@ -126,6 +128,7 @@ $lang = array_merge($lang, [
 	'CLI_EXTENSIONS_ENABLED'        => 'Activée',
 
 	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS' => 'Tous les hachages des courriels ont été recalculés.',
+	'CLI_FIXUP_UPDATE_HASH_BCRYPT_SUCCESS'     => 'Les hachages des mots de passe qui étaient obsolètes ont été encodés avec « bcrypt ».',
 
 	'CLI_MIGRATION_NAME'            => 'Le nom de la migration, en incluant l’espace de noms (utilisez des barres obliques au lieu de barres obliques inversées afin d’éviter toute complication).',
 	'CLI_MIGRATIONS_AVAILABLE'      => 'Migrations disponibles',
