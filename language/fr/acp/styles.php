@@ -44,8 +44,8 @@ $lang = array_merge($lang, [
 
 	'DEACTIVATE_DEFAULT'         => 'Vous ne pouvez pas désactiver le style par défaut.',
 	'DELETE_FROM_FS'             => 'Supprimer du système de fichiers',
-	'DELETE_STYLE_FILES_FAILED'  => 'Une erreur est survenue lors de la suppression des fichiers du style « %s ».',
-	'DELETE_STYLE_FILES_SUCCESS' => 'Les fichiers du style « %s » ont été supprimés.',
+	'DELETE_STYLE_FILES_FAILED'  => 'Une erreur est survenue lors de la suppression des fichiers du style « <em>%s</em> ».',
+	'DELETE_STYLE_FILES_SUCCESS' => 'Les fichiers du style « <em>%s</em> » ont été supprimés.',
 	'DETAILS'                    => 'Informations',
 
 	'INHERITING_FROM'        => 'Hérite de',
@@ -59,7 +59,7 @@ $lang = array_merge($lang, [
 
 	'PURGED_CACHE' => 'Le cache a été vidé.',
 
-	'REQUIRES_STYLE' => 'Ce style ne fonctionne que si le style « %s » est également installé.',
+	'REQUIRES_STYLE' => 'Ce style ne fonctionne que si le style « <em>%s</em> » est également installé.',
 
 	'STYLE_ACTIVATE'                            => 'Activer',
 	'STYLE_ACTIVE'                              => 'Actif',
@@ -69,16 +69,16 @@ $lang = array_merge($lang, [
 	'STYLE_ERR_INVALID_PARENT'                  => 'Le style parent est invalide.',
 	'STYLE_ERR_NAME_EXIST'                      => 'Un style portant ce nom existe déjà.',
 	'STYLE_ERR_STYLE_NAME'                      => 'Vous devez saisir le nom de ce style.',
-	'STYLE_INSTALLED'                           => 'Le style « %s » a été installé.',
+	'STYLE_INSTALLED'                           => 'Le style « <em>%s</em> » a été installé.',
 	'STYLE_INSTALLED_RETURN_INSTALLED_STYLES'   => 'Revenir à la liste des styles installés',
 	'STYLE_INSTALLED_RETURN_UNINSTALLED_STYLES' => 'Installer de nouveaux styles',
 	'STYLE_NAME'                                => 'Nom du style',
-	'STYLE_NAME_RESERVED'                       => 'Le style « %s » ne peut pas être installé car le nom est réservé.',
-	'STYLE_NOT_INSTALLED'                       => 'Le style « %s » n’a pas été installé.',
+	'STYLE_NAME_RESERVED'                       => 'Le style « <em>%s</em> » ne peut pas être installé car le nom est réservé.',
+	'STYLE_NOT_INSTALLED'                       => 'Le style « <em>%s</em> » n’a pas été installé.',
 	'STYLE_PATH'                                => 'Chemin du style',
 	'STYLE_UNINSTALL'                           => 'Désinstaller',
-	'STYLE_UNINSTALL_DEPENDENT'                 => 'Le style « %s » ne peut pas être désinstallé car un ou plusieurs styles sont dépendants de ce dernier.',
-	'STYLE_UNINSTALLED'                         => 'Le style « %s » a été désinstallé.',
+	'STYLE_UNINSTALL_DEPENDENT'                 => 'Le style « <em>%s</em> » ne peut pas être désinstallé car un ou plusieurs styles sont dépendants de ce dernier.',
+	'STYLE_UNINSTALLED'                         => 'Le style « <em>%s</em> » a été désinstallé.',
 	'STYLE_USED_BY'                             => 'Utilisé par (incluant les robots)',
 	'STYLE_VERSION'                             => 'Version du style',
 

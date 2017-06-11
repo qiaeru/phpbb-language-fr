@@ -72,7 +72,7 @@ $lang = array_merge($lang, [
 
 	'TOKEN'            => 'Chaîne de symboles',
 	'TOKENS'           => 'Chaînes de symboles',
-	'TOKENS_EXPLAIN'   => 'Les chaînes de symboles sont des marques substitutives pour les entrées des utilisateurs. Les entrées ne seront validées que si elles trouvent la définition correspondante. Si besoin, vous pouvez les numéroter en ajoutant un nombre entre des accolades comme dernier caractère, tel que {TEXT1}, {TEXT2}, etc.<br /><br />Dans le code HTML, vous pouvez également utiliser une chaîne de langue dans votre répertoire language/ tel que {L_<em>&lt;NOMDELACHAÎNE&gt;</em>} où <em>&lt;NOMDELACHAÎNE&gt;</em> est le nom de la chaîne traduite que vous souhaitez ajouter. Par exemple, {L_WROTE} sera affiché en tant que « a écrit » ou sa traduction selon la langue locale de l’utilisateur.<br /><br /><strong>Veuillez noter que seules les chaînes listées ci-dessous sont autorisées à être utilisées dans les BBCodes personnalisés.</strong>',
+	'TOKENS_EXPLAIN'   => 'Les chaînes de symboles sont des marques substitutives pour les entrées des utilisateurs. Les entrées ne seront validées que si elles trouvent la définition correspondante. Si besoin, vous pouvez les numéroter en ajoutant un nombre entre des accolades comme dernier caractère, tel que {TEXT1}, {TEXT2}, etc.<br /><br />Dans le code HTML, vous pouvez également utiliser une chaîne de langue dans votre répertoire language/ tel que {L_<em>&lt;NOMDELACHAÎNE&gt;</em>} où <em>&lt;NOMDELACHAÎNE&gt;</em> est le nom de la chaîne traduite que vous souhaitez ajouter. Par exemple, {L_WROTE} sera affiché en tant que « <em>a écrit</em> » ou sa traduction selon la langue locale de l’utilisateur.<br /><br /><strong>Veuillez noter que seules les chaînes listées ci-dessous sont autorisées à être utilisées dans les BBCodes personnalisés.</strong>',
 	'TOKEN_DEFINITION' => 'Qu’est-ce que c’est ?',
 	'TOO_MANY_BBCODES' => 'Vous ne pouvez pas créer d’autres BBCodes. Veuillez supprimer un ou plusieurs BBCodes et réessayer.',
 
@@ -83,8 +83,8 @@ $lang = array_merge($lang, [
 		'IDENTIFIER'   => 'Des caractères de l’alphabet latin (A-Z), des chiffres, des tirets et des tirets bas.',
 		'NUMBER'       => 'Une série de chiffres.',
 		'EMAIL'        => 'Une adresse de courriel correcte.',
-		'URL'          => 'Une adresse universelle correcte utilisant n’importe quel protocole (http, ftp, etc.) ne pouvant pas être utilisée pour des injections de Javascript. Si aucun protocole n’est fourni, « http:// » sera utilisé par défaut.',
-		'LOCAL_URL'    => 'Une adresse universelle locale. L’adresse doit être relative à la page du sujet et ne doit pas contenir de nom de serveur ou de protocole, tels que des liens qui sont précédés de « %s »',
+		'URL'          => 'Une adresse universelle correcte utilisant n’importe quel protocole (http, ftp, etc.) ne pouvant pas être utilisée pour des injections de Javascript. Si aucun protocole n’est fourni, « <em>http://</em> » sera utilisé par défaut.',
+		'LOCAL_URL'    => 'Une adresse universelle locale. L’adresse doit être relative à la page du sujet et ne doit pas contenir de nom de serveur ou de protocole, tels que des liens qui sont précédés de « <em>%s</em> »',
 		'RELATIVE_URL' => 'Une adresse universelle relative. Vous pouvez utiliser des résultats partiels d’une adresse universelle, mais soyez vigilant : une adresse universelle complète est une adresse universelle relative correcte. Lorsque vous souhaitez utiliser les adresses universelles relatives de votre forum, utilisez la variable LOCAL_URL.',
 		'COLOR'        => 'Une couleur HTML qui peut être dans une forme hexadécimale <samp>#FF1234</samp> ou un <a href="https://www.w3.org/TR/CSS21/syndata.html#value-def-color">nom de couleur CSS</a> (en anglais), tel que <samp>fuchsia</samp> ou <samp>InactiveBorder</samp>.',
 	],
@@ -174,9 +174,9 @@ $lang = array_merge($lang, [
 	'SMILIES_CONFIG'    => 'Configuration de l’émoticône',
 	'SMILIES_DELETED'   => 'L’émoticône a été supprimée.',
 	'SMILIES_EDIT'      => 'Modifier l’émoticône',
-	'SMILIE_NO_CODE'    => 'L’émoticône « %s » a été ignorée car aucun code n’a été spécifié.',
-	'SMILIE_NO_EMOTION' => 'L’émoticône « %s » a été ignorée car aucune émoticône n’a été spécifiée.',
-	'SMILIE_NO_FILE'    => 'L’émoticône « %s » a été ignorée car le fichier est manquant.',
+	'SMILIE_NO_CODE'    => 'L’émoticône « <em>%s</em> » a été ignorée car aucun code n’a été spécifié.',
+	'SMILIE_NO_EMOTION' => 'L’émoticône « <em>%s</em> » a été ignorée car aucune émoticône n’a été spécifiée.',
+	'SMILIE_NO_FILE'    => 'L’émoticône « <em>%s</em> » a été ignorée car le fichier est manquant.',
 	'SMILIES_EDITED'    => [
 		0 => 'Aucune émoticône n’a été mise à jour.',
 		1 => 'L’émoticône a été mise à jour.',
@@ -245,11 +245,11 @@ $lang = array_merge($lang, [
 
 // Disallow Usernames
 $lang = array_merge($lang, [
-	'ACP_DISALLOW_EXPLAIN' => 'Depuis cette page, vous pouvez gérer les noms d’utilisateurs qui ne sont pas autorisés à être utilisés. Les noms d’utilisateurs interdits peuvent contenir un joker « * ».',
-	'ADD_DISALLOW_EXPLAIN' => 'Vous pouvez interdire un nom d’utilisateur en utilisant un joker « * » qui remplacera alors n’importe quel caractère.',
+	'ACP_DISALLOW_EXPLAIN' => 'Depuis cette page, vous pouvez gérer les noms d’utilisateurs qui ne sont pas autorisés à être utilisés. Les noms d’utilisateurs interdits peuvent contenir un joker <strong>*</strong>.',
+	'ADD_DISALLOW_EXPLAIN' => 'Vous pouvez interdire un nom d’utilisateur en utilisant un joker <strong>*</strong> qui remplacera alors n’importe quel caractère.',
 	'ADD_DISALLOW_TITLE'   => 'Ajouter un nom d’utilisateur interdit',
 
-	'DELETE_DISALLOW_EXPLAIN' => 'Vous pouvez supprimer un nom d’utilisateur interdit en sélectionnant dans cette liste le nom d’utilisateur souhaité et en cliquant sur « Envoyer ».',
+	'DELETE_DISALLOW_EXPLAIN' => 'Vous pouvez supprimer un nom d’utilisateur interdit en sélectionnant dans cette liste le nom d’utilisateur souhaité et en cliquant sur « <em>Envoyer</em> ».',
 	'DELETE_DISALLOW_TITLE'   => 'Supprimer un nom d’utilisateur interdit',
 	'DISALLOWED_ALREADY'      => 'Le nom d’utilisateur que vous avez spécifié est déjà interdit.',
 	'DISALLOWED_DELETED'      => 'Le nom d’utilisateur interdit a été supprimé.',
@@ -261,7 +261,7 @@ $lang = array_merge($lang, [
 
 // Reasons
 $lang = array_merge($lang, [
-	'ACP_REASONS_EXPLAIN' => 'Depuis cette page, vous pouvez gérer les raisons utilisées dans les rapports lors de la désapprobation de messages. La raison par défaut (marquée avec « * ») ne peut pas être supprimée car elle est réservée aux messages personnalisés quand aucune raison n’est spécifiée.',
+	'ACP_REASONS_EXPLAIN' => 'Depuis cette page, vous pouvez gérer les raisons utilisées dans les rapports lors de la désapprobation de messages. La raison par défaut (marquée avec <strong>*</strong>) ne peut pas être supprimée car elle est réservée aux messages personnalisés quand aucune raison n’est spécifiée.',
 	'ADD_NEW_REASON'      => 'Ajouter une nouvelle raison',
 	'AVAILABLE_TITLES'    => 'Titres des raisons traduites disponibles',
 
@@ -272,7 +272,7 @@ $lang = array_merge($lang, [
 
 	'NO_REASON'                => 'La raison est introuvable.',
 	'NO_REASON_INFO'           => 'Vous devez saisir le titre et la description de cette raison.',
-	'NO_REMOVE_DEFAULT_REASON' => 'Vous ne pouvez pas supprimer la raison par défaut « Divers ».',
+	'NO_REMOVE_DEFAULT_REASON' => 'Vous ne pouvez pas supprimer la raison par défaut « <em>Divers</em> ».',
 
 	'REASON_ADD'              => 'Ajouter une raison',
 	'REASON_ADDED'            => 'La raison a été ajoutée.',

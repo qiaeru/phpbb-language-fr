@@ -38,7 +38,7 @@ if (empty($lang) || !is_array($lang))
 // Bot settings
 $lang = array_merge($lang, [
 	'BOTS'              => 'Gérer les robots',
-	'BOTS_EXPLAIN'      => 'Les « robots » sont des agents automatisés qui sont dans la plupart des cas utilisés par les moteurs de recherche afin d’alimenter leur base de données. Les robots n’utilisant que très rarement les sessions de manière appropriée, il est fréquent qu’ils augmentent inutilement la charge des serveurs et qu’ils n’indexent pas correctement certaines pages. Vous pouvez définir ici un type spécial d’utilisateurs qui vous permettra de résoudre ces problèmes.',
+	'BOTS_EXPLAIN'      => 'Les robots sont des agents automatisés qui sont dans la plupart des cas utilisés par les moteurs de recherche afin d’alimenter leur base de données. Les robots n’utilisant que très rarement les sessions de manière appropriée, il est fréquent qu’ils augmentent inutilement la charge des serveurs et qu’ils n’indexent pas correctement certaines pages. Vous pouvez définir ici un type spécial d’utilisateurs qui vous permettra de résoudre ces problèmes.',
 	'BOT_ACTIVATE'      => 'Activer',
 	'BOT_ACTIVE'        => 'Robot actif',
 	'BOT_ADD'           => 'Ajouter un robot',

@@ -58,7 +58,7 @@ $lang = array_merge($lang, [
 	'CP_LANG_NAME'                 => 'Nom ou titre du champ affiché aux utilisateurs',
 	'CP_LANG_OPTIONS'              => 'Options',
 	'CREATE_NEW_FIELD'             => 'Créer un nouveau champ',
-	'CUSTOM_FIELDS_NOT_TRANSLATED' => 'Au moins un champ de profil personnalisé n’a pas encore été traduit. Veuillez compléter l’information demandée en cliquant sur le lien « Traduire ».',
+	'CUSTOM_FIELDS_NOT_TRANSLATED' => 'Au moins un champ de profil personnalisé n’a pas encore été traduit. Veuillez compléter l’information demandée en cliquant sur le lien « <em>Traduire</em> ».',
 
 	'DEFAULT_ISO_LANGUAGE'          => 'Langue par défaut [%s]',
 	'DEFAULT_LANGUAGE_NOT_FILLED'   => 'Les éléments de langue de la langue par défaut ne sont pas spécifiés concernant ce champ de profil.',

@@ -62,7 +62,7 @@ $lang = array_merge($lang, [
 	'EMAIL_TOPIC'         => 'Envoyer le sujet par courriel',
 	'ERROR_NO_ATTACHMENT' => 'La pièce jointe est introuvable.',
 
-	'FILE_NOT_FOUND_404' => 'Le fichier <strong>%s</strong> est introuvable.',
+	'FILE_NOT_FOUND_404' => 'Le fichier « <em>%s</em> » est introuvable.',
 	'FORK_TOPIC'         => 'Copier le sujet',
 	'FULL_EDITOR'        => 'Éditeur avancé et prévisualisation',
 
@@ -70,15 +70,15 @@ $lang = array_merge($lang, [
 	'LOGIN_NOTIFY_TOPIC' => 'Vous avez reçu une notification concernant un message de ce sujet. Veuillez vous connecter afin de le consulter.',
 	'LOGIN_VIEWTOPIC'    => 'Vous devez être inscrit et connecté afin de consulter ce sujet.',
 
-	'MAKE_ANNOUNCE'      => 'Modifier en « annonce »',
-	'MAKE_GLOBAL'        => 'Modifier en « annonce générale »',
-	'MAKE_NORMAL'        => 'Modifier en « sujet standard »',
-	'MAKE_STICKY'        => 'Modifier en « note »',
+	'MAKE_ANNOUNCE'      => 'Modifier en annonce',
+	'MAKE_GLOBAL'        => 'Modifier en annonce générale',
+	'MAKE_NORMAL'        => 'Modifier en sujet standard',
+	'MAKE_STICKY'        => 'Modifier en note',
 	'MAX_OPTIONS_SELECT' => [
-		1 => 'Vous pouvez sélectionner <strong>%d</strong> option',
-		2 => 'Vous pouvez sélectionner <strong>%d</strong> options',
+		1 => 'Vous pouvez sélectionner %d option',
+		2 => 'Vous pouvez sélectionner %d options',
 	],
-	'MISSING_INLINE_ATTACHMENT' => 'La pièce jointe <strong>%s</strong> n’est plus disponible',
+	'MISSING_INLINE_ATTACHMENT' => 'La pièce jointe « <em>%s</em> » n’est plus disponible',
 	'MOVE_TOPIC'                => 'Déplacer le sujet',
 
 	'NO_ATTACHMENT_SELECTED' => 'Vous n’avez sélectionné aucune pièce jointe à télécharger ou à consulter.',

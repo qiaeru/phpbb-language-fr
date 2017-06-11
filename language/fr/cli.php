@@ -60,7 +60,7 @@ $lang = array_merge($lang, [
 	'CLI_DESCRIPTION_FIND_MIGRATIONS'     => 'Détecte les migrations indépendantes.',
 	'CLI_DESCRIPTION_GET_CONFIG'          => 'Obtient une valeur de l’option de configuration',
 	'CLI_DESCRIPTION_INCREMENT_CONFIG'    => 'Incrémente une valeur entière de l’option de configuration',
-	'CLI_DESCRIPTION_LIST_EXTENSIONS'     => 'Liste toutes les extensions présentes dans la base de données et sur le système de fichiers.',
+	'CLI_DESCRIPTION_LIST_EXTENSIONS'     => 'Liste toutes les extensions présentes dans la base de données et le système de fichiers.',
 
 	'CLI_DESCRIPTION_OPTION_ENV'       => 'Le nom de l’environnement.',
 	'CLI_DESCRIPTION_OPTION_SAFE_MODE' => 'Exécuter en mode sans échec (sans extension).',
@@ -92,7 +92,7 @@ $lang = array_merge($lang, [
 	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_CACHE'     => 'Exécuter la commande en ne vérifiant que les versions mises en cache.',
 	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_STABILITY' => 'Exécuter la commande en ne vérifiant que les versions stables ou instables.',
 
-	'CLI_DESCRIPTION_UPDATE_HASH_BCRYPT' => 'Met à jour les hachages des mots de passe qui sont obsolètes afin de les encoder avec « bcrypt ».',
+	'CLI_DESCRIPTION_UPDATE_HASH_BCRYPT' => 'Met à jour les hachages des mots de passe obsolètes afin de les encoder avec « bcrypt ».',
 
 	'CLI_ERROR_INVALID_STABILITY' => '« %s » doit être paramétré sur « stable » ou « instable ».',
 
@@ -128,7 +128,7 @@ $lang = array_merge($lang, [
 	'CLI_EXTENSIONS_ENABLED'        => 'Activée',
 
 	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS' => 'Tous les hachages des courriels ont été recalculés.',
-	'CLI_FIXUP_UPDATE_HASH_BCRYPT_SUCCESS'     => 'Les hachages des mots de passe qui étaient obsolètes ont été encodés avec « bcrypt ».',
+	'CLI_FIXUP_UPDATE_HASH_BCRYPT_SUCCESS'     => 'Les hachages des mots de passe obsolètes ont été encodés avec « bcrypt ».',
 
 	'CLI_MIGRATION_NAME'            => 'Le nom de la migration, espaces de noms inclus (veuillez utiliser des barres obliques à la place de barres obliques inversées).',
 	'CLI_MIGRATIONS_AVAILABLE'      => 'Migrations disponibles',
@@ -154,7 +154,7 @@ $lang = array_merge($lang, [
 	'CLI_THUMBNAIL_NOTHING_TO_DELETE'   => 'Aucune vignette à supprimer.',
 
 	'CLI_USER_ADD_SUCCESS'    => 'L’utilisateur « %s » a été ajouté.',
-	'CLI_USER_DELETE_CONFIRM' => 'Êtes-vous sûr de vouloir supprimer « %s » ? Saisissez « y » pour confirmer ou « N » pour abandonner.',
+	'CLI_USER_DELETE_CONFIRM' => 'Êtes-vous sûr de vouloir supprimer « %s » ? Saisissez « y » pour confirmer ou « N » pour annuler.',
 	'CLI_USER_RECLEAN_START'  => 'Renettoyage des noms d’utilisateurs',
 	'CLI_USER_RECLEAN_DONE'   => [
 		0 => 'Renettoyage terminé. Aucun nom d’utilisateur n’a nécessité d’être nettoyé.',
