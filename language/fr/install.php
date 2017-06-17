@@ -198,6 +198,7 @@ $lang = array_merge($lang, [
 	'INST_ERR_DB_NO_NAME'           => 'Aucun nom de base de données n’a été spécifié.',
 	'INST_ERR_DB_FORUM_PATH'        => 'Le fichier de la base de données est situé à la racine du répertoire de votre forum. Vous devriez déplacer ce fichier dans un environnement hors-ligne.',
 	'INST_ERR_DB_CONNECT'           => 'Impossible de se connecter à la base de données. Veuillez consulter le message d’erreur ci-dessous.',
+	'INST_ERR_DB_NO_WRITABLE'       => 'La base de données et le répertoire doivent tous deux pouvoir être écrits.',
 	'INST_ERR_DB_NO_ERROR'          => 'Aucun message d’erreur.',
 	'INST_ERR_PREFIX'               => 'Des tables contenant le préfixe spécifié existent déjà. Veuillez en choisir un autre.',
 	'INST_ERR_DB_NO_MYSQLI'         => 'La version de MySQL installée sur votre serveur est incompatible avec l’option « MySQL avec l’extension MySQLi » sélectionnée. Veuillez plutôt essayer de sélectionner l’option « MySQL ».',
