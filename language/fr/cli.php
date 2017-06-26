@@ -58,6 +58,7 @@ $lang = array_merge($lang, [
 	'CLI_DESCRIPTION_DISABLE_EXTENSION'   => 'Désactive l’extension spécifiée.',
 	'CLI_DESCRIPTION_ENABLE_EXTENSION'    => 'Active l’extension spécifiée.',
 	'CLI_DESCRIPTION_FIND_MIGRATIONS'     => 'Détecte les migrations indépendantes.',
+	'CLI_DESCRIPTION_FIX_LEFT_RIGHT_IDS'  => 'Répare l’arborescence des forums et des modules.',
 	'CLI_DESCRIPTION_GET_CONFIG'          => 'Obtient une valeur de l’option de configuration',
 	'CLI_DESCRIPTION_INCREMENT_CONFIG'    => 'Incrémente une valeur entière de l’option de configuration',
 	'CLI_DESCRIPTION_LIST_EXTENSIONS'     => 'Liste toutes les extensions dans la base de données et sur le système de fichiers.',
@@ -127,6 +128,7 @@ $lang = array_merge($lang, [
 	'CLI_EXTENSIONS_DISABLED'       => 'Désactivée',
 	'CLI_EXTENSIONS_ENABLED'        => 'Activée',
 
+	'CLI_FIXUP_FIX_LEFT_RIGHT_IDS_SUCCESS'     => 'L’arborescence des forums et des modules a été réparée.',
 	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS' => 'Tous les hachages des courriels ont été recalculés.',
 	'CLI_FIXUP_UPDATE_HASH_BCRYPT_SUCCESS'     => 'Les hachages des mots de passe qui étaient obsolètes ont été encodés avec « bcrypt ».',
 
