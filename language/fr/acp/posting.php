@@ -86,7 +86,7 @@ $lang = array_merge($lang, [
 		'URL'          => 'Une adresse universelle correcte utilisant n’importe quel protocole (HTTP, FTP, etc.) ne pouvant pas être utilisée pour des injections de Javascript. Si aucun protocole n’est fourni, « http:// » sera utilisé par défaut.',
 		'LOCAL_URL'    => 'Une adresse universelle locale. L’adresse doit être relative à la page du sujet et ne doit pas contenir de nom de serveur ou de protocole, tels que des liens qui sont précédés de « %s »',
 		'RELATIVE_URL' => 'Une adresse universelle relative. Vous pouvez utiliser des résultats partiels d’une adresse universelle, mais soyez vigilant : une adresse universelle complète est une adresse universelle relative correcte. Lorsque vous souhaitez utiliser les adresses universelles relatives de votre forum, utilisez la variable « LOCAL_URL ».',
-		'COLOR'        => 'Une couleur HTML qui peut être dans une forme hexadécimale « #FF1234 » ou un <a href="https://www.w3.org/TR/CSS21/syndata.html#value-def-color">nom de couleur CSS</a> (en anglais), tel que « fuchsia » ou « InactiveBorder ».',
+		'COLOR'        => 'Une couleur HTML qui peut être dans une forme hexadécimale « #FF1234 » ou un <a href="https://www.w3.org/TR/css3-color/#colorunits">nom de couleur CSS</a> (en anglais), tel que « black » ou « fuchsia ».',
 	],
 ]);
 
