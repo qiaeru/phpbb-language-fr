@@ -53,7 +53,7 @@ $lang = array_merge($lang, [
 	'GLOBAL' => 'Annonce générale',
 
 	'IGNORED_TERMS'         => 'ignorés',
-	'IGNORED_TERMS_EXPLAIN' => 'Les mots suivants ont été ignorés car ils sont considérés comme trop communs : <strong>%s</strong>.',
+	'IGNORED_TERMS_EXPLAIN' => 'Les mots suivants ont été ignorés car ils sont considérés comme trop communs : « %s ».',
 
 	'JUMP_TO_POST' => 'Aller au message',
 
@@ -76,8 +76,8 @@ $lang = array_merge($lang, [
 		2 => 'Vous ne pouvez pas effectuer de recherche pour le moment. Veuillez réessayer dans %d secondes.',
 	],
 	'NO_SEARCH_UNREADS' => 'Le système de recherche des messages non lus a été désactivé sur ce forum.',
-	'WORD_IN_NO_POST'   => 'Le mot <strong>%s</strong> n’est présent dans aucun message.',
-	'WORDS_IN_NO_POST'  => 'Les mots <strong>%s</strong> ne sont présents dans aucun message.',
+	'WORD_IN_NO_POST'   => 'Le mot « %s » n’est présent dans aucun message.',
+	'WORDS_IN_NO_POST'  => 'Les mots « %s » ne sont présents dans aucun message.',
 
 	'POST_CHARACTERS'        => 'caractères des messages',
 	'PHRASE_SEARCH_DISABLED' => 'La recherche par phrase exacte n’est pas prise en charge sur ce forum.',
@@ -94,12 +94,12 @@ $lang = array_merge($lang, [
 	'SEARCH_ALL_TERMS'         => 'Rechercher tous les termes ou utiliser une question comme élément',
 	'SEARCH_ANY_TERMS'         => 'Rechercher n’importe quel de ces termes',
 	'SEARCH_AUTHOR'            => 'Rechercher par auteur',
-	'SEARCH_AUTHOR_EXPLAIN'    => 'Utilisez <strong>*</strong> comme joker si vous souhaitez effectuer des recherches partielles.',
+	'SEARCH_AUTHOR_EXPLAIN'    => 'Utilisez le caractère « * » comme joker si vous souhaitez effectuer des recherches partielles.',
 	'SEARCH_FIRST_POST'        => 'Le premier message des sujets uniquement',
 	'SEARCH_FORUMS'            => 'Rechercher dans les forums',
-	'SEARCH_FORUMS_EXPLAIN'    => 'Sélectionnez le ou les forums dans lesquels vous souhaitez effectuer une recherche. Les sous-forums seront automatiquement inclus dans la recherche si vous ne désactivez pas l’option « <em>Rechercher dans les sous-forums</em> » affichée ci-dessous.',
+	'SEARCH_FORUMS_EXPLAIN'    => 'Sélectionnez le ou les forums dans lesquels vous souhaitez effectuer une recherche. Les sous-forums seront automatiquement inclus dans la recherche si vous ne désactivez pas l’option « Rechercher dans les sous-forums » affichée ci-dessous.',
 	'SEARCH_IN_RESULTS'        => 'Rechercher dans ces résultats',
-	'SEARCH_KEYWORDS_EXPLAIN'  => 'Insérez <strong>+</strong> devant un mot qui doit être trouvé et <strong>-</strong> devant un mot qui doit être ignoré. Insérez une liste de mots séparés entre des barres verticales discontinues <strong>|</strong> si seul un des mots doit être trouvé. Utilisez <strong>*</strong> comme joker si vous souhaitez effectuer des recherches partielles.',
+	'SEARCH_KEYWORDS_EXPLAIN'  => 'Insérez le caractère « + » devant un mot qui doit être trouvé et « - » devant un mot qui doit être ignoré. Insérez une liste de mots séparés entre des barres verticales discontinues « | » si seul un des mots doit être trouvé. Utilisez le caractère « * » comme joker si vous souhaitez effectuer des recherches partielles.',
 	'SEARCH_MSG_ONLY'          => 'Le contenu des messages uniquement',
 	'SEARCH_OPTIONS'           => 'Préférences de la recherche',
 	'SEARCH_QUERY'             => 'Requête de la recherche',

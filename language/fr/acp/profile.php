@@ -46,7 +46,7 @@ $lang = array_merge($lang, [
 	'ALWAYS_TODAY'        => 'Toujours la date actuelle',
 
 	'BOOL_ENTRIES_EXPLAIN' => 'Saisissez à présent vos options',
-	'BOOL_TYPE_EXPLAIN'    => 'Détermine le type, soit une case à cocher, soit un bouton radio. Les cases à cocher ne seront affichées que si cela est coché pour un utilisateur spécifique. Dans ce cas, la <strong>seconde</strong> option de langue sera utilisée. Les boutons radios seront affichés sans prendre en compte leur valeur.',
+	'BOOL_TYPE_EXPLAIN'    => 'Détermine le type, soit une case à cocher, soit un bouton radio. Les cases à cocher ne seront affichées que si cela est coché pour un utilisateur spécifique. Dans ce cas, la seconde option de langue sera utilisée. Les boutons radios seront affichés sans prendre en compte leur valeur.',
 
 	'CHANGED_PROFILE_FIELD'        => 'Le champ de profil a été modifié.',
 	'CHARS_ANY'                    => 'N’importe quel caractère',
@@ -58,7 +58,7 @@ $lang = array_merge($lang, [
 	'CP_LANG_NAME'                 => 'Nom ou titre du champ affiché aux utilisateurs',
 	'CP_LANG_OPTIONS'              => 'Options',
 	'CREATE_NEW_FIELD'             => 'Créer un nouveau champ',
-	'CUSTOM_FIELDS_NOT_TRANSLATED' => 'Au moins un champ de profil personnalisé n’a pas encore été traduit. Veuillez compléter l’information demandée en cliquant sur le lien « <em>Traduire</em> ».',
+	'CUSTOM_FIELDS_NOT_TRANSLATED' => 'Au moins un champ de profil personnalisé n’a pas encore été traduit. Veuillez compléter l’information demandée en cliquant sur le lien « Traduire ».',
 
 	'DEFAULT_ISO_LANGUAGE'          => 'Langue par défaut [%s]',
 	'DEFAULT_LANGUAGE_NOT_FILLED'   => 'Les éléments de langue de la langue par défaut ne sont pas spécifiés concernant ce champ de profil.',
@@ -98,7 +98,7 @@ $lang = array_merge($lang, [
 	'FIELD_IDENT_EXPLAIN'       => 'L’identification du champ correspond au nom qui permet d’identifier le champ de profil dans la base de données et les modèles.',
 	'FIELD_INT'                 => 'Chiffres',
 	'FIELD_IS_CONTACT'          => 'Afficher le champ comme un champ de contact',
-	'FIELD_IS_CONTACT_EXPLAIN'  => 'Les champs de contact sont affichés dans la section de contact sur le profil des utilisateurs et sont affichés différemment dans le profil miniature situé à côté des messages et des messages privés. Vous pouvez utiliser <samp>%s</samp> comme une variable de marque substitutive qui sera remplacée par la valeur que les utilisateurs auront saisi.',
+	'FIELD_IS_CONTACT_EXPLAIN'  => 'Les champs de contact sont affichés dans la section de contact sur le profil des utilisateurs et sont affichés différemment dans le profil miniature situé à côté des messages et des messages privés. Vous pouvez utiliser « %s » comme une variable de marque substitutive qui sera remplacée par la valeur que les utilisateurs auront saisi.',
 	'FIELD_LENGTH'              => 'Largeur de la boîte de saisie',
 	'FIELD_NOT_FOUND'           => 'Le champ de profil est introuvable.',
 	'FIELD_STRING'              => 'Champ de texte simple',

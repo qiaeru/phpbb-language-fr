@@ -48,7 +48,7 @@ $lang = array_merge($lang, [
 
 	// Support page
 	'SUPPORT_TITLE' => 'Support',
-	'SUPPORT_BODY'  => 'La dernière version stable de phpBB 3 vous permet de bénéficier d’une assistance complète et gratuite comprenant :</p><ul><li>l’installation</li><li>la configuration</li><li>les questions techniques</li><li>les problèmes en relation avec de potentiels bogues du logiciel</li><li>la mise à jour d’une version « <em>Release Candidate</em> » (RC) vers la dernière version stable</li><li>la conversion de phpBB 2.0 vers phpBB 3.3</li><li>la conversion d’un logiciel de forum de discussions vers phpBB 3.3 (veuillez consulter le <a href="https://www.phpbb.com/community/viewforum.php?f=486">forum relatif aux convertisseurs</a> (en anglais))</li></ul><p>Nous encourageons vivement les utilisateurs des versions « <em>Beta</em> » de phpBB 3.3 à procéder à une nouvelle installation vers la dernière version stable.</p><h2>Extensions et styles</h2><p>Concernant les problèmes relatifs aux extensions, veuillez publier vos questions dans le <a href="https://www.phpbb.com/community/viewforum.php?f=451">forum relatif aux extensions</a> (en anglais).<br />Concernant les problèmes relatifs aux styles, aux modèles et aux thèmes, veuillez publier vos questions dans le <a href="https://www.phpbb.com/community/viewforum.php?f=471">forum relatif aux styles</a> (en anglais).<br /><br />Si votre question est spécifique à une archive, veuillez publier directement votre demande dans le sujet dédié à cette archive.</p><h2>Assistance</h2><p><a href="https://www.phpbb.com/community/viewtopic.php?f=14&amp;t=571070">Le message de bienvenue de phpBB</a> (en anglais)<br /><a href="https://www.phpbb.com/support/">La section relative à l’assistance</a> (en anglais)<br /><a href="https://www.phpbb.com/support/docs/en/3.3/ug/quickstart/">Le guide de démarrage rapide</a> (en anglais)<br /><br />Si vous souhaitez être tenu au courant des dernières versions et nouveautés de notre logiciel, vous pouvez <a href="https://www.phpbb.com/support/">vous inscrire à notre liste de diffusion</a> (en anglais).<br /><br />',
+	'SUPPORT_BODY'  => 'La dernière version stable de phpBB 3 vous permet de bénéficier d’une assistance complète et gratuite comprenant :</p><ul><li>l’installation</li><li>la configuration</li><li>les questions techniques</li><li>les problèmes en relation avec de potentiels bogues du logiciel</li><li>la mise à jour d’une version « Release Candidate » (RC) vers la dernière version stable</li><li>la conversion de phpBB 2.0 vers phpBB 3.3</li><li>la conversion d’un logiciel de forum de discussions vers phpBB 3.3 (veuillez consulter le <a href="https://www.phpbb.com/community/viewforum.php?f=486">forum relatif aux convertisseurs</a> (en anglais))</li></ul><p>Nous encourageons vivement les utilisateurs des versions « Beta » de phpBB 3.3 à procéder à une nouvelle installation vers la dernière version stable.</p><h2>Extensions et styles</h2><p>Concernant les problèmes relatifs aux extensions, veuillez publier vos questions dans le <a href="https://www.phpbb.com/community/viewforum.php?f=451">forum relatif aux extensions</a> (en anglais).<br />Concernant les problèmes relatifs aux styles, aux modèles et aux thèmes, veuillez publier vos questions dans le <a href="https://www.phpbb.com/community/viewforum.php?f=471">forum relatif aux styles</a> (en anglais).<br /><br />Si votre question est spécifique à une archive, veuillez publier directement votre demande dans le sujet dédié à cette archive.</p><h2>Assistance</h2><p><a href="https://www.phpbb.com/community/viewtopic.php?f=14&amp;t=571070">Le message de bienvenue de phpBB</a> (en anglais)<br /><a href="https://www.phpbb.com/support/">La section relative à l’assistance</a> (en anglais)<br /><a href="https://www.phpbb.com/support/docs/en/3.3/ug/quickstart/">Le guide de démarrage rapide</a> (en anglais)<br /><br />Si vous souhaitez être tenu au courant des dernières versions et nouveautés de notre logiciel, vous pouvez <a href="https://www.phpbb.com/support/">vous inscrire à notre liste de diffusion</a> (en anglais).<br /><br />',
 
 	// License
 	'LICENSE_TITLE' => 'Licence publique générale',
@@ -65,7 +65,7 @@ $lang = array_merge($lang, [
 		<li>Le nom d’utilisateur et le mot de passe de votre base de données (qui vous permettent de vous connecter pour accéder à votre base de données)</li>
 	</ul>
 
-	<p><strong>Information :</strong> si vous procédez à une installation en utilisant SQLite, vous devrez saisir le chemin complet de votre fichier de base de données dans le champ DSN et laisser les champs du nom d’utilisateur et du mot de passe vides. Pour des raisons de sécurité, vous devriez vous assurer que le fichier de base de données ne soit pas situé dans un endroit accessible sur internet.</p>
+	<p><strong>Attention :</strong> si vous procédez à une installation en utilisant SQLite, vous devrez saisir le chemin complet de votre fichier de base de données dans le champ DSN et laisser les champs du nom d’utilisateur et du mot de passe vides. Pour des raisons de sécurité, vous devriez vous assurer que le fichier de base de données ne soit pas situé dans un endroit accessible sur internet.</p>
 
 	<p>phpBB 3.3 est compatible avec les bases de données suivantes :</p>
 	<ul>
@@ -89,30 +89,30 @@ $lang = array_merge($lang, [
 $lang = array_merge($lang, [
 	// Filesystem requirements
 	'FILE_NOT_EXISTS'                    => 'Le fichier est introuvable',
-	'FILE_NOT_EXISTS_EXPLAIN'            => 'Assurez-vous que le fichier « <em>%1$s</em> » existe afin d’installer phpBB.',
-	'FILE_NOT_EXISTS_EXPLAIN_OPTIONAL'   => 'Il est recommandé que le fichier « <em>%1$s</em> » existe afin de bénéficier d’une meilleure expérience utilisateur.',
+	'FILE_NOT_EXISTS_EXPLAIN'            => 'Assurez-vous que le fichier « %1$s » existe afin d’installer phpBB.',
+	'FILE_NOT_EXISTS_EXPLAIN_OPTIONAL'   => 'Il est recommandé que le fichier « %1$s » existe afin de bénéficier d’une meilleure expérience utilisateur.',
 	'FILE_NOT_WRITABLE'                  => 'Le fichier est en lecture seule',
-	'FILE_NOT_WRITABLE_EXPLAIN'          => 'Les droits d’accès du fichier « <em>%1$s</em> » doivent être modifiés pour écriture par votre serveur afin d’installer phpBB.',
-	'FILE_NOT_WRITABLE_EXPLAIN_OPTIONAL' => 'Il est recommandé de modifier les droits d’accès du fichier « <em>%1$s</em> » pour écriture par votre serveur afin de bénéficier d’une meilleure expérience utilisateur.',
+	'FILE_NOT_WRITABLE_EXPLAIN'          => 'Les droits d’accès du fichier « %1$s » doivent être modifiés pour écriture par votre serveur afin d’installer phpBB.',
+	'FILE_NOT_WRITABLE_EXPLAIN_OPTIONAL' => 'Il est recommandé de modifier les droits d’accès du fichier « %1$s » pour écriture par votre serveur afin de bénéficier d’une meilleure expérience utilisateur.',
 
 	'DIRECTORY_NOT_EXISTS'                    => 'Le répertoire est introuvable',
-	'DIRECTORY_NOT_EXISTS_EXPLAIN'            => 'Assurez-vous que le répertoire « <em>%1$s</em> » existe afin d’installer phpBB.',
-	'DIRECTORY_NOT_EXISTS_EXPLAIN_OPTIONAL'   => 'Il est recommandé que le répertoire « <em>%1$s</em> » existe afin de bénéficier d’une meilleure expérience utilisateur.',
+	'DIRECTORY_NOT_EXISTS_EXPLAIN'            => 'Assurez-vous que le répertoire « %1$s » existe afin d’installer phpBB.',
+	'DIRECTORY_NOT_EXISTS_EXPLAIN_OPTIONAL'   => 'Il est recommandé que le répertoire « %1$s » existe afin de bénéficier d’une meilleure expérience utilisateur.',
 	'DIRECTORY_NOT_WRITABLE'                  => 'Le répertoire est en lecture seule',
-	'DIRECTORY_NOT_WRITABLE_EXPLAIN'          => 'Les droits d’accès du répertoire « <em>%1$s</em> » doivent être modifiés pour écriture par votre serveur afin d’installer phpBB.',
-	'DIRECTORY_NOT_WRITABLE_EXPLAIN_OPTIONAL' => 'Il est recommandé de modifier les droits d’accès du répertoire « <em>%1$s</em> » pour écriture par votre serveur afin de bénéficier d’une meilleure expérience utilisateur.',
+	'DIRECTORY_NOT_WRITABLE_EXPLAIN'          => 'Les droits d’accès du répertoire « %1$s » doivent être modifiés pour écriture par votre serveur afin d’installer phpBB.',
+	'DIRECTORY_NOT_WRITABLE_EXPLAIN_OPTIONAL' => 'Il est recommandé de modifier les droits d’accès du répertoire « %1$s » pour écriture par votre serveur afin de bénéficier d’une meilleure expérience utilisateur.',
 
 	// Server requirements
 	'PHP_VERSION_REQD'                 => 'Version de PHP',
 	'PHP_VERSION_REQD_EXPLAIN'         => 'phpBB requiert la version 5.4.0 ou supérieure de PHP.',
-	'PHP_GETIMAGESIZE_SUPPORT'         => 'La fonction PHP « <em>getimagesize()</em> » est requise.',
-	'PHP_GETIMAGESIZE_SUPPORT_EXPLAIN' => 'La fonction PHP « <em>getimagesize()</em> » est disponible.',
+	'PHP_GETIMAGESIZE_SUPPORT'         => 'La fonction PHP « getimagesize() » est requise.',
+	'PHP_GETIMAGESIZE_SUPPORT_EXPLAIN' => 'La fonction PHP « getimagesize() » est disponible.',
 	'PCRE_UTF_SUPPORT'                 => 'Support de PCRE UTF-8',
 	'PCRE_UTF_SUPPORT_EXPLAIN'         => 'Votre installation PHP doit être compilée avec la prise en charge d’UTF-8 dans l’extension PCRE.',
 	'PHP_JSON_SUPPORT'                 => 'Support de PHP JSON',
-	'PHP_JSON_SUPPORT_EXPLAIN'         => 'L’extension PHP « <em>JSON</em> » est requise.',
+	'PHP_JSON_SUPPORT_EXPLAIN'         => 'L’extension PHP « JSON » est requise.',
 	'PHP_XML_SUPPORT'                  => 'Support de PHP XML/DOM',
-	'PHP_XML_SUPPORT_EXPLAIN'          => 'L’extension PHP « <em>XML/DOM</em> » est requise.',
+	'PHP_XML_SUPPORT_EXPLAIN'          => 'L’extension PHP « XML/DOM » est requise.',
 	'PHP_SUPPORTED_DB'                 => 'Base de données prises en charge',
 	'PHP_SUPPORTED_DB_EXPLAIN'         => 'Votre serveur doit prendre en charge au moins une base de données compatible avec PHP. Si aucun module de base de données n’est disponible, veuillez contacter votre hébergeur ou vous renseigner en consultant la documentation sur PHP.',
 
@@ -172,7 +172,7 @@ $lang = array_merge($lang, [
 	'DB_CONFIG'            => 'Configuration de la base de données',
 	'DBMS'                 => 'Type de base de données',
 	'DB_HOST'              => 'Nom d’hôte du serveur de votre base de données ou DSN',
-	'DB_HOST_EXPLAIN'      => 'Le DSN est réservé aux installations de type ODBC. Sur PostgreSQL, saisissez « <em>localhost</em> » afin de vous connecter sur le serveur local depuis le connecteur du domaine UNIX ou saisissez « <em>127.0.0.1</em> » afin de vous connecter depuis TCP. Sur SQLite, saisissez le chemin complet vers le fichier de votre base de données.',
+	'DB_HOST_EXPLAIN'      => 'Le DSN est réservé aux installations de type ODBC. Sur PostgreSQL, saisissez « localhost » afin de vous connecter sur le serveur local depuis le connecteur du domaine UNIX ou saisissez « 127.0.0.1 » afin de vous connecter depuis TCP. Sur SQLite, saisissez le chemin complet vers le fichier de votre base de données.',
 	'DB_PORT'              => 'Port du serveur de votre base de données',
 	'DB_PORT_EXPLAIN'      => 'Laissez ce champ vide à moins que votre serveur utilise un port différent dont vous avez connaissance.',
 	'DB_PASSWORD'          => 'Mot de passe de votre base de données',
@@ -201,10 +201,10 @@ $lang = array_merge($lang, [
 	'INST_ERR_DB_NO_WRITABLE'       => 'La base de données et le répertoire sont tous deux en lecture seule.',
 	'INST_ERR_DB_NO_ERROR'          => 'Aucune erreur n’est survenue.',
 	'INST_ERR_PREFIX'               => 'Des tables contenant ce préfixe existent déjà. Veuillez le renommer.',
-	'INST_ERR_DB_NO_MYSQLI'         => 'La version de MySQL installée sur votre serveur est incompatible avec l’option « <em>MySQL avec l’extension MySQLi</em> ». Veuillez sélectionner l’option « <em>MySQL</em> ».',
+	'INST_ERR_DB_NO_MYSQLI'         => 'La version de MySQL installée sur votre serveur est incompatible avec l’option « MySQL avec l’extension MySQLi ». Veuillez sélectionner l’option « MySQL ».',
 	'INST_ERR_DB_NO_SQLITE3'        => 'La version de l’extension SQLite installée sur votre serveur est obsolète. Elle doit être mise à jour vers la version 3.6.15 ou supérieure.',
-	'INST_ERR_DB_NO_ORACLE'         => 'La version d’Oracle installée sur votre serveur nécessite de définir « <em>NLS_CHARACTERSET</em> » sur « <em>UTF8</em> ». Veuillez modifier cette configuration ou mettre à jour votre version vers la version 9.2 ou supérieure.',
-	'INST_ERR_DB_NO_POSTGRES'       => 'La base de données sélectionnée n’est pas encodée en « <em>UNICODE</em> » ou en « <em>UTF8</em> ». Veuillez sélectionner une base de données prenant en charge au moins un de ces encodages.',
+	'INST_ERR_DB_NO_ORACLE'         => 'La version d’Oracle installée sur votre serveur nécessite de définir « NLS_CHARACTERSET » sur « UTF8 ». Veuillez modifier cette configuration ou mettre à jour votre version vers la version 9.2 ou supérieure.',
+	'INST_ERR_DB_NO_POSTGRES'       => 'La base de données sélectionnée n’est pas encodée en « UNICODE » ou en « UTF8 ». Veuillez sélectionner une base de données prenant en charge au moins un de ces encodages.',
 	'INST_SCHEMA_FILE_NOT_WRITABLE' => 'Le fichier du schéma de votre base de données est en lecture seule',
 
 	//
@@ -218,16 +218,16 @@ $lang = array_merge($lang, [
 	'UPDATE_INCOMPLETE_MORE'    => 'Veuillez consulter les informations ci-dessous afin de corriger cette erreur.',
 	'UPDATE_INCOMPLETE_EXPLAIN' => '<h1>Mise à jour incomplète</h1>
 
-		<p>La dernière mise à jour de votre installation de phpBB ne semble pas complète. Veuillez vous rendre <a href="%1$s" title="%1$s">sur la page de mise à jour de la base de données</a>, vous assurer que « <em>Mettre à jour uniquement la base de données</em> » soit coché et cliquer sur « <em>Envoyer</em> ». Assurez-vous de supprimer le répertoire « <em>install/</em> » après avoir mis à jour votre base de données.</p>',
+		<p>La dernière mise à jour de votre installation de phpBB ne semble pas complète. Veuillez vous rendre <a href="%1$s" title="%1$s">sur la page de mise à jour de la base de données</a>, vous assurer que « Mettre à jour uniquement la base de données » soit coché et cliquer sur « Envoyer ». Assurez-vous également de supprimer le répertoire « install/ » après avoir mis à jour votre base de données.</p>',
 
 	//
 	// Server data
 	//
 	// Form labels
-	'UPGRADE_INSTRUCTIONS' => 'La version <strong>%1$s</strong>, proposant de nouvelles fonctionnalités, est disponible. Veuillez consulter <a href="%2$s" title="%2$s"><strong>l’annonce de sortie</strong></a> (en anglais) afin de vous renseigner sur les modifications apportées et consulter les instructions pour mettre à jour votre forum.',
+	'UPGRADE_INSTRUCTIONS' => 'La version <strong>%1$s</strong>, proposant de nouvelles fonctionnalités, est disponible. Veuillez consulter <a href="%2$s" title="%2$s">l’annonce de sortie</a> (en anglais) afin de vous renseigner sur les modifications apportées et consulter les instructions pour mettre à jour votre forum.',
 	'SERVER_CONFIG'        => 'Configuration du serveur',
 	'SCRIPT_PATH'          => 'Chemin du forum',
-	'SCRIPT_PATH_EXPLAIN'  => 'Le chemin menant à votre forum par rapport au nom de domaine, tel que « <em>/phpBB3</em> ».',
+	'SCRIPT_PATH_EXPLAIN'  => 'Le chemin menant à votre forum par rapport au nom de domaine, tel que « /phpBB3 ».',
 ]);
 
 // Default database schema entries...
@@ -314,16 +314,16 @@ $lang = array_merge($lang, [
 // Installer's general messages
 $lang = array_merge($lang, [
 	'MODULE_NOT_FOUND'             => 'Module introuvable',
-	'MODULE_NOT_FOUND_DESCRIPTION' => 'Un module n’a pas pu être trouvé car le service « <em>%s</em> » n’a pas été défini.',
+	'MODULE_NOT_FOUND_DESCRIPTION' => 'Un module n’a pas pu être trouvé car le service « %s » n’a pas été défini.',
 
 	'TASK_NOT_FOUND'             => 'Tâche introuvable',
-	'TASK_NOT_FOUND_DESCRIPTION' => 'Une tâche n’a pas pu être trouvée car le service « <em>%s</em> » n’a pas été défini.',
+	'TASK_NOT_FOUND_DESCRIPTION' => 'Une tâche n’a pas pu être trouvée car le service « %s » n’a pas été défini.',
 
-	'SKIP_MODULE' => 'Ignorer le module « <em>%s</em> »',
-	'SKIP_TASK'   => 'Ignorer la tâche « <em>%s</em> »',
+	'SKIP_MODULE' => 'Ignorer le module « %s »',
+	'SKIP_TASK'   => 'Ignorer la tâche « %s »',
 
-	'TASK_SERVICE_INSTALLER_MISSING' => 'Tous les services de tâches du programme d’installation doivent commencer par « <em>installer</em> »',
-	'TASK_CLASS_NOT_FOUND'           => 'La définition du service de tâches du programme d’installation est invalide. Le nom de service « <em>%1$s</em> » a été spécifié alors que l’espace de nom de classe attendu est « <em>%2$s</em> ». Pour plus d’informations, veuillez consulter la documentation sur « <em>task_interface</em> ».',
+	'TASK_SERVICE_INSTALLER_MISSING' => 'Tous les services de tâches du programme d’installation doivent commencer par « installer »',
+	'TASK_CLASS_NOT_FOUND'           => 'La définition du service de tâches du programme d’installation est invalide. Le nom de service « %1$s » a été spécifié alors que l’espace de nom de classe attendu est « %2$s ». Pour plus d’informations, veuillez consulter la documentation sur « task_interface ».',
 
 	'INSTALLER_CONFIG_NOT_WRITABLE' => 'Le fichier de configuration de l’assistant d’installation est en lecture seule.',
 ]);
@@ -335,9 +335,9 @@ $lang = array_merge($lang, [
 	'CLI_INSTALL_SHOW_CONFIG'     => 'Afficher la configuration qui sera utilisée',
 	'CLI_INSTALL_VALIDATE_CONFIG' => 'Valider un fichier de configuration',
 	'CLI_CONFIG_FILE'             => 'Fichier de configuration à utiliser',
-	'MISSING_FILE'                => 'Impossible d’accéder au fichier « <em>%1$s</em> »',
+	'MISSING_FILE'                => 'Impossible d’accéder au fichier « %1$s »',
 	'MISSING_DATA'                => 'Le fichier de configuration ne contient pas toutes les données requises ou celles-ci sont invalides.',
-	'INVALID_YAML_FILE'           => 'Impossible d’analyser le fichier YAML « <em>%1$s</em> »',
+	'INVALID_YAML_FILE'           => 'Impossible d’analyser le fichier YAML « %1$s »',
 	'CONFIGURATION_VALID'         => 'Le fichier de configuration est valide',
 ]);
 
@@ -350,11 +350,11 @@ $lang = array_merge($lang, [
 		<p>Veuillez consulter l’annonce relative à la sortie de la dernière version avant de continuer le processus de mise à jour. Elle contient des informations qui pourraient vous intéresser, telles que les différents liens de téléchargement et les modifications apportées.</p>
 		<br />
 		<h1>Mettre à jour votre installation avec l’archive de mise à jour automatique</h1>
-		<p>Cette méthode n’est valable que pour l’archive de mise à jour automatique. Vous pouvez également mettre à jour votre installation en utilisant les méthodes alternatives listées dans le document « <em>INSTALL.html</em> ». Les étapes de mise à jour automatique de phpBB 3.3 sont :</p>
+		<p>Cette méthode n’est valable que pour l’archive de mise à jour automatique. Vous pouvez également mettre à jour votre installation en utilisant les méthodes alternatives listées dans le document « INSTALL.html ». Les étapes de mise à jour automatique de phpBB 3.3 sont :</p>
 		<ul style="margin-left: 20px; font-size: 1.1em;">
 			<li>Accédez à <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">la page des téléchargements de phpBB.com</a> (en anglais) et téléchargez l’archive de mise à jour automatique.<br /><br /></li>
 			<li>Décompressez l’archive.<br /><br /></li>
-			<li>Transférez les répertoires décompressés « <em>install/</em> » et « <em>vendor/</em> » à la racine du répertoire de votre forum, où se trouve le fichier « <em>config.php</em> ».<br /><br /></li>
+			<li>Transférez les répertoires décompressés « install/ » et « vendor/ » à la racine du répertoire de votre forum, où se trouve le fichier « config.php ».<br /><br /></li>
 		</ul>
 		<p>Pour des raisons de sécurité, une fois que les répertoires et leur contenu ont été transférés, votre forum apparaîtra hors-ligne aux utilisateurs.<br /><br />
 		<strong><a href="%1$s" title="%1$s">Commencez dès à présent le processus de mise à jour en dirigeant votre navigateur vers le répertoire d’installation</a>.</strong><br />
@@ -404,7 +404,7 @@ $lang = array_merge($lang, [
 	'UPDATE_CHECK_FILES' => 'Vérifier les fichiers à mettre à jour',
 
 	// Update file differ
-	'FILE_DIFFER_ERROR_FILE_CANNOT_BE_READ' => 'Le comparateur de fichier n’a pas pu ouvrir « <em>%s</em> ».',
+	'FILE_DIFFER_ERROR_FILE_CANNOT_BE_READ' => 'Le comparateur de fichier n’a pas pu ouvrir « %s ».',
 
 	'UPDATE_FILE_DIFF' => 'Comparaison des fichiers modifiés',
 	'ALL_FILES_DIFFED' => 'Tous les fichiers modifiés ont été comparés.',
@@ -441,7 +441,7 @@ $lang = array_merge($lang, [
 	// File updater
 	'UPDATE_UPDATING_FILES' => 'Mise à jour des fichiers',
 
-	'UPDATE_FILE_UPDATER_HAS_FAILED'   => 'L’assistant de mise à jour des fichiers « <em>%1$s</em> » a rencontré un problème. L’installateur va essayer de revenir à « <em>%2$s</em> ».',
+	'UPDATE_FILE_UPDATER_HAS_FAILED'   => 'L’assistant de mise à jour des fichiers « %1$s » a rencontré un problème. L’installateur va essayer de revenir à « %2$s ».',
 	'UPDATE_FILE_UPDATERS_HAVE_FAILED' => 'L’assistant de mise à jour des fichiers a rencontré un problème. Il n’est pas possible de revenir en arrière.',
 
 	'UPDATE_CONTINUE_UPDATE_PROCESS' => 'Continuer la mise à jour',
@@ -462,8 +462,8 @@ $lang = array_merge($lang, [
 	// Common converter messages
 	'CONVERT_NOT_EXIST'   => 'Le convertisseur que vous avez spécifié est introuvable.',
 	'DEV_NO_TEST_FILE'    => 'Aucune valeur n’a été spécifiée dans le convertisseur concernant la variable test_file. Si vous êtes un utilisateur de ce convertisseur, vous ne devriez pas être en mesure de voir cette erreur. Veuillez rapporter ce message à l’auteur du convertisseur. Si vous êtes l’auteur du convertisseur, vous devez spécifier le nom d’un fichier existant dans le forum source afin de permettre la validation du chemin vers ce dernier.',
-	'COULD_NOT_FIND_PATH' => 'Le chemin menant à votre ancien forum est introuvable. Veuillez vérifier vos paramètres et réessayer.<br />» Le chemin source spédifié était « <em>%s</em> ».',
-	'CONFIG_PHPBB_EMPTY'  => 'La variable de configuration « <em>%s</em> » de phpBB 3.3 est vide.',
+	'COULD_NOT_FIND_PATH' => 'Le chemin menant à votre ancien forum est introuvable. Veuillez vérifier vos paramètres et réessayer.<br />» Le chemin source spédifié était « %s ».',
+	'CONFIG_PHPBB_EMPTY'  => 'La variable de configuration « %s » de phpBB 3.3 est vide.',
 
 	'MAKE_FOLDER_WRITABLE'  => 'Veuillez vous assurer que ce répertoire existe et que ses droits d’accès soient disponibles pour écriture par votre serveur, puis réessayez :<br />»<strong>%s</strong>.',
 	'MAKE_FOLDERS_WRITABLE' => 'Veuillez vous assurer que ces répertoires existent et que leurs droits d’accès soient disponibles pour écriture par votre serveur, puis réessayez :<br />»<strong>%s</strong>.',
@@ -493,11 +493,11 @@ $lang = array_merge($lang, [
 
 	// Settings
 	'STAGE_SETTINGS'       => 'Paramètres',
-	'TABLE_PREFIX_SAME'    => 'Le préfixe de table doit être celui qui est utilisé par le logiciel que vous souhaitez convertir.<br />» Le préfixe de table spécifié était « <em>%s</em> ».',
-	'DEFAULT_PREFIX_IS'    => 'Le convertisseur n’a pas été en mesure de trouver de tables comportant ce préfixe. Veuillez vous assurer d’avoir correctement spécifié les informations sur le forum que vous souhaitez convertir. Le préfixe de table par défaut concernant « <em>%1$s</em> » est « <em>%2$s</em> ».',
+	'TABLE_PREFIX_SAME'    => 'Le préfixe de table doit être celui qui est utilisé par le logiciel que vous souhaitez convertir.<br />» Le préfixe de table spécifié était « %s ».',
+	'DEFAULT_PREFIX_IS'    => 'Le convertisseur n’a pas été en mesure de trouver de tables comportant ce préfixe. Veuillez vous assurer d’avoir correctement spécifié les informations sur le forum que vous souhaitez convertir. Le préfixe de table par défaut concernant « %1$s » est « %2$s ».',
 	'SPECIFY_OPTIONS'      => 'Spécifier les options de conversion',
 	'FORUM_PATH'           => 'Chemin du forum',
-	'FORUM_PATH_EXPLAIN'   => 'Le chemin <strong>relatif</strong> sur le disque vers votre ancien forum depuis la <strong>racine de cette installation de phpBB 3.3</strong>.',
+	'FORUM_PATH_EXPLAIN'   => 'Le chemin relatif sur le disque vers votre ancien forum depuis la racine de cette installation de phpBB 3.3.',
 	'REFRESH_PAGE'         => 'Actualiser la page pour continuer la conversion',
 	'REFRESH_PAGE_EXPLAIN' => 'Si cette option est activée, le convertisseur actualisera à chaque étape la page pour continuer la conversion. Nous vous conseillons de ne pas activer cette option s’il s’agit de votre première conversion, en particulier si votre but est de tester cet outil et de déterminer en avance les possibles erreurs.',
 
@@ -509,27 +509,27 @@ $lang = array_merge($lang, [
 	'CONFIG_CONVERT'           => 'Conversion de la configuration',
 	'DONE'                     => 'Effectué',
 	'PREPROCESS_STEP'          => 'Exécution des fonctions et des requêtes de prétraitement',
-	'FILLING_TABLE'            => 'Alimentation de la table « <em>%s</em> »',
+	'FILLING_TABLE'            => 'Alimentation de la table « %s »',
 	'FILLING_TABLES'           => 'Alimentation des tables',
-	'DB_ERR_INSERT'            => 'Une erreur est survenue lors du traitement de la requête <code>INSERT</code>.',
-	'DB_ERR_LAST'              => 'Une erreur est survenue lors du traitement de « <em>query_last</em> ».',
-	'DB_ERR_QUERY_FIRST'       => 'Une erreur est survenue lors de l’exécution de « <em>query_first</em> ».',
-	'DB_ERR_QUERY_FIRST_TABLE' => 'Une erreur est survenue lors de l’exécution de « <em>query_first</em> », %s (« <em>%s</em> »).',
-	'DB_ERR_SELECT'            => 'Une erreur est survenue lors de l’exécution de <code>SELECT</code> query.',
+	'DB_ERR_INSERT'            => 'Une erreur est survenue lors du traitement de la requête « INSERT ».',
+	'DB_ERR_LAST'              => 'Une erreur est survenue lors du traitement de « query_last ».',
+	'DB_ERR_QUERY_FIRST'       => 'Une erreur est survenue lors de l’exécution de « query_first ».',
+	'DB_ERR_QUERY_FIRST_TABLE' => 'Une erreur est survenue lors de l’exécution de « query_first », %s (« %s »).',
+	'DB_ERR_SELECT'            => 'Une erreur est survenue lors de l’exécution de la requête « SELECT ».',
 	'STEP_PERCENT_COMPLETED'   => 'Étape <strong>%d</strong> sur <strong>%d</strong>',
 	'FINAL_STEP'               => 'Étape finale',
 	'SYNC_FORUMS'              => 'Démarrage de la synchronisation des forums',
 	'SYNC_POST_COUNT'          => 'Synchronisation de post_counts',
-	'SYNC_POST_COUNT_ID'       => 'Synchronisation de post_counts à partir de « <em>entry</em> » %1$s vers %2$s.',
+	'SYNC_POST_COUNT_ID'       => 'Synchronisation de post_counts à partir de « entry » %1$s vers %2$s.',
 	'SYNC_TOPICS'              => 'Démarrage de la synchronisation des sujets',
-	'SYNC_TOPIC_ID'            => 'Synchronisation des sujets à partir de « <em>topic_id</em> » %1$s vers %2$s.',
+	'SYNC_TOPIC_ID'            => 'Synchronisation des sujets à partir de « topic_id » %1$s vers %2$s.',
 	'PROCESS_LAST'             => 'Traitement des dernières opérations',
 	'UPDATE_TOPICS_POSTED'     => 'Génération des informations de publication des sujets',
 	'UPDATE_TOPICS_POSTED_ERR' => 'Une erreur est survenue lors de la génération des informations de publication des sujets. Vous pouvez réessayer cette étape depuis le panneau de contrôle d’administration une fois le processus de conversion terminé.',
 	'CONTINUE_LAST'            => 'Continuer les dernières opérations',
 	'CLEAN_VERIFY'             => 'Nettoyage et vérification de la structure finale',
-	'NOT_UNDERSTAND'           => 'Incompréhension de %s #%d, table %s (« <em>%s</em> »)',
-	'NAMING_CONFLICT'          => 'Conflit d’appelation : « <em>%s</em> » et « <em>%s</em> » sont tous deux des alias<br /><br />%s',
+	'NOT_UNDERSTAND'           => 'Incompréhension de %s #%d, table %s (« %s »)',
+	'NAMING_CONFLICT'          => 'Conflit d’appelation : « %s » et « %s » sont tous deux des alias<br /><br />%s',
 
 	// Finish conversion
 	'CONVERT_COMPLETE'         => 'Conversion terminée',
@@ -540,26 +540,26 @@ $lang = array_merge($lang, [
 	'CONV_ERROR_FORUM_ACCESS'        => 'Impossible d’obtenir l’information d’accès au forum.',
 	'CONV_ERROR_GET_CATEGORIES'      => 'Impossible d’obtenir les catégories.',
 	'CONV_ERROR_GET_CONFIG'          => 'Impossible de retrouver la configuration de votre forum.',
-	'CONV_ERROR_COULD_NOT_READ'      => 'Impossible d’accéder et de lire « <em>%s</em> ».',
+	'CONV_ERROR_COULD_NOT_READ'      => 'Impossible d’accéder et de lire « %s ».',
 	'CONV_ERROR_GROUP_ACCESS'        => 'Impossiblee d’obtenir l’information d’authentification des groupes.',
-	'CONV_ERROR_INCONSISTENT_GROUPS' => 'Incohérence dans le tableau des groupes détecté dans « <em>add_bots()</em> ». Vous devez ajouter tous les groupes spéciaux si vous le faites manuellement.',
+	'CONV_ERROR_INCONSISTENT_GROUPS' => 'Incohérence dans le tableau des groupes détecté dans « add_bots() ». Vous devez ajouter tous les groupes spéciaux si vous le faites manuellement.',
 	'CONV_ERROR_INSERT_BOT'          => 'Impossible d’insérer le robot dans la table des utilisateurs.',
 	'CONV_ERROR_INSERT_BOTGROUP'     => 'Impossible d’insérer le robot dans la table des robots.',
-	'CONV_ERROR_INSERT_USER_GROUP'   => 'Impossible d’insérer l’utilisateurs dans la table « <em>user_group</em> ».',
+	'CONV_ERROR_INSERT_USER_GROUP'   => 'Impossible d’insérer l’utilisateurs dans la table « user_group ».',
 	'CONV_ERROR_MESSAGE_PARSER'      => 'Message d’erreur de l’analyseur',
-	'CONV_ERROR_NO_AVATAR_PATH'      => 'Note au développeur : vous devez spécifier « <em>$convertor[\'avatar_path\']</em> » pour utiliser « <em>%s</em> ».',
+	'CONV_ERROR_NO_AVATAR_PATH'      => 'Note au développeur : vous devez spécifier « $convertor[\'avatar_path\'] » pour utiliser « %s ».',
 	'CONV_ERROR_NO_FORUM_PATH'       => 'Le chemin relatif au forum source n’a pas été spécifié.',
-	'CONV_ERROR_NO_GALLERY_PATH'     => 'Note au développeur : vous devez spécifier « <em>$convertor[\'avatar_gallery_path\']</em> » pour utiliser « <em>%s</em> ».',
-	'CONV_ERROR_NO_GROUP'            => 'Le groupe « <em>%1$s</em> » est introuvable dans « <em>%2$s</em> ».',
-	'CONV_ERROR_NO_RANKS_PATH'       => 'Note au développeur : vous devez spécifier « <em>$convertor[\'ranks_path\']</em> » pour utiliser « <em>%s</em> ».',
-	'CONV_ERROR_NO_SMILIES_PATH'     => 'Note au développeur : vous devez spécifier « <em>$convertor[\'smilies_path\']</em> » pour utiliser « <em>%s</em> ».',
-	'CONV_ERROR_NO_UPLOAD_DIR'       => 'Note au développeur : vous devez spécifier « <em>$convertor[\'upload_path\']</em> » pour utiliser « <em>%s</em> ».',
+	'CONV_ERROR_NO_GALLERY_PATH'     => 'Note au développeur : vous devez spécifier « $convertor[\'avatar_gallery_path\'] » pour utiliser « %s ».',
+	'CONV_ERROR_NO_GROUP'            => 'Le groupe « %1$s » est introuvable dans « %2$s ».',
+	'CONV_ERROR_NO_RANKS_PATH'       => 'Note au développeur : vous devez spécifier « $convertor[\'ranks_path\'] » pour utiliser « %s ».',
+	'CONV_ERROR_NO_SMILIES_PATH'     => 'Note au développeur : vous devez spécifier « $convertor[\'smilies_path\'] » pour utiliser « %s ».',
+	'CONV_ERROR_NO_UPLOAD_DIR'       => 'Note au développeur : vous devez spécifier « $convertor[\'upload_path\'] » pour utiliser « %s ».',
 	'CONV_ERROR_PERM_SETTING'        => 'Impossible d’insérer et de mettre à jour le paramètre de permission.',
 	'CONV_ERROR_PM_COUNT'            => 'Impossible de sélectionner le dossier du compteur des messages privés.',
 	'CONV_ERROR_REPLACE_CATEGORY'    => 'Impossible d’insérer le nouveau forum en remplacement de l’ancienne catégorie.',
 	'CONV_ERROR_REPLACE_FORUM'       => 'Impossible d’insérer le nouveau forum en remplacement de l’ancien forum.',
 	'CONV_ERROR_USER_ACCESS'         => 'Impossible d’obtenir l’information sur l’authentification de l’utilisateur.',
-	'CONV_ERROR_WRONG_GROUP'         => 'Définition du mauvais groupe « <em>%1$s</em> » dans « <em>%2$s</em> ».',
+	'CONV_ERROR_WRONG_GROUP'         => 'Définition du mauvais groupe « %1$s » dans « %2$s ».',
 	'CONV_OPTIONS_BODY'              => 'Cette page collecte les données requises pour accéder au forum source. Veuillez saisir les informations sur la base de données de votre ancien forum. Le convertisseur ne modifiera rien dans la base de données affichée ci-dessous. Le forum source devrait être désactivé pour permettre une conversion complète.',
 	'CONV_SAVED_MESSAGES'            => 'Messages sauvegardés',
 

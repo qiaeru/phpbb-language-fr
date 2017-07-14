@@ -45,7 +45,7 @@ $lang = array_merge($lang, [
 	'CHANGED_DEFAULT_GROUP' => 'Le groupe par défaut a été modifié.',
 
 	'GROUP_AVATAR'                    => 'Avatar du groupe',
-	'GROUP_CHANGE_DEFAULT'            => 'Êtes-vous sûr de vouloir modifier votre groupe par défaut par le groupe « <em>%s</em> » ?',
+	'GROUP_CHANGE_DEFAULT'            => 'Êtes-vous sûr de vouloir modifier votre groupe par défaut par le groupe « %s » ?',
 	'GROUP_CLOSED'                    => 'Privé',
 	'GROUP_DESC'                      => 'Description du groupe',
 	'GROUP_HIDDEN'                    => 'Invisible',
@@ -87,7 +87,7 @@ $lang = array_merge($lang, [
 
 	'REMOVE_SELECTED' => 'Supprimer la sélection',
 
-	'USER_GROUP_CHANGE'         => 'De « <em>%1$s</em> » au groupe « <em>%2$s</em> »',
+	'USER_GROUP_CHANGE'         => 'De « %1$s » au groupe « %2$s »',
 	'USER_GROUP_DEMOTE'         => 'Quitter la fonction de responsable',
 	'USER_GROUP_DEMOTE_CONFIRM' => 'Êtes-vous sûr de vouloir quitter votre fonction de responsable de ce groupe ?',
 	'USER_GROUP_DEMOTED'        => 'Vous n’êtes plus responsable de ce groupe.',

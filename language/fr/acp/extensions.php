@@ -37,14 +37,14 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, [
 
-	'EXTENSION_ALREADY_INSTALLED'              => 'L’extension « <em>%s</em> » a déjà été installée.',
-	'EXTENSION_ALREADY_INSTALLED_MANUALLY'     => 'L’extension « <em>%s</em> » a déjà été installée manuellement.',
-	'EXTENSION_ALREADY_MANAGED'                => 'L’extension « <em>%s</em> » est déjà gérée.',
-	'EXTENSION_CANNOT_MANAGE_FILESYSTEM_ERROR' => 'L’extension « <em>%s</em> » ne peut pas être gérée car les fichiers existants n’ont pas pu être supprimés du sytème de fichiers.',
-	'EXTENSION_CANNOT_MANAGE_INSTALL_ERROR'    => 'L’extension « <em>%s</em> » n’a pas pu être installée. L’installation précédente de cette extension a été restaurée.',
-	'EXTENSION_MANAGED_WITH_CLEAN_ERROR'       => 'L’extension « <em>%1$s</em> » a été installée mais une erreur est survenue et les anciens fichiers n’ont pas pu être supprimés. Vous devriez supprimer les fichiers %2$s manuellement.',
-	'EXTENSION_MANAGED_WITH_ENABLE_ERROR'      => 'L’extension « <em>%s</em> » a été installée mais une erreur est survenue lors de son activation.',
-	'EXTENSION_NOT_INSTALLED'                  => 'L’extension « <em>%s</em> » n’est pas installée.',
+	'EXTENSION_ALREADY_INSTALLED'              => 'L’extension « %s » a déjà été installée.',
+	'EXTENSION_ALREADY_INSTALLED_MANUALLY'     => 'L’extension « %s » a déjà été installée manuellement.',
+	'EXTENSION_ALREADY_MANAGED'                => 'L’extension « %s » est déjà gérée.',
+	'EXTENSION_CANNOT_MANAGE_FILESYSTEM_ERROR' => 'L’extension « %s » ne peut pas être gérée car les fichiers existants n’ont pas pu être supprimés du sytème de fichiers.',
+	'EXTENSION_CANNOT_MANAGE_INSTALL_ERROR'    => 'L’extension « %s » n’a pas pu être installée. L’installation précédente de cette extension a été restaurée.',
+	'EXTENSION_MANAGED_WITH_CLEAN_ERROR'       => 'L’extension « %1$s » a été installée mais une erreur est survenue et les anciens fichiers n’ont pas pu être supprimés. Vous devriez supprimer les fichiers %2$s manuellement.',
+	'EXTENSION_MANAGED_WITH_ENABLE_ERROR'      => 'L’extension « %s » a été installée mais une erreur est survenue lors de son activation.',
+	'EXTENSION_NOT_INSTALLED'                  => 'L’extension « %s » n’est pas installée.',
 
 	'ENABLING_EXTENSIONS'  => 'Activation des extensions',
 	'DISABLING_EXTENSIONS' => 'Désactivation des extensions',
@@ -56,7 +56,7 @@ $lang = array_merge($lang, [
 	'EXTENSIONS'               => 'Extensions',
 	'EXTENSIONS_ADMIN'         => 'Gestionnaire d’extensions',
 	'EXTENSIONS_EXPLAIN'       => 'Le gestionnaire d’extensions est un outil vous permettant de gérer tous les statuts de vos extensions et de consulter les informations associées.',
-	'EXTENSION_INVALID_LIST'   => 'L’extension « <em>%s</em> » est invalide.<br />%s<br /><br />',
+	'EXTENSION_INVALID_LIST'   => 'L’extension « %s » est invalide.<br />%s<br /><br />',
 	'EXTENSION_NOT_AVAILABLE'  => 'Cette extension n’est pas disponible sur ce forum. Veuillez vérifier la compatibilité de vos versions de phpBB et de PHP.',
 	'EXTENSION_DIR_INVALID'    => 'Cette extension est construite avec une structure de répertoire invalide et ne peut donc pas être activée.',
 	'EXTENSION_NOT_ENABLEABLE' => 'Cette extension ne peut pas être activée. Veuillez vérifier les prérequis de l’extension.',
@@ -90,7 +90,7 @@ $lang = array_merge($lang, [
 	'EXTENSION_INSTALL_HEADLINE' => 'Installer une extension',
 	'EXTENSION_INSTALL_EXPLAIN'  => '<ol>
 			<li>Téléchargez une extension à partir de la base de données des extensions de phpBB</li>
-			<li>Décompressez et transférez l’extension dans le répertoire <samp>ext/</samp> de votre forum</li>
+			<li>Décompressez et transférez l’extension dans le répertoire « ext/ » de votre forum</li>
 			<li>Activez l’extension à partir du gestionnaire d’extensions</li>
 		</ol>',
 	'EXTENSION_UPDATE_HEADLINE' => 'Mettre à jour une extension',
@@ -107,9 +107,9 @@ $lang = array_merge($lang, [
 			<li>Supprimez les fichiers de l’extension de votre serveur</li>
 		</ol>',
 
-	'EXTENSION_DELETE_DATA_CONFIRM'    => 'Êtes-vous sûr de vouloir supprimer les données de « <em>%s</em> » ?<br /><br />Cela supprimera toutes les données et la configuration de l’extension qui ne pourront pas être restaurés !',
-	'EXTENSION_DISABLE_CONFIRM'        => 'Êtes-vous sûr de vouloir désactiver l’extension « <em>%s</em> » ?',
-	'EXTENSION_ENABLE_CONFIRM'         => 'Êtes-vous sûr de vouloir activer l’extension « <em>%s</em> » ?',
+	'EXTENSION_DELETE_DATA_CONFIRM'    => 'Êtes-vous sûr de vouloir supprimer les données de « %s » ?<br /><br />Cela supprimera toutes les données et la configuration de l’extension qui ne pourront pas être restaurés !',
+	'EXTENSION_DISABLE_CONFIRM'        => 'Êtes-vous sûr de vouloir désactiver l’extension « %s » ?',
+	'EXTENSION_ENABLE_CONFIRM'         => 'Êtes-vous sûr de vouloir activer l’extension « %s » ?',
 	'EXTENSION_FORCE_UNSTABLE_CONFIRM' => 'Êtes-vous sûr de vouloir forcer l’utilisation d’une version instable ?',
 
 	'INSTALLED'          => 'Installée',
@@ -159,16 +159,16 @@ $lang = array_merge($lang, [
 	'ENABLE_PACKAGIST_EXPLAIN'      => 'Recherche les extensions sur Packagist. Attention, Packagist peut référencer des extensions qui n’ont pas été validées par l’équipe des extensions de phpBB.',
 	'ENABLE_PACKAGIST_CONFIRM'      => 'Êtes-vous sûr de vouloir rechercher les extensions sur Packagist ?',
 	'COMPOSER_REPOSITORIES'         => 'Dépôts',
-	'COMPOSER_REPOSITORIES_EXPLAIN' => 'Ajoute des liens aux dépôts de Composer des extensions à rechercher. Chaque dépôt doit être ajouté sur une nouvelle ligne. Les adresses doivent correspondrent à l’adresse de base du fichier « <em>packages.json</em> ».',
+	'COMPOSER_REPOSITORIES_EXPLAIN' => 'Ajoute des liens aux dépôts de Composer des extensions à rechercher. Chaque dépôt doit être ajouté sur une nouvelle ligne. Les adresses doivent correspondrent à l’adresse de base du fichier « packages.json ».',
 	'NO_EXTENSION_AVAILABLE'        => 'Aucune extension n’est disponible pour votre forum',
 
-	'EXTENSION_MANAGED_SUCCESS' => 'L’extension « <em>%s</em> » va à présent être gérée automatiquement.',
+	'EXTENSION_MANAGED_SUCCESS' => 'L’extension « %s » va à présent être gérée automatiquement.',
 	'EXTENSIONS_INSTALLED'      => 'Les extensions ont été installées.',
 	'EXTENSIONS_REMOVED'        => 'Les extensions ont été supprimées.',
 	'EXTENSIONS_UPDATED'        => 'Les extensions ont été mises à jour.',
 
 	'EXTENSIONS_CATALOG_NOT_AVAILABLE' => 'La bibliothèque d’extensions n’est pas disponible',
-	'EXTENSIONS_COMPOSER_NOT_WRITABLE' => 'Pour utiliser la bibliothèque, les droits d’accès aux fichiers et aux répertoires devraient être modifiées pour écriture par votre serveur : « <em>ext/</em> », « <em>vendor-ext/</em> », « <em>composer-ext.json</em> » et « <em>composer-ext.lock</em> ».',
+	'EXTENSIONS_COMPOSER_NOT_WRITABLE' => 'Pour utiliser la bibliothèque, les droits d’accès aux fichiers et aux répertoires devraient être modifiées pour écriture par votre serveur : « ext/ », « vendor-ext/ », « composer-ext.json » et « composer-ext.lock ».',
 
 	'STABILITY_STABLE' => 'stable',
 	'STABILITY_RC'     => 'RC',
@@ -177,6 +177,6 @@ $lang = array_merge($lang, [
 	'STABILITY_DEV'    => 'dev',
 
 	'COMPOSER_MINIMUM_STABILITY'         => 'Stabilité minimale',
-	'COMPOSER_MINIMUM_STABILITY_EXPLAIN' => 'Il est recommandé d’utiliser les versions <samp>stable</samp> sur un forum en ligne. Les versions instables peuvent être en cours de développement et provoquer des erreurs inattendues à votre forum. Elles devraient donc être limitées à une utilisation en local par des développeurs.',
+	'COMPOSER_MINIMUM_STABILITY_EXPLAIN' => 'Il est recommandé d’utiliser les versions stables sur un forum en ligne. Les versions instables peuvent être en cours de développement et provoquer des erreurs inattendues à votre forum. Elles devraient donc être limitées à une utilisation en local par des développeurs.',
 
 ]);

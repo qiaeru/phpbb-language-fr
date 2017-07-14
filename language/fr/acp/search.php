@@ -127,7 +127,7 @@ $lang = array_merge($lang, [
 	'SEARCH_STORE_RESULTS'         => 'Durée des résultats de recherche mis en cache',
 	'SEARCH_STORE_RESULTS_EXPLAIN' => 'Le nombre de secondes qui s’écouleront avant que les résultats de recherche mis en cache soient supprimés. Réglez cette valeur sur 0 si vous souhaitez pas mettre en cache les résultats de recherche.',
 	'SEARCH_TYPE'                  => 'Méthode d’indexation de la recherche',
-	'SEARCH_TYPE_EXPLAIN'          => 'Le logiciel phpBB vous permet de choisir la méthode d’indexation qui sera utilisée lors des recherches de texte effectuées dans le contenu des messages. Par défaut, la recherche utilisera la méthode « <em>phpBB Native Fulltext</em> ».',
+	'SEARCH_TYPE_EXPLAIN'          => 'Le logiciel phpBB vous permet de choisir la méthode d’indexation qui sera utilisée lors des recherches de texte effectuées dans le contenu des messages. Par défaut, la recherche utilisera la méthode « phpBB Native Fulltext ».',
 	'SWITCHED_SEARCH_BACKEND'      => 'La méthode d’indexation de la recherche a été modifiée. Vous devriez à présent recréer un index.',
 
 	'TOTAL_WORDS'   => 'Nombre total de mots indexés',

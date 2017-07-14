@@ -217,7 +217,7 @@ $lang = array_merge($lang, [
 	'MCP_WARN_USER'  => 'Avertir l’utilisateur',
 
 	'MERGE_POSTS_CONFIRM'  => 'Êtes-vous sûr de vouloir déplacer ces messages ?',
-	'MERGE_TOPIC_EXPLAIN'  => 'Utilisez ce formulaire afin de déplacer les messages sélectionnés dans un autre sujet. Les messages seront retirés de ce sujet afin d’être fusionnés dans un autre sujet. Ces messages ne seront pas réordonnés et apparaîtront comme si les utilisateurs les avaient publiés dans le nouveau sujet.<br />Veuillez saisir l’identifiant du sujet de destination ou cliquer sur « <em>Sélectionner le sujet</em> » afin d’en rechercher un.',
+	'MERGE_TOPIC_EXPLAIN'  => 'Utilisez ce formulaire afin de déplacer les messages sélectionnés dans un autre sujet. Les messages seront retirés de ce sujet afin d’être fusionnés dans un autre sujet. Ces messages ne seront pas réordonnés et apparaîtront comme si les utilisateurs les avaient publiés dans le nouveau sujet.<br />Veuillez saisir l’identifiant du sujet de destination ou cliquer sur « Sélectionner le sujet » afin d’en rechercher un.',
 	'MERGE_TOPIC_ID'       => 'Identifiant du sujet de destination',
 	'MERGE_TOPICS'         => 'Fusionner les sujets',
 	'MERGE_TOPICS_CONFIRM' => 'Êtes-vous sûr de vouloir fusionner ces sujets ?',
@@ -255,7 +255,7 @@ $lang = array_merge($lang, [
 	'NO_TOPICS_DELETED'          => 'Aucun sujet n’a été supprimé.',
 	'NO_TOPICS_QUEUE'            => 'Aucun sujet n’est en attente d’approbation.',
 
-	'ONLY_TOPIC'  => 'Le sujet « <em>%s</em> » uniquement',
+	'ONLY_TOPIC'  => 'Le sujet « %s » uniquement',
 	'OTHER_USERS' => 'Autres utilisateurs ayant publiés avec cette adresse IP',
 
 	'QUICKMOD_ACTION_NOT_ALLOWED' => '%s ne peut pas être une action rapide de modération',
@@ -308,7 +308,7 @@ $lang = array_merge($lang, [
 	'REPORT_DELETED_SUCCESS' => 'Le rapport a été supprimé.',
 	'REPORT_DETAILS'         => 'Informations sur le rapport',
 	'REPORT_MESSAGE'         => 'Rapporter le message',
-	'REPORT_MESSAGE_EXPLAIN' => 'Utilisez ce formulaire afin de rapporter ce message privé. Seuls les messages ne respectant pas les règles du forum devraient être rapportés. <strong>Lorsqu’un message privé est rapporté, son contenu est rendu visible à tous les modérateurs.</strong>',
+	'REPORT_MESSAGE_EXPLAIN' => 'Utilisez ce formulaire afin de rapporter ce message privé. Seuls les messages ne respectant pas les règles du forum devraient être rapportés. Veuillez noter que lorsqu’un message privé est rapporté, son contenu est alors rendu visible à tous les modérateurs.',
 	'REPORT_NOTIFY'          => 'M’envoyer une notification',
 	'REPORT_NOTIFY_EXPLAIN'  => 'Vous enverra une notification lorsque votre rapport sera traité.',
 	'REPORT_POST_EXPLAIN'    => 'Utilisez ce formulaire afin de rapporter ce message aux modérateurs et aux administrateurs du forum. Seuls les messages ne respectant pas les règles du forum devraient être rapportés.',
