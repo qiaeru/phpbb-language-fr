@@ -319,8 +319,8 @@ $lang = array_merge($lang, [
 	'CAPTCHA_GD_Y_GRID_EXPLAIN'           => 'Utilisez ici des valeurs faibles afin de rendre l’image plus difficilement déchiffrable. Réglez cette valeur sur « 0 » afin de désactiver le bruit de fond sur l’axe des ordonnées.',
 	'CAPTCHA_GD_WAVE'                     => 'Distorsion en forme de vagues',
 	'CAPTCHA_GD_WAVE_EXPLAIN'             => 'Cela appliquera sur l’image une distorsion en forme de vagues.',
-	'CAPTCHA_GD_3D_NOISE'                 => 'Ajouter des objets de bruit en 3D',
-	'CAPTCHA_GD_3D_NOISE_EXPLAIN'         => 'Cela ajoutera sur l’image des objets supplémentaires, par-dessus les lettres.',
+	'CAPTCHA_GD_3D_NOISE'                 => 'Ajouter des éléments de bruit en 3D',
+	'CAPTCHA_GD_3D_NOISE_EXPLAIN'         => 'Cela ajoutera sur l’image des éléments supplémentaires, par-dessus les lettres.',
 	'CAPTCHA_GD_FONTS'                    => 'Utiliser des polices de caractères différentes',
 	'CAPTCHA_GD_FONTS_EXPLAIN'            => 'Cette option contrôle le nombre de différentes formes de lettres qui seront utilisées. Vous pouvez seulement utiliser les formes présentes par défaut ou introduire de nouvelles lettres. Il est également possible d’ajouter des lettres en minuscule.',
 	'CAPTCHA_FONT_DEFAULT'                => 'Par défaut',
@@ -455,7 +455,7 @@ $lang = array_merge($lang, [
 	'LDAP_USER'                    => 'Utilisateur « dn » de LDAP',
 	'LDAP_USER_EXPLAIN'            => 'Si vous souhaitez utiliser une connexion anonyme, ne remplissez pas ce champ. Dans le cas contraire, si cela a été renseigné dans phpBB, vous pouvez utiliser le nom absolu que vous avez spécifié lors de vos tentatives de connexion pour retrouver le bon utilisateur, tel que « uid=Nom,ou=MonUnité,o=MaCompagnie,c=FR ». Cette information est obligatoire pour les serveurs aux répertoires dits actifs.',
 	'LDAP_USER_FILTER'             => 'Filtre de l’utilisateur LDAP',
-	'LDAP_USER_FILTER_EXPLAIN'     => 'Si vous le souhaitez, vous pouvez limiter les objets recherchés grâce à des filtres additionnels. Par exemple, « objectClass=posixGroup » sera utilisé en tant que « (&(uid=$username)(objectClass=posixGroup)) ».',
+	'LDAP_USER_FILTER_EXPLAIN'     => 'Si vous le souhaitez, vous pouvez limiter les éléments recherchés grâce à des filtres additionnels. Par exemple, « objectClass=posixGroup » sera utilisé en tant que « (&(uid=$username)(objectClass=posixGroup)) ».',
 ]);
 
 // Server Settings
