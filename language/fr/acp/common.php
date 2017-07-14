@@ -225,7 +225,7 @@ $lang = array_merge($lang, [
 	'ADMIN_INDEX' => 'Accueil de l’administration',
 	'ADMIN_PANEL' => 'Panneau de contrôle d’administration',
 
-	'ADM_LOGOUT'     => 'Déconnexion&nbsp;du&nbsp;PCA',
+	'ADM_LOGOUT'     => 'Déconnexion du PCA',
 	'ADM_LOGGED_OUT' => 'Vous êtes à présent déconnecté du panneau de contrôle d’administration.',
 
 	'BACK' => 'Retour',
@@ -240,7 +240,7 @@ $lang = array_merge($lang, [
 	'CANNOT_RENAME_FILE'             => 'Impossible de renommer un fichier du système',
 	'CANNOT_TOUCH_FILES'             => 'Impossible de déterminer si le fichier existe',
 
-	'CONTAINER_EXCEPTION' => 'Une erreur est survenue lors de la construction du conteneur en raison d’une extension installée. Par mesure de sécurité, toutes les extensions ont été temporairement désactivées. Veuillez essayer de vider le cache de votre forum. Toutes les extensions seront automatiquement réactivées lorsque cette erreur de conteneur sera corrigée. Si cette erreur persiste, veuillez demander une assistance sur <a href="https://www.phpbb.com/support">phpBB.com</a> (en anglais).',
+	'CONTAINER_EXCEPTION' => 'Une erreur est survenue lors de la construction du conteneur en raison d’une extension installée. Par mesure de sécurité, toutes les extensions ont été temporairement désactivées. Veuillez essayer de vider le cache de votre forum. Toutes les extensions seront automatiquement réactivées lorsque cette erreur de conteneur sera corrigée. Si cette erreur persiste, veuillez demander une assistance sur <a href="https://www.phpbb.com/support">le site internet de phpBB.com</a> (en anglais).',
 	'EXCEPTION'           => 'Exception',
 
 	'COLOUR_SWATCH' => 'Palette de couleurs internet',
@@ -256,10 +256,10 @@ $lang = array_merge($lang, [
 	'COMPOSER_OUTPUT'                 => 'Commandes de Composer',
 
 	'CONFIG_UPDATED'    => 'La configuration a été mise à jour.',
-	'CRON_LOCK_ERROR'   => 'Impossible d’obtenir le verrouillage de cron.',
+	'CRON_LOCK_ERROR'   => 'Impossible d’obtenir le verrouillage de « cron ».',
 	'CRON_NO_SUCH_TASK' => 'La tâche cron « %s » est introuvable.',
-	'CRON_NO_TASK'      => 'Aucune tâche cron ne doit être exécutée.',
-	'CRON_NO_TASKS'     => 'Aucune tâche cron n’est disponible.',
+	'CRON_NO_TASK'      => 'Aucune tâche « cron » ne doit être exécutée.',
+	'CRON_NO_TASKS'     => 'Aucune tâche « cron » n’est disponible.',
 	'CURRENT_VERSION'   => 'Version actuelle',
 
 	'DEACTIVATE'               => 'Désactiver',
@@ -354,7 +354,7 @@ $lang = array_merge($lang, [
 $lang = array_merge($lang, [
 	'ACP_PHP_INFO_EXPLAIN' => 'Depuis cette page, vous pouvez consulter les informations sur la version de PHP qui est installée sur votre serveur. Cela comprend l’ensemble des informations sur les modules chargés, les variables disponibles et les paramètres par défaut. Ces informations peuvent être utiles afin de diagnostiquer les problèmes présents sur votre serveur. Veuillez noter que certains hébergeurs peuvent limiter l’affichage de ces informations pour des raisons de sécurité. Il est déconseillé de divulguer les informations disponibles sur cette page, sauf si elles sont demandées par un des <a href="https://www.phpbb.com/about/team/">membres de l’équipe</a> (en anglais) des forums d’assistance.',
 
-	'NO_PHPINFO_AVAILABLE' => 'Impossible d’afficher les informations concernant votre configuration de PHP. La fonction phpinfo() a été désactivée pour des raisons de sécurité.',
+	'NO_PHPINFO_AVAILABLE' => 'Impossible d’afficher les informations concernant votre configuration de PHP. La fonction « phpinfo() » a été désactivée pour des raisons de sécurité.',
 ]);
 
 // Logs
@@ -389,9 +389,9 @@ $lang = array_merge($lang, [
 
 	// Enviroment configuration checks, mbstring related
 	'ERROR_MBSTRING_FUNC_OVERLOAD'                => 'La fonction de surcharge n’est pas correctement configurée',
-	'ERROR_MBSTRING_FUNC_OVERLOAD_EXPLAIN'        => 'La variable « mbstring.func_overload » doit être sur 0 ou 4. Vous pouvez consulter la valeur actuelle sur la page « Informations sur PHP ».',
+	'ERROR_MBSTRING_FUNC_OVERLOAD_EXPLAIN'        => 'La variable « mbstring.func_overload » doit être réglée sur « 0 » ou « 4 ». Vous pouvez consulter la valeur actuelle sur la page « Informations sur PHP ».',
 	'ERROR_MBSTRING_ENCODING_TRANSLATION'         => 'L’encodage des caractères transparents n’est pas correctement configuré',
-	'ERROR_MBSTRING_ENCODING_TRANSLATION_EXPLAIN' => 'La variable « mbstring.encoding_translation » doit être sur 0. Vous pouvez consulter la valeur actuelle sur la page « Informations sur PHP ».',
+	'ERROR_MBSTRING_ENCODING_TRANSLATION_EXPLAIN' => 'La variable « mbstring.encoding_translation » doit être réglée sur « 0 ». Vous pouvez consulter la valeur actuelle sur la page « Informations sur PHP ».',
 	'ERROR_MBSTRING_HTTP_INPUT'                   => 'La conversion des caractères d’entrée HTTP n’est pas correctement configurée',
 	'ERROR_MBSTRING_HTTP_INPUT_EXPLAIN'           => 'La variable « mbstring.http_input » doit être paramétrée sur « pass ». Vous pouvez consulter la valeur actuelle sur la page « Informations sur PHP ».',
 	'ERROR_MBSTRING_HTTP_OUTPUT'                  => 'La conversion des caractères de sortie HTTP n’est pas correctement configurée',
@@ -402,7 +402,7 @@ $lang = array_merge($lang, [
 
 	'GZIP_COMPRESSION' => 'Compression GZip',
 
-	'NO_SEARCH_INDEX' => 'La méthode d’indexation de la recherche sélectionnée n’est pas associée à un index de recherche.<br />Veuillez créer l’index associé à « %1$s » dans la section %2$sIndex de recherche%3$s.',
+	'NO_SEARCH_INDEX' => 'La méthode d’indexation de la recherche sélectionnée n’est pas associée à un index de recherche.<br />Veuillez créer l’index associé à « %1$s » dans la section « %2$sIndex de recherche%3$s ».',
 	'NOT_AVAILABLE'   => 'Non disponible',
 	'NUMBER_FILES'    => 'Nombre de pièces jointes',
 	'NUMBER_POSTS'    => 'Nombre de messages',
@@ -467,7 +467,7 @@ $lang = array_merge($lang, [
 	'VIEW_INACTIVE_USERS'          => 'Consulter la liste des utilisateurs inactifs',
 
 	'WELCOME_PHPBB'   => 'Bienvenue sur phpBB',
-	'WRITABLE_CONFIG' => 'Les droits d’accès pour écriture de votre fichier de configuration (config.php) sont actuellement publics. Nous vous encourageons fortement à modifier vos permissions en 640 (<a href="https://fr.wikipedia.org/wiki/Chmod">chmod</a> 640 config.php) ou, le cas échéant, en 644.',
+	'WRITABLE_CONFIG' => 'Les droits d’accès pour écriture de votre fichier de configuration « config.php » sont actuellement publics. Nous vous encourageons fortement à modifier vos permissions en 640, en exécutant la commande « <a href="https://fr.wikipedia.org/wiki/Chmod">chmod</a> 640 config.php », ou, le cas échéant, en 644.',
 ]);
 
 // Inactive Users

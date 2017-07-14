@@ -68,7 +68,7 @@ $lang = array_merge($lang, [
 	'EMPTY_SUBJECT_EMAIL' => 'Vous devez saisir le sujet du courriel.',
 	'EQUAL_TO'            => 'Égal à',
 
-	'FIND_USERNAME_EXPLAIN' => 'Utilisez ce formulaire afin de rechercher des membres spécifiques. Vous n’avez pas besoin de remplir tous les champs. Pour utiliser partiellement une donnée, utilisez * comme joker. Lorsque vous saisissez une date, utilisez le format « AAAA-MM-JJ », comme par exemple « 2004-02-29 ». Utilisez les cases à cocher afin de sélectionner un ou plusieurs noms d’utilisateurs et cliquez sur le bouton « Sélectionner la sélection » afin de revenir au formulaire précédent.',
+	'FIND_USERNAME_EXPLAIN' => 'Utilisez ce formulaire afin de rechercher des membres spécifiques. Vous n’avez pas besoin de remplir tous les champs. Pour utiliser partiellement une donnée, utilisez un astérisque « * » comme métacaractère passe-partout. Lorsque vous saisissez une date, utilisez le format « AAAA-MM-JJ », comme par exemple « 2004-02-29 ». Utilisez les cases à cocher afin de sélectionner un ou plusieurs noms d’utilisateurs et cliquez sur le bouton « Sélectionner la sélection » afin de revenir au formulaire précédent.',
 	'FLOOD_EMAIL_LIMIT'     => 'Vous ne pouvez pas envoyer d’autres courriels pour le moment. Veuillez réessayer ultérieurement.',
 
 	'GROUP_LEADER' => 'Responsable du groupe',

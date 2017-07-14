@@ -42,7 +42,7 @@ $lang = array_merge($lang, [
 	'EXTENSION_ALREADY_MANAGED'                => 'L’extension « %s » est déjà gérée.',
 	'EXTENSION_CANNOT_MANAGE_FILESYSTEM_ERROR' => 'L’extension « %s » ne peut pas être gérée car les fichiers existants n’ont pas pu être supprimés du sytème de fichiers.',
 	'EXTENSION_CANNOT_MANAGE_INSTALL_ERROR'    => 'L’extension « %s » n’a pas pu être installée. L’installation précédente de cette extension a été restaurée.',
-	'EXTENSION_MANAGED_WITH_CLEAN_ERROR'       => 'L’extension « %1$s » a été installée mais une erreur est survenue et les anciens fichiers n’ont pas pu être supprimés. Vous devriez supprimer les fichiers %2$s manuellement.',
+	'EXTENSION_MANAGED_WITH_CLEAN_ERROR'       => 'L’extension « %1$s » a été installée mais une erreur est survenue et les anciens fichiers n’ont pas pu être supprimés. Vous devriez supprimer les fichiers « %2$s » manuellement.',
 	'EXTENSION_MANAGED_WITH_ENABLE_ERROR'      => 'L’extension « %s » a été installée mais une erreur est survenue lors de son activation.',
 	'EXTENSION_NOT_INSTALLED'                  => 'L’extension « %s » n’est pas installée.',
 
@@ -137,8 +137,8 @@ $lang = array_merge($lang, [
 	'AUTHOR_HOMEPAGE'    => 'Page d’accueil',
 	'AUTHOR_ROLE'        => 'Rôle',
 
-	'NOT_UP_TO_DATE'     => '%s n’est pas à jour',
-	'UP_TO_DATE'         => '%s est à jour',
+	'NOT_UP_TO_DATE'     => '« %s » n’est pas à jour',
+	'UP_TO_DATE'         => '« %s » est à jour',
 	'ANNOUNCEMENT_TOPIC' => 'Annonce de sortie',
 	'DOWNLOAD_LATEST'    => 'Télécharger',
 	'NO_VERSIONCHECK'    => 'Aucune information concernant la vérification de mise à jour n’est disponible.',
@@ -149,8 +149,8 @@ $lang = array_merge($lang, [
 
 	'BROWSE_EXTENSIONS_DATABASE' => 'Parcourir la base de données des extensions',
 
-	'META_FIELD_NOT_SET' => 'Le méta-champ %s est obligatoire et doit être configuré.',
-	'META_FIELD_INVALID' => 'Le méta-champ %s est invalide.',
+	'META_FIELD_NOT_SET' => 'Le méta-champ « %s » est requis et doit être configuré.',
+	'META_FIELD_INVALID' => 'Le méta-champ « %s » est invalide.',
 
 	'EXTENSIONS_CATALOG_SETTINGS'   => 'Paramètres de la bibliothèque d’extensions',
 	'ENABLE_ON_INSTALL'             => 'Activer les extensions lors de leur installation',

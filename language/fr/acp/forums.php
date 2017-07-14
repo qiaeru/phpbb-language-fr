@@ -118,7 +118,7 @@ $lang = array_merge($lang, [
 	'FORUM_STATUS'                   => 'Statut du forum',
 	'FORUM_STYLE'                    => 'Style du forum',
 	'FORUM_TOPICS_PAGE'              => 'Nombre de sujets par page',
-	'FORUM_TOPICS_PAGE_EXPLAIN'      => 'Si cette valeur est autre que 0, elle écrasera la configuration par défaut du nombre de sujets par page.',
+	'FORUM_TOPICS_PAGE_EXPLAIN'      => 'Si cette valeur est autre que « 0 », elle écrasera la configuration par défaut du nombre de sujets par page.',
 	'FORUM_TYPE'                     => 'Type de forum',
 	'FORUM_UPDATED'                  => 'Les informations du forum ont été mises à jour.',
 

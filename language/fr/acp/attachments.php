@@ -57,14 +57,14 @@ $lang = array_merge($lang, [
 	'ATTACH_EXT_GROUPS_URL'           => 'Groupes d’extensions',
 	'ATTACH_ID'                       => 'Identifiant',
 	'ATTACH_MAX_FILESIZE'             => 'Taille maximale des pièces jointes',
-	'ATTACH_MAX_FILESIZE_EXPLAIN'     => 'La taille maximale des pièces jointes. Si cette valeur est sur 0, la taille ne sera limitée que par votre configuration de PHP.',
+	'ATTACH_MAX_FILESIZE_EXPLAIN'     => 'La taille maximale des pièces jointes. Si cette valeur est sur « 0 », la taille ne sera limitée que par votre configuration de PHP.',
 	'ATTACH_MAX_PM_FILESIZE'          => 'Taille maximale des pièces jointes dans les messages privés',
-	'ATTACH_MAX_PM_FILESIZE_EXPLAIN'  => 'La taille maximale des pièces jointes insérées dans les messages privés. Réglez cette valeur sur 0 si vous ne souhaitez pas limiter cette taille.',
+	'ATTACH_MAX_PM_FILESIZE_EXPLAIN'  => 'La taille maximale des pièces jointes insérées dans les messages privés. Réglez cette valeur sur « 0 » si vous ne souhaitez pas limiter cette taille.',
 	'ATTACH_ORPHAN_URL'               => 'Pièces jointes orphelines',
 	'ATTACH_POST_ID'                  => 'Identifiant du message',
 	'ATTACH_POST_TYPE'                => 'Type de message',
 	'ATTACH_QUOTA'                    => 'Limite maximale de pièces jointes',
-	'ATTACH_QUOTA_EXPLAIN'            => 'L’espace de stockage maximal qui sera alloué à la totalité des pièces jointes transférées sur le forum. Réglez cette valeur sur 0 si vous ne souhaitez pas limiter cet espace.',
+	'ATTACH_QUOTA_EXPLAIN'            => 'L’espace de stockage maximal qui sera alloué à la totalité des pièces jointes transférées sur le forum. Réglez cette valeur sur « 0 » si vous ne souhaitez pas limiter cet espace.',
 	'ATTACH_TO_POST'                  => 'Insérer au message',
 
 	'CAT_FLASH_FILES'          => 'Fichiers Flash',
@@ -77,7 +77,7 @@ $lang = array_merge($lang, [
 
 	'DEFINE_ALLOWED_IPS'          => 'Spécifier les adresses IP et les noms d’hôtes autorisés',
 	'DEFINE_DISALLOWED_IPS'       => 'Spécifier les adresses IP et les noms d’hôtes interdits',
-	'DOWNLOAD_ADD_IPS_EXPLAIN'    => 'Veuillez saisir chaque adresse IP et nom d’hôte sur une nouvelle ligne. Si vous souhaitez spécifier une plage d’adresses IP, séparez le début et la fin par un tiret (-) et utilisez * comme joker.',
+	'DOWNLOAD_ADD_IPS_EXPLAIN'    => 'Veuillez saisir chaque adresse IP et nom d’hôte sur une nouvelle ligne. Si vous souhaitez spécifier une plage d’adresses IP, séparez le début et la fin par un tiret « - » et utilisez un astérisque « * » comme métacaractère passe-partout.',
 	'DOWNLOAD_REMOVE_IPS_EXPLAIN' => 'Vous pouvez supprimer ou lever l’exclusion de plusieurs adresses IP en une seule fois en utilisant la combinaison appropriée de la souris et du clavier de votre ordinateur et de votre navigateur internet. Les adresses IP et les noms d’hôtes exclus apparaissent sur fond bleu.',
 	'DISPLAY_INLINED'             => 'Afficher les images des pièces jointes dans les messages',
 	'DISPLAY_INLINED_EXPLAIN'     => 'Si cette option est désactivée, les images transférées en pièces jointes s’afficheront sous forme de lien.',
@@ -89,11 +89,11 @@ $lang = array_merge($lang, [
 	'EXCLUDE_FROM_ALLOWED_IP'    => 'Exclure la sélection des adresses IP et des noms d’hôtes autorisés',
 	'EXCLUDE_FROM_DISALLOWED_IP' => 'Exclure la sélection des adresses IP et des noms d’hôtes interdits',
 	'EXTENSIONS_UPDATED'         => 'Les extensions ont été mises à jour.',
-	'EXTENSION_EXIST'            => 'L’extension %s existe déjà.',
+	'EXTENSION_EXIST'            => 'L’extension « %s » existe déjà.',
 	'EXTENSION_GROUP'            => 'Groupe d’extensions',
 	'EXTENSION_GROUPS'           => 'Groupes d’extensions',
 	'EXTENSION_GROUP_DELETED'    => 'Le groupe d’extensions a été supprimé.',
-	'EXTENSION_GROUP_EXIST'      => 'Le groupe d’extensions %s existe déjà.',
+	'EXTENSION_GROUP_EXIST'      => 'Le groupe d’extensions « %s » existe déjà.',
 
 	'EXT_GROUP_ARCHIVES'           => 'Archives',
 	'EXT_GROUP_DOCUMENTS'          => 'Documents',
@@ -103,13 +103,13 @@ $lang = array_merge($lang, [
 	'EXT_GROUP_PLAIN_TEXT'         => 'Texte brut',
 
 	'FILES_GONE'        => 'Certaines pièces jointes que vous souhaitez supprimer sont introuvables. Elles ont peut-être déjà été supprimées. Les pièces jointes détectées ont été supprimées.',
-	'FILES_STATS_WRONG' => 'Les fichiers statistiques semblent contenir des informations erronées et doivent être resynchronisés. Les valeurs actuelles sont : nombre de pièces jointes = %1$d, taille des pièces jointes = %2$s.<br />Veuillez cliquer %3$sici%4$s afin de resynchroniser les fichiers statistiques.',
+	'FILES_STATS_WRONG' => 'Les fichiers statistiques semblent contenir des informations erronées et doivent être resynchronisés. Les valeurs actuelles mentionnent que le nombre de pièces jointes est à %1$d et que leur taille est de %2$s.<br />Veuillez cliquer %3$sici%4$s afin de resynchroniser les fichiers statistiques.',
 
 	'GO_TO_EXTENSIONS' => 'Aller sur la page de gestion des extensions',
 	'GROUP_NAME'       => 'Nom du groupe d’extensions',
 
 	'IMAGE_LINK_SIZE'         => 'Dimensions maximales des images avant la mise en lien',
-	'IMAGE_LINK_SIZE_EXPLAIN' => 'Les images transférées en pièces jointes seront affichées sous forme de lien si elles dépassent ces valeurs. Réglez ces deux valeurs sur 0 si vous souhaitez désactiver cette fonctionnalité.',
+	'IMAGE_LINK_SIZE_EXPLAIN' => 'Les images transférées en pièces jointes seront affichées sous forme de lien si elles dépassent ces valeurs. Réglez ces deux valeurs sur « 0 » si vous souhaitez désactiver cette fonctionnalité.',
 	'IMAGICK_PATH'            => 'Chemin d’ImageMagick',
 	'IMAGICK_PATH_EXPLAIN'    => 'Le chemin complet vers l’application de conversion ImageMagick, tel que « /usr/bin/ ».',
 
@@ -134,7 +134,7 @@ $lang = array_merge($lang, [
 	'NO_EXT_GROUP_SPECIFIED' => 'Vous n’avez spécifié aucun groupe d’extensions.',
 	'NO_FILE_CAT'            => 'Aucune',
 	'NO_IMAGE'               => 'Aucune image',
-	'NO_THUMBNAIL_SUPPORT'   => 'Les miniatures ne sont pas prises en charge. Pour que cette fonctionnalité fonctionne correctement, la bibliothèque graphique GD doit être disponible ou ImageMagick doit être installé. Actuellement, les deux sont introuvables.',
+	'NO_THUMBNAIL_SUPPORT'   => 'Les miniatures ne sont pas prises en charge. Pour que cette fonctionnalité fonctionne correctement, la bibliothèque graphique « GD » doit être disponible ou ImageMagick doit être installé. Actuellement, les deux sont introuvables.',
 	'NO_UPLOAD_DIR'          => 'Le répertoire de transfert que vous avez spécifié est introuvable.',
 	'NO_WRITE_UPLOAD'        => 'Le répertoire de transfert que vous avez spécifié est en lecture seule. Veuillez modifier ses droits d’accès pour écriture par votre serveur.',
 

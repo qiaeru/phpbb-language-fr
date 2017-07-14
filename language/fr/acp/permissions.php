@@ -53,7 +53,7 @@ $lang = array_merge($lang, [
 
 		<br />
 
-		<p>Pour plus d’informations concernant la configuration des permissions sur votre forum, veuillez consulter la section sur le <a href="https://www.phpbb.com/support/docs/en/3.3/ug/quickstart/permissions/">paramètre des permissions de notre guide de démarrage rapide</a> (en anglais).</p>
+		<p>Pour plus d’informations concernant la configuration des permissions sur votre forum, veuillez consulter la section sur le <a href="https://www.phpbb.com/support/docs/en/3.3/ug/quickstart/permissions/">paramètre des permissions du guide de démarrage rapide</a> (en anglais).</p>
 	',
 
 	'ACL_NEVER'       => 'Jamais',
@@ -154,7 +154,7 @@ $lang = array_merge($lang, [
 	'RESULTING_PERMISSION' => 'Permission résultante',
 	'ROLE'                 => 'Rôle',
 	'ROLE_ADD_SUCCESS'     => 'Le rôle a été ajouté.',
-	'ROLE_ASSIGNED_TO'     => 'Utilisateurs et groupes d’utilisateurs assignés à %s',
+	'ROLE_ASSIGNED_TO'     => 'Utilisateurs et groupes d’utilisateurs assignés à « %s »',
 	'ROLE_DELETED'         => 'Le rôle a été supprimé.',
 	'ROLE_DESCRIPTION'     => 'Description du rôle',
 
