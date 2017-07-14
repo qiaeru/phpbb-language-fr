@@ -91,7 +91,7 @@ $lang = array_merge($lang, [
 	'AUTOLOGIN_SESSION_KEYS_DELETED' => 'Les clés de connexions automatiques ont été supprimées.',
 	'AVATAR_CATEGORY'                => 'Catégorie',
 	'AVATAR_DRIVER_GRAVATAR_TITLE'   => 'Avatar de Gravatar',
-	'AVATAR_DRIVER_GRAVATAR_EXPLAIN' => 'Gravatar est un service internet qui vous permet d’associer un avatar qui sera utilisé sur plusieurs sites internet. Pour plus d’informations, veuillez consulter <a href="https://www.gravatar.com/">le site internet de Gravatar</a>.',
+	'AVATAR_DRIVER_GRAVATAR_EXPLAIN' => 'Gravatar est un service internet qui vous permet d’associer un avatar qui sera utilisé sur plusieurs sites internet. Pour plus d’informations, veuillez consulter <a href="https://fr.gravatar.com/">le site internet de Gravatar</a>.',
 	'AVATAR_DRIVER_LOCAL_TITLE'      => 'Avatar de la galerie',
 	'AVATAR_DRIVER_LOCAL_EXPLAIN'    => 'Sélectionnez votre avatar parmi une galerie d’images mise à votre disposition.',
 	'AVATAR_DRIVER_REMOTE_TITLE'     => 'Avatar externe',
@@ -258,7 +258,7 @@ $lang = array_merge($lang, [
 	'GLOBAL_ANNOUNCEMENT' => 'Annonce générale',
 
 	'GRAVATAR_AVATAR_EMAIL'         => 'Adresse de courriel Gravatar',
-	'GRAVATAR_AVATAR_EMAIL_EXPLAIN' => 'Saisissez l’adresse de courriel que vous utilisez sur votre compte <a href="https://www.gravatar.com/">Gravatar</a>.',
+	'GRAVATAR_AVATAR_EMAIL_EXPLAIN' => 'Saisissez l’adresse de courriel que vous utilisez sur votre compte <a href="https://fr.gravatar.com/">Gravatar</a>.',
 	'GRAVATAR_AVATAR_SIZE'          => 'Dimensions de l’avatar',
 	'GRAVATAR_AVATAR_SIZE_EXPLAIN'  => 'Saisissez la hauteur et la largeur de votre avatar. Laissez ces champs vides si vous souhaitez que cela soit détecté automatiquement.',
 
