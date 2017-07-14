@@ -62,7 +62,7 @@ $lang = array_merge($lang, [
 	'EMAIL_TOPIC'         => 'Envoyer le sujet par courriel',
 	'ERROR_NO_ATTACHMENT' => 'La pièce jointe est introuvable.',
 
-	'FILE_NOT_FOUND_404' => 'Le fichier « %s » est introuvable.',
+	'FILE_NOT_FOUND_404' => 'Le fichier « %s » est introuvable.',
 	'FORK_TOPIC'         => 'Copier le sujet',
 	'FULL_EDITOR'        => 'Éditeur avancé et prévisualisation',
 
@@ -78,7 +78,7 @@ $lang = array_merge($lang, [
 		1 => 'Vous pouvez sélectionner %d option',
 		2 => 'Vous pouvez sélectionner %d options',
 	],
-	'MISSING_INLINE_ATTACHMENT' => 'La pièce jointe « %s » n’est plus disponible',
+	'MISSING_INLINE_ATTACHMENT' => 'La pièce jointe « %s » n’est plus disponible',
 	'MOVE_TOPIC'                => 'Déplacer le sujet',
 
 	'NO_ATTACHMENT_SELECTED' => 'Vous n’avez sélectionné aucune pièce jointe à télécharger ou à consulter.',

@@ -245,32 +245,32 @@ $lang = array_merge($lang, [
 
 	'COLOUR_SWATCH' => 'Palette de couleurs internet',
 
-	'COMPOSER_UNSUPPORTED_OPERATION'  => 'Opération non supportée pour le type de paquet « %s ».',
+	'COMPOSER_UNSUPPORTED_OPERATION'  => 'Opération non supportée pour le type de paquet « %s ».',
 	'COMPOSER_UPDATING_DEPENDENCIES'  => 'Mise à jour des paquets',
 	'COMPOSER_LOADING_REPOSITORIES'   => 'Chargement des dépôts distants avec les informations sur les paquets',
 	'COMPOSER_ERROR_CONFLICT'         => 'Vos prérequis n’ont pas pu être réglés à un ensemble de paquets installable.',
-	'COMPOSER_REPOSITORY_UNAVAILABLE' => 'Une erreur est survenue lors de la récupération du dépôt « %s ».',
-	'COMPOSER_INSTALLING_PACKAGE'     => '  - Installation de %1$s (%2$s)',
-	'COMPOSER_DELETING'               => '  - Suppression de %s',
+	'COMPOSER_REPOSITORY_UNAVAILABLE' => 'Une erreur est survenue lors de la récupération du dépôt « %s ».',
+	'COMPOSER_INSTALLING_PACKAGE'     => ' -Installation de %1$s (%2$s)',
+	'COMPOSER_DELETING'               => ' -Suppression de %s',
 	'COMPOSER_UPDATE_NOTHING'         => 'Aucune mise à jour disponible',
 	'COMPOSER_OUTPUT'                 => 'Commandes de Composer',
 
 	'CONFIG_UPDATED'    => 'La configuration a été mise à jour.',
-	'CRON_LOCK_ERROR'   => 'Impossible d’obtenir le verrouillage de « cron ».',
-	'CRON_NO_SUCH_TASK' => 'La tâche cron « %s » est introuvable.',
-	'CRON_NO_TASK'      => 'Aucune tâche « cron » ne doit être exécutée.',
-	'CRON_NO_TASKS'     => 'Aucune tâche « cron » n’est disponible.',
+	'CRON_LOCK_ERROR'   => 'Impossible d’obtenir le verrouillage de « cron ».',
+	'CRON_NO_SUCH_TASK' => 'La tâche cron « %s » est introuvable.',
+	'CRON_NO_TASK'      => 'Aucune tâche « cron » ne doit être exécutée.',
+	'CRON_NO_TASKS'     => 'Aucune tâche « cron » n’est disponible.',
 	'CURRENT_VERSION'   => 'Version actuelle',
 
 	'DEACTIVATE'               => 'Désactiver',
-	'DIRECTORY_DOES_NOT_EXIST' => 'Le chemin « %s » que vous avez spécifié est introuvable.',
-	'DIRECTORY_NOT_DIR'        => 'Le chemin « %s » que vous avez spécifié n’est pas un répertoire.',
-	'DIRECTORY_NOT_WRITABLE'   => 'Le répertoire du chemin « %s » que vous avez spécifié est en lecture seule.',
+	'DIRECTORY_DOES_NOT_EXIST' => 'Le chemin « %s » que vous avez spécifié est introuvable.',
+	'DIRECTORY_NOT_DIR'        => 'Le chemin « %s » que vous avez spécifié n’est pas un répertoire.',
+	'DIRECTORY_NOT_WRITABLE'   => 'Le répertoire du chemin « %s » que vous avez spécifié est en lecture seule.',
 	'DISABLE'                  => 'Désactiver',
 	'DOWNLOAD'                 => 'Télécharger',
 	'DOWNLOAD_AS'              => 'Télécharger sous',
 	'DOWNLOAD_STORE'           => 'Télécharger ou stocker le fichier',
-	'DOWNLOAD_STORE_EXPLAIN'   => 'Vous pouvez télécharger directement le fichier ou le sauvegarder dans votre répertoire « store/ ».',
+	'DOWNLOAD_STORE_EXPLAIN'   => 'Vous pouvez télécharger directement le fichier ou le sauvegarder dans votre répertoire « store/ ».',
 	'DOWNLOADS'                => 'Téléchargements',
 
 	'EDIT'            => 'Modifier',
@@ -289,7 +289,7 @@ $lang = array_merge($lang, [
 	'LATEST_VERSION'             => 'Dernière version',
 	'LOAD_NOTIFICATIONS'         => 'Activer les notifications',
 	'LOAD_NOTIFICATIONS_EXPLAIN' => 'La liste des notifications sera affichée sur toutes les pages du forum (généralement en haut des pages).',
-	'LOGGED_IN_AS'               => 'Connecté en tant que :',
+	'LOGGED_IN_AS'               => 'Connecté en tant que :',
 	'LOGIN_ADMIN'                => 'Vous devez vous authentifier afin d’administrer le forum.',
 	'LOGIN_ADMIN_CONFIRM'        => 'Vous devez vous authentifier de nouveau afin d’administrer le forum.',
 	'LOGIN_ADMIN_SUCCESS'        => 'Vous êtes à présent authentifié et allez être redirigé vers le panneau de contrôle d’administration.',
@@ -299,7 +299,7 @@ $lang = array_merge($lang, [
 	'MANAGE'           => 'Gérer',
 	'MENU_TOGGLE'      => 'Masquer ou afficher le menu latéral',
 	'MORE'             => 'Plus', // Not used at the moment
-	'MORE_INFORMATION' => 'Plus d’informations »',
+	'MORE_INFORMATION' => 'Plus d’informations…',
 	'MOVE_DOWN'        => 'Descendre',
 	'MOVE_UP'          => 'Monter',
 
@@ -324,19 +324,19 @@ $lang = array_merge($lang, [
 	'REPARSE_LOCK_ERROR'   => 'L’analyse est déjà en cours par un autre processus.',
 	'RESYNC'               => 'Resynchroniser',
 
-	'RUNNING_TASK'     => 'Exécution de la tâche : %s.',
+	'RUNNING_TASK'     => 'Exécution de la tâche : %s.',
 	'SELECT_ANONYMOUS' => 'Sélectionner un utilisateur anonyme',
 	'SELECT_OPTION'    => 'Sélectionner une option',
 
-	'SETTING_TOO_LOW'   => 'La valeur que vous avez spécifiée concernant « %1$s » est trop faible. Cette valeur doit être supérieure ou égale à %2$d.',
-	'SETTING_TOO_BIG'   => 'La valeur que vous avez spécifiée concernant « %1$s » est trop élevée. Cette valeur doit être inférieure ou égale à %2$d.',
-	'SETTING_TOO_LONG'  => 'La valeur que vous avez spécifiée concernant « %1$s » est trop longue. Cette valeur doit être inférieure ou égale à %2$d.',
-	'SETTING_TOO_SHORT' => 'La valeur que vous avez spécifiée concernant « %1$s » est trop courte. Cette valeur doit être supérieure ou égale à %2$d.',
+	'SETTING_TOO_LOW'   => 'La valeur que vous avez spécifiée concernant « %1$s » est trop faible. Cette valeur doit être supérieure ou égale à %2$d.',
+	'SETTING_TOO_BIG'   => 'La valeur que vous avez spécifiée concernant « %1$s » est trop élevée. Cette valeur doit être inférieure ou égale à %2$d.',
+	'SETTING_TOO_LONG'  => 'La valeur que vous avez spécifiée concernant « %1$s » est trop longue. Cette valeur doit être inférieure ou égale à %2$d.',
+	'SETTING_TOO_SHORT' => 'La valeur que vous avez spécifiée concernant « %1$s » est trop courte. Cette valeur doit être supérieure ou égale à %2$d.',
 
 	'SHOW_ALL_OPERATIONS' => 'Afficher toutes les opérations',
 
-	'TASKS_NOT_READY' => 'Tâches non prêtes :',
-	'TASKS_READY'     => 'Tâches prêtes :',
+	'TASKS_NOT_READY' => 'Tâches non prêtes :',
+	'TASKS_READY'     => 'Tâches prêtes :',
 	'TOTAL_SIZE'      => 'Taille totale',
 
 	'UCP'                => 'Panneau de contrôle de l’utilisateur',
@@ -345,7 +345,7 @@ $lang = array_merge($lang, [
 
 	'UPDATE_NEEDED'     => 'Le forum n’est pas à jour.',
 	'UPDATE_NOT_NEEDED' => 'Le forum est à jour.',
-	'UPDATES_AVAILABLE' => 'Mises à jour disponibles :',
+	'UPDATES_AVAILABLE' => 'Mises à jour disponibles :',
 
 	'WARNING' => 'Avertissement',
 ]);
@@ -354,7 +354,7 @@ $lang = array_merge($lang, [
 $lang = array_merge($lang, [
 	'ACP_PHP_INFO_EXPLAIN' => 'Depuis cette page, vous pouvez consulter les informations sur la version de PHP qui est installée sur votre serveur. Cela comprend l’ensemble des informations sur les modules chargés, les variables disponibles et les paramètres par défaut. Ces informations peuvent être utiles afin de diagnostiquer les problèmes présents sur votre serveur. Veuillez noter que certains hébergeurs peuvent limiter l’affichage de ces informations pour des raisons de sécurité. Il est déconseillé de divulguer les informations disponibles sur cette page, sauf si elles sont demandées par un des <a href="https://www.phpbb.com/about/team/">membres de l’équipe</a> (en anglais) des forums d’assistance.',
 
-	'NO_PHPINFO_AVAILABLE' => 'Impossible d’afficher les informations concernant votre configuration de PHP. La fonction « phpinfo() » a été désactivée pour des raisons de sécurité.',
+	'NO_PHPINFO_AVAILABLE' => 'Impossible d’afficher les informations concernant votre configuration de PHP. La fonction « phpinfo() » a été désactivée pour des raisons de sécurité.',
 ]);
 
 // Logs
@@ -389,20 +389,20 @@ $lang = array_merge($lang, [
 
 	// Enviroment configuration checks, mbstring related
 	'ERROR_MBSTRING_FUNC_OVERLOAD'                => 'La fonction de surcharge n’est pas correctement configurée',
-	'ERROR_MBSTRING_FUNC_OVERLOAD_EXPLAIN'        => 'La variable « mbstring.func_overload » doit être réglée sur « 0 » ou « 4 ». Vous pouvez consulter la valeur actuelle sur la page « Informations sur PHP ».',
+	'ERROR_MBSTRING_FUNC_OVERLOAD_EXPLAIN'        => 'La variable « mbstring.func_overload » doit être réglée sur « 0 » ou « 4 ». Vous pouvez consulter la valeur actuelle sur la page « Informations sur PHP ».',
 	'ERROR_MBSTRING_ENCODING_TRANSLATION'         => 'L’encodage des caractères transparents n’est pas correctement configuré',
-	'ERROR_MBSTRING_ENCODING_TRANSLATION_EXPLAIN' => 'La variable « mbstring.encoding_translation » doit être réglée sur « 0 ». Vous pouvez consulter la valeur actuelle sur la page « Informations sur PHP ».',
+	'ERROR_MBSTRING_ENCODING_TRANSLATION_EXPLAIN' => 'La variable « mbstring.encoding_translation » doit être réglée sur « 0 ». Vous pouvez consulter la valeur actuelle sur la page « Informations sur PHP ».',
 	'ERROR_MBSTRING_HTTP_INPUT'                   => 'La conversion des caractères d’entrée HTTP n’est pas correctement configurée',
-	'ERROR_MBSTRING_HTTP_INPUT_EXPLAIN'           => 'La variable « mbstring.http_input » doit être paramétrée sur « pass ». Vous pouvez consulter la valeur actuelle sur la page « Informations sur PHP ».',
+	'ERROR_MBSTRING_HTTP_INPUT_EXPLAIN'           => 'La variable « mbstring.http_input » doit être paramétrée sur « pass ». Vous pouvez consulter la valeur actuelle sur la page « Informations sur PHP ».',
 	'ERROR_MBSTRING_HTTP_OUTPUT'                  => 'La conversion des caractères de sortie HTTP n’est pas correctement configurée',
-	'ERROR_MBSTRING_HTTP_OUTPUT_EXPLAIN'          => 'La variable « mbstring.http_output » doit être paramétrée sur « pass ». Vous pouvez consulter la valeur actuelle sur la page « Informations sur PHP ».',
+	'ERROR_MBSTRING_HTTP_OUTPUT_EXPLAIN'          => 'La variable « mbstring.http_output » doit être paramétrée sur « pass ». Vous pouvez consulter la valeur actuelle sur la page « Informations sur PHP ».',
 
 	'FILES_PER_DAY' => 'Moyenne de pièces jointes par jour',
 	'FORUM_STATS'   => 'Statistiques du forum',
 
 	'GZIP_COMPRESSION' => 'Compression GZip',
 
-	'NO_SEARCH_INDEX' => 'La méthode d’indexation de la recherche sélectionnée n’est pas associée à un index de recherche.<br />Veuillez créer l’index associé à « %1$s » dans la section « %2$sIndex de recherche%3$s ».',
+	'NO_SEARCH_INDEX' => 'La méthode d’indexation de la recherche sélectionnée n’est pas associée à un index de recherche.<br />Veuillez créer l’index associé à « %1$s » dans la section « %2$sIndex de recherche%3$s ».',
 	'NOT_AVAILABLE'   => 'Non disponible',
 	'NUMBER_FILES'    => 'Nombre de pièces jointes',
 	'NUMBER_POSTS'    => 'Nombre de messages',
@@ -416,31 +416,31 @@ $lang = array_merge($lang, [
 	'POSTS_PER_DAY' => 'Moyenne de messages par jour',
 
 	'PURGE_CACHE'         => 'Vider le cache',
-	'PURGE_CACHE_CONFIRM' => 'Êtes-vous sûr de vouloir vider le cache ?',
+	'PURGE_CACHE_CONFIRM' => 'Êtes-vous sûr de vouloir vider le cache ?',
 	'PURGE_CACHE_EXPLAIN' => 'Les fichiers mis en cache, tels que les fichiers des modèles et les requêtes, seront supprimés.',
 	'PURGE_CACHE_SUCCESS' => 'La cache a été vidé.',
 
 	'PURGE_SESSIONS'         => 'Vider toutes les sessions',
-	'PURGE_SESSIONS_CONFIRM' => 'Êtes-vous sûr de vouloir vider toutes les sessions ? Tous les utilisateurs seront déconnectés.',
+	'PURGE_SESSIONS_CONFIRM' => 'Êtes-vous sûr de vouloir vider toutes les sessions ? Tous les utilisateurs seront déconnectés.',
 	'PURGE_SESSIONS_EXPLAIN' => 'Toutes les sessions seront vidées et tous les utilisateurs seront déconnectés.',
 	'PURGE_SESSIONS_SUCCESS' => 'Les sessions ont été vidées.',
 
 	'RESET_DATE'                  => 'Réinitialiser la date d’ouverture du forum',
-	'RESET_DATE_CONFIRM'          => 'Êtes-vous sûr de vouloir réinitialiser la date d’ouverture du forum ?',
+	'RESET_DATE_CONFIRM'          => 'Êtes-vous sûr de vouloir réinitialiser la date d’ouverture du forum ?',
 	'RESET_DATE_SUCCESS'          => 'La date d’ouverture du forum a été réinitialisée',
 	'RESET_ONLINE'                => 'Réinitialiser le compteur du nombre maximal d’utilisateurs en ligne simultanément',
-	'RESET_ONLINE_CONFIRM'        => 'Êtes-vous sûr de vouloir réinitialiser le compteur du nombre maximal d’utilisateurs en ligne simultanément ?',
+	'RESET_ONLINE_CONFIRM'        => 'Êtes-vous sûr de vouloir réinitialiser le compteur du nombre maximal d’utilisateurs en ligne simultanément ?',
 	'RESET_ONLINE_SUCCESS'        => 'Le compteur du nombre maximal d’utilisateurs en ligne simultanément a été réinitialisé',
 	'RESYNC_POSTCOUNTS'           => 'Resynchroniser le compteur de messages',
 	'RESYNC_POSTCOUNTS_EXPLAIN'   => 'Tous les messages actuels seront recomptabilisés. Les messages délestés ne seront pas pris en compte.',
-	'RESYNC_POSTCOUNTS_CONFIRM'   => 'Êtes-vous sûr de vouloir resynchroniser le compteur de messages ?',
+	'RESYNC_POSTCOUNTS_CONFIRM'   => 'Êtes-vous sûr de vouloir resynchroniser le compteur de messages ?',
 	'RESYNC_POSTCOUNTS_SUCCESS'   => 'Le compteur de messages a été resynchronisé',
 	'RESYNC_POST_MARKING'         => 'Resynchroniser les sujets pointés',
-	'RESYNC_POST_MARKING_CONFIRM' => 'Êtes-vous sûr de vouloir resynchroniser les sujets pointés ?',
+	'RESYNC_POST_MARKING_CONFIRM' => 'Êtes-vous sûr de vouloir resynchroniser les sujets pointés ?',
 	'RESYNC_POST_MARKING_EXPLAIN' => 'Tous les sujets seront décomptabilisés afin que seuls les sujets actifs des six derniers mois soient recomptabilisés.',
 	'RESYNC_POST_MARKING_SUCCESS' => 'Les sujets pointés ont été resynchronisés',
 	'RESYNC_STATS'                => 'Resynchroniser les statistiques',
-	'RESYNC_STATS_CONFIRM'        => 'Êtes-vous sûr de vouloir resynchroniser les statistiques ?',
+	'RESYNC_STATS_CONFIRM'        => 'Êtes-vous sûr de vouloir resynchroniser les statistiques ?',
 	'RESYNC_STATS_EXPLAIN'        => 'Les statistiques sur le nombre total de messages, de sujets, d’utilisateurs et de fichiers seront recomptabilisées.',
 	'RESYNC_STATS_SUCCESS'        => 'Les statistiques ont été resynchronisées',
 	'RUN'                         => 'Exécuter maintenant',
@@ -467,7 +467,7 @@ $lang = array_merge($lang, [
 	'VIEW_INACTIVE_USERS'          => 'Consulter la liste des utilisateurs inactifs',
 
 	'WELCOME_PHPBB'   => 'Bienvenue sur phpBB',
-	'WRITABLE_CONFIG' => 'Les droits d’accès pour écriture de votre fichier de configuration « config.php » sont actuellement publics. Nous vous encourageons fortement à modifier vos permissions en 640, en exécutant la commande « <a href="https://fr.wikipedia.org/wiki/Chmod">chmod</a> 640 config.php », ou, le cas échéant, en 644.',
+	'WRITABLE_CONFIG' => 'Les droits d’accès pour écriture de votre fichier de configuration « config.php » sont actuellement publics. Nous vous encourageons fortement à modifier vos permissions en 640, en exécutant la commande « <a href="https://fr.wikipedia.org/wiki/Chmod">chmod</a> 640 config.php », ou, le cas échéant, en 644.',
 ]);
 
 // Inactive Users
@@ -548,15 +548,15 @@ $lang = array_merge($lang, [
 	'LOG_ATTACH_EXTGROUP_ADD'  => '<strong>Ajout d’un groupe d’extensions</strong><br />» %s',
 	'LOG_ATTACH_EXTGROUP_EDIT' => '<strong>Modification d’un groupe d’extensions</strong><br />» %s',
 	'LOG_ATTACH_EXTGROUP_DEL'  => '<strong>Suppression d’un groupe d’extensions</strong><br />» %s',
-	'LOG_ATTACH_FILEUPLOAD'    => '<strong>Transfert d’une pièce jointe orpheline vers un message</strong><br />» ID %1$d - %2$s',
+	'LOG_ATTACH_FILEUPLOAD'    => '<strong>Transfert d’une pièce jointe orpheline vers un message</strong><br />» ID %1$d – %2$s',
 	'LOG_ATTACH_ORPHAN_DEL'    => '<strong>Suppression d’une pièce jointe orpheline</strong><br />» %s',
 
-	'LOG_BAN_EXCLUDE_USER'  => '<strong>Exclusion d’un nom d’utilisateur d’un bannissement</strong> en spécifiant comme raison « %1$s »<br />» %2$s',
-	'LOG_BAN_EXCLUDE_IP'    => '<strong>Exclusion d’une adresse IP du bannissement</strong> en spécifiant comme raison « %1$s »<br />» %2$s',
-	'LOG_BAN_EXCLUDE_EMAIL' => '<strong>Exclusion d’une adresse de courriel du bannissement</strong> en spécifiant comme raison « %1$s »<br />» %2$s',
-	'LOG_BAN_USER'          => '<strong>Bannissement d’un nom d’utilisateur</strong> en spécifiant comme raison « %1$s »<br />» %2$s',
-	'LOG_BAN_IP'            => '<strong>Bannissement d’une adresse IP</strong> en spécifiant comme raison « %1$s »<br />» %2$s',
-	'LOG_BAN_EMAIL'         => '<strong>Bannissement d’une adresse de courriel</strong> en spécifiant comme raison « %1$s »<br />» %2$s',
+	'LOG_BAN_EXCLUDE_USER'  => '<strong>Exclusion d’un nom d’utilisateur d’un bannissement</strong> en spécifiant comme raison « %1$s »<br />» %2$s',
+	'LOG_BAN_EXCLUDE_IP'    => '<strong>Exclusion d’une adresse IP du bannissement</strong> en spécifiant comme raison « %1$s »<br />» %2$s',
+	'LOG_BAN_EXCLUDE_EMAIL' => '<strong>Exclusion d’une adresse de courriel du bannissement</strong> en spécifiant comme raison « %1$s »<br />» %2$s',
+	'LOG_BAN_USER'          => '<strong>Bannissement d’un nom d’utilisateur</strong> en spécifiant comme raison « %1$s »<br />» %2$s',
+	'LOG_BAN_IP'            => '<strong>Bannissement d’une adresse IP</strong> en spécifiant comme raison « %1$s »<br />» %2$s',
+	'LOG_BAN_EMAIL'         => '<strong>Bannissement d’une adresse de courriel</strong> en spécifiant comme raison « %1$s »<br />» %2$s',
 	'LOG_UNBAN_USER'        => '<strong>Débannissement d’un nom d’utilisateur</strong><br />» %s',
 	'LOG_UNBAN_IP'          => '<strong>Débannissement d’une adresse IP</strong><br />» %s',
 	'LOG_UNBAN_EMAIL'       => '<strong>Débannissement d’une adresse de courriel</strong><br />» %s',
@@ -595,9 +595,9 @@ $lang = array_merge($lang, [
 
 	'LOG_APPROVE_TOPIC'       => '<strong>Approbation d’un sujet</strong><br />» %s',
 	'LOG_BUMP_TOPIC'          => '<strong>Un utilisateur a remonté un sujet</strong><br />» %s',
-	'LOG_DELETE_POST'         => '<strong>Suppression du message « %1$s » publié par %2$s en spécifiant une raison</strong><br />» %3$s',
+	'LOG_DELETE_POST'         => '<strong>Suppression du message « %1$s » publié par %2$s en spécifiant une raison</strong><br />» %3$s',
 	'LOG_DELETE_SHADOW_TOPIC' => '<strong>Suppression d’une redirection de sujet</strong><br />» %s',
-	'LOG_DELETE_TOPIC'        => '<strong>Suppression du sujet « %1$s » publié par %2$s en spécifiant une raison</strong><br />» %3$s',
+	'LOG_DELETE_TOPIC'        => '<strong>Suppression du sujet « %1$s » publié par %2$s en spécifiant une raison</strong><br />» %3$s',
 	'LOG_FORK'                => '<strong>Copie d’un sujet</strong><br />» de %s',
 	'LOG_LOCK'                => '<strong>Verrouillage d’un sujet</strong><br />» %s',
 	'LOG_LOCK_POST'           => '<strong>Verrouillage d’un message</strong><br />» %s',
@@ -607,20 +607,20 @@ $lang = array_merge($lang, [
 	'LOG_PM_REPORT_CLOSED'    => '<strong>Clôture d’un rapport de MP</strong><br />» %s',
 	'LOG_PM_REPORT_DELETED'   => '<strong>Suppression d’un rapport de MP</strong><br />» %s',
 	'LOG_POST_APPROVED'       => '<strong>Approbation d’un message</strong><br />» %s',
-	'LOG_POST_DISAPPROVED'    => '<strong>Désapprobation du message « %1$s » publié par %3$s en spécifiant une raison</strong><br />» %2$s',
-	'LOG_POST_EDITED'         => '<strong>Modification du message « %1$s » publié par %2$s en spécifiant une raison</strong><br />» %3$s',
+	'LOG_POST_DISAPPROVED'    => '<strong>Désapprobation du message « %1$s » publié par %3$s en spécifiant une raison</strong><br />» %2$s',
+	'LOG_POST_EDITED'         => '<strong>Modification du message « %1$s » publié par %2$s en spécifiant une raison</strong><br />» %3$s',
 	'LOG_POST_RESTORED'       => '<strong>Restauration d’un message</strong><br />» %s',
 	'LOG_REPORT_CLOSED'       => '<strong>Clôture d’un rapport</strong><br />» %s',
 	'LOG_REPORT_DELETED'      => '<strong>Suppression d’un rapport</strong><br />» %s',
-	'LOG_RESTORE_TOPIC'       => '<strong>Restauration du sujet « %1$s » publié par</strong><br />» %2$s',
-	'LOG_SOFTDELETE_POST'     => '<strong>Suppression du message « %1$s » publié par %2$s en spécifiant une raison</strong><br />» %3$s',
-	'LOG_SOFTDELETE_TOPIC'    => '<strong>Suppression du sujet « %1$s » publié par %2$s en spécifiant une raison</strong><br />» %3$s',
+	'LOG_RESTORE_TOPIC'       => '<strong>Restauration du sujet « %1$s » publié par</strong><br />» %2$s',
+	'LOG_SOFTDELETE_POST'     => '<strong>Suppression du message « %1$s » publié par %2$s en spécifiant une raison</strong><br />» %3$s',
+	'LOG_SOFTDELETE_TOPIC'    => '<strong>Suppression du sujet « %1$s » publié par %2$s en spécifiant une raison</strong><br />» %3$s',
 	'LOG_SPLIT_DESTINATION'   => '<strong>Déplacement de messages divisés</strong><br />» vers %s',
 	'LOG_SPLIT_SOURCE'        => '<strong>Division de messages</strong><br />» de %s',
 
 	'LOG_TOPIC_APPROVED'     => '<strong>Approbation d’un sujet</strong><br />» %s',
 	'LOG_TOPIC_RESTORED'     => '<strong>Restauration d’un sujet</strong><br />» %s',
-	'LOG_TOPIC_DISAPPROVED'  => '<strong>Désapprobation du sujet « %1$s » publié par %3$s en spécifiant une raison</strong><br />%2$s',
+	'LOG_TOPIC_DISAPPROVED'  => '<strong>Désapprobation du sujet « %1$s » publié par %3$s en spécifiant une raison</strong><br />%2$s',
 	'LOG_TOPIC_RESYNC'       => '<strong>Resynchronisation du compteur de sujets</strong><br />» %s',
 	'LOG_TOPIC_TYPE_CHANGED' => '<strong>Modification du type d’un sujet</strong><br />» %s',
 	'LOG_UNLOCK'             => '<strong>Déverrouillage d’un sujet</strong><br />» %s',
@@ -657,10 +657,10 @@ $lang = array_merge($lang, [
 	'LOG_FORUM_MOVE_UP'                    => '<strong>Déplacement du forum</strong> %1$s <strong>au-dessus de</strong> %2$s',
 	'LOG_FORUM_SYNC'                       => '<strong>Resynchronisation d’un forum</strong><br />» %s',
 
-	'LOG_GENERAL_ERROR' => '<strong>Une erreur générale est survenue</strong> : %1$s <br />» %2$s',
+	'LOG_GENERAL_ERROR' => '<strong>Une erreur générale est survenue</strong> : %1$s <br />» %2$s',
 
 	'LOG_GROUP_CREATED'  => '<strong>Création d’un nouveau groupe d’utilisateurs</strong><br />» %s',
-	'LOG_GROUP_DEFAULTS' => '<strong>Le groupe « %1$s » a été défini comme groupe par défaut pour les membres</strong><br />» %2$s',
+	'LOG_GROUP_DEFAULTS' => '<strong>Le groupe « %1$s » a été défini comme groupe par défaut pour les membres</strong><br />» %2$s',
 	'LOG_GROUP_DELETE'   => '<strong>Suppression d’un groupe d’utilisateurs</strong><br />» %s',
 	'LOG_GROUP_DEMOTED'  => '<strong>Rétrogradation de responsables dans le groupe d’utilisateurs</strong> %1$s<br />» %2$s',
 	'LOG_GROUP_PROMOTED' => '<strong>Promotion de membres en tant que responsables dans le groupe d’utilisateurs</strong> %1$s<br />» %2$s',
@@ -669,9 +669,9 @@ $lang = array_merge($lang, [
 	'LOG_MODS_ADDED'     => '<strong>Ajout de nouveaux responsables dans le groupe d’utilisateurs</strong> %1$s<br />» %2$s',
 	'LOG_USERS_ADDED'    => '<strong>Ajout de nouveaux membres dans le groupe d’utilisateurs</strong> %1$s<br />» %2$s',
 	'LOG_USERS_APPROVED' => '<strong>Approbation d’utilisateurs dans le groupe d’utilisateurs</strong> %1$s<br />» %2$s',
-	'LOG_USERS_PENDING'  => '<strong>Un ou plusieurs utilisateurs ont demandé à rejoindre le groupe d’utilisateurs « %1$s » et attendent d’être approuvés</strong><br />» %2$s',
+	'LOG_USERS_PENDING'  => '<strong>Un ou plusieurs utilisateurs ont demandé à rejoindre le groupe d’utilisateurs « %1$s » et attendent d’être approuvés</strong><br />» %2$s',
 
-	'LOG_IMAGE_GENERATION_ERROR' => '<strong>Une erreur est survenue lors de la création d’une image</strong><br />» Erreur dans %1$s sur la ligne %2$s : %3$s',
+	'LOG_IMAGE_GENERATION_ERROR' => '<strong>Une erreur est survenue lors de la création d’une image</strong><br />» Erreur dans %1$s sur la ligne %2$s : %3$s',
 
 	'LOG_INACTIVE_ACTIVATE' => '<strong>Activation d’utilisateurs inactifs</strong><br />» %s',
 	'LOG_INACTIVE_DELETE'   => '<strong>Suppression d’utilisateurs inactifs</strong><br />» %s',
@@ -679,7 +679,7 @@ $lang = array_merge($lang, [
 	'LOG_INSTALL_CONVERTED' => '<strong>Conversion de phpBB %1$s vers phpBB %2$s</strong>',
 	'LOG_INSTALL_INSTALLED' => '<strong>Installation de phpBB %s</strong>',
 
-	'LOG_IP_BROWSER_FORWARDED_CHECK' => '<strong>Échec de la vérification de la session IP, du navigateur ou de « X_FORWARDED_FOR »</strong><br />»L’adresse IP de l’utilisateur %1$s a été comparée à la session IP « %2$s », la chaîne du navigateur de l’utilisateur %3$s a été comparée à la chaîne de la session du navigateur « %4$s » et la chaîne X_FORWARDED_FOR de l’utilisateur %5$s a été comparée à la chaîne X_FORWARDED_FOR de la session « %6$s ».',
+	'LOG_IP_BROWSER_FORWARDED_CHECK' => '<strong>Échec de la vérification de la session IP, du navigateur ou de « X_FORWARDED_FOR »</strong><br />»L’adresse IP de l’utilisateur %1$s a été comparée à la session IP « %2$s », la chaîne du navigateur de l’utilisateur %3$s a été comparée à la chaîne de la session du navigateur « %4$s » et la chaîne X_FORWARDED_FOR de l’utilisateur %5$s a été comparée à la chaîne X_FORWARDED_FOR de la session « %6$s ».',
 
 	'LOG_JAB_CHANGED'          => '<strong>Modification d’un compte Jabber</strong>',
 	'LOG_JAB_PASSCHG'          => '<strong>Modification d’un mot de passe de Jabber</strong>',
@@ -694,7 +694,7 @@ $lang = array_merge($lang, [
 
 	'LOG_MASS_EMAIL' => '<strong>Envoi d’un courriel de masse</strong><br />» %s',
 
-	'LOG_MCP_CHANGE_POSTER' => '<strong>Modification de l’auteur du sujet « %1$s »</strong><br />» de %2$s vers %3$s',
+	'LOG_MCP_CHANGE_POSTER' => '<strong>Modification de l’auteur du sujet « %1$s »</strong><br />» de %2$s vers %3$s',
 
 	'LOG_MODULE_DISABLE'   => '<strong>Désactivation d’un module</strong><br />» %s',
 	'LOG_MODULE_ENABLE'    => '<strong>Activation d’un module</strong><br />» %s',
@@ -717,7 +717,7 @@ $lang = array_merge($lang, [
 	'LOG_U_ROLE_EDIT'    => '<strong>Modification d’un rôle d’utilisateur</strong><br />» %s',
 	'LOG_U_ROLE_REMOVED' => '<strong>Suppression d’un rôle d’utilisateur</strong><br />» %s',
 
-	'LOG_PLUPLOAD_TIDY_FAILED' => '<strong>Le rangement a échoué car il n’a pas été possible d’ouvrir %1$s. Veuillez vérifier les permissions.</strong><br />Exception : %2$s<br />Localisation : %3$s',
+	'LOG_PLUPLOAD_TIDY_FAILED' => '<strong>Le rangement a échoué car il n’a pas été possible d’ouvrir %1$s. Veuillez vérifier les permissions.</strong><br />Exception : %2$s<br />Localisation : %3$s',
 
 	'LOG_PROFILE_FIELD_ACTIVATE'   => '<strong>Activation d’un champ de profil</strong><br />» %s',
 	'LOG_PROFILE_FIELD_CREATE'     => '<strong>Ajout d’un champ de profil</strong><br />» %s',
@@ -743,7 +743,7 @@ $lang = array_merge($lang, [
 	'LOG_REASON_REMOVED' => '<strong>Suppression d’un rapport ou d’une raison</strong><br />» %s',
 	'LOG_REASON_UPDATED' => '<strong>Mise à jour d’un rapport ou d’une raison</strong><br />» %s',
 
-	'LOG_REFERER_INVALID'     => '<strong>Échec de la validation du référant</strong><br />»Le référant était « %1$s ». La requête a été rejetée et la session a été interrompue.',
+	'LOG_REFERER_INVALID'     => '<strong>Échec de la validation du référant</strong><br />»Le référant était « %1$s ». La requête a été rejetée et la session a été interrompue.',
 	'LOG_RESET_DATE'          => '<strong>Réinitialisation de la date d’ouverture du forum</strong>',
 	'LOG_RESET_ONLINE'        => '<strong>Réinitialisation du nombre maximal d’utilisateurs en ligne</strong>',
 	'LOG_RESYNC_FILES_STATS'  => '<strong>Resynchronisation des fichiers statistiques</strong>',
@@ -787,9 +787,9 @@ $lang = array_merge($lang, [
 	'LOG_UPDATE_PHPBB'    => '<strong>Mise à jour de phpBB de la version %1$s à la version %2$s</strong>',
 
 	'LOG_USER_ACTIVE'       => '<strong>Activation du compte d’un utilisateur</strong><br />» %s',
-	'LOG_USER_BAN_USER'     => '<strong>Bannissement du compte d’un utilisateur depuis la gestion des utilisateurs</strong> en spécifiant comme raison « %1$s »<br />» %2$s',
-	'LOG_USER_BAN_IP'       => '<strong>Bannissement d’une adresse IP depuis la gestion des utilisateurs</strong> en spécifiant comme raison « %1$s »<br />» %2$s',
-	'LOG_USER_BAN_EMAIL'    => '<strong>Bannissement d’une adresse de courriel depuis la gestion des utilisateurs</strong> en spécifiant comme raison « %1$s »<br />» %2$s',
+	'LOG_USER_BAN_USER'     => '<strong>Bannissement du compte d’un utilisateur depuis la gestion des utilisateurs</strong> en spécifiant comme raison « %1$s »<br />» %2$s',
+	'LOG_USER_BAN_IP'       => '<strong>Bannissement d’une adresse IP depuis la gestion des utilisateurs</strong> en spécifiant comme raison « %1$s »<br />» %2$s',
+	'LOG_USER_BAN_EMAIL'    => '<strong>Bannissement d’une adresse de courriel depuis la gestion des utilisateurs</strong> en spécifiant comme raison « %1$s »<br />» %2$s',
 	'LOG_USER_DELETED'      => '<strong>Suppression du compte d’un utilisateur</strong><br />» %s',
 	'LOG_USER_DEL_ATTACH'   => '<strong>Suppression de toutes les pièces jointes d’un utilisateur</strong><br />» %s',
 	'LOG_USER_DEL_AVATAR'   => '<strong>Suppression de l’avatar d’un utilisateur</strong><br />» %s',
@@ -797,20 +797,20 @@ $lang = array_merge($lang, [
 	'LOG_USER_DEL_POSTS'    => '<strong>Suppression de tous les messages d’un utilisateur</strong><br />» %s',
 	'LOG_USER_DEL_SIG'      => '<strong>Suppression de la signature d’un utilisateur</strong><br />» %s',
 	'LOG_USER_INACTIVE'     => '<strong>Désactivation du compte d’un utilisateur</strong><br />» %s',
-	'LOG_USER_MOVE_POSTS'   => '<strong>Déplacement des messages d’un utilisateur</strong><br />» messages de %1$s vers le forum « %2$s »',
+	'LOG_USER_MOVE_POSTS'   => '<strong>Déplacement des messages d’un utilisateur</strong><br />» messages de %1$s vers le forum « %2$s »',
 	'LOG_USER_NEW_PASSWORD' => '<strong>Modification du mot de passe d’un utilisateur</strong><br />» %s',
 	'LOG_USER_REACTIVATE'   => '<strong>Réactivation forcée du compte d’un utilisateur</strong><br />» %s',
 	'LOG_USER_REMOVED_NR'   => '<strong>Suppression du statut d’utilisateur nouvellement inscrit du compte d’un utilisateur</strong><br />» %s',
 
-	'LOG_USER_UPDATE_EMAIL' => '<strong>Modification de l’adresse de courriel de l’utilisateur %1$s</strong><br />» de « %2$s » à « %3$s »',
-	'LOG_USER_UPDATE_NAME'  => '<strong>Modification d’un nom d’utilisateur</strong><br />» de « %1$s » à « %2$s »',
+	'LOG_USER_UPDATE_EMAIL' => '<strong>Modification de l’adresse de courriel de l’utilisateur %1$s</strong><br />» de « %2$s » à « %3$s »',
+	'LOG_USER_UPDATE_NAME'  => '<strong>Modification d’un nom d’utilisateur</strong><br />» de « %1$s » à « %2$s »',
 	'LOG_USER_USER_UPDATE'  => '<strong>Mise à jour des informations du compte d’un utilisateur</strong><br />» %s',
 
 	'LOG_USER_ACTIVE_USER'     => '<strong>Activation du compte d’un utilisateur</strong>',
 	'LOG_USER_DEL_AVATAR_USER' => '<strong>Suppression de l’avatar d’un utilisateur</strong>',
 	'LOG_USER_DEL_SIG_USER'    => '<strong>Suppression de la signature d’un utilisateur</strong>',
 	'LOG_USER_FEEDBACK'        => '<strong>Ajout d’une remarque concernant un utilisateur</strong><br />» %s',
-	'LOG_USER_GENERAL'         => '<strong>Ajout d’un élément :</strong><br />» %s',
+	'LOG_USER_GENERAL'         => '<strong>Ajout d’un élément :</strong><br />» %s',
 	'LOG_USER_INACTIVE_USER'   => '<strong>Désactivation du compte d’un utilisateur</strong>',
 	'LOG_USER_LOCK'            => '<strong>Verrouillage du propre sujet d’un utilisateur</strong><br />» %s',
 	'LOG_USER_MOVE_POSTS_USER' => '<strong>Déplacement de tous les messages vers un forum</strong>» %s',

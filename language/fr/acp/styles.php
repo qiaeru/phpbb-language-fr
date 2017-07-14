@@ -39,13 +39,13 @@ $lang = array_merge($lang, [
 	'ACP_STYLES_EXPLAIN' => 'Depuis cette page, vous pouvez gérer les styles disponibles sur votre forum. Vous pouvez installer de nouveaux styles et modifier, supprimer, désactiver et réactiver les styles déjà installés. Vous pouvez également voir à quoi ressemble un style en utilisant la fonctionnalité de prévisualisation. De même, vous pouvez consulter le compteur du nombre total d’utilisateurs de chaque style. Veuillez cependant noter que lorsque vous écrasez un style, la comptabilisation du nombre total d’utilisateurs ne sera pas répercutée sur le style qui le remplacera.',
 
 	'CANNOT_BE_INSTALLED'      => 'Ne peut pas être installé',
-	'CONFIRM_UNINSTALL_STYLES' => 'Êtes-vous sûr de vouloir désinstaller ces styles ?',
+	'CONFIRM_UNINSTALL_STYLES' => 'Êtes-vous sûr de vouloir désinstaller ces styles ?',
 	'COPYRIGHT'                => 'Copyright',
 
 	'DEACTIVATE_DEFAULT'         => 'Vous ne pouvez pas désactiver le style par défaut.',
 	'DELETE_FROM_FS'             => 'Supprimer du système de fichiers',
-	'DELETE_STYLE_FILES_FAILED'  => 'Une erreur est survenue lors de la suppression des fichiers du style « %s ».',
-	'DELETE_STYLE_FILES_SUCCESS' => 'Les fichiers du style « %s » ont été supprimés.',
+	'DELETE_STYLE_FILES_FAILED'  => 'Une erreur est survenue lors de la suppression des fichiers du style « %s ».',
+	'DELETE_STYLE_FILES_SUCCESS' => 'Les fichiers du style « %s » ont été supprimés.',
 	'DETAILS'                    => 'Informations',
 
 	'INHERITING_FROM'        => 'Hérite de',
@@ -59,7 +59,7 @@ $lang = array_merge($lang, [
 
 	'PURGED_CACHE' => 'Le cache a été vidé.',
 
-	'REQUIRES_STYLE' => 'Ce style ne fonctionne que si le style « %s » est également installé.',
+	'REQUIRES_STYLE' => 'Ce style ne fonctionne que si le style « %s » est également installé.',
 
 	'STYLE_ACTIVATE'                            => 'Activer',
 	'STYLE_ACTIVE'                              => 'Actif',
@@ -69,16 +69,16 @@ $lang = array_merge($lang, [
 	'STYLE_ERR_INVALID_PARENT'                  => 'Le style parent est invalide.',
 	'STYLE_ERR_NAME_EXIST'                      => 'Un style portant ce nom existe déjà.',
 	'STYLE_ERR_STYLE_NAME'                      => 'Vous devez saisir le nom de ce style.',
-	'STYLE_INSTALLED'                           => 'Le style « %s » a été installé.',
+	'STYLE_INSTALLED'                           => 'Le style « %s » a été installé.',
 	'STYLE_INSTALLED_RETURN_INSTALLED_STYLES'   => 'Revenir à la liste des styles installés',
 	'STYLE_INSTALLED_RETURN_UNINSTALLED_STYLES' => 'Installer de nouveaux styles',
 	'STYLE_NAME'                                => 'Nom du style',
-	'STYLE_NAME_RESERVED'                       => 'Le style « %s » ne peut pas être installé car le nom est réservé.',
-	'STYLE_NOT_INSTALLED'                       => 'Le style « %s » n’a pas été installé.',
+	'STYLE_NAME_RESERVED'                       => 'Le style « %s » ne peut pas être installé car le nom est réservé.',
+	'STYLE_NOT_INSTALLED'                       => 'Le style « %s » n’a pas été installé.',
 	'STYLE_PATH'                                => 'Chemin du style',
 	'STYLE_UNINSTALL'                           => 'Désinstaller',
-	'STYLE_UNINSTALL_DEPENDENT'                 => 'Le style « %s » ne peut pas être désinstallé car un ou plusieurs styles sont dépendants de ce dernier.',
-	'STYLE_UNINSTALLED'                         => 'Le style « %s » a été désinstallé.',
+	'STYLE_UNINSTALL_DEPENDENT'                 => 'Le style « %s » ne peut pas être désinstallé car un ou plusieurs styles sont dépendants de ce dernier.',
+	'STYLE_UNINSTALLED'                         => 'Le style « %s » a été désinstallé.',
 	'STYLE_USED_BY'                             => 'Utilisé par (incluant les robots)',
 	'STYLE_VERSION'                             => 'Version du style',
 
