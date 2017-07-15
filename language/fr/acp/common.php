@@ -240,11 +240,11 @@ $lang = array_merge($lang, [
 	'CANNOT_RENAME_FILE'             => 'Impossible de renommer un fichier du système',
 	'CANNOT_TOUCH_FILES'             => 'Impossible de déterminer si le fichier existe',
 
-<<<<<<< HEAD
+
 	'CONTAINER_EXCEPTION' => 'Une erreur est survenue lors de la construction du conteneur en raison d’une extension installée. Par mesure de sécurité, toutes les extensions ont été temporairement désactivées. Veuillez essayer de vider le cache de votre forum. Toutes les extensions seront automatiquement réactivées lorsque cette erreur de conteneur sera corrigée. Si cette erreur persiste, veuillez demander une assistance sur <a href="https://www.phpbb.com/support">le site internet de phpBB.com</a> (en anglais).',
-=======
+
 	'CONTAINER_EXCEPTION' => 'Une erreur est survenue lors de la construction du conteneur en raison d’une extension installée. Par mesure de sécurité, toutes les extensions ont été temporairement désactivées. Veuillez essayer de vider le cache de votre forum. Toutes les extensions seront automatiquement réactivées lorsque cette erreur de conteneur sera corrigée. Si cette erreur persiste, veuillez demander une assistance sur <a href="https://www.phpbb.com/support">notre site internet</a> (en anglais).',
->>>>>>> 3.2.x
+
 	'EXCEPTION'           => 'Exception',
 
 	'COLOUR_SWATCH' => 'Palette de couleurs internet',
@@ -356,11 +356,11 @@ $lang = array_merge($lang, [
 
 // PHP info
 $lang = array_merge($lang, [
-<<<<<<< HEAD
+
 	'ACP_PHP_INFO_EXPLAIN' => 'Depuis cette page, vous pouvez consulter les informations sur la version de PHP qui est installée sur votre serveur. Cela comprend l’ensemble des informations sur les modules chargés, les variables disponibles et les paramètres par défaut. Ces informations peuvent être utiles afin de diagnostiquer les problèmes présents sur votre serveur. Veuillez noter que certains hébergeurs peuvent limiter l’affichage de ces informations pour des raisons de sécurité. Il est déconseillé de divulguer les informations disponibles sur cette page, sauf si elles sont demandées par un des <a href="https://www.phpbb.com/about/team/">membres de l’équipe</a> (en anglais) des forums d’assistance.',
-=======
+
 	'ACP_PHP_INFO_EXPLAIN' => 'Depuis cette page, vous pouvez consulter les informations sur la version de PHP installée sur votre serveur. Ces informations comprennent l’ensemble des données sur les modules chargés, les variables disponibles et les paramètres par défaut. Ces informations peuvent être utiles afin de diagnostiquer les problèmes présents sur votre serveur. Veuillez noter que certains hébergeurs peuvent limiter l’affichage de ces informations pour des raisons de sécurité. Il est déconseillé de divulguer les informations disponibles sur cette page, sauf si elles sont explicitement demandées par un des <a href="https://www.phpbb.com/about/team/">membres de notre équipe</a> (en anglais) sur les forums d’assistance.',
->>>>>>> 3.2.x
+
 
 	'NO_PHPINFO_AVAILABLE' => 'Impossible d’afficher les informations concernant votre configuration de PHP. La fonction « phpinfo() » a été désactivée pour des raisons de sécurité.',
 ]);
@@ -505,21 +505,21 @@ $lang = array_merge($lang, [
 
 // Help support phpBB page
 $lang = array_merge($lang, [
-<<<<<<< HEAD
+
 	'EXPLAIN_SEND_STATISTICS' => 'Vous pouvez nous soumettre des informations statistiques sur votre serveur et sur la configuration de votre forum. Toutes les informations pouvant vous identifier ou identifier votre site internet ont été supprimées, les données sont entièrement anonymes. Nous utilisons ces informations afin de mieux adapter nos décisions sur les futures versions de notre logiciel. Les statistiques sont rendues publiques. Nous partageons également ces données avec le projet PHP, qui est l’auteur du langage de programmation du même nom, majoritairement utilisé dans phpBB.',
-=======
+
 	'EXPLAIN_SEND_STATISTICS' => 'Vous pouvez nous soumettre des statistiques sur votre serveur et sur la configuration de votre forum. Veuillez noter que les données sont entièrement anonymes, toutes les informations pouvant vous identifier ou identifier votre site internet ont été supprimées. Nous utilisons ces informations afin de mieux adapter nos décisions sur les futures versions de notre logiciel. Les statistiques sont rendues publiques. Nous partageons également ces données avec le projet PHP, qui est l’auteur du langage de programmation du même nom, majoritairement utilisé dans phpBB.',
->>>>>>> 3.2.x
+
 	'EXPLAIN_SHOW_STATISTICS' => 'En cliquant sur le bouton ci-dessous, vous pouvez prévisualiser toutes les variables qui nous seront transmises.',
 	'DONT_SEND_STATISTICS'    => 'Revenir au panneau de contrôle d’administration sans envoyer les statistiques.',
 	'GO_ACP_MAIN'             => 'Aller sur la page de démarrage du PCA',
 	'HIDE_STATISTICS'         => 'Masquer les informations',
 	'SEND_STATISTICS'         => 'Envoyer les statistiques',
-<<<<<<< HEAD
+
 	'SEND_STATISTICS_LONG'    => 'Envoyer les informations statistiques',
-=======
+
 	'SEND_STATISTICS_LONG'    => 'Envoyer les statistiques',
->>>>>>> 3.2.x
+
 	'SHOW_STATISTICS'         => 'Afficher les informations',
 	'THANKS_SEND_STATISTICS'  => 'Nous vous remercions d’avoir partagé vos informations.',
 	'FAIL_SEND_STATISTICS'    => 'Une erreur est survenue lors de l’envoi des statistiquues',

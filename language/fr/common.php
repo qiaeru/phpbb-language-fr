@@ -179,11 +179,11 @@ $lang = array_merge($lang, [
 	'COOKIE_CONSENT_OK'     => 'J’accepte',
 	'COOKIE_CONSENT_HREF'   => 'https://www.cnil.fr/fr/site-web-cookies-et-autres-traceurs',
 	'COOKIES_DELETED'       => 'Les cookies du forum ont été supprimés.',
-<<<<<<< HEAD
+
 	'CURRENT_TIME'          => 'Nous sommes actuellement le %s',
-=======
+
 	'CURRENT_TIME'          => 'Nous sommes le %s',
->>>>>>> 3.2.x
+
 
 	'DAY'              => 'jour',
 	'DAYS'             => 'jours',
