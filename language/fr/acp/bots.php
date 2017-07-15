@@ -38,11 +38,7 @@ if (empty($lang) || !is_array($lang))
 // Bot settings
 $lang = array_merge($lang, [
 	'BOTS'              => 'Gérer les robots',
-
-	'BOTS_EXPLAIN'      => 'Les robots sont des agents automatisés qui sont dans la plupart des cas utilisés par les moteurs de recherche afin d’alimenter leur base de données. Les robots n’utilisant que très rarement les sessions de manière appropriée, il est fréquent qu’ils augmentent inutilement la charge des serveurs et qu’ils n’indexent pas correctement certaines pages. Vous pouvez définir ici un type spécial d’utilisateurs qui vous permettra de résoudre ces problèmes.',
-
 	'BOTS_EXPLAIN'      => 'Les robots sont des agents automatisés qui sont dans la plupart des cas utilisés par les moteurs de recherche afin d’alimenter leur base de données. Les robots n’utilisent que très rarement les sessions de manière appropriée. Il est donc fréquent qu’ils augmentent inutilement la charge des serveurs et qu’ils n’indexent pas correctement certaines pages. Vous pouvez définir ici un type spécial d’utilisateurs qui vous permettra de résoudre ces problèmes.',
-
 	'BOT_ACTIVATE'      => 'Activer',
 	'BOT_ACTIVE'        => 'Robot actif',
 	'BOT_ADD'           => 'Ajouter un robot',
@@ -52,11 +48,7 @@ $lang = array_merge($lang, [
 	'BOT_DEACTIVATE'    => 'Désactiver',
 	'BOT_DELETED'       => 'Le robot a été supprimé.',
 	'BOT_EDIT'          => 'Modifier un robot',
-
-	'BOT_EDIT_EXPLAIN'  => 'Depuis cette page, vous pouvez ajouter ou modifier un robot. Vous devez définir une chaîne correspondante à l’agent et une ou plusieurs adresses IP correspondantes au robot. Configurez ces paramètres avec précaution. Vous pouvez également sélectionner le style et la langue que le robot utilisera lors de sa navigation sur le forum. Cela vous permet de spécifier un style léger qui réduirera alors de façon significative la bande passante consommée par votre serveur. N’oubliez pas de configurer également les permissions correspondantes au groupe d’utilisateurs des robots.',
-
 	'BOT_EDIT_EXPLAIN'  => 'Depuis cette page, vous pouvez ajouter ou modifier un robot. Vous devez définir une chaîne correspondante à l’agent utilisateur du robot ou définir au moins une de ses adresses IP. Configurez ces paramètres avec précaution. Vous pouvez également sélectionner le style et la langue que le robot utilisera lors de sa navigation sur le forum. Cela vous permet de spécifier un style léger qui réduirera alors de façon significative la bande passante consommée par votre serveur. N’oubliez pas de configurer également les permissions correspondantes au groupe d’utilisateurs des robots.',
-
 	'BOT_LANG'          => 'Langue du robot',
 	'BOT_LANG_EXPLAIN'  => 'La langue utilisée par le robot lors de sa navigation sur le forum.',
 	'BOT_LAST_VISIT'    => 'Dernière visite',

@@ -37,7 +37,6 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, [
 
-
 	'EXTENSION_ALREADY_INSTALLED'              => 'L’extension « %s » a déjà été installée.',
 	'EXTENSION_ALREADY_INSTALLED_MANUALLY'     => 'L’extension « %s » a déjà été installée manuellement.',
 	'EXTENSION_ALREADY_MANAGED'                => 'L’extension « %s » est déjà gérée.',
@@ -53,8 +52,6 @@ $lang = array_merge($lang, [
 	'EXTENSIONS_CATALOG'         => 'Bibliothèque d’extensions',
 	'EXTENSIONS_CATALOG_EXPLAIN' => 'Depuis cette page, vous pouvez consulter toutes les extensions disponibles sur votre forum. Les extensions peuvent facilement être installées ou supprimées par un simple clic. Ajustez les paramètres afin d’autoriser l’activation et la purge instantanées des extensions.',
 
-
-
 	'EXTENSION'                => 'Extension',
 	'EXTENSIONS'               => 'Extensions',
 	'EXTENSIONS_ADMIN'         => 'Gestionnaire d’extensions',
@@ -63,7 +60,6 @@ $lang = array_merge($lang, [
 	'EXTENSION_NOT_AVAILABLE'  => 'Cette extension n’est pas disponible sur ce forum. Veuillez vérifier la compatibilité de vos versions de phpBB et de PHP.',
 	'EXTENSION_DIR_INVALID'    => 'Cette extension est construite avec une structure de répertoire invalide et ne peut donc pas être activée.',
 	'EXTENSION_NOT_ENABLEABLE' => 'Cette extension ne peut pas être activée. Veuillez vérifier les prérequis de l’extension.',
-	'EXTENSION_NOT_INSTALLED'  => 'L’extension « %s » n’est pas disponible. Veuillez vérifier si elle a été correctement installée.',
 
 	'DETAILS' => 'Informations',
 
@@ -116,11 +112,8 @@ $lang = array_merge($lang, [
 	'EXTENSION_ENABLE_CONFIRM'         => 'Êtes-vous sûr de vouloir activer l’extension « %s » ?',
 	'EXTENSION_FORCE_UNSTABLE_CONFIRM' => 'Êtes-vous sûr de vouloir forcer l’utilisation d’une version instable ?',
 
-
 	'INSTALLED'          => 'Installée',
 	'INSTALLED_MANUALLY' => 'Installée manuellement',
-
-
 
 	'RETURN_TO_EXTENSION_LIST' => 'Revenir à la liste des extensions',
 
@@ -154,7 +147,6 @@ $lang = array_merge($lang, [
 	'FORCE_UNSTABLE'                    => 'Toujours vérifier la disponibilité de versions instables',
 	'EXTENSIONS_VERSION_CHECK_SETTINGS' => 'Paramètres de la vérification des mises à jour',
 
-
 	'BROWSE_EXTENSIONS_DATABASE' => 'Parcourir la base de données des extensions',
 
 	'META_FIELD_NOT_SET' => 'Le méta-champ « %s » est requis et doit être configuré.',
@@ -186,12 +178,5 @@ $lang = array_merge($lang, [
 
 	'COMPOSER_MINIMUM_STABILITY'         => 'Stabilité minimale',
 	'COMPOSER_MINIMUM_STABILITY_EXPLAIN' => 'Il est recommandé d’utiliser les versions stables sur un forum en ligne. Les versions instables peuvent être en cours de développement et provoquer des erreurs inattendues à votre forum. Elles devraient donc être limitées à une utilisation en local par des développeurs.',
-
-
-
-	'BROWSE_EXTENSIONS_DATABASE' => 'Parcourir la base de données des extensions',
-
-	'META_FIELD_NOT_SET' => 'Le méta-champ « %s » est requis et doit être configuré.',
-	'META_FIELD_INVALID' => 'Le méta-champ « %s » est invalide.',
 
 ]);

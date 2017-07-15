@@ -36,11 +36,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, [
-
-	'ACP_ATTACHMENT_SETTINGS_EXPLAIN' => 'Depuis cette page, vous pouvez configurer les paramètres relatifs aux pièces jointes et aux catégories spéciales associées.',
-
 	'ACP_ATTACHMENT_SETTINGS_EXPLAIN' => 'Depuis cette page, vous pouvez configurer les paramètres relatifs aux pièces jointes et à leurs catégories spéciales.',
-
 	'ACP_EXTENSION_GROUPS_EXPLAIN'    => 'Depuis cette page, vous pouvez ajouter, supprimer, modifier ou désactiver les groupes d’extensions relatifs aux pièces jointes. Vous pouvez attribuer des catégories spéciales, modifier le mécanisme de téléchargement et définir une icône de transfert qui sera affichée devant les pièces jointes appartenant à un groupe d’extensions spécifique.',
 	'ACP_MANAGE_EXTENSIONS_EXPLAIN'   => 'Depuis cette page, vous pouvez gérer les extensions des pièces jointes autorisées à être transférées et téléchargées sur votre forum. Si vous souhaitez activer une extension, vous devez vous rendre sur le panneau de gestion des groupes d’extensions. Pour des raisons de sécurité, nous vous recommandons de ne pas autoriser les extensions de langages de programmation (telles que « php », « php3 », « php4 », « phtml », « pl », « cgi », « py », « rb », « asp », « aspx », etc.).',
 	'ACP_ORPHAN_ATTACHMENTS_EXPLAIN'  => 'Depuis cette page, vous pouvez consulter les fichiers orphelins, qui correspondent aux pièces jointes qui ont été transférées et insérées à des messages qui n’ont pas été envoyés par leur auteur respectif. Vous pouvez supprimer ces fichiers ou les insérer à des messages existants en saisissant leurs identifiants.',
@@ -67,13 +63,8 @@ $lang = array_merge($lang, [
 	'ATTACH_ORPHAN_URL'               => 'Pièces jointes orphelines',
 	'ATTACH_POST_ID'                  => 'Identifiant du message',
 	'ATTACH_POST_TYPE'                => 'Type de message',
-
-	'ATTACH_QUOTA'                    => 'Limite maximale de pièces jointes',
-	'ATTACH_QUOTA_EXPLAIN'            => 'L’espace de stockage maximal qui sera alloué à la totalité des pièces jointes transférées sur le forum. Réglez cette valeur sur « 0 » si vous ne souhaitez pas limiter cet espace.',
-
 	'ATTACH_QUOTA'                    => 'Taille maximale de l’espace de stockage des pièces jointes',
 	'ATTACH_QUOTA_EXPLAIN'            => 'La taille maximale de l’espace de stockage qui sera alloué à la totalité des pièces jointes transférées sur le forum. Réglez cette valeur sur « 0 » si vous ne souhaitez pas limiter la taille de cet espace.',
-
 	'ATTACH_TO_POST'                  => 'Insérer au message',
 
 	'CAT_FLASH_FILES'          => 'Fichiers Flash',
@@ -89,21 +80,12 @@ $lang = array_merge($lang, [
 	'DOWNLOAD_ADD_IPS_EXPLAIN'    => 'Veuillez saisir chaque adresse IP et nom d’hôte sur une nouvelle ligne. Si vous souhaitez spécifier une plage d’adresses IP, séparez le début et la fin par un tiret « - » et utilisez un astérisque « * » comme métacaractère passe-partout.',
 	'DOWNLOAD_REMOVE_IPS_EXPLAIN' => 'Vous pouvez supprimer ou lever l’exclusion de plusieurs adresses IP en une seule fois en utilisant la combinaison appropriée de la souris et du clavier de votre ordinateur et de votre navigateur internet. Les adresses IP et les noms d’hôtes exclus apparaissent sur fond bleu.',
 	'DISPLAY_INLINED'             => 'Afficher les images des pièces jointes dans les messages',
-
-	'DISPLAY_INLINED_EXPLAIN'     => 'Si cette option est désactivée, les images transférées en pièces jointes s’afficheront sous forme de lien.',
-	'DISPLAY_ORDER'               => 'Ordre d’affichage des pièces jointes',
-	'DISPLAY_ORDER_EXPLAIN'       => 'Les pièces jointes transférées seront affichées dans l’ordre chronologique sélectionné.',
-
-	'EDIT_EXTENSION_GROUP'       => 'Modifier le groupe d’extensions',
-	'EXCLUDE_ENTERED_IP'         => 'Activez cette option afin d’exclure de la liste votre sélection.',
-
 	'DISPLAY_INLINED_EXPLAIN'     => 'Si cette option est désactivée, les images transférées comme pièces jointes ne s’afficheront que sous forme de lien.',
 	'DISPLAY_ORDER'               => 'Ordre d’affichage des pièces jointes',
 	'DISPLAY_ORDER_EXPLAIN'       => 'Les pièces jointes transférées seront affichées dans l’ordre chronologique sélectionné dans ce menu.',
 
 	'EDIT_EXTENSION_GROUP'       => 'Modifier le groupe d’extensions',
 	'EXCLUDE_ENTERED_IP'         => 'Activez cette option afin d’exclure de la liste les éléments sélectionnés.',
-
 	'EXCLUDE_FROM_ALLOWED_IP'    => 'Exclure la sélection des adresses IP et des noms d’hôtes autorisés',
 	'EXCLUDE_FROM_DISALLOWED_IP' => 'Exclure la sélection des adresses IP et des noms d’hôtes interdits',
 	'EXTENSIONS_UPDATED'         => 'Les extensions ont été mises à jour.',
@@ -126,35 +108,20 @@ $lang = array_merge($lang, [
 	'GO_TO_EXTENSIONS' => 'Aller sur la page de gestion des extensions',
 	'GROUP_NAME'       => 'Nom du groupe d’extensions',
 
-
-	'IMAGE_LINK_SIZE'         => 'Dimensions maximales des images avant la mise en lien',
-	'IMAGE_LINK_SIZE_EXPLAIN' => 'Les images transférées en pièces jointes seront affichées sous forme de lien si elles dépassent ces valeurs. Réglez ces deux valeurs sur « 0 » si vous souhaitez désactiver cette fonctionnalité.',
-	'IMAGICK_PATH'            => 'Chemin d’ImageMagick',
-	'IMAGICK_PATH_EXPLAIN'    => 'Le chemin complet vers l’application de conversion ImageMagick, tel que « /usr/bin/ ».',
-
 	'IMAGE_LINK_SIZE'         => 'Dimensions maximales des images avant la transformation en lien',
 	'IMAGE_LINK_SIZE_EXPLAIN' => 'Les images transférées en pièces jointes seront affichées comme des liens si elles dépassent les valeurs spécifiées dans ces champs. Réglez ces deux valeurs sur « 0 » si vous souhaitez désactiver ce comportement.',
 	'IMAGICK_PATH'            => 'Chemin d’ImageMagick',
 	'IMAGICK_PATH_EXPLAIN'    => 'Le chemin complet vers l’application de conversion « ImageMagick », tel que « /usr/bin/ ».',
 
-
 	'MAX_ATTACHMENTS'            => 'Limite de pièces jointes par message',
 	'MAX_ATTACHMENTS_PM'         => 'Limite de pièces jointes par message privé',
 	'MAX_EXTGROUP_FILESIZE'      => 'Taille maximale des fichiers',
 	'MAX_IMAGE_SIZE'             => 'Dimensions maximales des images',
-
-	'MAX_IMAGE_SIZE_EXPLAIN'     => 'La taille maximale des images transférées en pièces jointes. Réglez ces deux valeurs sur 0 si vous souhaitez désactiver la vérification des dimensions des images.',
-	'MAX_THUMB_WIDTH'            => 'Taille maximale des miniatures',
-	'MAX_THUMB_WIDTH_EXPLAIN'    => 'Les miniatures générées ne dépasseront pas la largeur et la hauteur spécifiée dans ce champ.',
-	'MIN_THUMB_FILESIZE'         => 'Taille minimale des miniatures',
-	'MIN_THUMB_FILESIZE_EXPLAIN' => 'Si la taille des images est inférieure à cette valeur, elles ne seront pas miniaturisées.',
-
 	'MAX_IMAGE_SIZE_EXPLAIN'     => 'La largeur et la hauteur maximale des images transférées comme pièces jointes. Réglez ces deux valeurs sur « 0 » si vous souhaitez désactiver la vérification des dimensions des images.',
 	'MAX_THUMB_WIDTH'            => 'Taille maximale des miniatures',
 	'MAX_THUMB_WIDTH_EXPLAIN'    => 'Les miniatures générées ne dépasseront pas la dimension spécifiée dans ce champ.',
 	'MIN_THUMB_FILESIZE'         => 'Taille minimale des miniatures',
 	'MIN_THUMB_FILESIZE_EXPLAIN' => 'Les images ne seront pas miniaturisées si la taille des images est inférieure à la valeur spécifiée dans ce champ.',
-
 	'MODE_INLINE'                => 'Dans la ligne',
 	'MODE_PHYSICAL'              => 'Physique',
 
