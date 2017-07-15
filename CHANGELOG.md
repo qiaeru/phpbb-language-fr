@@ -23,12 +23,11 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 - Some URLs have been changed to remove the rel attribute.
 - Some URLs have been changed to end with a slash.
 - Some smiley meanings have been improved.
-- Several translations have been improved.
+- A lot of translations have been improved.
 
 ### Deprecated
 
 - Several HTML tags have been deprecated and have been mostly replaced by guillemets.
-- Some keys have been deprecated.
 
 ## 3.0.0 - 2017-01-07
 
