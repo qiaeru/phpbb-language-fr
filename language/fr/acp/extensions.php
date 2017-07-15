@@ -36,7 +36,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, [
-<<<<<<< HEAD
+
 
 	'EXTENSION_ALREADY_INSTALLED'              => 'L’extension « %s » a déjà été installée.',
 	'EXTENSION_ALREADY_INSTALLED_MANUALLY'     => 'L’extension « %s » a déjà été installée manuellement.',
@@ -53,8 +53,8 @@ $lang = array_merge($lang, [
 	'EXTENSIONS_CATALOG'         => 'Bibliothèque d’extensions',
 	'EXTENSIONS_CATALOG_EXPLAIN' => 'Depuis cette page, vous pouvez consulter toutes les extensions disponibles sur votre forum. Les extensions peuvent facilement être installées ou supprimées par un simple clic. Ajustez les paramètres afin d’autoriser l’activation et la purge instantanées des extensions.',
 
-=======
->>>>>>> 3.2.x
+
+
 	'EXTENSION'                => 'Extension',
 	'EXTENSIONS'               => 'Extensions',
 	'EXTENSIONS_ADMIN'         => 'Gestionnaire d’extensions',
@@ -115,12 +115,12 @@ $lang = array_merge($lang, [
 	'EXTENSION_DISABLE_CONFIRM'        => 'Êtes-vous sûr de vouloir désactiver l’extension « %s » ?',
 	'EXTENSION_ENABLE_CONFIRM'         => 'Êtes-vous sûr de vouloir activer l’extension « %s » ?',
 	'EXTENSION_FORCE_UNSTABLE_CONFIRM' => 'Êtes-vous sûr de vouloir forcer l’utilisation d’une version instable ?',
-<<<<<<< HEAD
+
 
 	'INSTALLED'          => 'Installée',
 	'INSTALLED_MANUALLY' => 'Installée manuellement',
-=======
->>>>>>> 3.2.x
+
+
 
 	'RETURN_TO_EXTENSION_LIST' => 'Revenir à la liste des extensions',
 
@@ -153,7 +153,7 @@ $lang = array_merge($lang, [
 	'VERSIONCHECK_FORCE_UPDATE_ALL'     => 'Vérifier de nouveau les mises à jour',
 	'FORCE_UNSTABLE'                    => 'Toujours vérifier la disponibilité de versions instables',
 	'EXTENSIONS_VERSION_CHECK_SETTINGS' => 'Paramètres de la vérification des mises à jour',
-<<<<<<< HEAD
+
 
 	'BROWSE_EXTENSIONS_DATABASE' => 'Parcourir la base de données des extensions',
 
@@ -187,11 +187,11 @@ $lang = array_merge($lang, [
 	'COMPOSER_MINIMUM_STABILITY'         => 'Stabilité minimale',
 	'COMPOSER_MINIMUM_STABILITY_EXPLAIN' => 'Il est recommandé d’utiliser les versions stables sur un forum en ligne. Les versions instables peuvent être en cours de développement et provoquer des erreurs inattendues à votre forum. Elles devraient donc être limitées à une utilisation en local par des développeurs.',
 
-=======
+
 
 	'BROWSE_EXTENSIONS_DATABASE' => 'Parcourir la base de données des extensions',
 
 	'META_FIELD_NOT_SET' => 'Le méta-champ « %s » est requis et doit être configuré.',
 	'META_FIELD_INVALID' => 'Le méta-champ « %s » est invalide.',
->>>>>>> 3.2.x
+
 ]);
