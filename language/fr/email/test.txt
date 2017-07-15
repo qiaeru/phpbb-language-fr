@@ -4,10 +4,10 @@ Bonjour {USERNAME},
 
 Félicitations. La réception de ce courriel signifie que la messagerie électronique de phpBB est correctement configurée.
 
-<<<<<<< HEAD
+
 Dans le cas où vous auriez besoin d’aide, veuillez vous rendre sur les forums d’assistance de phpBB (en anglais) – https://www.phpbb.com/community/
-=======
+
 Dans le cas où vous auriez besoin d’aide, veuillez vous rendre sur nos forums d’assistance – https://www.phpbb.com/community/ (en anglais)
->>>>>>> 3.2.x
+
 
 {EMAIL_SIG}

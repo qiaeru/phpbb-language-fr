@@ -41,11 +41,11 @@ $lang = array_merge($lang, [
 	'HELP_FAQ_BLOCK_SEARCH'       => 'Recherche dans les forums',
 	'HELP_FAQ_BLOCK_USERSETTINGS' => 'Préférences et paramètres des utilisateurs',
 
-<<<<<<< HEAD
+
 	'HELP_FAQ_BOOKMARKS_DIFFERENCE_ANSWER'   => 'Dans phpBB 3.0, la fonctionnalité qui vous permettait d’ajouter un sujet aux favoris était similaire à celle présente dans votre navigateur internet. Vous ne receviez aucune notification lorsqu’un sujet ajouté aux favoris était mis à jour. Dans phpBB 3.3, les favoris sont davantage similaires aux abonnements. Vous pouvez à présent recevoir une notification lorsqu’un sujet ajouté aux favoris est mis à jour. L’abonnement, quant à lui, vous préviendra de la mise à jour d’un forum ou d’un sujet auquel vous êtes abonné. Les options de notification des favoris et des abonnements peuvent être modifiés depuis le panneau de contrôle de l’utilisateur, sous les « Préférences du forum ».',
-=======
+
 	'HELP_FAQ_BOOKMARKS_DIFFERENCE_ANSWER'   => 'Dans phpBB 3.0, la fonctionnalité qui vous permettait d’ajouter un sujet aux favoris était similaire à celle présente dans votre navigateur internet. Vous ne receviez aucune notification lorsqu’un sujet ajouté aux favoris était mis à jour. Dans phpBB 3.2, les favoris sont davantage similaires aux abonnements. Vous pouvez à présent recevoir une notification lorsqu’un sujet ajouté aux favoris est mis à jour. L’abonnement, quant à lui, vous préviendra de la mise à jour d’un forum ou d’un sujet auquel vous êtes abonné. Les options de notification des favoris et des abonnements peuvent être modifiés depuis le panneau de contrôle de l’utilisateur, sous les « Préférences du forum ».',
->>>>>>> 3.2.x
+
 	'HELP_FAQ_BOOKMARKS_DIFFERENCE_QUESTION' => 'Quelle est la différence entre les favoris et les abonnements ?',
 	'HELP_FAQ_BOOKMARKS_FORUM_ANSWER'        => 'Vous pouvez vous abonner à un forum spécifique en cliquant sur le lien « S’abonner au forum » situé en bas de la page du forum.',
 	'HELP_FAQ_BOOKMARKS_FORUM_QUESTION'      => 'Comment puis-je m’abonner à un forum spécifique ?',
@@ -56,11 +56,11 @@ $lang = array_merge($lang, [
 
 	'HELP_FAQ_FORMATTING_ANNOUNCEMENT_ANSWER'      => 'Les annonces contiennent souvent des informations importantes sur le forum dans lequel vous naviguez. Les annonces apparaissent en haut de chaque page du forum dans lequel elles ont été publiées. Tout comme les annonces générales, les permissions concernant les annonces sont définies par les administrateurs du forum.',
 	'HELP_FAQ_FORMATTING_ANNOUNCEMENT_QUESTION'    => 'Que sont les annonces ?',
-<<<<<<< HEAD
+
 	'HELP_FAQ_FORMATTING_BBOCDE_ANSWER'            => 'Le BBCode est une implémentation spéciale du code HTML, vous offrant un meilleur contrôle sur la mise en forme d’un message. L’utilisation du BBCode est déterminée par les administrateurs, mais il vous est également possible de la désactiver sur chaque message depuis le formulaire de rédaction. Le BBCode est similaire à l’architecture du code HTML, les balises sont contenues entre des crochets [ et ] à la place de &lt; et &gt;. Pour plus d’informations à propos du BBCode, veuillez consulter le guide qui est accessible depuis la page de rédaction.',
-=======
+
 	'HELP_FAQ_FORMATTING_BBOCDE_ANSWER'            => 'Le BBCode est une implémentation spéciale du code HTML, vous offrant un meilleur contrôle sur la mise en forme d’un message. L’utilisation du BBCode est déterminée par les administrateurs, mais il vous est également possible de la désactiver sur chaque message depuis le formulaire de rédaction. Le BBCode est similaire à l’architecture du code HTML, les balises sont contenues entre des crochets « [ » et « ] » à la place des chevrons « &lt; » et « &gt; ». Pour plus d’informations à propos du BBCode, veuillez consulter le guide qui est accessible depuis la page de rédaction.',
->>>>>>> 3.2.x
+
 	'HELP_FAQ_FORMATTING_BBOCDE_QUESTION'          => 'Qu’est-ce que le BBCode ?',
 	'HELP_FAQ_FORMATTING_GLOBAL_ANNOUNCE_ANSWER'   => 'Les annonces générales contiennent des informations très importantes que vous devriez consulter en priorité. Elles apparaissent en haut de chaque forum et dans le panneau de contrôle de l’utilisateur. Les permissions concernant les annonces générales sont définies par les administrateurs du forum.',
 	'HELP_FAQ_FORMATTING_GLOBAL_ANNOUNCE_QUESTION' => 'Que sont les annonces générales ?',
@@ -68,11 +68,11 @@ $lang = array_merge($lang, [
 	'HELP_FAQ_FORMATTING_HTML_QUESTION'            => 'Puis-je insérer du code HTML ?',
 	'HELP_FAQ_FORMATTING_ICONS_ANSWER'             => 'Les icônes de sujet sont de petites images que l’auteur peut insérer afin d’illustrer le contenu de son sujet. Les administrateurs peuvent désactiver cette fonctionnalité.',
 	'HELP_FAQ_FORMATTING_ICONS_QUESTION'           => 'Que sont les icônes de sujet ?',
-<<<<<<< HEAD
+
 	'HELP_FAQ_FORMATTING_IMAGES_ANSWER'            => 'Oui, vous pouvez insérer des images à vos messages. Si les administrateurs du forum ont autorisé l’insertion de pièces jointes, vous pourrez transférer des images sur le forum. Dans le cas contraire, vous devrez insérer un lien vers une image distante, hébergée sur un serveur internet public, comme par exemple http://www.exemple.com/mon-image.gif. Vous ne pourrez cependant ni insérer de lien vers des images présentes sur votre propre ordinateur (à moins, bien évidemment, que celui-ci soit en lui-même un serveur internet), ni insérer de lien vers des images hébergées derrière un quelconque système d’authentification, comme par exemple les services de messagerie électronique de Outlook ou de Yahoo, les sites protégés par un mot de passe, etc. Pour insérer une image, utilisez la balise BBCode [img].',
-=======
+
 	'HELP_FAQ_FORMATTING_IMAGES_ANSWER'            => 'Oui, vous pouvez insérer des images à vos messages. Si les administrateurs du forum ont autorisé l’insertion de pièces jointes, vous pourrez transférer des images sur le forum. Dans le cas contraire, vous devrez insérer un lien vers une image distante, hébergée sur un serveur internet public, comme par exemple « http://www.exemple.com/mon-image.gif ». Vous ne pourrez cependant ni insérer de lien vers des images présentes sur votre propre ordinateur (à moins, bien évidemment, que celui-ci soit en lui-même un serveur internet), ni insérer de lien vers des images hébergées derrière un quelconque système d’authentification, comme par exemple les services de messagerie électronique de Outlook ou de Yahoo, les sites protégés par un mot de passe, etc. Pour insérer une image, utilisez la balise BBCode « [img] ».',
->>>>>>> 3.2.x
+
 	'HELP_FAQ_FORMATTING_IMAGES_QUESTION'          => 'Puis-je insérer des images ?',
 	'HELP_FAQ_FORMATTING_LOCKED_ANSWER'            => 'Les sujets verrouillés sont des sujets dans lesquels les utilisateurs ne peuvent plus répondre et dans lesquels les sondages sont automatiquement expirés. Les sujets peuvent être verrouillés par un administrateur ou un modérateur du forum pour de multiples raisons. Vous pouvez également verrouiller vos propres sujets, si cela a été autorisé par les administrateurs.',
 	'HELP_FAQ_FORMATTING_LOCKED_QUESTION'          => 'Que sont les sujets verrouillés ?',
@@ -105,19 +105,19 @@ $lang = array_merge($lang, [
 
 	'HELP_FAQ_ISSUES_ADMIN_ANSWER'         => 'Tous les utilisateurs du forum peuvent utiliser le formulaire disponible sur le lien « Nous contacter » si cette fonctionnalité a été activée par les administrateurs du forum.<br />Les membres du forum peuvent également utiliser le lien « L’équipe ».',
 	'HELP_FAQ_ISSUES_ADMIN_QUESTION'       => 'Comment puis-je contacter un administrateur du forum ?',
-<<<<<<< HEAD
+
 	'HELP_FAQ_ISSUES_FEATURE_ANSWER'       => 'Ce programme a été développé et mis sous licence par phpBB Limited. Si vous souhaitez proposer l’intégration d’une nouvelle fonctionnalité, veuillez vous rendre sur le <a href="https://www.phpbb.com/ideas/">centre d’idées de phpBB</a> du site officiel (en anglais) où vous pourrez voter pour les idées soumises par d’autres utilisateurs et suggérer les vôtres.',
 	'HELP_FAQ_ISSUES_FEATURE_QUESTION'     => 'Pourquoi la fonctionnalité X n’est pas disponible ?',
 	'HELP_FAQ_ISSUES_LEGAL_ANSWER'         => 'Tous les administrateurs listés sur la page « L’équipe » devraient être un contact approprié concernant ces problèmes. Si vous n’obtenez aucune réponse de leur part, vous devriez alors contacter le propriétaire du domaine (faites une <a href="https://www.google.fr/search?q=whois">requête WHOIS</a>), ou, si celui-ci fonctionne sur un service gratuit (comme Yahoo, Free, etc.), le service de gestion des abus. Veuillez noter que phpBB Limited n’a absolument aucune juridiction et ne peut en aucun cas être tenu comme responsable de comment, où et par qui ce forum est utilisé. Ne contactez pas phpBB Limited pour tout problème d’ordre légal (commentaire incessant, insultant, diffamatoire, etc.) qui ne sont pas directement reliés avec le site internet de phpBB.com ou le logiciel phpBB en lui-même. Si vous envoyez un courrier électronique à phpBB Limited à propos d’une utilisation de tierce partie de ce logiciel, attendez-vous à une réponse laconique ou à ne pas recevoir de réponse.',
 	'HELP_FAQ_ISSUES_LEGAL_QUESTION'       => 'Qui dois-je contacter à propos de problèmes d’abus ou d’ordres légaux liés à ce forum ?',
 	'HELP_FAQ_ISSUES_WHOIS_PHPBB_ANSWER'   => 'Ce programme (dans sa forme non modifiée) est produit et distribué par <a href="https://www.phpbb.com/">phpBB Limited</a>, qui en est le légitime propriétaire. Il est rendu accessible sous la Licence Publique Générale GNU version 2 (GPL-2.0) et peut être distribué gratuitement. Pour plus d’informations, veuillez consulter la rubrique <a href="https://www.phpbb.com/about/">À propos de phpBB</a> du site officiel (en anglais).',
-=======
+
 	'HELP_FAQ_ISSUES_FEATURE_ANSWER'       => 'Ce programme a été développé et mis sous licence par phpBB Limited. Si vous souhaitez proposer l’intégration d’une nouvelle fonctionnalité, veuillez vous rendre sur <a href="https://www.phpbb.com/ideas/">notre centre d’idées</a> (en anglais) où vous pourrez voter pour les idées soumises par d’autres utilisateurs et suggérer les vôtres.',
 	'HELP_FAQ_ISSUES_FEATURE_QUESTION'     => 'Pourquoi la fonctionnalité X n’est pas disponible ?',
 	'HELP_FAQ_ISSUES_LEGAL_ANSWER'         => 'Tous les administrateurs listés sur la page « L’équipe » devraient être un contact approprié concernant ces problèmes. Si vous n’obtenez aucune réponse de leur part, vous devriez alors contacter le propriétaire du domaine (dont les informations sont disponibles grâce à <a href="https://www.google.fr/search?q=whois">une requête WHOIS</a>), ou, si celui-ci fonctionne sur un service gratuit (comme Yahoo, Free, etc.), le service de gestion des abus. Veuillez noter que phpBB Limited n’a absolument aucune juridiction et ne peut en aucun cas être tenu comme responsable de comment, où et par qui ce forum est utilisé. Ne contactez pas phpBB Limited pour tout problème d’ordre légal (commentaire incessant, insultant, diffamatoire, etc.) qui ne sont pas directement reliés avec le site internet de phpBB.com ou le logiciel phpBB en lui-même. Si vous envoyez un courrier électronique à phpBB Limited à propos d’une utilisation de tierce partie de ce logiciel, attendez-vous à une réponse laconique ou à ne pas recevoir de réponse.',
 	'HELP_FAQ_ISSUES_LEGAL_QUESTION'       => 'Qui dois-je contacter à propos de problèmes d’abus ou d’ordres légaux liés à ce forum ?',
 	'HELP_FAQ_ISSUES_WHOIS_PHPBB_ANSWER'   => 'Ce programme (dans sa forme non modifiée) est produit et distribué par <a href="https://www.phpbb.com/">phpBB Limited</a>, qui en est le légitime propriétaire. Il est rendu accessible sous la « Licence Publique Générale GNU version 2 (GPL-2.0) » et peut être distribué gratuitement. Pour plus d’informations, veuillez consulter la rubrique « <a href="https://www.phpbb.com/about/">À propos de phpBB</a> » (en anglais).',
->>>>>>> 3.2.x
+
 	'HELP_FAQ_ISSUES_WHOIS_PHPBB_QUESTION' => 'Qui a développé ce logiciel de forum de discussions ?',
 
 	'HELP_FAQ_LOGIN_AUTO_LOGOUT_ANSWER'            => 'Si vous ne cochez pas la case « Se souvenir de moi » lors de votre connexion au forum, vous ne resterez connecté que pour une période prédéfinie. Cela permet d’éviter que votre compte soit utilisé par quelqu’un d’autre. Pour rester connecté, veuillez cocher la case « Se souvenir de moi » lors de votre connexion au forum. Ceci n’est pas recommandé si vous accédez au forum depuis un ordinateur public, comme une librairie, un cybercafé, une université, etc. Si vous n’arrivez pas à trouver cette case à cocher, il est probable qu’un administrateur du forum ait désactivé cette fonctionnalité.',
@@ -128,15 +128,15 @@ $lang = array_merge($lang, [
 	'HELP_FAQ_LOGIN_CANNOT_LOGIN_QUESTION'         => 'Pourquoi ne puis-je pas me connecter ?',
 	'HELP_FAQ_LOGIN_CANNOT_REGISTER_ANSWER'        => 'Il est possible qu’un administrateur du forum ait désactivé les inscriptions afin d’empêcher les nouveaux visiteurs de s’inscrire. De même, il est également possible qu’un administrateur du forum ait banni votre adresse IP ou interdit l’utilisation du nom d’utilisateur que vous souhaitez utiliser. Pour plus d’informations, veuillez contacter un administrateur du forum.',
 	'HELP_FAQ_LOGIN_CANNOT_REGISTER_QUESTION'      => 'Pourquoi ne puis-je pas m’inscrire ?',
-<<<<<<< HEAD
+
 	'HELP_FAQ_LOGIN_COPPA_ANSWER'                  => 'La COPPA (Child Online Privacy and Protection Act) est une loi des États-Unis d’Amérique qui demande aux sites internet collectant potentiellement des informations sur les mineurs âgés de moins de 13 ans un consentement écrit des parents ou des tuteurs légaux des mineurs concernés. Si vous ne savez pas si cette loi s’applique également aux mineurs âgés de moins de 13 ans inscrits sur votre forum, nous vous conseillons de contacter un conseiller juridique qui pourra vous renseigner. Veuillez noter que phpBB Limited et que les propriétaires de ce forum ne peuvent pas vous fournir d’assistance légale et ne doivent donc pas être contactés à ce sujet, excepté lorsque l’assistance porte sur la question « Qui dois-je contacter à propos de problèmes d’abus ou d’ordres légaux liés à ce forum ? ».',
 	'HELP_FAQ_LOGIN_COPPA_QUESTION'                => 'Qu’est-ce que la COPPA ?',
 	'HELP_FAQ_LOGIN_DELETE_COOKIES_ANSWER'         => 'Cette option vous permet d’effacer tous les cookies générés par phpBB 3.3 qui conservent votre authentification et votre connexion au forum. Les cookies permettent également d’enregistrer le statut des messages (s’ils sont lus ou non lus) dans le cas où cette fonctionnalité a été activée par un administrateur du forum. Si vous rencontrez des problèmes récurrents de connexion et de déconnexion au forum, essayez de supprimer les cookies.',
-=======
+
 	'HELP_FAQ_LOGIN_COPPA_ANSWER'                  => 'La COPPA (pour « Child Online Privacy and Protection Act ») est une loi des États-Unis d’Amérique qui demande aux sites internet collectant potentiellement des informations sur les mineurs âgés de moins de 13 ans un consentement écrit des parents ou des tuteurs légaux des mineurs concernés. Si vous ne savez pas si cette loi s’applique également aux mineurs âgés de moins de 13 ans inscrits sur votre forum, nous vous conseillons de contacter un conseiller juridique qui pourra vous renseigner. Veuillez noter que phpBB Limited et que les propriétaires de ce forum ne peuvent pas vous fournir d’assistance légale et ne doivent donc pas être contactés à ce sujet, excepté lorsque l’assistance porte sur la question « Qui dois-je contacter à propos de problèmes d’abus ou d’ordres légaux liés à ce forum ? ».',
 	'HELP_FAQ_LOGIN_COPPA_QUESTION'                => 'Qu’est-ce que la COPPA ?',
 	'HELP_FAQ_LOGIN_DELETE_COOKIES_ANSWER'         => 'Cette option vous permet d’effacer tous les cookies générés par phpBB 3.2 qui conservent votre authentification et votre connexion au forum. Les cookies permettent également d’enregistrer le statut des messages (s’ils sont lus ou non lus) dans le cas où cette fonctionnalité a été activée par un administrateur du forum. Si vous rencontrez des problèmes récurrents de connexion et de déconnexion au forum, essayez de supprimer les cookies.',
->>>>>>> 3.2.x
+
 	'HELP_FAQ_LOGIN_DELETE_COOKIES_QUESTION'       => 'À quoi sert « Supprimer tous les cookies du forum » ?',
 	'HELP_FAQ_LOGIN_LOST_PASSWORD_ANSWER'          => 'Pas de panique ! Bien que votre mot de passe ne puisse pas être récupéré, il peut facilement être réinitialisé. Veuillez vous rendre sur la page de connexion et cliquer sur « J’ai perdu mon mot de passe ». Suivez les instructions et vous devriez être en mesure de pouvoir vous connecter de nouveau rapidement.<br />Cependant, si vous ne pouvez pas réinitialiser votre mot de passe, nous vous invitons à contacter un administrateur du forum.',
 	'HELP_FAQ_LOGIN_LOST_PASSWORD_QUESTION'        => 'J’ai perdu mon mot de passe !',
@@ -191,11 +191,11 @@ $lang = array_merge($lang, [
 	'HELP_FAQ_SEARCH_OWN_QUESTION'       => 'Comment puis-je retrouver mes propres messages et sujets ?',
 
 	'HELP_FAQ_USERSETTINGS_AVATAR_ANSWER'            => 'Deux images peuvent apparaître à côté de votre nom d’utilisateur lorsque vous consultez un sujet. Une d’elles peut être une image associée à votre rang, généralement représentée par des étoiles, des carrés ou des ronds. Elle permet d’indiquer votre activité selon le nombre de messages que vous avez publié, ou permet de différencier votre statut particulier sur le forum. L’autre image, généralement plus grande, est une image connue sous le nom d’avatar qui est bien souvent unique et personnelle à chaque utilisateur.',
-<<<<<<< HEAD
+
 	'HELP_FAQ_USERSETTINGS_AVATAR_DISPLAY_ANSWER'    => 'Dans le panneau de contrôle de l’utilisateur, sous « Profil », vous pouvez ajouter un avatar en utilisant une des quatre méthodes suivantes : le service Gravatar, la galerie d’avatars, les images distantes ou le transfert d’images locales. Les administrateurs du forum peuvent activer ou non la fonctionnalité des avatars et des méthodes qu’ils veuillent rendre disponible aux utilisateurs. Si vous ne pouvez pas utiliser d’avatars, nous vous invitons à contacter un administrateur du forum.',
-=======
+
 	'HELP_FAQ_USERSETTINGS_AVATAR_DISPLAY_ANSWER'    => 'Dans le panneau de contrôle de l’utilisateur, sous « Profil », vous pouvez ajouter un avatar en utilisant une des quatre méthodes suivantes : le service « Gravatar », la galerie d’avatars, les images distantes ou le transfert d’images locales. Les administrateurs du forum peuvent activer ou non la fonctionnalité des avatars et des méthodes qu’ils veuillent rendre disponible aux utilisateurs. Si vous ne pouvez pas utiliser d’avatars, nous vous invitons à contacter un administrateur du forum.',
->>>>>>> 3.2.x
+
 	'HELP_FAQ_USERSETTINGS_AVATAR_DISPLAY_QUESTION'  => 'Comment puis-je afficher un avatar ?',
 	'HELP_FAQ_USERSETTINGS_AVATAR_QUESTION'          => 'Que signifient les images situées à côté de mon nom d’utilisateur ?',
 	'HELP_FAQ_USERSETTINGS_CHANGE_SETTINGS_ANSWER'   => 'Si vous êtes un utilisateur inscrit, tous vos paramètres sont stockés dans la base de données du forum. Vous pouvez les modifier depuis le panneau de contrôle de l’utilisateur. Le lien vers ce dernier se trouve généralement en cliquant sur votre nom d’utilisateur situé en haut des pages du forum. Ce système vous permettra de modifier tous vos paramètres et toutes vos préférences.',
@@ -204,11 +204,11 @@ $lang = array_merge($lang, [
 	'HELP_FAQ_USERSETTINGS_EMAIL_LOGIN_QUESTION'     => 'Pourquoi m’est-il demandé de me connecter lorsque je clique sur le lien de courrier électronique d’un utilisateur ?',
 	'HELP_FAQ_USERSETTINGS_HIDE_ONLINE_ANSWER'       => 'Dans le panneau de contrôle de l’utilisateur, sous « Préférences du forum », vous trouverez l’option « Masquer mon statut en ligne ». Si vous activez cette option, vous ne serez visible que des administrateurs, des modérateurs et de vous-même. Vous serez alors comptabilisé comme étant un utilisateur invisible.',
 	'HELP_FAQ_USERSETTINGS_HIDE_ONLINE_QUESTION'     => 'Comment puis-je masquer mon nom d’utilisateur de la liste des utilisateurs en ligne ?',
-<<<<<<< HEAD
+
 	'HELP_FAQ_USERSETTINGS_LANGUAGE_ANSWER'          => 'Soit les administrateurs n’ont pas installé votre langue sur le forum, soit le logiciel n’a pas encore été traduit dans votre langue. Essayez de demander à un administrateur du forum s’il est possible qu’il puisse installer la langue que vous souhaitez. Si la traduction désirée n’existe pas, vous êtes libre de vous porter volontaire et commencer une nouvelle traduction. Pour plus d’informations, veuillez vous rendre sur le site internet de <a href="https://www.phpbb.com/">phpBB</a>&reg; (en anglais).',
-=======
+
 	'HELP_FAQ_USERSETTINGS_LANGUAGE_ANSWER'          => 'Soit les administrateurs n’ont pas installé votre langue sur le forum, soit le logiciel n’a pas encore été traduit dans votre langue. Essayez de demander à un administrateur du forum s’il est possible qu’il puisse installer la langue que vous souhaitez. Si la traduction désirée n’existe pas, vous êtes libre de vous porter volontaire et commencer une nouvelle traduction. Pour plus d’informations, veuillez vous rendre sur <a href="https://www.phpbb.com/">le site internet de phpBB</a>&reg; (en anglais).',
->>>>>>> 3.2.x
+
 	'HELP_FAQ_USERSETTINGS_LANGUAGE_QUESTION'        => 'Ma langue n’apparaît pas dans la liste !',
 	'HELP_FAQ_USERSETTINGS_RANK_ANSWER'              => 'Les rangs, qui apparaissent en dessous de votre nom d’utilisateur, indiquent votre activité selon le nombre de messages que vous avez publié ou identifient certains utilisateurs spécifiques, comme les administrateurs et les modérateurs. Dans la plupart des cas, seul un administrateur du forum peut modifier le texte des rangs du forum. Merci de ne pas abuser de ce système en publiant inutilement des messages afin d’augmenter votre rang sur le forum. Beaucoup de forums ne toléreront pas ce procédé et un administrateur ou un modérateur pourra vous sanctionner en abaissant votre compteur de messages.',
 	'HELP_FAQ_USERSETTINGS_RANK_QUESTION'            => 'Quel est mon rang et comment puis-je le modifier ?',

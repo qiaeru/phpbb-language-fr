@@ -106,11 +106,11 @@ $lang = array_merge($lang, [
 	'DELETE_TOPIC_PERMANENTLY_CONFIRM'  => 'Êtes-vous sûr de vouloir supprimer définitivement ce sujet ?',
 	'DELETE_TOPICS_CONFIRM'             => 'Êtes-vous sûr de vouloir supprimer ces sujets ?',
 	'DELETE_TOPICS_PERMANENTLY_CONFIRM' => 'Êtes-vous sûr de vouloir supprimer définitivement ces sujets ?',
-<<<<<<< HEAD
+
 	'DISABLE_BBCODE'                    => 'Désactiver le BBCode',
-=======
+
 	'DISABLE_BBCODE'                    => 'Désactiver les BBCodes',
->>>>>>> 3.2.x
+
 	'DISABLE_MAGIC_URL'                 => 'Ne pas analyser automatiquement la syntaxe des liens',
 	'DISABLE_SMILIES'                   => 'Désactiver les émoticônes',
 	'DISALLOWED_CONTENT'                => 'Le transfert a été interrompu car le fichier que vous avez souhaité transférer a été identifié comme une vulnérabilité potentielle.',
@@ -208,11 +208,11 @@ $lang = array_merge($lang, [
 	],
 	'POLL_QUESTION'             => 'Question du sondage',
 	'POLL_TITLE_TOO_LONG'       => 'Le titre du sondage ne doit pas dépasser 100 caractères.',
-<<<<<<< HEAD
+
 	'POLL_TITLE_COMP_TOO_LONG'  => 'La taille du titre de votre sondage est trop importante. Le BBCode et les émoticônes se sont pas pris en charge.',
-=======
+
 	'POLL_TITLE_COMP_TOO_LONG'  => 'La taille du titre de votre sondage est trop importante. Veuillez noter que les BBCodes et les émoticônes se sont pas pris en charge dans les titres.',
->>>>>>> 3.2.x
+
 	'POLL_VOTE_CHANGE'          => 'Votes multiples',
 	'POLL_VOTE_CHANGE_EXPLAIN'  => 'Si cette option est activée, les utilisateurs pourront modifier leur vote.',
 	'POSTED_ATTACHMENTS'        => 'Pièces jointes transférées',
@@ -259,11 +259,11 @@ $lang = array_merge($lang, [
 		2 => 'Vous devez saisir au moins %1$d caractères.',
 	],
 	'TOO_FEW_POLL_OPTIONS'  => 'Vous devez saisir au moins deux options afin de créer un sondage.',
-<<<<<<< HEAD
+
 	'TOO_MANY_ATTACHMENTS'  => 'Impossible de transférer une nouvelle pièce jointe. La limite maximale de pièces jointes est de %d.',
-=======
+
 	'TOO_MANY_ATTACHMENTS'  => 'Impossible de transférer une nouvelle pièce jointe. La taille maximale de l’espace de stockage des pièces jointes est limité à %d.',
->>>>>>> 3.2.x
+
 	'TOO_MANY_CHARS'        => 'Votre message contient trop de caractères.',
 	'TOO_MANY_CHARS_LIMIT'  => [
 		1 => 'Le nombre maximal de caractères autorisés est de %1$d.',
