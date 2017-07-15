@@ -56,7 +56,7 @@ $lang = array_merge($lang, [
 	'ACL_CAT_POST_ACTIONS'  => 'Opérations des messages',
 	'ACL_CAT_POSTING'       => 'Publication',
 	'ACL_CAT_PROFILE'       => 'Profil',
-	'ACL_CAT_SETTINGS'      => 'Réglages',
+	'ACL_CAT_SETTINGS'      => 'Paramètres',
 	'ACL_CAT_TOPIC_ACTIONS' => 'Opérations des sujets',
 	'ACL_CAT_USER_GROUP'    => 'Utilisateurs et groupes',
 ]);
@@ -81,7 +81,7 @@ $lang = array_merge($lang, [
 	'ACL_U_MASSPM'       => 'Peut envoyer des messages privés à plusieurs utilisateurs',
 	'ACL_U_MASSPM_GROUP' => 'Peut envoyer des messages privés aux groupes d’utilisateurs',
 	'ACL_U_READPM'       => 'Peut lire ses messages privés',
-	'ACL_U_PM_EDIT'      => 'Peut éditer ses messages privés',
+	'ACL_U_PM_EDIT'      => 'Peut modifier ses messages privés',
 	'ACL_U_PM_DELETE'    => 'Peut supprimer les messages privés de ses boîtes',
 	'ACL_U_PM_FORWARD'   => 'Peut transférer les messages privés',
 	'ACL_U_PM_EMAILPM'   => 'Peut envoyer les messages privés par courriel',
@@ -119,11 +119,11 @@ $lang = array_merge($lang, [
 	'ACL_F_ANNOUNCE'        => 'Peut publier des annonces',
 	'ACL_F_ANNOUNCE_GLOBAL' => 'Peut publier des annonces générales',
 	'ACL_F_REPLY'           => 'Peut répondre aux sujets',
-	'ACL_F_EDIT'            => 'Peut éditer ses messages',
+	'ACL_F_EDIT'            => 'Peut modifier ses messages',
 	'ACL_F_DELETE'          => 'Peut supprimer définitivement ses messages',
-	'ACL_F_SOFTDELETE'      => 'Peut supprimer ses messages<br /><em>Les modérateurs qui ont la permission d’approuver des messages pourront restaurer les messages supprimés.</em>',
+	'ACL_F_SOFTDELETE'      => 'Peut supprimer ses messages<br /><em>Veuillez noter que les modérateurs qui peuvent approuver des messages pourront également restaurer les messages supprimés.</em>',
 	'ACL_F_IGNOREFLOOD'     => 'Peut ignorer la limite de flood',
-	'ACL_F_POSTCOUNT'       => 'Peut augmenter son compteur de messages<br /><em>Veuillez noter que ce réglage n’affecte que les nouveaux messages.</em>',
+	'ACL_F_POSTCOUNT'       => 'Peut augmenter son compteur de messages<br /><em>Veuillez noter que cette option n’affecte que les nouveaux messages.</em>',
 	'ACL_F_NOAPPROVE'       => 'Peut publier des messages sans approbation',
 
 	'ACL_F_ATTACH'  => 'Peut transférer des pièces jointes',
@@ -141,9 +141,9 @@ $lang = array_merge($lang, [
 
 // Moderator Permissions
 $lang = array_merge($lang, [
-	'ACL_M_EDIT'       => 'Peut éditer les messages',
+	'ACL_M_EDIT'       => 'Peut modifier les messages',
 	'ACL_M_DELETE'     => 'Peut supprimer définitivement les messages',
-	'ACL_M_SOFTDELETE' => 'Peut supprimer les messages<br /><em>Les modérateurs qui ont la permission d’approuver des messages pourront restaurer les messages supprimés.</em>',
+	'ACL_M_SOFTDELETE' => 'Peut supprimer les messages<br /><em>Veuillez noter que les modérateurs qui peuvent approuver des messages pourront également restaurer les messages supprimés.</em>',
 	'ACL_M_APPROVE'    => 'Peut approuver et restaurer les messages',
 	'ACL_M_REPORT'     => 'Peut fermer et supprimer les rapports',
 	'ACL_M_CHGPOSTER'  => 'Peut modifier les auteurs des messages',
@@ -154,17 +154,17 @@ $lang = array_merge($lang, [
 	'ACL_M_MERGE' => 'Peut fusionner les sujets',
 
 	'ACL_M_INFO'      => 'Peut consulter les informations sur les messages',
-	'ACL_M_WARN'      => 'Peut distribuer des avertissements<br /><em>Ce réglage n’est assigné que généralement.</em>', // This moderator setting is only global (and not local)
-	'ACL_M_PM_REPORT' => 'Peut fermer et supprimer les rapports de messages privés<br /><em>Ce réglage n’est assigné que généralement.</em>', // This moderator setting is only global (and not local)
-	'ACL_M_BAN'       => 'Peut gérer les bannissements<br /><em>Ce réglage n’est assigné que généralement.</em>', // This moderator setting is only global (and not local)
+	'ACL_M_WARN'      => 'Peut distribuer des avertissements<br /><em>Cette option n’est assignée que généralement.</em>', // This moderator setting is only global (and not local)
+	'ACL_M_PM_REPORT' => 'Peut fermer et supprimer les rapports de messages privés<br /><em>Cette option n’est assignée que généralement.</em>', // This moderator setting is only global (and not local)
+	'ACL_M_BAN'       => 'Peut gérer les bannissements<br /><em>Cette option n’est assignée que généralement.</em>', // This moderator setting is only global (and not local)
 ]);
 
 // Admin Permissions
 $lang = array_merge($lang, [
-	'ACL_A_BOARD'   => 'Peut modifier les réglages du forum et rechercher les mises à jour',
-	'ACL_A_SERVER'  => 'Peut modifier les réglages du serveur et de la communication',
-	'ACL_A_JABBER'  => 'Peut modifier les réglages de Jabber',
-	'ACL_A_PHPINFO' => 'Peut consulter les réglages de PHP',
+	'ACL_A_BOARD'   => 'Peut modifier les paramètres du forum et rechercher les mises à jour',
+	'ACL_A_SERVER'  => 'Peut modifier les paramètres du serveur et de la communication',
+	'ACL_A_JABBER'  => 'Peut modifier les paramètres de Jabber',
+	'ACL_A_PHPINFO' => 'Peut consulter les paramètres de PHP',
 
 	'ACL_A_FORUM'    => 'Peut gérer les forums',
 	'ACL_A_FORUMADD' => 'Peut ajouter de nouveaux forums',
@@ -174,7 +174,7 @@ $lang = array_merge($lang, [
 	'ACL_A_ICONS'  => 'Peut modifier les icônes de sujet et de message et les émoticônes',
 	'ACL_A_WORDS'  => 'Peut modifier la censure de mots',
 	'ACL_A_BBCODE' => 'Peut définir les balises BBCodes',
-	'ACL_A_ATTACH' => 'Peut modifier les réglages relatifs aux pièces jointes',
+	'ACL_A_ATTACH' => 'Peut modifier les paramètres relatifs aux pièces jointes',
 
 	'ACL_A_USER'     => 'Peut gérer les utilisateurs<br /><em>Cela inclut également la possibilité de pouvoir consulter l’agent du navigateur des utilisateurs dans la liste des utilisateurs en ligne.</em>',
 	'ACL_A_USERDEL'  => 'Peut supprimer et délester les utilisateurs',
@@ -201,10 +201,10 @@ $lang = array_merge($lang, [
 	'ACL_A_VIEWLOGS'   => 'Peut consulter les historiques',
 	'ACL_A_CLEARLOGS'  => 'Peut effacer les historiques',
 	'ACL_A_MODULES'    => 'Peut gérer les modules',
-	'ACL_A_LANGUAGE'   => 'Peut gérer les traductions',
+	'ACL_A_LANGUAGE'   => 'Peut gérer les langues',
 	'ACL_A_EMAIL'      => 'Peut envoyer des courriels de masse',
 	'ACL_A_BOTS'       => 'Peut gérer les robots',
 	'ACL_A_REASONS'    => 'Peut gérer les rapports et les raisons',
 	'ACL_A_BACKUP'     => 'Peut sauvegarder et restaurer la base de données',
-	'ACL_A_SEARCH'     => 'Peut gérer l’indexation et les réglages de la recherche',
+	'ACL_A_SEARCH'     => 'Peut gérer l’indexation et les paramètres de la recherche',
 ]);

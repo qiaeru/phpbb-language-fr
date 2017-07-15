@@ -37,7 +37,7 @@ if (empty($lang) || !is_array($lang))
 
 // Email settings
 $lang = array_merge($lang, [
-	'ACP_MASS_EMAIL_EXPLAIN' => 'Vous pouvez envoyer sur cette page un courriel à la totalité des utilisateurs ou aux utilisateurs d’un groupe d’utilisateurs spécifique <strong>qui acceptent la réception de courriels de masse</strong>. Pour ce faire, un courriel sera envoyé à l’adresse de courriel renseignée par les administrateurs et une copie sera adressée à tous les destinataires. Le réglage par défaut est limité à 20 destinataires par courriel, mais si ce nombre est dépassé, des courriels supplémentaires seront envoyés. Sachez également que plus les destinataires sont nombreux, plus le temps d’exécution est important. Il est normal que l’envoi d’un courriel de masse prenne un certain temps, veillez à ne pas vous déplacer sur une autre page tant que l’opération n’est pas totalement terminée.',
+	'ACP_MASS_EMAIL_EXPLAIN' => 'Depuis cette page, vous pouvez envoyer un courriel à la totalité des utilisateurs ou aux utilisateurs d’un groupe d’utilisateurs spécifique qui acceptent la réception de courriels de masse. Pour ce faire, un courriel sera envoyé à l’adresse de courriel renseignée par les administrateurs et une copie sera adressée à tous les destinataires. La configuration par défaut est limitée à 20 destinataires par courriel, mais si ce nombre est dépassé, des courriels supplémentaires seront envoyés. Sachez également que plus les destinataires sont nombreux, plus le délai d’exécution est important. Il est normal que l’envoi d’un courriel de masse prenne un certain temps, veillez à ne pas vous déplacer sur une autre page tant que l’opération n’est pas totalement terminée.',
 	'ALL_USERS'              => 'Tous les utilisateurs',
 
 	'COMPOSE' => 'Rédiger',
@@ -51,10 +51,10 @@ $lang = array_merge($lang, [
 	'SEND_IMMEDIATELY'      => 'Envoyer immédiatement',
 	'SEND_TO_GROUP'         => 'Envoyer à un groupe d’utilisateurs',
 	'SEND_TO_USERS'         => 'Envoyer à des utilisateurs',
-	'SEND_TO_USERS_EXPLAIN' => 'Les noms d’utilisateurs saisis dans ce champ écraseront le groupe d’utilisateurs que vous avez sélectionné dans le menu déroulant ci-dessus. Saisissez chaque nom d’utilisateur sur une nouvelle ligne.',
+	'SEND_TO_USERS_EXPLAIN' => 'Les noms d’utilisateurs saisis dans ce champ écraseront le groupe d’utilisateurs que vous avez sélectionné dans le menu déroulant ci-dessus. Veuillez saisir chaque nom d’utilisateur sur une nouvelle ligne.',
 
 	'MAIL_BANNED'          => 'Envoyer le courriel aux utilisateurs bannis',
-	'MAIL_BANNED_EXPLAIN'  => 'Le courriel de masse, s’il est destiné à un groupe d’utilisateurs dont un ou plusieurs utilisateurs bannis sont membres de ce dernier, sera également réceptionné par ces utilisateurs bannis.',
+	'MAIL_BANNED_EXPLAIN'  => 'Le courriel de masse, s’il est destiné à un groupe d’utilisateurs dont un ou plusieurs membres ont été bannis de ce dernier, sera également réceptionné par les utilisateurs bannis.',
 	'MAIL_HIGH_PRIORITY'   => 'Élevée',
 	'MAIL_LOW_PRIORITY'    => 'Faible',
 	'MAIL_NORMAL_PRIORITY' => 'Normale',

@@ -44,7 +44,7 @@ $lang = array_merge($lang, [
 	'ICON_ANNOUNCEMENT' => 'Annonce',
 	'ICON_STICKY'       => 'Note',
 
-	'LOGIN_NOTIFY_FORUM' => 'Vous avez reçu une notification concernant un message de ce forum. Veuillez vous connecter afin de pouvoir le consulter.',
+	'LOGIN_NOTIFY_FORUM' => 'Vous avez reçu une notification concernant un message de ce forum. Veuillez vous connecter afin de le consulter.',
 
 	'MARK_TOPICS_READ' => 'Marquer les sujets comme lus',
 
