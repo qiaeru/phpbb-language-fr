@@ -346,16 +346,23 @@ $lang = array_merge($lang, [
 	'UPDATE_INSTALLATION'         => 'Mettre à jour phpBB',
 	'UPDATE_INSTALLATION_EXPLAIN' => 'Cet assistant va vous permettre de mettre à jour le logiciel de votre forum vers la dernière version stable.<br />Durant le processus, tous vos fichiers seront vérifiés dans leur intégralité. Vous pourrez prévisualiser toutes les différences et tous les fichiers avant d’exécuter la mise à jour.<br /><br />Le fichier de mise à jour peut se générer de deux manières différentes.</p><h2>Mise à jour manuelle</h2><p>Cette mise à jour vous permet de ne télécharger que les paramètres des fichiers modifiés afin de vous assurer de ne perdre aucune modification. Après avoir téléchargé cette archive, vous devrez mettre à jour manuellement les fichiers à leur emplacement respectif, selon la racine du répertoire de votre forum. Une fois la mise à jour terminée, vous pourrez recommencer l’étape de vérification des fichiers afin de vous assurer d’avoir déplacé les fichiers à leur emplacement respectif.</p><h2>Mise à jour automatique par FTP</h2><p>Cette mise à jour est similaire à la première mais ne nécessitera pas de télécharger et de transférer manuellement les fichiers modifiés, tout sera effectué automatiquement. Vous devrez vous munir des informations concernant votre connexion FTP car elles vous seront demandées. Une fois la mise à jour terminée, vous serez redirigé une fois de plus à la vérification des fichiers afin de vous assurer du bon déroulement de la mise à jour.<br /><br />',
 	'UPDATE_INSTRUCTIONS'         => '
+
 		<h1>Annonce de sortie</h1>
+
 		<p>Veuillez consulter l’annonce relative à la sortie de la dernière version avant de continuer le processus de mise à jour. Elle contient des informations qui pourraient vous intéresser, telles que les différents liens de téléchargement et les modifications apportées.</p>
+
 		<br />
+
 		<h1>Mettre à jour votre installation avec l’archive de mise à jour automatique</h1>
+
 		<p>Cette méthode n’est valable que pour l’archive de mise à jour automatique. Vous pouvez également mettre à jour votre installation en utilisant les méthodes alternatives listées dans le document « INSTALL.html ». Les étapes de mise à jour automatique de phpBB 3.2 sont :</p>
+
 		<ul style="margin-left: 20px; font-size: 1.1em;">
 			<li>Accédez à <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">la page des téléchargements</a> (en anglais) et téléchargez l’archive de mise à jour automatique.<br /><br /></li>
 			<li>Décompressez l’archive.<br /><br /></li>
 			<li>Transférez les répertoires décompressés « install/ » et « vendor/ » à la racine du répertoire de votre forum, où se trouve le fichier « config.php ».<br /><br /></li>
 		</ul>
+
 		<p>Pour des raisons de sécurité, une fois que les répertoires et leur contenu ont été transférés, votre forum apparaîtra hors-ligne aux utilisateurs.<br /><br />
 		<strong><a href="%1$s" title="%1$s">Commencez dès à présent le processus de mise à jour en dirigeant votre navigateur vers le répertoire d’installation</a>.</strong><br />
 		<br />
