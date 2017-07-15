@@ -38,17 +38,17 @@ if (empty($lang) || !is_array($lang))
 // Common installer pages
 $lang = array_merge($lang, [
 	'INSTALL_PANEL' => 'Panneau d’installation',
-	'SELECT_LANG'   => 'Sélectionner une langue',
+	'SELECT_LANG'   => 'Sélectionner la langue',
 
 	'STAGE_INSTALL' => 'Installation de phpBB',
 
 	// Introduction page
 	'INTRODUCTION_TITLE' => 'Introduction',
-	'INTRODUCTION_BODY'  => 'Bienvenue sur phpBB 3.2 !<br /><br />phpBB® est le logiciel de forum de discussions libre et gratuit le plus populaire dans le monde. Il est l’aboutissement d’un développment qui a débuté en 2000. Tout comme ses versions précédentes, phpBB 3.2 est riche en fonctionnalités, facile d’accès et entièrement pris en charge par phpBB Limited. Il améliore considérablement ce qui a rendu phpBB 2.0 populaire et ajoute des fonctionnalités demandées qui manquaient aux versions antérieures. Nous espérons avoir répondu convenablement à vos attentes.<br /><br />Cet assistant vous guidera au cours de l’installation et la mise à jour du logiciel, ainsi que la conversion d’un logiciel de forum de discussions (dont phpBB 2.0) vers phpBB 3.2. Pour plus d’informations, veuillez consulter <a href="../docs/INSTALL.html">le guide d’installation</a> (en anglais).<br /><br />Si vous souhaitez vous renseigner sur la licence du logiciel ou en savoir plus sur l’assistance mise à votre disposition ainsi que sa politique, veuillez sélectionner les options appropriées situées sur le menu latéral de gauche. Pour continuer, veuillez sélectionner l’onglet approprié situé ci-dessus.',
+	'INTRODUCTION_BODY'  => 'Bienvenue sur phpBB 3.2 !<br /><br />phpBB® est le logiciel de forum de discussions libre et gratuit le plus populaire dans le monde. Il est l’aboutissement d’un développement qui a débuté en 2000. Tout comme ses versions précédentes, phpBB 3.2 est riche en fonctionnalités, facile d’accès et entièrement pris en charge par phpBB Limited. Il améliore considérablement ce qui a rendu phpBB 2.0 populaire et ajoute des fonctionnalités demandées qui manquaient aux versions antérieures. Nous espérons avoir répondu convenablement à vos attentes.<br /><br />Cet assistant vous guidera au cours de l’installation et de la mise à jour du logiciel, ainsi que la conversion d’un logiciel de forum de discussions (dont phpBB 2.0) vers phpBB 3.2. Pour plus d’informations, veuillez consulter <a href="../docs/INSTALL.html">le guide d’installation</a> (en anglais).<br /><br />Si vous souhaitez vous renseigner sur la licence du logiciel ou sur l’assistance mise à votre disposition, veuillez sélectionner les éléments appropriés situés sur le menu latéral de gauche. Pour continuer, veuillez sélectionner l’onglet approprié situé en haut de cette page.',
 
 	// Support page
-	'SUPPORT_TITLE' => 'Support',
-	'SUPPORT_BODY'  => 'La dernière version stable de phpBB 3 vous permet de bénéficier d’une assistance complète et gratuite comprenant :</p><ul><li>l’installation</li><li>la configuration</li><li>les questions techniques</li><li>les problèmes en relation avec de potentiels bogues du logiciel</li><li>la mise à jour d’une version « Release Candidate » (RC) vers la dernière version stable</li><li>la conversion de phpBB 2.0 vers phpBB 3.2</li><li>la conversion d’un logiciel de forum de discussions vers phpBB 3.2 (veuillez consulter le <a href="https://www.phpbb.com/community/viewforum.php?f=486">forum relatif aux convertisseurs</a> (en anglais))</li></ul><p>Nous encourageons vivement les utilisateurs des versions « Beta » de phpBB 3.2 à procéder à une nouvelle installation vers la dernière version stable.</p><h2>Extensions et styles</h2><p>Concernant les problèmes relatifs aux extensions, veuillez publier vos questions dans le <a href="https://www.phpbb.com/community/viewforum.php?f=451">forum relatif aux extensions</a> (en anglais).<br />Concernant les problèmes relatifs aux styles, aux modèles et aux thèmes, veuillez publier vos questions dans le <a href="https://www.phpbb.com/community/viewforum.php?f=471">forum relatif aux styles</a> (en anglais).<br /><br />Si votre question est spécifique à une archive, veuillez publier directement votre demande dans le sujet dédié à cette archive.</p><h2>Assistance</h2><p><a href="https://www.phpbb.com/community/viewtopic.php?f=14&amp;t=571070">Le message de bienvenue de phpBB</a> (en anglais)<br /><a href="https://www.phpbb.com/support/">La section relative à l’assistance</a> (en anglais)<br /><a href="https://www.phpbb.com/support/docs/en/3.2/ug/quickstart/">Le guide de démarrage rapide</a> (en anglais)<br /><br />Si vous souhaitez être tenu au courant des dernières versions et nouveautés de notre logiciel, vous pouvez <a href="https://www.phpbb.com/support/">vous inscrire à notre liste de diffusion</a> (en anglais).<br /><br />',
+	'SUPPORT_TITLE' => 'Assistance',
+	'SUPPORT_BODY'  => 'La dernière version stable de phpBB 3 vous permet de bénéficier d’une assistance complète et gratuite comprenant :</p><ul><li>l’installation</li><li>la configuration</li><li>les questions techniques</li><li>les problèmes en relation avec de potentiels bogues du logiciel</li><li>la mise à jour d’une version « Release Candidate » (RC) vers la dernière version stable</li><li>la conversion de phpBB 2.0 vers phpBB 3.2</li><li>la conversion d’un logiciel de forum de discussions vers phpBB 3.2 (veuillez consulter <a href="https://www.phpbb.com/community/viewforum.php?f=486">le forum relatif aux convertisseurs</a> (en anglais))</li></ul><p>Nous encourageons vivement les utilisateurs des versions « Beta » de phpBB 3.2 à procéder à une nouvelle installation vers la dernière version stable.</p><h2>Extensions et styles</h2><p>Concernant les problèmes relatifs aux extensions, veuillez publier vos questions dans <a href="https://www.phpbb.com/community/viewforum.php?f=451">le forum relatif aux extensions</a> (en anglais).<br />Concernant les problèmes relatifs aux styles, aux modèles et aux thèmes, veuillez publier vos questions dans <a href="https://www.phpbb.com/community/viewforum.php?f=471">le forum relatif aux styles</a> (en anglais).<br /><br />Si votre question est spécifique à une archive, veuillez publier directement votre demande dans le sujet dédié à cette archive.</p><h2>Assistance</h2><p><a href="https://www.phpbb.com/community/viewtopic.php?f=14&amp;t=571070">Le message de bienvenue de phpBB</a> (en anglais)<br /><a href="https://www.phpbb.com/support/">La section d’assistance</a> (en anglais)<br /><a href="https://www.phpbb.com/support/docs/en/3.2/ug/quickstart/">Le guide de démarrage rapide</a> (en anglais)<br /><br />Si vous souhaitez être tenu au courant des dernières versions et nouveautés de notre logiciel, vous pouvez <a href="https://www.phpbb.com/community/viewforum.php?f=14">consulter nos annonces</a> (en anglais).<br /><br />',
 
 	// License
 	'LICENSE_TITLE' => 'Licence publique générale',
@@ -116,9 +116,9 @@ $lang = array_merge($lang, [
 	'PHP_SUPPORTED_DB'                 => 'Base de données prises en charge',
 	'PHP_SUPPORTED_DB_EXPLAIN'         => 'Votre serveur doit prendre en charge au moins une base de données compatible avec PHP. Si aucun module de base de données n’est disponible, veuillez contacter votre hébergeur ou vous renseigner en consultant la documentation sur PHP.',
 
-	'RETEST_REQUIREMENTS' => 'Revérifier les prérequis',
+	'RETEST_REQUIREMENTS' => 'Vérifier de nouveau les prérequis',
 
-	'STAGE_REQUIREMENTS' => 'Vérifier les prérequis',
+	'STAGE_REQUIREMENTS' => 'Vérification des prérequis',
 ]);
 
 // General error messages
@@ -131,7 +131,7 @@ $lang = array_merge($lang, [
 
 // Data obtaining translations
 $lang = array_merge($lang, [
-	'STAGE_OBTAIN_DATA' => 'Renseigner les données d’installation',
+	'STAGE_OBTAIN_DATA' => 'Renseignement des données d’installation',
 
 	//
 	// Admin data
@@ -281,7 +281,7 @@ $lang = array_merge($lang, [
 	'MENU_OVERVIEW' => 'Général',
 	'MENU_INTRO'    => 'Introduction',
 	'MENU_LICENSE'  => 'Licence',
-	'MENU_SUPPORT'  => 'Support',
+	'MENU_SUPPORT'  => 'Assistance',
 ]);
 
 // Task names
@@ -319,8 +319,8 @@ $lang = array_merge($lang, [
 	'TASK_NOT_FOUND'             => 'Tâche introuvable',
 	'TASK_NOT_FOUND_DESCRIPTION' => 'Une tâche n’a pas pu être trouvée car le service « %s » n’a pas été défini.',
 
-	'SKIP_MODULE' => 'Ignorer le module « %s »',
-	'SKIP_TASK'   => 'Ignorer la tâche « %s »',
+	'SKIP_MODULE' => 'Le module « %s » a été ignoré.',
+	'SKIP_TASK'   => 'La tâche « %s » a été ignorée.',
 
 	'TASK_SERVICE_INSTALLER_MISSING' => 'Tous les services de tâches du programme d’installation doivent commencer par « installer »',
 	'TASK_CLASS_NOT_FOUND'           => 'La définition du service de tâches du programme d’installation est invalide. Le nom de service « %1$s » a été spécifié alors que l’espace de nom de classe attendu est « %2$s ». Pour plus d’informations, veuillez consulter la documentation sur « task_interface ».',
@@ -352,7 +352,7 @@ $lang = array_merge($lang, [
 		<h1>Mettre à jour votre installation avec l’archive de mise à jour automatique</h1>
 		<p>Cette méthode n’est valable que pour l’archive de mise à jour automatique. Vous pouvez également mettre à jour votre installation en utilisant les méthodes alternatives listées dans le document « INSTALL.html ». Les étapes de mise à jour automatique de phpBB 3.2 sont :</p>
 		<ul style="margin-left: 20px; font-size: 1.1em;">
-			<li>Accédez à <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">la page des téléchargements de phpBB.com</a> (en anglais) et téléchargez l’archive de mise à jour automatique.<br /><br /></li>
+			<li>Accédez à <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">la page des téléchargements</a> (en anglais) et téléchargez l’archive de mise à jour automatique.<br /><br /></li>
 			<li>Décompressez l’archive.<br /><br /></li>
 			<li>Transférez les répertoires décompressés « install/ » et « vendor/ » à la racine du répertoire de votre forum, où se trouve le fichier « config.php ».<br /><br /></li>
 		</ul>

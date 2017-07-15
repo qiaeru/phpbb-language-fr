@@ -37,7 +37,7 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, [
 	'ACP_VIGLINK_SETTINGS'         => 'Paramètres de VigLink',
-	'ACP_VIGLINK_SETTINGS_EXPLAIN' => 'VigLink est un service tiers qui permet de monétiser en toute tranquillité les liens publiés par les utilisateurs de votre forum sans impacter leur expérience utilisateur. Lorsque les utilisateurs accèderont aux liens menant à des produits ou à des services et achèteront quelque chose au marchand partenaire, ce dernier versera à VigLink une commission dont une partie du montant sera partagée au projet phpBB. En choisissant d’activer VigLink tout en laissant les parts des commissions au projet phpBB, vous aidez considérablement notre organisation de logiciels libres et gratuits et assurez notre stabilité financière.',
+	'ACP_VIGLINK_SETTINGS_EXPLAIN' => 'VigLink est un service tiers qui permet de monétiser en toute tranquillité les liens publiés par les utilisateurs de votre forum sans impacter leur expérience utilisateur. Lorsque les utilisateurs accèderont aux liens menant à des produits ou des services et achèteront quelque chose au marchand partenaire, ce dernier versera à VigLink une commission dont une partie du montant sera partagée au projet phpBB. En choisissant d’activer VigLink tout en laissant les parts des commissions au projet phpBB, vous aidez considérablement notre organisation de logiciels libres et gratuits en assurant notre stabilité financière.',
 	'ACP_VIGLINK_SETTINGS_CHANGE'  => 'Vous pouvez modifier ces paramètres à tout moment depuis le panneau « <a href="%1$s">Paramètres de VigLink</a> ».',
 	'ACP_VIGLINK_ENABLE'           => 'Activer VigLink',
 	'ACP_VIGLINK_ENABLE_EXPLAIN'   => 'Permet l’utilisation des services de VigLink.',
