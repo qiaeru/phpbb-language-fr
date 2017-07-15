@@ -250,8 +250,8 @@ $lang = array_merge($lang, [
 	'COMPOSER_LOADING_REPOSITORIES'   => 'Chargement des dépôts distants avec les informations sur les paquets',
 	'COMPOSER_ERROR_CONFLICT'         => 'Vos prérequis n’ont pas pu être réglés à un ensemble de paquets installable.',
 	'COMPOSER_REPOSITORY_UNAVAILABLE' => 'Une erreur est survenue lors de la récupération du dépôt « %s ».',
-	'COMPOSER_INSTALLING_PACKAGE'     => ' -Installation de %1$s (%2$s)',
-	'COMPOSER_DELETING'               => ' -Suppression de %s',
+	'COMPOSER_INSTALLING_PACKAGE'     => ' – Installation de %1$s (%2$s)',
+	'COMPOSER_DELETING'               => ' – Suppression de %s',
 	'COMPOSER_UPDATE_NOTHING'         => 'Aucune mise à jour disponible',
 	'COMPOSER_OUTPUT'                 => 'Commandes de Composer',
 
