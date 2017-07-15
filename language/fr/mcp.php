@@ -39,9 +39,15 @@ $lang = array_merge($lang, [
 	'ACTION'                 => 'Opération',
 	'ACTION_NOTE'            => 'Opération/Remarque',
 	'ADD_FEEDBACK'           => 'Ajouter une remarque',
+<<<<<<< HEAD
 	'ADD_FEEDBACK_EXPLAIN'   => 'Veuillez remplir le formulaire suivant pour ajouter une remarque sur cet utilisateur. Ne saisissez que du texte brut. Le code HTML, le BBCode, etc. ne sont pas autorisés.',
 	'ADD_WARNING'            => 'Ajouter un avertissement',
 	'ADD_WARNING_EXPLAIN'    => 'Veuillez remplir le formulaire suivant pour envoyer un avertissement à cet utilisateur. Ne saisissez que du texte brut. Le code HTML, le BBCode, etc. ne sont pas autorisés.',
+=======
+	'ADD_FEEDBACK_EXPLAIN'   => 'Veuillez remplir le formulaire suivant pour ajouter une remarque sur cet utilisateur. Ne saisissez que du texte brut. Les balises HTML, BBCode, etc. ne sont pas autorisés.',
+	'ADD_WARNING'            => 'Ajouter un avertissement',
+	'ADD_WARNING_EXPLAIN'    => 'Veuillez remplir le formulaire suivant pour envoyer un avertissement à cet utilisateur. Ne saisissez que du texte brut. Les balises HTML, BBCode, etc. ne sont pas autorisés.',
+>>>>>>> 3.2.x
 	'ALL_ENTRIES'            => 'Tous les éléments',
 	'ALL_NOTES_DELETED'      => 'Toutes les remarques sur cet utilisateur ont été supprimées.',
 	'ALL_REPORTS'            => 'Tous les rapports',

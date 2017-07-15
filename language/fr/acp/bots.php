@@ -38,17 +38,25 @@ if (empty($lang) || !is_array($lang))
 // Bot settings
 $lang = array_merge($lang, [
 	'BOTS'              => 'Gérer les robots',
+<<<<<<< HEAD
 	'BOTS_EXPLAIN'      => 'Les robots sont des agents automatisés qui sont dans la plupart des cas utilisés par les moteurs de recherche afin d’alimenter leur base de données. Les robots n’utilisant que très rarement les sessions de manière appropriée, il est fréquent qu’ils augmentent inutilement la charge des serveurs et qu’ils n’indexent pas correctement certaines pages. Vous pouvez définir ici un type spécial d’utilisateurs qui vous permettra de résoudre ces problèmes.',
+=======
+	'BOTS_EXPLAIN'      => 'Les robots sont des agents automatisés qui sont dans la plupart des cas utilisés par les moteurs de recherche afin d’alimenter leur base de données. Les robots n’utilisent que très rarement les sessions de manière appropriée. Il est donc fréquent qu’ils augmentent inutilement la charge des serveurs et qu’ils n’indexent pas correctement certaines pages. Vous pouvez définir ici un type spécial d’utilisateurs qui vous permettra de résoudre ces problèmes.',
+>>>>>>> 3.2.x
 	'BOT_ACTIVATE'      => 'Activer',
 	'BOT_ACTIVE'        => 'Robot actif',
 	'BOT_ADD'           => 'Ajouter un robot',
 	'BOT_ADDED'         => 'Le nouveau robot a été ajouté.',
-	'BOT_AGENT'         => 'Agent correspondant',
-	'BOT_AGENT_EXPLAIN' => 'Une chaîne correspondante à l’agent du robot. Les correspondances partielles sont autorisées.',
+	'BOT_AGENT'         => 'Agent utilisateur',
+	'BOT_AGENT_EXPLAIN' => 'Une chaîne correspondante à l’agent utilisateur du robot. Les correspondances partielles sont autorisées.',
 	'BOT_DEACTIVATE'    => 'Désactiver',
 	'BOT_DELETED'       => 'Le robot a été supprimé.',
 	'BOT_EDIT'          => 'Modifier un robot',
+<<<<<<< HEAD
 	'BOT_EDIT_EXPLAIN'  => 'Depuis cette page, vous pouvez ajouter ou modifier un robot. Vous devez définir une chaîne correspondante à l’agent et une ou plusieurs adresses IP correspondantes au robot. Configurez ces paramètres avec précaution. Vous pouvez également sélectionner le style et la langue que le robot utilisera lors de sa navigation sur le forum. Cela vous permet de spécifier un style léger qui réduirera alors de façon significative la bande passante consommée par votre serveur. N’oubliez pas de configurer également les permissions correspondantes au groupe d’utilisateurs des robots.',
+=======
+	'BOT_EDIT_EXPLAIN'  => 'Depuis cette page, vous pouvez ajouter ou modifier un robot. Vous devez définir une chaîne correspondante à l’agent utilisateur du robot ou définir au moins une de ses adresses IP. Configurez ces paramètres avec précaution. Vous pouvez également sélectionner le style et la langue que le robot utilisera lors de sa navigation sur le forum. Cela vous permet de spécifier un style léger qui réduirera alors de façon significative la bande passante consommée par votre serveur. N’oubliez pas de configurer également les permissions correspondantes au groupe d’utilisateurs des robots.',
+>>>>>>> 3.2.x
 	'BOT_LANG'          => 'Langue du robot',
 	'BOT_LANG_EXPLAIN'  => 'La langue utilisée par le robot lors de sa navigation sur le forum.',
 	'BOT_LAST_VISIT'    => 'Dernière visite',
@@ -62,9 +70,9 @@ $lang = array_merge($lang, [
 	'BOT_STYLE_EXPLAIN' => 'Le style utilisé par le robot lors de sa navigation sur le forum.',
 	'BOT_UPDATED'       => 'Le robot a été mis à jour.',
 
-	'ERR_BOT_AGENT_MATCHES_UA' => 'L’agent du robot que vous avez spécifié est identique à celui que vous utilisez actuellement. Veuillez en saisir un autre.',
+	'ERR_BOT_AGENT_MATCHES_UA' => 'L’agent utilisateur que vous avez spécifié pour le robot est identique à celui que vous utilisez actuellement. Veuillez en saisir un autre.',
 	'ERR_BOT_NO_IP'            => 'Les adresses IP que vous avez spécifiées sont invalides ou le nom d’hôte est indisponible.',
-	'ERR_BOT_NO_MATCHES'       => 'Vous devez saisir un agent ou une adresse IP concernant la correspondance de ce robot.',
+	'ERR_BOT_NO_MATCHES'       => 'Vous devez saisir l’agent utilisateur du robot ou une de ses adresses IP.',
 
 	'NO_BOT'       => 'Aucun robot correspondant à l’identifiant spécifié n’a été trouvé.',
 	'NO_BOT_GROUP' => 'Le groupe d’utilisateurs des robots est introuvable.',

@@ -39,7 +39,11 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, [
 	'TERMS_OF_USE_CONTENT' => 'En accédant à « %1$s » (désigné ci-après par « nous », « notre », « nos », « %1$s » et « %2$s »), vous acceptez d’être légalement responsable des conditions suivantes. Si vous n’acceptez pas d’être légalement responsable de toutes les conditions suivantes, veuillez ne pas utiliser et accéder à « %1$s ». Nous pouvons modifier ces conditions à n’importe quel moment et nous essaierons de vous informer de ces modifications, bien que nous vous conseillons de vérifier régulièrement par vous-même. En effet, si vous continuez à participer à « %1$s » après que des modifications aient été effectuées, vous acceptez d’être légalement responsable des conditions modifiées et mises à jour.<br />
 	<br />
+<<<<<<< HEAD
 	Nos forums sont développés par phpBB (désignés ci-après par « logiciel phpBB » et « phpBB Limited ») qui est un logiciel de forum de discussions déclaré sous la « <a href="https://opensource.org/licenses/GPL-2.0">licence publique générale GNU 2.0</a> » et qui peut être téléchargé sur <a href="https://www.phpbb.com/">www.phpbb.com</a> (en anglais). Le logiciel phpBB a pour seul but de faciliter les discussions sur internet et phpBB Limited ne peut en aucun cas être tenu comme responsable de la conduite et du contenu que nous acceptons et que nous n’acceptons pas. Pour plus d’informations concernant phpBB, veuillez consulter <a href="https://www.phpbb.com/">le site officiel de phpBB</a> (en anglais).<br />
+=======
+	Nos forums sont développés par phpBB (désignés ci-après par « logiciel phpBB » et « phpBB Limited ») qui est un logiciel de forum de discussions déclaré sous la « <a href="https://opensource.org/licenses/GPL-2.0">licence publique générale GNU 2.0</a> » et qui peut être téléchargé sur <a href="https://www.phpbb.com/">le site de phpBB</a> (en anglais). Le logiciel phpBB a pour seul but de faciliter les discussions sur internet et phpBB Limited ne peut en aucun cas être tenu comme responsable de la conduite et du contenu que nous acceptons et que nous n’acceptons pas. Pour plus d’informations concernant phpBB, veuillez consulter <a href="https://www.phpbb.com/">le site de phpBB</a> (en anglais).<br />
+>>>>>>> 3.2.x
 	<br />
 	Vous acceptez de ne publier aucun contenu à caractère abusif, obscène, vulgaire, diffamatoire, choquant, menaçant, pornographique, etc. qui pourrait transgresser la législation de votre pays, du pays dans lequel le serveur de « %1$s » est hébergé ou encore la loi internationale. Si vous ne respectez pas ces dispositions, vous vous exposez à un bannissement immédiat et définitif et nous nous réservons le droit d’avertir votre fournisseur d’accès à internet et les autorités officielles. L’adresse IP de tous les messages est enregistrée afin d’aider au renforcement de ces conditions. Vous acceptez le fait que « %1$s » ait le droit de supprimer, de modifier, de déplacer ou de verrouiller n’importe quel sujet et message à n’importe quel moment si nous estimons cela nécessaire. En tant qu’utilisateur, vous acceptez que toutes les informations que vous avez renseignées soient enregistrées dans notre base de données. Bien que ces informations ne seront pas diffusées à une tierce partie sans votre consentement, ni « %1$s », ni phpBB, ne pourront être tenus comme responsables en cas de tentative de piratage informatique visant à compromettre vos données.
 	',
@@ -155,7 +159,11 @@ $lang = array_merge($lang, [
 	'DEFAULT_ACTION'             => 'Opération par défaut',
 	'DEFAULT_ACTION_EXPLAIN'     => 'Cette opération sera effectuée si les opérations précédentes sont impossibles.',
 	'DEFAULT_ADD_SIG'            => 'Insérer ma signature par défaut',
+<<<<<<< HEAD
 	'DEFAULT_BBCODE'             => 'Activer le BBCode par défaut',
+=======
+	'DEFAULT_BBCODE'             => 'Activer les BBCodes par défaut',
+>>>>>>> 3.2.x
 	'DEFAULT_NOTIFY'             => 'Recevoir une notification par défaut lors de la réception d’un nouveau message',
 	'DEFAULT_SMILIES'            => 'Activer les émoticônes par défaut',
 	'DEFINED_RULES'              => 'Règles définies',

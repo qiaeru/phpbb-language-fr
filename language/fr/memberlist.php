@@ -55,10 +55,17 @@ $lang = array_merge($lang, [
 
 	'EDIT_PROFILE' => 'Modifier le profil',
 
+<<<<<<< HEAD
 	'EMAIL_BODY_EXPLAIN'  => 'Le message sera envoyé en texte brut, sans code HTML ou BBCode. L’adresse de retour du message correspond à votre adresse de courriel.',
 	'EMAIL_DISABLED'      => 'Toutes les fonctionnalités liées à la messagerie électronique ont été désactivées.',
 	'EMAIL_SENT'          => 'Le courriel a été envoyé.',
 	'EMAIL_TOPIC_EXPLAIN' => 'Le message sera envoyé en texte brut, sans code HTML ou BBCode. Veuillez noter que le contenu du sujet est déjà intégré au message. L’adresse de retour du message correspond à votre adresse de courriel.',
+=======
+	'EMAIL_BODY_EXPLAIN'  => 'Le message sera envoyé en texte brut, sans balise HTML ou BBCode. L’adresse de retour du message correspond à votre adresse de courriel.',
+	'EMAIL_DISABLED'      => 'Toutes les fonctionnalités liées à la messagerie électronique ont été désactivées.',
+	'EMAIL_SENT'          => 'Le courriel a été envoyé.',
+	'EMAIL_TOPIC_EXPLAIN' => 'Le message sera envoyé en texte brut, sans balise HTML ou BBCode. Veuillez noter que le contenu du sujet est déjà intégré au message. L’adresse de retour du message correspond à votre adresse de courriel.',
+>>>>>>> 3.2.x
 	'EMPTY_ADDRESS_EMAIL' => 'Vous devez saisir une adresse de courriel valide concernant le destinataire.',
 	'EMPTY_MESSAGE_EMAIL' => 'Vous devez saisir un message afin d’envoyer un courriel.',
 	'EMPTY_MESSAGE_IM'    => 'Vous devez saisir le contenu du message.',
