@@ -131,7 +131,7 @@ $lang = array_merge($lang, [
 
 // Data obtaining translations
 $lang = array_merge($lang, [
-	'STAGE_OBTAIN_DATA' => 'Renseignement des données d’installation',
+	'STAGE_OBTAIN_DATA' => 'Collecte des données d’installation',
 
 	//
 	// Admin data
