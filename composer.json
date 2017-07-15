@@ -1,6 +1,6 @@
 {
 	"name": "milescellar/phpbb-language-fr",
-	"description": "French language pack for phpBB",
+	"description": "French language pack for phpBB 3.3",
 	"type": "phpbb-language",
 	"homepage": "https://www.phpbb.com/customise/db/translation/french/",
 	"version": "0.1.0-dev",
