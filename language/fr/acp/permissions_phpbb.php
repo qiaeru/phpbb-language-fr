@@ -183,7 +183,7 @@ $lang = array_merge($lang, [
 	'ACL_A_GROUPDEL' => 'Peut supprimer les groupes d’utilisateurs',
 	'ACL_A_RANKS'    => 'Peut gérer les rangs',
 	'ACL_A_PROFILE'  => 'Peut gérer les champs de profil personnalisés',
-	'ACL_A_NAMES'    => 'Peut gérer les noms d’utilisateurs interdits',
+	'ACL_A_NAMES'    => 'Peut autoriser ou interdire les noms d’utilisateurs',
 	'ACL_A_BAN'      => 'Peut gérer les bannissements',
 
 	'ACL_A_VIEWAUTH'   => 'Peut consulter les masques de permission',

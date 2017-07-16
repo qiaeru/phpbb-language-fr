@@ -48,13 +48,13 @@ $lang = array_merge($lang, [
 
 	'LOG_SESSION' => 'Historique de la session de la messagerie électronique vers l’historique des erreurs critiques',
 
-	'SEND_IMMEDIATELY'      => 'Envoyer immédiatement',
+	'SEND_IMMEDIATELY'      => 'Envoyer en temps réel',
 	'SEND_TO_GROUP'         => 'Envoyer à un groupe d’utilisateurs',
 	'SEND_TO_USERS'         => 'Envoyer à des utilisateurs',
-	'SEND_TO_USERS_EXPLAIN' => 'Les noms d’utilisateurs saisis dans ce champ écraseront le groupe d’utilisateurs que vous avez sélectionné dans le menu déroulant ci-dessus. Veuillez saisir chaque nom d’utilisateur sur une nouvelle ligne.',
+	'SEND_TO_USERS_EXPLAIN' => 'Les noms d’utilisateurs spécifiés dans ce champ remplaceront le groupe d’utilisateurs sélectionné dans le menu déroulant ci-dessus. Veuillez saisir chaque nom d’utilisateur sur une nouvelle ligne.',
 
 	'MAIL_BANNED'          => 'Envoyer le courriel aux utilisateurs bannis',
-	'MAIL_BANNED_EXPLAIN'  => 'Le courriel de masse, s’il est destiné à un groupe d’utilisateurs dont un ou plusieurs membres ont été bannis de ce dernier, sera également réceptionné par les utilisateurs bannis.',
+	'MAIL_BANNED_EXPLAIN'  => 'Les membres bannis d’un groupe d’utilisateurs destinataire d’un courriel de masse recevront également le courriel.',
 	'MAIL_HIGH_PRIORITY'   => 'Élevée',
 	'MAIL_LOW_PRIORITY'    => 'Faible',
 	'MAIL_NORMAL_PRIORITY' => 'Normale',

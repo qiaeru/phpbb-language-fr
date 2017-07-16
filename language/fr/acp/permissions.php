@@ -58,7 +58,7 @@ $lang = array_merge($lang, [
 
 	'ACL_NEVER'       => 'Jamais',
 	'ACL_SET'         => 'Paramètre des permissions',
-	'ACL_SET_EXPLAIN' => 'Les permissions sont basées sur un système simpliste de « OUI » et de « NON ». Sélectionnez « JAMAIS » si vous souhaitez écraser les valeurs assignées dans un autre système de permissions. Si vous ne souhaitez pas assigner de valeur à une option par ce système de permissions, sélectionnez « NON ». Si des valeurs sont assignées dans un autre système de permissions, elles seront alors utilisées de préférence, sauf dans le cas où « JAMAIS » est sélectionné. Tous les forums cochés grâce à la boîte de sélection située à côté du nom qui leur a été attribué copieront les paramètres des permissions que vous avez spécifiées.',
+	'ACL_SET_EXPLAIN' => 'Les permissions sont basées sur un système simpliste de « OUI » et de « NON ». Sélectionnez « JAMAIS » si vous souhaitez remplacer les valeurs assignées dans un autre système de permissions. Si vous ne souhaitez pas assigner de valeur à une option par ce système de permissions, sélectionnez « NON ». Si des valeurs sont assignées dans un autre système de permissions, elles seront alors utilisées de préférence, sauf dans le cas où « JAMAIS » est sélectionné. Tous les forums cochés grâce à la boîte de sélection située à côté du nom qui leur a été attribué copieront les paramètres des permissions que vous avez spécifiées.',
 	'ACL_SETTING'     => 'Paramètre',
 
 	'ACL_TYPE_A_' => 'Permissions des administrateurs',
@@ -110,7 +110,7 @@ $lang = array_merge($lang, [
 	'APPLY_PERMISSIONS_EXPLAIN' => 'Les permissions et les rôles de cet élément ne seront appliqués qu’aux éléments cochés et à ce dernier.',
 	'AUTH_UPDATED'              => 'Les permissions ont été mises à jour.',
 
-	'COPY_PERMISSIONS_CONFIRM'            => 'Êtes-vous sûr de vouloir effectuer cette opération ? Cela écrasera toutes les permissions existantes des forums sélectionnés.',
+	'COPY_PERMISSIONS_CONFIRM'            => 'Êtes-vous sûr de vouloir effectuer cette opération ? Cela remplacera toutes les permissions existantes des forums sélectionnés.',
 	'COPY_PERMISSIONS_FORUM_FROM_EXPLAIN' => 'Le forum source à partir duquel vous souhaitez copier les permissions.',
 	'COPY_PERMISSIONS_FORUM_TO_EXPLAIN'   => 'Le ou les forums où les permissions que vous avez copiées seront appliquées.',
 	'COPY_PERMISSIONS_FROM'               => 'Copier les permissions de',
@@ -227,7 +227,7 @@ $lang = array_merge($lang, [
 	'SET_USERS_PERMISSIONS'         => 'Définir les permissions des utilisateurs',
 	'SET_USERS_FORUM_PERMISSIONS'   => 'Définir les permissions des forums aux utilisateurs',
 
-	'TRACE_DEFAULT'                       => 'Par défaut, toutes les permissions sont configurées sur « NON ». La permission peut alors être écrasée par d’autres paramètres.',
+	'TRACE_DEFAULT'                       => 'Par défaut, toutes les permissions sont configurées sur « NON ». La permission peut alors être remplacée par d’autres paramètres.',
 	'TRACE_FOR'                           => 'Suivre pour',
 	'TRACE_GLOBAL_SETTING'                => '%s (général)',
 	'TRACE_GROUP_NEVER_TOTAL_NEVER'       => 'Cette permission de groupe est configurée sur « JAMAIS » tout comme le résultat total. L’ancien résultat est donc conservé.',
@@ -238,8 +238,8 @@ $lang = array_merge($lang, [
 	'TRACE_GROUP_NEVER_TOTAL_YES_LOCAL'   => 'Cette permission de groupe concernant ce forum est configurée sur « JAMAIS » ce qui remplace le total de « OUI » par « JAMAIS » concernant cet utilisateur.',
 	'TRACE_GROUP_NO'                      => 'La permission est configurée sur « NON » concernant ce groupe. L’ancienne valeur totale est donc conservée.',
 	'TRACE_GROUP_NO_LOCAL'                => 'La permission est configurée sur « NON » concernant ce groupe dans ce forum. L’ancienne valeur totale est donc conservée.',
-	'TRACE_GROUP_YES_TOTAL_NEVER'         => 'Cette permission de groupe est configurée sur « OUI » mais le total de « JAMAIS » ne peut pas être écrasé.',
-	'TRACE_GROUP_YES_TOTAL_NEVER_LOCAL'   => 'Cette permission de groupe concernant ce forum est configurée sur « OUI » mais le total de « JAMAIS » ne peut pas être écrasé.',
+	'TRACE_GROUP_YES_TOTAL_NEVER'         => 'Cette permission de groupe est configurée sur « OUI » mais le total de « JAMAIS » ne peut pas être remplacé.',
+	'TRACE_GROUP_YES_TOTAL_NEVER_LOCAL'   => 'Cette permission de groupe concernant ce forum est configurée sur « OUI » mais le total de « JAMAIS » ne peut pas être remplacé.',
 	'TRACE_GROUP_YES_TOTAL_NO'            => 'Cette permission de groupe est configurée sur « OUI » ce qui devient la nouvelle valeur totale car elle n’était pas encore définie (configurée sur « NON »).',
 	'TRACE_GROUP_YES_TOTAL_NO_LOCAL'      => 'Cette permission de groupe concernant ce forum est configurée sur « OUI » ce qui devient la nouvelle valeur totale car elle n’était pas encore définie (configurée sur « NON »).',
 	'TRACE_GROUP_YES_TOTAL_YES'           => 'Cette permission de groupe est configurée sur « OUI » mais la permission totale est déjà configurée sur « OUI ». Le résultat total est donc conservé.',
@@ -249,7 +249,7 @@ $lang = array_merge($lang, [
 	'TRACE_SETTING'                       => 'Paramètre du suivi',
 
 	'TRACE_USER_GLOBAL_YES_TOTAL_YES'    => 'La permission indépendante de l’utilisateur dans ce forum est configurée sur « OUI » mais la permission totale est déjà configurée sur « OUI ». Le résultat total est donc conservé. %sSuivre la permission générale%s',
-	'TRACE_USER_GLOBAL_YES_TOTAL_NEVER'  => 'La permission indépendante de l’utilisateur dans ce le forum est configurée sur « OUI » ce qui écrase l’actuel résultat local « JAMAIS ». %sSuivre la permission générale%s',
+	'TRACE_USER_GLOBAL_YES_TOTAL_NEVER'  => 'La permission indépendante de l’utilisateur dans ce le forum est configurée sur « OUI » ce qui remplace l’actuel résultat local « JAMAIS ». %sSuivre la permission générale%s',
 	'TRACE_USER_GLOBAL_NEVER_TOTAL_KEPT' => 'La permission indépendante de l’utilisateur dans ce forum est configurée sur « JAMAIS » ce qui n’influence pas la permission locale. %sSuivre la permission générale%s',
 
 	'TRACE_USER_FOUNDER'                 => 'L’utilisateur est un fondateur. Les permissions d’administrateurs sont donc toujours définies sur « OUI ».',
@@ -259,12 +259,12 @@ $lang = array_merge($lang, [
 	'TRACE_USER_NEVER_TOTAL_NEVER_LOCAL' => 'La permission de l’utilisateur concernant ce forum est configurée sur « JAMAIS » et la valeur totale est configurée sur « JAMAIS ». Il n’y a donc aucune modification.',
 	'TRACE_USER_NEVER_TOTAL_NO'          => 'La permission de l’utilisateur est configurée sur « JAMAIS » ce qui devient la valeur totale car elle était configurée sur « NON ».',
 	'TRACE_USER_NEVER_TOTAL_NO_LOCAL'    => 'La permission de l’utilisateur concernant ce forum est configurée sur « JAMAIS » ce qui devient la valeur totale car elle était configurée sur « NON ».',
-	'TRACE_USER_NEVER_TOTAL_YES'         => 'La permission de l’utilisateur est configurée sur « JAMAIS » et écrase la précédente permission « OUI ».',
-	'TRACE_USER_NEVER_TOTAL_YES_LOCAL'   => 'La permission de l’utilisateur concernant ce forum est configurée sur « JAMAIS » et écrase la précédente permission « OUI ».',
+	'TRACE_USER_NEVER_TOTAL_YES'         => 'La permission de l’utilisateur est configurée sur « JAMAIS » et remplace la précédente permission « OUI ».',
+	'TRACE_USER_NEVER_TOTAL_YES_LOCAL'   => 'La permission de l’utilisateur concernant ce forum est configurée sur « JAMAIS » et remplace la précédente permission « OUI ».',
 	'TRACE_USER_NO_TOTAL_NO'             => 'La permission de l’utilisateur est configurée sur « NON » et la valeur totale était configurée sur « NON », donc sur « JAMAIS » par défaut.',
 	'TRACE_USER_NO_TOTAL_NO_LOCAL'       => 'La permission de l’utilisateur concernant ce forum est configurée sur « NON » et la valeur totale était configurée sur « NON », donc sur « JAMAIS » par défaut.',
-	'TRACE_USER_YES_TOTAL_NEVER'         => 'La permission de l’utilisateur est configurée sur « OUI » mais le total de « JAMAIS » ne peut pas être écrasé.',
-	'TRACE_USER_YES_TOTAL_NEVER_LOCAL'   => 'La permission de l’utilisateur concernant ce forum est configurée sur « OUI » mais le total de « JAMAIS » ne peut pas être écrasé.',
+	'TRACE_USER_YES_TOTAL_NEVER'         => 'La permission de l’utilisateur est configurée sur « OUI » mais le total de « JAMAIS » ne peut pas être remplacé.',
+	'TRACE_USER_YES_TOTAL_NEVER_LOCAL'   => 'La permission de l’utilisateur concernant ce forum est configurée sur « OUI » mais le total de « JAMAIS » ne peut pas être remplacé.',
 	'TRACE_USER_YES_TOTAL_NO'            => 'La permission de l’utilisateur est configurée sur « OUI » ce qui devient la valeur totale car elle était configurée sur « NON ».',
 	'TRACE_USER_YES_TOTAL_NO_LOCAL'      => 'La permission de l’utilisateur concernant ce forum est configurée sur « OUI » ce qui devient la valeur totale car elle était configurée sur « NON ».',
 	'TRACE_USER_YES_TOTAL_YES'           => 'La permission de l’utilisateur est configurée sur « OUI » et la valeur totale est configurée sur « OUI ». Il n’y a donc aucune modification.',

@@ -53,7 +53,7 @@ $lang = array_merge($lang, [
 	'DISPLAY_LAST_SUBJECT_EXPLAIN' => 'Le sujet du dernier message qui a été publié dans un forum sera affiché dans la liste des forums sous la forme d’un lien redirigeant vers le dernier message. Les sujets publiés dans les forums protégés par un mot de passe ou en lecture seule ne sont pas affichés.',
 	'GUEST_STYLE'                  => 'Style des invités',
 	'GUEST_STYLE_EXPLAIN'          => 'Le style affiché aux utilisateurs qui ne sont pas connectés à un compte.',
-	'OVERRIDE_STYLE'               => 'Écraser le style des utilisateurs',
+	'OVERRIDE_STYLE'               => 'Remplacer le style des utilisateurs',
 	'OVERRIDE_STYLE_EXPLAIN'       => 'Le style des utilisateurs et des invités sera remplacé par celui qui a été sélectionné dans le menu « Style par défaut ».',
 	'SITE_DESC'                    => 'Description du forum',
 	'SITE_HOME_TEXT'               => 'Texte du lien du site internet principal',
@@ -383,7 +383,7 @@ $lang = array_merge($lang, [
 	'ACP_LOAD_SETTINGS_EXPLAIN' => 'Depuis cette page, vous pouvez activer et désactiver certaines fonctionnalités du forum qui pourront réduire la quantité de processus actifs. Sur la plupart des serveurs, il n’est pas nécessaire de désactiver ces fonctionnalités. Cependant, sur certains systèmes d’exploitation ou offres d’hébergements mutualisés, il est préférable de désactiver certaines fonctionnalités dont vous n’avez pas réellement besoin. Vous pouvez également limiter certaines options relatives à la charge du système et aux sessions actives qui désactiveront automatiquement votre forum si les valeurs sont dépassées.',
 
 	'ALLOW_CDN'                             => 'Autoriser l’utilisation de contenu hébergé sur des serveurs externes',
-	'ALLOW_CDN_EXPLAIN'                     => 'Si cette option est activée, certains fichiers seront distribués par des serveurs externes au lieu de votre serveur. Cette fonctionnalité réduira la bande passante de votre serveur mais peut poser des problèmes de confidentialité pour les administrateurs soucieux de l’anonymat du contenu de leur forum. Dans une installation par défaut, la librairie « jQuery » et la police de caractères « Open Sans » sont distribués par le réseau de distribution de contenu de Google.',
+	'ALLOW_CDN_EXPLAIN'                     => 'Si cette option est activée, certains fichiers seront distribués par des serveurs externes au lieu de votre serveur. Cette fonctionnalité réduira la bande passante de votre serveur mais peut poser des problèmes de confidentialité pour les administrateurs soucieux de l’anonymat du contenu de leur forum. Dans une installation par défaut, la librairie « jQuery » et la police de caractères « Open Sans » sont distribuées par le réseau de distribution de contenu de Google.',
 	'ALLOW_LIVE_SEARCHES'                   => 'Autoriser les prédictions de recherche',
 	'ALLOW_LIVE_SEARCHES_EXPLAIN'           => 'Si cette option est activée, les utilisateurs bénéficieront de suggestions de mots-clés lors de la rédaction de texte dans certains champs du forum.',
 	'CUSTOM_PROFILE_FIELDS'                 => 'Champs de profil personnalisés',
@@ -424,12 +424,12 @@ $lang = array_merge($lang, [
 
 // Auth settings
 $lang = array_merge($lang, [
-	'ACP_AUTH_SETTINGS_EXPLAIN' => 'Les modules d’extension d’authentification vous permettent de déterminer la manière dont les utilisateurs s’authentifient lors de leur connexion au forum. Quatre modules sont fournis par défaut : la base de données (DB), LDAP, Apache et OAuth. Toutes les méthodes d’authentification ne nécessitent pas forcément d’informations complémentaires, ne remplissez que les champs utiles à la méthode sélectionnée.',
+	'ACP_AUTH_SETTINGS_EXPLAIN' => 'Les modules d’extension d’authentification vous permettent de déterminer la manière dont les utilisateurs s’authentifient lors de leur connexion au forum. Quatre modules sont disponibles par défaut : la base de données (DB), LDAP, Apache et OAuth. Toutes les méthodes d’authentification ne nécessitent pas forcément d’informations complémentaires, ne remplissez que les champs utiles à la méthode sélectionnée.',
 
 	'AUTH_METHOD' => 'Sélectionner une méthode d’authentification',
 
 	'AUTH_PROVIDER_OAUTH_ERROR_ELEMENT_MISSING' => 'Vous devez renseigner la clé et le secret pour chaque fournisseur de service « OAuth ». Seule une de ces données a été renseignée dans le cas d’un fournisseur de service OAuth.',
-	'AUTH_PROVIDER_OAUTH_EXPLAIN'               => 'Chaque fournisseur de service OAuth doit être renseigné par une clé et un secret unique afin de pouvoir se faire authentifier par le serveur externe. Ces données sont fournies par le service OAuth lors de l’inscription de votre site internet à leurs services et doivent être saisies telles quelles.<br />Chaque service qui n’est pas renseigné de ces deux données ne sera pas accessible aux utilisateurs du forum. Veuillez noter que les utilisateurs pourront toujours s’inscrire et se connecter en utilisant le module d’extension d’authentification de la base de données.',
+	'AUTH_PROVIDER_OAUTH_EXPLAIN'               => 'Chaque fournisseur de service OAuth doit être renseigné par une clé et un secret unique afin de pouvoir se faire authentifier par le serveur externe. Ces données sont renseignées par le service OAuth lors de l’inscription de votre site internet à leurs services et doivent être saisies telles quelles.<br />Chaque service qui n’est pas renseigné de ces deux données ne sera pas accessible aux utilisateurs du forum. Veuillez noter que les utilisateurs pourront toujours s’inscrire et se connecter en utilisant le module d’extension d’authentification de la base de données.',
 	'AUTH_PROVIDER_OAUTH_KEY'                   => 'Clé',
 	'AUTH_PROVIDER_OAUTH_TITLE'                 => 'OAuth',
 	'AUTH_PROVIDER_OAUTH_SECRET'                => 'Secret',
@@ -549,7 +549,7 @@ $lang = array_merge($lang, [
 
 // Email Settings
 $lang = array_merge($lang, [
-	'ACP_EMAIL_SETTINGS_EXPLAIN' => 'Ces informations sont utilisées lors de l’envoi des courriels à vos utilisateurs. Veuillez vous assurer que l’adresse de courriel spécifiée est correcte car les messages refusés ou échoués seront probablement retournés à cette adresse. Si votre hébergeur ne fournit par défaut aucun service PHP d’envoi de courriels, vous pouvez envoyer directement des messages en utilisant le protocole SMTP. Cela nécessite l’adresse d’un serveur approprié (si besoin, demandez cette information à votre hébergeur internet). Si le serveur exige une authentification (et seulement dans ce cas), saisissez le nom d’utilisateur, le mot de passe et la méthode d’authentification nécessaire.',
+	'ACP_EMAIL_SETTINGS_EXPLAIN' => 'Ces informations sont utilisées lors de l’envoi des courriels à vos utilisateurs. Veuillez vous assurer que l’adresse de courriel spécifiée est correcte car les messages refusés ou échoués seront probablement retournés à cette adresse. Si votre hébergeur ne propose pas de service PHP d’envoi de courriels, vous pouvez envoyer directement des messages en utilisant le protocole SMTP. Cela nécessite l’adresse d’un serveur approprié (si besoin, demandez cette information à votre hébergeur internet). Si le serveur exige une authentification (et seulement dans ce cas), saisissez le nom d’utilisateur, le mot de passe et la méthode d’authentification nécessaire.',
 
 	'ADMIN_EMAIL'                    => 'Adresse de courriel de retour',
 	'ADMIN_EMAIL_EXPLAIN'            => 'Cette adresse sera utilisée comme l’adresse de retour dans tous les courriels. Cela correspond à l’adresse de courriel du contact technique. Elle sera toujours utilisée comme l’adresse du chemin de retour et considérée comme celle de l’expéditeur dans les courriels.',
@@ -609,7 +609,7 @@ $lang = array_merge($lang, [
 	'JAB_ENABLE_EXPLAIN'            => 'La messagerie et les notifications de Jabber seront activées.',
 	'JAB_GTALK_NOTE'                => 'Veuillez noter que GTalk ne fonctionnera pas car la fonction « dns_get_record » est introuvable. Cette fonction n’est pas implémentée dans PHP 4, sur les plates-formes Windows et sur les systèmes basés sous BSD, incluant Mac OS.',
 	'JAB_PACKAGE_SIZE'              => 'Taille du paquet Jabber',
-	'JAB_PACKAGE_SIZE_EXPLAIN'      => 'Le nombre de messages envoyés en un seul paquet. Si cette valeur est sur « 0 », les messages seront envoyés immédiatement et ne seront pas retardés.',
+	'JAB_PACKAGE_SIZE_EXPLAIN'      => 'Le nombre de messages envoyés en un seul paquet. Si cette valeur est sur « 0 », les messages seront envoyés en temps réel et ne seront pas retardés.',
 	'JAB_PASSWORD'                  => 'Mot de passe Jabber',
 	'JAB_PASSWORD_EXPLAIN'          => '<em><strong>Attention :</strong> ce mot de passe sera archivé en texte brut dans la base de données et sera visible à tous ceux qui ont accès à votre base de données et à cette page de configuration.</em>',
 	'JAB_PORT'                      => 'Port de Jabber',
