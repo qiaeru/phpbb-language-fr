@@ -557,9 +557,9 @@ $lang = array_merge($lang, [
 	'LOG_BAN_USER'          => '<strong>Bannissement d’un nom d’utilisateur</strong> en spécifiant comme raison « %1$s »<br />» %2$s',
 	'LOG_BAN_IP'            => '<strong>Bannissement d’une adresse IP</strong> en spécifiant comme raison « %1$s »<br />» %2$s',
 	'LOG_BAN_EMAIL'         => '<strong>Bannissement d’une adresse de courriel</strong> en spécifiant comme raison « %1$s »<br />» %2$s',
-	'LOG_UNBAN_USER'        => '<strong>Débannissement d’un nom d’utilisateur</strong><br />» %s',
-	'LOG_UNBAN_IP'          => '<strong>Débannissement d’une adresse IP</strong><br />» %s',
-	'LOG_UNBAN_EMAIL'       => '<strong>Débannissement d’une adresse de courriel</strong><br />» %s',
+	'LOG_UNBAN_USER'        => '<strong>Annulation du bannissement d’un nom d’utilisateur</strong><br />» %s',
+	'LOG_UNBAN_IP'          => '<strong>Annulation du bannissement d’une adresse IP</strong><br />» %s',
+	'LOG_UNBAN_EMAIL'       => '<strong>Annulation du bannissement d’une adresse de courriel</strong><br />» %s',
 
 	'LOG_BBCODE_ADD'    => '<strong>Ajout d’un nouveau BBCode</strong><br />» %s',
 	'LOG_BBCODE_EDIT'   => '<strong>Modification d’un BBCode</strong><br />» %s',
