@@ -36,7 +36,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, [
-	'TRANSLATION_INFO' => '<a href="https://www.phpbb.com/customise/db/translation/french/">Traduction française officielle</a> &copy; <a href="https://github.com/milescellar">Miles Cellar</a>',
+	'TRANSLATION_INFO' => '<a href="https://www.phpbb.com/customise/db/translation/french/">Traduction française officielle</a> &copy; <a href="https://mastodon.social/@milescellar">Miles Cellar</a>',
 	'DIRECTION'        => 'ltr',
 	'DATE_FORMAT'      => '|d F Y|', // 01 January 2007 (with Relative days enabled)
 	'DATETIME_FORMAT'  => '|d F Y, H:i|', // 01 January 2007, 13:37 (with Relative days enabled)
