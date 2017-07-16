@@ -38,7 +38,7 @@ if (empty($lang) || !is_array($lang))
 // Database Backup/Restore
 $lang = array_merge($lang, [
 	'ACP_BACKUP_EXPLAIN'  => 'Depuis cette page, vous pouvez sauvegarder toutes les données relatives à votre forum. Vous pouvez stocker l’archive de sauvegarde dans votre répertoire « store/ » ou la télécharger directement. Selon la configuration de votre serveur, vous pourrez compresser cette archive sous plusieurs formats.',
-	'ACP_RESTORE_EXPLAIN' => 'Cette opération effectuera une restauration complète de toutes les tables de phpBB à partir d’un fichier de sauvegarde. Si votre serveur est compatible avec cette fonctionnalité, vous pouvez utiliser un fichier texte compressé sous le format GZip ou BZip2 qui sera automatiquement décompressé. Veuillez noter que cette opération écrasera toutes les données existantes. La restauration est un processus qui peut durer un certain temps, veillez à ne pas vous déplacer sur une autre page tant que l’opération n’est pas terminée. Les sauvegardes sont stockées dans le répertoire « store/ » et sont supposées être générées par l’outil de restauration présent par défaut dans le logiciel phpBB. Il est possible que la restauration des bases de données qui n’ont pas été sauvegardées avec cet outil ne fonctionnent pas.',
+	'ACP_RESTORE_EXPLAIN' => 'Cette opération effectuera une restauration complète de toutes les tables de phpBB à partir d’un fichier de sauvegarde. Si votre serveur est compatible avec cette fonctionnalité, vous pouvez utiliser un fichier texte compressé sous le format GZip ou BZip2 qui sera automatiquement décompressé. Veuillez noter que cette opération remplacera toutes les données existantes. La restauration est un processus qui peut durer un certain temps, veillez à ne pas vous déplacer sur une autre page tant que l’opération n’est pas terminée. Les sauvegardes sont stockées dans le répertoire « store/ » et sont supposées être générées par l’outil de restauration présent par défaut dans le logiciel phpBB. Il est possible que la restauration des bases de données qui n’ont pas été sauvegardées avec cet outil ne fonctionnent pas.',
 
 	'BACKUP_DELETE'  => 'Le fichier de sauvegarde a été supprimé.',
 	'BACKUP_INVALID' => 'Le fichier de sauvegarde que vous avez spécifié est invalide.',
@@ -67,7 +67,7 @@ $lang = array_merge($lang, [
 	'START_BACKUP'       => 'Démarrer la sauvegarde',
 	'START_RESTORE'      => 'Démarrer la restauration',
 	'STORE_AND_DOWNLOAD' => 'Stocker et télécharger',
-	'STORE_LOCAL'        => 'Stocker localement le fichier',
+	'STORE_LOCAL'        => 'Stocker le fichier en local',
 	'STRUCTURE_ONLY'     => 'Structure uniquement',
 
 	'TABLE_SELECT'       => 'Sélection de table',

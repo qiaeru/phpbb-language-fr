@@ -626,8 +626,8 @@ $lang = array_merge($lang, [
 	'LOG_UNLOCK'             => '<strong>Déverrouillage d’un sujet</strong><br />» %s',
 	'LOG_UNLOCK_POST'        => '<strong>Déverrouillage d’un message</strong><br />» %s',
 
-	'LOG_DISALLOW_ADD'    => '<strong>Ajout d’un nom d’utilisateur interdit</strong><br />» %s',
-	'LOG_DISALLOW_DELETE' => '<strong>Suppression d’un nom d’utilisateur interdit</strong>',
+	'LOG_DISALLOW_ADD'    => '<strong>Interdiction d’un nom d’utilisateur</strong><br />» %s',
+	'LOG_DISALLOW_DELETE' => '<strong>Autorisation d’un nom d’utilisateur</strong>',
 
 	'LOG_DB_BACKUP'  => '<strong>Sauvegarde de la base de données</strong>',
 	'LOG_DB_DELETE'  => '<strong>Suppression de la sauvegarde de la base de données</strong>',

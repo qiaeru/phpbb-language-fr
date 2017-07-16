@@ -85,9 +85,9 @@ $lang = array_merge($lang, [
 	'DISPLAY_ORDER_EXPLAIN'       => 'Les pièces jointes transférées seront affichées dans l’ordre chronologique sélectionné dans ce menu.',
 
 	'EDIT_EXTENSION_GROUP'       => 'Modifier le groupe d’extensions',
-	'EXCLUDE_ENTERED_IP'         => 'Activez cette option afin d’exclure de la liste les éléments sélectionnés.',
-	'EXCLUDE_FROM_ALLOWED_IP'    => 'Exclure la sélection des adresses IP et des noms d’hôtes autorisés',
-	'EXCLUDE_FROM_DISALLOWED_IP' => 'Exclure la sélection des adresses IP et des noms d’hôtes interdits',
+	'EXCLUDE_ENTERED_IP'         => 'Activez cette option afin de retirer de la liste les éléments sélectionnés.',
+	'EXCLUDE_FROM_ALLOWED_IP'    => 'Retirer la sélection des adresses IP et des noms d’hôtes autorisés',
+	'EXCLUDE_FROM_DISALLOWED_IP' => 'Retirer la sélection des adresses IP et des noms d’hôtes interdits',
 	'EXTENSIONS_UPDATED'         => 'Les extensions ont été mises à jour.',
 	'EXTENSION_EXIST'            => 'L’extension « %s » existe déjà.',
 	'EXTENSION_GROUP'            => 'Groupe d’extensions',

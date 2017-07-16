@@ -36,7 +36,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, [
-	'ACP_STYLES_EXPLAIN' => 'Depuis cette page, vous pouvez gérer les styles disponibles sur votre forum. Vous pouvez installer de nouveaux styles et modifier, supprimer, désactiver et réactiver les styles déjà installés. Vous pouvez également voir à quoi ressemble un style en utilisant la fonctionnalité de prévisualisation. De même, vous pouvez consulter le compteur du nombre total d’utilisateurs de chaque style. Veuillez cependant noter que lorsque vous écrasez un style, la comptabilisation du nombre total d’utilisateurs ne sera pas répercutée sur le style qui le remplacera.',
+	'ACP_STYLES_EXPLAIN' => 'Depuis cette page, vous pouvez gérer les styles disponibles sur votre forum. Vous pouvez installer de nouveaux styles et modifier, supprimer, désactiver et réactiver les styles déjà installés. Vous pouvez également voir à quoi ressemble un style en utilisant la fonctionnalité de prévisualisation. De même, vous pouvez consulter le compteur du nombre total d’utilisateurs de chaque style. Veuillez cependant noter que lorsque vous remplacez un style, la comptabilisation du nombre total d’utilisateurs ne sera pas répercutée sur le style qui le remplacera.',
 
 	'CANNOT_BE_INSTALLED'      => 'Ne peut pas être installé',
 	'CONFIRM_UNINSTALL_STYLES' => 'Êtes-vous sûr de vouloir désinstaller ces styles ?',
