@@ -725,15 +725,6 @@ $lang = array_merge($lang, [
 	'SUBJECT'                  => 'Sujet',
 	'SUBMIT'                   => 'Envoyer',
 
-	'STORAGE_FILE_EXISTS'       => 'Le fichier existe déjà.',
-	'STORAGE_FILE_NO_EXIST'     => 'Le fichier est introuvable.',
-	'STORAGE_CANNOT_WRITE_FILE' => 'Le fichier est en lecture seule.',
-	'STORAGE_CANNOT_READ_FILE'  => 'Impossible de lire le fichier.',
-	'STORAGE_CANNOT_DELETE'     => 'Impossible de supprimer le fichier ou le répertoire.',
-	'STORAGE_CANNOT_RENAME'     => 'Impossible de renommer le fichier ou le répertoire.',
-	'STORAGE_CANNOT_COPY'       => 'Impossible de copier le fichier ou le répertoire.',
-	'STORAGE_CANNOT_CREATE_DIR' => 'Impossible de créer le répertoire.',
-
 	'TB'                     => 'To',
 	'TERMS_USE'              => 'Conditions d’utilisation',
 	'TEST_CONNECTION'        => 'Tester la connexion',
