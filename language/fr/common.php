@@ -734,7 +734,10 @@ $lang = array_merge($lang, [
 	'STORAGE_CANNOT_DELETE'         => 'Impossible de supprimer le fichier ou le répertoire.',
 	'STORAGE_CANNOT_RENAME'         => 'Impossible de renommer le fichier ou le répertoire.',
 	'STORAGE_CANNOT_COPY'           => 'Impossible de copier le fichier ou le répertoire.',
+	'STORAGE_CANNOT_COPY_RESOURCE'  => 'Impossible de copier la ressource.',
 	'STORAGE_CANNOT_CREATE_DIR'     => 'Impossible de créer le répertoire.',
+	'STORAGE_CANNOT_OPEN_FILE'      => 'Impossible d’ouvrir le fichier.',
+	'STORAGE_CANNOT_CREATE_FILE'    => 'Impossible de créer le fichier.',
 
 	'TB'                     => 'To',
 	'TERMS_USE'              => 'Conditions d’utilisation',
