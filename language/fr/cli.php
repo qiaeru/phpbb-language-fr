@@ -124,6 +124,7 @@ $lang = array_merge($lang, [
 	'CLI_EXTENSION_UPDATE_FAILURE'  => 'Impossible de mettre à jour l’extension « %s »',
 	'CLI_EXTENSION_UPDATE_SUCCESS'  => 'L’extension « %s » a été mise à jour',
 	'CLI_EXTENSION_NOT_FOUND'       => 'Aucune extension.',
+	'CLI_EXTENSION_NOT_ENABLEABLE'  => 'L’extension « %s » n’est pas activable.',
 	'CLI_EXTENSIONS_AVAILABLE'      => 'Disponible',
 	'CLI_EXTENSIONS_DISABLED'       => 'Désactivée',
 	'CLI_EXTENSIONS_ENABLED'        => 'Activée',
