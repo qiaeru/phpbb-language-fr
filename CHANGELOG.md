@@ -4,6 +4,16 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [Unreleased](https://github.com/milescellar/phpbb-language-fr/compare/v3.1.0...3.2.x)
+
+### Added
+
+- A key have been added.
+
+### Changed
+
+- [VigLink](https://github.com/phpbb-extensions/viglink) have been updated to the 1.0.3-dev version.
+
 ## [3.1.0](https://github.com/milescellar/phpbb-language-fr/compare/v3.0.0...v3.1.0) - 2017-07-17
 
 ### Added
