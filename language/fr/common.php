@@ -43,7 +43,7 @@ $lang = array_merge($lang, [
 	'USER_LANG'        => 'fr',
 
 	// You can define different rules for the determination of plural forms here.
-	// See https://wiki.phpbb.com/Plural_Rules for more information
+	// See https://area51.phpbb.com/docs/dev/32x/language/plurals.html for more information
 	// or ask the translation manager for help.
 	'PLURAL_RULE' => 2,
 
@@ -364,7 +364,7 @@ $lang = array_merge($lang, [
 	'LDAP_SEARCH_FAILED'                       => 'Le répertoire LDAP est introuvable.',
 	'LEGEND'                                   => 'Légende',
 	'LIVE_SEARCHES_NOT_ALLOWED'                => 'Les prédictions de recherche ne sont pas autorisées.',
-	'LOADING'                                  => 'Chargement',
+	'LOADING'                                  => 'Chargement…',
 	'LOCATION'                                 => 'Localisation',
 	'LOCK_POST'                                => 'Verrouiller le message',
 	'LOCK_POST_EXPLAIN'                        => 'Il ne pourra plus être modifié',
@@ -556,6 +556,7 @@ $lang = array_merge($lang, [
 	],
 	'OPTIONS' => 'Options',
 
+	'PAGE_NOT_FOUND'    => 'La page demandée est introuvable.',
 	'PAGE_OF'           => 'Page <strong>%1$d</strong> sur <strong>%2$d</strong>',
 	'PAGE_TITLE_NUMBER' => 'Page %s',
 	'PASSWORD'          => 'Mot de passe',
