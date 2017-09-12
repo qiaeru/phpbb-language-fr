@@ -8,11 +8,12 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ### Added
 
-- A key have been added.
+- Two keys have been added.
 
 ### Changed
 
 - The language pack is now compatible with the [VigLink](https://github.com/phpbb-extensions/viglink) 1.0.3-dev bundled extension.
+- A translation have been changed to add some details.
 
 ## [3.1.0](https://github.com/milescellar/phpbb-language-fr/compare/v3.0.0...v3.1.0) - 2017-07-17
 
