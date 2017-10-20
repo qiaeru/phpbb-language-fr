@@ -196,6 +196,7 @@ $lang = array_merge($lang, [
 	'ACL_A_ROLES'      => 'Peut gérer les rôles',
 	'ACL_A_SWITCHPERM' => 'Peut utiliser d’autres permissions',
 
+	'ACL_A_STORAGE'    => 'Peut gérer les espaces de stockage',
 	'ACL_A_STYLES'     => 'Peut gérer les styles',
 	'ACL_A_EXTENSIONS' => 'Peut gérer les extensions',
 	'ACL_A_VIEWLOGS'   => 'Peut consulter les historiques',
