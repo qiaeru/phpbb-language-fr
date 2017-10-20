@@ -178,7 +178,7 @@ $lang = array_merge($lang, [
 	'ACP_SIGNATURE_SETTINGS'   => 'Paramètres des signatures',
 	'ACP_SMILIES'              => 'Émoticônes',
 
-	'ACP_STORAGE_SETTINGS' => 'Paramètres de stockage',
+	'ACP_STORAGE_SETTINGS' => 'Paramètres des espaces de stockage',
 
 	'ACP_STYLE_MANAGEMENT'     => 'Gestion des styles',
 	'ACP_STYLES'               => 'Styles',

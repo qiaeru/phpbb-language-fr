@@ -38,15 +38,15 @@
 $lang = array_merge($lang, [
 
 	// Template
-	'STORAGE_TITLE'         => 'Paramètres de stockage',
-	'STORAGE_TITLE_EXPLAIN' => 'Vous permet de modifier les services de stockage concernant différents types de stockage des fichiers de phpBB. Vous pouvez sélectionner un service de stockage local ou à distance qui hébergeront les fichiers crées ou ajoutés par phpBB.',
+	'STORAGE_TITLE'         => 'Paramètres des espaces de stockage',
+	'STORAGE_TITLE_EXPLAIN' => 'Ces paramètres vous permettent de modifier les services de stockage qui hébergeront les fichiers de phpBB. Vous pouvez sélectionner un service de stockage local ou à distance qui hébergeront les fichiers crées ou ajoutés par phpBB.',
 	'STORAGE_SELECT'        => 'Sélectionner un stockage',
 	'STORAGE_SELECT_DESC'   => 'La liste des stockages disponibles.',
 
 	// Storage names
-	'STORAGE_ATTACHMENT_TITLE' => 'Stockage des pièces jointes',
-	'STORAGE_AVATAR_TITLE'     => 'Stockage des avatars',
-	'STORAGE_BACKUP_TITLE'     => 'Stockage de la sauvegarde',
+	'STORAGE_ATTACHMENT_TITLE' => 'Espace de stockage des pièces jointes',
+	'STORAGE_AVATAR_TITLE'     => 'Espace de stockage des avatars',
+	'STORAGE_BACKUP_TITLE'     => 'Espace de stockage de la sauvegarde',
 
 	// Local adapter
 	'STORAGE_ADAPTER_LOCAL_NAME'        => 'Local',
