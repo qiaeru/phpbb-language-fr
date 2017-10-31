@@ -180,10 +180,10 @@ $lang = array_merge($lang, [
 
 	'ACP_STORAGE_SETTINGS' => 'Paramètres des espaces de stockage',
 
-	'ACP_STYLE_MANAGEMENT'     => 'Gestion des styles',
-	'ACP_STYLES'               => 'Styles',
-	'ACP_STYLES_CACHE'         => 'Vider le cache',
-	'ACP_STYLES_INSTALL'       => 'Installer des styles',
+	'ACP_STYLE_MANAGEMENT' => 'Gestion des styles',
+	'ACP_STYLES'           => 'Styles',
+	'ACP_STYLES_CACHE'     => 'Vider le cache',
+	'ACP_STYLES_INSTALL'   => 'Installer des styles',
 
 	'ACP_SUBMIT_CHANGES' => 'Sauvegarder les modifications',
 
