@@ -356,7 +356,7 @@ $lang = array_merge($lang, [
 	'COOKIE_NOTICE'          => 'Information sur les cookies',
 	'COOKIE_NOTICE_EXPLAIN'  => 'Si cette option est activée, une information concernant l’utilisation des cookies sera affichée aux utilisateurs lors de leur navigation sur votre forum. Cette information est une obligation légale dans certains pays, selon le contenu et les extensions activées sur votre forum.',
 	'COOKIE_PATH'            => 'Chemin du cookie',
-	'COOKIE_PATH_EXPLAIN'    => 'Le chemin est toujours une barre oblique, peu importe l’adresse de votre forum.',
+	'COOKIE_PATH_EXPLAIN'    => 'Le chemin est généralement le même que celui menant vers le script ou est simplement une barre oblique, ce qui permet au cookie d’être accessible sur l’ensemble du domaine du site.',
 	'COOKIE_SECURE'          => 'Cookie sécurisé',
 	'COOKIE_SECURE_EXPLAIN'  => 'Si votre serveur est sécurisé avec un certificat SSL, vous devez activer cette option. Si vous activez cette option alors que votre serveur n’est pas sécurisé avec un certificat SSL, il est probable que des erreurs surviennent lors des redirections.',
 	'ONLINE_LENGTH'          => 'Durée d’apparition dans la liste des utilisateurs en ligne',
@@ -370,7 +370,7 @@ $lang = array_merge($lang, [
 	'ACP_CONTACT_SETTINGS_EXPLAIN' => 'Depuis cette page, vous pouvez activer, modifier et désactiver la page de contact.',
 
 	'CONTACT_US_ENABLE'         => 'Activer la page de contact',
-	'CONTACT_US_ENABLE_EXPLAIN' => 'Cette page permet aux utilisateurs d’envoyer des courriels aux administrateurs du forum',
+	'CONTACT_US_ENABLE_EXPLAIN' => 'Cette page permet aux utilisateurs d’envoyer des courriels aux administrateurs du forum. Veuillez noter que le paramètre de l’envoi des courriels sur le forum doit être activé. Vous trouverez ce paramètre dans « Général > Communication > Paramètres des courriels ».',
 
 	'CONTACT_US_INFO'         => 'Informations de la page de contact',
 	'CONTACT_US_INFO_EXPLAIN' => 'Le message est affiché sur la page de contact',
