@@ -171,8 +171,8 @@ $lang = array_merge($lang, [
 	'CLI_HELP_CRON_RUN'      => $lang['CLI_DESCRIPTION_CRON_RUN'].'Vous pouvez éventuellement spécifier un nom de tâche cron afin d’exécuter uniquement cette tâche.',
 	'CLI_HELP_USER_ACTIVATE' => 'L’option « --deactivate » vous permet d’activer ou de désactiver le compte d’un utilisateur.
 Si vous souhaitez envoyer un courriel d’activation à l’utilisateur, veuillez utiliser l’option « --send-email ».',
-	'CLI_HELP_USER_ADD'      => 'La commande « %command.name% » vous permet d’ajouter un nouvel utilisateur :
+	'CLI_HELP_USER_ADD' => 'La commande « %command.name% » vous permet d’ajouter un nouvel utilisateur :
 Si cette commande est exécutée sans option, vous serez invité à les saisir.
 Si vous souhaitez envoyer un courriel au nouvel utilisateur, veuillez utiliser l’option « --send-email ».',
-	'CLI_HELP_USER_RECLEAN'  => 'Renettoyer les noms d’utilisateurs vous permet de vérifier tous les noms d’utilisateurs en vous assurant que les versions propres soient également stockées. Les noms d’utilisateurs propres ne sont pas sensibles à la casse, sont normalisés avec NFC et sont transformés en ASCII.',
+	'CLI_HELP_USER_RECLEAN' => 'Renettoyer les noms d’utilisateurs vous permet de vérifier tous les noms d’utilisateurs en vous assurant que les versions propres soient également stockées. Les noms d’utilisateurs propres ne sont pas sensibles à la casse, sont normalisés avec NFC et sont transformés en ASCII.',
 ]);
