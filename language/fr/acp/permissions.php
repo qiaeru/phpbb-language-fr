@@ -51,7 +51,7 @@ $lang = array_merge($lang, [
 		<h2>Les masques des permissions</h2>
 		<p>Ils sont utilisés afin de consulter les permissions effectives assignées aux utilisateurs, aux modérateurs (locaux et généraux), aux administrateurs et aux forums.</p>
 
-		<br>
+		<br />
 
 		<p>Pour plus d’informations concernant la configuration des permissions sur votre forum, veuillez consulter la section sur <a href="https://www.phpbb.com/support/docs/en/3.2/ug/quickstart/permissions/">la configuration des permissions de notre guide de démarrage rapide</a> (en anglais).</p>
 	',
@@ -184,11 +184,11 @@ $lang = array_merge($lang, [
 	'ROLE_USER_NEW_MEMBER'     => 'Fonctionnalités des utilisateurs nouvellement inscrits',
 
 	'ROLE_DESCRIPTION_ADMIN_FORUM'         => 'Peut accéder à la gestion du forum et aux paramètres de ses permissions.',
-	'ROLE_DESCRIPTION_ADMIN_FULL'          => 'Peut accéder à toutes les fonctionnalités des administrateurs.<br>Il n’est pas recommandé d’attribuer ce rôle.',
+	'ROLE_DESCRIPTION_ADMIN_FULL'          => 'Peut accéder à toutes les fonctionnalités des administrateurs.<br />Il n’est pas recommandé d’attribuer ce rôle.',
 	'ROLE_DESCRIPTION_ADMIN_STANDARD'      => 'Peut accéder à la plupart des fonctionnalités des administrateurs mais ne peut pas modifier les options relatives au système et au serveur.',
 	'ROLE_DESCRIPTION_ADMIN_USERGROUP'     => 'Peut gérer les utilisateurs et les groupes d’utilisateurs (gestion des permissions, des paramètres, des bannissements et des rangs).',
 	'ROLE_DESCRIPTION_FORUM_BOT'           => 'Il recommandé d’attribuer ce rôle aux robots des moteurs de recherche.',
-	'ROLE_DESCRIPTION_FORUM_FULL'          => 'Peut utiliser toutes les fonctionnalités du forum, dont la publication d’annonces et de notes. Peut également ignorer la limitation de flood.<br>Il n’est pas recommandé d’attribuer ce rôle aux utilisateurs ordinaires.',
+	'ROLE_DESCRIPTION_FORUM_FULL'          => 'Peut utiliser toutes les fonctionnalités du forum, dont la publication d’annonces et de notes. Peut également ignorer la limitation de flood.<br />Il n’est pas recommandé d’attribuer ce rôle aux utilisateurs ordinaires.',
 	'ROLE_DESCRIPTION_FORUM_LIMITED'       => 'Peut utiliser certaines fonctionnalités du forum mais ne peut pas transférer de pièces jointes et insérer des icônes aux messages.',
 	'ROLE_DESCRIPTION_FORUM_LIMITED_POLLS' => 'Similaire à l’accès limité, mais peut également créer des sondages.',
 	'ROLE_DESCRIPTION_FORUM_NOACCESS'      => 'Ne peut ni consulter ni accéder au forum.',
@@ -201,7 +201,7 @@ $lang = array_merge($lang, [
 	'ROLE_DESCRIPTION_MOD_QUEUE'           => 'Ne peut utiliser que la file d’attente de modération afin de valider et modifier des messages.',
 	'ROLE_DESCRIPTION_MOD_SIMPLE'          => 'Ne peut effectuer que les opérations basiques liées aux sujets mais ne peut pas envoyer d’avertissements et accéder à la file d’attente de modération.',
 	'ROLE_DESCRIPTION_MOD_STANDARD'        => 'Peut utiliser la plupart des outils liées à la modération mais ne peut pas bannir d’utilisateurs et modifier l’auteur d’un message.',
-	'ROLE_DESCRIPTION_USER_FULL'           => 'Peut utiliser toutes les fonctionnalités du forum qui sont disponibles aux utilisateurs, dont la possibilité de modifier son nom d’utilisateur et d’ignorer la limitation de flood.<br>Il n’est pas recommandé d’attribuer ce rôle.',
+	'ROLE_DESCRIPTION_USER_FULL'           => 'Peut utiliser toutes les fonctionnalités du forum qui sont disponibles aux utilisateurs, dont la possibilité de modifier son nom d’utilisateur et d’ignorer la limitation de flood.<br />Il n’est pas recommandé d’attribuer ce rôle.',
 	'ROLE_DESCRIPTION_USER_LIMITED'        => 'Peut accéder à la plupart des fonctionnalités des utilisateurs mais les pièces jointes, les courriels et les messages instantanés ne sont pas autorisés.',
 	'ROLE_DESCRIPTION_USER_NOAVATAR'       => 'Ne peut accéder qu’à un ensemble de fonctionnalités limité et n’est pas autorisé à utiliser la fonctionnalité des avatars.',
 	'ROLE_DESCRIPTION_USER_NOPM'           => 'Ne peut accéder qu’à un ensemble de fonctionnalités limité et n’est pas autorisé à utiliser les fonctionnalités de la messagerie privée.',

@@ -60,19 +60,19 @@ $lang = array_merge($lang, [
 	'BBCODE_TAG_TOO_LONG'     => 'Le nom de la balise que vous avez spécifié est trop long.',
 	'BBCODE_TAG_DEF_TOO_LONG' => 'La définition de la balise que vous avez spécifiée est trop longue, veuillez la raccourcir.',
 	'BBCODE_USAGE'            => 'Structure du BBCode',
-	'BBCODE_USAGE_EXAMPLE'    => '[highlight={COLOR}]{TEXT}[/highlight]<br><br>[font={SIMPLETEXT1}]{SIMPLETEXT2}[/font]',
+	'BBCODE_USAGE_EXAMPLE'    => '[highlight={COLOR}]{TEXT}[/highlight]<br /><br />[font={SIMPLETEXT1}]{SIMPLETEXT2}[/font]',
 	'BBCODE_USAGE_EXPLAIN'    => 'Vous pouvez saisir dans ce champ la structure du BBCode que vos utilisateurs devront respecter lors de son utilisation. Remplacez les variables des éléments par les chaînes de symboles correspondantes (%svoir ci-dessous%s).',
 
 	'EXAMPLE'  => 'Exemple :',
 	'EXAMPLES' => 'Exemples :',
 
 	'HTML_REPLACEMENT'         => 'Code HTML',
-	'HTML_REPLACEMENT_EXAMPLE' => '&lt;span style="background-color: {COLOR};"&gt;{TEXT}&lt;/span&gt;<br><br>&lt;span style="font-family: {SIMPLETEXT1};"&gt;{SIMPLETEXT2}&lt;/span&gt;',
+	'HTML_REPLACEMENT_EXAMPLE' => '&lt;span style="background-color: {COLOR};"&gt;{TEXT}&lt;/span&gt;<br /><br />&lt;span style="font-family: {SIMPLETEXT1};"&gt;{SIMPLETEXT2}&lt;/span&gt;',
 	'HTML_REPLACEMENT_EXPLAIN' => 'Vous pouvez saisir dans ce champ le code HTML qui sera affiché lors de l’utilisation du BBCode saisi ci-dessus. N’oubliez pas d’utiliser toutes les chaînes de symboles que vous avez utilisées dans votre BBCode !',
 
 	'TOKEN'            => 'Chaîne de symboles',
 	'TOKENS'           => 'Chaînes de symboles',
-	'TOKENS_EXPLAIN'   => 'Les chaînes de symboles sont des marques substitutives pour les entrées des utilisateurs. Les entrées ne seront validées que si elles trouvent la définition correspondante. Si besoin, vous pouvez les numéroter en ajoutant un nombre entre des accolades comme dernier caractère, tel que « {TEXT1} », « {TEXT2} », etc.<br><br>Dans le code HTML, vous pouvez également utiliser une chaîne de langue dans votre répertoire « language/ » tel que « {L_<em>« NOMDELACHAÎNE »</em>} » où <em>« NOMDELACHAÎNE »</em> est le nom de la chaîne traduite que vous souhaitez ajouter. Par exemple, « {L_WROTE} » sera affiché en tant que « a écrit » ou sa traduction selon la langue locale de l’utilisateur.<br><br><strong>Veuillez noter que seules les chaînes listées ci-dessous sont autorisées à être utilisées dans les BBCodes personnalisés.</strong>',
+	'TOKENS_EXPLAIN'   => 'Les chaînes de symboles sont des marques substitutives pour les entrées des utilisateurs. Les entrées ne seront validées que si elles trouvent la définition correspondante. Si besoin, vous pouvez les numéroter en ajoutant un nombre entre des accolades comme dernier caractère, tel que « {TEXT1} », « {TEXT2} », etc.<br /><br />Dans le code HTML, vous pouvez également utiliser une chaîne de langue dans votre répertoire « language/ » tel que « {L_<em>« NOMDELACHAÎNE »</em>} » où <em>« NOMDELACHAÎNE »</em> est le nom de la chaîne traduite que vous souhaitez ajouter. Par exemple, « {L_WROTE} » sera affiché en tant que « a écrit » ou sa traduction selon la langue locale de l’utilisateur.<br /><br /><strong>Veuillez noter que seules les chaînes listées ci-dessous sont autorisées à être utilisées dans les BBCodes personnalisés.</strong>',
 	'TOKEN_DEFINITION' => 'Qu’est-ce que c’est ?',
 	'TOO_MANY_BBCODES' => 'Vous ne pouvez pas créer d’autres BBCodes. Veuillez supprimer un ou plusieurs BBCodes et réessayer.',
 

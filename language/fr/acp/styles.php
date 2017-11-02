@@ -51,7 +51,7 @@ $lang = array_merge($lang, [
 	'INHERITING_FROM'        => 'Hérite de',
 	'INSTALL_STYLE'          => 'Installer un style',
 	'INSTALL_STYLES'         => 'Installer des styles',
-	'INSTALL_STYLES_EXPLAIN' => 'Depuis cette page, vous pouvez installer de nouveaux styles.<br>Si vous ne retrouvez pas dans la liste ci-dessous le style que vous avez transféré, assurez-vous que ce dernier ne soit pas déjà installé sur votre forum. Si ce n’est pas le cas, essayez de le transférer de nouveau.',
+	'INSTALL_STYLES_EXPLAIN' => 'Depuis cette page, vous pouvez installer de nouveaux styles.<br />Si vous ne retrouvez pas dans la liste ci-dessous le style que vous avez transféré, assurez-vous que ce dernier ne soit pas déjà installé sur votre forum. Si ce n’est pas le cas, essayez de le transférer de nouveau.',
 	'INVALID_STYLE_ID'       => 'L’identifiant du style est invalide.',
 
 	'NO_MATCHING_STYLES_FOUND' => 'Aucun style ne correspond à votre requête.',

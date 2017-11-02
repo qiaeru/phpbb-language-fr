@@ -122,9 +122,9 @@ $lang = array_merge($lang, [
 	'ACL_F_REPLY'           => 'Peut répondre aux sujets',
 	'ACL_F_EDIT'            => 'Peut modifier ses messages',
 	'ACL_F_DELETE'          => 'Peut supprimer définitivement ses messages',
-	'ACL_F_SOFTDELETE'      => 'Peut supprimer ses messages<br><em>Veuillez noter que les modérateurs qui peuvent approuver des messages pourront également restaurer les messages supprimés.</em>',
+	'ACL_F_SOFTDELETE'      => 'Peut supprimer ses messages<br /><em>Veuillez noter que les modérateurs qui peuvent approuver des messages pourront également restaurer les messages supprimés.</em>',
 	'ACL_F_IGNOREFLOOD'     => 'Peut ignorer la limite de flood',
-	'ACL_F_POSTCOUNT'       => 'Peut augmenter son compteur de messages<br><em>Veuillez noter que cette option n’affecte que les nouveaux messages.</em>',
+	'ACL_F_POSTCOUNT'       => 'Peut augmenter son compteur de messages<br /><em>Veuillez noter que cette option n’affecte que les nouveaux messages.</em>',
 	'ACL_F_NOAPPROVE'       => 'Peut publier des messages sans approbation',
 
 	'ACL_F_ATTACH'  => 'Peut transférer des pièces jointes',
@@ -144,7 +144,7 @@ $lang = array_merge($lang, [
 $lang = array_merge($lang, [
 	'ACL_M_EDIT'       => 'Peut modifier les messages',
 	'ACL_M_DELETE'     => 'Peut supprimer définitivement les messages',
-	'ACL_M_SOFTDELETE' => 'Peut supprimer les messages<br><em>Veuillez noter que les modérateurs qui peuvent approuver des messages pourront également restaurer les messages supprimés.</em>',
+	'ACL_M_SOFTDELETE' => 'Peut supprimer les messages<br /><em>Veuillez noter que les modérateurs qui peuvent approuver des messages pourront également restaurer les messages supprimés.</em>',
 	'ACL_M_APPROVE'    => 'Peut approuver et restaurer les messages',
 	'ACL_M_REPORT'     => 'Peut fermer et supprimer les rapports',
 	'ACL_M_CHGPOSTER'  => 'Peut modifier les auteurs des messages',
@@ -155,9 +155,9 @@ $lang = array_merge($lang, [
 	'ACL_M_MERGE' => 'Peut fusionner les sujets',
 
 	'ACL_M_INFO'      => 'Peut consulter les informations sur les messages',
-	'ACL_M_WARN'      => 'Peut distribuer des avertissements<br><em>Cette option n’est assignée que généralement.</em>', // This moderator setting is only global (and not local)
-	'ACL_M_PM_REPORT' => 'Peut fermer et supprimer les rapports de messages privés<br><em>Cette option n’est assignée que généralement.</em>', // This moderator setting is only global (and not local)
-	'ACL_M_BAN'       => 'Peut gérer les bannissements<br><em>Cette option n’est assignée que généralement.</em>', // This moderator setting is only global (and not local)
+	'ACL_M_WARN'      => 'Peut distribuer des avertissements<br /><em>Cette option n’est assignée que généralement.</em>', // This moderator setting is only global (and not local)
+	'ACL_M_PM_REPORT' => 'Peut fermer et supprimer les rapports de messages privés<br /><em>Cette option n’est assignée que généralement.</em>', // This moderator setting is only global (and not local)
+	'ACL_M_BAN'       => 'Peut gérer les bannissements<br /><em>Cette option n’est assignée que généralement.</em>', // This moderator setting is only global (and not local)
 ]);
 
 // Admin Permissions
@@ -177,7 +177,7 @@ $lang = array_merge($lang, [
 	'ACL_A_BBCODE' => 'Peut définir les balises BBCodes',
 	'ACL_A_ATTACH' => 'Peut modifier les paramètres relatifs aux pièces jointes',
 
-	'ACL_A_USER'     => 'Peut gérer les utilisateurs<br><em>Cela inclut également la possibilité de pouvoir consulter l’agent du navigateur des utilisateurs dans la liste des utilisateurs en ligne.</em>',
+	'ACL_A_USER'     => 'Peut gérer les utilisateurs<br /><em>Cela inclut également la possibilité de pouvoir consulter l’agent du navigateur des utilisateurs dans la liste des utilisateurs en ligne.</em>',
 	'ACL_A_USERDEL'  => 'Peut supprimer et délester les utilisateurs',
 	'ACL_A_GROUP'    => 'Peut gérer les groupes d’utilisateurs',
 	'ACL_A_GROUPADD' => 'Peut ajouter de nouveaux groupes d’utilisateurs',
