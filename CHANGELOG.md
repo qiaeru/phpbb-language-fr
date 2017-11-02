@@ -8,7 +8,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ### Added
 
-- Two keys have been added.
+- Several keys have been added.
 
 ### Changed
 

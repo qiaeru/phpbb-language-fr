@@ -103,16 +103,17 @@ $lang = array_merge($lang, [
 
 // Forum Permissions
 $lang = array_merge($lang, [
-	'ACL_F_LIST'      => 'Peut voir le forum',
-	'ACL_F_READ'      => 'Peut consulter les messages du forum',
-	'ACL_F_SEARCH'    => 'Peut effectuer des recherches sur le forum',
-	'ACL_F_SUBSCRIBE' => 'Peut s’abonner au forum',
-	'ACL_F_PRINT'     => 'Peut imprimer les sujets',
-	'ACL_F_EMAIL'     => 'Peut envoyer les sujets par courriel',
-	'ACL_F_BUMP'      => 'Peut remonter des sujets',
-	'ACL_F_USER_LOCK' => 'Peut verrouiller ses sujets',
-	'ACL_F_DOWNLOAD'  => 'Peut télécharger les pièces jointes',
-	'ACL_F_REPORT'    => 'Peut rapporter les messages',
+	'ACL_F_LIST'        => 'Peut voir le forum',
+	'ACL_F_LIST_TOPICS' => 'Peut voir les sujets',
+	'ACL_F_READ'        => 'Peut consulter les messages du forum',
+	'ACL_F_SEARCH'      => 'Peut effectuer des recherches sur le forum',
+	'ACL_F_SUBSCRIBE'   => 'Peut s’abonner au forum',
+	'ACL_F_PRINT'       => 'Peut imprimer les sujets',
+	'ACL_F_EMAIL'       => 'Peut envoyer les sujets par courriel',
+	'ACL_F_BUMP'        => 'Peut remonter des sujets',
+	'ACL_F_USER_LOCK'   => 'Peut verrouiller ses sujets',
+	'ACL_F_DOWNLOAD'    => 'Peut télécharger les pièces jointes',
+	'ACL_F_REPORT'      => 'Peut rapporter les messages',
 
 	'ACL_F_POST'            => 'Peut publier de nouveaux sujets',
 	'ACL_F_STICKY'          => 'Peut publier des notes',
