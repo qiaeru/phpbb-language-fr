@@ -96,7 +96,7 @@ $lang = array_merge($lang, [
 
 	'QUICK_MOD'  => 'Actions rapides de modération',
 	'QUICKREPLY' => 'Réponse rapide',
-	'QUOTE'      => 'Citer',
+	'QUOTE'      => 'Citation',
 
 	'REPLY_TO_TOPIC' => 'Répondre au sujet',
 	'RESTORE'        => 'Restaurer',
