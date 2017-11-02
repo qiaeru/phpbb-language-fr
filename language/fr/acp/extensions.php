@@ -40,7 +40,7 @@ $lang = array_merge($lang, [
 	'EXTENSIONS'               => 'Extensions',
 	'EXTENSIONS_ADMIN'         => 'Gestionnaire d’extensions',
 	'EXTENSIONS_EXPLAIN'       => 'Le gestionnaire d’extensions est un outil vous permettant de gérer tous les statuts de vos extensions et de consulter les informations associées.',
-	'EXTENSION_INVALID_LIST'   => 'L’extension « %s » est invalide.<br />%s<br /><br />',
+	'EXTENSION_INVALID_LIST'   => 'L’extension « %s » est invalide.<br>%s<br><br>',
 	'EXTENSION_NOT_AVAILABLE'  => 'Cette extension n’est pas disponible sur ce forum. Veuillez vérifier la compatibilité de vos versions de phpBB et de PHP.',
 	'EXTENSION_DIR_INVALID'    => 'Cette extension est construite avec une structure de répertoire invalide et ne peut donc pas être activée.',
 	'EXTENSION_NOT_ENABLEABLE' => 'Cette extension ne peut pas être activée. Veuillez vérifier les prérequis de l’extension.',
@@ -90,7 +90,7 @@ $lang = array_merge($lang, [
 			<li>Supprimez les fichiers de l’extension de votre serveur</li>
 		</ol>',
 
-	'EXTENSION_DELETE_DATA_CONFIRM'    => 'Êtes-vous sûr de vouloir supprimer les données de « %s » ?<br /><br />Cela supprimera toutes les données et la configuration de l’extension qui ne pourront pas être restaurés !',
+	'EXTENSION_DELETE_DATA_CONFIRM'    => 'Êtes-vous sûr de vouloir supprimer les données de « %s » ?<br><br>Cela supprimera toutes les données et la configuration de l’extension qui ne pourront pas être restaurés !',
 	'EXTENSION_DISABLE_CONFIRM'        => 'Êtes-vous sûr de vouloir désactiver l’extension « %s » ?',
 	'EXTENSION_ENABLE_CONFIRM'         => 'Êtes-vous sûr de vouloir activer l’extension « %s » ?',
 	'EXTENSION_FORCE_UNSTABLE_CONFIRM' => 'Êtes-vous sûr de vouloir forcer l’utilisation d’une version instable ?',

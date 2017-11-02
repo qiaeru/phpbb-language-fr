@@ -44,11 +44,11 @@ $lang = array_merge($lang, [
 
 	// Introduction page
 	'INTRODUCTION_TITLE' => 'Introduction',
-	'INTRODUCTION_BODY'  => 'Bienvenue sur phpBB 3.2 !<br /><br />phpBB® est le logiciel de forum de discussions libre et gratuit le plus populaire dans le monde. Il est l’aboutissement d’un développement qui a débuté en 2000. Tout comme ses versions précédentes, phpBB 3.2 est riche en fonctionnalités, facile d’accès et entièrement pris en charge par phpBB Limited. Il améliore considérablement ce qui a rendu phpBB 2.0 populaire et ajoute des fonctionnalités demandées qui manquaient aux versions antérieures. Nous espérons avoir répondu convenablement à vos attentes.<br /><br />Cet assistant vous guidera au cours de l’installation et de la mise à jour du logiciel, ainsi que la conversion d’un logiciel de forum de discussions (dont phpBB 2.0) vers phpBB 3.2. Pour plus d’informations, veuillez consulter <a href="../docs/INSTALL.html">le guide d’installation</a> (en anglais).<br /><br />Si vous souhaitez vous renseigner sur la licence du logiciel ou sur l’assistance mise à votre disposition, veuillez sélectionner les éléments appropriés situés sur le menu latéral de gauche. Pour continuer, veuillez sélectionner l’onglet approprié situé en haut de cette page.',
+	'INTRODUCTION_BODY'  => 'Bienvenue sur phpBB 3.2 !<br><br>phpBB® est le logiciel de forum de discussions libre et gratuit le plus populaire dans le monde. Il est l’aboutissement d’un développement qui a débuté en 2000. Tout comme ses versions précédentes, phpBB 3.2 est riche en fonctionnalités, facile d’accès et entièrement pris en charge par phpBB Limited. Il améliore considérablement ce qui a rendu phpBB 2.0 populaire et ajoute des fonctionnalités demandées qui manquaient aux versions antérieures. Nous espérons avoir répondu convenablement à vos attentes.<br><br>Cet assistant vous guidera au cours de l’installation et de la mise à jour du logiciel, ainsi que la conversion d’un logiciel de forum de discussions (dont phpBB 2.0) vers phpBB 3.2. Pour plus d’informations, veuillez consulter <a href="../docs/INSTALL.html">le guide d’installation</a> (en anglais).<br><br>Si vous souhaitez vous renseigner sur la licence du logiciel ou sur l’assistance mise à votre disposition, veuillez sélectionner les éléments appropriés situés sur le menu latéral de gauche. Pour continuer, veuillez sélectionner l’onglet approprié situé en haut de cette page.',
 
 	// Support page
 	'SUPPORT_TITLE' => 'Assistance',
-	'SUPPORT_BODY'  => 'La dernière version stable de phpBB 3 vous permet de bénéficier d’une assistance complète et gratuite comprenant :</p><ul><li>l’installation</li><li>la configuration</li><li>les questions techniques</li><li>les problèmes en relation avec de potentiels bogues du logiciel</li><li>la mise à jour d’une version « Release Candidate » (RC) vers la dernière version stable</li><li>la conversion de phpBB 2.0 vers phpBB 3.2</li><li>la conversion d’un logiciel de forum de discussions vers phpBB 3.2 (veuillez consulter <a href="https://www.phpbb.com/community/viewforum.php?f=486">le forum relatif aux convertisseurs</a> (en anglais))</li></ul><p>Nous encourageons vivement les utilisateurs des versions « Beta » de phpBB 3.2 à procéder à une nouvelle installation vers la dernière version stable.</p><h2>Extensions et styles</h2><p>Concernant les problèmes relatifs aux extensions, veuillez publier vos questions dans <a href="https://www.phpbb.com/community/viewforum.php?f=451">le forum relatif aux extensions</a> (en anglais).<br />Concernant les problèmes relatifs aux styles, aux modèles et aux thèmes, veuillez publier vos questions dans <a href="https://www.phpbb.com/community/viewforum.php?f=471">le forum relatif aux styles</a> (en anglais).<br /><br />Si votre question est spécifique à une archive, veuillez publier directement votre demande dans le sujet dédié à cette archive.</p><h2>Assistance</h2><p><a href="https://www.phpbb.com/community/viewtopic.php?f=14&amp;t=571070">Le message de bienvenue de phpBB</a> (en anglais)<br /><a href="https://www.phpbb.com/support/">La section d’assistance</a> (en anglais)<br /><a href="https://www.phpbb.com/support/docs/en/3.2/ug/quickstart/">Le guide de démarrage rapide</a> (en anglais)<br /><br />Si vous souhaitez être tenu au courant des dernières versions et nouveautés de notre logiciel, vous pouvez <a href="https://www.phpbb.com/community/viewforum.php?f=14">consulter nos annonces</a> (en anglais).<br /><br />',
+	'SUPPORT_BODY'  => 'La dernière version stable de phpBB 3 vous permet de bénéficier d’une assistance complète et gratuite comprenant :</p><ul><li>l’installation</li><li>la configuration</li><li>les questions techniques</li><li>les problèmes en relation avec de potentiels bogues du logiciel</li><li>la mise à jour d’une version « Release Candidate » (RC) vers la dernière version stable</li><li>la conversion de phpBB 2.0 vers phpBB 3.2</li><li>la conversion d’un logiciel de forum de discussions vers phpBB 3.2 (veuillez consulter <a href="https://www.phpbb.com/community/viewforum.php?f=486">le forum relatif aux convertisseurs</a> (en anglais))</li></ul><p>Nous encourageons vivement les utilisateurs des versions « Beta » de phpBB 3.2 à procéder à une nouvelle installation vers la dernière version stable.</p><h2>Extensions et styles</h2><p>Concernant les problèmes relatifs aux extensions, veuillez publier vos questions dans <a href="https://www.phpbb.com/community/viewforum.php?f=451">le forum relatif aux extensions</a> (en anglais).<br>Concernant les problèmes relatifs aux styles, aux modèles et aux thèmes, veuillez publier vos questions dans <a href="https://www.phpbb.com/community/viewforum.php?f=471">le forum relatif aux styles</a> (en anglais).<br><br>Si votre question est spécifique à une archive, veuillez publier directement votre demande dans le sujet dédié à cette archive.</p><h2>Assistance</h2><p><a href="https://www.phpbb.com/community/viewtopic.php?f=14&amp;t=571070">Le message de bienvenue de phpBB</a> (en anglais)<br><a href="https://www.phpbb.com/support/">La section d’assistance</a> (en anglais)<br><a href="https://www.phpbb.com/support/docs/en/3.2/ug/quickstart/">Le guide de démarrage rapide</a> (en anglais)<br><br>Si vous souhaitez être tenu au courant des dernières versions et nouveautés de notre logiciel, vous pouvez <a href="https://www.phpbb.com/community/viewforum.php?f=14">consulter nos annonces</a> (en anglais).<br><br>',
 
 	// License
 	'LICENSE_TITLE' => 'Licence publique générale',
@@ -344,28 +344,28 @@ $lang = array_merge($lang, [
 // Common updater messages
 $lang = array_merge($lang, [
 	'UPDATE_INSTALLATION'         => 'Mettre à jour phpBB',
-	'UPDATE_INSTALLATION_EXPLAIN' => 'Cet assistant va vous permettre de mettre à jour le logiciel de votre forum vers la dernière version stable.<br />Durant le processus, tous vos fichiers seront vérifiés dans leur intégralité. Vous pourrez prévisualiser toutes les différences et tous les fichiers avant d’exécuter la mise à jour.<br /><br />Le fichier de mise à jour peut se générer de deux manières différentes.</p><h2>Mise à jour manuelle</h2><p>Cette mise à jour vous permet de ne télécharger que les paramètres des fichiers modifiés afin de vous assurer de ne perdre aucune modification. Après avoir téléchargé cette archive, vous devrez mettre à jour manuellement les fichiers à leur emplacement respectif, selon la racine du répertoire de votre forum. Une fois la mise à jour terminée, vous pourrez recommencer l’étape de vérification des fichiers afin de vous assurer d’avoir déplacé les fichiers à leur emplacement respectif.</p><h2>Mise à jour automatique par FTP</h2><p>Cette mise à jour est similaire à la première mais ne nécessitera pas de télécharger et de transférer manuellement les fichiers modifiés, tout sera effectué automatiquement. Vous devrez vous munir des informations concernant votre connexion FTP car elles vous seront demandées. Une fois la mise à jour terminée, vous serez redirigé une fois de plus à la vérification des fichiers afin de vous assurer du bon déroulement de la mise à jour.<br /><br />',
+	'UPDATE_INSTALLATION_EXPLAIN' => 'Cet assistant va vous permettre de mettre à jour le logiciel de votre forum vers la dernière version stable.<br>Durant le processus, tous vos fichiers seront vérifiés dans leur intégralité. Vous pourrez prévisualiser toutes les différences et tous les fichiers avant d’exécuter la mise à jour.<br><br>Le fichier de mise à jour peut se générer de deux manières différentes.</p><h2>Mise à jour manuelle</h2><p>Cette mise à jour vous permet de ne télécharger que les paramètres des fichiers modifiés afin de vous assurer de ne perdre aucune modification. Après avoir téléchargé cette archive, vous devrez mettre à jour manuellement les fichiers à leur emplacement respectif, selon la racine du répertoire de votre forum. Une fois la mise à jour terminée, vous pourrez recommencer l’étape de vérification des fichiers afin de vous assurer d’avoir déplacé les fichiers à leur emplacement respectif.</p><h2>Mise à jour automatique par FTP</h2><p>Cette mise à jour est similaire à la première mais ne nécessitera pas de télécharger et de transférer manuellement les fichiers modifiés, tout sera effectué automatiquement. Vous devrez vous munir des informations concernant votre connexion FTP car elles vous seront demandées. Une fois la mise à jour terminée, vous serez redirigé une fois de plus à la vérification des fichiers afin de vous assurer du bon déroulement de la mise à jour.<br><br>',
 	'UPDATE_INSTRUCTIONS'         => '
 
 		<h1>Annonce de sortie</h1>
 
 		<p>Veuillez consulter l’annonce relative à la sortie de la dernière version avant de continuer le processus de mise à jour. Elle contient des informations qui pourraient vous intéresser, telles que les différents liens de téléchargement et les modifications apportées.</p>
 
-		<br />
+		<br>
 
 		<h1>Mettre à jour votre installation avec l’archive de mise à jour automatique</h1>
 
 		<p>Cette méthode n’est valable que pour l’archive de mise à jour automatique. Vous pouvez également mettre à jour votre installation en utilisant les méthodes alternatives listées dans le document « INSTALL.html ». Les étapes de mise à jour automatique de phpBB 3.2 sont :</p>
 
 		<ul style="margin-left: 20px; font-size: 1.1em;">
-			<li>Accédez à <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">la page des téléchargements</a> (en anglais) et téléchargez l’archive de mise à jour automatique.<br /><br /></li>
-			<li>Décompressez l’archive.<br /><br /></li>
-			<li>Transférez les répertoires décompressés « install/ » et « vendor/ » à la racine du répertoire de votre forum, où se trouve le fichier « config.php ».<br /><br /></li>
+			<li>Accédez à <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">la page des téléchargements</a> (en anglais) et téléchargez l’archive de mise à jour automatique.<br><br></li>
+			<li>Décompressez l’archive.<br><br></li>
+			<li>Transférez les répertoires décompressés « install/ » et « vendor/ » à la racine du répertoire de votre forum, où se trouve le fichier « config.php ».<br><br></li>
 		</ul>
 
-		<p>Pour des raisons de sécurité, une fois que les répertoires et leur contenu ont été transférés, votre forum apparaîtra hors-ligne aux utilisateurs.<br /><br />
-		<strong><a href="%1$s" title="%1$s">Commencez dès à présent le processus de mise à jour en dirigeant votre navigateur vers le répertoire d’installation</a>.</strong><br />
-		<br />
+		<p>Pour des raisons de sécurité, une fois que les répertoires et leur contenu ont été transférés, votre forum apparaîtra hors-ligne aux utilisateurs.<br><br>
+		<strong><a href="%1$s" title="%1$s">Commencez dès à présent le processus de mise à jour en dirigeant votre navigateur vers le répertoire d’installation</a>.</strong><br>
+		<br>
 		Vous serez alors guidé par l’assistant de mise à jour qui vous informera lorsque la mise à jour sera entièrement finalisée.
 		</p>
 	',
@@ -469,16 +469,16 @@ $lang = array_merge($lang, [
 	// Common converter messages
 	'CONVERT_NOT_EXIST'   => 'Le convertisseur que vous avez spécifié est introuvable.',
 	'DEV_NO_TEST_FILE'    => 'Aucune valeur n’a été spécifiée dans le convertisseur concernant la variable test_file. Si vous êtes un utilisateur de ce convertisseur, vous ne devriez pas être en mesure de voir cette erreur. Veuillez rapporter ce message à l’auteur du convertisseur. Si vous êtes l’auteur du convertisseur, vous devez spécifier le nom d’un fichier existant dans le forum source afin de permettre la validation du chemin vers ce dernier.',
-	'COULD_NOT_FIND_PATH' => 'Le chemin menant à votre ancien forum est introuvable. Veuillez vérifier vos paramètres et réessayer.<br />» Le chemin source spédifié était « %s ».',
+	'COULD_NOT_FIND_PATH' => 'Le chemin menant à votre ancien forum est introuvable. Veuillez vérifier vos paramètres et réessayer.<br>» Le chemin source spédifié était « %s ».',
 	'CONFIG_PHPBB_EMPTY'  => 'La variable de configuration « %s » de phpBB 3.2 est vide.',
 
-	'MAKE_FOLDER_WRITABLE'  => 'Veuillez vous assurer que ce répertoire existe et que ses droits d’accès soient disponibles pour écriture par votre serveur, puis réessayez :<br />»<strong>%s</strong>.',
-	'MAKE_FOLDERS_WRITABLE' => 'Veuillez vous assurer que ces répertoires existent et que leurs droits d’accès soient disponibles pour écriture par votre serveur, puis réessayez :<br />»<strong>%s</strong>.',
+	'MAKE_FOLDER_WRITABLE'  => 'Veuillez vous assurer que ce répertoire existe et que ses droits d’accès soient disponibles pour écriture par votre serveur, puis réessayez :<br>»<strong>%s</strong>.',
+	'MAKE_FOLDERS_WRITABLE' => 'Veuillez vous assurer que ces répertoires existent et que leurs droits d’accès soient disponibles pour écriture par votre serveur, puis réessayez :<br>»<strong>%s</strong>.',
 
 	'INSTALL_TEST' => 'Tester à nouveau',
 
 	'NO_TABLES_FOUND'    => 'Aucun table n’a été trouvée.',
-	'TABLES_MISSING'     => 'Les tables suivantes sont introuvables :<br />» <strong>%s</strong>.',
+	'TABLES_MISSING'     => 'Les tables suivantes sont introuvables :<br>» <strong>%s</strong>.',
 	'CHECK_TABLE_PREFIX' => 'Veuillez vérifier votre préfixe de table et réessayer.',
 
 	// Conversion in progress
@@ -500,7 +500,7 @@ $lang = array_merge($lang, [
 
 	// Settings
 	'STAGE_SETTINGS'       => 'Paramètres',
-	'TABLE_PREFIX_SAME'    => 'Le préfixe de table doit être celui qui est utilisé par le logiciel que vous souhaitez convertir.<br />» Le préfixe de table spécifié était « %s ».',
+	'TABLE_PREFIX_SAME'    => 'Le préfixe de table doit être celui qui est utilisé par le logiciel que vous souhaitez convertir.<br>» Le préfixe de table spécifié était « %s ».',
 	'DEFAULT_PREFIX_IS'    => 'Le convertisseur n’a pas été en mesure de trouver de tables comportant ce préfixe. Veuillez vous assurer d’avoir correctement spécifié les informations sur le forum que vous souhaitez convertir. Le préfixe de table par défaut concernant « %1$s » est « %2$s ».',
 	'SPECIFY_OPTIONS'      => 'Spécifier les options de conversion',
 	'FORUM_PATH'           => 'Chemin du forum',
@@ -511,7 +511,7 @@ $lang = array_merge($lang, [
 	// Conversion
 	'STAGE_IN_PROGRESS' => 'Conversion en cours',
 
-	'AUTHOR_NOTES'             => 'Notes de l’auteur<br />» %s',
+	'AUTHOR_NOTES'             => 'Notes de l’auteur<br>» %s',
 	'STARTING_CONVERT'         => 'Démarrage du processus de conversion',
 	'CONFIG_CONVERT'           => 'Conversion de la configuration',
 	'DONE'                     => 'Effectué',
@@ -536,7 +536,7 @@ $lang = array_merge($lang, [
 	'CONTINUE_LAST'            => 'Continuer les dernières opérations',
 	'CLEAN_VERIFY'             => 'Nettoyage et vérification de la structure finale',
 	'NOT_UNDERSTAND'           => 'Incompréhension de %s #%d, table %s (« %s »)',
-	'NAMING_CONFLICT'          => 'Conflit d’appelation : « %s » et « %s » sont tous deux des alias<br /><br />%s',
+	'NAMING_CONFLICT'          => 'Conflit d’appelation : « %s » et « %s » sont tous deux des alias<br><br>%s',
 
 	// Finish conversion
 	'CONVERT_COMPLETE'         => 'Conversion terminée',

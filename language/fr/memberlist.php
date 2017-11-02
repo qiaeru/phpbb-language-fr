@@ -137,8 +137,8 @@ $lang = array_merge($lang, [
 	'USER_FORUM'           => 'Statistiques de l’utilisateur',
 	'USER_LAST_REMINDED'   => [
 		0 => 'Aucun rappel n’a été envoyé pour le moment',
-		1 => '%1$d rappel a été envoyé<br />» %2$s',
-		2 => '%1$d rappels ont été envoyés<br />» %2$s',
+		1 => '%1$d rappel a été envoyé<br>» %2$s',
+		2 => '%1$d rappels ont été envoyés<br>» %2$s',
 	],
 	'USER_ONLINE'    => 'En ligne',
 	'USER_PRESENCE'  => 'Présence sur le forum',
