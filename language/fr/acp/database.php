@@ -60,7 +60,7 @@ $lang = array_merge($lang, [
 	'RESTORE_FAILURE'         => 'Le fichier de sauvegarde semble corrompu.',
 	'RESTORE_OPTIONS'         => 'Options de restauration',
 	'RESTORE_SELECTED_BACKUP' => 'Êtes-vous sûr de vouloir restaurer cette sauvegarde ?',
-	'RESTORE_SUCCESS'         => 'La base de données a été restaurée.<br><br>Votre forum devrait être tel qu’il était lors de la dernière sauvegarde.',
+	'RESTORE_SUCCESS'         => 'La base de données a été restaurée.<br /><br />Votre forum devrait être tel qu’il était lors de la dernière sauvegarde.',
 
 	'SELECT_ALL'         => 'Tout sélectionner',
 	'SELECT_FILE'        => 'Sélectionner un fichier',

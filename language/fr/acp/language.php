@@ -65,7 +65,7 @@ $lang = array_merge($lang, [
 
 	'NO_FILE_SELECTED'              => 'Aucun fichier de langue n’a été spécifié.',
 	'NO_LANG_ID'                    => 'Aucune langue n’a été spécifiée.',
-	'NO_REMOVE_DEFAULT_LANG'        => 'Vous ne pouvez pas supprimer la langue par défaut.<br>Si vous souhaitez supprimer cette langue, veuillez modifier préalablement la langue par défaut de votre forum.',
+	'NO_REMOVE_DEFAULT_LANG'        => 'Vous ne pouvez pas supprimer la langue par défaut.<br />Si vous souhaitez supprimer cette langue, veuillez modifier préalablement la langue par défaut de votre forum.',
 	'NO_UNINSTALLED_LANGUAGE_PACKS' => 'Aucune langue non installée',
 
 	'THOSE_MISSING_LANG_FILES'     => 'Les fichiers de langue suivants sont manquants du répertoire de langue « %s »',
