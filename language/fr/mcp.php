@@ -217,7 +217,7 @@ $lang = array_merge($lang, [
 	'MCP_WARN_USER'  => 'Avertir l’utilisateur',
 
 	'MERGE_POSTS_CONFIRM'  => 'Êtes-vous sûr de vouloir déplacer ces messages ?',
-	'MERGE_TOPIC_EXPLAIN'  => 'Utilisez ce formulaire afin de déplacer les messages sélectionnés dans un autre sujet. Les messages seront retirés de ce sujet afin d’être fusionnés dans un autre sujet. Ces messages ne seront pas réordonnés et apparaîtront comme si les utilisateurs les avaient publiés dans le nouveau sujet.<br />Veuillez saisir l’identifiant du sujet de destination ou cliquer sur « Sélectionner le sujet » afin d’en rechercher un.',
+	'MERGE_TOPIC_EXPLAIN'  => 'Utilisez ce formulaire afin de déplacer les messages sélectionnés dans un autre sujet. Les messages seront retirés de ce sujet afin d’être fusionnés dans un autre sujet. Ces messages ne seront pas réordonnés et apparaîtront comme si les utilisateurs les avaient publiés dans le nouveau sujet.<br>Veuillez saisir l’identifiant du sujet de destination ou cliquer sur « Sélectionner le sujet » afin d’en rechercher un.',
 	'MERGE_TOPIC_ID'       => 'Identifiant du sujet de destination',
 	'MERGE_TOPICS'         => 'Fusionner les sujets',
 	'MERGE_TOPICS_CONFIRM' => 'Êtes-vous sûr de vouloir fusionner ces sujets ?',

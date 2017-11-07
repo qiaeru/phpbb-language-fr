@@ -103,7 +103,7 @@ $lang = array_merge($lang, [
 	'EXT_GROUP_PLAIN_TEXT'         => 'Texte brut',
 
 	'FILES_GONE'        => 'Certaines pièces jointes que vous souhaitez supprimer sont introuvables. Elles ont peut-être déjà été supprimées. Les pièces jointes détectées ont été supprimées.',
-	'FILES_STATS_WRONG' => 'Les fichiers statistiques semblent contenir des informations erronées et doivent être resynchronisés. Les valeurs actuelles mentionnent que le nombre de pièces jointes est à %1$d et que leur taille est de %2$s.<br />Veuillez cliquer %3$sici%4$s afin de resynchroniser les fichiers statistiques.',
+	'FILES_STATS_WRONG' => 'Les fichiers statistiques semblent contenir des informations erronées et doivent être resynchronisés. Les valeurs actuelles mentionnent que le nombre de pièces jointes est à %1$d et que leur taille est de %2$s.<br>Veuillez cliquer %3$sici%4$s afin de resynchroniser les fichiers statistiques.',
 
 	'GO_TO_EXTENSIONS' => 'Aller sur la page de gestion des extensions',
 	'GROUP_NAME'       => 'Nom du groupe d’extensions',
