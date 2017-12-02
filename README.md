@@ -1,6 +1,6 @@
 # French Language Pack for [phpBB](https://www.phpbb.com/) 3.3
 
-[![Build Status](https://travis-ci.org/milescellar/phpbb-language-fr.svg?branch=master)](https://travis-ci.org/milescellar/phpbb-language-fr) [![Code Climate](https://codeclimate.com/github/milescellar/phpbb-language-fr/badges/gpa.svg)](https://codeclimate.com/github/milescellar/phpbb-language-fr) [![StyleCI](https://styleci.io/repos/70081134/shield?style=flat&branch=master)](https://styleci.io/repos/70081134)
+[![Build Status](https://travis-ci.org/milescellar/phpbb-language-fr.svg?branch=master)](https://travis-ci.org/milescellar/phpbb-language-fr) [![Maintainability](https://api.codeclimate.com/v1/badges/8310a25490e52115d6f2/maintainability)](https://codeclimate.com/github/milescellar/phpbb-language-fr/maintainability) [![StyleCI](https://styleci.io/repos/70081134/shield?style=flat&branch=master)](https://styleci.io/repos/70081134)
 
 French language pack to localise the phpBB 3.3 forum software.
 
