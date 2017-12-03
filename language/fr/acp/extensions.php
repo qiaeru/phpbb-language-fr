@@ -156,10 +156,10 @@ $lang = array_merge($lang, [
 	'ENABLE_ON_INSTALL'             => 'Activer les extensions lors de leur installation',
 	'PURGE_ON_REMOVE'               => 'Purger les extensions lors de leur suppression',
 	'ENABLE_PACKAGIST'              => 'Rechercher les extensions sur Packagist',
-	'ENABLE_PACKAGIST_EXPLAIN'      => 'Recherche les extensions sur Packagist. Attention, Packagist peut référencer des extensions qui n’ont pas été validées par l’équipe des extensions de phpBB.',
+	'ENABLE_PACKAGIST_EXPLAIN'      => 'recherche les extensions sur Packagist. Attention, Packagist peut référencer des extensions qui n’ont pas été validées par l’équipe des extensions de phpBB.',
 	'ENABLE_PACKAGIST_CONFIRM'      => 'Êtes-vous sûr de vouloir rechercher les extensions sur Packagist ?',
 	'COMPOSER_REPOSITORIES'         => 'Dépôts',
-	'COMPOSER_REPOSITORIES_EXPLAIN' => 'Ajoute des liens aux dépôts de Composer des extensions à rechercher. Chaque dépôt doit être ajouté sur une nouvelle ligne. Les adresses doivent correspondrent à l’adresse de base du fichier « packages.json ».',
+	'COMPOSER_REPOSITORIES_EXPLAIN' => 'Ajoute des liens d’extensions à rechercher aux dépôts de Composer. Chaque dépôt doit être ajouté sur une nouvelle ligne. Les adresses doivent correspondrent à l’adresse du fichier « packages.json ».',
 	'NO_EXTENSION_AVAILABLE'        => 'Aucune extension n’est disponible pour votre forum',
 
 	'EXTENSION_MANAGED_SUCCESS' => 'L’extension « %s » va à présent être gérée automatiquement.',
@@ -177,6 +177,6 @@ $lang = array_merge($lang, [
 	'STABILITY_DEV'    => 'dev',
 
 	'COMPOSER_MINIMUM_STABILITY'         => 'Stabilité minimale',
-	'COMPOSER_MINIMUM_STABILITY_EXPLAIN' => 'Il est recommandé d’utiliser les versions stables sur un forum en ligne. Les versions instables peuvent être en cours de développement et provoquer des erreurs inattendues à votre forum. Elles devraient donc être limitées à une utilisation en local par des développeurs.',
+	'COMPOSER_MINIMUM_STABILITY_EXPLAIN' => 'il est recommandé de n’utiliser que les versions stables sur un forum en ligne. Les versions instables peuvent être en cours de développement et provoquer des erreurs inattendues impactant votre forum. Elles devraient être par conséquent limitées aux développeurs pour une utilisation en local.',
 
 ]);

@@ -55,7 +55,7 @@ $lang = array_merge($lang, [
 	'INVALID_STYLE_ID'       => 'L’identifiant du style est invalide.',
 
 	'NO_MATCHING_STYLES_FOUND' => 'Aucun style ne correspond à votre requête.',
-	'NO_UNINSTALLED_STYLE'     => 'Aucun style n’a été désinstallé.',
+	'NO_UNINSTALLED_STYLE'     => 'Aucun style n’est en attente d’installation.',
 
 	'PURGED_CACHE' => 'Le cache a été vidé.',
 
