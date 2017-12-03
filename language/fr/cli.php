@@ -118,6 +118,7 @@ $lang = array_merge($lang, [
 	'CLI_EXTENSION_ENABLE_FAILURE'  => 'Impossible d’activer l’extension « %s »',
 	'CLI_EXTENSION_ENABLE_SUCCESS'  => 'L’extension « %s » a été activée',
 	'CLI_EXTENSION_ENABLED'         => 'L’extension « %s » est déjà activée',
+	'CLI_EXTENSION_NOT_EXIST'       => 'L’extension « %s » n’existe pas',
 	'CLI_EXTENSION_NAME'            => 'Nom de l’extension',
 	'CLI_EXTENSION_PURGE_FAILURE'   => 'Impossible de purger l’extension « %s »',
 	'CLI_EXTENSION_PURGE_SUCCESS'   => 'L’extension « %s » a été purgée',
