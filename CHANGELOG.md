@@ -16,7 +16,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 - Several translations have been changed to add some details.
 - The "quote" translation in posts have been improved. Thanks to [calande](https://www.phpbb.com/community/memberlist.php?mode=viewprofile&u=273294).
 - Several space alignments have been fixed.
-- Some XHTML 4.1 tags have been replaced with HTML5 ones.
+- All XHTML tags have been replaced with HTML5 ones.
 
 ## [3.1.0](https://github.com/milescellar/phpbb-language-fr/compare/v3.0.0...v3.1.0) - 2017-07-17
 
