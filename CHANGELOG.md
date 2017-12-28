@@ -22,8 +22,6 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ### Added
 
-- A CHANGELOG and a CONTRIBUTING file have been added to the GitHub repository.
-- An issue and a pull request template have been added to the GitHub repository.
 - Several keys have been added.
 
 ### Changed
