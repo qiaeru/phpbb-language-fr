@@ -111,8 +111,8 @@ $lang = array_merge($lang, [
 	'DISABLE_SMILIES'                   => 'Désactiver les émoticônes',
 	'DISALLOWED_CONTENT'                => 'Le transfert a été interrompu car le fichier que vous avez souhaité transférer a été identifié comme une vulnérabilité potentielle.',
 	'DISALLOWED_EXTENSION'              => 'L’extension « %s » n’est pas autorisée.',
-	'DRAFT_LOADED'                      => 'Le brouillon a été chargé dans la zone de rédaction, vous pouvez à présent finaliser votre message.<br />Votre brouillon sera supprimé après l’envoi du message.',
-	'DRAFT_LOADED_PM'                   => 'Le brouillon a été chargé dans la zone de rédaction, vous pouvez à présent finaliser votre message privé.<br />Votre brouillon sera supprimé après l’envoi du message privé.',
+	'DRAFT_LOADED'                      => 'Le brouillon a été chargé dans la zone de rédaction, vous pouvez à présent finaliser votre message.<br>Votre brouillon sera supprimé après l’envoi du message.',
+	'DRAFT_LOADED_PM'                   => 'Le brouillon a été chargé dans la zone de rédaction, vous pouvez à présent finaliser votre message privé.<br>Votre brouillon sera supprimé après l’envoi du message privé.',
 	'DRAFT_SAVED'                       => 'Le brouillon a été enregistré.',
 	'DRAFT_TITLE'                       => 'Titre du brouillon',
 
@@ -185,8 +185,8 @@ $lang = array_merge($lang, [
 
 	'PARTIAL_UPLOAD'           => 'Le fichier n’a été que partiellement transféré.',
 	'PHP_UPLOAD_STOPPED'       => 'Une extension PHP a interrompu le transfert du fichier.',
-	'PHP_SIZE_NA'              => 'La taille de la pièce jointe est trop importante.<br />La taille maximale autorisée, située dans le fichier « php.ini », n’a pas pu être déterminée.',
-	'PHP_SIZE_OVERRUN'         => 'La taille de la pièce jointe est trop importante, la taille maximale autorisée est de %1$d %2$s.<br />Veuillez noter que cette valeur est située dans le fichier « php.ini » et qu’elle ne peut pas être remplacée.',
+	'PHP_SIZE_NA'              => 'La taille de la pièce jointe est trop importante.<br>La taille maximale autorisée, située dans le fichier « php.ini », n’a pas pu être déterminée.',
+	'PHP_SIZE_OVERRUN'         => 'La taille de la pièce jointe est trop importante, la taille maximale autorisée est de %1$d %2$s.<br>Veuillez noter que cette valeur est située dans le fichier « php.ini » et qu’elle ne peut pas être remplacée.',
 	'PLACE_INLINE'             => 'Insérer dans la ligne',
 	'POLL_DELETE'              => 'Supprimer le sondage',
 	'POLL_FOR'                 => 'Durée du sondage',
@@ -265,8 +265,8 @@ $lang = array_merge($lang, [
 
 	'UNAUTHORISED_BBCODE'            => 'Vous ne pouvez pas utiliser certains BBCodes : %s.',
 	'UNGLOBALISE_EXPLAIN'            => 'Pour rétablir cette annonce générale en sujet standard, vous devez sélectionner le forum dans lequel vous souhaitez voir apparaître ce sujet.',
-	'UNSUPPORTED_CHARACTERS_MESSAGE' => 'Votre message contient les caractères non pris en charge suivants :<br />%s',
-	'UNSUPPORTED_CHARACTERS_SUBJECT' => 'Votre sujet contient les caractères non pris en charge suivants :<br />%s',
+	'UNSUPPORTED_CHARACTERS_MESSAGE' => 'Votre message contient les caractères non pris en charge suivants :<br>%s',
+	'UNSUPPORTED_CHARACTERS_SUBJECT' => 'Votre sujet contient les caractères non pris en charge suivants :<br>%s',
 	'UPDATE_COMMENT'                 => 'Mettre à jour la description',
 	'URL_INVALID'                    => 'Le lien que vous avez spécifié est invalide.',
 	'URL_NOT_FOUND'                  => 'Le fichier que vous avez spécifié est introuvable.',
