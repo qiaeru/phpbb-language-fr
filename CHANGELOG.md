@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
-## [Unreleased](https://github.com/milescellar/phpbb-language-fr/compare/v3.1.0...3.2.x)
+## [3.2.0](https://github.com/milescellar/phpbb-language-fr/compare/v3.1.0...v3.2.0) - 2018-01-07
 
 ### Added
 
@@ -12,7 +12,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ### Changed
 
-- The language pack is now compatible with the [VigLink](https://github.com/phpbb-extensions/viglink) 1.0.3-dev bundled extension.
+- The language pack is now compatible with [phpBB 3.2.2](https://download.phpbb.com/pub/release/3.2/3.2.2/) and the [VigLink 1.0.3](https://github.com/phpbb-extensions/viglink/releases/tag/release-1.0.3) bundled extension.
 - Several translations have been improved.
 - Several space alignments have been fixed.
 - The "quote" translation in posts have been improved (thanks to [calande](https://www.phpbb.com/community/memberlist.php?mode=viewprofile&u=273294)).
@@ -30,6 +30,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ### Changed
 
+- The language pack is now compatible with [phpBB 3.2.1](https://download.phpbb.com/pub/release/3.2/3.2.1/) and the [VigLink 1.0.2](https://github.com/phpbb-extensions/viglink/releases/tag/release-1.0.2) bundled extension.
 - The language pack now uses [Semantic Versioning](http://semver.org/) specifications.
 - Several translations have been improved.
 - Several spaces have been replaced with non-breaking spaces to enforce French typographic rules.
