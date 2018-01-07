@@ -53,6 +53,7 @@ $lang = array_merge($lang, [
 	'NO_NEW_POSTS_HOT'       => 'Aucun nouveau message [ Populaire ]', // Not used anymore
 	'NO_NEW_POSTS_LOCKED'    => 'Aucun nouveau message [ Verrouillé ]', // Not used anymore
 	'NO_READ_ACCESS'         => 'Vous ne pouvez pas voir ou consulter les sujets de ce forum.',
+	'NO_FORUMS_IN_CATEGORY'  => 'Cette catégorie ne contient aucun forum.',
 	'NO_UNREAD_POSTS_HOT'    => 'Aucun message non lu [ Populaire ]',
 	'NO_UNREAD_POSTS_LOCKED' => 'Aucun message non lu [ Verrouillé ]',
 
