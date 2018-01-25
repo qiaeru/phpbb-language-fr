@@ -548,9 +548,10 @@ $lang = array_merge($lang, [
 	'LOG_UNBAN_IP'          => '<strong>Annulation du bannissement d’une adresse IP</strong><br>» %s',
 	'LOG_UNBAN_EMAIL'       => '<strong>Annulation du bannissement d’une adresse de courriel</strong><br>» %s',
 
-	'LOG_BBCODE_ADD'    => '<strong>Ajout d’un nouveau BBCode</strong><br>» %s',
-	'LOG_BBCODE_EDIT'   => '<strong>Modification d’un BBCode</strong><br>» %s',
-	'LOG_BBCODE_DELETE' => '<strong>Suppression d’un BBCode</strong><br>» %s',
+	'LOG_BBCODE_ADD'                 => '<strong>Ajout d’un nouveau BBCode</strong><br>» %s',
+	'LOG_BBCODE_EDIT'                => '<strong>Modification d’un BBCode</strong><br>» %s',
+	'LOG_BBCODE_DELETE'              => '<strong>Suppression d’un BBCode</strong><br>» %s',
+	'LOG_BBCODE_CONFIGURATION_ERROR' => '<strong>Une erreur est survenue lors de la configuration du BBCode</strong> : %1$s<br>» %2$s',
 
 	'LOG_BOT_ADDED'   => '<strong>Ajout d’un nouveau robot</strong><br>» %s',
 	'LOG_BOT_DELETE'  => '<strong>Suppression d’un robot</strong><br>» %s',
@@ -740,7 +741,7 @@ $lang = array_merge($lang, [
 
 	'LOG_SEARCH_INDEX_CREATED' => '<strong>Création d’un index de recherche</strong><br>» %s',
 	'LOG_SEARCH_INDEX_REMOVED' => '<strong>Suppression d’un index de recherche</strong><br>» %s',
-	'LOG_SPHINX_ERROR'         => '<strong>Erreur de Sphinx</strong><br>» %s',
+	'LOG_SPHINX_ERROR'         => '<strong>Une erreur de Sphinx est survenue</strong><br>» %s',
 	'LOG_STYLE_ADD'            => '<strong>Ajout d’un nouveau style</strong><br>» %s',
 	'LOG_STYLE_DELETE'         => '<strong>Suppression d’un style</strong><br>» %s',
 	'LOG_STYLE_EDIT_DETAILS'   => '<strong>Modification d’un style</strong><br>» %s',
