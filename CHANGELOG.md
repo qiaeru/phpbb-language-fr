@@ -6,9 +6,13 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ## [Unreleased](https://github.com/milescellar/phpbb-language-fr/compare/v3.2.0...3.2.x)
 
+### Added
+
+- Some keys have been added.
+
 ### Changed
 
-- A translation have been improved.
+- Some translations have been improved.
 
 ## [3.2.0](https://github.com/milescellar/phpbb-language-fr/compare/v3.1.0...v3.2.0) - 2018-01-07
 
