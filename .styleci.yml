@@ -6,7 +6,7 @@ linting: true
 
 disabled:
   - braces
-  - no_tab_indentation
+  - indentation
   - phpdoc_summary
   - phpdoc_to_comment
   - phpdoc_trim
