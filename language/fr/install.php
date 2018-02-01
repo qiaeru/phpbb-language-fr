@@ -192,6 +192,7 @@ $lang = array_merge($lang, [
 	'DB_OPTION_SQLITE3'     => 'SQLite 3',
 
 	// Errors
+	'INST_ERR_DB'                   => 'Une erreur est survenue lors de l’installation de la base de données',
 	'INST_ERR_NO_DB'                => 'Impossible de charger le module PHP concernant ce type de base de données.',
 	'INST_ERR_DB_INVALID_PREFIX'    => 'Ce préfixe est invalide. Il doit démarrer par une lettre et ne doit contenir que des lettres, des nombres et des tirets bas.',
 	'INST_ERR_PREFIX_TOO_LONG'      => 'Ce préfixe est trop long. Il ne doit pas dépasser %d caractères.',
