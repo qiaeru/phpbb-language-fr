@@ -12,7 +12,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ### Changed
 
-- Some translations have been improved.
+- Several translations have been improved.
 
 ## [3.2.0](https://github.com/milescellar/phpbb-language-fr/compare/v3.1.0...v3.2.0) - 2018-01-07
 
