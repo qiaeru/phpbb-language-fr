@@ -2,8 +2,6 @@ preset: recommended
 
 risky: false
 
-linting: true
-
 disabled:
   - braces
   - indentation
