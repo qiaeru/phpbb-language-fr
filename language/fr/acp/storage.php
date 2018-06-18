@@ -49,8 +49,9 @@ $lang = array_merge($lang, [
 	'STORAGE_BACKUP_TITLE'     => 'Espace de stockage de la sauvegarde',
 
 	// Local adapter
-	'STORAGE_ADAPTER_LOCAL_NAME'        => 'Local',
-	'STORAGE_ADAPTER_LOCAL_OPTION_PATH' => 'Chemin',
+	'STORAGE_ADAPTER_LOCAL_NAME'         => 'Local',
+	'STORAGE_ADAPTER_LOCAL_OPTION_PATH'  => 'Chemin',
+	'STORAGE_ADAPTER_LOCAL_OPTION_DEPTH' => 'Profondeur',
 
 	// Form validation
 	'STORAGE_UPDATE_SUCCESSFUL'                => 'Tous les types de stockage ont été mis à jour.',
