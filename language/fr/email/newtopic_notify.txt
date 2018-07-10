@@ -6,6 +6,10 @@ Vous recevez cette notification car vous surveillez le forum « {FORUM_NAME} �
 
 {U_FORUM}
 
+Pour consulter directement ce nouveau sujet, vous pouvez cliquer sur le lien suivant :
+
+{U_TOPIC}
+
 Si vous ne souhaitez plus surveiller ce forum, vous pouvez cliquer sur le lien « Ne plus surveiller le forum », présent dans le forum accessible ci-dessus, ou cliquer sur le lien suivant :
 
 {U_STOP_WATCHING_FORUM}
