@@ -39,9 +39,14 @@ $lang = array_merge($lang, [
 
 	// Template
 	'STORAGE_TITLE'         => 'Paramètres des espaces de stockage',
-	'STORAGE_TITLE_EXPLAIN' => 'Ces paramètres vous permettent de modifier les services de stockage qui hébergeront les fichiers de phpBB. Vous pouvez sélectionner un service de stockage local ou à distance qui hébergeront les fichiers crées ou ajoutés par phpBB.',
-	'STORAGE_SELECT'        => 'Sélectionner un stockage',
-	'STORAGE_SELECT_DESC'   => 'La liste des stockages disponibles.',
+	'STORAGE_TITLE_EXPLAIN' => 'Ces paramètres vous permettent de modifier les services d’espaces de stockage qui hébergeront les fichiers de phpBB. Vous pouvez sélectionner un service d’espace de stockage local ou à distance qui hébergeront les fichiers crées ou ajoutés par phpBB.',
+	'STORAGE_SELECT'        => 'Sélectionner un espace de stockage',
+	'STORAGE_SELECT_DESC'   => 'La liste des espaces de stockage disponibles.',
+	'STORAGE_NAME'          => 'Nom de l’espace de stockage',
+	'STORAGE_NUM_FILES'     => 'Nombre de fichiers',
+	'STORAGE_SIZE'          => 'Taille',
+	'STORAGE_FREE'          => 'Espace disponible',
+	'STORAGE_UNKNOWN'       => 'Inconnu',
 
 	// Storage names
 	'STORAGE_ATTACHMENT_TITLE' => 'Espace de stockage des pièces jointes',
@@ -54,7 +59,7 @@ $lang = array_merge($lang, [
 	'STORAGE_ADAPTER_LOCAL_OPTION_DEPTH' => 'Profondeur',
 
 	// Form validation
-	'STORAGE_UPDATE_SUCCESSFUL'                => 'Tous les types de stockage ont été mis à jour.',
+	'STORAGE_UPDATE_SUCCESSFUL'                => 'Tous les types d’espaces de stockage ont été mis à jour.',
 	'STORAGE_NO_CHANGES'                       => 'Aucune modification n’a été prise en compte.',
 	'STORAGE_PROVIDER_NOT_EXISTS'              => 'Le service sélectionné concernant %s est introuvable.',
 	'STORAGE_PROVIDER_NOT_AVAILABLE'           => 'Le service sélectionné concernant %s est indisponible.',
