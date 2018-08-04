@@ -436,7 +436,7 @@ $lang = array_merge($lang, [
 	'AUTH_PROVIDER_OAUTH_TITLE'                 => 'OAuth',
 	'AUTH_PROVIDER_OAUTH_SECRET'                => 'Secret',
 
-	'APACHE_SETUP_BEFORE_USE' => 'Vous devez configurer l’authentification par Apache avant de pouvoir faire fonctionner phpBB sous cette méthode d’authentification. Le nom d’utilisateur que vous utilisez afin de vous authentifier par Apache doit être identique à votre nom d’utilisateur sur le forum. L’authentification par Apache ne peut être utilisé que si « mod_php » (qui ne doit pas être avec une version CGI) et « safe_mode » sont désactivés.',
+	'APACHE_SETUP_BEFORE_USE' => 'Vous devez configurer l’authentification par Apache avant de pouvoir faire fonctionner phpBB sous cette méthode d’authentification. Le nom d’utilisateur que vous utilisez afin de vous authentifier par Apache doit être identique à votre nom d’utilisateur sur le forum. L’authentification par Apache ne doit être utilisé qu’avec « mod_php » (qui ne doit pas être avec une version CGI).',
 
 	'LDAP'                         => 'LDAP',
 	'LDAP_DN'                      => 'Base LDAP vers « dn »',
