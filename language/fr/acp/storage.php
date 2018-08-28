@@ -54,9 +54,10 @@ $lang = array_merge($lang, [
 	'STORAGE_BACKUP_TITLE'     => 'Espace de stockage de la sauvegarde',
 
 	// Local adapter
-	'STORAGE_ADAPTER_LOCAL_NAME'         => 'Local',
-	'STORAGE_ADAPTER_LOCAL_OPTION_PATH'  => 'Chemin',
-	'STORAGE_ADAPTER_LOCAL_OPTION_DEPTH' => 'Profondeur',
+	'STORAGE_ADAPTER_LOCAL_NAME'                      => 'Local',
+	'STORAGE_ADAPTER_LOCAL_OPTION_PATH'               => 'Chemin',
+	'STORAGE_ADAPTER_LOCAL_OPTION_SUBFOLDERS'         => 'Organiser en sous-dossiers',
+	'STORAGE_ADAPTER_LOCAL_OPTION_SUBFOLDERS_EXPLAIN' => 'Certains serveurs internet peuvent rencontrer des difficultés à stocker un grand nombre de fichiers dans un seul dossier. Si vous activez cette option, les fichiers seront distribués dans plusieurs dossiers.',
 
 	// Form validation
 	'STORAGE_UPDATE_SUCCESSFUL'                => 'Tous les types d’espaces de stockage ont été mis à jour.',
