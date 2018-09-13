@@ -8,8 +8,8 @@ French language pack to localise the phpBB 3.2 forum software.
 
 Includes the following French locales compatible with:
 
-- [phpBB 3.2.3-dev](https://github.com/phpbb/phpbb/tree/3.2.x)
+- [phpBB 3.2.3](https://www.phpbb.com/downloads/)
   - Bundled extension:
-    - [VigLink 1.0.4-dev](https://github.com/phpbb-extensions/viglink/)
+    - [VigLink 1.0.3](https://github.com/phpbb-extensions/viglink/)
 
 Released under the GNU General Public License 2.0. Please see [the license terms](https://github.com/milescellar/phpbb-language-fr/blob/3.2.x/language/fr/LICENSE).
