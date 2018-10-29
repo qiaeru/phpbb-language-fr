@@ -87,6 +87,7 @@ $lang = array_merge($lang, [
 	'NO_UNREAD_POSTS'        => 'Aucun message non lu n’a été publié dans ce sujet.',
 	'NO_VOTE_OPTION'         => 'Vous devez sélectionner une option afin de voter.',
 	'NO_VOTES'               => 'Aucun vote',
+	'NO_AUTH_PRINT_TOPIC'    => 'Vous ne pouvez pas imprimer les sujets.',
 
 	'POLL_ENDED_AT'        => 'Le sondage est terminé depuis le %s',
 	'POLL_RUN_TILL'        => 'Le sondage est actif jusqu’au %s',
