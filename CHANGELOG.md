@@ -6,7 +6,18 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 
 ## [Unreleased](https://github.com/milescellar/phpbb-language-fr/compare/v3.3.0...3.2.x)
 
-No changes for now!
+### Added
+
+- Some keys have been added.
+
+### Changed
+
+- The language pack is now compatible with [phpBB 3.2.4-RC1](https://download.phpbb.com/pub/release/3.2/unstable/3.2.4-RC1/).
+- Some translations have been improved.
+
+### Removed
+
+- Some keys have been removed.
 
 ## [3.3.0](https://github.com/milescellar/phpbb-language-fr/compare/v3.2.0...v3.3.0) - 2018-09-13
 
