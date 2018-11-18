@@ -57,7 +57,6 @@ $lang = array_merge($lang, [
 
 	'ACCOUNT_ALREADY_ACTIVATED'                          => 'Votre compte a déjà été activé.',
 	'ACCOUNT_DEACTIVATED'                                => 'Votre compte a été désactivé manuellement et ne peut être réactivé que par un administrateur.',
-	'ACCOUNT_NOT_ACTIVATED'                              => 'Votre compte n’a pas encore été activé.',
 	'ACP'                                                => 'Panneau de contrôle d’administration',
 	'ACP_SHORT'                                          => 'PCA',
 	'ACTIVE'                                             => 'actif',
@@ -152,7 +151,6 @@ $lang = array_merge($lang, [
 	'BYTES_SHORT'         => 'o',
 
 	'CANCEL'               => 'Annuler',
-	'CANNOT_RENAME_FILE'   => 'Impossible de renommer « %s »',
 	'CHANGE'               => 'Modifier',
 	'CHANGE_FONT_SIZE'     => 'Modifier la taille de la police de caractères',
 	'CHANGING_PREFERENCES' => 'Modifie les préférences du forum',
@@ -262,6 +260,17 @@ $lang = array_merge($lang, [
 	'FROM'                  => 'de',
 	'FSOCK_DISABLED'        => 'L’opération a échoué car la fonction « fsockopen » est désactivée ou le serveur interrogé est introuvable.',
 	'FSOCK_TIMEOUT'         => 'Le délai de réponse a expiré lors de la lecture du flux réseau.',
+
+	'FILESYSTEM_CANNOT_CHANGE_FILE_GROUP'       => 'Il n’a pas été possible de modifier le groupe du fichier',
+	'FILESYSTEM_CANNOT_CHANGE_FILE_PERMISSIONS' => 'Il n’a pas été possible de modifier les permissions du fichier',
+	'FILESYSTEM_CANNOT_COPY_FILES'              => 'Il n’a pas été possible de copier les fichiers',
+	'FILESYSTEM_CANNOT_CREATE_SYMLINK'          => 'Il n’a pas été possible de créer un lien symbolique',
+	'FILESYSTEM_CANNOT_CREATE_DIRECTORY'		=> 'Il n’a pas été possible de créer le répertoire',
+	'FILESYSTEM_CANNOT_DELETE_FILES'            => 'Il n’a pas été possible de supprimer les fichiers du système',
+	'FILESYSTEM_CANNOT_DUMP_FILE'               => 'Il n’a pas été possible de vider le fichier',
+	'FILESYSTEM_CANNOT_MIRROR_DIRECTORY'        => 'Il n’a pas été possible de répliquer le répertoire',
+	'FILESYSTEM_CANNOT_RENAME_FILE'             => 'Il n’a pas été possible de renommer un fichier du système',
+	'FILESYSTEM_CANNOT_TOUCH_FILES'             => 'Il n’a pas été possible de déterminer si le fichier existe',
 
 	'FTP_FSOCK_HOST'              => 'Hôte FTP',
 	'FTP_FSOCK_HOST_EXPLAIN'      => 'Le serveur FTP qui est utilisé afin de vous connecter à votre site.',

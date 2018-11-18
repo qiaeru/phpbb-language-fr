@@ -1,4 +1,5 @@
 Subject: Notification de réponse à un sujet – « {TOPIC_TITLE} »
+List-Unsubscribe: <{U_STOP_WATCHING_TOPIC}>
 
 Bonjour {USERNAME},
 

@@ -370,7 +370,7 @@ $lang = array_merge($lang, [
 	'ACP_CONTACT_SETTINGS_EXPLAIN' => 'Depuis cette page, vous pouvez activer, modifier et désactiver la page de contact.',
 
 	'CONTACT_US_ENABLE'         => 'Activer la page de contact',
-	'CONTACT_US_ENABLE_EXPLAIN' => 'Cette page permet aux utilisateurs d’envoyer des courriels aux administrateurs du forum. Veuillez noter que le paramètre de l’envoi des courriels sur le forum doit être activé. Vous trouverez ce paramètre dans « Général > Communication > Paramètres des courriels ».',
+	'CONTACT_US_ENABLE_EXPLAIN' => 'Cette page permet aux utilisateurs d’envoyer des courriels aux administrateurs du forum. Veuillez noter que le paramètre de l’envoi des courriels sur le forum doit être activé. Vous trouverez ce paramètre dans « Général &gt; Communication &gt; Paramètres des courriels ».',
 
 	'CONTACT_US_INFO'         => 'Informations de la page de contact',
 	'CONTACT_US_INFO_EXPLAIN' => 'Le message est affiché sur la page de contact',

@@ -1,4 +1,5 @@
 Subject: Notification de publication d’un nouveau sujet – « {FORUM_NAME} »
+List-Unsubscribe: <{U_STOP_WATCHING_FORUM}>
 
 Bonjour {USERNAME},
 
