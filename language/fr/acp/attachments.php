@@ -110,8 +110,6 @@ $lang = array_merge($lang, [
 
 	'IMAGE_LINK_SIZE'         => 'Dimensions maximales des images avant la transformation en lien',
 	'IMAGE_LINK_SIZE_EXPLAIN' => 'Les images transférées en pièces jointes seront affichées comme des liens si elles dépassent les valeurs spécifiées dans ces champs. Réglez ces deux valeurs sur « 0 » si vous souhaitez désactiver ce comportement.',
-	'IMAGICK_PATH'            => 'Chemin d’ImageMagick',
-	'IMAGICK_PATH_EXPLAIN'    => 'Le chemin complet vers l’application de conversion « ImageMagick », tel que « /usr/bin/ ».',
 
 	'MAX_ATTACHMENTS'            => 'Limite de pièces jointes par message',
 	'MAX_ATTACHMENTS_PM'         => 'Limite de pièces jointes par message privé',
@@ -134,7 +132,6 @@ $lang = array_merge($lang, [
 	'NO_EXT_GROUP_SPECIFIED' => 'Vous n’avez spécifié aucun groupe d’extensions.',
 	'NO_FILE_CAT'            => 'Aucune',
 	'NO_IMAGE'               => 'Aucune image',
-	'NO_THUMBNAIL_SUPPORT'   => 'Les miniatures ne sont pas prises en charge. Pour que cette fonctionnalité fonctionne correctement, la bibliothèque graphique « GD » doit être disponible ou « ImageMagick » doit être installé. Actuellement, les deux sont introuvables.',
 	'NO_UPLOAD_DIR'          => 'Le répertoire de transfert que vous avez spécifié est introuvable.',
 	'NO_WRITE_UPLOAD'        => 'Le répertoire de transfert que vous avez spécifié est en lecture seule. Veuillez modifier ses droits d’accès pour écriture par votre serveur.',
 
@@ -146,7 +143,6 @@ $lang = array_merge($lang, [
 	'REMOVE_DISALLOWED_IPS'      => 'Supprimer ou lever l’exclusion des adresses IP ou des noms d’hôtes interdits',
 	'RESYNC_FILES_STATS_CONFIRM' => 'Êtes-vous sûr de vouloir resynchroniser les fichiers statistiques ?',
 
-	'SEARCH_IMAGICK'                 => 'Rechercher ImageMagick',
 	'SECURE_ALLOW_DENY'              => 'Comportement des téléchargements sécurisés',
 	'SECURE_ALLOW_DENY_EXPLAIN'      => 'Si les téléchargements sécurisés sont activés, cette option vous permet de modifier le comportement par défaut en autorisant, sous forme de liste blanche, ou en interdisant, sous forme de liste noire, les adresses IP et les noms d’hôtes spécifiés à télécharger les pièces jointes de votre forum.',
 	'SECURE_DOWNLOADS'               => 'Activer les téléchargements sécurisés',
