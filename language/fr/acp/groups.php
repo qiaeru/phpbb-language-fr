@@ -107,9 +107,10 @@ $lang = array_merge($lang, [
 	'GROUP_TYPE_EXPLAIN'           => 'Détermine quels utilisateurs peuvent rejoindre ou consulter ce groupe.',
 	'GROUP_UPDATED'                => 'Les préférences du groupe ont été mises à jour.',
 
-	'GROUP_USERS_ADDED'  => 'Les nouveaux utilisateurs ont été ajoutés au groupe d’utilisateurs.',
-	'GROUP_USERS_EXIST'  => 'Les utilisateurs sont déjà membres de ce groupe d’utilisateurs.',
-	'GROUP_USERS_REMOVE' => 'Les utilisateurs ont été supprimés de ce groupe d’utilisateurs. Ils ont été transférés dans le groupe d’utilisateurs par défaut.',
+	'GROUP_USERS_ADDED'   => 'Les nouveaux utilisateurs ont été ajoutés au groupe d’utilisateurs.',
+	'GROUP_USERS_EXIST'   => 'Les utilisateurs sont déjà membres de ce groupe d’utilisateurs.',
+	'GROUP_USERS_REMOVE'  => 'Les utilisateurs ont été supprimés de ce groupe d’utilisateurs. Ils ont été transférés dans le groupe d’utilisateurs par défaut.',
+	'GROUP_USERS_INVALID' => 'Aucun utilisateur n’a été ajouté au groupe d’utilisateurs étant donné que les noms d’utilisateurs suivants n’existent pas : %s',
 
 	'LEGEND_EXPLAIN'                => 'Cette liste correspond aux groupes d’utilisateurs qui sont affichés dans la légende des groupes :',
 	'LEGEND_SETTINGS'               => 'Paramètres de la légende',
