@@ -139,14 +139,15 @@ $lang = array_merge($lang, [
 	'IMAGES_ARE_ON'    => 'La balise [img] est <em>activée</em>',
 	'INVALID_FILENAME' => '%s est un nom de fichier invalide.',
 
-	'LOAD'                 => 'Charger',
-	'LOAD_DRAFT'           => 'Charger un brouillon',
-	'LOAD_DRAFT_EXPLAIN'   => 'Vous pouvez sélectionner ici le brouillon que vous souhaitez continuer à rédiger. Votre message actuel sera annulé et tout son contenu sera supprimé. Vous pouvez consulter, modifier et supprimer vos brouillons depuis le panneau de contrôle de l’utilisateur.',
-	'LOGIN_EXPLAIN_BUMP'   => 'Vous devez vous connecter afin de pouvoir remonter les sujets de ce forum.',
-	'LOGIN_EXPLAIN_DELETE' => 'Vous devez vous connecter afin de pouvoir supprimer les sujets de ce forum.',
-	'LOGIN_EXPLAIN_POST'   => 'Vous devez vous connecter afin de pouvoir publier des messages dans ce forum.',
-	'LOGIN_EXPLAIN_QUOTE'  => 'Vous devez vous connecter afin de pouvoir citer les messages de ce forum.',
-	'LOGIN_EXPLAIN_REPLY'  => 'Vous devez vous connecter afin de pouvoir répondre aux sujets de ce forum.',
+	'LOAD'                      => 'Charger',
+	'LOAD_DRAFT'                => 'Charger un brouillon',
+	'LOAD_DRAFT_EXPLAIN'        => 'Vous pouvez sélectionner ici le brouillon que vous souhaitez continuer à rédiger. Votre message actuel sera annulé et tout son contenu sera supprimé. Vous pouvez consulter, modifier et supprimer vos brouillons depuis le panneau de contrôle de l’utilisateur.',
+	'LOGIN_EXPLAIN_BUMP'        => 'Vous devez vous connecter afin de pouvoir remonter les sujets de ce forum.',
+	'LOGIN_EXPLAIN_DELETE'      => 'Vous devez vous connecter afin de pouvoir supprimer définitivement les messages de ce forum.',
+	'LOGIN_EXPLAIN_SOFT_DELETE' => 'Vous devez vous connecter afin de pouvoir supprimer les messages de ce forum.',
+	'LOGIN_EXPLAIN_POST'        => 'Vous devez vous connecter afin de pouvoir publier des messages dans ce forum.',
+	'LOGIN_EXPLAIN_QUOTE'       => 'Vous devez vous connecter afin de pouvoir citer les messages de ce forum.',
+	'LOGIN_EXPLAIN_REPLY'       => 'Vous devez vous connecter afin de pouvoir répondre aux sujets de ce forum.',
 
 	'MAX_FONT_SIZE_EXCEEDED'    => 'Vous ne devez utiliser que les polices de caractères dont la taille est inférieure à %1$d.',
 	'MAX_FLASH_HEIGHT_EXCEEDED' => [
