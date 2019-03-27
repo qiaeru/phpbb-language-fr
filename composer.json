@@ -19,7 +19,7 @@
 		"php": ">=7.1"
 	},
 	"require-dev": {
-		"milescellar/phpbb-translation-validator": "2.0.*"
+		"phpbb/translation-validator": "1.5.*"
 	},
 	"extra": {
 		"language-iso": "fr",

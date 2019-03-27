@@ -33,10 +33,10 @@ install:
   - git clone "https://github.com/phpbb/phpbb.git" --branch=$PHPBB_BRANCH
   - mv phpbb/phpBB/language/en $PHPBB_VERSION/en/language
   - mv phpbb/phpBB/styles/prosilver/theme/en $PHPBB_VERSION/en/styles/prosilver/theme
-  - composer install --no-interaction --prefer-source
+  - composer install --dev --no-interaction --prefer-source
 
 script:
-  - php vendor/bin/PhpbbTranslationValidator.php validate --phpbb-version=$PHPBB_VERSION $PHPBB_LANGUAGE --display-notices
+  - php translation.php validate $PHPBB_LANGUAGE --phpbb-version=$PHPBB_VERSION --safe-mode --display-notices
 
 notifications:
   email:
