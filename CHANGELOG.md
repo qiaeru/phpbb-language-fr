@@ -8,11 +8,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 
 ### Added
 
-- A key have been added.
+- Some keys have been added.
 
 ### Changed
 
-- A translation have been improved.
+- Some translations have been improved.
 
 ## [3.5.0](https://github.com/milescellar/phpbb-language-fr/compare/v3.4.0...v3.5.0) - 2018-12-18
 
