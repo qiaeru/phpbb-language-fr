@@ -301,6 +301,7 @@ $lang = array_merge($lang, [
 	'MESSAGE_EDITED'              => 'Le message a été modifié.',
 	'MESSAGE_HISTORY'             => 'Historique du message',
 	'MESSAGE_REMOVED_FROM_OUTBOX' => 'Le message a été supprimé par son auteur.',
+	'MESSAGE_REPORTED_MESSAGE'    => 'Message rapporté',
 	'MESSAGE_SENT_ON'             => 'le',
 	'MESSAGE_STORED'              => 'Le message a été envoyé.',
 	'MESSAGE_TO'                  => 'À',
