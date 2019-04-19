@@ -779,6 +779,10 @@ $lang = array_merge($lang, [
 	'TOPIC_REVIEW'       => 'Relecture du sujet',
 	'TOPIC_TITLE'        => 'Titre du sujet',
 	'TOPIC_UNAPPROVED'   => 'Ce sujet n’a pas encore été approuvé.',
+	'TOPIC_UNAPPROVED_FORUM' => [
+		1 => 'Sujet en attente d’approbation',
+		2 => 'Sujets en attente d’approbation',
+	],
 	'TOPIC_DELETED'      => 'Ce sujet a été supprimé.',
 	'TOTAL_ATTACHMENTS'  => 'Pièces jointes',
 	'TOTAL_LOGS'         => [

@@ -271,6 +271,7 @@ $lang = array_merge($lang, [
 	'IMPORTANT_NEWS'             => 'Annonces importantes',
 	'INVALID_USER_BIRTHDAY'      => 'La date d’anniversaire que vous avez spécifiée est invalide.',
 	'INVALID_CHARS_USERNAME'     => 'Le nom d’utilisateur que vous avez spécifié contient des caractères qui ne sont pas autorisés.',
+	'INVALID_EMOJIS_USERNAME'    => 'Le nom d’utilisateur que vous avez spécifié contient des caractères qui ne sont pas autorisés (émojis).',
 	'INVALID_CHARS_NEW_PASSWORD' => 'Le mot de passe que vous avez spécifié ne contient pas les caractères requis.',
 	'ITEMS_REQUIRED'             => 'Les champs marqués par « * » sont obligatoires.',
 
