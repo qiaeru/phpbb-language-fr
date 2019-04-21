@@ -32,11 +32,13 @@ install:
   - mkdir -p $PHPBB_VERSION/en/styles/prosilver/theme
   - mv language $PHPBB_VERSION/$PHPBB_LANGUAGE
   - mv styles $PHPBB_VERSION/$PHPBB_LANGUAGE
-  - mv vendor/phpbb/translation-validator $PHPBB_VERSION
   - git clone "https://github.com/phpbb/phpbb.git" --branch=$PHPBB_BRANCH
   - mv phpbb/phpBB/language/en $PHPBB_VERSION/en/language
   - mv phpbb/phpBB/styles/prosilver/theme/en $PHPBB_VERSION/en/styles/prosilver/theme
   - composer install
+
+before_script:
+  - mv vendor/phpbb/translation-validator $PHPBB_VERSION
 
 script:
   - php translation.php validate $PHPBB_LANGUAGE --phpbb-version=$PHPBB_VERSION --display-notices
