@@ -35,7 +35,7 @@ install:
   - git clone "https://github.com/phpbb/phpbb.git" --branch=$PHPBB_BRANCH
   - mv phpbb/phpBB/language/en $PHPBB_VERSION/en/language
   - mv phpbb/phpBB/styles/prosilver/theme/en $PHPBB_VERSION/en/styles/prosilver/theme
-  - composer install
+  - composer install --no-interaction
 
 script:
   - php vendor/bin/translation.php validate $PHPBB_LANGUAGE --phpbb-version=$PHPBB_VERSION --display-notices
