@@ -324,6 +324,7 @@ $lang = array_merge($lang, [
 	'TOTAL_SIZE'      => 'Taille totale',
 
 	'UCP'                => 'Panneau de contrôle de l’utilisateur',
+	'URL_INVALID'        => 'L’adresse spécifiée concernant le paramètre « %1$s » est invalide.',
 	'USERNAMES_EXPLAIN'  => 'Veuillez insérer chaque nom d’utilisateur sur une nouvelle ligne.',
 	'USER_CONTROL_PANEL' => 'Panneau de contrôle de l’utilisateur',
 
