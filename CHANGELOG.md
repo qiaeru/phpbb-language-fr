@@ -12,7 +12,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 
 ### Changed
 
-- The language pack is now compatible with [phpBB 3.2.6](https://download.phpbb.com/pub/release/3.2/3.2.6/).
+- The language pack is now compatible with [phpBB 3.2.6](https://download.phpbb.com/pub/release/3.2/3.2.6/) and [phpBB 3.2.7](https://download.phpbb.com/pub/release/3.2/3.2.7/).
 - Several translations have been improved.
 
 ## [3.5.0](https://github.com/milescellar/phpbb-language-fr/compare/v3.4.0...v3.5.0) - 2018-12-18
