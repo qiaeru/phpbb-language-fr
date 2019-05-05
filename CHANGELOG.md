@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [3.7.0](https://github.com/milescellar/phpbb-language-fr/compare/v3.6.0...v3.7.0) - 2019-05-05
+
+### Changed
+
+- The language pack is now compatible with [phpBB 3.2.7](https://download.phpbb.com/pub/release/3.2/3.2.7/).
+
 ## [3.6.0](https://github.com/milescellar/phpbb-language-fr/compare/v3.5.0...v3.6.0) - 2019-05-01
 
 ### Added
@@ -12,7 +18,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 
 ### Changed
 
-- The language pack is now compatible with [phpBB 3.2.6](https://download.phpbb.com/pub/release/3.2/3.2.6/) and [phpBB 3.2.7](https://download.phpbb.com/pub/release/3.2/3.2.7/).
+- The language pack is now compatible with [phpBB 3.2.6](https://download.phpbb.com/pub/release/3.2/3.2.6/).
 - Several translations have been improved.
 
 ## [3.5.0](https://github.com/milescellar/phpbb-language-fr/compare/v3.4.0...v3.5.0) - 2018-12-18
