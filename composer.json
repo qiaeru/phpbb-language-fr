@@ -19,7 +19,7 @@
 		"php": ">=7.1"
 	},
 	"require-dev": {
-		"phpbb/translation-validator": "dev-develop@dev"
+		"phpbb/translation-validator": "1.5.*"
 	},
 	"extra": {
 		"language-iso": "fr",
