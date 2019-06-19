@@ -43,7 +43,7 @@ $lang = array_merge($lang, [
 	'BOARD_STYLE'                  => 'Style du forum',
 	'CUSTOM_DATEFORMAT'            => 'Personnaliser…',
 	'DEFAULT_DATE_FORMAT'          => 'Format de la date',
-	'DEFAULT_DATE_FORMAT_EXPLAIN'  => 'Le format de la date est similaire au format utilisé par la fonction « date() » de PHP.',
+	'DEFAULT_DATE_FORMAT_EXPLAIN'  => 'Le format de la date est similaire au format utilisé par la fonction « <code><a href="https://secure.php.net/manual/function.date.php">date()</a></code> » de PHP.',
 	'DEFAULT_LANGUAGE'             => 'Langue par défaut',
 	'DEFAULT_STYLE'                => 'Style par défaut',
 	'DEFAULT_STYLE_EXPLAIN'        => 'Le style par défaut affiché aux utilisateurs nouvellement inscrits.',
