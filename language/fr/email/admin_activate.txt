@@ -7,7 +7,7 @@ Le compte de « {USERNAME} » a été désactivé ou nouvellement créé. Vous
 Si vous souhaitez consulter le profil de cet utilisateur, veuillez cliquer sur le lien suivant :
 {U_USER_DETAILS}
 
-Si vous souhaitez activer le compte de cet utilisateur, veuillez cliquer sur le lien suivant :
+Vous pouvez activer dès à présent le compte de cet utilisateur en cliquant sur le lien suivant :
 {U_ACTIVATE}
 
 {EMAIL_SIG}

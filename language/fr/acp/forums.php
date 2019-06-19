@@ -96,6 +96,7 @@ $lang = array_merge($lang, [
 	'FORUM_LINK_TRACK_EXPLAIN'       => 'Le nombre de redirections effectués à partir du forum-lien seront comptabilisées et affichées.',
 	'FORUM_NAME'                     => 'Nom du forum',
 	'FORUM_NAME_EMPTY'               => 'Vous devez saisir le nom de ce forum.',
+	'FORUM_NAME_EMOJI'               => 'Le nom du forum que vous saisi est invalide.<br>Il contient les caractères suivants qui ne sont pas pris en charge :<br>%s',
 	'FORUM_PARENT'                   => 'Forum parent',
 	'FORUM_PASSWORD'                 => 'Mot de passe du forum',
 	'FORUM_PASSWORD_CONFIRM'         => 'Confirmer le mot de passe du forum',
