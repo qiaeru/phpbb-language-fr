@@ -42,7 +42,7 @@ $lang = array_merge($lang, [
 
 	'BACKUP_DELETE'        => 'Le fichier de sauvegarde a été supprimé.',
 	'BACKUP_INVALID'       => 'Le fichier de sauvegarde que vous avez sélectionné est invalide.',
-	'BACKUP_NOT_SUPPORTED' => 'Le fichier de sauvegarde que vous avez sélectionné n’est pas supporté.',
+	'BACKUP_NOT_SUPPORTED' => 'Le fichier de sauvegarde que vous avez sélectionné n’est pas pris en charge.',
 	'BACKUP_OPTIONS'       => 'Options de sauvegarde',
 	'BACKUP_SUCCESS'       => 'Le fichier de sauvegarde a été créé.',
 	'BACKUP_TYPE'          => 'Type de sauvegarde',
