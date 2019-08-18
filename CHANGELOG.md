@@ -14,6 +14,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 
 - Several translations have been improved.
 
+### Removed
+
+- Some keys have been removed.
+
 ## [3.7.0](https://github.com/milescellar/phpbb-language-fr/compare/v3.6.0...v3.7.0) - 2019-05-05
 
 ### Changed
