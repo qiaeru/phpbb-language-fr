@@ -36,15 +36,16 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, [
-	'ADD_ATTACHMENT'         => 'Insérer une pièce jointe',
-	'ADD_ATTACHMENT_EXPLAIN' => 'Si vous souhaitez insérer un ou plusieurs fichiers, veuillez renseigner les informations demandées ci-dessous.',
-	'ADD_FILE'               => 'Ajouter le fichier',
-	'ADD_POLL'               => 'Créer un sondage',
-	'ADD_POLL_EXPLAIN'       => 'Laissez ces champs vides si vous ne souhaitez pas insérer de sondage à votre sujet.',
-	'ALREADY_DELETED'        => 'Le message a déjà été supprimé.',
-	'ATTACH_DISK_FULL'       => 'Vous ne pouvez pas transférer cette pièce jointe car l’espace disque est insuffisant.',
-	'ATTACH_QUOTA_REACHED'   => 'La limite du nombre de pièces jointes sur le forum a été atteinte.',
-	'ATTACH_SIG'             => 'Insérer une signature (personnalisable dans le panneau de contrôle de l’utilisateur)',
+	'ADD_ATTACHMENT'           => 'Insérer une pièce jointe',
+	'ADD_ATTACHMENT_EXPLAIN'   => 'Si vous souhaitez insérer un ou plusieurs fichiers, veuillez renseigner les informations demandées ci-dessous.',
+	'ADD_FILE'                 => 'Ajouter le fichier',
+	'ADD_POLL'                 => 'Créer un sondage',
+	'ADD_POLL_EXPLAIN'         => 'Laissez ces champs vides si vous ne souhaitez pas insérer de sondage à votre sujet.',
+	'ALREADY_DELETED'          => 'Le message a déjà été supprimé.',
+	'ATTACH_COMMENT_NO_EMOJIS' => 'Le commentaire de la pièce jointe contient des caractères non autorisés (émoji).',
+	'ATTACH_DISK_FULL'         => 'Vous ne pouvez pas transférer cette pièce jointe car l’espace disque est insuffisant.',
+	'ATTACH_QUOTA_REACHED'     => 'La limite du nombre de pièces jointes sur le forum a été atteinte.',
+	'ATTACH_SIG'               => 'Insérer une signature (personnalisable dans le panneau de contrôle de l’utilisateur)',
 
 	'BBCODE_A_HELP'        => 'Insérer une pièce jointe dans une ligne : [attachment=]nomdufichier.ext[/attachment]',
 	'BBCODE_B_HELP'        => 'Texte en gras : [b]texte[/b]',

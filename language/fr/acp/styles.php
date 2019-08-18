@@ -36,7 +36,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, [
-	'ACP_STYLES_EXPLAIN' => 'Depuis cette page, vous pouvez gérer les styles disponibles sur votre forum. Vous pouvez installer de nouveaux styles et modifier, supprimer, désactiver et réactiver les styles déjà installés. Vous pouvez également voir à quoi ressemble un style en utilisant la fonctionnalité de prévisualisation. De même, vous pouvez consulter le compteur du nombre total d’utilisateurs de chaque style. Veuillez cependant noter que lorsque vous remplacez un style, la comptabilisation du nombre total d’utilisateurs ne sera pas répercutée sur le style qui le remplacera.',
+	'ACP_STYLES_EXPLAIN' => 'Depuis cette page, vous pouvez gérer les styles disponibles sur votre forum.<br>Veuillez noter que vous ne pouvez pas désinstaller le style « prosilver » qui est le style par défaut de phpBB.',
 
 	'CANNOT_BE_INSTALLED'      => 'Ne peut pas être installé',
 	'CONFIRM_UNINSTALL_STYLES' => 'Êtes-vous sûr de vouloir désinstaller ces styles ?',
@@ -83,7 +83,8 @@ $lang = array_merge($lang, [
 	'STYLE_USED_BY'                             => 'Utilisé par (incluant les robots)',
 	'STYLE_VERSION'                             => 'Version du style',
 
-	'UNINSTALL_DEFAULT' => 'Vous ne pouvez pas désinstaller le style par défaut.',
+	'UNINSTALL_PROSILVER' => 'Vous ne pouvez pas désinstaller le style « prosilver ».',
+	'UNINSTALL_DEFAULT'   => 'Vous ne pouvez pas désinstaller le style par défaut.',
 
 	'BROWSE_STYLES_DATABASE' => 'Parcourir la base de données des styles',
 ]);
