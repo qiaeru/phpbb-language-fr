@@ -55,7 +55,6 @@ $lang = array_merge($lang, [
 
 	'BBCODE_INVALID_TAG_NAME' => 'Le nom de la balise BBCode que vous avez spécifié existe déjà.',
 	'BBCODE_INVALID'          => 'Votre BBCode est construit dans une architecture invalide.',
-	'BBCODE_OPEN_ENDED_TAG'   => 'Votre BBCode personnalisé doit contenir une balise d’ouverture et de fermeture.',
 	'BBCODE_TAG'              => 'Balise',
 	'BBCODE_TAG_TOO_LONG'     => 'Le nom de la balise que vous avez spécifié est trop long.',
 	'BBCODE_TAG_DEF_TOO_LONG' => 'La définition de la balise que vous avez spécifiée est trop longue, veuillez la raccourcir.',
@@ -77,13 +76,13 @@ $lang = array_merge($lang, [
 	'TOO_MANY_BBCODES' => 'Vous ne pouvez pas créer d’autres BBCodes. Veuillez supprimer un ou plusieurs BBCodes et réessayer.',
 
 	'tokens' => [
-		'TEXT'         => 'Du texte, comprenant les caractères étrangers, les chiffres, etc. Vous ne devriez pas utiliser cette chaîne de symboles dans les balises HTML. Essayez d’utiliser à la place « IDENTIFIER », « INTTEXT » ou « SIMPLETEXT ».',
+		'TEXT'         => 'Du texte, comprenant les caractères étrangers, les chiffres, etc.',
 		'SIMPLETEXT'   => 'Des caractères de l’alphabet latin (A–Z), des chiffres, des espaces, des virgules, des points, des tirets, des tirets bas et des signes plus et moins.',
 		'INTTEXT'      => 'Des lettres de caractères Unicode, des chiffres, des espaces, des virgules, des points, des tirets bas et des espaces insécables et des signes plus et moins.',
 		'IDENTIFIER'   => 'Des caractères de l’alphabet latin (A–Z), des chiffres, des tirets et des tirets bas.',
 		'NUMBER'       => 'Une série de chiffres.',
 		'EMAIL'        => 'Une adresse de courriel correcte.',
-		'URL'          => 'Une adresse universelle correcte utilisant n’importe quel protocole (HTTP, FTP, etc.) ne pouvant pas être utilisée pour des injections de Javascript. Si aucun protocole n’est renseigné, « http:// » sera utilisé par défaut.',
+		'URL'          => 'Une adresse universelle correcte utilisant n’importe quel protocole autorisé (HTTP, FTP, etc.) ne pouvant pas être utilisée pour des injections de Javascript. Si aucun protocole n’est renseigné, « http:// » sera utilisé par défaut.',
 		'LOCAL_URL'    => 'Une adresse universelle locale. L’adresse doit être relative à la page du sujet et ne doit pas contenir de nom de serveur ou de protocole, tels que des liens qui sont précédés de « %s »',
 		'RELATIVE_URL' => 'Une adresse universelle relative. Vous pouvez utiliser des résultats partiels d’une adresse universelle, mais soyez vigilant, car une adresse universelle complète est une adresse universelle relative valide. Lorsque vous souhaitez utiliser les adresses universelles relatives de votre forum, utilisez la variable « LOCAL_URL ».',
 		'COLOR'        => 'Une couleur HTML qui peut être dans une forme hexadécimale « #FF1234 » ou un <a href="https://www.w3.org/TR/css3-color/#colorunits">nom de couleur CSS</a> (en anglais), tel que « black » ou « fuchsia ».',
