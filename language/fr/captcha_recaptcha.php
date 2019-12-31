@@ -42,10 +42,10 @@ $lang = array_merge($lang, [
 	'RECAPTCHA_INCORRECT'     => 'La vérification a échoué',
 	'RECAPTCHA_NOSCRIPT'      => 'Vous devez activer JavaScript dans votre navigateur afin de charger le formulaire.',
 
-	'RECAPTCHA_PUBLIC'          => 'Clé publique de reCAPTCHA',
-	'RECAPTCHA_PUBLIC_EXPLAIN'  => 'Votre clé publique de reCAPTCHA. Les clés sont disponibles sur <a href="https://www.google.com/recaptcha">le site de reCAPTCHA</a> (en anglais).',
-	'RECAPTCHA_PRIVATE'         => 'Clé privée de reCAPTCHA',
-	'RECAPTCHA_PRIVATE_EXPLAIN' => 'Votre clé privée de reCAPTCHA. Les clés sont disponibles sur <a href="https://www.google.com/recaptcha">le site de reCAPTCHA</a> (en anglais).',
+	'RECAPTCHA_PUBLIC'          => 'Clé du site',
+	'RECAPTCHA_PUBLIC_EXPLAIN'  => 'Votre clé de site sur reCAPTCHA. Les clés sont disponibles sur <a href="https://www.google.com/recaptcha">le site de reCAPTCHA</a> (en anglais). Veuillez utiliser le type de badge « Invisible reCAPTCHA » de reCAPTCHA v2.',
+	'RECAPTCHA_PRIVATE'         => 'Clé secrète',
+	'RECAPTCHA_PRIVATE_EXPLAIN' => 'Votre clé secrète sur reCAPTCHA. Les clés sont disponibles sur <a href="https://www.google.com/recaptcha">le site de reCAPTCHA</a> (en anglais). Veuillez utiliser le type de badge « Invisible reCAPTCHA » de reCAPTCHA v2.',
 
-	'RECAPTCHA_EXPLAIN' => 'Veuillez compléter la vérification suivante afin de nous permettre de nous prémunir contre les soumissions automatisées et intensives effectuées par des robots malveillants.',
+	'RECAPTCHA_INVISIBLE' => 'Ce CAPTCHA est actuellement invisible. Pour vérifier qu’il fonctionne correctement, une petite icône devrait apparaître dans le coin en bas à droite de cette page.',
 ]);

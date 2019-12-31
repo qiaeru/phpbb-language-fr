@@ -127,12 +127,14 @@ $lang = array_merge($lang, [
 
 	'GENERAL_FORUM_SETTINGS' => 'Paramètres généraux du forum',
 
-	'LINK'                   => 'Lien',
-	'LIST_INDEX'             => 'Lister ce forum dans la légende du forum parent',
-	'LIST_INDEX_EXPLAIN'     => 'Si cette option est activée, ce forum sera listé sur l’index du forum et sur divers endroits dans un lien disponible dans la légende du forum parent.',
-	'LIST_SUBFORUMS'         => 'Lister les sous-forums dans la légende de ce forum',
-	'LIST_SUBFORUMS_EXPLAIN' => 'Si cette option est activée, les sous-forums de ce forum seront listés sur l’index du forum et sur divers endroits dans un lien disponible dans la légende de ce forum.',
-	'LOCKED'                 => 'Verrouillé',
+	'LINK'                    => 'Lien',
+	'LIMIT_SUBFORUMS'         => 'Limiter la légende aux sous-forums enfants directs',
+	'LIMIT_SUBFORUMS_EXPLAIN' => 'Limite l’affichage des sous-forums aux sous-forums qui descendent directement du forum actuel. Si cette option est désactivée, les sous-forums seront affichés en prenant en compte l’option « Lister ce sous-forum dans la légende du forum parent », peu importe la profondeur.',
+	'LIST_INDEX'              => 'Lister ce sous-forum dans la légende du forum parent',
+	'LIST_INDEX_EXPLAIN'      => 'Si cette option est activée, ce sous-forum sera listé sur l’index du forum et sur divers endroits dans un lien disponible dans la légende du forum parent.',
+	'LIST_SUBFORUMS'          => 'Lister les sous-forums dans la légende de ce forum',
+	'LIST_SUBFORUMS_EXPLAIN'  => 'Si cette option est activée, les sous-forums de ce forum seront listés sur l’index du forum et sur divers endroits dans un lien disponible dans la légende de ce forum.',
+	'LOCKED'                  => 'Verrouillé',
 
 	'MOVE_POSTS_NO_POSTABLE_FORUM' => 'Ce forum ne peut pas recevoir le contenu que vous souhaitez déplacer. Veuillez sélectionner un forum dans lequel il est possible de publier des messages.',
 	'MOVE_POSTS_TO'                => 'Déplacer les messages dans',

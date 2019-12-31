@@ -185,7 +185,6 @@ $lang = array_merge($lang, [
 	// Database options
 	'DB_OPTION_MSSQL_ODBC'  => 'MSSQL Server 2000+ via ODBC',
 	'DB_OPTION_MSSQLNATIVE' => 'MSSQL Server 2005+ [ Natif ]',
-	'DB_OPTION_MYSQL'       => 'MySQL',
 	'DB_OPTION_MYSQLI'      => 'MySQL avec l’extension MySQLi',
 	'DB_OPTION_ORACLE'      => 'Oracle',
 	'DB_OPTION_POSTGRES'    => 'PostgreSQL',
