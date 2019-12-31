@@ -136,9 +136,9 @@ $lang = array_merge($lang, [
 
 	'GENERAL_UPLOAD_ERROR' => 'Impossible de transférer la pièce jointe sur %s.',
 
-	'IMAGES_ARE_OFF'    => 'La balise [img] est <em>désactivée</em>',
-	'IMAGES_ARE_ON'     => 'La balise [img] est <em>activée</em>',
-	'INVALID_FILENAME'  => '%s est un nom de fichier invalide.',
+	'IMAGES_ARE_OFF'   => 'La balise [img] est <em>désactivée</em>',
+	'IMAGES_ARE_ON'    => 'La balise [img] est <em>activée</em>',
+	'INVALID_FILENAME' => '%s est un nom de fichier invalide.',
 
 	'LOAD'                      => 'Charger',
 	'LOAD_DRAFT'                => 'Charger un brouillon',
