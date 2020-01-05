@@ -706,7 +706,7 @@ $lang = array_merge($lang, [
 	'LOG_U_ROLE_EDIT'    => '<strong>Modification d’un rôle d’utilisateur</strong><br>» %s',
 	'LOG_U_ROLE_REMOVED' => '<strong>Suppression d’un rôle d’utilisateur</strong><br>» %s',
 
-	'LOG_PLUPLOAD_TIDY_FAILED' => '<strong>Le rangement a échoué car il n’a pas été possible d’ouvrir %1$s. Veuillez vérifier les permissions.</strong><br>Exception : %2$s<br>Localisation : %3$s',
+	'LOG_PLUPLOAD_TIDY_FAILED' => '<strong>Le rangement a échoué car il est impossible d’ouvrir %1$s. Veuillez vérifier les permissions.</strong><br>Exception : %2$s<br>Localisation : %3$s',
 
 	'LOG_PROFILE_FIELD_ACTIVATE'   => '<strong>Activation d’un champ de profil</strong><br>» %s',
 	'LOG_PROFILE_FIELD_CREATE'     => '<strong>Ajout d’un champ de profil</strong><br>» %s',
