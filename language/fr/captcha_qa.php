@@ -36,28 +36,28 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, [
-	'CAPTCHA_QA'               => 'Questions-Réponses',
-	'CONFIRM_QUESTION_EXPLAIN' => 'Cette question vous permet de vous prémunir contre les soumissions automatisées et intensives effectuées par des robots malveillants.',
-	'CONFIRM_QUESTION_WRONG'   => 'Vous n’avez pas répondu correctement à la question.',
-	'CONFIRM_QUESTION_MISSING' => 'Les questions relatives au CAPTCHA sont introuvables. Veuillez contacter un administrateur du forum.',
+    'CAPTCHA_QA'               => 'Questions-Réponses',
+    'CONFIRM_QUESTION_EXPLAIN' => 'Cette question vous permet de vous prémunir contre les soumissions automatisées et intensives effectuées par des robots malveillants.',
+    'CONFIRM_QUESTION_WRONG'   => 'Vous n’avez pas répondu correctement à la question.',
+    'CONFIRM_QUESTION_MISSING' => 'Les questions relatives au CAPTCHA sont introuvables. Veuillez contacter un administrateur du forum.',
 
-	'QUESTION_ANSWERS' => 'Réponses',
-	'ANSWERS_EXPLAIN'  => 'Veuillez répondre correctement à la question. Chaque réponse doit être saisie sur une nouvelle ligne.',
-	'CONFIRM_QUESTION' => 'Question',
+    'QUESTION_ANSWERS' => 'Réponses',
+    'ANSWERS_EXPLAIN'  => 'Veuillez répondre correctement à la question. Chaque réponse doit être saisie sur une nouvelle ligne.',
+    'CONFIRM_QUESTION' => 'Question',
 
-	'ANSWER'                  => 'Réponse',
-	'EDIT_QUESTION'           => 'Modifier la question',
-	'QUESTIONS'               => 'Questions',
-	'QUESTIONS_EXPLAIN'       => 'Lors de chaque soumission de formulaires où le module d’extension des questions-réponses est activé, les utilisateurs seront invités à répondre à une des questions spécifiées ici. Pour utiliser ce module d’extension, au moins une des questions devra être rédigée dans la langue par défaut. Il est recommandé de cibler ces questions selon votre audience, qui devrait être capable de répondre plus facilement que des robots malveillants capables d’exécuter des requêtes sur les moteurs de recherche. Seule une unique question bien formulée est nécessaire. Si votre forum commence à recevoir des soumissions automatisées et intensives effectuées par des robots malveillants, vous devriez remplacer votre question par une nouvelle plus complexe. Activez la vérification stricte si une des réponses à votre question contient des majuscules, des minuscules, des signes de ponctuation ou des espaces.',
-	'QUESTION_DELETED'        => 'Question supprimée',
-	'QUESTION_LANG'           => 'Langue',
-	'QUESTION_LANG_EXPLAIN'   => 'La langue dans laquelle cette question et ses réponses sont rédigées.',
-	'QUESTION_STRICT'         => 'Vérification stricte',
-	'QUESTION_STRICT_EXPLAIN' => 'Activez cette option afin de prendre en compte la sensibilité à la casse, les signes de ponctuation et les espaces.',
+    'ANSWER'                  => 'Réponse',
+    'EDIT_QUESTION'           => 'Modifier la question',
+    'QUESTIONS'               => 'Questions',
+    'QUESTIONS_EXPLAIN'       => 'Lors de chaque soumission de formulaires où le module d’extension des questions-réponses est activé, les utilisateurs seront invités à répondre à une des questions spécifiées ici. Pour utiliser ce module d’extension, au moins une des questions devra être rédigée dans la langue par défaut. Il est recommandé de cibler ces questions selon votre audience, qui devrait être capable de répondre plus facilement que des robots malveillants capables d’exécuter des requêtes sur les moteurs de recherche. Seule une unique question bien formulée est nécessaire. Si votre forum commence à recevoir des soumissions automatisées et intensives effectuées par des robots malveillants, vous devriez remplacer votre question par une nouvelle plus complexe. Activez la vérification stricte si une des réponses à votre question contient des majuscules, des minuscules, des signes de ponctuation ou des espaces.',
+    'QUESTION_DELETED'        => 'Question supprimée',
+    'QUESTION_LANG'           => 'Langue',
+    'QUESTION_LANG_EXPLAIN'   => 'La langue dans laquelle cette question et ses réponses sont rédigées.',
+    'QUESTION_STRICT'         => 'Vérification stricte',
+    'QUESTION_STRICT_EXPLAIN' => 'Activez cette option afin de prendre en compte la sensibilité à la casse, les signes de ponctuation et les espaces.',
 
-	'QUESTION_TEXT'         => 'Question',
-	'QUESTION_TEXT_EXPLAIN' => 'La question qui sera affichée aux utilisateurs.',
+    'QUESTION_TEXT'         => 'Question',
+    'QUESTION_TEXT_EXPLAIN' => 'La question qui sera affichée aux utilisateurs.',
 
-	'QA_ERROR_MSG'     => 'Veuillez renseigner tous les champs et saisir au moins une réponse.',
-	'QA_LAST_QUESTION' => 'Vous ne pouvez pas supprimer toutes les questions lorsque le module d’extension est actif.',
+    'QA_ERROR_MSG'     => 'Veuillez renseigner tous les champs et saisir au moins une réponse.',
+    'QA_LAST_QUESTION' => 'Vous ne pouvez pas supprimer toutes les questions lorsque le module d’extension est actif.',
 ]);
