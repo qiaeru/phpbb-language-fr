@@ -3,8 +3,7 @@ css:
   use-tabs: true
   print-width: 120
   double-quotes: true
-    name:
-      - "*.css"
+    name: "*.css"
 
 php:
   preset: recommended
