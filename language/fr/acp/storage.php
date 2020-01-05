@@ -36,7 +36,6 @@
  // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, [
-
 	// Template
 	'STORAGE_TITLE'         => 'Paramètres des espaces de stockage',
 	'STORAGE_TITLE_EXPLAIN' => 'Ces paramètres vous permettent de modifier les services d’espaces de stockage qui hébergeront les fichiers de phpBB. Vous pouvez sélectionner un service d’espace de stockage local ou à distance qui hébergeront les fichiers crées ou ajoutés par phpBB.',
