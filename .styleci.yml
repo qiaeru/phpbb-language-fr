@@ -1,10 +1,9 @@
-preset: recommended
-
+preset: symfony
 risky: false
-
 disabled:
   - braces
   - indentation
   - phpdoc_summary
   - phpdoc_to_comment
   - phpdoc_trim
+  - unalign_double_arrow
