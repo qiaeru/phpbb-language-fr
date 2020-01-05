@@ -104,7 +104,7 @@ $lang = array_merge($lang, [
 
 	// Server requirements
 	'PHP_VERSION_REQD'                 => 'Version de PHP',
-	'PHP_VERSION_REQD_EXPLAIN'         => 'phpBB requiert la version 7.1.0 ou supérieure de PHP.',
+	'PHP_VERSION_REQD_EXPLAIN'         => 'phpBB requiert la version 7.1.3 ou supérieure de PHP.',
 	'PHP_GETIMAGESIZE_SUPPORT'         => 'La fonction PHP « getimagesize() » est requise.',
 	'PHP_GETIMAGESIZE_SUPPORT_EXPLAIN' => 'La fonction PHP « getimagesize() » est disponible.',
 	'PCRE_UTF_SUPPORT'                 => 'Support de PCRE UTF-8',
@@ -561,7 +561,7 @@ $lang = array_merge($lang, [
 
 	// Finish conversion
 	'CONVERT_COMPLETE'         => 'Conversion terminée',
-	'CONVERT_COMPLETE_EXPLAIN' => 'Félicitations ! Vous avez converti votre forum à phpBB 4.0. Vous pouvez à présent vous connecter et <a href="../">accéder à votre forum</a>. Veuillez vous assurer que les paramètres ont été correctement transférés avant de mettre en ligne votre forum en supprimant le répertoire d’installation. Il vous est possible d’obtenir une assistance sur l’utilisation de phpBB grâce à sa <a href="https://www.phpbb.com/support/docs/en/4.0/ug/">documentation</a> (en anglais) et ses <a href="https://www.phpbb.com/community/viewforum.php?f=466">forums d’assistance</a> (en anglais).',
+	'CONVERT_COMPLETE_EXPLAIN' => 'Félicitations ! Vous avez converti votre forum à phpBB 4.0. Vous pouvez à présent vous connecter et <a href="../">accéder à votre forum</a>. Veuillez vous assurer que les paramètres ont été correctement transférés avant de mettre en ligne votre forum en supprimant le répertoire d’installation. Il vous est possible d’obtenir une assistance sur l’utilisation de phpBB grâce à sa <a href="https://www.phpbb.com/support/docs/en/4.0/ug/">documentation</a> (en anglais) et ses <a href="https://www.phpbb.com/community/viewforum.php?f=661">forums d’assistance</a> (en anglais).',
 
 	'CONV_ERROR_ATTACH_FTP_DIR'      => 'Le transfert de pièces jointes par FTP est activé sur l’ancien forum. Veuillez désactiver cette option et vous assurer qu’un répertoire valide de transfert a bien été spécifié, puis copiez toutes les pièces jointes dans ce nouveau répertoire en ligne. Une fois cette opération effectuée, redémarrez le convertisseur.',
 	'CONV_ERROR_CONFIG_EMPTY'        => 'Aucune information de configuration sur ce convertisseur n’est disponible.',
