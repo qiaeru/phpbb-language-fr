@@ -1,4 +1,4 @@
-preset: laravel
+preset: symfony
 risky: false
 disabled:
   - braces
