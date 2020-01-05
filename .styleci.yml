@@ -1,8 +1,5 @@
 preset: symfony
 risky: false
-enabled:
-  - align_double_arrow
-  - align_phpdoc
 disabled:
   - braces
   - indentation
