@@ -1,5 +1,7 @@
 preset: symfony
 risky: false
+enabled:
+  - array_indentation
 disabled:
   - braces
   - indentation
