@@ -1,7 +1,7 @@
 preset: symfony
 risky: false
 enabled:
-  - array_indentation
+  - align_phpdoc
 disabled:
   - braces
   - indentation
