@@ -2,6 +2,5 @@ preset: recommended
 risky: false
 disabled:
   - braces
-  - indentation
   - phpdoc_summary
   - phpdoc_trim
