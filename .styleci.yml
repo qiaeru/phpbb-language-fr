@@ -1,8 +1,8 @@
-preset: symfony
+preset: recommended
 risky: false
 disabled:
   - braces
   - indentation
+  - phpdoc_indent
   - phpdoc_summary
-  - phpdoc_to_comment
   - phpdoc_trim
