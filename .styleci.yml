@@ -3,7 +3,6 @@ css:
   use-tabs: true
   print-width: 120
   double-quotes: true
-    name: "*.css"
 
 php:
   preset: recommended
@@ -14,4 +13,3 @@ php:
     - phpdoc_summary
     - phpdoc_to_comment
     - phpdoc_trim
-  name: "*.php"
