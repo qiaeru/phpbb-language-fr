@@ -1,5 +1,7 @@
 preset: symfony
+
 risky: false
+
 disabled:
   - braces
   - indentation
