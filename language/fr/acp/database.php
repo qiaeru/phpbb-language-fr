@@ -43,7 +43,6 @@ $lang = array_merge($lang, [
 	'BACKUP_DELETE'        => 'Le fichier de sauvegarde a été supprimé.',
 	'BACKUP_INVALID'       => 'Le fichier de sauvegarde que vous avez sélectionné est invalide.',
 	'BACKUP_NOT_SUPPORTED' => 'Le fichier de sauvegarde que vous avez sélectionné n’est pas pris en charge.',
-	'BACKUP_ERROR'         => 'Une erreur est survenue lors de la sauvegarde du fichier.',
 	'BACKUP_OPTIONS'       => 'Options de sauvegarde',
 	'BACKUP_SUCCESS'       => 'Le fichier de sauvegarde a été créé.',
 	'BACKUP_TYPE'          => 'Type de sauvegarde',
@@ -59,7 +58,6 @@ $lang = array_merge($lang, [
 	'FILE_WRITE_FAIL' => 'Le répertoire de stockage est en lecture seule. Veuillez modifier ses droits d’accès pour écriture par votre serveur.',
 	'FULL_BACKUP'     => 'Complète',
 
-	'RESTORE_DOWNLOAD_FAIL'   => 'Une erreur est survenue lors de la copie du fichier du stockage au répertoire temporaire local.',
 	'RESTORE_FAILURE'         => 'Le fichier de sauvegarde semble corrompu.',
 	'RESTORE_OPTIONS'         => 'Options de restauration',
 	'RESTORE_SELECTED_BACKUP' => 'Êtes-vous sûr de vouloir restaurer cette sauvegarde ?',

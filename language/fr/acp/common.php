@@ -87,11 +87,6 @@ $lang = array_merge($lang, [
 	'ACP_EXTENSION_GROUPS'     => 'Gérer les groupes d’extensions des pièces jointes',
 	'ACP_EXTENSION_MANAGEMENT' => 'Gestion des extensions',
 	'ACP_EXTENSIONS'           => 'Gérer les extensions',
-	'ACP_EXTENSIONS_CATALOG'   => 'Bibliothèque d’extensions',
-	'ACP_EXTENSIONS_INSTALL'   => 'Installer des extensions',
-	'ACP_EXTENSIONS_REMOVE'    => 'Supprimer des extensions',
-	'ACP_EXTENSIONS_UPDATE'    => 'Mettre à jour des extensions',
-	'ACP_EXTENSIONS_MANAGE'    => 'Gérer l’extension automatiquement',
 
 	'ACP_FORUM_BASED_PERMISSIONS' => 'Permissions liées aux forums',
 	'ACP_FORUM_LOGS'              => 'Historique du forum',
@@ -178,8 +173,6 @@ $lang = array_merge($lang, [
 	'ACP_SIGNATURE_SETTINGS'   => 'Paramètres des signatures',
 	'ACP_SMILIES'              => 'Émoticônes',
 
-	'ACP_STORAGE_SETTINGS' => 'Paramètres des espaces de stockage',
-
 	'ACP_STYLE_MANAGEMENT' => 'Gestion des styles',
 	'ACP_STYLES'           => 'Styles',
 	'ACP_STYLES_CACHE'     => 'Vider le cache',
@@ -237,16 +230,6 @@ $lang = array_merge($lang, [
 	'EXCEPTION'           => 'Exception',
 
 	'COLOUR_SWATCH' => 'Palette de couleurs internet',
-
-	'COMPOSER_UNSUPPORTED_OPERATION'  => 'Opération non supportée pour le type de paquet « %s ».',
-	'COMPOSER_UPDATING_DEPENDENCIES'  => 'Mise à jour des paquets',
-	'COMPOSER_LOADING_REPOSITORIES'   => 'Chargement des dépôts distants avec les informations sur les paquets',
-	'COMPOSER_ERROR_CONFLICT'         => 'Vos prérequis n’ont pas pu être réglés à un ensemble de paquets installable.',
-	'COMPOSER_REPOSITORY_UNAVAILABLE' => 'Une erreur est survenue lors de la récupération du dépôt « %s ».',
-	'COMPOSER_INSTALLING_PACKAGE'     => ' – Installation de %1$s (%2$s)',
-	'COMPOSER_DELETING'               => ' – Suppression de %s',
-	'COMPOSER_UPDATE_NOTHING'         => 'Aucune mise à jour disponible',
-	'COMPOSER_OUTPUT'                 => 'Commandes de Composer',
 
 	'CONFIG_UPDATED'    => 'La configuration a été mise à jour.',
 	'CRON_LOCK_ERROR'   => 'Impossible d’obtenir le verrouillage de « cron ».',
