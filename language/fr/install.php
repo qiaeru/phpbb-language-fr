@@ -69,11 +69,11 @@ $lang = array_merge($lang, [
 
 	<p>phpBB 3.3 est compatible avec les bases de données suivantes :</p>
 	<ul>
-		<li>MySQL 3.23+ (MySQLi pris en charge)</li>
-		<li>PostgreSQL 8.3+</li>
-		<li>SQLite 3.6.15+</li>
-		<li>MS SQL Server 2000+ (directement ou depuis ODBC)</li>
-		<li>MS SQL Server 2005+ (en natif)</li>
+		<li>MySQL 4.1.3 ou plus (MySQLi obligatoire)</li>
+		<li>PostgreSQL 8.3 ou plus</li>
+		<li>SQLite 3.6.15 ou plus</li>
+		<li>MS SQL Server 2000 ou plus (directement ou depuis ODBC)</li>
+		<li>MS SQL Server 2005 ou plus (en natif)</li>
 		<li>Oracle</li>
 	</ul>
 
