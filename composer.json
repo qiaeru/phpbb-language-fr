@@ -1,5 +1,5 @@
 {
-	"name": "milescellar/phpbb-language-fr",
+	"name": "qiaeru/phpbb-language-fr",
 	"description": "French language pack for phpBB 3.3",
 	"type": "phpbb-language",
 	"homepage": "https://www.phpbb.com/customise/db/translation/french/",
@@ -7,13 +7,13 @@
 	"license": "GPL-2.0-only",
 	"authors": [
 		{
-			"name": "Miles Cellar",
-			"email": "milescellar@protonmail.com"
+			"name": "Qiaeru",
+			"email": "qiaeru@protonmail.com"
 		}
 	],
 	"support": {
-		"issues": "https://github.com/milescellar/phpbb-language-fr/issues",
-		"source": "https://github.com/milescellar/phpbb-language-fr"
+		"issues": "https://github.com/qiaeru/phpbb-language-fr/issues",
+		"source": "https://github.com/qiaeru/phpbb-language-fr"
 	},
 	"require": {
 		"php": ">=7.1"
