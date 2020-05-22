@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [3.9.0](https://github.com/milescellar/phpbb-language-fr/compare/v3.8.0...3.9.0) - 2020-01-05
+## [3.9.0](https://github.com/qiaeru/phpbb-language-fr/compare/v3.8.0...3.9.0) - 2020-01-05
 
 ### Added
 
@@ -19,7 +19,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 
 - Some keys have been removed.
 
-## [3.8.0](https://github.com/milescellar/phpbb-language-fr/compare/v3.7.0...v3.8.0) - 2019-09-23
+## [3.8.0](https://github.com/qiaeru/phpbb-language-fr/compare/v3.7.0...v3.8.0) - 2019-09-23
 
 ### Added
 
@@ -34,13 +34,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 
 - Some keys have been removed.
 
-## [3.7.0](https://github.com/milescellar/phpbb-language-fr/compare/v3.6.0...v3.7.0) - 2019-05-05
+## [3.7.0](https://github.com/qiaeru/phpbb-language-fr/compare/v3.6.0...v3.7.0) - 2019-05-05
 
 ### Changed
 
 - The language pack is now compatible with [phpBB 3.2.7](https://download.phpbb.com/pub/release/3.2/3.2.7/).
 
-## [3.6.0](https://github.com/milescellar/phpbb-language-fr/compare/v3.5.0...v3.6.0) - 2019-05-01
+## [3.6.0](https://github.com/qiaeru/phpbb-language-fr/compare/v3.5.0...v3.6.0) - 2019-05-01
 
 ### Added
 
@@ -51,13 +51,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 - The language pack is now compatible with [phpBB 3.2.6](https://download.phpbb.com/pub/release/3.2/3.2.6/).
 - Several translations have been improved.
 
-## [3.5.0](https://github.com/milescellar/phpbb-language-fr/compare/v3.4.0...v3.5.0) - 2018-12-18
+## [3.5.0](https://github.com/qiaeru/phpbb-language-fr/compare/v3.4.0...v3.5.0) - 2018-12-18
 
 ### Changed
 
 - The language pack is now compatible with [phpBB 3.2.5](https://download.phpbb.com/pub/release/3.2/3.2.5/).
 
-## [3.4.0](https://github.com/milescellar/phpbb-language-fr/compare/v3.3.0...v3.4.0) - 2018-11-18
+## [3.4.0](https://github.com/qiaeru/phpbb-language-fr/compare/v3.3.0...v3.4.0) - 2018-11-18
 
 ### Added
 
@@ -72,7 +72,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 
 - Several keys have been removed.
 
-## [3.3.0](https://github.com/milescellar/phpbb-language-fr/compare/v3.2.0...v3.3.0) - 2018-09-13
+## [3.3.0](https://github.com/qiaeru/phpbb-language-fr/compare/v3.2.0...v3.3.0) - 2018-09-13
 
 ### Added
 
@@ -83,7 +83,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 - The language pack is now compatible with [phpBB 3.2.3](https://download.phpbb.com/pub/release/3.2/3.2.3/).
 - Several translations have been improved.
 
-## [3.2.0](https://github.com/milescellar/phpbb-language-fr/compare/v3.1.0...v3.2.0) - 2018-01-07
+## [3.2.0](https://github.com/qiaeru/phpbb-language-fr/compare/v3.1.0...v3.2.0) - 2018-01-07
 
 ### Added
 
@@ -101,7 +101,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 - Several self-closing slashes from [void elements](https://www.w3.org/TR/html5/syntax.html#void-elements) have been removed.
 - Some keys have been removed (this mainly concerns renaming).
 
-## [3.1.0](https://github.com/milescellar/phpbb-language-fr/compare/v3.0.0...v3.1.0) - 2017-07-17
+## [3.1.0](https://github.com/qiaeru/phpbb-language-fr/compare/v3.0.0...v3.1.0) - 2017-07-17
 
 ### Added
 
