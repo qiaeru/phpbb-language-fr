@@ -1,6 +1,6 @@
 # French Language Pack for [phpBB](https://www.phpbb.com/) 3.3
 
-[![Build Status](https://travis-ci.org/qiaeru/phpbb-language-fr.svg?branch=3.3.x)](https://travis-ci.org/qiaeru/phpbb-language-fr) [![StyleCI](https://styleci.io/repos/70081134/shield?style=flat&branch=3.3.x)](https://styleci.io/repos/70081134)
+[![Build Status](https://travis-ci.com/qiaeru/phpbb-language-fr.svg?branch=3.3.x)](https://travis-ci.com/qiaeru/phpbb-language-fr) [![StyleCI](https://styleci.io/repos/70081134/shield?style=flat&branch=3.3.x)](https://styleci.io/repos/70081134)
 
 French language pack to localise the phpBB 3.3 forum software.
 
