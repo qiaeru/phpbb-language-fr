@@ -4,6 +4,20 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased](https://github.com/qiaeru/phpbb-language-fr/compare/v3.9.0...master)
+
+### Added
+
+- Some keys have been added.
+
+### Changed
+
+- The language pack is now compatible with [phpBB 3.2.10](https://download.phpbb.com/pub/release/3.2/3.2.10/).
+
+### Removed
+
+- Some keys have been removed.
+
 ## [3.9.0](https://github.com/qiaeru/phpbb-language-fr/compare/v3.8.0...3.9.0) - 2020-01-05
 
 ### Added
