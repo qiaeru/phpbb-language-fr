@@ -509,13 +509,13 @@ $lang = array_merge($lang, [
 	'LOG_ACL_ADD_ADMIN_GLOBAL_A_' => '<strong>Ajout ou modification d’administrateurs</strong><br>» %s',
 	'LOG_ACL_ADD_MOD_GLOBAL_M_'   => '<strong>Ajout ou modification de modérateurs généraux</strong><br>» %s',
 
-	'LOG_ACL_ADD_USER_LOCAL_F_'  => '<strong>Ajout ou modification de l’accès des utilisateurs à un forum</strong> de %1$s<br>» %2$s',
-	'LOG_ACL_ADD_USER_LOCAL_M_'  => '<strong>Ajout ou modification de l’accès des modérateurs à un forum</strong> de %1$s<br>» %2$s',
-	'LOG_ACL_ADD_GROUP_LOCAL_F_' => '<strong>Ajout ou modification de l’accès des groupes d’utilisateurs à un forum</strong> de %1$s<br>» %2$s',
-	'LOG_ACL_ADD_GROUP_LOCAL_M_' => '<strong>Ajout ou modification de l’accès des groupes de modérateurs à un forum</strong> de %1$s<br>» %2$s',
+	'LOG_ACL_ADD_USER_LOCAL_F_'  => '<strong>Ajout ou modification de l’accès des utilisateurs à un forum</strong> à %1$s<br>» %2$s',
+	'LOG_ACL_ADD_USER_LOCAL_M_'  => '<strong>Ajout ou modification de l’accès des modérateurs à un forum</strong> à %1$s<br>» %2$s',
+	'LOG_ACL_ADD_GROUP_LOCAL_F_' => '<strong>Ajout ou modification de l’accès des groupes d’utilisateurs à un forum</strong> à %1$s<br>» %2$s',
+	'LOG_ACL_ADD_GROUP_LOCAL_M_' => '<strong>Ajout ou modification de l’accès des groupes de modérateurs à un forum</strong> à %1$s<br>» %2$s',
 
-	'LOG_ACL_ADD_MOD_LOCAL_M_'   => '<strong>Ajout ou modification de modérateurs</strong> de %1$s<br>» %2$s',
-	'LOG_ACL_ADD_FORUM_LOCAL_F_' => '<strong>Ajout ou modification des permissions d’un forum</strong> de %1$s<br>» %2$s',
+	'LOG_ACL_ADD_MOD_LOCAL_M_'   => '<strong>Ajout ou modification de modérateurs</strong> pour %1$s<br>» %2$s',
+	'LOG_ACL_ADD_FORUM_LOCAL_F_' => '<strong>Ajout ou modification des permissions d’un forum</strong> pour %1$s<br>» %2$s',
 
 	'LOG_ACL_DEL_ADMIN_GLOBAL_A_' => '<strong>Suppression d’administrateurs</strong><br>» %s',
 	'LOG_ACL_DEL_MOD_GLOBAL_M_'   => '<strong>Suppression de modérateurs généraux</strong><br>» %s',
