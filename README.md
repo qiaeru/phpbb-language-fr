@@ -10,6 +10,6 @@ Includes the following French locales compatible with:
 
 - [phpBB 3.3.0](https://github.com/phpbb/phpbb/releases/tag/release-3.3.0)
   - Bundled extension:
-    - [VigLink 1.0.5](https://github.com/phpbb-extensions/viglink/releases/tag/release-1.0.5)
+    - [VigLink](https://github.com/phpbb-extensions/viglink)
 
 Released under the GNU General Public License 2.0. Please see [the license terms](https://github.com/qiaeru/phpbb-language-fr/blob/3.3.x/language/fr/LICENSE).
