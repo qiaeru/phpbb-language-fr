@@ -178,7 +178,6 @@ $lang = array_merge($lang, [
 	'DEMOTE_SELECTED'            => 'Rétrograder la sélection',
 	'DISABLE_CENSORS'            => 'Activer la censure de mots',
 	'DISPLAY_GALLERY'            => 'Afficher la galerie',
-	'DOMAIN_NO_MX_RECORD_EMAIL'  => 'Le domaine de cette adresse de courriel ne contient pas d’enregistrement MX valide.',
 	'DOWNLOADS'                  => 'Téléchargements',
 	'DRAFTS_DELETED'             => 'Les brouillons ont été supprimés.',
 	'DRAFTS_EXPLAIN'             => 'Depuis cette page, vous pouvez consulter, modifier et supprimer les brouillons que vous avez préalablement enregistrés.',
