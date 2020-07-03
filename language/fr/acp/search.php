@@ -48,9 +48,11 @@ $lang = array_merge($lang, [
 	'CONTINUE_INDEXING_EXPLAIN'       => 'Un processus d’indexation de l’ancien index a été commencé. Vous devez terminer ou annuler ce dernier afin d’accéder à la page de l’index de la recherche.',
 	'CREATE_INDEX'                    => 'Créer un index',
 
-	'DELETE_INDEX'                       => 'Supprimer un index',
-	'DELETING_INDEX_IN_PROGRESS'         => 'Suppression de l’index.',
-	'DELETING_INDEX_IN_PROGRESS_EXPLAIN' => 'La méthode d’indexation de la recherche est actuellement en train de vider son index. Cela peut prendre quelques minutes.',
+	'DEFAULT_SEARCH_RETURN_CHARS'         => 'Nombre de caractères retournés par défaut',
+	'DEFAULT_SEARCH_RETURN_CHARS_EXPLAIN' => 'Le nombre de caractères par défaut qui sera renvoyé lors de la recherche. Une valeur définie sur « 0 » renverra l’ensemble du message.',
+	'DELETE_INDEX'                        => 'Supprimer un index',
+	'DELETING_INDEX_IN_PROGRESS'          => 'Suppression de l’index.',
+	'DELETING_INDEX_IN_PROGRESS_EXPLAIN'  => 'La méthode d’indexation de la recherche est actuellement en train de vider son index. Cela peut prendre quelques minutes.',
 
 	'FULLTEXT_MYSQL_INCOMPATIBLE_DATABASE'    => 'L’indexation plein texte de MySQL ne peut être utilisée qu’avec MySQL4 ou ses versions plus récentes.',
 	'FULLTEXT_MYSQL_NOT_SUPPORTED'            => 'Les indexations plein texte de MySQL ne peuvent être utilisées qu’avec les tables MyISAM ou InnoDB. MySQL 5.6.8 ou ses versions plus récentes sont obligatoires si vous souhaitez utiliser des indexations plein texte sur des tables InnoDB.',
