@@ -36,16 +36,40 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, [
-	'RECAPTCHA_LANG'          => 'fr', // Find the language/country code on https://developers.google.com/recaptcha/docs/language - If no code exists for your language you can use "en" or leave the string empty
-	'RECAPTCHA_NOT_AVAILABLE' => 'Vous devez créer un compte sur <a href="https://www.google.com/recaptcha">le site de reCAPTCHA</a> (en anglais) afin de pouvoir utiliser reCAPTCHA.',
-	'CAPTCHA_RECAPTCHA'       => 'reCAPTCHA',
-	'RECAPTCHA_INCORRECT'     => 'La vérification a échoué',
-	'RECAPTCHA_NOSCRIPT'      => 'Vous devez activer JavaScript dans votre navigateur afin de charger le formulaire.',
+	// Find the language/country code on https://developers.google.com/recaptcha/docs/language
+	// If no code exists for your language you can use "en" or leave the string empty
+	'RECAPTCHA_LANG'				=> 'fr',
 
-	'RECAPTCHA_PUBLIC'          => 'Clé du site',
-	'RECAPTCHA_PUBLIC_EXPLAIN'  => 'Votre clé de site sur reCAPTCHA. Les clés sont disponibles sur <a href="https://www.google.com/recaptcha">le site de reCAPTCHA</a> (en anglais). Veuillez utiliser le type de badge « Invisible reCAPTCHA » de reCAPTCHA v2.',
-	'RECAPTCHA_PRIVATE'         => 'Clé secrète',
-	'RECAPTCHA_PRIVATE_EXPLAIN' => 'Votre clé secrète sur reCAPTCHA. Les clés sont disponibles sur <a href="https://www.google.com/recaptcha">le site de reCAPTCHA</a> (en anglais). Veuillez utiliser le type de badge « Invisible reCAPTCHA » de reCAPTCHA v2.',
+	'CAPTCHA_RECAPTCHA'				=> 'reCaptcha v2',
+	'CAPTCHA_RECAPTCHA_V3'			=> 'reCaptcha v3',
 
-	'RECAPTCHA_INVISIBLE' => 'Ce CAPTCHA est actuellement invisible. Pour vérifier qu’il fonctionne correctement, une petite icône devrait apparaître dans le coin en bas à droite de cette page.',
+	'RECAPTCHA_INCORRECT'			=> 'La vérification a échoué',
+	'RECAPTCHA_NOSCRIPT'			=> 'Vous devez activer JavaScript dans votre navigateur internet afin de charger le formulaire.',
+	'RECAPTCHA_NOT_AVAILABLE'		=> 'Vous devez créer un compte sur <a href="https://www.google.com/recaptcha">le site internet de reCAPTCHA</a> (en anglais) afin de pouvoir utiliser reCAPTCHA.',
+	'RECAPTCHA_INVISIBLE'			=> 'Ce CAPTCHA est actuellement invisible. Pour vérifier qu’il fonctionne correctement, une petite icône devrait apparaître dans le coin situé en bas à droite de cette page.',
+
+	'RECAPTCHA_PUBLIC'				=> 'Clé du site',
+	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'Votre clé de site sur reCAPTCHA. Les clés peuvent être récupérées sur <a href="https://www.google.com/recaptcha">le site internet de reCAPTCHA</a> (en anglais). Veuillez utiliser le type de badge « Invisible reCAPTCHA » de reCAPTCHA v2.',
+	'RECAPTCHA_V3_PUBLIC_EXPLAIN'	=> 'Votre clé de site sur reCAPTCHA. Les clés peuvent être récupérées sur <a href="https://www.google.com/recaptcha">le site internet de reCAPTCHA</a> (en anglais). Veuillez utiliser reCAPTCHA v3.',
+	'RECAPTCHA_PRIVATE'				=> 'Clé secrète',
+	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'Votre clé secrète sur reCAPTCHA. Les clés peuvent être récupérées sur <a href="https://www.google.com/recaptcha">le site internet de reCAPTCHA</a> (en anglais). Veuillez utiliser le type de badge « Invisible reCAPTCHA » de reCAPTCHA v2.',
+	'RECAPTCHA_V3_PRIVATE_EXPLAIN'	=> 'Votre clé secrète sur reCAPTCHA. Les clés peuvent être récupérées sur <a href="https://www.google.com/recaptcha">le site internet de reCAPTCHA</a> (en anglais). Veuillez utiliser reCAPTCHA v3.',
+
+	'RECAPTCHA_V3_DOMAIN'				=> 'Domaine de requête',
+	'RECAPTCHA_V3_DOMAIN_EXPLAIN'		=> 'Le domaine à utiliser pour récupérer le script lors de la vérification de la requête.<br>Veuillez utiliser <samp>recaptcha.net</samp> lorsque <samp>google.com</samp> n’est pas accessible.',
+
+	'RECAPTCHA_V3_METHOD'				=> 'Méthode de requête',
+	'RECAPTCHA_V3_METHOD_EXPLAIN'		=> 'La méthode à utiliser lors de la vérification de la requête.<br>Les options désactivées ne sont pas disponibles pour votre configuration.',
+	'RECAPTCHA_V3_METHOD_CURL'			=> 'cURL',
+	'RECAPTCHA_V3_METHOD_POST'			=> 'POST',
+	'RECAPTCHA_V3_METHOD_SOCKET'		=> 'Socket',
+
+	'RECAPTCHA_V3_THRESHOLD_DEFAULT'			=> 'Seuil par défaut',
+	'RECAPTCHA_V3_THRESHOLD_DEFAULT_EXPLAIN'	=> 'Seuil utilisé lorsqu’aucune autre action n’est applicable.',
+	'RECAPTCHA_V3_THRESHOLD_LOGIN'				=> 'Seuil de connexion',
+	'RECAPTCHA_V3_THRESHOLD_POST'				=> 'Seuil de publication',
+	'RECAPTCHA_V3_THRESHOLD_REGISTER'			=> 'Seuil d’inscription',
+	'RECAPTCHA_V3_THRESHOLD_REPORT'				=> 'Seuil de rapport',
+	'RECAPTCHA_V3_THRESHOLDS'					=> 'Seuils',
+	'RECAPTCHA_V3_THRESHOLDS_EXPLAIN'			=> 'reCAPTCHA v3 renvoie un score (<samp>1.0</samp> est très probablement une bonne interaction alors que <samp>0.0</samp> est très probablement un robot). Vous pouvez configurer ici le score minimum par action.',
 ]);

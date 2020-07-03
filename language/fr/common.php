@@ -306,7 +306,6 @@ $lang = array_merge($lang, [
 	'GB'                  => 'Go',
 	'GIB'                 => 'Gio',
 	'GO'                  => 'Aller',
-	'GOOGLEPLUS'          => 'Google+',
 	'GOTO_FIRST_POST'     => 'Aller au premier message',
 	'GOTO_LAST_POST'      => 'Aller au dernier message',
 	'GOTO_PAGE'           => 'Aller à la page',

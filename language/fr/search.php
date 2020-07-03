@@ -82,11 +82,12 @@ $lang = array_merge($lang, [
 	'POST_CHARACTERS'        => 'caractères des messages',
 	'PHRASE_SEARCH_DISABLED' => 'La recherche par phrase exacte n’est pas prise en charge sur ce forum.',
 
-	'RECENT_SEARCHES'  => 'Recherches récentes',
-	'RESULT_DAYS'      => 'Limiter les résultats selon leur ancienneté',
-	'RESULT_SORT'      => 'Trier les résultats par',
-	'RETURN_FIRST'     => 'Afficher seulement les premiers',
-	'GO_TO_SEARCH_ADV' => 'Aller sur la recherche avancée',
+	'RECENT_SEARCHES'      => 'Recherches récentes',
+	'RESULT_DAYS'          => 'Limiter les résultats selon leur ancienneté',
+	'RESULT_SORT'          => 'Trier les résultats par',
+	'RETURN_FIRST'         => 'Afficher seulement les premiers',
+	'RETURN_FIRST_EXPLAIN' => 'Saisissez « 0 » pour afficher le message dans son intégralité.',
+	'GO_TO_SEARCH_ADV'     => 'Aller sur la recherche avancée',
 
 	'SEARCHED_FOR'             => 'Rechercher les termes utilisés',
 	'SEARCHED_TOPIC'           => 'Sujet recherché',

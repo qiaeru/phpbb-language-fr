@@ -4,6 +4,10 @@ Bonjour {USERNAME},
 
 Félicitations. La réception de ce courriel signifie que la messagerie électronique de phpBB est correctement configurée.
 
+<!-- IF MESSAGE -->
+{MESSAGE}
+
+<!-- ENDIF -->
 Dans le cas où vous auriez besoin d’aide, veuillez vous rendre sur nos forums d’assistance – https://www.phpbb.com/community/ (en anglais)
 
 {EMAIL_SIG}
