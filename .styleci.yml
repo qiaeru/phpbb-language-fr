@@ -3,7 +3,6 @@ preset: symfony
 risky: false
 
 disabled:
-  - braces
   - indentation
   - phpdoc_summary
   - phpdoc_to_comment
