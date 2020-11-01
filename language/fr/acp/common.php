@@ -237,6 +237,7 @@ $lang = array_merge($lang, [
 	'CRON_NO_SUCH_TASK' => 'La tâche cron « %s » est introuvable.',
 	'CRON_NO_TASK'      => 'Aucune tâche « cron » ne doit être exécutée.',
 	'CRON_NO_TASKS'     => 'Aucune tâche « cron » n’est disponible.',
+	'CSV_INVALID'       => 'Le paramètre spécifié « %1$s », séparé par des virgules, est invalide. Les valeurs ne doivent être délimitées que par une virgule et ne doivent pas contenir de délimiteurs de début ou de fin.',
 	'CURRENT_VERSION'   => 'Version actuelle',
 
 	'DEACTIVATE'               => 'Désactiver',
@@ -318,6 +319,7 @@ $lang = array_merge($lang, [
 
 	'UCP'                => 'Panneau de contrôle de l’utilisateur',
 	'URL_INVALID'        => 'L’adresse spécifiée concernant le paramètre « %1$s » est invalide.',
+	'URL_SCHEME_INVALID' => 'Le schéma spécifié « %2$s » dans le paramètre « %1$s » séparé par des virgules est invalide. Le schéma doit commencer par un caractère latin suivi de caractères alphanumériques, de tirets ou de points.',
 	'USERNAMES_EXPLAIN'  => 'Veuillez insérer chaque nom d’utilisateur sur une nouvelle ligne.',
 	'USER_CONTROL_PANEL' => 'Panneau de contrôle de l’utilisateur',
 

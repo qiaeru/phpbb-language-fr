@@ -1,0 +1,13 @@
+Subject: Votre rapport de message privé a été clôturé – « {SUBJECT} »
+
+Bonjour {USERNAME},
+
+Vous recevez cette notification car le rapport que vous avez rempli sur le message privé « {SUBJECT} » rédigé par « {AUTHOR_NAME} » dans « {TOPIC_TITLE} » sur « {SITENAME} » a été vérifié par un modérateur ou un administrateur. Le rapport a alors été clôturé. Si vous souhaitez avoir plus d’informations à ce sujet, veuillez contacter {CLOSER_NAME} par message privé.
+
+Vous pouvez consulter le message privé que vous avez rapporté en cliquant sur le lien suivant :
+
+{U_VIEW_MESSAGE}
+
+Vous avez demandé à être notifié lors de cet événement. Sachez que vous pouvez choisir de ne plus recevoir de notifications lors de la clôture de messages privés en modifiant les paramètres de votre profil.
+
+{EMAIL_SIG}

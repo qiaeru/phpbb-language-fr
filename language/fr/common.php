@@ -44,7 +44,7 @@ $lang = array_merge($lang, [
 	'USER_LANG'        => 'fr',
 
 	// You can define different rules for the determination of plural forms here.
-	// See https://area51.phpbb.com/docs/dev/32x/language/plurals.html for more information
+	// See https://area51.phpbb.com/docs/dev/3.3.x/language/plurals.html for more information
 	// or ask the translation manager for help.
 	'PLURAL_RULE' => 2,
 
@@ -106,6 +106,8 @@ $lang = array_merge($lang, [
 	'AVATAR_NOT_UPLOADED'                                => 'Une erreur est survenue lors du transfert de l’avatar.',
 	'AVATAR_NO_TEMP_DIR'                                 => 'Le répertoire temporaire est introuvable ou est en lecture seule.',
 	'AVATAR_NO_SIZE'                                     => 'La taille de l’avatar lié n’a pas pu être détectée automatiquement. Veuillez la saisir manuellement.',
+	'AVATAR_NO_UPLOAD_DIR'                               => 'Le chemin de stockage de l’avatar n’existe pas ou est en lecture seule.',
+	'AVATAR_NO_UPLOAD_PATH'                              => 'Le transfert d’avatars est bien activé mais le chemin de stockage de l’avatar n’a pas été spécifié.',
 	'AVATAR_PARTIAL_UPLOAD'                              => 'Le fichier que vous avez spécifié n’a pas été totalement transféré.',
 	'AVATAR_PHP_SIZE_NA'                                 => 'La taille de l’avatar est trop importante.<br>La taille maximale autorisée, située dans le fichier « php.ini », n’a pas pu être détectée.',
 	'AVATAR_PHP_SIZE_OVERRUN'                            => 'La taille de l’avatar est trop importante. La taille maximale autorisée est de %1$d %2$s.<br>Veuillez noter que cette valeur est située dans le fichier « php.ini » et qu’elle ne peut pas être remplacée.',
@@ -488,6 +490,7 @@ $lang = array_merge($lang, [
 	'NOTIFICATION_REFERENCE'           => '« %1$s »',
 	'NOTIFICATION_REASON'              => '<em>Raison :</em> %1$s.',
 	'NOTIFICATION_REPORT_PM'           => '<strong>Rapport d’un message privé</strong> par %1$s :',
+	'NOTIFICATION_REPORT_PM_CLOSED'    => '<strong>Rapport d’un message privé clôturé</strong> par %1$s :',
 	'NOTIFICATION_REPORT_POST'         => '<strong>Rapport d’un message</strong> par %1$s :',
 	'NOTIFICATION_REPORT_CLOSED'       => '<strong>Clôture d’un rapport</strong> par %1$s pour :',
 	'NOTIFICATION_TOPIC'               => '<strong>Publication d’un sujet</strong> par %1$s :',
