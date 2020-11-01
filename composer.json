@@ -3,7 +3,7 @@
 	"description": "French language pack for phpBB 3.3",
 	"type": "phpbb-language",
 	"homepage": "https://www.phpbb.com/customise/db/translation/french/",
-	"version": "4.1.0",
+	"version": "4.2.0-rc1",
 	"license": "GPL-2.0-only",
 	"authors": [
 		{
@@ -26,6 +26,6 @@
 		"language-iso": "fr",
 		"english-name": "French",
 		"local-name": "Français",
-		"phpbb-version": "3.3.1"
+		"phpbb-version": "3.3.2-rc1"
 	}
 }
