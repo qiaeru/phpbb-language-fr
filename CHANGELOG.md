@@ -14,6 +14,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 ### Changed
 
 - The language pack is now compatible with [phpBB 3.3.2](https://github.com/phpbb/phpbb/releases/tag/release-3.3.2).
+- A key have been improved, thanks to [JusticeRage](https://github.com/JusticeRage)
 
 ## [4.1.0](https://github.com/qiaeru/phpbb-language-fr/compare/v4.0.0...v4.1.0) - 2020-08-08
 
