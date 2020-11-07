@@ -9,7 +9,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 ### Changed
 
 - The language pack is now compatible with [phpBB 3.2.11](https://github.com/phpbb/phpbb/releases/tag/release-3.2.11).
-- A key have been improved, thanks to @JusticeRage
+- A key have been improved, thanks to [JusticeRage](https://github.com/JusticeRage)
 
 ## [3.10.0](https://github.com/qiaeru/phpbb-language-fr/compare/v3.9.0...3.10.0) - 2020-08-08
 
