@@ -73,4 +73,5 @@ $lang = array_merge($lang, [
 	'RECAPTCHA_V3_THRESHOLD_REPORT'				=> 'Seuil de rapport',
 	'RECAPTCHA_V3_THRESHOLDS'					=> 'Seuils',
 	'RECAPTCHA_V3_THRESHOLDS_EXPLAIN'			=> 'reCAPTCHA v3 renvoie un score (<samp>1.0</samp> est très probablement une bonne interaction alors que <samp>0.0</samp> est très probablement un robot). Vous pouvez configurer ici le score minimum par action.',
+	'EMPTY_RECAPTCHA_V3_REQUEST_METHOD'			=> 'reCAPTCHA v3 a besoin de connaître la méthode disponible que vous souhaitez utiliser pour vérifier la requête.',
 ]);

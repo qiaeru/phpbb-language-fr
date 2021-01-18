@@ -373,9 +373,11 @@ $lang = array_merge($lang, [
 	'ERROR_MBSTRING_ENCODING_TRANSLATION'         => 'L’encodage des caractères transparents n’est pas correctement configuré',
 	'ERROR_MBSTRING_ENCODING_TRANSLATION_EXPLAIN' => 'La variable « mbstring.encoding_translation » doit être réglée sur « 0 ». Vous pouvez consulter la valeur actuelle sur la page « Informations sur PHP ».',
 	'ERROR_MBSTRING_HTTP_INPUT'                   => 'La conversion des caractères d’entrée HTTP n’est pas correctement configurée',
-	'ERROR_MBSTRING_HTTP_INPUT_EXPLAIN'           => 'La variable « mbstring.http_input » doit être paramétrée sur « pass ». Vous pouvez consulter la valeur actuelle sur la page « Informations sur PHP ».',
+	'ERROR_MBSTRING_HTTP_INPUT_EXPLAIN'           => 'La variable « mbstring.http_input » doit être laissée vide. Vous pouvez consulter la valeur actuelle sur la page « Informations sur PHP ».',
 	'ERROR_MBSTRING_HTTP_OUTPUT'                  => 'La conversion des caractères de sortie HTTP n’est pas correctement configurée',
-	'ERROR_MBSTRING_HTTP_OUTPUT_EXPLAIN'          => 'La variable « mbstring.http_output » doit être paramétrée sur « pass ». Vous pouvez consulter la valeur actuelle sur la page « Informations sur PHP ».',
+	'ERROR_MBSTRING_HTTP_OUTPUT_EXPLAIN'          => 'La variable « mbstring.http_output » doit être laissée vide. Vous pouvez consulter la valeur actuelle sur la page « Informations sur PHP ».',
+	'ERROR_DEFAULT_CHARSET'                       => 'Le jeu de caractères par défaut est mal configuré',
+	'ERROR_DEFAULT_CHARSET_EXPLAIN'               => 'La variable « default_charset » doit être réglée sur « UTF-8 ». Vous pouvez consulter la valeur actuelle sur la page « Informations sur PHP ».',
 
 	'FILES_PER_DAY' => 'Moyenne de pièces jointes par jour',
 	'FORUM_STATS'   => 'Statistiques du forum',
