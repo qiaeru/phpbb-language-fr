@@ -91,6 +91,7 @@ $lang = array_merge($lang, [
 	'AUTH_PROVIDER_OAUTH_ERROR_INVALID_ENTRY'            => 'L’entrée de la base de données est invalide.',
 	'AUTH_PROVIDER_OAUTH_ERROR_INVALID_SERVICE_TYPE'     => 'Le type de service spécifié dans le gestionnaire de service OAuth est invalide.',
 	'AUTH_PROVIDER_OAUTH_ERROR_REQUEST'                  => 'Une erreur est survenue lors du traitement de votre requête OAuth.',
+	'AUTH_PROVIDER_OAUTH_RETURN_ERROR'                   => 'Le service extérieur a renvoyé une valeur erronée. Votre requête ne peut donc pas être traitée.',
 	'AUTH_PROVIDER_OAUTH_ERROR_SERVICE_NOT_CREATED'      => 'Le service OAuth n’a pas été créé',
 	'AUTH_PROVIDER_OAUTH_SERVICE_BITLY'                  => 'Bitly',
 	'AUTH_PROVIDER_OAUTH_SERVICE_FACEBOOK'               => 'Facebook',
