@@ -20,17 +20,15 @@ jobs:
         uses: nanasess/setup-php@master
         with:
           php-version: ${{ matrix.php }}
-      - name: Setup and download default language
-        run: |
-          mkdir -p $PHPBB_VERSION/$PHPBB_LANGUAGE
-          mkdir -p $PHPBB_VERSION/en/language
-          mkdir -p $PHPBB_VERSION/en/styles/prosilver/theme
-          mv language $PHPBB_VERSION/$PHPBB_LANGUAGE
-          mv styles $PHPBB_VERSION/$PHPBB_LANGUAGE
-          git clone "https://github.com/phpbb/phpbb.git" --branch=$PHPBB_BRANCH
-          mv phpbb/phpBB/language/en $PHPBB_VERSION/en/language
-          mv phpbb/phpBB/styles/prosilver/theme/en $PHPBB_VERSION/en/styles/prosilver/theme
-          mv phpbb/phpBB/styles/prosilver/theme/en $PHPBB_VERSION/en/styles/prosilver/theme
+      - run: mkdir -p $PHPBB_VERSION/$PHPBB_LANGUAGE
+      - run: mkdir -p $PHPBB_VERSION/en/language
+      - run: mkdir -p $PHPBB_VERSION/en/styles/prosilver/theme
+      - run: mv language $PHPBB_VERSION/$PHPBB_LANGUAGE
+      - run: mv styles $PHPBB_VERSION/$PHPBB_LANGUAGE
+      - run: git clone "https://github.com/phpbb/phpbb.git" --branch=$PHPBB_BRANCH
+      - run: mv phpbb/phpBB/language/en $PHPBB_VERSION/en/language
+      - run: mv phpbb/phpBB/styles/prosilver/theme/en $PHPBB_VERSION/en/styles/prosilver/theme
+      - run: mv phpbb/phpBB/styles/prosilver/theme/en $PHPBB_VERSION/en/styles/prosilver/theme
       - name: Install dependencies
         run: composer install --prefer-dist --no-interaction --no-progress
       - name: Check validator version
