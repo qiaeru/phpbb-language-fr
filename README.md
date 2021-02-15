@@ -5,7 +5,7 @@
 French language pack to localise the phpBB 3.3 forum software.
 
 ## Informations
-https://github.com/geerlingguy/ansible-role-apache/actions?query=workflow%3ACI
+
 Includes the following French locales compatible with:
 
 - [phpBB 3.3.3](https://github.com/phpbb/phpbb/releases/tag/release-3.3.3)
