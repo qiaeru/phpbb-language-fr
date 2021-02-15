@@ -1,15 +1,5 @@
 name: Validation
-on:
-  push:
-    branches:
-      - master
-      - 3.3.x
-      - 3.2.x
-  pull_request:
-    branches:
-      - master
-      - 3.3.x
-      - 3.2.x
+on: push
 jobs:
   build:
     runs-on: ubuntu-latest
