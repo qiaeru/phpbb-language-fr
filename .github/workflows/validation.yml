@@ -1,0 +1,50 @@
+name: Validation
+on:
+  push:
+    branches:
+      - master
+      - 3.3.x
+      - 3.2.x
+  pull_request:
+    branches:
+      - master
+      - 3.3.x
+      - 3.2.x
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        php: [ '7.1', '7.2', '7.3', '7.4', '8.0' ]
+    name: Build with PHP ${{ matrix.php }}
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@master
+      - name: Validate Composer
+        run: composer validate
+      - name: Setup PHP
+        uses: nanasess/setup-php@master
+        with:
+          php-version: ${{ matrix.php }}
+      - name: Setup environment
+        env:
+          PHPBB_BRANCH: 3.3.x
+          PHPBB_VERSION: 3.3
+          PHPBB_LANGUAGE: fr
+      - name: Setup and download default language
+        run: |
+          mkdir -p $PHPBB_VERSION/$PHPBB_LANGUAGE
+          mkdir -p $PHPBB_VERSION/en/language
+          mkdir -p $PHPBB_VERSION/en/styles/prosilver/theme
+          mv language $PHPBB_VERSION/$PHPBB_LANGUAGE
+          mv styles $PHPBB_VERSION/$PHPBB_LANGUAGE
+          git clone "https://github.com/phpbb/phpbb.git" --branch=$PHPBB_BRANCH
+          mv phpbb/phpBB/language/en $PHPBB_VERSION/en/language
+          mv phpbb/phpBB/styles/prosilver/theme/en $PHPBB_VERSION/en/styles/prosilver/theme
+          mv phpbb/phpBB/styles/prosilver/theme/en $PHPBB_VERSION/en/styles/prosilver/theme
+      - name: Install dependencies
+        run: composer install --prefer-dist --no-interaction --no-progress
+      - name: Check validator version
+        run: php vendor/bin/translation.php --version
+      - name: Run validator
+        run: php vendor/bin/translation.php validate $PHPBB_LANGUAGE --phpbb-version=$PHPBB_VERSION --display-notices
