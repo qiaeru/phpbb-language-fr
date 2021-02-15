@@ -16,10 +16,10 @@ jobs:
     strategy:
       matrix:
         php: [ '7.1', '7.2', '7.3', '7.4', '8.0' ]
-      env:
-        PHPBB_BRANCH: 3.3.x
-        PHPBB_VERSION: 3.3
-        PHPBB_LANGUAGE: fr
+    env:
+      PHPBB_BRANCH: 3.3.x
+      PHPBB_VERSION: 3.3
+      PHPBB_LANGUAGE: fr
     name: Build with PHP ${{ matrix.php }}
     steps:
       - name: Checkout code
