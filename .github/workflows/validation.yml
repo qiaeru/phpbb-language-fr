@@ -20,22 +20,22 @@ jobs:
         uses: nanasess/setup-php@master
         with:
           php-version: ${{ matrix.php }}
-      - name: Setup directories
+      - name: Create directories
         run: |
           mkdir -p $PHPBB_VERSION/$PHPBB_LANGUAGE
           mkdir -p $PHPBB_VERSION/en/language
           mkdir -p $PHPBB_VERSION/en/styles/prosilver/theme
-      - name: Download files
+      - name: Download phpBB
         run: git clone "https://github.com/phpbb/phpbb.git" --branch=$PHPBB_BRANCH
-      - name: Move directories
+      - name: Move files and directories
         run: |
           mv language $PHPBB_VERSION/$PHPBB_LANGUAGE
           mv styles $PHPBB_VERSION/$PHPBB_LANGUAGE
           mv phpbb/phpBB/language/en $PHPBB_VERSION/en/language
           mv phpbb/phpBB/styles/prosilver/theme/en $PHPBB_VERSION/en/styles/prosilver/theme
-      - name: Install dependencies
+      - name: Install the translation validator
         run: composer install --prefer-dist --no-interaction --no-progress
-      - name: Check validator version
+      - name: Display the version of the translation validator
         run: php vendor/bin/translation.php --version
-      - name: Run validator
+      - name: Run the translation validator
         run: php vendor/bin/translation.php validate $PHPBB_LANGUAGE --phpbb-version=$PHPBB_VERSION --display-notices
