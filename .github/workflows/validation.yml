@@ -43,5 +43,3 @@ jobs:
         uses: nathane/styleci-action@latest
         with:
           styleci_api_key: ${{ secrets.STYLECI_API_KEY }}
-          # options: '--no-interaction --dry-run'         # optional
-          # directory: './'                               # optional
