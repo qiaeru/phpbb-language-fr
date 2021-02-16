@@ -39,3 +39,9 @@ jobs:
         run: php vendor/bin/translation.php --version
       - name: Run validator
         run: php vendor/bin/translation.php validate $PHPBB_LANGUAGE --phpbb-version=$PHPBB_VERSION --display-notices
+      - name: Analyze code with StyleCI
+        uses: nathane/styleci-action@latest
+        with:
+          styleci_api_key: ${{ secrets.STYLECI_API_KEY }}
+          # options: '--no-interaction --dry-run'         # optional
+          # directory: './'                               # optional
