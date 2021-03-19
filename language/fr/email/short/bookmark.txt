@@ -1,20 +1,13 @@
-Subject: Notification de réponse à un sujet – « {TOPIC_TITLE} »
+Subject: Publication d’une nouvelle réponse dans « {TOPIC_TITLE} »
 
 Bonjour {USERNAME},
 
-Vous recevez cette notification car le sujet que vous avez ajouté aux favoris, « {TOPIC_TITLE} » sur « {SITENAME} », a reçu une réponse depuis votre dernière visite. Vous pouvez utiliser le lien suivant afin de consulter les réponses qui ont été publiées, aucune nouvelle notification ne vous sera envoyée jusqu’à ce que vous visitiez le sujet.
+Depuis votre dernière visite sur « {SITENAME} », une nouvelle réponse a été publiée dans le sujet « {TOPIC_TITLE} » que vous avez ajouté aux favoris. Aucune nouvelle notification ne vous sera envoyée jusqu’à ce que vous visitiez le sujet.
 
 Si vous souhaitez consulter le nouveau message publié depuis votre dernière visite, veuillez cliquer sur le lien suivant :
 {U_NEWEST_POST}
 
-Si vous souhaitez consulter le sujet, veuillez cliquer sur le lien suivant :
-{U_TOPIC}
-
-Si vous souhaitez consulter le forum, veuillez cliquer sur le lien suivant :
-{U_FORUM}
-
 Si vous ne souhaitez plus recevoir de notifications lorsqu’un utilisateur répond à un sujet que vous avez ajouté aux favoris, vous pouvez configurer les paramètres de notification sur le lien suivant :
-
 {U_NOTIFICATION_SETTINGS}
 
 {EMAIL_SIG}

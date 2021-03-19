@@ -1,8 +1,8 @@
-Subject: Notification de modération d’un sujet – « {TOPIC_TITLE} »
+Subject: Un sujet est en attente d’approbation – « {TOPIC_TITLE} »
 
 Bonjour {USERNAME},
 
-Vous recevez cette notification car le sujet « {TOPIC_TITLE} » sur « {SITENAME} » est en attente d’approbation.
+Le sujet « {TOPIC_TITLE} » sur « {SITENAME} » est en attente d’approbation.
 
 Si vous souhaitez consulter le sujet, veuillez cliquer sur le lien suivant :
 {U_VIEW_TOPIC}

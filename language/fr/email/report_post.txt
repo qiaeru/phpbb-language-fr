@@ -1,8 +1,8 @@
-Subject: Rapport de message – « {TOPIC_TITLE} »
+Subject: Message rapporté – « {TOPIC_TITLE} »
 
 Bonjour {USERNAME},
 
-Vous recevez cette notification car le message « {POST_SUBJECT} » sur « {SITENAME} » a été rapporté.
+Le message « {POST_SUBJECT} » sur « {SITENAME} » a été rapporté.
 
 Si vous souhaitez consulter le rapport, veuillez cliquer sur le lien suivant :
 {U_VIEW_REPORT}

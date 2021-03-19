@@ -2,6 +2,6 @@ Subject: Votre rapport a été supprimé – « {PM_SUBJECT} »
 
 Bonjour {USERNAME},
 
-Vous recevez cette notification car votre rapport concernant le message privé « {PM_SUBJECT} » sur « {SITENAME} » a été supprimé par un modérateur ou un administrateur.
+Le rapport que vous avez rédigé concernant le message privé « {PM_SUBJECT} » sur « {SITENAME} » a été supprimé par un modérateur ou un administrateur.
 
 {EMAIL_SIG}

@@ -2,6 +2,6 @@ Subject: Votre rapport a été clôturé – « {PM_SUBJECT} »
 
 Bonjour {USERNAME},
 
-Vous recevez cette notification car votre rapport concernant le message privé « {PM_SUBJECT} » sur « {SITENAME} » a été traité par un modérateur ou un administrateur. Le rapport est à présent clôturé. Si vous souhaitez obtenir plus d’informations, veuillez contacter {CLOSER_NAME} par message privé.
+Le rapport que vous avez rédigé concernant le message privé « {PM_SUBJECT} » sur « {SITENAME} » a été traité par un modérateur ou un administrateur et est à présent clôturé. Pour plus d’informations, veuillez contacter {CLOSER_NAME} par message privé.
 
 {EMAIL_SIG}

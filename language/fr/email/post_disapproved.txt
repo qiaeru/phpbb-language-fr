@@ -2,7 +2,7 @@ Subject: Votre message a été désapprouvé – « {POST_SUBJECT} »
 
 Bonjour {USERNAME},
 
-Vous recevez cette notification car votre message « {POST_SUBJECT} » sur « {SITENAME} » a été désapprouvé par un modérateur ou un administrateur.
+Votre message « {POST_SUBJECT} » sur « {SITENAME} » a été désapprouvé par un modérateur ou un administrateur.
 
 La raison suivante a été prononcée concernant la désapprobation :
 

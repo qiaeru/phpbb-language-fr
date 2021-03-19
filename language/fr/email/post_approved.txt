@@ -2,7 +2,7 @@ Subject: Votre message a été approuvé – « {POST_SUBJECT} »
 
 Bonjour {USERNAME},
 
-Vous recevez cette notification car votre message « {POST_SUBJECT} » sur « {SITENAME} » a été approuvé par un modérateur ou un administrateur.
+Votre message « {POST_SUBJECT} » sur « {SITENAME} » a été approuvé par un modérateur ou un administrateur.
 
 Si vous souhaitez consulter le message, veuillez cliquer sur le lien suivant :
 {U_VIEW_POST}

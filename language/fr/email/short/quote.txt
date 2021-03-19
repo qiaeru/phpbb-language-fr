@@ -2,19 +2,12 @@ Subject: Notification de réponse à un sujet – « {TOPIC_TITLE} »
 
 Bonjour {USERNAME},
 
-Vous recevez cette notification car « {AUTHOR_NAME} » vous a cité dans le sujet « {TOPIC_TITLE} » sur « {SITENAME} ». Vous pouvez utiliser le lien suivant afin de consulter la réponse rédigée.
+« {AUTHOR_NAME} » vous a cité dans le sujet « {TOPIC_TITLE} » sur « {SITENAME} ».
 
 Si vous souhaitez consulter le message cité, veuillez cliquer sur le lien suivant :
 {U_VIEW_POST}
 
-Si vous souhaitez consulter le sujet, veuillez cliquer sur le lien suivant :
-{U_TOPIC}
-
-Si vous souhaitez consulter le forum, veuillez cliquer sur le lien suivant :
-{U_FORUM}
-
 Si vous ne souhaitez plus recevoir de notifications lorsqu’un utilisateur vous cite, vous pouvez configurer les paramètres de notification sur le lien suivant :
-
 {U_NOTIFICATION_SETTINGS}
 
 {EMAIL_SIG}

@@ -1,8 +1,8 @@
-Subject: Rapport de message privé – « {SUBJECT} »
+Subject: Message privé rapporté – « {SUBJECT} »
 
 Bonjour {USERNAME},
 
-Vous recevez cette notification car un message privé intitulé « {SUBJECT} » publié par « {AUTHOR_NAME} » sur « {SITENAME} » a été rapporté.
+Un message privé intitulé « {SUBJECT} » publié par « {AUTHOR_NAME} » sur « {SITENAME} » a été rapporté.
 
 Si vous souhaitez consulter le rapport, veuillez cliquer sur le lien suivant :
 {U_VIEW_REPORT}
