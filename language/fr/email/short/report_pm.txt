@@ -1,4 +1,4 @@
-Subject: Message privé rapporté – « {TOPIC_TITLE} »
+Subject: Message privé rapporté – « {SUBJECT} »
 
 Bonjour {USERNAME},
 

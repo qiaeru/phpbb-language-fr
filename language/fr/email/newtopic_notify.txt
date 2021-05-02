@@ -3,7 +3,7 @@ List-Unsubscribe: <{U_STOP_WATCHING_FORUM}>
 
 Bonjour {USERNAME},
 
-Depuis votre dernière visite sur « {SITENAME} », un nouveau sujet a été publié<!-- IF AUTHOR_NAME != '' --> par {AUTHOR_NAME}<!-- ENDIF --> dans le forum « {FORUM_NAME} ». Aucune nouvelle notification ne vous sera envoyée jusqu’à ce que vous visitiez le forum.
+Depuis votre dernière visite sur « {SITENAME} », un nouveau sujet intitulé « {TOPIC_TITLE} » a été publié<!-- IF AUTHOR_NAME != '' --> par {AUTHOR_NAME}<!-- ENDIF --> dans le forum « {FORUM_NAME} ». Aucune nouvelle notification ne vous sera envoyée jusqu’à ce que vous visitiez le forum.
 {U_FORUM}
 
 Si vous souhaitez consulter ce nouveau sujet, veuillez cliquer sur le lien suivant :
