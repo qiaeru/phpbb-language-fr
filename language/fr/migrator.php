@@ -77,5 +77,6 @@ $lang = array_merge($lang, [
 	'PARENT_MODULE_FIND_ERROR' => 'Impossible de déterminer l’identifiant du module parent « %s »',
 	'PERMISSION_NOT_EXIST'     => 'Le paramètre de permission « %s » est introuvable.',
 
-	'ROLE_NOT_EXIST' => 'Le rôle de permission « %s » est introuvable.',
+	'ROLE_ASSIGNED_NOT_EXIST' => 'Le rôle de permission attribué au groupe « %1$s » n’existe pas. Identifiant du rôle : « %2$s »',
+	'ROLE_NOT_EXIST'          => 'Le rôle de permission « %s » est introuvable.',
 ]);
