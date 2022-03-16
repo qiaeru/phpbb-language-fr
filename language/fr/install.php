@@ -357,7 +357,7 @@ $lang = array_merge($lang, [
 		<br>
 
 		<h1>Mettre à jour votre installation avec l’archive complète</h1>
-		<p>Il est recommandé de mettre à jour votre forum en utilisant l’archive complète. Néanmoins, si les fichiers systèmes de phpBB ont été modifiés sur votre installation, il est préférable d’utiliser l’archive de mise à jour automatique afin de préserver les modifications apportées. Vous pouvez également mettre à jour votre installation en utilisant des méthodes alternatives listées dans le document « INSTALL.html ». Les étapes pour mettre à jour phpBB 3.3 en utilisant l’archive complète sont :</p>
+		<p>Il est recommandé de mettre à jour votre forum en utilisant l’archive complète. Néanmoins, si les fichiers systèmes de phpBB ont été modifiés sur votre installation, il est préférable d’utiliser l’archive de mise à jour avancée afin de préserver les modifications apportées. Vous pouvez également mettre à jour votre installation en utilisant des méthodes alternatives listées dans le document « INSTALL.html ». Les étapes pour mettre à jour phpBB 3.3 en utilisant l’archive complète sont :</p>
 		<ol style="margin-left: 20px; font-size: 1.1em;">
 			<li><strong class="error">Sauvegardez les fichiers et la base de données de votre forum.</strong></li>
 			<li>Accédez à <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">la page des téléchargements</a> (en anglais) et téléchargez la dernière version de l’archive complète.</li>
@@ -377,12 +377,12 @@ $lang = array_merge($lang, [
 			<li>Mettre à jour votre style<br><br></li>
 		</ul>
 
-		<h1>Mettre à jour votre installation avec l’archive de mise à jour automatique</h1>
+		<h1>Mettre à jour votre installation avec l’archive de mise à jour avancée</h1>
 
-		<p>Il n’est recommandé de mettre à jour votre forum en utilisant l’archive de mise à jour automatique que dans le cas où les fichiers systèmes de phpBB ont été modifiés sur votre installation. Vous pouvez également mettre à jour votre installation en utilisant des méthodes alternatives listées dans le document « INSTALL.html ». Les étapes pour mettre à jour phpBB 3.3 en utilisant l’archive de mise à jour automatique sont :</p>
+		<p>Il n’est recommandé de mettre à jour votre forum en utilisant l’archive de mise à jour avancée que dans le cas où les fichiers systèmes de phpBB ont été modifiés sur votre installation. Vous pouvez également mettre à jour votre installation en utilisant des méthodes alternatives listées dans le document « INSTALL.html ». Les étapes pour mettre à jour phpBB 3.3 en utilisant l’archive de mise à jour avancée sont :</p>
 
 		<ol style="margin-left: 20px; font-size: 1.1em;">
-			<li>Accédez à <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">la page des téléchargements</a> (en anglais) et téléchargez la dernière version de l’archive de mise à jour automatique.<br><br></li>
+			<li>Accédez à <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">la page des téléchargements</a> (en anglais) et téléchargez la dernière version de l’archive de mise à jour avancée.<br><br></li>
 			<li>Décompressez l’archive.<br><br></li>
 			<li>Transférez les répertoires décompressés « install/ » et « vendor/ » à la racine de votre forum (où se trouve le fichier « config.php »).<br><br></li>
 		</ol>
