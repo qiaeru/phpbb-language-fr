@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        php: [ '7.1', '7.2', '7.3', '7.4', '8.0' ]
+        php: [ '7.1', '7.2', '7.3', '7.4', '8.0', '8.1' ]
     env:
       PHPBB_BRANCH: 3.3.x
       PHPBB_VERSION: 3.3
@@ -13,11 +13,11 @@ jobs:
     name: Build with PHP ${{ matrix.php }}
     steps:
       - name: Checkout code
-        uses: actions/checkout@master
+        uses: actions/checkout@v3
       - name: Validate Composer
         run: composer validate
       - name: Setup PHP
-        uses: nanasess/setup-php@master
+        uses: nanasess/setup-php@v3
         with:
           php-version: ${{ matrix.php }}
       - name: Create directories
