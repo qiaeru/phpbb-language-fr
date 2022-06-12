@@ -3,12 +3,12 @@
 	"description": "French language pack for phpBB 3.3",
 	"type": "phpbb-language",
 	"homepage": "https://www.phpbb.com/customise/db/translation/french/",
-	"version": "4.7.0",
+	"version": "4.8.0-RC1",
 	"license": "GPL-2.0-only",
 	"authors": [
 		{
 			"name": "Qiaeru",
-            "email": "qiaeru@protonmail.com",
+            "email": "qiaeru@proton.me",
             "homepage": "https://www.qiaeru.com"
 		}
 	],
@@ -26,6 +26,6 @@
 		"language-iso": "fr",
 		"english-name": "French",
 		"local-name": "Français",
-		"phpbb-version": "3.3.7"
+		"phpbb-version": "3.3.8-RC1"
 	}
 }
