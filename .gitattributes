@@ -6,19 +6,16 @@
 
 # This attribute sets a specific line-ending style to be used in the working directory
 .*     text eol=lf
+*.cfg  text eol=lf
 *.css  text eol=lf
+*.gif  text eol=lf
 *.htm  text eol=lf
-*.json text eol=lf
 *.md   text eol=lf
 *.php  text eol=lf
 *.txt  text eol=lf
-*.yml  text eol=lf
 
 # Files and directories with this attribute won't be added to archive files
 .editorconfig      export-ignore
 .gitattributes     export-ignore
 .gitignore         export-ignore
-/.github           export-ignore
-CHANGELOG.md       export-ignore
-composer.json      export-ignore
 README.md          export-ignore

@@ -1,13 +1,13 @@
 
 Bonjour {TO_USERNAME},
 
-Ce qui suit est un courriel qui vous a été envoyé par {FROM_USERNAME} depuis votre compte sur « {SITENAME} ». Si ce message est un pourriel ou qu’il contient des commentaires que vous trouvez déplacés, veuillez contacter un administrateur du forum à l’adresse suivante :
+Ce qui suit est un courrier électronique qui vous a été envoyé par {FROM_USERNAME} depuis votre compte sur « {SITENAME} ». Si ce message est un pourriel ou qu’il contient des commentaires que vous trouvez déplacés, veuillez contacter l’administrateur du forum à l’adresse suivante :
 
 {BOARD_CONTACT}
 
-Incluez ce courriel en entier (particulièrement les en-têtes). Veuillez noter que l’adresse de réponse à ce courriel a été définie comme celle de {FROM_USERNAME}.
+Incluez ce courrier électronique en entier (particulièrement les en-têtes). Veuillez noter que l’adresse de réponse à ce courrier électronique a été réglée avec celle de {FROM_USERNAME}.
 
-Le message qui vous a été envoyé est le suivant :
+Le message qui vous a été envoyé est le suivant :
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 {MESSAGE}
