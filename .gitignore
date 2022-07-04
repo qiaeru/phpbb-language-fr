@@ -1,10 +1,6 @@
 # Specifies intentionally untracked files to ignore
 # https://git-scm.com/docs/gitignore
 
-# Composer files
-/vendor
-composer.phar
-
 # Linux files
 .directory
 .fuse_hidden*
