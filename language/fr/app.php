@@ -4,7 +4,6 @@
  * phpBB forum software.
  *
  * @copyright (c) phpBB Limited <https://www.phpbb.com>
- * @copyright (c) Qiaeru <https://www.qiaeru.com>
  * @license GNU General Public License, version 2 (GPL-2.0)
  *
  * For more information about the language pack, please visit
@@ -21,7 +20,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = [];
+	$lang = array();
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -36,9 +35,9 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
-$lang = array_merge($lang, [
-	'CONTROLLER_ARGUMENT_VALUE_MISSING' => 'Valeur manquante concernant l’argument #%1$s : « %3$s » dans la classe « %2$s »',
+$lang = array_merge($lang, array(
+	'CONTROLLER_ARGUMENT_VALUE_MISSING' => 'Valeur manquante concernant l’argument #%1$s : <strong>%3$s</strong> dans la classe <strong>%2$s</strong>',
 	'CONTROLLER_NOT_SPECIFIED'          => 'Aucun contrôleur n’a été spécifié.',
-	'CONTROLLER_METHOD_NOT_SPECIFIED'   => 'Aucune méthode concernant le contrôleur n’a été spécifiée.',
-	'CONTROLLER_SERVICE_UNDEFINED'      => 'Le service du contrôleur « %s » n’est pas défini dans « ./config/services.yml ».',
-]);
+	'CONTROLLER_METHOD_NOT_SPECIFIED'   => 'Aucune méthode de contrôleur n’a été spécifiée.',
+	'CONTROLLER_SERVICE_UNDEFINED'      => 'Le service du contrôleur « <strong>%s</strong> » n’est pas défini dans ./config/services.yml.',
+));

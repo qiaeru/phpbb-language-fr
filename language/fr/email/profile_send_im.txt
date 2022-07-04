@@ -1,13 +1,13 @@
 
 Bonjour {TO_USERNAME},
 
-Ce qui suit est un message qui vous a été envoyé par {FROM_USERNAME} depuis votre compte sur « {SITENAME} ». Si ce message est un pourriel ou qu’il contient des commentaires que vous trouvez déplacés, veuillez contacter un administrateur du forum à l’adresse suivante :
+Ce qui suit est un message qui vous a été envoyé par {FROM_USERNAME} depuis votre compte sur « {SITENAME} ». Si ce message est un pourriel ou qu’il contient des commentaires que vous trouvez déplacés, veuillez contacter l’administrateur du forum à l’adresse suivante :
 
 {BOARD_CONTACT}
 
-Incluez ce courriel en entier. Veuillez noter que l’adresse de l’expéditeur a été définie sur le compte IM des forums.
+Incluez ce courrier électronique en entier. Veuillez noter que l’adresse de l’expéditeur a été réglée sur le compte IM des forums.
 
-Le message qui vous a été envoyé est le suivant :
+Le message qui vous a été envoyé est le suivant :
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 {MESSAGE}
