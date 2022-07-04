@@ -1,6 +1,6 @@
 # French Language Pack for [phpBB](https://www.phpbb.com/) 3.3
 
-[![Build Status](https://github.com/qiaeru/phpbb-language-fr/workflows/Validation/badge.svg?branch=3.3.x)](https://github.com/qiaeru/phpbb-language-fr/actions?query=branch%3A3.3.x)
+[![Build Status](https://github.com/qiaeru/phpbb-language-fr/workflows/Validation/badge.svg?branch=main)](https://github.com/qiaeru/phpbb-language-fr/actions?query=branch%3Amain)
 
 French language pack to localise the phpBB 3.3 forum software.
 
