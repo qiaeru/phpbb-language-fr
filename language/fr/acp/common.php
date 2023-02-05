@@ -740,10 +740,14 @@ $lang = array_merge($lang, [
 	'LOG_SEARCH_INDEX_CREATED' => '<strong>Création d’un index de recherche</strong><br>» %s',
 	'LOG_SEARCH_INDEX_REMOVED' => '<strong>Suppression d’un index de recherche</strong><br>» %s',
 	'LOG_SPHINX_ERROR'         => '<strong>Une erreur de Sphinx est survenue</strong><br>» %s',
-	'LOG_STYLE_ADD'            => '<strong>Ajout d’un nouveau style</strong><br>» %s',
-	'LOG_STYLE_DELETE'         => '<strong>Suppression d’un style</strong><br>» %s',
-	'LOG_STYLE_EDIT_DETAILS'   => '<strong>Modification d’un style</strong><br>» %s',
-	'LOG_STYLE_EXPORT'         => '<strong>Exportation d’un style</strong><br>» %s',
+
+	'LOG_SPAMHAUS_OPEN_RESOLVER' => 'Spamhaus n’autorise pas les requêtes utilisant un résolveur ouvert. La vérification de la liste noire a été désactivée. Pour plus d’informations, veuillez consulter https://www.spamhaus.com/product/help-for-spamhaus-public-mirror-users/.',
+	'LOG_SPAMHAUS_VOLUME_LIMIT'  => 'La limite de volume des requêtes de Spamhaus a été dépassée. La vérification de la liste noire a été désactivée. Pour plus d’informations, veuillez consulter https://www.spamhaus.com/product/help-for-spamhaus-public-mirror-users/.',
+
+	'LOG_STYLE_ADD'          => '<strong>Ajout d’un nouveau style</strong><br>» %s',
+	'LOG_STYLE_DELETE'       => '<strong>Suppression d’un style</strong><br>» %s',
+	'LOG_STYLE_EDIT_DETAILS' => '<strong>Modification d’un style</strong><br>» %s',
+	'LOG_STYLE_EXPORT'       => '<strong>Exportation d’un style</strong><br>» %s',
 
 	// @deprecated 3.1
 	'LOG_TEMPLATE_ADD_DB' => '<strong>Ajout d’un nouvel ensemble de modèles à la base de données</strong><br>» %s',
