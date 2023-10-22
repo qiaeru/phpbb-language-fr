@@ -156,12 +156,17 @@ $lang = array_merge($lang, [
 	'BYTES'               => 'octets',
 	'BYTES_SHORT'         => 'o',
 
-	'CANCEL'               => 'Annuler',
-	'CHANGE'               => 'Modifier',
-	'CHANGE_FONT_SIZE'     => 'Modifier la taille de la police de caractères',
-	'CHANGING_PREFERENCES' => 'Modifie les préférences du forum',
-	'CHANGING_PROFILE'     => 'Modifie les paramètres du profil',
-	'CHARACTERS'           => [
+	'CANCEL'                => 'Annuler',
+	'CHANGE'                => 'Modifier',
+	'CHANGE_FONT_SIZE'      => 'Modifier la taille de la police de caractères',
+	'CHANGING_PREFERENCES'  => 'Modifie les préférences du forum',
+	'CHANGING_PROFILE'      => 'Modifie les paramètres du profil',
+	'CHARACTERS'            => [
+		1 => '%d caractère',
+		2 => '%d caractères',
+	],
+	// Special version to be used when describing ranges e.g. "min x characters and max y characters"
+	'CHARACTERS_XY'         => [
 		1 => '%d caractère',
 		2 => '%d caractères',
 	],
