@@ -52,7 +52,7 @@ $lang = array_merge($lang, [
 	'DEFAULT_SEARCH_RETURN_CHARS'         => 'Nombre de caractères retournés par défaut',
 	'DEFAULT_SEARCH_RETURN_CHARS_EXPLAIN' => 'Le nombre de caractères par défaut qui sera renvoyé lors de la recherche. Une valeur définie sur « 0 » renverra l’ensemble du message.',
 	'DELETE_INDEX'                        => 'Supprimer un index',
-	'DELETING_INDEX_IN_PROGRESS'          => 'Suppression de l’index.',
+	'DELETING_INDEX_IN_PROGRESS'          => 'La suppression de l’index est en cours…',
 	'DELETING_INDEX_IN_PROGRESS_EXPLAIN'  => 'La méthode d’indexation de la recherche est actuellement en train de vider son index. Cela peut prendre quelques minutes.',
 
 	'FULLTEXT_MYSQL_INCOMPATIBLE_DATABASE'    => 'L’indexation plein texte de MySQL ne peut être utilisée qu’avec MySQL4 ou ses versions plus récentes.',
@@ -92,7 +92,7 @@ $lang = array_merge($lang, [
 	'GO_TO_SEARCH_INDEX'      => 'Aller sur la page d’index de la recherche',
 
 	'INDEX_STATS'                  => 'Statistiques de l’index',
-	'INDEXING_IN_PROGRESS'         => 'Indexation en cours',
+	'INDEXING_IN_PROGRESS'         => 'Indexation en cours…',
 	'INDEXING_IN_PROGRESS_EXPLAIN' => 'La méthode d’indexation de la recherche est actuellement en train d’indexer tous les messages du forum. Ce processus peut prendre un certain temps selon la taille de votre forum.',
 
 	'LIMIT_SEARCH_LOAD'         => 'Limite de la charge du système de la page de recherche',
@@ -109,33 +109,34 @@ $lang = array_merge($lang, [
 
 	'PROGRESS_BAR' => 'Barre de progression',
 
-	'SEARCH_GUEST_INTERVAL'         => 'Intervalle d’affluence de la recherche des invités',
-	'SEARCH_GUEST_INTERVAL_EXPLAIN' => 'Le nombre de secondes qui s’écouleront avant qu’un invité puisse de nouveau effectuer une recherche. Si un invité est en train d’effectuer une recherche, tous les autres invités devront patienter le temps que cette durée soit écoulée avant de pouvoir effectuer eux-mêmes une recherche.',
-	'SEARCH_INDEX_CREATE_REDIRECT'  => [
-		1 => 'Tous les messages allant jusqu’au message dont l’ID est %2$d sont à présent indexés, ce qui correspond à %1$d message.<br>',
-		2 => 'Tous les messages allant jusqu’au message dont l’ID est %2$d sont à présent indexés, ce qui correspond à %1$d messages.<br>',
+	'SEARCH_GUEST_INTERVAL'             => 'Intervalle d’affluence de la recherche des invités',
+	'SEARCH_GUEST_INTERVAL_EXPLAIN'     => 'Le nombre de secondes qui s’écouleront avant qu’un invité puisse de nouveau effectuer une recherche. Si un invité est en train d’effectuer une recherche, tous les autres invités devront patienter le temps que cette durée soit écoulée avant de pouvoir effectuer eux-mêmes une recherche.',
+	'SEARCH_INDEX_CREATE_REDIRECT'      => [
+		1 => 'Tous les messages allant jusqu’au message dont l’identifiant est %2$d sont à présent indexés, ce qui correspond à %1$d message.',
+		2 => 'Tous les messages allant jusqu’au message dont l’identifiant est %2$d sont à présent indexés, ce qui correspond à %1$d messages.',
 	],
 	'SEARCH_INDEX_CREATE_REDIRECT_RATE' => [
-		1 => 'Le taux d’indexation actuel est d’approximativement %1$.1f message par seconde.<br>Indexation en cours…',
-		2 => 'Le taux d’indexation actuel est d’approximativement %1$.1f messages par seconde.<br>Indexation en cours…',
+		1 => 'Le taux d’indexation actuel est d’approximativement %1$.1f message par seconde.',
+		2 => 'Le taux d’indexation actuel est d’approximativement %1$.1f messages par seconde.',
 	],
-	'SEARCH_INDEX_DELETE_REDIRECT' => [
-		1 => 'Tous les messages allant jusqu’au message dont l’ID est %2$d sont à présent supprimés de l’index de recherche, ce qui correspond à %1$d message.<br>',
-		2 => 'Tous les messages allant jusqu’au message dont l’ID est %2$d sont à présent supprimés de l’index de recherche, ce qui correspond à %1$d messages.<br>',
+	'SEARCH_INDEX_DELETE_REDIRECT'      => [
+		1 => 'Tous les messages allant jusqu’au message dont l’identifiant est %2$d sont à présent supprimés de l’index de recherche, ce qui correspond à %1$d message.',
+		2 => 'Tous les messages allant jusqu’au message dont l’identifiant est %2$d sont à présent supprimés de l’index de recherche, ce qui correspond à %1$d messages.',
 	],
 	'SEARCH_INDEX_DELETE_REDIRECT_RATE' => [
-		1 => 'Le taux de suppression actuel est d’approximativement %1$.1f message par seconde.<br />Suppression en cours…',
-		2 => 'Le taux de suppression actuel est d’approximativement %1$.1f messages par seconde.<br />Suppression en cours…',
+		1 => 'Le taux de suppression actuel est d’approximativement %1$.1f message par seconde.',
+		2 => 'Le taux de suppression actuel est d’approximativement %1$.1f messages par seconde.',
 	],
-	'SEARCH_INDEX_CREATED'         => 'Tous les messages ont été indexés dans la base de données du forum.',
-	'SEARCH_INDEX_REMOVED'         => 'L’index de recherche a été supprimé de cette méthode d’indexation.',
-	'SEARCH_INTERVAL'              => 'Intervalle d’affluence de la recherche des utilisateurs',
-	'SEARCH_INTERVAL_EXPLAIN'      => 'Le nombre de secondes qui s’écouleront avant qu’un utilisateur puisse de nouveau effectuer une recherche. Cet intervalle est vérifié indépendamment pour chaque utilisateur.',
-	'SEARCH_STORE_RESULTS'         => 'Durée des résultats de recherche mis en cache',
-	'SEARCH_STORE_RESULTS_EXPLAIN' => 'Le nombre de secondes qui s’écouleront avant que les résultats de recherche mis en cache soient supprimés. Réglez cette valeur sur « 0 » si vous souhaitez pas mettre en cache les résultats de recherche.',
-	'SEARCH_TYPE'                  => 'Méthode d’indexation de la recherche',
-	'SEARCH_TYPE_EXPLAIN'          => 'Le logiciel phpBB vous permet de choisir la méthode d’indexation qui sera utilisée lors des recherches de texte effectuées dans le contenu des messages. Par défaut, la recherche utilisera la méthode « phpBB Native Fulltext ».',
-	'SWITCHED_SEARCH_BACKEND'      => 'La méthode d’indexation de la recherche a été modifiée. Vous devriez à présent recréer un index.',
+	'SEARCH_INDEX_CREATED'              => 'Tous les messages ont été indexés dans la base de données du forum.',
+	'SEARCH_INDEX_PROGRESS'             => 'Effectué : %1$d | En attente : %2$d | Total : %3$d',
+	'SEARCH_INDEX_REMOVED'              => 'L’index de recherche a été supprimé de cette méthode d’indexation.',
+	'SEARCH_INTERVAL'                   => 'Intervalle d’affluence de la recherche des utilisateurs',
+	'SEARCH_INTERVAL_EXPLAIN'           => 'Le nombre de secondes qui s’écouleront avant qu’un utilisateur puisse de nouveau effectuer une recherche. Cet intervalle est vérifié indépendamment pour chaque utilisateur.',
+	'SEARCH_STORE_RESULTS'              => 'Durée des résultats de recherche mis en cache',
+	'SEARCH_STORE_RESULTS_EXPLAIN'      => 'Le nombre de secondes qui s’écouleront avant que les résultats de recherche mis en cache soient supprimés. Réglez cette valeur sur « 0 » si vous souhaitez pas mettre en cache les résultats de recherche.',
+	'SEARCH_TYPE'                       => 'Méthode d’indexation de la recherche',
+	'SEARCH_TYPE_EXPLAIN'               => 'Le logiciel phpBB vous permet de choisir la méthode d’indexation qui sera utilisée lors des recherches de texte effectuées dans le contenu des messages. Par défaut, la recherche utilisera la méthode « phpBB Native Fulltext ».',
+	'SWITCHED_SEARCH_BACKEND'           => 'La méthode d’indexation de la recherche a été modifiée. Vous devriez à présent recréer un index.',
 
 	'TOTAL_WORDS'   => 'Nombre total de mots indexés',
 	'TOTAL_MATCHES' => 'Nombre total de mots indexés en relation avec les sujets',
