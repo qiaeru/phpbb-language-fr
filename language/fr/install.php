@@ -45,7 +45,7 @@ $lang = array_merge($lang, [
 
 	// Introduction page
 	'INTRODUCTION_TITLE' => 'Introduction',
-	'INTRODUCTION_BODY'  => 'Bienvenue sur phpBB 3.3 !<br><br>phpBB® est le logiciel de forum de discussions libre et gratuit le plus populaire dans le monde. Il est l’aboutissement d’un développement qui a débuté en 2000. Tout comme ses versions précédentes, phpBB 3.3 est riche en fonctionnalités, facile d’accès et entièrement pris en charge par phpBB Limited. Il améliore considérablement ce qui a rendu phpBB 2.0 populaire et ajoute des fonctionnalités demandées qui manquaient aux versions antérieures. Nous espérons avoir répondu convenablement à vos attentes.<br><br>Cet assistant vous guidera au cours de l’installation et de la mise à jour du logiciel, ainsi que la conversion d’un logiciel de forum de discussions (dont phpBB 2.0) vers phpBB 3.3. Pour plus d’informations, veuillez consulter <a href="../docs/INSTALL.html">le guide d’installation</a> (en anglais).<br><br>Si vous souhaitez vous renseigner sur la licence du logiciel ou sur l’assistance mise à votre disposition, veuillez sélectionner les éléments appropriés situés sur le menu latéral de gauche. Pour continuer, veuillez sélectionner l’onglet approprié situé en haut de cette page.',
+	'INTRODUCTION_BODY'  => 'Bienvenue sur phpBB 3.3 !<br><br>phpBB® est le logiciel de forum de discussions libre et gratuit le plus populaire dans le monde. Il est l’aboutissement d’un développement qui a débuté en 2000. Tout comme ses versions précédentes, phpBB 3.3 est riche en fonctionnalités, facile d’accès et entièrement pris en charge par phpBB Limited. Il améliore considérablement ce qui a rendu phpBB 2.0 populaire et ajoute des fonctionnalités demandées qui manquaient aux versions antérieures. Nous espérons avoir répondu convenablement à vos attentes.<br><br>Cet assistant vous guidera au cours de l’installation et de la mise à jour du logiciel, ainsi que la conversion d’un logiciel de forum de discussions (dont phpBB 2.0) vers phpBB 3.3. Pour plus d’informations, veuillez consulter <a href="%1$s">le guide d’installation</a> (en anglais).<br><br>Si vous souhaitez vous renseigner sur la licence du logiciel ou sur l’assistance mise à votre disposition, veuillez sélectionner les éléments appropriés situés sur le menu latéral de gauche. Pour continuer, veuillez sélectionner l’onglet approprié situé en haut de cette page.',
 
 	// Support page
 	'SUPPORT_TITLE' => 'Assistance',
@@ -105,7 +105,7 @@ $lang = array_merge($lang, [
 
 	// Server requirements
 	'PHP_VERSION_REQD'                 => 'Version de PHP',
-	'PHP_VERSION_REQD_EXPLAIN'         => 'phpBB requiert la version 7.1.3 ou supérieure de PHP.',
+	'PHP_VERSION_REQD_EXPLAIN'         => 'phpBB requiert la version 7.2.0 ou supérieure de PHP.',
 	'PHP_GETIMAGESIZE_SUPPORT'         => 'La fonction PHP « getimagesize() » est requise.',
 	'PHP_GETIMAGESIZE_SUPPORT_EXPLAIN' => 'La fonction PHP « getimagesize() » est disponible.',
 	'PCRE_UTF_SUPPORT'                 => 'Support de PCRE UTF-8',
@@ -512,6 +512,7 @@ $lang = array_merge($lang, [
 	'CONTINUE_OLD_CONVERSION' => 'Continuer la conversion précédente',
 
 	// Start conversion
+	'CATEGORY'             => 'Catégorie',
 	'SUB_INTRO'            => 'Introduction',
 	'CONVERT_INTRO'        => 'Bienvenue sur le framework de conversion unifié de phpBB',
 	'CONVERT_INTRO_BODY'   => 'Vous pouvez importer ici les données provenant d’autres logiciels de forum de discussions. La liste ci-dessous vous permet de consulter tous les modules de conversion actuellement disponibles. Si vous ne trouvez pas dans cette liste le logiciel de forum que vous souhaitez convertir, veuillez vérifier sur notre site internet où davantage modules de conversion peuvent être disponibles.',
@@ -521,6 +522,7 @@ $lang = array_merge($lang, [
 	'SOFTWARE'             => 'Logiciel de forum',
 	'VERSION'              => 'Version',
 	'CONVERT'              => 'Convertir',
+	'POST_ID'              => 'Identifiant du message',
 
 	// Settings
 	'STAGE_SETTINGS'       => 'Paramètres',
@@ -566,6 +568,10 @@ $lang = array_merge($lang, [
 	'CONVERT_COMPLETE'         => 'Conversion terminée',
 	'CONVERT_COMPLETE_EXPLAIN' => 'Félicitations ! Vous avez converti votre forum à phpBB 3.3. Vous pouvez à présent vous connecter et <a href="../">accéder à votre forum</a>. Veuillez vous assurer que les paramètres ont été correctement transférés avant de mettre en ligne votre forum en supprimant le répertoire d’installation. Il vous est possible d’obtenir une assistance sur l’utilisation de phpBB grâce à sa <a href="https://www.phpbb.com/support/docs/en/3.3/ug/">documentation</a> (en anglais) et ses <a href="https://www.phpbb.com/community/viewforum.php?f=661">forums d’assistance</a> (en anglais).',
 
+	'COLLIDING_CLEAN_USERNAME'       => '<strong>%s</strong> est le nom d’utilisateur propre pour :',
+	'COLLIDING_USER'                 => '» identifiant de l’utilisateur : <strong>%d</strong> nom d’utilisateur : <strong>%s</strong> (%d messages)',
+	'COLLIDING_USERNAMES_FOUND'      => 'Des noms d’utilisateurs en conflit ont été trouvés sur votre ancien forum. Afin de terminer la conversion, veuillez supprimer ou renommer ces utilisateurs de manière à ce qu’il n’y ait qu’un seul utilisateur sur votre ancien forum pour chaque nom d’utilisateur propre.',
+	'CONV_ERR_FATAL'                 => 'Erreur fatale de conversion',
 	'CONV_ERROR_ATTACH_FTP_DIR'      => 'Le transfert de pièces jointes par FTP est activé sur l’ancien forum. Veuillez désactiver cette option et vous assurer qu’un répertoire valide de transfert a bien été spécifié, puis copiez toutes les pièces jointes dans ce nouveau répertoire en ligne. Une fois cette opération effectuée, redémarrez le convertisseur.',
 	'CONV_ERROR_CONFIG_EMPTY'        => 'Aucune information de configuration sur ce convertisseur n’est disponible.',
 	'CONV_ERROR_FORUM_ACCESS'        => 'Impossible d’obtenir l’information d’accès au forum.',

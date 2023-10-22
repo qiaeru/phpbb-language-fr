@@ -59,7 +59,7 @@ $lang = array_merge($lang, [
 
 	'ACL_NEVER'       => 'Jamais',
 	'ACL_SET'         => 'Paramètre des permissions',
-	'ACL_SET_EXPLAIN' => 'Les permissions sont basées sur un système simpliste de « OUI » et de « NON ». Sélectionnez « JAMAIS » si vous souhaitez remplacer les valeurs assignées dans un autre système de permissions. Si vous ne souhaitez pas assigner de valeur à une option par ce système de permissions, sélectionnez « NON ». Si des valeurs sont assignées dans un autre système de permissions, elles seront alors utilisées de préférence, sauf dans le cas où « JAMAIS » est sélectionné. Tous les forums cochés grâce à la boîte de sélection située à côté du nom qui leur a été attribué copieront les paramètres des permissions que vous avez spécifiées.',
+	'ACL_SET_EXPLAIN' => 'Les permissions sont basées sur un système simpliste de « OUI » et de « NON ». Sélectionnez « JAMAIS » si vous souhaitez remplacer les valeurs assignées dans un autre système de permissions. Si vous ne souhaitez pas assigner de valeur à une option par ce système de permissions, sélectionnez « NON ». Si des valeurs sont assignées dans un autre système de permissions, elles seront alors utilisées de préférence, sauf dans le cas où « JAMAIS » est sélectionné. Tous les forums cochés grâce à la boîte de sélection située à côté du nom qui leur a été attribué copieront les paramètres des permissions que vous avez spécifiées. Veuillez noter que le réglage des permissions des administrateurs pour les comptes de fondateurs n’a pas d’effet car les permissions des administrateurs sont toujours réglées sur <strong>OUI</strong> pour les fondateurs.',
 	'ACL_SETTING'     => 'Paramètre',
 
 	'ACL_TYPE_A_' => 'Permissions des administrateurs',
