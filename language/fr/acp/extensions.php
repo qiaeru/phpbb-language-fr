@@ -99,7 +99,7 @@ $lang = array_merge($lang, [
 	'RETURN_TO_EXTENSION_LIST' => 'Revenir à la liste des extensions',
 
 	'EXT_DETAILS'  => 'Informations sur l’extension',
-	'DISPLAY_NAME' => 'Nom d\'affichage',
+	'DISPLAY_NAME' => 'Nom d’affichage',
 	'CLEAN_NAME'   => 'Nom propre',
 	'TYPE'         => 'Type',
 	'DESCRIPTION'  => 'Description',
