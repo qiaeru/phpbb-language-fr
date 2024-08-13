@@ -110,6 +110,8 @@ $lang = array_merge($lang, [
 	'CLI_DESCRIPTION_USER_ADD_OPTION_NOTIFY'   => 'Envoyer le courriel d’activation du compte au nouvel utilisateur (non envoyé par défaut)',
 	'CLI_DESCRIPTION_USER_DELETE'              => 'Supprimer le compte d’un utilisateur.',
 	'CLI_DESCRIPTION_USER_DELETE_USERNAME'     => 'Nom d’utilisateur du compte à supprimer',
+	'CLI_DESCRIPTION_USER_DELETE_ID'           => 'Supprimer les comptes d’utilisateurs par identifiant.',
+	'CLI_DESCRIPTION_USER_DELETE_ID_OPTION_ID' => 'Identifiants des utilisateurs à supprimer',
 	'CLI_DESCRIPTION_USER_DELETE_OPTION_POSTS' => 'Supprimer tous les messages de cet utilisateur. Les messages de l’utilisateur seront conservés si cette option n’est pas utilisée.',
 	'CLI_DESCRIPTION_USER_RECLEAN'             => 'Renettoyer les noms d’utilisateurs.',
 
@@ -157,10 +159,14 @@ $lang = array_merge($lang, [
 	'CLI_THUMBNAIL_NOTHING_TO_GENERATE' => 'Aucune miniature à générer.',
 	'CLI_THUMBNAIL_NOTHING_TO_DELETE'   => 'Aucune miniature à supprimer.',
 
-	'CLI_USER_ADD_SUCCESS'    => 'L’utilisateur « %s » a été ajouté.',
-	'CLI_USER_DELETE_CONFIRM' => 'Êtes-vous sûr de vouloir supprimer « %s » ? Saisissez « y » pour confirmer ou « N » pour annuler.',
-	'CLI_USER_RECLEAN_START'  => 'Renettoyage des noms d’utilisateurs',
-	'CLI_USER_RECLEAN_DONE'   => [
+	'CLI_USER_ADD_SUCCESS'       => 'L’utilisateur « %s » a été ajouté.',
+	'CLI_USER_DELETE_CONFIRM'    => 'Êtes-vous sûr de vouloir supprimer « %s » ? Saisissez « y » pour confirmer ou « N » pour annuler.',
+	'CLI_USER_DELETE_ID_CONFIRM' => 'Êtes-vous sûr de vouloir supprimer les utilisateurs « %s » par leur identifiant ? Saisissez « y » pour confirmer ou « N » pour annuler.',
+	'CLI_USER_DELETE_ID_SUCCESS' => 'Les utilisateurs ont été supprimés par leur identifiant.',
+	'CLI_USER_DELETE_ID_START'   => 'Suppression d’utilisateurs par leur identifiant',
+	'CLI_USER_DELETE_NONE'       => 'Aucun utilisateur n’a été supprimé par leur identifiant.',
+	'CLI_USER_RECLEAN_START'     => 'Renettoyage des noms d’utilisateurs',
+	'CLI_USER_RECLEAN_DONE'      => [
 		0 => 'Renettoyage terminé. Aucun nom d’utilisateur n’a nécessité d’être nettoyé.',
 		1 => 'Renettoyage terminé. %d nom d’utilisateur a été nettoyé.',
 		2 => 'Renettoyage terminé. %d noms d’utilisateurs ont été nettoyés.',
