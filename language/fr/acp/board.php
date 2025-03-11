@@ -493,8 +493,8 @@ $lang = array_merge($lang, [
 	'SMILIES_PATH_EXPLAIN'                => 'Le chemin relatif à la racine du répertoire de votre forum, tel que « images/smilies ».',
 	'UPLOAD_ICONS_PATH'                   => 'Chemin vers le répertoire de stockage des icônes de groupes d’extensions',
 	'UPLOAD_ICONS_PATH_EXPLAIN'           => 'Le chemin relatif à la racine du répertoire de votre forum, tel que « images/upload_icons ».',
-	'USE_SYSTEM_CRON'                     => 'Exécuter les tâches périodiques à partir du service « cron »',
-	'USE_SYSTEM_CRON_EXPLAIN'             => 'Si cette option est désactivée, phpBB s’assurera que les tâches périodiques soient exécutées automatiquement. Si cette option est activée, phpBB ne planifiera aucune tâche périodique de lui-même. Un administrateur système devra alors s’assurer de faire exécuter « bin/phpbbcli.php cron:run » à des intervalles réguliers (toutes les 5 minutes par exemple) par le programme « cron ».',
+	'USE_SYSTEM_CRON'                     => 'Exécuter des tâches périodiques à partir du système d’exploitation « cron »',
+	'USE_SYSTEM_CRON_EXPLAIN'             => 'Si cette option est désactivé, phpBB s’arrangera pour que les tâches périodiques soient exécutées automatiquement. Si cette option est activée, phpBB ne planifiera aucune tâche périodique de lui-même ; un administrateur système doit s’arranger pour que « bin/phpbbcli.php cron:run » soit exécuté par la fonction « cron » du système d’exploitation à intervalles réguliers (par exemple, toutes les 5 minutes).',
 ]);
 
 // Security Settings
