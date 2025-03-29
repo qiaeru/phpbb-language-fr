@@ -349,10 +349,12 @@ $lang = array_merge($lang, [
 		1 => '%d invisible',
 		2 => '%d invisibles',
 	],
-	'HIDE_GUESTS' => 'Masquer les invités',
-	'HIDE_ME'     => 'Masquer ma présence lors de cette session',
-	'HOURS'       => 'Heures',
-	'HOME'        => 'Accueil',
+	'HIDE_GUESTS'            => 'Masquer les invités',
+	'HIDE_ME'                => 'Masquer ma présence lors de cette session',
+	'HOURS'                  => 'Heures',
+	'HOME'                   => 'Accueil',
+	'HTTP_HANDLER_NOT_FOUND' => 'L’opération n’a pas pu être effectuée car l’extension PHP « cURL » et le paramètre PHP ini « allow_url_fopen » ont été désactivés et aucun autre gestionnaire HTTP n’a pu être trouvé.',
+ 
 
 	'ICQ'                      => 'ICQ',
 	'IF'                       => 'Si',
