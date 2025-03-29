@@ -1,6 +1,6 @@
 # French Language Pack for [phpBB](https://www.phpbb.com/) 3.3
 
-[![Validation](https://github.com/qiaeru/phpbb-language-fr/actions/workflows/validation.yml/badge.svg?branch=main)](https://github.com/qiaeru/phpbb-language-fr/actions/workflows/validation.yml)
+[![Validation](https://github.com/qiaeru/phpbb-language-fr/actions/workflows/validation.yml/badge.svg)](https://github.com/qiaeru/phpbb-language-fr/actions/workflows/validation.yml)
 
 French language pack to localise the phpBB 3.3 forum software.
 
