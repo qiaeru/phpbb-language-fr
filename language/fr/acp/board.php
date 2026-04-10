@@ -298,7 +298,7 @@ $lang = array_merge($lang, [
 	'ACP_FEED_OVERALL_FORUMS_EXPLAIN' => 'Le flux des forums affiche une liste de tous les forums.',
 
 	'ACP_FEED_HTTP_AUTH'               => 'Authentification HTTP',
-	'ACP_FEED_HTTP_AUTH_EXPLAIN'       => 'L’authentification HTTP permet aux utilisateurs de recevoir un contenu caché aux invités en ajoutant « auth=http » à l’adresse du flux. Veuillez noter que pour fonctionner correctement, certaines installations de PHP peuvent nécessiter des modifications additionnelles dans le fichier « .htaccess ».',
+	'ACP_FEED_HTTP_AUTH_EXPLAIN'       => 'Active l’authentification HTTP, permettant ainsi aux utilisateurs d’accéder à du contenu masqué aux visiteurs en ajoutant le paramètre <samp>auth=http</samp> à l’URL du flux. Veuillez noter que certaines configurations PHP peuvent nécessiter des modifications supplémentaires du fichier « .htaccess », veuillez consultez ce fichier pour obtenir plus d’informations. L’authentification HTTP n’est prise en charge que sur les connexions chiffrées (https).',
 	'ACP_FEED_ITEM_STATISTICS'         => 'Statistiques des éléments',
 	'ACP_FEED_ITEM_STATISTICS_EXPLAIN' => 'Les statistiques individuelles sont affichées sous les articles du flux.<br>Les statistiques affichent l’auteur de la publication, la date et l’heure de la publication, le nombre de réponses, le nombre de vues, etc.',
 	'ACP_FEED_EXCLUDE_ID'              => 'Ignorer ces forums',

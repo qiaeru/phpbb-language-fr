@@ -13,7 +13,7 @@ jobs:
     name: Build with PHP ${{ matrix.php }}
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
       - name: Validate Composer
         run: composer validate
       - name: Setup PHP
