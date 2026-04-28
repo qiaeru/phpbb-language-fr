@@ -57,6 +57,11 @@ Temporary Items
 *.swp
 *.swo
 
+# Claude
+CLAUDE.md
+GLOSSARY.md
+.claude/
+
 # Visual Studio Code
 .vscode/*
 !.vscode/settings.json
