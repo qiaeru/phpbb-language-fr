@@ -4,7 +4,7 @@
  * phpBB forum software.
  *
  * @copyright (c) phpBB Limited <https://www.phpbb.com>
- * @copyright (c) Qiaeru <https://www.qiaeru.com>
+ * @copyright (c) Qiaeru <https://www.qiae.ru>
  * @license GNU General Public License, version 2 (GPL-2.0)
  *
  * For more information about the language pack, please visit
@@ -45,7 +45,7 @@ $lang = array_merge($lang, [
 	'ICON_ANNOUNCEMENT' => 'Annonce',
 	'ICON_STICKY'       => 'Note',
 
-	'LOGIN_NOTIFY_FORUM' => 'Vous avez reçu une notification concernant un message de ce forum. Veuillez vous connecter afin de le consulter.',
+	'LOGIN_NOTIFY_FORUM' => 'Vous avez reçu une notification concernant un message de ce forum. Connectez-vous pour le consulter.',
 
 	'MARK_TOPICS_READ' => 'Marquer les sujets comme lus',
 
@@ -53,7 +53,7 @@ $lang = array_merge($lang, [
 	'NEW_POSTS_LOCKED'       => 'Nouveaux messages [ Verrouillés ]', // Not used anymore
 	'NO_NEW_POSTS_HOT'       => 'Aucun nouveau message [ Populaire ]', // Not used anymore
 	'NO_NEW_POSTS_LOCKED'    => 'Aucun nouveau message [ Verrouillé ]', // Not used anymore
-	'NO_READ_ACCESS'         => 'Vous ne pouvez pas voir ou consulter les sujets de ce forum.',
+	'NO_READ_ACCESS'         => 'Vous n’êtes pas autorisé à voir ou à consulter les sujets de ce forum.',
 	'NO_FORUMS_IN_CATEGORY'  => 'Cette catégorie ne contient aucun forum.',
 	'NO_UNREAD_POSTS_HOT'    => 'Aucun message non lu [ Populaire ]',
 	'NO_UNREAD_POSTS_LOCKED' => 'Aucun message non lu [ Verrouillé ]',

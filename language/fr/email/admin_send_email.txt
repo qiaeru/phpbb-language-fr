@@ -1,11 +1,11 @@
 
-Ce qui suit est un courriel envoyé par un administrateur de « {SITENAME} ». Si ce message est un pourriel ou qu’il contient des commentaires que vous trouvez déplacés, veuillez contacter un administrateur du forum à l’adresse suivante :
+Cet e-mail vous a été envoyé par un administrateur de « {SITENAME} ». Si ce message est un pourriel ou contient des propos déplacés, contactez un administrateur du forum à l’adresse suivante :
 
 {CONTACT_EMAIL}
 
-Incluez ce courriel en entier (particulièrement les en-têtes).
+Incluez cet e-mail intégralement (en particulier les en-têtes).
 
-Message qui vous a été envoyé :
+Message reçu :
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 {MESSAGE}

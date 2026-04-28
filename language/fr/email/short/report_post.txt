@@ -1,13 +1,13 @@
-Subject: Message rapporté – « {TOPIC_TITLE} »
+Subject: Message signalé – « {TOPIC_TITLE} »
 
 Bonjour {USERNAME},
 
-Le message « {POST_SUBJECT} » sur « {SITENAME} » a été rapporté.
+Le message « {POST_SUBJECT} » sur « {SITENAME} » a été signalé.
 
-Si vous souhaitez consulter le rapport, veuillez cliquer sur le lien suivant :
+Pour consulter le signalement, cliquez sur le lien suivant :
 {U_VIEW_REPORT}
 
-Si vous souhaitez consulter le message, veuillez cliquer sur le lien suivant :
+Pour consulter le message, cliquez sur le lien suivant :
 {U_VIEW_POST}
 
 {EMAIL_SIG}

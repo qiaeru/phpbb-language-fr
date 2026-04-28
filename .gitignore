@@ -4,6 +4,7 @@
 # Composer files
 /vendor
 composer.phar
+composer.lock
 
 # Windows
 Thumbs.db
@@ -46,6 +47,16 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+# JetBrains IDEs
+.idea/
+
+# Notepad++
+*.bak
+
+# Vim
+*.swp
+*.swo
+
 # Visual Studio Code
 .vscode/*
 !.vscode/settings.json
@@ -55,6 +66,3 @@ Temporary Items
 !.vscode/*.code-snippets
 .history/
 *.vsix
-
-# Notepad++
-*.bak

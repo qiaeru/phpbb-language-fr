@@ -4,7 +4,7 @@
  * phpBB forum software.
  *
  * @copyright (c) phpBB Limited <https://www.phpbb.com>
- * @copyright (c) Qiaeru <https://www.qiaeru.com>
+ * @copyright (c) Qiaeru <https://www.qiae.ru>
  * @license GNU General Public License, version 2 (GPL-2.0)
  *
  * For more information about the language pack, please visit
@@ -41,16 +41,16 @@ $lang = array_merge($lang, [
 		<p>Les permissions sont nombreuses et regroupées en quatre sections majeures :</p>
 
 		<h2>Les permissions générales</h2>
-		<p>Elles sont utilisées afin de contrôler l’accès à l’ensemble du forum. Elles sont divisées en permissions des utilisateurs, permissions des groupes, permissions des administrateurs et permissions des modérateurs généraux.</p>
+		<p>Elles sont utilisées pour contrôler l’accès à l’ensemble du forum. Elles sont divisées en permissions des utilisateurs, permissions des groupes, permissions des administrateurs et permissions des modérateurs généraux.</p>
 
 		<h2>Les permissions liées aux forums</h2>
-		<p>Elles sont utilisées afin de contrôler l’accès à chaque forum. Elles sont divisées en permissions des forums, permissions des forums aux modérateurs, permissions des forums aux utilisateurs et permissions des forums aux groupes.</p>
+		<p>Elles sont utilisées pour contrôler l’accès à chaque forum. Elles sont divisées en permissions des forums, permissions des forums aux modérateurs, permissions des forums aux utilisateurs et permissions des forums aux groupes.</p>
 
 		<h2>Les rôles des permissions</h2>
-		<p>Ils sont utilisés afin de créer différents ensembles de permissions concernant les différents types de permissions qui peuvent être assignés ultérieurement aux rôles. Les rôles par défaut devraient couvrir l’administration des forums étant donné que dans chacune des quatre divisions, vous pouvez ajouter, modifier et supprimer des rôles selon vos besoins.</p>
+		<p>Ils sont utilisés pour créer différents ensembles de permissions concernant les différents types de permissions qui peuvent être assignés ensuite aux rôles. Les rôles par défaut devraient couvrir l’administration des forums étant donné que dans chacune des quatre divisions, vous pouvez ajouter, modifier et supprimer des rôles selon vos besoins.</p>
 
 		<h2>Les masques des permissions</h2>
-		<p>Ils sont utilisés afin de consulter les permissions effectives assignées aux utilisateurs, aux modérateurs (locaux et généraux), aux administrateurs et aux forums.</p>
+		<p>Ils sont utilisés pour consulter les permissions effectives assignées aux utilisateurs, aux modérateurs (locaux et généraux), aux administrateurs et aux forums.</p>
 
 		<br>
 
@@ -59,7 +59,7 @@ $lang = array_merge($lang, [
 
 	'ACL_NEVER'       => 'Jamais',
 	'ACL_SET'         => 'Paramètre des permissions',
-	'ACL_SET_EXPLAIN' => 'Les permissions sont basées sur un système simpliste de « OUI » et de « NON ». Sélectionnez « JAMAIS » si vous souhaitez remplacer les valeurs assignées dans un autre système de permissions. Si vous ne souhaitez pas assigner de valeur à une option par ce système de permissions, sélectionnez « NON ». Si des valeurs sont assignées dans un autre système de permissions, elles seront alors utilisées de préférence, sauf dans le cas où « JAMAIS » est sélectionné. Tous les forums cochés grâce à la boîte de sélection située à côté du nom qui leur a été attribué copieront les paramètres des permissions que vous avez spécifiées. Veuillez noter que le réglage des permissions des administrateurs pour les comptes de fondateurs n’a pas d’effet car les permissions des administrateurs sont toujours réglées sur <strong>OUI</strong> pour les fondateurs.',
+	'ACL_SET_EXPLAIN' => 'Les permissions sont basées sur un système simpliste de « OUI » et de « NON ». Sélectionnez « JAMAIS » pour remplacer les valeurs assignées dans un autre système de permissions. Si vous ne souhaitez pas assigner de valeur à une option par ce système de permissions, sélectionnez « NON ». Si des valeurs sont assignées dans un autre système de permissions, elles seront alors utilisées de préférence, sauf si « JAMAIS » est sélectionné. Tous les forums cochés grâce à la boîte de sélection située à côté du nom qui leur a été attribué copieront les paramètres des permissions. Notez que le réglage des permissions des administrateurs pour les comptes de fondateurs n’a pas d’effet car les permissions des administrateurs sont toujours réglées sur <strong>OUI</strong> pour les fondateurs.',
 	'ACL_SETTING'     => 'Paramètre',
 
 	'ACL_TYPE_A_' => 'Permissions des administrateurs',
@@ -75,12 +75,12 @@ $lang = array_merge($lang, [
 
 	'ACL_NO'           => 'Non',
 	'ACL_VIEW'         => 'Consultation des permissions',
-	'ACL_VIEW_EXPLAIN' => 'Depuis cette page, vous pouvez consulter toutes les permissions effectives de l’utilisateur ou du groupe d’utilisateurs sélectionné. Un rectangle rouge indique les permissions qu’il ne détient pas, un rectangle vert indique les permissions qu’il détient.',
+	'ACL_VIEW_EXPLAIN' => 'Depuis cette page, vous pouvez consulter toutes les permissions effectives de l’utilisateur ou du groupe sélectionné. Un rectangle rouge indique les permissions qu’il n’a pas ; un rectangle vert, celles qu’il a.',
 	'ACL_YES'          => 'Oui',
 
 	'ACP_ADMINISTRATORS_EXPLAIN'              => 'Depuis cette page, vous pouvez attribuer les permissions des administrateurs à des utilisateurs et des groupes d’utilisateurs, qui pourront alors accéder au panneau de contrôle d’administration.',
-	'ACP_FORUM_MODERATORS_EXPLAIN'            => 'Depuis cette page, vous pouvez attribuer les permissions des modérateurs sur certains forums spécifiques à des utilisateurs et des groupes d’utilisateurs. Veuillez vous rendre sur la page appropriée afin d’attribuer l’accès des utilisateurs aux forums et définir des permissions de modérateurs ou d’administrateurs à ces derniers.',
-	'ACP_FORUM_PERMISSIONS_EXPLAIN'           => 'Depuis cette page, vous pouvez spécifier les utilisateurs et les groupes d’utilisateurs qui pourront accéder à certains forums. Veuillez vous rendre sur les pages appropriées si vous souhaitez définir les permissions des administrateurs et des modérateurs.',
+	'ACP_FORUM_MODERATORS_EXPLAIN'            => 'Depuis cette page, vous pouvez attribuer les permissions des modérateurs sur certains forums spécifiques à des utilisateurs et des groupes d’utilisateurs. Rendez-vous sur la page appropriée pour attribuer l’accès des utilisateurs aux forums et définir des permissions de modérateurs ou d’administrateurs à ces derniers.',
+	'ACP_FORUM_PERMISSIONS_EXPLAIN'           => 'Depuis cette page, vous pouvez spécifier les utilisateurs et les groupes d’utilisateurs qui pourront accéder à certains forums. Rendez-vous sur les pages appropriées pour définir les permissions des administrateurs et des modérateurs.',
 	'ACP_FORUM_PERMISSIONS_COPY_EXPLAIN'      => 'Depuis cette page, vous pouvez copier les permissions d’un forum à un ou plusieurs autres forums.',
 	'ACP_GLOBAL_MODERATORS_EXPLAIN'           => 'Depuis cette page, vous pouvez attribuer les permissions des modérateurs généraux à des utilisateurs et des groupes d’utilisateurs. Ces modérateurs sont des modérateurs ordinaires, mis à part le fait qu’ils peuvent modérer la totalité des forums.',
 	'ACP_GROUPS_FORUM_PERMISSIONS_EXPLAIN'    => 'Depuis cette page, vous pouvez attribuer les permissions des forums à des groupes d’utilisateurs.',
@@ -108,12 +108,12 @@ $lang = array_merge($lang, [
 	'ALL_YES'                   => 'Tous sur « OUI »',
 	'APPLY_ALL_PERMISSIONS'     => 'Appliquer toutes les permissions',
 	'APPLY_PERMISSIONS'         => 'Appliquer les permissions',
-	'APPLY_PERMISSIONS_EXPLAIN' => 'Les permissions et les rôles de cet élément ne seront appliqués qu’aux éléments cochés et à ce dernier.',
+	'APPLY_PERMISSIONS_EXPLAIN' => 'Les permissions et rôles de cet élément ne s’appliqueront qu’à lui-même et aux éléments cochés.',
 	'AUTH_UPDATED'              => 'Les permissions ont été mises à jour.',
 
 	'COPY_PERMISSIONS_CONFIRM'            => 'Êtes-vous sûr de vouloir effectuer cette opération ? Cela remplacera toutes les permissions existantes des forums sélectionnés.',
-	'COPY_PERMISSIONS_FORUM_FROM_EXPLAIN' => 'Le forum source à partir duquel vous souhaitez copier les permissions.',
-	'COPY_PERMISSIONS_FORUM_TO_EXPLAIN'   => 'Le ou les forums où les permissions que vous avez copiées seront appliquées.',
+	'COPY_PERMISSIONS_FORUM_FROM_EXPLAIN' => 'Le forum source dont vous souhaitez copier les permissions.',
+	'COPY_PERMISSIONS_FORUM_TO_EXPLAIN'   => 'Le ou les forums auxquels les permissions copiées seront appliquées.',
 	'COPY_PERMISSIONS_FROM'               => 'Copier les permissions de',
 	'COPY_PERMISSIONS_TO'                 => 'Appliquer les permissions sur',
 
@@ -139,13 +139,13 @@ $lang = array_merge($lang, [
 
 	'NO_AUTH_SETTING_FOUND'    => 'Paramètres de permissions non définis.',
 	'NO_ROLE_ASSIGNED'         => 'Aucun rôle n’est assigné…',
-	'NO_ROLE_ASSIGNED_EXPLAIN' => 'La configuration de ce rôle ne modifie pas les permissions de droite. Si vous souhaitez supprimer toutes les permissions, vous devez utiliser le lien « Tous sur NON ».',
+	'NO_ROLE_ASSIGNED_EXPLAIN' => 'La configuration de ce rôle ne modifie pas les permissions de droite. Pour supprimer toutes les permissions, vous devez utiliser le lien « Tous sur NON ».',
 	'NO_ROLE_AVAILABLE'        => 'Aucun rôle n’est disponible',
-	'NO_ROLE_NAME_SPECIFIED'   => 'Veuillez saisir le nom de ce rôle.',
+	'NO_ROLE_NAME_SPECIFIED'   => 'Saisissez le nom de ce rôle.',
 	'NO_ROLE_SELECTED'         => 'Le rôle est introuvable.',
-	'NO_USER_GROUP_SELECTED'   => 'Vous n’avez sélectionné aucun utilisateur ou groupe d’utilisateurs.',
+	'NO_USER_GROUP_SELECTED'   => 'Aucun utilisateur ou groupe d’utilisateurs n’a été sélectionné.',
 
-	'ONLY_FORUM_DEFINED' => 'Vous n’avez sélectionné que des forums. Veuillez également sélectionner au moins un utilisateur ou groupe d’utilisateurs.',
+	'ONLY_FORUM_DEFINED' => 'Vous n’avez sélectionné que des forums. Sélectionnez également au moins un utilisateur ou groupe d’utilisateurs.',
 
 	'PERMISSION_APPLIED_TO_ALL' => 'Les permissions et le rôle seront également appliqués à tous les éléments que vous avez cochés',
 	'PLUS_SUBFORUMS'            => '+Sous-forums',
@@ -188,7 +188,7 @@ $lang = array_merge($lang, [
 	'ROLE_DESCRIPTION_ADMIN_FULL'          => 'Peut accéder à toutes les fonctionnalités des administrateurs.<br>Il n’est pas recommandé d’attribuer ce rôle.',
 	'ROLE_DESCRIPTION_ADMIN_STANDARD'      => 'Peut accéder à la plupart des fonctionnalités des administrateurs mais ne peut pas modifier les options relatives au système et au serveur.',
 	'ROLE_DESCRIPTION_ADMIN_USERGROUP'     => 'Peut gérer les utilisateurs et les groupes d’utilisateurs (gestion des permissions, des paramètres, des bannissements et des rangs).',
-	'ROLE_DESCRIPTION_FORUM_BOT'           => 'Il recommandé d’attribuer ce rôle aux robots des moteurs de recherche.',
+	'ROLE_DESCRIPTION_FORUM_BOT'           => 'Il est recommandé d’attribuer ce rôle aux robots des moteurs de recherche.',
 	'ROLE_DESCRIPTION_FORUM_FULL'          => 'Peut utiliser toutes les fonctionnalités du forum, dont la publication d’annonces et de notes. Peut également ignorer la limitation de flood.<br>Il n’est pas recommandé d’attribuer ce rôle aux utilisateurs ordinaires.',
 	'ROLE_DESCRIPTION_FORUM_LIMITED'       => 'Peut utiliser certaines fonctionnalités du forum mais ne peut pas transférer de pièces jointes et insérer des icônes aux messages.',
 	'ROLE_DESCRIPTION_FORUM_LIMITED_POLLS' => 'Similaire à l’accès limité, mais peut également créer des sondages.',
@@ -199,28 +199,28 @@ $lang = array_merge($lang, [
 	'ROLE_DESCRIPTION_FORUM_STANDARD'      => 'Peut utiliser la plupart des fonctionnalités du forum, dont la possibilité de transférer des pièces jointes et de supprimer ses propres sujets, mais ne peut pas verrouiller ses propres sujets et ne peut pas créer de sondages.',
 	'ROLE_DESCRIPTION_FORUM_NEW_MEMBER'    => 'Ce rôle est destiné aux membres du groupe des utilisateurs nouvellement inscrits. Il contient des permissions « JAMAIS » qui permettent de limiter certaines fonctionnalités aux nouveaux membres.',
 	'ROLE_DESCRIPTION_MOD_FULL'            => 'Peut utiliser toutes les fonctionnalités liées à la modération, dont le bannissement.',
-	'ROLE_DESCRIPTION_MOD_QUEUE'           => 'Ne peut utiliser que la file d’attente de modération afin de valider et modifier des messages.',
+	'ROLE_DESCRIPTION_MOD_QUEUE'           => 'Ne peut utiliser que la file d’attente de modération pour valider et modifier des messages.',
 	'ROLE_DESCRIPTION_MOD_SIMPLE'          => 'Ne peut effectuer que les opérations basiques liées aux sujets mais ne peut pas envoyer d’avertissements et accéder à la file d’attente de modération.',
 	'ROLE_DESCRIPTION_MOD_STANDARD'        => 'Peut utiliser la plupart des outils liées à la modération mais ne peut pas bannir d’utilisateurs et modifier l’auteur d’un message.',
 	'ROLE_DESCRIPTION_USER_FULL'           => 'Peut utiliser toutes les fonctionnalités du forum qui sont disponibles aux utilisateurs, dont la possibilité de modifier son nom d’utilisateur et d’ignorer la limitation de flood.<br>Il n’est pas recommandé d’attribuer ce rôle.',
-	'ROLE_DESCRIPTION_USER_LIMITED'        => 'Peut accéder à la plupart des fonctionnalités des utilisateurs mais les pièces jointes, les courriels et les messages instantanés ne sont pas autorisés.',
+	'ROLE_DESCRIPTION_USER_LIMITED'        => 'Peut accéder à la plupart des fonctionnalités utilisateur, mais ne peut pas envoyer de pièces jointes, d’e-mails ni de messages instantanés.',
 	'ROLE_DESCRIPTION_USER_NOAVATAR'       => 'Ne peut accéder qu’à un ensemble de fonctionnalités limité et n’est pas autorisé à utiliser la fonctionnalité des avatars.',
 	'ROLE_DESCRIPTION_USER_NOPM'           => 'Ne peut accéder qu’à un ensemble de fonctionnalités limité et n’est pas autorisé à utiliser les fonctionnalités de la messagerie privée.',
 	'ROLE_DESCRIPTION_USER_STANDARD'       => 'Peut accéder à la plupart des fonctionnalités des utilisateurs mais ne peut pas modifier son nom d’utilisateur et ignorer la limitation de flood.',
 	'ROLE_DESCRIPTION_USER_NEW_MEMBER'     => 'Ce rôle est destiné aux membres du groupe des utilisateurs nouvellement inscrits. Il contient des permissions « JAMAIS » qui permettent de limiter certaines fonctionnalités aux nouveaux membres.',
 
-	'ROLE_DESCRIPTION_EXPLAIN' => 'Vous pouvez saisir une brève explication de ce que fait le rôle ou de ce qu’il veut signifier. Le texte que vous saisissez ici sera également affiché sur la page des permissions.',
-	'ROLE_DESCRIPTION_LONG'    => 'La description du rôle est trop longue. Veuillez ne pas dépasser 4000 caractères.',
+	'ROLE_DESCRIPTION_EXPLAIN' => 'Saisissez une brève explication du rôle. Le texte saisi ici sera également affiché sur la page des permissions.',
+	'ROLE_DESCRIPTION_LONG'    => 'La description du rôle est trop longue. Elle ne doit pas dépasser 4000 caractères.',
 	'ROLE_DETAILS'             => 'Informations sur le rôle',
 	'ROLE_EDIT_SUCCESS'        => 'Le rôle a été modifié.',
 	'ROLE_NAME'                => 'Nom du rôle',
-	'ROLE_NAME_ALREADY_EXIST'  => 'Un rôle portant le nom de « %s » existe déjà. Veuillez en saisir un autre.',
+	'ROLE_NAME_ALREADY_EXIST'  => 'Un rôle portant le nom de « %s » existe déjà. Saisissez-en un autre.',
 	'ROLE_NOT_ASSIGNED'        => 'Le rôle n’a pas encore été attribué.',
 
-	'SELECTED_FORUM_NOT_EXIST'      => 'Le forum que vous avez spécifié est introuvable.',
-	'SELECTED_GROUP_NOT_EXIST'      => 'Le groupe d’utilisateurs que vous avez spécifié est introuvable.',
-	'SELECTED_USER_NOT_EXIST'       => 'L’utilisateur que vous avez spécifié est introuvable.',
-	'SELECT_FORUM_SUBFORUM_EXPLAIN' => 'Le forum que vous sélectionnez dans la liste déroulante comprendra également tous ses sous-forums.',
+	'SELECTED_FORUM_NOT_EXIST'      => 'Le forum est introuvable.',
+	'SELECTED_GROUP_NOT_EXIST'      => 'Le groupe d’utilisateurs est introuvable.',
+	'SELECTED_USER_NOT_EXIST'       => 'L’utilisateur est introuvable.',
+	'SELECT_FORUM_SUBFORUM_EXPLAIN' => 'Le forum sélectionné dans la liste déroulante inclut également tous ses sous-forums.',
 	'SELECT_ROLE'                   => 'Sélectionner un rôle…',
 	'SELECT_TYPE'                   => 'Sélectionner un type',
 	'SET_PERMISSIONS'               => 'Définir les permissions',
@@ -250,7 +250,7 @@ $lang = array_merge($lang, [
 	'TRACE_SETTING'                       => 'Paramètre du suivi',
 
 	'TRACE_USER_GLOBAL_YES_TOTAL_YES'    => 'La permission indépendante de l’utilisateur dans ce forum est configurée sur « OUI » mais la permission totale est déjà configurée sur « OUI ». Le résultat total est donc conservé. %sSuivre la permission générale%s',
-	'TRACE_USER_GLOBAL_YES_TOTAL_NEVER'  => 'La permission indépendante de l’utilisateur dans ce le forum est configurée sur « OUI » ce qui remplace l’actuel résultat local « JAMAIS ». %sSuivre la permission générale%s',
+	'TRACE_USER_GLOBAL_YES_TOTAL_NEVER'  => 'La permission indépendante de l’utilisateur dans ce forum est configurée sur « OUI » ce qui remplace l’actuel résultat local « JAMAIS ». %sSuivre la permission générale%s',
 	'TRACE_USER_GLOBAL_NEVER_TOTAL_KEPT' => 'La permission indépendante de l’utilisateur dans ce forum est configurée sur « JAMAIS » ce qui n’influence pas la permission locale. %sSuivre la permission générale%s',
 
 	'TRACE_USER_FOUNDER'                 => 'L’utilisateur est un fondateur. Les permissions d’administrateurs sont donc toujours définies sur « OUI ».',
@@ -274,14 +274,14 @@ $lang = array_merge($lang, [
 	'TRACE_TOTAL'                        => 'Total',
 
 	'USERS_NOT_ASSIGNED'        => 'Aucun utilisateur n’est assigné à ce rôle',
-	'USER_IS_MEMBER_OF_DEFAULT' => 'est un membre des groupes d’utilisateurs prédéfinis suivants',
-	'USER_IS_MEMBER_OF_CUSTOM'  => 'est un membre des groupes d’utilisateurs suivants',
+	'USER_IS_MEMBER_OF_DEFAULT' => 'est membre des groupes d’utilisateurs prédéfinis suivants',
+	'USER_IS_MEMBER_OF_CUSTOM'  => 'est membre des groupes d’utilisateurs suivants',
 
 	'VIEW_ASSIGNED_ITEMS' => 'Consulter les éléments assignés',
 	'VIEW_LOCAL_PERMS'    => 'Permissions locales',
 	'VIEW_GLOBAL_PERMS'   => 'Permissions générales',
 	'VIEW_PERMISSIONS'    => 'Consulter les permissions',
 
-	'WRONG_PERMISSION_TYPE'           => 'Le type de permission que vous avez spécifié est incorrect.',
-	'WRONG_PERMISSION_SETTING_FORMAT' => 'Une erreur est survenue lors du traitement des paramètres des permissions car elles sont enregistrés dans un mauvais format.',
+	'WRONG_PERMISSION_TYPE'           => 'Le type de permission est incorrect.',
+	'WRONG_PERMISSION_SETTING_FORMAT' => 'Le traitement des paramètres des permissions a échoué : ils sont enregistrés dans un format incorrect.',
 ]);

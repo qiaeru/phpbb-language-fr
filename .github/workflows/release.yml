@@ -1,0 +1,26 @@
+name: Release
+on:
+  push:
+    tags: [ 'v*' ]
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v6
+      - name: Build archive
+        run: |
+          VERSION="${GITHUB_REF_NAME#v}"
+          VERSION_UNDERSCORE="${VERSION//[.-]/_}"
+          ARCHIVE="french_${VERSION_UNDERSCORE}.zip"
+          git archive --format=zip --prefix="french_${VERSION_UNDERSCORE}/" -o "$ARCHIVE" HEAD
+          echo "ARCHIVE=$ARCHIVE" >> "$GITHUB_ENV"
+      - name: Publish release
+        uses: softprops/action-gh-release@v3
+        with:
+          files: ${{ env.ARCHIVE }}
+          prerelease: ${{ contains(github.ref_name, '-') }}

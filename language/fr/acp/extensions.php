@@ -4,7 +4,7 @@
  * phpBB forum software.
  *
  * @copyright (c) phpBB Limited <https://www.phpbb.com>
- * @copyright (c) Qiaeru <https://www.qiaeru.com>
+ * @copyright (c) Qiaeru <https://www.qiae.ru>
  * @license GNU General Public License, version 2 (GPL-2.0)
  *
  * For more information about the language pack, please visit
@@ -40,12 +40,12 @@ $lang = array_merge($lang, [
 	'EXTENSION'                => 'Extension',
 	'EXTENSIONS'               => 'Extensions',
 	'EXTENSIONS_ADMIN'         => 'Gestionnaire d’extensions',
-	'EXTENSIONS_EXPLAIN'       => 'Le gestionnaire d’extensions est un outil vous permettant de gérer tous les statuts de vos extensions et de consulter les informations associées.',
+	'EXTENSIONS_EXPLAIN'       => 'Le gestionnaire d’extensions vous permet de gérer le statut de toutes vos extensions et de consulter les informations associées.',
 	'EXTENSION_INVALID_LIST'   => 'L’extension « %s » est invalide.<br>%s<br><br>',
-	'EXTENSION_NOT_AVAILABLE'  => 'Cette extension n’est pas disponible sur ce forum. Veuillez vérifier la compatibilité de vos versions de phpBB et de PHP.',
-	'EXTENSION_DIR_INVALID'    => 'Cette extension est construite avec une structure de répertoire invalide et ne peut donc pas être activée.',
-	'EXTENSION_NOT_ENABLEABLE' => 'Cette extension ne peut pas être activée. Veuillez vérifier les prérequis de l’extension.',
-	'EXTENSION_NOT_INSTALLED'  => 'L’extension « %s » n’est pas disponible. Veuillez vérifier si elle a été correctement installée.',
+	'EXTENSION_NOT_AVAILABLE'  => 'Cette extension n’est pas disponible sur ce forum. Vérifiez la compatibilité de vos versions de phpBB et de PHP.',
+	'EXTENSION_DIR_INVALID'    => 'Cette extension a une structure de répertoires invalide et ne peut pas être activée.',
+	'EXTENSION_NOT_ENABLEABLE' => 'Cette extension ne peut pas être activée. Vérifiez ses prérequis.',
+	'EXTENSION_NOT_INSTALLED'  => 'L’extension « %s » n’est pas disponible. Vérifiez si elle a été correctement installée.',
 
 	'DETAILS' => 'Informations',
 
@@ -57,38 +57,38 @@ $lang = array_merge($lang, [
 	'EXTENSION_DISABLE'     => 'Désactiver',
 	'EXTENSION_ENABLE'      => 'Activer',
 
-	'EXTENSION_DELETE_DATA_EXPLAIN' => 'La suppression des données d’une extension supprime toutes ses données et sa configuration. Les fichiers de l’extension sont conservés afin de pouvoir la réactiver ultérieurement.',
-	'EXTENSION_DISABLE_EXPLAIN'     => 'La désactivation d’une extension conserve ses fichiers, ses données et sa configuration mais supprime toutes les fonctionnalités qu’elle ajoute.',
-	'EXTENSION_ENABLE_EXPLAIN'      => 'L’activation d’une extension vous permet de l’utiliser sur votre forum.',
+	'EXTENSION_DELETE_DATA_EXPLAIN' => 'La suppression des données d’une extension efface toutes ses données et sa configuration. Les fichiers de l’extension sont conservés pour permettre une réactivation ultérieure.',
+	'EXTENSION_DISABLE_EXPLAIN'     => 'La désactivation conserve les fichiers, données et configuration de l’extension, mais retire toutes les fonctionnalités qu’elle apporte.',
+	'EXTENSION_ENABLE_EXPLAIN'      => 'L’activation rend l’extension utilisable sur votre forum.',
 
-	'EXTENSION_DELETE_DATA_IN_PROGRESS' => 'Les données de l’extension sont en cours de suppression. Veillez à ne pas quitter ou rafraîchir la page avant la fin de toutes les opérations.',
-	'EXTENSION_DISABLE_IN_PROGRESS'     => 'L’extension est en cours de désactivation. Veillez à ne pas quitter ou rafraîchir la page avant la fin de toutes les opérations.',
-	'EXTENSION_ENABLE_IN_PROGRESS'      => 'L’extension est en cours d’activation. Veillez à ne pas quitter ou rafraîchir la page avant la fin de toutes les opérations.',
+	'EXTENSION_DELETE_DATA_IN_PROGRESS' => 'Suppression des données de l’extension en cours. Ne quittez pas et ne rafraîchissez pas la page avant la fin des opérations.',
+	'EXTENSION_DISABLE_IN_PROGRESS'     => 'Désactivation de l’extension en cours. Ne quittez pas et ne rafraîchissez pas la page avant la fin des opérations.',
+	'EXTENSION_ENABLE_IN_PROGRESS'      => 'Activation de l’extension en cours. Ne quittez pas et ne rafraîchissez pas la page avant la fin des opérations.',
 
-	'EXTENSION_DELETE_DATA_SUCCESS' => 'L’extension a été supprimée',
-	'EXTENSION_DISABLE_SUCCESS'     => 'L’extension a été désactivée',
-	'EXTENSION_ENABLE_SUCCESS'      => 'L’extension a été activée',
+	'EXTENSION_DELETE_DATA_SUCCESS' => 'L’extension a été supprimée.',
+	'EXTENSION_DISABLE_SUCCESS'     => 'L’extension a été désactivée.',
+	'EXTENSION_ENABLE_SUCCESS'      => 'L’extension a été activée.',
 
 	'EXTENSION_NAME'             => 'Nom de l’extension',
 	'EXTENSION_ACTIONS'          => 'Opérations',
 	'EXTENSION_OPTIONS'          => 'Options',
 	'EXTENSION_INSTALL_HEADLINE' => 'Installer une extension',
 	'EXTENSION_INSTALL_EXPLAIN'  => '<ol>
-			<li>Téléchargez une extension à partir de la base de données des extensions de phpBB</li>
+			<li>Téléchargez une extension depuis la base de données des extensions de phpBB.</li>
 			<li>Décompressez et transférez l’extension dans le répertoire « ext/ » de votre forum</li>
-			<li>Activez l’extension à partir du gestionnaire d’extensions</li>
+			<li>Activez l’extension. depuis le gestionnaire d’extensions.</li>
 		</ol>',
 	'EXTENSION_UPDATE_HEADLINE' => 'Mettre à jour une extension',
 	'EXTENSION_UPDATE_EXPLAIN'  => '<ol>
-			<li>Désactivez l’extension</li>
-			<li>Supprimez les fichiers de l’extension de votre serveur</li>
-			<li>Transférez les nouveaux fichiers de l’extension sur votre serveur</li>
+			<li>Désactivez l’extension.</li>
+			<li>Supprimez les fichiers de l’extension de votre serveur.</li>
+			<li>Envoyez les nouveaux fichiers de l’extension sur votre serveur.</li>
 			<li>Activez l’extension</li>
 		</ol>',
 	'EXTENSION_REMOVE_HEADLINE' => 'Supprimer totalement une extension',
 	'EXTENSION_REMOVE_EXPLAIN'  => '<ol>
 			<li>Désactivez l’extension</li>
-			<li>Supprimez les données de l’extension</li>
+			<li>Supprimez les données de l’extension.</li>
 			<li>Supprimez les fichiers de l’extension de votre serveur</li>
 		</ol>',
 
@@ -115,7 +115,7 @@ $lang = array_merge($lang, [
 	'PHP_VERSION'        => 'Version de PHP',
 	'AUTHOR_INFORMATION' => 'Informations sur l’auteur',
 	'AUTHOR_NAME'        => 'Nom',
-	'AUTHOR_EMAIL'       => 'Adresse de courriel',
+	'AUTHOR_EMAIL'       => 'Adresse e-mail',
 	'AUTHOR_HOMEPAGE'    => 'Page d’accueil',
 	'AUTHOR_ROLE'        => 'Rôle',
 
@@ -123,7 +123,7 @@ $lang = array_merge($lang, [
 	'UP_TO_DATE'         => '« %s » est à jour',
 	'ANNOUNCEMENT_TOPIC' => 'Annonce de sortie',
 	'DOWNLOAD_LATEST'    => 'Télécharger',
-	'NO_VERSIONCHECK'    => 'Aucune information concernant la vérification de mise à jour n’est disponible.',
+	'NO_VERSIONCHECK'    => 'Aucune information de vérification de mise à jour n’est disponible.',
 
 	'VERSIONCHECK_FORCE_UPDATE_ALL'     => 'Vérifier de nouveau les mises à jour',
 	'FORCE_UNSTABLE'                    => 'Toujours vérifier la disponibilité de versions instables',

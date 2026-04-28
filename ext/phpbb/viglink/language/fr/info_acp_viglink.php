@@ -4,6 +4,7 @@
  * VigLink extension for the phpBB forum software package.
  *
  * @copyright (c) 2014 phpBB Limited <https://www.phpbb.com>
+ * @copyright (c) Qiaeru <https://www.qiae.ru>
  * @license GNU General Public License, version 2 (GPL-2.0)
  *
  * For more information about the language pack, please visit

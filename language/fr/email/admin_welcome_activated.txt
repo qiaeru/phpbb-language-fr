@@ -2,8 +2,8 @@ Subject: Votre compte a été activé
 
 Bonjour {USERNAME},
 
-Votre compte sur « {SITENAME} » a été activé par un administrateur, vous pouvez à présent vous connecter.
+Votre compte sur « {SITENAME} » a été activé par un administrateur, vous pouvez désormais vous connecter.
 
-Votre mot de passe a été stocké en toute sécurité dans notre base de données et ne pourra pas être retrouvé. Dans le cas où vous l’oubliez, vous pourrez le réinitialiser en utilisant l’adresse de courriel associée à votre compte.
+Votre mot de passe est stocké de manière sécurisée et ne peut pas être récupéré. En cas d’oubli, réinitialisez-le à l’aide de l’adresse e-mail associée à votre compte.
 
 {EMAIL_SIG}
