@@ -1,4 +1,4 @@
-Subject: « {SITENAME} » – Envoi d’un e-mail par un ami
+Subject: « {SITENAME} » : Envoi d’un e-mail par un ami
 
 Bonjour {TO_USERNAME},
 

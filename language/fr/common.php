@@ -1001,7 +1001,7 @@ $lang = array_merge($lang, [
 	'timezones' => [
 		'UTC'                => 'UTC',
 		'UTC_OFFSET'         => 'UTC%1$s',
-		'UTC_OFFSET_CURRENT' => 'UTC%1$s – %2$s',
+		'UTC_OFFSET_CURRENT' => 'UTC%1$s : %2$s',
 
 		'Etc/GMT-12' => 'UTC+12',
 		'Etc/GMT-11' => 'UTC+11',

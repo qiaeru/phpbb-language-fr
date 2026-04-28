@@ -38,7 +38,7 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, [
 	'ACTION'                 => 'Opération',
-	'ACTION_NOTE'            => 'Opération/Remarque',
+	'ACTION_NOTE'            => 'Opération ou remarque',
 	'ADD_FEEDBACK'           => 'Ajouter une remarque',
 	'ADD_FEEDBACK_EXPLAIN'   => 'Remplissez le formulaire ci-dessous pour ajouter une remarque sur cet utilisateur. Saisissez uniquement du texte brut. Les balises HTML, BBCode, etc. ne sont pas autorisées.',
 	'ADD_WARNING'            => 'Ajouter un avertissement',

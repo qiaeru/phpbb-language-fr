@@ -1,4 +1,4 @@
-Subject: Votre signalement de message privé a été clôturé – « {SUBJECT} »
+Subject: Votre signalement de message privé a été clôturé : « {SUBJECT} »
 
 Bonjour {USERNAME},
 

@@ -120,7 +120,7 @@ $lang = array_merge($lang, [
 	'HELP_FAQ_LOGIN_REGISTER_CONFIRM_QUESTION'     => 'Je suis inscrit mais je ne peux pas me connecter !',
 	'HELP_FAQ_LOGIN_REGISTER_QUESTION'             => 'Pourquoi ai-je besoin de m’inscrire ?',
 
-	'HELP_FAQ_PMS_CANNOT_SEND_ANSWER'   => 'Vous n’êtes peut-être pas inscrit et connecté, ou la messagerie privée a été désactivée par un administrateur, ou un administrateur/modérateur vous empêche d’envoyer des messages privés. Pour plus d’informations, contactez un administrateur.',
+	'HELP_FAQ_PMS_CANNOT_SEND_ANSWER'   => 'Vous n’êtes peut-être pas inscrit et connecté, ou la messagerie privée a été désactivée par un administrateur, ou un administrateur ou modérateur vous empêche d’envoyer des messages privés. Pour plus d’informations, contactez un administrateur.',
 	'HELP_FAQ_PMS_CANNOT_SEND_QUESTION' => 'Je ne peux pas envoyer de messages privés !',
 	'HELP_FAQ_PMS_SPAM_ANSWER'          => 'Nous en sommes désolés. Le formulaire d’envoi d’e-mails de ce forum dispose de protections destinées à repérer les expéditeurs de spam. Envoyez à un administrateur une copie complète de l’e-mail reçu, en incluant impérativement les en-têtes : ils contiennent les informations nécessaires pour identifier l’expéditeur et agir en conséquence.',
 	'HELP_FAQ_PMS_SPAM_QUESTION'        => 'J’ai reçu un e-mail indésirable de la part de quelqu’un sur ce forum !',

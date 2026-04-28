@@ -245,7 +245,7 @@ $lang = array_merge($lang, [
 	'TRACE_GROUP_YES_TOTAL_NO_LOCAL'      => 'Cette permission de groupe concernant ce forum est configurée sur « OUI » ce qui devient la nouvelle valeur totale car elle n’était pas encore définie (configurée sur « NON »).',
 	'TRACE_GROUP_YES_TOTAL_YES'           => 'Cette permission de groupe est configurée sur « OUI » mais la permission totale est déjà configurée sur « OUI ». Le résultat total est donc conservé.',
 	'TRACE_GROUP_YES_TOTAL_YES_LOCAL'     => 'Cette permission de groupe concernant ce forum est configurée sur « OUI » mais la permission totale est déjà configurée sur « OUI ». Le résultat total est donc conservé.',
-	'TRACE_PERMISSION'                    => 'Suivi de la permission – %s',
+	'TRACE_PERMISSION'                    => 'Suivi de la permission : %s',
 	'TRACE_RESULT'                        => 'Résultat du suivi',
 	'TRACE_SETTING'                       => 'Paramètre du suivi',
 

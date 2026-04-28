@@ -79,9 +79,9 @@ $lang = array_merge($lang, [
 
 	'tokens' => [
 		'TEXT'         => 'Du texte, y compris les caractères étrangers, les chiffres, etc.',
-		'SIMPLETEXT'   => 'Caractères de l’alphabet latin (A–Z), chiffres, espaces, virgules, points, tirets, tirets bas et signes plus/moins.',
-		'INTTEXT'      => 'Lettres Unicode, chiffres, espaces, virgules, points, tirets bas, espaces insécables et signes plus/moins.',
-		'IDENTIFIER'   => 'Caractères de l’alphabet latin (A–Z), chiffres, tirets et tirets bas.',
+		'SIMPLETEXT'   => 'Caractères de l’alphabet latin (A-Z), chiffres, espaces, virgules, points, tirets, tirets bas et signes plus et moins.',
+		'INTTEXT'      => 'Lettres Unicode, chiffres, espaces, virgules, points, tirets bas, espaces insécables et signes plus et moins.',
+		'IDENTIFIER'   => 'Caractères de l’alphabet latin (A-Z), chiffres, tirets et tirets bas.',
 		'NUMBER'       => 'Une série de chiffres.',
 		'EMAIL'        => 'Une adresse e-mail correcte.',
 		'URL'          => 'Une adresse universelle correcte utilisant n’importe quel protocole autorisé (HTTP, FTP, etc.) ne pouvant pas être utilisée pour des injections de Javascript. Si aucun protocole n’est renseigné, « http:// » sera utilisé par défaut.',

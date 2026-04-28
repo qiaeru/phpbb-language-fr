@@ -43,7 +43,7 @@ $lang = array_merge($lang, [
 	'ALPHA_ONLY'          => 'Lettres (sans accent) et chiffres uniquement',
 	'ALPHA_SPACERS'       => 'Lettres (sans accent), chiffres et séparateurs',
 	'ALPHA_UNDERSCORE'    => 'Lettres (sans accent), chiffres et tirets bas',
-	'ALPHA_PUNCTUATION'   => 'Lettres (sans accent), chiffres, virgules, points, tirets bas et tirets — la première lettre doit être une lettre',
+	'ALPHA_PUNCTUATION'   => 'Lettres (sans accent), chiffres, virgules, points, tirets bas et tirets ; la première lettre doit être une lettre',
 	'ALWAYS_TODAY'        => 'Toujours la date actuelle',
 
 	'BOOL_ENTRIES_EXPLAIN' => 'Saisissez vos options.',
@@ -86,7 +86,7 @@ $lang = array_merge($lang, [
 	'ENTRIES'                    => 'Éléments',
 	'EVERYTHING_OK'              => 'Tout est correct.',
 
-	'FIELD_BOOL'                => 'Booléen (oui/non)',
+	'FIELD_BOOL'                => 'Booléen (oui ou non)',
 	'FIELD_CONTACT_DESC'        => 'Description du contact',
 	'FIELD_CONTACT_URL'         => 'Lien du contact',
 	'FIELD_DATE'                => 'Date',
@@ -120,7 +120,7 @@ $lang = array_merge($lang, [
 
 	'LETTER_NUM_DOTS'        => 'Lettres (avec ou sans accent), chiffres et points',
 	'LETTER_NUM_ONLY'        => 'Lettres (avec ou sans accent) et chiffres',
-	'LETTER_NUM_PUNCTUATION' => 'Lettres (avec ou sans accent), chiffres, virgules, points, tirets bas et tirets — la première lettre doit être une lettre',
+	'LETTER_NUM_PUNCTUATION' => 'Lettres (avec ou sans accent), chiffres, virgules, points, tirets bas et tirets ; la première lettre doit être une lettre',
 	'LETTER_NUM_SPACERS'     => 'Lettres (avec ou sans accent), chiffres et espaces',
 	'LETTER_NUM_UNDERSCORE'  => 'Lettres (avec ou sans accent), chiffres et tirets bas',
 
@@ -134,7 +134,7 @@ $lang = array_merge($lang, [
 	'NO_FIELD_TYPE'           => 'Aucun type de champ n’a été indiqué.',
 	'NO_VALUE_OPTION'         => 'Option égale à la valeur de non-saisie',
 	'NO_VALUE_OPTION_EXPLAIN' => 'Valeur de non-saisie. Si ce champ est obligatoire et que cette option est sélectionnée, les utilisateurs verront une erreur.',
-	'NUMBERS_ONLY'            => 'Chiffres uniquement (0–9)',
+	'NUMBERS_ONLY'            => 'Chiffres uniquement (0-9)',
 
 	'PROFILE_BASIC_OPTIONS'     => 'Options de base',
 	'PROFILE_FIELD_ACTIVATED'   => 'Le champ de profil a été activé.',

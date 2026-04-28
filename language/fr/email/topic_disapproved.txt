@@ -1,4 +1,4 @@
-Subject: Sujet désapprouvé – « {TOPIC_TITLE} »
+Subject: Sujet désapprouvé : « {TOPIC_TITLE} »
 
 Bonjour {USERNAME},
 

@@ -1,4 +1,4 @@
-Subject: Sujet approuvé – « {TOPIC_TITLE} »
+Subject: Sujet approuvé : « {TOPIC_TITLE} »
 
 Bonjour {USERNAME},
 

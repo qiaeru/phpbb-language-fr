@@ -1,4 +1,4 @@
-Subject: Message privé signalé – « {SUBJECT} »
+Subject: Message privé signalé : « {SUBJECT} »
 
 Bonjour {USERNAME},
 

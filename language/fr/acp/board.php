@@ -260,7 +260,7 @@ $lang = array_merge($lang, [
 	'USERNAME_LETTER_NUM_SPACERS' => 'Lettres, chiffres et séparateurs',
 	'USERNAME_CHARS'              => 'Restriction du contenu des noms d’utilisateurs',
 	'USERNAME_CHARS_ANY'          => 'Tout contenu',
-	'USERNAME_CHARS_EXPLAIN'      => 'Caractères autorisés dans les noms d’utilisateurs. Les séparateurs comprennent les espaces, tirets bas, crochets et signes plus/moins.',
+	'USERNAME_CHARS_EXPLAIN'      => 'Caractères autorisés dans les noms d’utilisateurs. Les séparateurs comprennent les espaces, tirets bas, crochets et signes plus et moins.',
 	'USERNAME_LENGTH'             => 'Longueur des noms d’utilisateurs',
 	'USERNAME_LENGTH_EXPLAIN'     => 'Nombre minimal et maximal de caractères pour les noms d’utilisateurs.',
 ]);

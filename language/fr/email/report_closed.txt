@@ -1,4 +1,4 @@
-Subject: Votre signalement a été clôturé – « {POST_SUBJECT} »
+Subject: Votre signalement a été clôturé : « {POST_SUBJECT} »
 
 Bonjour {USERNAME},
 

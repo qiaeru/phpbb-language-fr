@@ -57,7 +57,7 @@ $lang = array_merge($lang, [
 	'EMAIL_BAN_EXPLAIN'         => 'Vous pouvez bannir plusieurs adresses e-mail en les saisissant sur une nouvelle ligne. Pour utiliser des adresses partielles, utilisez un astérisque « * » comme métacaractère passe-partout. Par exemple, « *@outlook.com », « *@*.domaine.tld », etc.',
 	'EMAIL_NO_BANNED'           => 'Aucune adresse e-mail n’a été bannie.',
 	'EMAIL_UNBAN'               => 'Annuler le bannissement des adresses e-mail',
-	'EMAIL_UNBAN_EXPLAIN'       => 'Vous pouvez annuler le bannissement de plusieurs adresses e-mail à la fois à l’aide des raccourcis souris/clavier de votre navigateur. Les adresses exclues apparaissent soulignées.',
+	'EMAIL_UNBAN_EXPLAIN'       => 'Vous pouvez annuler le bannissement de plusieurs adresses e-mail à la fois à l’aide des raccourcis souris ou clavier de votre navigateur. Les adresses exclues apparaissent soulignées.',
 
 	'IP_BAN'                 => 'Bannir des adresses IP',
 	'IP_BAN_EXCLUDE_EXPLAIN' => 'Si cette option est activée, les adresses IP saisies sont exclues de tous les bannissements actuels.',
@@ -65,7 +65,7 @@ $lang = array_merge($lang, [
 	'IP_HOSTNAME'            => 'Adresses IP ou noms d’hôtes',
 	'IP_NO_BANNED'           => 'Aucune adresse IP n’a été bannie.',
 	'IP_UNBAN'               => 'Annuler le bannissement des adresses IP',
-	'IP_UNBAN_EXPLAIN'       => 'Vous pouvez annuler le bannissement de plusieurs adresses IP à la fois à l’aide des raccourcis souris/clavier de votre navigateur. Les adresses IP exclues apparaissent soulignées.',
+	'IP_UNBAN_EXPLAIN'       => 'Vous pouvez annuler le bannissement de plusieurs adresses IP à la fois à l’aide des raccourcis souris ou clavier de votre navigateur. Les adresses IP exclues apparaissent soulignées.',
 
 	'LENGTH_BAN_INVALID' => 'La date doit être au format « AAAA-MM-JJ ».',
 
@@ -80,5 +80,5 @@ $lang = array_merge($lang, [
 	'USER_BAN_EXPLAIN'         => 'Vous pouvez bannir plusieurs noms d’utilisateurs en les saisissant sur une nouvelle ligne. Utilisez la fonctionnalité « Trouver un membre » pour rechercher et d’ajouter un ou plusieurs utilisateurs.',
 	'USER_NO_BANNED'           => 'Aucun nom d’utilisateur n’a été banni.',
 	'USER_UNBAN'               => 'Annuler le bannissement par nom d’utilisateur',
-	'USER_UNBAN_EXPLAIN'       => 'Vous pouvez annuler le bannissement de plusieurs utilisateurs à la fois à l’aide des raccourcis souris/clavier de votre navigateur. Les utilisateurs exclus apparaissent soulignés.',
+	'USER_UNBAN_EXPLAIN'       => 'Vous pouvez annuler le bannissement de plusieurs utilisateurs à la fois à l’aide des raccourcis souris ou clavier de votre navigateur. Les utilisateurs exclus apparaissent soulignés.',
 ]);

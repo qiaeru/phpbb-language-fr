@@ -533,7 +533,7 @@ $lang = array_merge($lang, [
 	'LOG_ATTACH_EXTGROUP_ADD'  => '<strong>Ajout d’un groupe d’extensions</strong><br>» %s',
 	'LOG_ATTACH_EXTGROUP_EDIT' => '<strong>Modification d’un groupe d’extensions</strong><br>» %s',
 	'LOG_ATTACH_EXTGROUP_DEL'  => '<strong>Suppression d’un groupe d’extensions</strong><br>» %s',
-	'LOG_ATTACH_FILEUPLOAD'    => '<strong>Transfert d’une pièce jointe orpheline vers un message</strong><br>» ID %1$d – %2$s',
+	'LOG_ATTACH_FILEUPLOAD'    => '<strong>Transfert d’une pièce jointe orpheline vers un message</strong><br>» ID %1$d : %2$s',
 	'LOG_ATTACH_ORPHAN_DEL'    => '<strong>Suppression d’une pièce jointe orpheline</strong><br>» %s',
 
 	'LOG_BAN_EXCLUDE_USER'  => '<strong>Exclusion d’un nom d’utilisateur d’un bannissement</strong> avec la raison « %1$s »<br>» %2$s',

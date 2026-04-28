@@ -1,4 +1,4 @@
-Subject: Un sujet est en attente d’approbation – « {TOPIC_TITLE} »
+Subject: Un sujet est en attente d’approbation : « {TOPIC_TITLE} »
 
 Bonjour {USERNAME},
 

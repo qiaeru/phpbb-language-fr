@@ -1,4 +1,4 @@
-Subject: Votre message a été approuvé – « {POST_SUBJECT} »
+Subject: Votre message a été approuvé : « {POST_SUBJECT} »
 
 Bonjour {USERNAME},
 

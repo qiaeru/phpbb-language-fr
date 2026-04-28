@@ -1,4 +1,4 @@
-Subject: Un signalement a été supprimé – « {POST_SUBJECT} »
+Subject: Un signalement a été supprimé : « {POST_SUBJECT} »
 
 Bonjour {USERNAME},
 

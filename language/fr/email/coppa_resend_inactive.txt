@@ -13,7 +13,7 @@ Ou envoyez-le par e-mail à :
 {MAIL_INFO}
 
 ------------------------------ COUPEZ ICI ------------------------------
-Permission de participer à « {SITENAME} » – {U_BOARD}
+Permission de participer à « {SITENAME} » : {U_BOARD}
 
 Nom d’utilisateur : {USERNAME}
 Adresse e-mail : {EMAIL_ADDRESS}

@@ -112,7 +112,7 @@ $lang = array_merge($lang, [
 	'ORDER' => 'Ordre',
 	'OTHER' => 'Autre',
 
-	'POST_IP' => 'Publié depuis le domaine/IP',
+	'POST_IP' => 'Publié depuis le domaine ou IP',
 
 	'REAL_NAME'     => 'Nom du destinataire',
 	'RECIPIENT'     => 'Destinataire',

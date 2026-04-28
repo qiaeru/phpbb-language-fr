@@ -8,6 +8,6 @@ Félicitations. La réception de cet e-mail signifie que la messagerie e-mail de
 {MESSAGE}
 
 <!-- ENDIF -->
-Si vous auriez besoin d’aide, rendez-vous sur nos forums d’assistance – https://www.phpbb.com/community/ (en anglais)
+Si vous auriez besoin d’aide, rendez-vous sur nos forums d’assistance : https://www.phpbb.com/community/ (en anglais)
 
 {EMAIL_SIG}

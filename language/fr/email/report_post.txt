@@ -1,4 +1,4 @@
-Subject: Message signalé – « {TOPIC_TITLE} »
+Subject: Message signalé : « {TOPIC_TITLE} »
 
 Bonjour {USERNAME},
 
