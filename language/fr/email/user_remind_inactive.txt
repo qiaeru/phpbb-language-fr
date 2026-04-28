@@ -2,7 +2,7 @@ Subject: Compte inactif
 
 Bonjour {USERNAME},
 
-Cette notification est un rappel car votre compte sur « {SITENAME} », créé le {REGISTER_DATE}, demeure inactif. Si vous souhaitez activer ce compte, veuillez vous rendre sur le lien suivant :
+Cette notification est un rappel car votre compte sur « {SITENAME} », créé le {REGISTER_DATE}, demeure inactif. Pour activer ce compte, rendez-vous sur le lien suivant :
 
 {U_ACTIVATE}
 

@@ -3,18 +3,18 @@ List-Unsubscribe: <{U_STOP_WATCHING_TOPIC}>
 
 Bonjour {USERNAME},
 
-Depuis votre dernière visite sur « {SITENAME} », une nouvelle réponse a été publiée<!-- IF AUTHOR_NAME != '' --> par {AUTHOR_NAME}<!-- ENDIF --> dans le sujet « {TOPIC_TITLE} ». Aucune nouvelle notification ne vous sera envoyée jusqu’à ce que vous visitiez le sujet.
+Depuis votre dernière visite sur « {SITENAME} », une nouvelle réponse a été publiée<!-- IF AUTHOR_NAME != '' --> par {AUTHOR_NAME}<!-- ENDIF --> dans le sujet « {TOPIC_TITLE} ». Aucune nouvelle notification ne vous sera envoyée tant que vous n’aurez pas consulté le sujet.
 
-Si vous souhaitez consulter le nouveau message, veuillez cliquer sur le lien suivant :
+Pour consulter le nouveau message, cliquez sur le lien suivant :
 {U_NEWEST_POST}
 
-Si vous souhaitez consulter le sujet, veuillez cliquer sur le lien suivant :
+Pour consulter le sujet, cliquez sur le lien suivant :
 {U_TOPIC}
 
-Si vous souhaitez consulter le forum, veuillez cliquer sur le lien suivant :
+Pour consulter le forum, cliquez sur le lien suivant :
 {U_FORUM}
 
-Si vous ne souhaitez plus surveiller ce sujet, veuillez cliquer sur le lien suivant :
+Si vous ne souhaitez plus surveiller ce sujet, cliquez sur le lien suivant :
 {U_STOP_WATCHING_TOPIC}
 
 {EMAIL_SIG}

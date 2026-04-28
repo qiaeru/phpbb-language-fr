@@ -4,7 +4,7 @@
  * phpBB forum software.
  *
  * @copyright (c) phpBB Limited <https://www.phpbb.com>
- * @copyright (c) Qiaeru <https://www.qiaeru.com>
+ * @copyright (c) Qiaeru <https://www.qiae.ru>
  * @license GNU General Public License, version 2 (GPL-2.0)
  *
  * For more information about the language pack, please visit
@@ -38,31 +38,31 @@ if (empty($lang) || !is_array($lang))
 
 // Email settings
 $lang = array_merge($lang, [
-	'ACP_MASS_EMAIL_EXPLAIN' => 'Depuis cette page, vous pouvez envoyer un courriel à la totalité des utilisateurs ou aux utilisateurs d’un groupe d’utilisateurs spécifique qui acceptent la réception de courriels de masse. Pour ce faire, un courriel sera envoyé à l’adresse de courriel renseignée par les administrateurs et une copie sera adressée à tous les destinataires. La configuration par défaut est limitée à 20 destinataires par courriel, mais si ce nombre est dépassé, des courriels supplémentaires seront envoyés. Sachez également que plus les destinataires sont nombreux, plus le délai d’exécution est important. Il est normal que l’envoi d’un courriel de masse prenne un certain temps, veillez à ne pas vous déplacer sur une autre page tant que l’opération n’est pas totalement terminée.',
+	'ACP_MASS_EMAIL_EXPLAIN' => 'Depuis cette page, vous pouvez envoyer un e-mail à tous les utilisateurs ou à ceux d’un groupe spécifique qui acceptent les e-mails de masse. Un e-mail est envoyé à l’adresse renseignée par les administrateurs, et une copie est adressée à chaque destinataire. La configuration par défaut limite à 20 destinataires par e-mail ; au-delà, plusieurs e-mails sont envoyés. Plus il y a de destinataires, plus l’opération est longue. L’envoi en masse peut prendre un certain temps : ne quittez pas la page avant la fin de l’opération.',
 	'ALL_USERS'              => 'Tous les utilisateurs',
 
 	'COMPOSE' => 'Rédiger',
 
-	'EMAIL_SEND_ERROR' => 'Une ou plusieurs erreurs sont survenues lors de l’envoi du courriel. Pour plus d’informations, veuillez consulter l’%shistorique des erreurs%s.',
+	'EMAIL_SEND_ERROR' => 'Une ou plusieurs erreurs sont survenues lors de l’envoi de l’e-mail. Pour plus d’informations, consultez l’%shistorique des erreurs%s.',
 	'EMAIL_SENT'       => 'Le message a été envoyé.',
-	'EMAIL_SENT_QUEUE' => 'Le message est en file d’attente et sera envoyé ultérieurement.',
+	'EMAIL_SENT_QUEUE' => 'Le message a été placé en file d’attente et sera envoyé plus tard.',
 
-	'LOG_SESSION' => 'Historique de la session de la messagerie électronique vers l’historique des erreurs critiques',
+	'LOG_SESSION' => 'Enregistrer la session d’envoi d’e-mail dans l’historique des erreurs critiques',
 
 	'SEND_IMMEDIATELY'      => 'Envoyer en temps réel',
 	'SEND_TO_GROUP'         => 'Envoyer à un groupe d’utilisateurs',
 	'SEND_TO_USERS'         => 'Envoyer à des utilisateurs',
-	'SEND_TO_USERS_EXPLAIN' => 'Les noms d’utilisateurs spécifiés dans ce champ remplaceront le groupe d’utilisateurs sélectionné dans le menu déroulant ci-dessus. Veuillez saisir chaque nom d’utilisateur sur une nouvelle ligne.',
+	'SEND_TO_USERS_EXPLAIN' => 'Les noms d’utilisateurs indiqués ici remplacent le groupe sélectionné dans le menu ci-dessus. Saisissez chaque nom d’utilisateur sur une nouvelle ligne.',
 
-	'MAIL_BANNED'          => 'Envoyer le courriel aux utilisateurs bannis',
-	'MAIL_BANNED_EXPLAIN'  => 'Les membres bannis d’un groupe d’utilisateurs destinataire d’un courriel de masse recevront également le courriel.',
+	'MAIL_BANNED'          => 'Envoyer l’e-mail aux utilisateurs bannis',
+	'MAIL_BANNED_EXPLAIN'  => 'Les membres bannis d’un groupe destinataire d’un e-mail de masse le recevront également.',
 	'MAIL_HIGH_PRIORITY'   => 'Élevée',
 	'MAIL_LOW_PRIORITY'    => 'Faible',
 	'MAIL_NORMAL_PRIORITY' => 'Normale',
-	'MAIL_PRIORITY'        => 'Priorité du courriel',
+	'MAIL_PRIORITY'        => 'Priorité de l’e-mail',
 	'MASS_MESSAGE'         => 'Message',
-	'MASS_MESSAGE_EXPLAIN' => 'Le message ne doit contenir que du texte brut. Toutes les balises seront automatiquement supprimées.',
+	'MASS_MESSAGE_EXPLAIN' => 'Le message ne doit contenir que du texte brut ; toutes les balises sont automatiquement supprimées.',
 
-	'NO_EMAIL_MESSAGE' => 'Vous devez saisir un message.',
-	'NO_EMAIL_SUBJECT' => 'Vous devez saisir le sujet de votre message.',
+	'NO_EMAIL_MESSAGE' => 'Saisissez un message.',
+	'NO_EMAIL_SUBJECT' => 'Saisissez l’objet de votre message.',
 ]);

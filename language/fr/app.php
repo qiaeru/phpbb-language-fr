@@ -4,7 +4,7 @@
  * phpBB forum software.
  *
  * @copyright (c) phpBB Limited <https://www.phpbb.com>
- * @copyright (c) Qiaeru <https://www.qiaeru.com>
+ * @copyright (c) Qiaeru <https://www.qiae.ru>
  * @license GNU General Public License, version 2 (GPL-2.0)
  *
  * For more information about the language pack, please visit
@@ -38,7 +38,7 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, [
 	'CONTROLLER_ARGUMENT_VALUE_MISSING' => 'Valeur manquante concernant l’argument #%1$s : « %3$s » dans la classe « %2$s »',
-	'CONTROLLER_NOT_SPECIFIED'          => 'Aucun contrôleur n’a été spécifié.',
-	'CONTROLLER_METHOD_NOT_SPECIFIED'   => 'Aucune méthode concernant le contrôleur n’a été spécifiée.',
+	'CONTROLLER_NOT_SPECIFIED'          => 'Aucun contrôleur n’a été indiqué.',
+	'CONTROLLER_METHOD_NOT_SPECIFIED'   => 'Aucune méthode de contrôleur n’a été indiquée.',
 	'CONTROLLER_SERVICE_UNDEFINED'      => 'Le service du contrôleur « %s » n’est pas défini dans « ./config/services.yml ».',
 ]);

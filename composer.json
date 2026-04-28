@@ -3,18 +3,19 @@
 	"description": "French language pack for phpBB 3.3",
 	"type": "phpbb-language",
 	"homepage": "https://www.phpbb.com/customise/db/translation/french/",
-	"version": "4.16.0",
+	"version": "5.0.0",
 	"license": "GPL-2.0-only",
+	"keywords": ["phpbb", "language", "translation", "french", "francais", "fr"],
 	"authors": [
 		{
 			"name": "Qiaeru",
-            "email": "qiaeru@duck.com",
-            "homepage": "https://www.qiaeru.com"
+			"homepage": "https://www.qiae.ru"
 		}
 	],
 	"support": {
 		"issues": "https://github.com/qiaeru/phpbb-language-fr/issues",
-		"source": "https://github.com/qiaeru/phpbb-language-fr"
+		"source": "https://github.com/qiaeru/phpbb-language-fr",
+		"docs": "https://www.phpbb.com/customise/db/translation/french/"
 	},
 	"require": {
 		"php": ">=8.1"

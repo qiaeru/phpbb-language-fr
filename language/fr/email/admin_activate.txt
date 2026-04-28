@@ -4,10 +4,10 @@ Bonjour,
 
 Le compte de « {USERNAME} » a été désactivé ou nouvellement créé. Vous devriez, si nécessaire, gérer et vérifier les informations concernant cet utilisateur.
 
-Si vous souhaitez consulter le profil de cet utilisateur, veuillez cliquer sur le lien suivant :
+Pour consulter le profil de cet utilisateur, cliquez sur le lien suivant :
 {U_USER_DETAILS}
 
-Vous pouvez activer dès à présent le compte de cet utilisateur en cliquant sur le lien suivant :
+Pour activer ce compte, cliquez sur le lien suivant :
 {U_ACTIVATE}
 
 {EMAIL_SIG}

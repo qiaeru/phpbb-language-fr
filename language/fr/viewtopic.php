@@ -4,7 +4,7 @@
  * phpBB forum software.
  *
  * @copyright (c) phpBB Limited <https://www.phpbb.com>
- * @copyright (c) Qiaeru <https://www.qiaeru.com>
+ * @copyright (c) Qiaeru <https://www.qiae.ru>
  * @license GNU General Public License, version 2 (GPL-2.0)
  *
  * For more information about the language pack, please visit
@@ -42,7 +42,7 @@ $lang = array_merge($lang, [
 	'ATTACHMENT_FUNCTIONALITY_DISABLED' => 'Les pièces jointes ont été désactivées.',
 
 	'BOOKMARK_ADDED'        => 'Le sujet a été ajouté aux favoris.',
-	'BOOKMARK_ERR'          => 'Le sujet n’a pas pu être ajouté aux favoris. Veuillez réessayer ultérieurement.',
+	'BOOKMARK_ERR'          => 'Le sujet n’a pas pu être ajouté aux favoris. Réessayez plus tard.',
 	'BOOKMARK_REMOVED'      => 'Le sujet a été supprimé de vos favoris.',
 	'BOOKMARK_TOPIC'        => 'Ajouter ce sujet aux favoris',
 	'BOOKMARK_TOPIC_REMOVE' => 'Supprimer ce sujet de vos favoris',
@@ -52,22 +52,22 @@ $lang = array_merge($lang, [
 	'DELETE_TOPIC'        => 'Supprimer le sujet',
 	'DELETED_INFORMATION' => 'Supprimé par %1$s le %2$s',
 	'DISAPPROVE'          => 'Désapprouver',
-	'DOWNLOAD_NOTICE'     => 'Vous ne pouvez pas consulter les pièces jointes insérées à ce message.',
+	'DOWNLOAD_NOTICE'     => 'Vous n’êtes pas autorisé à consulter les pièces jointes insérées dans ce message.',
 
 	'EDITED_TIMES_TOTAL' => [
 		1 => 'Dernière modification par %2$s le %3$s, modifié %1$d fois.',
 		2 => 'Dernière modification par %2$s le %3$s, modifié %1$d fois.',
 	],
-	'EMAIL_TOPIC'         => 'Envoyer le sujet par courriel',
+	'EMAIL_TOPIC'         => 'Envoyer le sujet par e-mail',
 	'ERROR_NO_ATTACHMENT' => 'La pièce jointe est introuvable.',
 
 	'FILE_NOT_FOUND_404' => 'Le fichier « %s » est introuvable.',
 	'FORK_TOPIC'         => 'Copier le sujet',
 	'FULL_EDITOR'        => 'Éditeur avancé et prévisualisation',
 
-	'LINKAGE_FORBIDDEN'  => 'Vous ne pouvez pas consulter, télécharger ou insérer de liens vers ce site.',
-	'LOGIN_NOTIFY_TOPIC' => 'Vous avez reçu une notification concernant un message de ce sujet. Veuillez vous connecter afin de le consulter.',
-	'LOGIN_VIEWTOPIC'    => 'Vous devez être inscrit et connecté afin de consulter ce sujet.',
+	'LINKAGE_FORBIDDEN'  => 'Vous n’êtes pas autorisé à consulter, télécharger ou insérer des liens vers ce site.',
+	'LOGIN_NOTIFY_TOPIC' => 'Vous avez reçu une notification concernant un message de ce sujet. Connectez-vous pour le consulter.',
+	'LOGIN_VIEWTOPIC'    => 'Vous devez être inscrit et connecté pour consulter ce sujet.',
 
 	'MAKE_ANNOUNCE'      => 'Modifier en annonce',
 	'MAKE_GLOBAL'        => 'Modifier en annonce générale',
@@ -80,13 +80,13 @@ $lang = array_merge($lang, [
 	'MISSING_INLINE_ATTACHMENT' => 'La pièce jointe « %s » n’est plus disponible',
 	'MOVE_TOPIC'                => 'Déplacer le sujet',
 
-	'NO_ATTACHMENT_SELECTED' => 'Vous n’avez sélectionné aucune pièce jointe à télécharger ou à consulter.',
-	'NO_NEWER_TOPICS'        => 'Aucun nouveau sujet n’a été publié dans ce forum.',
-	'NO_OLDER_TOPICS'        => 'Aucun ancien sujet n’a été publié dans ce forum.',
-	'NO_UNREAD_POSTS'        => 'Aucun message non lu n’a été publié dans ce sujet.',
-	'NO_VOTE_OPTION'         => 'Vous devez sélectionner une option afin de voter.',
+	'NO_ATTACHMENT_SELECTED' => 'Vous n’avez sélectionné aucune pièce jointe à télécharger ou consulter.',
+	'NO_NEWER_TOPICS'        => 'Aucun sujet plus récent n’a été publié dans ce forum.',
+	'NO_OLDER_TOPICS'        => 'Aucun sujet plus ancien n’a été publié dans ce forum.',
+	'NO_UNREAD_POSTS'        => 'Aucun message non lu dans ce sujet.',
+	'NO_VOTE_OPTION'         => 'Vous devez sélectionner une option pour voter.',
 	'NO_VOTES'               => 'Aucun vote',
-	'NO_AUTH_PRINT_TOPIC'    => 'Vous ne pouvez pas imprimer les sujets.',
+	'NO_AUTH_PRINT_TOPIC'    => 'Vous n’êtes pas autorisé à imprimer les sujets.',
 
 	'POLL_ENDED_AT'        => 'Le sondage est terminé depuis le %s',
 	'POLL_RUN_TILL'        => 'Le sondage est actif jusqu’au %s',
@@ -120,5 +120,5 @@ $lang = array_merge($lang, [
 	],
 	'VIEW_UNREAD_POST' => 'Premier message non lu',
 	'VOTE_SUBMITTED'   => 'Votre vote a bien été comptabilisé.',
-	'VOTE_CONVERTED'   => 'Les votes d’un sondage qui a été converti ne peuvent pas être modifiés.',
+	'VOTE_CONVERTED'   => 'Les votes d’un sondage converti ne peuvent pas être modifiés.',
 ]);

@@ -1,13 +1,13 @@
-Subject: phpBB est correctement configuré pour envoyer des courriels
+Subject: phpBB est correctement configuré pour envoyer des e-mails
 
 Bonjour {USERNAME},
 
-Félicitations. La réception de ce courriel signifie que la messagerie électronique de phpBB est correctement configurée.
+Félicitations. La réception de cet e-mail signifie que la messagerie e-mail de phpBB est correctement configurée.
 
 <!-- IF MESSAGE -->
 {MESSAGE}
 
 <!-- ENDIF -->
-Dans le cas où vous auriez besoin d’aide, veuillez vous rendre sur nos forums d’assistance – https://www.phpbb.com/community/ (en anglais)
+Si vous auriez besoin d’aide, rendez-vous sur nos forums d’assistance – https://www.phpbb.com/community/ (en anglais)
 
 {EMAIL_SIG}

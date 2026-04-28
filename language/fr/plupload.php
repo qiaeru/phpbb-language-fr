@@ -5,7 +5,7 @@
  *
  * @copyright (c) phpBB Limited <https://www.phpbb.com>
  * @copyright (c) Moxiecode Systems AB <http://www.moxiecode.com>
- * @copyright (c) Qiaeru <https://www.qiaeru.com>
+ * @copyright (c) Qiaeru <https://www.qiae.ru>
  * @license GNU General Public License, version 2 (GPL-2.0)
  *
  * For more information about the language pack, please visit
@@ -39,21 +39,21 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, [
 	'PLUPLOAD_ADD_FILES'            => 'Ajouter des fichiers',
-	'PLUPLOAD_ADD_FILES_TO_QUEUE'   => 'Ajoutez des fichiers à la file d’attente de transfert et cliquez sur le bouton de démarrage afin de les transférer.',
+	'PLUPLOAD_ADD_FILES_TO_QUEUE'   => 'Ajoutez des fichiers à la file d’attente d’envoi et cliquez sur le bouton de démarrage pour les envoyer.',
 	'PLUPLOAD_ALREADY_QUEUED'       => '%s fichiers déjà présents dans la file d’attente.',
 	'PLUPLOAD_CLOSE'                => 'Fermer',
-	'PLUPLOAD_DRAG'                 => 'Glissez et déposez ici les fichiers que vous souhaitez transférer.',
+	'PLUPLOAD_DRAG'                 => 'Glissez et déposez ici les fichiers à envoyer.',
 	'PLUPLOAD_DUPLICATE_ERROR'      => 'Erreur de duplicata de fichier.',
-	'PLUPLOAD_DRAG_TEXTAREA'        => 'Vous pouvez également transférer des fichiers en les glissant et en les déposant dans la boîte de texte.',
+	'PLUPLOAD_DRAG_TEXTAREA'        => 'Vous pouvez aussi envoyer des fichiers en les glissant-déposant dans la boîte de texte.',
 	'PLUPLOAD_ERR_INPUT'            => 'Impossible d’ouvrir le flux d’entrée.',
-	'PLUPLOAD_ERR_MOVE_UPLOADED'    => 'Impossible de déplacer le fichier transféré.',
+	'PLUPLOAD_ERR_MOVE_UPLOADED'    => 'Impossible de déplacer le fichier envoyé.',
 	'PLUPLOAD_ERR_OUTPUT'           => 'Impossible d’ouvrir le flux de sortie.',
 	'PLUPLOAD_ERR_FILE_TOO_LARGE'   => 'La taille du fichier est trop importante :',
 	'PLUPLOAD_ERR_FILE_COUNT'       => 'Erreur sur le nombre de fichiers.',
 	'PLUPLOAD_ERR_FILE_INVALID_EXT' => 'L’extension du fichier est invalide :',
-	'PLUPLOAD_ERR_RUNTIME_MEMORY'   => 'La mémoire disponible est insuffisante.',
-	'PLUPLOAD_ERR_UPLOAD_URL'       => 'Le lien de transfert est introuvable ou invalide.',
-	'PLUPLOAD_EXTENSION_ERROR'      => 'Erreur d’extension de fichier.',
+	'PLUPLOAD_ERR_RUNTIME_MEMORY'   => 'Mémoire disponible insuffisante.',
+	'PLUPLOAD_ERR_UPLOAD_URL'       => 'Le lien d’envoi est introuvable ou invalide.',
+	'PLUPLOAD_EXTENSION_ERROR'      => 'Erreur sur l’extension du fichier.',
 	'PLUPLOAD_FILE'                 => 'Fichier : %s',
 	'PLUPLOAD_FILE_DETAILS'         => 'Fichier : %s ; taille : %d ; taille maximale autorisée : %d',
 	'PLUPLOAD_FILENAME'             => 'Nom',

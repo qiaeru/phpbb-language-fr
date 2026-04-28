@@ -4,7 +4,7 @@
  * phpBB forum software.
  *
  * @copyright (c) phpBB Limited <https://www.phpbb.com>
- * @copyright (c) Qiaeru <https://www.qiaeru.com>
+ * @copyright (c) Qiaeru <https://www.qiae.ru>
  * @license GNU General Public License, version 2 (GPL-2.0)
  *
  * For more information about the language pack, please visit
@@ -70,7 +70,7 @@ $lang = array_merge($lang, [
 
 	'MODULE_ERROR'               => 'Une erreur est survenue lors de la création d’un module : %s',
 	'MODULE_EXISTS'              => 'Le module « %s » existe déjà',
-	'MODULE_EXIST_MULTIPLE'      => 'Plusieurs modules portant ce nom de langue existent déjà dans le module parent « %s ». Veuillez essayer d’utiliser des clés « Before » (avant) et « After » (après) afin de positionner l’emplacement du module.',
+	'MODULE_EXIST_MULTIPLE'      => 'Plusieurs modules portant ce nom de langue existent déjà dans le module parent « %s ». Essayez d’utiliser les clés « Before » (avant) et « After » (après) pour positionner le module.',
 	'MODULE_INFO_FILE_NOT_EXIST' => 'Un fichier d’information du module est manquant : %2$s',
 	'MODULE_NOT_EXIST'           => 'Un module nécessaire est manquant : %s',
 

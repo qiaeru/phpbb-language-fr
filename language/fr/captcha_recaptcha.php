@@ -4,7 +4,7 @@
  * phpBB forum software.
  *
  * @copyright (c) phpBB Limited <https://www.phpbb.com>
- * @copyright (c) Qiaeru <https://www.qiaeru.com>
+ * @copyright (c) Qiaeru <https://www.qiae.ru>
  * @license GNU General Public License, version 2 (GPL-2.0)
  *
  * For more information about the language pack, please visit
@@ -44,24 +44,24 @@ $lang = array_merge($lang, [
 	'CAPTCHA_RECAPTCHA'    => 'reCaptcha v2',
 	'CAPTCHA_RECAPTCHA_V3' => 'reCaptcha v3',
 
-	'RECAPTCHA_INCORRECT'               => 'La vérification a échoué',
-	'RECAPTCHA_NOSCRIPT'                => 'Vous devez activer JavaScript dans votre navigateur internet afin de charger le formulaire.',
-	'RECAPTCHA_NOT_AVAILABLE'           => 'Vous devez créer un compte sur <a href="https://www.google.com/recaptcha">le site internet de reCAPTCHA</a> (en anglais) afin de pouvoir utiliser reCAPTCHA.',
-	'RECAPTCHA_INVISIBLE'               => 'Ce CAPTCHA est actuellement invisible. Pour vérifier qu’il fonctionne correctement, une petite icône devrait apparaître dans le coin situé en bas à droite de cette page.',
-	'RECAPTCHA_V3_LOGIN_ERROR_ATTEMPTS' => 'Vous avez dépassé le nombre maximum de tentatives de connexion autorisées.<br>En plus de votre nom d’utilisateur et de votre mot de passe, le reCAPTCHA v3 invisible sera utilisé pour authentifier votre session.',
+	'RECAPTCHA_INCORRECT'               => 'La vérification a échoué.',
+	'RECAPTCHA_NOSCRIPT'                => 'Activez JavaScript dans votre navigateur pour charger le formulaire.',
+	'RECAPTCHA_NOT_AVAILABLE'           => 'Vous devez créer un compte sur <a href="https://www.google.com/recaptcha">le site web de reCAPTCHA</a> (en anglais) pour utiliser reCAPTCHA.',
+	'RECAPTCHA_INVISIBLE'               => 'Ce CAPTCHA est invisible. Pour vérifier qu’il fonctionne, une petite icône doit apparaître dans le coin inférieur droit de la page.',
+	'RECAPTCHA_V3_LOGIN_ERROR_ATTEMPTS' => 'Vous avez dépassé le nombre maximum de tentatives de connexion.<br>En plus du nom d’utilisateur et du mot de passe, reCAPTCHA v3 invisible sera utilisé pour authentifier votre session.',
 
 	'RECAPTCHA_PUBLIC'             => 'Clé du site',
-	'RECAPTCHA_PUBLIC_EXPLAIN'     => 'Votre clé de site sur reCAPTCHA. Les clés peuvent être récupérées sur <a href="https://www.google.com/recaptcha">le site internet de reCAPTCHA</a> (en anglais). Veuillez utiliser le type de badge « Invisible reCAPTCHA » de reCAPTCHA v2.',
-	'RECAPTCHA_V3_PUBLIC_EXPLAIN'  => 'Votre clé de site sur reCAPTCHA. Les clés peuvent être récupérées sur <a href="https://www.google.com/recaptcha">le site internet de reCAPTCHA</a> (en anglais). Veuillez utiliser reCAPTCHA v3.',
+	'RECAPTCHA_PUBLIC_EXPLAIN'     => 'Votre clé de site sur reCAPTCHA. Les clés peuvent être récupérées sur <a href="https://www.google.com/recaptcha">le site web de reCAPTCHA</a> (en anglais). Utilisez le type de badge « Invisible reCAPTCHA » de reCAPTCHA v2.',
+	'RECAPTCHA_V3_PUBLIC_EXPLAIN'  => 'Votre clé de site reCAPTCHA. Les clés se récupèrent sur <a href="https://www.google.com/recaptcha">le site web de reCAPTCHA</a> (en anglais). Utilisez reCAPTCHA v3.',
 	'RECAPTCHA_PRIVATE'            => 'Clé secrète',
-	'RECAPTCHA_PRIVATE_EXPLAIN'    => 'Votre clé secrète sur reCAPTCHA. Les clés peuvent être récupérées sur <a href="https://www.google.com/recaptcha">le site internet de reCAPTCHA</a> (en anglais). Veuillez utiliser le type de badge « Invisible reCAPTCHA » de reCAPTCHA v2.',
-	'RECAPTCHA_V3_PRIVATE_EXPLAIN' => 'Votre clé secrète sur reCAPTCHA. Les clés peuvent être récupérées sur <a href="https://www.google.com/recaptcha">le site internet de reCAPTCHA</a> (en anglais). Veuillez utiliser reCAPTCHA v3.',
+	'RECAPTCHA_PRIVATE_EXPLAIN'    => 'Votre clé secrète sur reCAPTCHA. Les clés peuvent être récupérées sur <a href="https://www.google.com/recaptcha">le site web de reCAPTCHA</a> (en anglais). Utilisez le type de badge « Invisible reCAPTCHA » de reCAPTCHA v2.',
+	'RECAPTCHA_V3_PRIVATE_EXPLAIN' => 'Votre clé secrète reCAPTCHA. Les clés se récupèrent sur <a href="https://www.google.com/recaptcha">le site web de reCAPTCHA</a> (en anglais). Utilisez reCAPTCHA v3.',
 
 	'RECAPTCHA_V3_DOMAIN'         => 'Domaine de requête',
-	'RECAPTCHA_V3_DOMAIN_EXPLAIN' => 'Le domaine à partir duquel récupérer le script et à utiliser lors de la vérification de la requête.<br>Veuillez utiliser <samp>recaptcha.net</samp> lorsque <samp>google.com</samp> n’est pas accessible.',
+	'RECAPTCHA_V3_DOMAIN_EXPLAIN' => 'Domaine d’où récupérer le script et utilisé lors de la vérification de la requête.<br>Utilisez <samp>recaptcha.net</samp> lorsque <samp>google.com</samp> n’est pas accessible.',
 
 	'RECAPTCHA_V3_METHOD'         => 'Méthode de requête',
-	'RECAPTCHA_V3_METHOD_EXPLAIN' => 'La méthode à utiliser lors de la vérification de la requête.<br>Les options désactivées ne sont pas disponibles dans votre configuration.',
+	'RECAPTCHA_V3_METHOD_EXPLAIN' => 'Méthode utilisée lors de la vérification de la requête.<br>Les options désactivées ne sont pas disponibles dans votre configuration.',
 	'RECAPTCHA_V3_METHOD_CURL'    => 'cURL',
 	'RECAPTCHA_V3_METHOD_POST'    => 'POST',
 	'RECAPTCHA_V3_METHOD_SOCKET'  => 'Socket',
@@ -71,8 +71,8 @@ $lang = array_merge($lang, [
 	'RECAPTCHA_V3_THRESHOLD_LOGIN'           => 'Seuil de connexion',
 	'RECAPTCHA_V3_THRESHOLD_POST'            => 'Seuil de publication',
 	'RECAPTCHA_V3_THRESHOLD_REGISTER'        => 'Seuil d’inscription',
-	'RECAPTCHA_V3_THRESHOLD_REPORT'          => 'Seuil de rapport',
+	'RECAPTCHA_V3_THRESHOLD_REPORT'          => 'Seuil de signalement',
 	'RECAPTCHA_V3_THRESHOLDS'                => 'Seuils',
-	'RECAPTCHA_V3_THRESHOLDS_EXPLAIN'        => 'reCAPTCHA v3 renvoie un score (<samp>1.0</samp> est très probablement une bonne interaction alors que <samp>0.0</samp> est très probablement un robot). Vous pouvez configurer ici le score minimum par action.',
-	'EMPTY_RECAPTCHA_V3_REQUEST_METHOD'      => 'reCAPTCHA v3 a besoin de connaître la méthode disponible que vous souhaitez utiliser pour vérifier la requête.',
+	'RECAPTCHA_V3_THRESHOLDS_EXPLAIN'        => 'reCAPTCHA v3 renvoie un score (<samp>1.0</samp> indique très probablement une bonne interaction, <samp>0.0</samp> très probablement un robot). Configurez ici le score minimum par action.',
+	'EMPTY_RECAPTCHA_V3_REQUEST_METHOD'      => 'reCAPTCHA v3 a besoin de connaître la méthode disponible pour vérifier la requête.',
 ]);
