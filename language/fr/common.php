@@ -354,7 +354,7 @@ $lang = array_merge($lang, [
 	'HOURS'                  => 'Heures',
 	'HOME'                   => 'Accueil',
 	'HTTP_HANDLER_NOT_FOUND' => 'Opération échouée : l’extension PHP « cURL » et le paramètre « allow_url_fopen » sont désactivés, et aucun autre gestionnaire HTTP n’est disponible.',
- 
+
 
 	'ICQ'                      => 'ICQ',
 	'IF'                       => 'Si',
@@ -923,7 +923,7 @@ $lang = array_merge($lang, [
 	'WATCH_TOPIC_DETAILED' => 'Êtes-vous sûr de vouloir vous abonner au sujet « %s » ?',
 	'WELCOME_SUBJECT'      => 'Bienvenue sur les forums de %s',
 	'WEBSITE'              => 'Site web',
-	'WHOIS'                => 'Whois',
+	'WHOIS'                => 'Qui est-ce ?',
 	'WHO_IS_ONLINE'        => 'Qui est en ligne ?',
 	'WRONG_PASSWORD'       => 'Le mot de passe est incorrect.',
 
