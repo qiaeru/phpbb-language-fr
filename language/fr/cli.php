@@ -37,19 +37,19 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, [
-	'CLI_APCU_CACHE_NOTICE' => 'Le cache « APCu » doit être vidé depuis le panneau de contrôle d’administration.',
+	'CLI_APCU_CACHE_NOTICE' => 'Le cache « APCu » doit être vidé depuis le panneau de contrôle d’administration.',
 
 	'CLI_CONFIG_CANNOT_CACHED'         => 'Activez cette option si la valeur de configuration change trop fréquemment pour être mise en cache efficacement.',
-	'CLI_CONFIG_CURRENT'               => 'Valeur actuelle de la configuration. Utilisez « 0 » et « 1 » pour les valeurs booléennes.',
-	'CLI_CONFIG_DELETE_SUCCESS'        => 'La configuration « %s » a été supprimée.',
-	'CLI_CONFIG_NEW'                   => 'Nouvelle valeur de configuration. Utilisez « 0 » et « 1 » pour les valeurs booléennes.',
-	'CLI_CONFIG_NOT_EXISTS'            => 'La configuration « %s » n’existe pas.',
+	'CLI_CONFIG_CURRENT'               => 'Valeur actuelle de la configuration. Utilisez « 0 » et « 1 » pour les valeurs booléennes.',
+	'CLI_CONFIG_DELETE_SUCCESS'        => 'La configuration « %s » a été supprimée.',
+	'CLI_CONFIG_NEW'                   => 'Nouvelle valeur de configuration. Utilisez « 0 » et « 1 » pour les valeurs booléennes.',
+	'CLI_CONFIG_NOT_EXISTS'            => 'La configuration « %s » n’existe pas.',
 	'CLI_CONFIG_OPTION_NAME'           => 'Nom de l’option de configuration.',
 	'CLI_CONFIG_PRINT_WITHOUT_NEWLINE' => 'Activez cette option pour afficher la valeur sans ajouter de nouvelle ligne.',
 	'CLI_CONFIG_INCREMENT_BY'          => 'Valeur à incrémenter.',
-	'CLI_CONFIG_INCREMENT_SUCCESS'     => 'La valeur de la configuration « %s » a été incrémentée.',
-	'CLI_CONFIG_SET_FAILURE'           => 'Impossible de définir la configuration « %s ».',
-	'CLI_CONFIG_SET_SUCCESS'           => 'La configuration « %s » a été définie.',
+	'CLI_CONFIG_INCREMENT_SUCCESS'     => 'La valeur de la configuration « %s » a été incrémentée.',
+	'CLI_CONFIG_SET_FAILURE'           => 'Impossible de définir la configuration « %s ».',
+	'CLI_CONFIG_SET_SUCCESS'           => 'La configuration « %s » a été définie.',
 
 	'CLI_DESCRIPTION_CRON_LIST'           => 'Affiche une liste de tâches cron prêtes et non prêtes.',
 	'CLI_DESCRIPTION_CRON_RUN'            => 'Exécute toutes les tâches cron prêtes.',
@@ -74,7 +74,7 @@ $lang = array_merge($lang, [
 
 	'CLI_DESCRIPTION_REPARSER_LIST'                     => 'Liste les types de textes qui peuvent être réanalysés.',
 	'CLI_DESCRIPTION_REPARSER_AVAILABLE'                => 'Réanalyseurs syntaxiques disponibles :',
-	'CLI_DESCRIPTION_REPARSER_REPARSE'                  => 'Réanalyse le texte stocké avec les services « text_formatter » actuels.',
+	'CLI_DESCRIPTION_REPARSER_REPARSE'                  => 'Réanalyse le texte stocké avec les services « text_formatter » actuels.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_ARG_1'            => 'Le type de texte à réanalyser. Laissez ce champ vide pour tout réanalyser.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_DRY_RUN'      => 'N’enregistrer aucune modification et afficher uniquement ce qui serait fait.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_FORCE_BBCODE' => 'Réanalyser tous les BBCodes sans exception. Les BBCodes précédemment désactivés seront retraités, activés et entièrement reproduits.',
@@ -91,13 +91,13 @@ $lang = array_merge($lang, [
 	'CLI_DESCRIPTION_THUMBNAIL_RECREATE' => 'Recréer toutes les miniatures.',
 
 	'CLI_DESCRIPTION_UPDATE_CHECK'                  => 'Vérifier si le forum est à jour.',
-	'CLI_DESCRIPTION_UPDATE_CHECK_ARGUMENT_1'       => 'Nom de l’extension à vérifier (utilisez « all » pour vérifier toutes les extensions).',
+	'CLI_DESCRIPTION_UPDATE_CHECK_ARGUMENT_1'       => 'Nom de l’extension à vérifier (utilisez « all » pour vérifier toutes les extensions).',
 	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_CACHE'     => 'Exécute la commande de vérification avec le cache.',
 	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_STABILITY' => 'Exécute la commande en ne vérifiant que les versions stables ou instables.',
 
-	'CLI_DESCRIPTION_UPDATE_HASH_BCRYPT' => 'Met à jour les hachages des mots de passe obsolètes pour les encoder avec « bcrypt ».',
+	'CLI_DESCRIPTION_UPDATE_HASH_BCRYPT' => 'Met à jour les hachages des mots de passe obsolètes pour les encoder avec « bcrypt ».',
 
-	'CLI_ERROR_INVALID_STABILITY' => '« %s » doit être réglé sur « stable » ou « instable ».',
+	'CLI_ERROR_INVALID_STABILITY' => '« %s » doit être réglé sur « stable » ou « instable ».',
 
 	'CLI_DESCRIPTION_USER_ACTIVATE'            => 'Activer (ou désactiver) le compte d’un utilisateur.',
 	'CLI_DESCRIPTION_USER_ACTIVATE_USERNAME'   => 'Nom d’utilisateur du compte à activer.',
@@ -116,26 +116,26 @@ $lang = array_merge($lang, [
 	'CLI_DESCRIPTION_USER_DELETE_OPTION_POSTS' => 'Supprimer tous les messages de cet utilisateur. Sans cette option, les messages sont conservés.',
 	'CLI_DESCRIPTION_USER_RECLEAN'             => 'Renettoyer les noms d’utilisateurs.',
 
-	'CLI_EXTENSION_DISABLE_FAILURE' => 'Impossible de désactiver l’extension « %s ».',
-	'CLI_EXTENSION_DISABLE_SUCCESS' => 'L’extension « %s » a été désactivée.',
-	'CLI_EXTENSION_DISABLED'        => 'L’extension « %s » n’est pas activée.',
-	'CLI_EXTENSION_ENABLE_FAILURE'  => 'Impossible d’activer l’extension « %s ».',
-	'CLI_EXTENSION_ENABLE_SUCCESS'  => 'L’extension « %s » a été activée.',
-	'CLI_EXTENSION_ENABLED'         => 'L’extension « %s » est déjà activée.',
-	'CLI_EXTENSION_NOT_EXIST'       => 'L’extension « %s » n’existe pas.',
+	'CLI_EXTENSION_DISABLE_FAILURE' => 'Impossible de désactiver l’extension « %s ».',
+	'CLI_EXTENSION_DISABLE_SUCCESS' => 'L’extension « %s » a été désactivée.',
+	'CLI_EXTENSION_DISABLED'        => 'L’extension « %s » n’est pas activée.',
+	'CLI_EXTENSION_ENABLE_FAILURE'  => 'Impossible d’activer l’extension « %s ».',
+	'CLI_EXTENSION_ENABLE_SUCCESS'  => 'L’extension « %s » a été activée.',
+	'CLI_EXTENSION_ENABLED'         => 'L’extension « %s » est déjà activée.',
+	'CLI_EXTENSION_NOT_EXIST'       => 'L’extension « %s » n’existe pas.',
 	'CLI_EXTENSION_NAME'            => 'Nom de l’extension',
-	'CLI_EXTENSION_PURGE_FAILURE'   => 'Impossible de purger l’extension « %s ».',
-	'CLI_EXTENSION_PURGE_SUCCESS'   => 'L’extension « %s » a été purgée.',
-	'CLI_EXTENSION_UPDATE_FAILURE'  => 'Impossible de mettre à jour l’extension « %s ».',
-	'CLI_EXTENSION_UPDATE_SUCCESS'  => 'L’extension « %s » a été mise à jour.',
+	'CLI_EXTENSION_PURGE_FAILURE'   => 'Impossible de purger l’extension « %s ».',
+	'CLI_EXTENSION_PURGE_SUCCESS'   => 'L’extension « %s » a été purgée.',
+	'CLI_EXTENSION_UPDATE_FAILURE'  => 'Impossible de mettre à jour l’extension « %s ».',
+	'CLI_EXTENSION_UPDATE_SUCCESS'  => 'L’extension « %s » a été mise à jour.',
 	'CLI_EXTENSION_NOT_FOUND'       => 'Aucune extension.',
-	'CLI_EXTENSION_NOT_ENABLEABLE'  => 'L’extension « %s » n’est pas activable.',
+	'CLI_EXTENSION_NOT_ENABLEABLE'  => 'L’extension « %s » n’est pas activable.',
 	'CLI_EXTENSIONS_AVAILABLE'      => 'Disponible',
 	'CLI_EXTENSIONS_DISABLED'       => 'Désactivée',
 	'CLI_EXTENSIONS_ENABLED'        => 'Activée',
 
 	'CLI_FIXUP_FIX_LEFT_RIGHT_IDS_SUCCESS'     => 'L’arborescence des forums et des modules a été réparée.',
-	'CLI_FIXUP_UPDATE_HASH_BCRYPT_SUCCESS'     => 'Les hachages des mots de passe obsolètes ont été encodés avec « bcrypt ».',
+	'CLI_FIXUP_UPDATE_HASH_BCRYPT_SUCCESS'     => 'Les hachages des mots de passe obsolètes ont été encodés avec « bcrypt ».',
 
 	'CLI_MIGRATION_NAME'            => 'Nom de la migration, espace de nom inclus (utilisez des barres obliques au lieu des barres obliques inversées pour éviter les problèmes).',
 	'CLI_MIGRATIONS_AVAILABLE'      => 'Migrations disponibles',
@@ -143,8 +143,8 @@ $lang = array_merge($lang, [
 	'CLI_MIGRATIONS_ONLY_AVAILABLE' => 'N’afficher que les migrations disponibles.',
 	'CLI_MIGRATIONS_EMPTY'          => 'Aucune migration.',
 
-	'CLI_REPARSER_REPARSE_REPARSING'       => 'Réanalyse de « %1$s » (rangée %2$d sur %3$d)',
-	'CLI_REPARSER_REPARSE_REPARSING_START' => 'Réanalyse de « %s »…',
+	'CLI_REPARSER_REPARSE_REPARSING'       => 'Réanalyse de « %1$s » (rangée %2$d sur %3$d)',
+	'CLI_REPARSER_REPARSE_REPARSING_START' => 'Réanalyse de « %s »…',
 	'CLI_REPARSER_REPARSE_SUCCESS'         => 'Réanalyse terminée',
 
 	// In all the case %1$s is the logical name of the file and %2$s the real name on the filesystem
@@ -160,9 +160,9 @@ $lang = array_merge($lang, [
 	'CLI_THUMBNAIL_NOTHING_TO_GENERATE' => 'Aucune miniature à générer.',
 	'CLI_THUMBNAIL_NOTHING_TO_DELETE'   => 'Aucune miniature à supprimer.',
 
-	'CLI_USER_ADD_SUCCESS'       => 'L’utilisateur « %s » a été ajouté.',
-	'CLI_USER_DELETE_CONFIRM'    => 'Êtes-vous sûr de vouloir supprimer « %s » ? Saisissez « y » pour confirmer ou « N » pour annuler.',
-	'CLI_USER_DELETE_ID_CONFIRM' => 'Êtes-vous sûr de vouloir supprimer les utilisateurs « %s » par identifiant ? Saisissez « y » pour confirmer ou « N » pour annuler.',
+	'CLI_USER_ADD_SUCCESS'       => 'L’utilisateur « %s » a été ajouté.',
+	'CLI_USER_DELETE_CONFIRM'    => 'Êtes-vous sûr de vouloir supprimer « %s » ? Saisissez « y » pour confirmer ou « N » pour annuler.',
+	'CLI_USER_DELETE_ID_CONFIRM' => 'Êtes-vous sûr de vouloir supprimer les utilisateurs « %s » par identifiant ? Saisissez « y » pour confirmer ou « N » pour annuler.',
 	'CLI_USER_DELETE_ID_SUCCESS' => 'Les utilisateurs ont été supprimés par identifiant.',
 	'CLI_USER_DELETE_ID_START'   => 'Suppression des utilisateurs par identifiant',
 	'CLI_USER_DELETE_NONE'       => 'Aucun utilisateur n’a été supprimé par identifiant.',
@@ -177,7 +177,7 @@ $lang = array_merge($lang, [
 // Additional help for commands.
 $lang = array_merge($lang, [
 	'CLI_HELP_CRON_RUN'      => $lang['CLI_DESCRIPTION_CRON_RUN'].'Vous pouvez éventuellement spécifier un nom de tâche cron pour exécuter uniquement cette tâche.',
-	'CLI_HELP_USER_ACTIVATE' => 'L’option « --deactivate » permet d’activer ou de désactiver le compte d’un utilisateur.\nPour envoyer un e-mail d’activation à l’utilisateur, utilisez l’option « --send-email ».',
-	'CLI_HELP_USER_ADD' => 'La commande « %command.name% » permet d’ajouter un nouvel utilisateur :\nSi la commande est exécutée sans option, les valeurs vous sont demandées.\nPour envoyer un e-mail au nouvel utilisateur, utilisez l’option « --send-email ».',
+	'CLI_HELP_USER_ACTIVATE' => 'L’option « --deactivate » permet d’activer ou de désactiver le compte d’un utilisateur.\nPour envoyer un e-mail d’activation à l’utilisateur, utilisez l’option « --send-email ».',
+	'CLI_HELP_USER_ADD' => 'La commande « %command.name% » permet d’ajouter un nouvel utilisateur :\nSi la commande est exécutée sans option, les valeurs vous sont demandées.\nPour envoyer un e-mail au nouvel utilisateur, utilisez l’option « --send-email ».',
 	'CLI_HELP_USER_RECLEAN' => 'Le renettoyage des noms d’utilisateurs vérifie tous les noms d’utilisateurs et s’assure que les versions propres sont également stockées. Les noms d’utilisateurs propres sont insensibles à la casse, normalisés en NFC et transformés en ASCII.',
 ]);

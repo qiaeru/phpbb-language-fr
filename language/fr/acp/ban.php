@@ -42,7 +42,7 @@ $lang = array_merge($lang, [
 	'30_MINS' => '30 minutes',
 	'6_HOURS' => '6 heures',
 
-	'ACP_BAN_EXPLAIN' => 'Depuis cette page, vous pouvez gérer les bannissements par noms d’utilisateurs, adresses IP ou adresses e-mail. Ces différentes méthodes empêchent qu’un utilisateur indésirable puisse participer à l’ensemble des discussions de votre forum. Si vous le souhaitez, vous pouvez fournir une raison de 3000 caractères au maximum qui sera affichée à l’utilisateur banni. Cette raison sera également affichée dans l’historique des administrateurs. La durée des bannissements peut également être indiquée. Pour qu’un bannissement expire à une date spécifique plutôt qu’après avoir passé un certain délai, sélectionnez « Jusqu’au » et saisissez une date au format « AAAA-MM-JJ ».',
+	'ACP_BAN_EXPLAIN' => 'Depuis cette page, vous pouvez gérer les bannissements par noms d’utilisateurs, adresses IP ou adresses e-mail. Ces différentes méthodes empêchent qu’un utilisateur indésirable puisse participer à l’ensemble des discussions de votre forum. Si vous le souhaitez, vous pouvez fournir une raison de 3000 caractères au maximum qui sera affichée à l’utilisateur banni. Cette raison sera également affichée dans l’historique des administrateurs. La durée des bannissements peut également être indiquée. Pour qu’un bannissement expire à une date spécifique plutôt qu’après avoir passé un certain délai, sélectionnez « Jusqu’au » et saisissez une date au format « AAAA-MM-JJ ».',
 
 	'BAN_EXCLUDE'           => 'Annuler le bannissement',
 	'BAN_LENGTH'            => 'Durée du bannissement',
@@ -54,20 +54,20 @@ $lang = array_merge($lang, [
 
 	'EMAIL_BAN'                 => 'Bannir des adresses e-mail',
 	'EMAIL_BAN_EXCLUDE_EXPLAIN' => 'Si cette option est activée, les adresses e-mail saisies sont exclues de tous les bannissements actuels.',
-	'EMAIL_BAN_EXPLAIN'         => 'Vous pouvez bannir plusieurs adresses e-mail en les saisissant sur une nouvelle ligne. Pour utiliser des adresses partielles, utilisez un astérisque « * » comme métacaractère passe-partout. Par exemple, « *@outlook.com », « *@*.domaine.tld », etc.',
+	'EMAIL_BAN_EXPLAIN'         => 'Vous pouvez bannir plusieurs adresses e-mail en les saisissant sur une nouvelle ligne. Pour utiliser des adresses partielles, utilisez un astérisque « * » comme métacaractère passe-partout. Par exemple, « *@outlook.com », « *@*.domaine.tld », etc.',
 	'EMAIL_NO_BANNED'           => 'Aucune adresse e-mail n’a été bannie.',
 	'EMAIL_UNBAN'               => 'Annuler le bannissement des adresses e-mail',
 	'EMAIL_UNBAN_EXPLAIN'       => 'Vous pouvez annuler le bannissement de plusieurs adresses e-mail à la fois à l’aide des raccourcis souris ou clavier de votre navigateur. Les adresses exclues apparaissent soulignées.',
 
 	'IP_BAN'                 => 'Bannir des adresses IP',
 	'IP_BAN_EXCLUDE_EXPLAIN' => 'Si cette option est activée, les adresses IP saisies sont exclues de tous les bannissements actuels.',
-	'IP_BAN_EXPLAIN'         => 'Vous pouvez bannir plusieurs adresses IP ou noms d’hôtes en les saisissant sur une nouvelle ligne. Pour spécifier une plage d’adresses IP, séparez le début et la fin par un tiret « - » et utilisez un astérisque « * » comme métacaractère passe-partout.',
+	'IP_BAN_EXPLAIN'         => 'Vous pouvez bannir plusieurs adresses IP ou noms d’hôtes en les saisissant sur une nouvelle ligne. Pour spécifier une plage d’adresses IP, séparez le début et la fin par un tiret « - » et utilisez un astérisque « * » comme métacaractère passe-partout.',
 	'IP_HOSTNAME'            => 'Adresses IP ou noms d’hôtes',
 	'IP_NO_BANNED'           => 'Aucune adresse IP n’a été bannie.',
 	'IP_UNBAN'               => 'Annuler le bannissement des adresses IP',
 	'IP_UNBAN_EXPLAIN'       => 'Vous pouvez annuler le bannissement de plusieurs adresses IP à la fois à l’aide des raccourcis souris ou clavier de votre navigateur. Les adresses IP exclues apparaissent soulignées.',
 
-	'LENGTH_BAN_INVALID' => 'La date doit être au format « AAAA-MM-JJ ».',
+	'LENGTH_BAN_INVALID' => 'La date doit être au format « AAAA-MM-JJ ».',
 
 	'OPTIONS_BANNED'   => 'Banni',
 	'OPTIONS_EXCLUDED' => 'Exclu',
@@ -77,7 +77,7 @@ $lang = array_merge($lang, [
 	'UNTIL'                    => 'Jusqu’au',
 	'USER_BAN'                 => 'Bannir des utilisateurs par nom d’utilisateur',
 	'USER_BAN_EXCLUDE_EXPLAIN' => 'Si cette option est activée, les utilisateurs saisis sont exclus de tous les bannissements actuels.',
-	'USER_BAN_EXPLAIN'         => 'Vous pouvez bannir plusieurs noms d’utilisateurs en les saisissant sur une nouvelle ligne. Utilisez la fonctionnalité « Trouver un membre » pour rechercher et d’ajouter un ou plusieurs utilisateurs.',
+	'USER_BAN_EXPLAIN'         => 'Vous pouvez bannir plusieurs noms d’utilisateurs en les saisissant sur une nouvelle ligne. Utilisez la fonctionnalité « Trouver un membre » pour rechercher et ajouter un ou plusieurs utilisateurs.',
 	'USER_NO_BANNED'           => 'Aucun nom d’utilisateur n’a été banni.',
 	'USER_UNBAN'               => 'Annuler le bannissement par nom d’utilisateur',
 	'USER_UNBAN_EXPLAIN'       => 'Vous pouvez annuler le bannissement de plusieurs utilisateurs à la fois à l’aide des raccourcis souris ou clavier de votre navigateur. Les utilisateurs exclus apparaissent soulignés.',

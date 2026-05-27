@@ -1,8 +1,8 @@
-Subject: Votre signalement a été clôturé : « {POST_SUBJECT} »
+Subject: Votre signalement a été clôturé : « {POST_SUBJECT} »
 
 Bonjour {USERNAME},
 
-Le signalement que vous avez rédigé concernant le message « {POST_SUBJECT} » publié par « {AUTHOR_NAME} » dans « {TOPIC_TITLE} » sur « {SITENAME} » a été traité par un modérateur ou un administrateur et est désormais clôturé. Pour plus d’informations, contactez {CLOSER_NAME} par message privé.
+Le signalement que vous avez rédigé concernant le message « {POST_SUBJECT} » publié par « {AUTHOR_NAME} » dans « {TOPIC_TITLE} » sur « {SITENAME} » a été traité par un modérateur ou un administrateur et est désormais clôturé. Pour plus d’informations, contactez {CLOSER_NAME} par message privé.
 
 Vous pouvez consulter le message que vous avez signalé en cliquant sur le lien suivant :
 

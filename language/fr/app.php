@@ -37,8 +37,8 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, [
-	'CONTROLLER_ARGUMENT_VALUE_MISSING' => 'Valeur manquante concernant l’argument #%1$s : « %3$s » dans la classe « %2$s »',
+	'CONTROLLER_ARGUMENT_VALUE_MISSING' => 'Valeur manquante concernant l’argument #%1$s : « %3$s » dans la classe « %2$s »',
 	'CONTROLLER_NOT_SPECIFIED'          => 'Aucun contrôleur n’a été indiqué.',
 	'CONTROLLER_METHOD_NOT_SPECIFIED'   => 'Aucune méthode de contrôleur n’a été indiquée.',
-	'CONTROLLER_SERVICE_UNDEFINED'      => 'Le service du contrôleur « %s » n’est pas défini dans « ./config/services.yml ».',
+	'CONTROLLER_SERVICE_UNDEFINED'      => 'Le service du contrôleur « %s » n’est pas défini dans « ./config/services.yml ».',
 ]);

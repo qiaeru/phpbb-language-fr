@@ -51,10 +51,10 @@ $lang = array_merge($lang, [
 	'RECAPTCHA_V3_LOGIN_ERROR_ATTEMPTS' => 'Vous avez dépassé le nombre maximum de tentatives de connexion.<br>En plus du nom d’utilisateur et du mot de passe, reCAPTCHA v3 invisible sera utilisé pour authentifier votre session.',
 
 	'RECAPTCHA_PUBLIC'             => 'Clé du site',
-	'RECAPTCHA_PUBLIC_EXPLAIN'     => 'Votre clé de site sur reCAPTCHA. Les clés peuvent être récupérées sur <a href="https://www.google.com/recaptcha">le site web de reCAPTCHA</a> (en anglais). Utilisez le type de badge « Invisible reCAPTCHA » de reCAPTCHA v2.',
+	'RECAPTCHA_PUBLIC_EXPLAIN'     => 'Votre clé de site sur reCAPTCHA. Les clés peuvent être récupérées sur <a href="https://www.google.com/recaptcha">le site web de reCAPTCHA</a> (en anglais). Utilisez le type de badge « Invisible reCAPTCHA » de reCAPTCHA v2.',
 	'RECAPTCHA_V3_PUBLIC_EXPLAIN'  => 'Votre clé de site reCAPTCHA. Les clés se récupèrent sur <a href="https://www.google.com/recaptcha">le site web de reCAPTCHA</a> (en anglais). Utilisez reCAPTCHA v3.',
 	'RECAPTCHA_PRIVATE'            => 'Clé secrète',
-	'RECAPTCHA_PRIVATE_EXPLAIN'    => 'Votre clé secrète sur reCAPTCHA. Les clés peuvent être récupérées sur <a href="https://www.google.com/recaptcha">le site web de reCAPTCHA</a> (en anglais). Utilisez le type de badge « Invisible reCAPTCHA » de reCAPTCHA v2.',
+	'RECAPTCHA_PRIVATE_EXPLAIN'    => 'Votre clé secrète sur reCAPTCHA. Les clés peuvent être récupérées sur <a href="https://www.google.com/recaptcha">le site web de reCAPTCHA</a> (en anglais). Utilisez le type de badge « Invisible reCAPTCHA » de reCAPTCHA v2.',
 	'RECAPTCHA_V3_PRIVATE_EXPLAIN' => 'Votre clé secrète reCAPTCHA. Les clés se récupèrent sur <a href="https://www.google.com/recaptcha">le site web de reCAPTCHA</a> (en anglais). Utilisez reCAPTCHA v3.',
 
 	'RECAPTCHA_V3_DOMAIN'         => 'Domaine de requête',

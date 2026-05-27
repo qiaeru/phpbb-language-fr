@@ -40,7 +40,7 @@ $lang = array_merge($lang, [
 	'CAPTCHA_QA'               => 'Questions et réponses',
 	'CONFIRM_QUESTION_EXPLAIN' => 'Cette question permet de se protéger contre le spam généré par les robots.',
 	'CONFIRM_QUESTION_WRONG'   => 'Vous n’avez pas répondu correctement à la question.',
-	'CONFIRM_QUESTION_MISSING' => 'Les questions du CAPTCHA n’ont pas pu être récupérées. Contactez un administrateur du forum.',
+	'CONFIRM_QUESTION_MISSING' => 'Impossible de récupérer les questions du CAPTCHA. Contactez un administrateur du forum.',
 
 	'QUESTION_ANSWERS' => 'Réponses',
 	'ANSWERS_EXPLAIN'  => 'Répondez correctement à la question. Saisissez chaque réponse sur une nouvelle ligne.',

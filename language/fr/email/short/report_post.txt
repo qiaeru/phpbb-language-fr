@@ -1,8 +1,8 @@
-Subject: Message signalé : « {TOPIC_TITLE} »
+Subject: Message signalé : « {TOPIC_TITLE} »
 
 Bonjour {USERNAME},
 
-Le message « {POST_SUBJECT} » sur « {SITENAME} » a été signalé.
+Le message « {POST_SUBJECT} » sur « {SITENAME} » a été signalé.
 
 Pour consulter le signalement, cliquez sur le lien suivant :
 {U_VIEW_REPORT}

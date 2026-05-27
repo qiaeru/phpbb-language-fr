@@ -1,9 +1,9 @@
-Subject: Publication d’un nouveau sujet dans « {FORUM_NAME} »
+Subject: Publication d’un nouveau sujet dans « {FORUM_NAME} »
 List-Unsubscribe: <{U_STOP_WATCHING_FORUM}>
 
 Bonjour {USERNAME},
 
-Depuis votre dernière visite sur « {SITENAME} », un nouveau sujet intitulé « {TOPIC_TITLE} » a été publié<!-- IF AUTHOR_NAME != '' --> par {AUTHOR_NAME}<!-- ENDIF --> dans le forum « {FORUM_NAME} ». Aucune nouvelle notification ne vous sera envoyée tant que vous n’aurez pas consulté le forum.
+Depuis votre dernière visite sur « {SITENAME} », un nouveau sujet intitulé « {TOPIC_TITLE} » a été publié<!-- IF AUTHOR_NAME != '' --> par {AUTHOR_NAME}<!-- ENDIF --> dans le forum « {FORUM_NAME} ». Aucune nouvelle notification ne vous sera envoyée tant que vous n’aurez pas consulté le forum.
 {U_FORUM}
 
 Pour consulter ce nouveau sujet, cliquez sur le lien suivant :

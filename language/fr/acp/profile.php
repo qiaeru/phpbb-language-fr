@@ -43,7 +43,7 @@ $lang = array_merge($lang, [
 	'ALPHA_ONLY'          => 'Lettres (sans accent) et chiffres uniquement',
 	'ALPHA_SPACERS'       => 'Lettres (sans accent), chiffres et séparateurs',
 	'ALPHA_UNDERSCORE'    => 'Lettres (sans accent), chiffres et tirets bas',
-	'ALPHA_PUNCTUATION'   => 'Lettres (sans accent), chiffres, virgules, points, tirets bas et tirets ; la première lettre doit être une lettre',
+	'ALPHA_PUNCTUATION'   => 'Lettres (sans accent), chiffres, virgules, points, tirets bas et tirets ; la première lettre doit être une lettre',
 	'ALWAYS_TODAY'        => 'Toujours la date actuelle',
 
 	'BOOL_ENTRIES_EXPLAIN' => 'Saisissez vos options.',
@@ -59,14 +59,14 @@ $lang = array_merge($lang, [
 	'CP_LANG_NAME'                 => 'Nom ou titre du champ affiché aux utilisateurs',
 	'CP_LANG_OPTIONS'              => 'Options',
 	'CREATE_NEW_FIELD'             => 'Créer un nouveau champ',
-	'CUSTOM_FIELDS_NOT_TRANSLATED' => 'Au moins un champ de profil personnalisé n’a pas encore été traduit. Complétez l’information demandée en cliquant sur le lien « Traduire ».',
+	'CUSTOM_FIELDS_NOT_TRANSLATED' => 'Au moins un champ de profil personnalisé n’a pas encore été traduit. Complétez l’information demandée en cliquant sur le lien « Traduire ».',
 
 	'DEFAULT_ISO_LANGUAGE'          => 'Langue par défaut [%s]',
 	'DEFAULT_LANGUAGE_NOT_FILLED'   => 'Les éléments de langue de la langue par défaut ne sont pas indiqués pour ce champ de profil.',
 	'DEFAULT_VALUE'                 => 'Valeur par défaut',
 	'DELETE_PROFILE_FIELD'          => 'Supprimer le champ de profil',
-	'DELETE_PROFILE_FIELD_CONFIRM'  => 'Êtes-vous sûr de vouloir supprimer ce champ de profil ?',
-	'DISPLAY_AT_PROFILE'            => 'Afficher dans le panneau de contrôle de l’utilisateur',
+	'DELETE_PROFILE_FIELD_CONFIRM'  => 'Êtes-vous sûr de vouloir supprimer ce champ de profil ?',
+	'DISPLAY_AT_PROFILE'            => 'Afficher dans le panneau de contrôle utilisateur',
 	'DISPLAY_AT_PROFILE_EXPLAIN'    => 'L’utilisateur peut modifier ce champ de profil depuis son panneau de contrôle.',
 	'DISPLAY_AT_REGISTER'           => 'Afficher lors de l’inscription',
 	'DISPLAY_AT_REGISTER_EXPLAIN'   => 'Si cette option est activée, le champ est affiché lors de l’inscription.',
@@ -98,7 +98,7 @@ $lang = array_merge($lang, [
 	'FIELD_IDENT_EXPLAIN'       => 'L’identifiant du champ permet de l’identifier dans la base de données et les modèles.',
 	'FIELD_INT'                 => 'Chiffres',
 	'FIELD_IS_CONTACT'          => 'Afficher le champ comme un champ de contact',
-	'FIELD_IS_CONTACT_EXPLAIN'  => 'Les champs de contact sont affichés dans la section de contact sur le profil des utilisateurs et sont affichés différemment dans le profil miniature situé à côté des messages et des messages privés. Vous pouvez utiliser « %s » comme une variable de marque substitutive qui sera remplacée par la valeur que les utilisateurs auront saisi.',
+	'FIELD_IS_CONTACT_EXPLAIN'  => 'Les champs de contact sont affichés dans la section de contact sur le profil des utilisateurs et sont affichés différemment dans le profil miniature situé à côté des messages et des messages privés. Vous pouvez utiliser « %s » comme une variable de marque substitutive qui sera remplacée par la valeur que les utilisateurs auront saisi.',
 	'FIELD_LENGTH'              => 'Largeur de la boîte de saisie',
 	'FIELD_NOT_FOUND'           => 'Le champ de profil est introuvable.',
 	'FIELD_STRING'              => 'Champ de texte simple',
@@ -120,7 +120,7 @@ $lang = array_merge($lang, [
 
 	'LETTER_NUM_DOTS'        => 'Lettres (avec ou sans accent), chiffres et points',
 	'LETTER_NUM_ONLY'        => 'Lettres (avec ou sans accent) et chiffres',
-	'LETTER_NUM_PUNCTUATION' => 'Lettres (avec ou sans accent), chiffres, virgules, points, tirets bas et tirets ; la première lettre doit être une lettre',
+	'LETTER_NUM_PUNCTUATION' => 'Lettres (avec ou sans accent), chiffres, virgules, points, tirets bas et tirets ; la première lettre doit être une lettre',
 	'LETTER_NUM_SPACERS'     => 'Lettres (avec ou sans accent), chiffres et espaces',
 	'LETTER_NUM_UNDERSCORE'  => 'Lettres (avec ou sans accent), chiffres et tirets bas',
 
@@ -142,7 +142,7 @@ $lang = array_merge($lang, [
 	'PROFILE_LANG_OPTIONS'      => 'Options spécifiques à la langue',
 	'PROFILE_TYPE_OPTIONS'      => 'Options spécifiques au type de profil',
 
-	'RADIO_BUTTONS'          => 'Boutons radios',
+	'RADIO_BUTTONS'          => 'Boutons radio',
 	'REMOVED_PROFILE_FIELD'  => 'Le champ de profil a été supprimé.',
 	'REQUIRED_FIELD'         => 'Champ obligatoire',
 	'REQUIRED_FIELD_EXPLAIN' => 'Les utilisateurs devront obligatoirement renseigner ce champ de profil. Si l’affichage est désactivé sur la page d’inscription, le champ n’est requis que lors de la modification du profil.',

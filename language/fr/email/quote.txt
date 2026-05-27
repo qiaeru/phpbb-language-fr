@@ -1,8 +1,8 @@
-Subject: Citation dans « {TOPIC_TITLE} »
+Subject: Citation dans « {TOPIC_TITLE} »
 
 Bonjour {USERNAME},
 
-« {AUTHOR_NAME} » vous a cité dans le sujet « {TOPIC_TITLE} » sur « {SITENAME} ».
+« {AUTHOR_NAME} » vous a cité dans le sujet « {TOPIC_TITLE} » sur « {SITENAME} ».
 
 Pour consulter le message cité, cliquez sur le lien suivant :
 {U_VIEW_POST}

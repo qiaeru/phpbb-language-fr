@@ -1,8 +1,8 @@
-Subject: Sujet approuvé : « {TOPIC_TITLE} »
+Subject: Sujet approuvé : « {TOPIC_TITLE} »
 
 Bonjour {USERNAME},
 
-Votre sujet « {TOPIC_TITLE} » sur « {SITENAME} » a été approuvé par un modérateur ou un administrateur.
+Votre sujet « {TOPIC_TITLE} » sur « {SITENAME} » a été approuvé par un modérateur ou un administrateur.
 
 Pour consulter le sujet, cliquez sur le lien suivant :
 {U_VIEW_TOPIC}

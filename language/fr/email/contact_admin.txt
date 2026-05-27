@@ -1,7 +1,7 @@
 
 Bonjour {TO_USERNAME},
 
-Cet e-mail vous a été envoyé depuis la page de contact d’administration de « {SITENAME} ».
+Cet e-mail vous a été envoyé depuis la page de contact d’administration de « {SITENAME} ».
 
 <!-- IF S_IS_REGISTERED -->
 Le message a été envoyé depuis un compte du forum.

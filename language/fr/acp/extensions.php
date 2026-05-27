@@ -41,11 +41,11 @@ $lang = array_merge($lang, [
 	'EXTENSIONS'               => 'Extensions',
 	'EXTENSIONS_ADMIN'         => 'Gestionnaire d’extensions',
 	'EXTENSIONS_EXPLAIN'       => 'Le gestionnaire d’extensions vous permet de gérer le statut de toutes vos extensions et de consulter les informations associées.',
-	'EXTENSION_INVALID_LIST'   => 'L’extension « %s » est invalide.<br>%s<br><br>',
+	'EXTENSION_INVALID_LIST'   => 'L’extension « %s » est invalide.<br>%s<br><br>',
 	'EXTENSION_NOT_AVAILABLE'  => 'Cette extension n’est pas disponible sur ce forum. Vérifiez la compatibilité de vos versions de phpBB et de PHP.',
 	'EXTENSION_DIR_INVALID'    => 'Cette extension a une structure de répertoires invalide et ne peut pas être activée.',
 	'EXTENSION_NOT_ENABLEABLE' => 'Cette extension ne peut pas être activée. Vérifiez ses prérequis.',
-	'EXTENSION_NOT_INSTALLED'  => 'L’extension « %s » n’est pas disponible. Vérifiez si elle a été correctement installée.',
+	'EXTENSION_NOT_INSTALLED'  => 'L’extension « %s » n’est pas disponible. Vérifiez si elle a été correctement installée.',
 
 	'DETAILS' => 'Informations',
 
@@ -75,8 +75,8 @@ $lang = array_merge($lang, [
 	'EXTENSION_INSTALL_HEADLINE' => 'Installer une extension',
 	'EXTENSION_INSTALL_EXPLAIN'  => '<ol>
 			<li>Téléchargez une extension depuis la base de données des extensions de phpBB.</li>
-			<li>Décompressez et transférez l’extension dans le répertoire « ext/ » de votre forum</li>
-			<li>Activez l’extension. depuis le gestionnaire d’extensions.</li>
+			<li>Décompressez et envoyez l’extension dans le répertoire « ext/ » de votre forum</li>
+			<li>Activez l’extension depuis le gestionnaire d’extensions.</li>
 		</ol>',
 	'EXTENSION_UPDATE_HEADLINE' => 'Mettre à jour une extension',
 	'EXTENSION_UPDATE_EXPLAIN'  => '<ol>
@@ -92,10 +92,10 @@ $lang = array_merge($lang, [
 			<li>Supprimez les fichiers de l’extension de votre serveur</li>
 		</ol>',
 
-	'EXTENSION_DELETE_DATA_CONFIRM'    => 'Êtes-vous sûr de vouloir supprimer les données de « %s » ?<br><br>Cela supprimera toutes les données et la configuration de l’extension qui ne pourront pas être restaurés !',
-	'EXTENSION_DISABLE_CONFIRM'        => 'Êtes-vous sûr de vouloir désactiver l’extension « %s » ?',
-	'EXTENSION_ENABLE_CONFIRM'         => 'Êtes-vous sûr de vouloir activer l’extension « %s » ?',
-	'EXTENSION_FORCE_UNSTABLE_CONFIRM' => 'Êtes-vous sûr de vouloir forcer l’utilisation d’une version instable ?',
+	'EXTENSION_DELETE_DATA_CONFIRM'    => 'Êtes-vous sûr de vouloir supprimer les données de « %s » ?<br><br>Cela supprimera toutes les données et la configuration de l’extension qui ne pourront pas être restaurés !',
+	'EXTENSION_DISABLE_CONFIRM'        => 'Êtes-vous sûr de vouloir désactiver l’extension « %s » ?',
+	'EXTENSION_ENABLE_CONFIRM'         => 'Êtes-vous sûr de vouloir activer l’extension « %s » ?',
+	'EXTENSION_FORCE_UNSTABLE_CONFIRM' => 'Êtes-vous sûr de vouloir forcer l’utilisation d’une version instable ?',
 
 	'RETURN_TO_EXTENSION_LIST' => 'Revenir à la liste des extensions',
 
@@ -119,8 +119,8 @@ $lang = array_merge($lang, [
 	'AUTHOR_HOMEPAGE'    => 'Page d’accueil',
 	'AUTHOR_ROLE'        => 'Rôle',
 
-	'NOT_UP_TO_DATE'     => '« %s » n’est pas à jour',
-	'UP_TO_DATE'         => '« %s » est à jour',
+	'NOT_UP_TO_DATE'     => '« %s » n’est pas à jour',
+	'UP_TO_DATE'         => '« %s » est à jour',
 	'ANNOUNCEMENT_TOPIC' => 'Annonce de sortie',
 	'DOWNLOAD_LATEST'    => 'Télécharger',
 	'NO_VERSIONCHECK'    => 'Aucune information de vérification de mise à jour n’est disponible.',
@@ -131,6 +131,6 @@ $lang = array_merge($lang, [
 
 	'BROWSE_EXTENSIONS_DATABASE' => 'Parcourir la base de données des extensions',
 
-	'META_FIELD_NOT_SET' => 'Le méta-champ « %s » est requis et doit être configuré.',
-	'META_FIELD_INVALID' => 'Le méta-champ « %s » est invalide.',
+	'META_FIELD_NOT_SET' => 'Le méta-champ « %s » est requis et doit être configuré.',
+	'META_FIELD_INVALID' => 'Le méta-champ « %s » est invalide.',
 ]);

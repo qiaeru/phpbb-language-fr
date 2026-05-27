@@ -46,7 +46,7 @@ $lang = array_merge($lang, [
 	'CHANGED_DEFAULT_GROUP' => 'Le groupe par défaut a été modifié.',
 
 	'GROUP_AVATAR'                    => 'Avatar du groupe',
-	'GROUP_CHANGE_DEFAULT'            => 'Êtes-vous sûr de vouloir modifier votre groupe par défaut par le groupe « %s » ?',
+	'GROUP_CHANGE_DEFAULT'            => 'Êtes-vous sûr de vouloir modifier votre groupe par défaut par le groupe « %s » ?',
 	'GROUP_CLOSED'                    => 'Privé',
 	'GROUP_DESC'                      => 'Description du groupe',
 	'GROUP_HIDDEN'                    => 'Invisible',
@@ -57,9 +57,9 @@ $lang = array_merge($lang, [
 	'GROUP_IS_OPEN'                   => 'Ce groupe est restreint. Les utilisateurs peuvent demander à le rejoindre ; chaque demande est soumise à approbation.',
 	'GROUP_IS_SPECIAL'                => 'Ce groupe est un groupe spécial, géré par les administrateurs du forum.',
 	'GROUP_JOIN'                      => 'Rejoindre le groupe',
-	'GROUP_JOIN_CONFIRM'              => 'Êtes-vous sûr de vouloir rejoindre ce groupe ?',
+	'GROUP_JOIN_CONFIRM'              => 'Êtes-vous sûr de vouloir rejoindre ce groupe ?',
 	'GROUP_JOIN_PENDING'              => 'Demander à rejoindre le groupe',
-	'GROUP_JOIN_PENDING_CONFIRM'      => 'Êtes-vous sûr de vouloir demander à rejoindre ce groupe ?',
+	'GROUP_JOIN_PENDING_CONFIRM'      => 'Êtes-vous sûr de vouloir demander à rejoindre ce groupe ?',
 	'GROUP_JOINED'                    => 'Vous avez rejoint ce groupe.',
 	'GROUP_JOINED_PENDING'            => 'Votre demande d’adhésion a été prise en compte. Le responsable du groupe l’examinera prochainement.',
 	'GROUP_LIST'                      => 'Gérer les utilisateurs',
@@ -68,9 +68,9 @@ $lang = array_merge($lang, [
 	'GROUP_OPEN'                      => 'Restreint',
 	'GROUP_RANK'                      => 'Rang du groupe',
 	'GROUP_RESIGN_MEMBERSHIP'         => 'Quitter le groupe',
-	'GROUP_RESIGN_MEMBERSHIP_CONFIRM' => 'Êtes-vous sûr de vouloir quitter ce groupe ?',
+	'GROUP_RESIGN_MEMBERSHIP_CONFIRM' => 'Êtes-vous sûr de vouloir quitter ce groupe ?',
 	'GROUP_RESIGN_PENDING'            => 'Retirer ma demande d’adhésion au groupe',
-	'GROUP_RESIGN_PENDING_CONFIRM'    => 'Êtes-vous sûr de vouloir retirer votre demande d’adhésion à ce groupe ?',
+	'GROUP_RESIGN_PENDING_CONFIRM'    => 'Êtes-vous sûr de vouloir retirer votre demande d’adhésion à ce groupe ?',
 	'GROUP_RESIGNED_MEMBERSHIP'       => 'Vous avez quitté ce groupe.',
 	'GROUP_RESIGNED_PENDING'          => 'Vous avez retiré votre demande d’adhésion à ce groupe.',
 	'GROUP_TYPE'                      => 'Type de groupe',
@@ -88,8 +88,8 @@ $lang = array_merge($lang, [
 
 	'REMOVE_SELECTED' => 'Supprimer la sélection',
 
-	'USER_GROUP_CHANGE'         => 'De « %1$s » au groupe « %2$s »',
+	'USER_GROUP_CHANGE'         => 'De « %1$s » au groupe « %2$s »',
 	'USER_GROUP_DEMOTE'         => 'Quitter la fonction de responsable',
-	'USER_GROUP_DEMOTE_CONFIRM' => 'Êtes-vous sûr de vouloir quitter votre fonction de responsable de ce groupe ?',
+	'USER_GROUP_DEMOTE_CONFIRM' => 'Êtes-vous sûr de vouloir quitter votre fonction de responsable de ce groupe ?',
 	'USER_GROUP_DEMOTED'        => 'Vous n’êtes plus responsable de ce groupe.',
 ]);

@@ -1,9 +1,9 @@
-Subject: Publication d’une nouvelle réponse dans « {FORUM_NAME} »
+Subject: Publication d’une nouvelle réponse dans « {FORUM_NAME} »
 List-Unsubscribe: <{U_STOP_WATCHING_FORUM}>
 
 Bonjour {USERNAME},
 
-Depuis votre dernière visite sur « {SITENAME} », une nouvelle réponse a été publiée<!-- IF AUTHOR_NAME != '' --> par {AUTHOR_NAME}<!-- ENDIF --> dans le sujet « {TOPIC_TITLE} » du forum « {FORUM_NAME} ». Aucune nouvelle notification ne vous sera envoyée tant que vous n’aurez pas consulté le sujet.
+Depuis votre dernière visite sur « {SITENAME} », une nouvelle réponse a été publiée<!-- IF AUTHOR_NAME != '' --> par {AUTHOR_NAME}<!-- ENDIF --> dans le sujet « {TOPIC_TITLE} » du forum « {FORUM_NAME} ». Aucune nouvelle notification ne vous sera envoyée tant que vous n’aurez pas consulté le sujet.
 {U_NEWEST_POST}
 
 Pour consulter le sujet, cliquez sur le lien suivant :

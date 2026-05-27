@@ -43,7 +43,7 @@ $lang = array_merge($lang, [
 
 	'COMPOSE' => 'Rédiger',
 
-	'EMAIL_SEND_ERROR' => 'Une ou plusieurs erreurs sont survenues lors de l’envoi de l’e-mail. Pour plus d’informations, consultez l’%shistorique des erreurs%s.',
+	'EMAIL_SEND_ERROR' => 'L’envoi de l’e-mail a échoué. Pour plus d’informations, consultez l’%shistorique des erreurs%s.',
 	'EMAIL_SENT'       => 'Le message a été envoyé.',
 	'EMAIL_SENT_QUEUE' => 'Le message a été placé en file d’attente et sera envoyé plus tard.',
 

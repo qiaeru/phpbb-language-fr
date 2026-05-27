@@ -1,8 +1,8 @@
-Subject: Votre signalement de message privé a été clôturé : « {SUBJECT} »
+Subject: Votre signalement de message privé a été clôturé : « {SUBJECT} »
 
 Bonjour {USERNAME},
 
-Le signalement que vous avez rédigé concernant le message privé « {SUBJECT} » publié par « {AUTHOR_NAME} » sur « {SITENAME} » a été vérifié par un modérateur ou un administrateur et est désormais clôturé. Pour plus d’informations, contactez {CLOSER_NAME} par message privé.
+Le signalement que vous avez rédigé concernant le message privé « {SUBJECT} » publié par « {AUTHOR_NAME} » sur « {SITENAME} » a été vérifié par un modérateur ou un administrateur et est désormais clôturé. Pour plus d’informations, contactez {CLOSER_NAME} par message privé.
 
 Vous pouvez consulter le message privé que vous avez signalé en cliquant sur le lien suivant :
 

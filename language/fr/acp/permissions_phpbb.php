@@ -109,7 +109,7 @@ $lang = array_merge($lang, [
 	'ACL_F_LIST_TOPICS' => 'Peut voir les sujets',
 	'ACL_F_READ'        => 'Peut consulter les messages du forum',
 	'ACL_F_SEARCH'      => 'Peut effectuer des recherches sur le forum',
-	'ACL_F_SUBSCRIBE'   => 'Peut suivre le forum',
+	'ACL_F_SUBSCRIBE'   => 'Peut s’abonner au forum',
 	'ACL_F_PRINT'       => 'Peut imprimer les sujets',
 	'ACL_F_EMAIL'       => 'Peut envoyer les sujets par e-mail',
 	'ACL_F_BUMP'        => 'Peut remonter des sujets',
@@ -148,7 +148,7 @@ $lang = array_merge($lang, [
 	'ACL_M_DELETE'     => 'Peut supprimer définitivement les messages',
 	'ACL_M_SOFTDELETE' => 'Peut supprimer les messages<br><em>Les modérateurs qui peuvent approuver les messages peuvent également restaurer les messages supprimés.</em>',
 	'ACL_M_APPROVE'    => 'Peut approuver et restaurer les messages',
-	'ACL_M_REPORT'     => 'Peut fermer et supprimer les signalements',
+	'ACL_M_REPORT'     => 'Peut clôturer et supprimer les signalements',
 	'ACL_M_CHGPOSTER'  => 'Peut modifier les auteurs des messages',
 
 	'ACL_M_MOVE'  => 'Peut déplacer les sujets',
@@ -158,7 +158,7 @@ $lang = array_merge($lang, [
 
 	'ACL_M_INFO'      => 'Peut consulter les informations sur les messages',
 	'ACL_M_WARN'      => 'Peut envoyer des avertissements',
-	'ACL_M_PM_REPORT' => 'Peut fermer et supprimer les signalements de messages privés',
+	'ACL_M_PM_REPORT' => 'Peut clôturer et supprimer les signalements de messages privés',
 	'ACL_M_BAN'       => 'Peut gérer les bannissements',
 ]);
 

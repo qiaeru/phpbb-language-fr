@@ -38,26 +38,26 @@ if (empty($lang) || !is_array($lang))
 
 // Privacy policy and T&C
 $lang = array_merge($lang, [
-	'TERMS_OF_USE_CONTENT' => 'En accédant à « %1$s » (ci-après dénommé « nous », « notre », « nos », « %1$s » et « %2$s »), vous acceptez d’être légalement lié par les conditions suivantes. Si vous n’acceptez pas l’ensemble de ces conditions, n’accédez pas à « %1$s » et ne l’utilisez pas. Nous pouvons modifier ces conditions à tout moment et nous ferons de notre mieux pour vous en informer. Il vous incombe toutefois de consulter régulièrement ce document, car votre utilisation continue de « %1$s » après modification vaut acceptation des conditions mises à jour.
+	'TERMS_OF_USE_CONTENT' => 'En accédant à « %1$s » (ci-après dénommé « nous », « notre », « nos », « %1$s » et « %2$s »), vous acceptez d’être légalement lié par les conditions suivantes. Si vous n’acceptez pas l’ensemble de ces conditions, n’accédez pas à « %1$s » et ne l’utilisez pas. Nous pouvons modifier ces conditions à tout moment et nous ferons de notre mieux pour vous en informer. Il vous incombe toutefois de consulter régulièrement ce document, car votre utilisation continue de « %1$s » après modification vaut acceptation des conditions mises à jour.
 	<br><br>
-	Nos forums sont propulsés par phpBB (ci-après « ils », « eux », « leur », « logiciel phpBB », « www.phpbb.com », « phpBB Limited » et « équipes phpBB »), une solution de forum publiée sous la « <a href="https://opensource.org/license/gpl-2-0">licence publique générale GNU v2</a> » (ci-après « GPL »), téléchargeable depuis <a href="https://www.phpbb.com/">www.phpbb.com</a> (en anglais). Le logiciel phpBB ne fait que faciliter les discussions sur Internet ; phpBB Limited n’est pas responsable du contenu ni du comportement autorisés ou interdits sur ce site. Pour plus d’informations sur phpBB, consultez : <a href="https://www.phpbb.com/">https://www.phpbb.com/</a> (en anglais).
+	Nos forums sont propulsés par phpBB (ci-après « ils », « eux », « leur », « logiciel phpBB », « www.phpbb.com », « phpBB Limited » et « équipes phpBB »), une solution de forum publiée sous la « <a href="https://opensource.org/license/gpl-2-0">licence publique générale GNU v2</a> » (ci-après « GPL »), téléchargeable depuis <a href="https://www.phpbb.com/">www.phpbb.com</a> (en anglais). Le logiciel phpBB ne fait que faciliter les discussions sur Internet ; phpBB Limited n’est pas responsable du contenu ni du comportement autorisés ou interdits sur ce site. Pour plus d’informations sur phpBB, consultez : <a href="https://www.phpbb.com/">https://www.phpbb.com/</a> (en anglais).
 	<br><br>
-	Vous vous engagez à ne publier aucun contenu injurieux, obscène, vulgaire, diffamatoire, haineux, menaçant, à caractère sexuel ou contraire à la loi, que ce soit en vertu de la législation de votre pays, de celle du pays où « %1$s » est hébergé, ou du droit international. Tout manquement à cette règle peut entraîner votre exclusion immédiate et définitive du site. Nous nous réservons le droit d’en informer votre fournisseur d’accès à Internet si nous le jugeons nécessaire. L’adresse IP de toutes les publications est enregistrée pour faciliter l’application de ces conditions.
+	Vous vous engagez à ne publier aucun contenu injurieux, obscène, vulgaire, diffamatoire, haineux, menaçant, à caractère sexuel ou contraire à la loi, que ce soit en vertu de la législation de votre pays, de celle du pays où « %1$s » est hébergé, ou du droit international. Tout manquement à cette règle peut entraîner votre exclusion immédiate et définitive du site. Nous nous réservons le droit d’en informer votre fournisseur d’accès à Internet si nous le jugeons nécessaire. L’adresse IP de toutes les publications est enregistrée pour faciliter l’application de ces conditions.
 	<br><br>
-	Vous acceptez que « %1$s » se réserve le droit de supprimer, modifier, déplacer ou fermer tout sujet à tout moment, à sa seule discrétion. En tant qu’utilisateur, vous acceptez que toute information saisie puisse être stockée dans une base de données. Bien que ces informations ne soient pas divulguées à des tiers sans votre consentement, ni « %1$s » ni phpBB ne peuvent être tenus responsables d’une tentative de piratage susceptible d’entraîner la compromission des données.
+	Vous acceptez que « %1$s » se réserve le droit de supprimer, modifier, déplacer ou fermer tout sujet à tout moment, à sa seule discrétion. En tant qu’utilisateur, vous acceptez que toute information saisie puisse être stockée dans une base de données. Bien que ces informations ne soient pas divulguées à des tiers sans votre consentement, ni « %1$s » ni phpBB ne peuvent être tenus responsables d’une tentative de piratage susceptible d’entraîner la compromission des données.
 	',
 
-	'PRIVACY_POLICY' => 'La présente politique explique en détail comment « %1$s » et ses sociétés affiliées (ci-après « nous », « notre », « nos », « %1$s » et « %2$s ») et phpBB (ci-après « ils », « eux », « leur », « logiciel phpBB », « www.phpbb.com », « phpBB Limited » et « équipes phpBB ») utilisent les informations collectées lors de votre utilisation de ce site (ci-après « vos informations »).
+	'PRIVACY_POLICY' => 'La présente politique explique en détail comment « %1$s » et ses sociétés affiliées (ci-après « nous », « notre », « nos », « %1$s » et « %2$s ») et phpBB (ci-après « ils », « eux », « leur », « logiciel phpBB », « www.phpbb.com », « phpBB Limited » et « équipes phpBB ») utilisent les informations collectées lors de votre utilisation de ce site (ci-après « vos informations »).
 	<br><br>
-	Vos informations sont collectées de deux manières. Lorsque vous naviguez sur « %1$s », le logiciel phpBB crée plusieurs cookies. Les cookies sont de petits fichiers texte stockés dans les fichiers temporaires de votre navigateur web. Les deux premiers cookies contiennent un identifiant utilisateur (ci-après « user-id ») et un identifiant de session anonyme (ci-après « session-id »), tous deux attribués automatiquement par le logiciel phpBB. Un troisième cookie est créé une fois que vous avez consulté des sujets sur « %1$s » et stocke les sujets que vous avez lus, améliorant ainsi votre expérience.
+	Vos informations sont collectées de deux manières. Lorsque vous naviguez sur « %1$s », le logiciel phpBB crée plusieurs cookies. Les cookies sont de petits fichiers texte stockés dans les fichiers temporaires de votre navigateur web. Les deux premiers cookies contiennent un identifiant utilisateur (ci-après « user-id ») et un identifiant de session anonyme (ci-après « session-id »), tous deux attribués automatiquement par le logiciel phpBB. Un troisième cookie est créé une fois que vous avez consulté des sujets sur « %1$s » et stocke les sujets que vous avez lus, améliorant ainsi votre expérience.
 	<br><br>
-	Il se peut également que nous créions des cookies externes au logiciel phpBB pendant que vous naviguez sur « %1$s ». Ils n’entrent pas dans le périmètre de ce document, qui ne traite que des cookies créés par le logiciel phpBB.
+	Il se peut également que nous créions des cookies externes au logiciel phpBB pendant que vous naviguez sur « %1$s ». Ils n’entrent pas dans le périmètre de ce document, qui ne traite que des cookies créés par le logiciel phpBB.
 	<br><br>
-	La seconde manière dont nous collectons des informations consiste à utiliser celles que vous nous fournissez. Cela inclut, sans s’y limiter : les publications en tant qu’utilisateur anonyme (ci-après « publications anonymes »), l’inscription sur « %1$s » (ci-après « votre compte »), ainsi que les publications soumises après inscription, lorsque vous êtes connecté (ci-après « vos publications »).
+	La seconde manière dont nous collectons des informations consiste à utiliser celles que vous nous fournissez. Cela inclut, sans s’y limiter : les publications en tant qu’utilisateur anonyme (ci-après « publications anonymes »), l’inscription sur « %1$s » (ci-après « votre compte »), ainsi que les publications soumises après inscription, lorsque vous êtes connecté (ci-après « vos publications »).
 	<br><br>
-	Votre compte comprend au minimum : un nom d’utilisateur unique (ci-après « votre nom d’utilisateur »), un mot de passe personnel utilisé pour vous connecter (ci-après « votre mot de passe »), une adresse e-mail valide (ci-après « votre adresse e-mail »). Les informations de votre compte sur « %1$s » sont protégées par les lois sur la protection des données applicables dans le pays qui nous héberge. Toute information autre que votre nom d’utilisateur, votre mot de passe et votre adresse e-mail demandée lors de l’inscription peut être obligatoire ou facultative, à la discrétion de « %1$s ». Dans tous les cas, vous pouvez choisir quelles informations de votre compte sont affichées publiquement. Vous pouvez également choisir de recevoir ou non les e-mails générés automatiquement par le logiciel phpBB.
+	Votre compte comprend au minimum : un nom d’utilisateur unique (ci-après « votre nom d’utilisateur »), un mot de passe personnel utilisé pour vous connecter (ci-après « votre mot de passe »), une adresse e-mail valide (ci-après « votre adresse e-mail »). Les informations de votre compte sur « %1$s » sont protégées par les lois sur la protection des données applicables dans le pays qui nous héberge. Toute information autre que votre nom d’utilisateur, votre mot de passe et votre adresse e-mail demandée lors de l’inscription peut être obligatoire ou facultative, à la discrétion de « %1$s ». Dans tous les cas, vous pouvez choisir quelles informations de votre compte sont affichées publiquement. Vous pouvez également choisir de recevoir ou non les e-mails générés automatiquement par le logiciel phpBB.
 	<br><br>
-	Votre mot de passe est stocké sous forme de hachage à sens unique pour en garantir la sécurité. Nous vous recommandons toutefois de ne pas utiliser le même mot de passe sur plusieurs sites web. Votre mot de passe est la clé d’accès à votre compte sur « %1$s », veillez donc à le conserver en lieu sûr. En aucun cas, une personne affiliée à « %1$s », à phpBB ou à un tiers ne vous demandera légitimement votre mot de passe. Si vous oubliez votre mot de passe, vous pouvez utiliser la fonctionnalité « J’ai oublié mon mot de passe » fournie par le logiciel phpBB. Ce processus vous demande de saisir votre nom d’utilisateur et votre adresse e-mail ; le logiciel phpBB générera ensuite un nouveau mot de passe pour vous permettre de retrouver l’accès à votre compte.
+	Votre mot de passe est stocké sous forme de hachage à sens unique pour en garantir la sécurité. Nous vous recommandons toutefois de ne pas utiliser le même mot de passe sur plusieurs sites web. Votre mot de passe est la clé d’accès à votre compte sur « %1$s », veillez donc à le conserver en lieu sûr. En aucun cas, une personne affiliée à « %1$s », à phpBB ou à un tiers ne vous demandera légitimement votre mot de passe. Si vous oubliez votre mot de passe, vous pouvez utiliser la fonctionnalité « J’ai oublié mon mot de passe » fournie par le logiciel phpBB. Ce processus vous demande de saisir votre nom d’utilisateur et votre adresse e-mail ; le logiciel phpBB générera ensuite un nouveau mot de passe pour vous permettre de retrouver l’accès à votre compte.
 	',
 ]);
 
@@ -104,7 +104,7 @@ $lang = array_merge($lang, [
 	'AVATAR_DRIVER_REMOTE_EXPLAIN'   => 'Saisissez le lien d’une image hébergée sur un site externe pour l’utiliser comme avatar.',
 	'AVATAR_DRIVER_UPLOAD_TITLE'     => 'Avatar local',
 	'AVATAR_DRIVER_UPLOAD_EXPLAIN'   => 'Envoyez une image depuis votre ordinateur pour l’utiliser comme avatar.',
-	'AVATAR_EXPLAIN'                 => 'Dimensions maximales : %1$s de large et %2$s de haut ; %3$.2f Kio maximum.',
+	'AVATAR_EXPLAIN'                 => 'Dimensions maximales : %1$s de large et %2$s de haut ; %3$.2f Kio maximum.',
 	'AVATAR_EXPLAIN_NO_FILESIZE'     => 'Dimensions maximales : %1$s de large et %2$s de haut.',
 	'AVATAR_FEATURES_DISABLED'       => 'Les avatars sont actuellement désactivés.',
 	'AVATAR_GALLERY'                 => 'Galerie locale',
@@ -120,7 +120,7 @@ $lang = array_merge($lang, [
 	'BIRTHDAY'                  => 'Anniversaire',
 	'BIRTHDAY_EXPLAIN'          => 'Si vous saisissez une année, votre âge sera affiché à votre anniversaire.',
 	'BOARD_DATE_FORMAT'         => 'Mon format de date',
-	'BOARD_DATE_FORMAT_EXPLAIN' => 'La syntaxe utilise le même format que <a href="https://www.php.net/manual/fr/function.date.php">les fonctions date</a> de PHP.',
+	'BOARD_DATE_FORMAT_EXPLAIN' => 'La syntaxe utilise le même format que <a href="https://www.php.net/manual/fr/function.date.php">les fonctions date</a> de PHP.',
 	'BOARD_LANGUAGE'            => 'Ma langue',
 	'BOARD_STYLE'               => 'Mon style sur le forum',
 	'BOARD_TIMEZONE'            => 'Mon fuseau horaire',
@@ -136,8 +136,8 @@ $lang = array_merge($lang, [
 	'CANNOT_REMOVE_FOLDER'       => 'Ce dossier ne peut pas être supprimé.',
 	'CHANGE_DEFAULT_GROUP'       => 'Modifier le groupe par défaut',
 	'CHANGE_PASSWORD'            => 'Modifier le mot de passe',
-	'CLICK_GOTO_FOLDER'          => '%1$sAller à votre boîte « %3$s »%2$s',
-	'CLICK_RETURN_FOLDER'        => '%1$sRevenir sur votre boîte « %3$s »%2$s',
+	'CLICK_GOTO_FOLDER'          => '%1$sAller à votre boîte « %3$s »%2$s',
+	'CLICK_RETURN_FOLDER'        => '%1$sRevenir sur votre boîte « %3$s »%2$s',
 	'CONFIRMATION'               => 'Confirmation d’inscription',
 	'CONFIRM_CHANGES'            => 'Confirmer les modifications',
 	'CONFIRM_EXPLAIN'            => 'Vous devez saisir un code de confirmation pour nous protéger contre les soumissions automatisées et abusives. Le code est affiché dans l’image ci-dessous. Si vous n’arrivez pas à le lire, contactez un %sadministrateur du forum%s.',
@@ -168,18 +168,18 @@ $lang = array_merge($lang, [
 	'DELETED_TOPIC'              => 'Le sujet a été supprimé.',
 	'DELETE_ATTACHMENT'          => 'Supprimer la pièce jointe',
 	'DELETE_ATTACHMENTS'         => 'Supprimer les pièces jointes',
-	'DELETE_ATTACHMENT_CONFIRM'  => 'Êtes-vous sûr de vouloir supprimer cette pièce jointe ?',
-	'DELETE_ATTACHMENTS_CONFIRM' => 'Êtes-vous sûr de vouloir supprimer ces pièces jointes ?',
+	'DELETE_ATTACHMENT_CONFIRM'  => 'Êtes-vous sûr de vouloir supprimer cette pièce jointe ?',
+	'DELETE_ATTACHMENTS_CONFIRM' => 'Êtes-vous sûr de vouloir supprimer ces pièces jointes ?',
 	'DELETE_AVATAR'              => 'Supprimer l’image',
-	'DELETE_COOKIES_CONFIRM'     => 'Êtes-vous sûr de vouloir supprimer les cookies de ce forum ?',
+	'DELETE_COOKIES_CONFIRM'     => 'Êtes-vous sûr de vouloir supprimer les cookies de ce forum ?',
 	'DELETE_MARKED_PM'           => 'Supprimer les messages sélectionnés',
-	'DELETE_MARKED_PM_CONFIRM'   => 'Êtes-vous sûr de vouloir supprimer les messages sélectionnés ?',
+	'DELETE_MARKED_PM_CONFIRM'   => 'Êtes-vous sûr de vouloir supprimer les messages sélectionnés ?',
 	'DELETE_OLDEST_MESSAGES'     => 'Supprimer les messages les plus anciens',
 	'DELETE_MESSAGE'             => 'Supprimer le message',
-	'DELETE_MESSAGE_CONFIRM'     => 'Êtes-vous sûr de vouloir supprimer ce message privé ?',
+	'DELETE_MESSAGE_CONFIRM'     => 'Êtes-vous sûr de vouloir supprimer ce message privé ?',
 	'DELETE_MESSAGES_IN_FOLDER'  => 'Supprimer tous les messages du dossier à supprimer',
 	'DELETE_RULE'                => 'Supprimer la règle',
-	'DELETE_RULE_CONFIRM'        => 'Êtes-vous sûr de vouloir supprimer cette règle ?',
+	'DELETE_RULE_CONFIRM'        => 'Êtes-vous sûr de vouloir supprimer cette règle ?',
 	'DEMOTE_SELECTED'            => 'Rétrograder la sélection',
 	'DISABLE_CENSORS'            => 'Activer la censure de mots',
 	'DISPLAY_GALLERY'            => 'Afficher la galerie',
@@ -201,32 +201,32 @@ $lang = array_merge($lang, [
 	'EXPORT_AS_MSG'       => 'Exporter en MSG',
 	'EXPORT_FOLDER'       => 'Exporter la boîte',
 
-	'FIELD_REQUIRED'  => 'Le champ « %s » doit être renseigné.',
+	'FIELD_REQUIRED'  => 'Le champ « %s » doit être renseigné.',
 	'FIELD_TOO_SHORT' => [
-		1 => 'Le champ « %2$s » est trop court, vous devez saisir au moins %1$d caractère.',
-		2 => 'Le champ « %2$s » est trop court, vous devez saisir au moins %1$d caractères.',
+		1 => 'Le champ « %2$s » est trop court, vous devez saisir au moins %1$d caractère.',
+		2 => 'Le champ « %2$s » est trop court, vous devez saisir au moins %1$d caractères.',
 	],
 	'FIELD_TOO_LONG' => [
-		1 => 'Le champ « %2$s » est trop long, vous ne pouvez saisir que %1$d caractère au maximum.',
-		2 => 'Le champ « %2$s » est trop long, vous ne pouvez saisir que %1$d caractères au maximum.',
+		1 => 'Le champ « %2$s » est trop long, vous ne pouvez saisir que %1$d caractère au maximum.',
+		2 => 'Le champ « %2$s » est trop long, vous ne pouvez saisir que %1$d caractères au maximum.',
 	],
-	'FIELD_TOO_SMALL'                            => 'La valeur de « %2$s » est trop faible, la valeur minimale est de %1$d.',
-	'FIELD_TOO_LARGE'                            => 'La valeur de « %2$s » est trop importante, la valeur maximale est de %1$d.',
-	'FIELD_INVALID_CHARS_INVALID'                => 'Le champ « %s » contient des caractères invalides.',
-	'FIELD_INVALID_CHARS_NUMBERS_ONLY'           => 'Le champ « %s » contient des caractères invalides. Seuls les chiffres sont autorisés.',
-	'FIELD_INVALID_CHARS_ALPHA_DOTS'             => 'Le champ « %s » contient des caractères invalides. Seuls les lettres (sans accent), les chiffres et les points sont autorisés.',
-	'FIELD_INVALID_CHARS_ALPHA_ONLY'             => 'Le champ « %s » contient des caractères invalides. Seuls les lettres (sans accent) et les chiffres sont autorisés.',
-	'FIELD_INVALID_CHARS_ALPHA_PUNCTUATION'      => 'Le champ « %s » contient des caractères invalides. Seuls les lettres (sans accent), les chiffres, les tirets bas, les tirets, les virgules et les points sont autorisés. De plus, le premier caractère doit être une lettre.',
-	'FIELD_INVALID_CHARS_ALPHA_SPACERS'          => 'Le champ « %s » contient des caractères invalides. Seuls les lettres (sans accent), les chiffres, les espaces, les tirets bas, les crochets et les signes plus et moins sont autorisés.',
-	'FIELD_INVALID_CHARS_ALPHA_UNDERSCORE'       => 'Le champ « %s » contient des caractères invalides. Seuls les lettres (sans accent), les chiffres et les tirets bas sont autorisés.',
-	'FIELD_INVALID_CHARS_LETTER_NUM_DOTS'        => 'Le champ « %s » contient des caractères invalides. Seuls les lettres (avec ou sans accent), les chiffres et les points sont autorisés.',
-	'FIELD_INVALID_CHARS_LETTER_NUM_ONLY'        => 'Le champ « %s » contient des caractères invalides. Seuls les lettres (avec ou sans accent) et les chiffres sont autorisés.',
-	'FIELD_INVALID_CHARS_LETTER_NUM_PUNCTUATION' => 'Le champ « %s » contient des caractères invalides. Seuls les lettres (avec ou sans accent), les chiffres, les tirets bas, les tirets et les points sont autorisés. De plus, le premier caractère doit être une lettre.',
-	'FIELD_INVALID_CHARS_LETTER_NUM_SPACERS'     => 'Le champ « %s » contient des caractères invalides. Seuls les lettres (avec ou sans accent), les chiffres, les espaces, les tirets bas, les crochets et les signes plus et moins sont autorisés.',
-	'FIELD_INVALID_CHARS_LETTER_NUM_UNDERSCORE'  => 'Le champ « %s » contient des caractères invalides. Seuls les lettres (avec ou sans accent), les chiffres et les tirets bas sont autorisés.',
-	'FIELD_INVALID_DATE'                         => 'Le champ « %s » contient une date est invalide.',
-	'FIELD_INVALID_URL'                          => 'Le champ « %s » contient un lien est invalide.',
-	'FIELD_INVALID_VALUE'                        => 'Le champ « %s » contient une valeur est invalide.',
+	'FIELD_TOO_SMALL'                            => 'La valeur de « %2$s » est trop faible, la valeur minimale est de %1$d.',
+	'FIELD_TOO_LARGE'                            => 'La valeur de « %2$s » est trop importante, la valeur maximale est de %1$d.',
+	'FIELD_INVALID_CHARS_INVALID'                => 'Le champ « %s » contient des caractères invalides.',
+	'FIELD_INVALID_CHARS_NUMBERS_ONLY'           => 'Le champ « %s » contient des caractères invalides. Seuls les chiffres sont autorisés.',
+	'FIELD_INVALID_CHARS_ALPHA_DOTS'             => 'Le champ « %s » contient des caractères invalides. Seuls les lettres (sans accent), les chiffres et les points sont autorisés.',
+	'FIELD_INVALID_CHARS_ALPHA_ONLY'             => 'Le champ « %s » contient des caractères invalides. Seuls les lettres (sans accent) et les chiffres sont autorisés.',
+	'FIELD_INVALID_CHARS_ALPHA_PUNCTUATION'      => 'Le champ « %s » contient des caractères invalides. Seuls les lettres (sans accent), les chiffres, les tirets bas, les tirets, les virgules et les points sont autorisés. De plus, le premier caractère doit être une lettre.',
+	'FIELD_INVALID_CHARS_ALPHA_SPACERS'          => 'Le champ « %s » contient des caractères invalides. Seuls les lettres (sans accent), les chiffres, les espaces, les tirets bas, les crochets et les signes plus et moins sont autorisés.',
+	'FIELD_INVALID_CHARS_ALPHA_UNDERSCORE'       => 'Le champ « %s » contient des caractères invalides. Seuls les lettres (sans accent), les chiffres et les tirets bas sont autorisés.',
+	'FIELD_INVALID_CHARS_LETTER_NUM_DOTS'        => 'Le champ « %s » contient des caractères invalides. Seuls les lettres (avec ou sans accent), les chiffres et les points sont autorisés.',
+	'FIELD_INVALID_CHARS_LETTER_NUM_ONLY'        => 'Le champ « %s » contient des caractères invalides. Seuls les lettres (avec ou sans accent) et les chiffres sont autorisés.',
+	'FIELD_INVALID_CHARS_LETTER_NUM_PUNCTUATION' => 'Le champ « %s » contient des caractères invalides. Seuls les lettres (avec ou sans accent), les chiffres, les tirets bas, les tirets et les points sont autorisés. De plus, le premier caractère doit être une lettre.',
+	'FIELD_INVALID_CHARS_LETTER_NUM_SPACERS'     => 'Le champ « %s » contient des caractères invalides. Seuls les lettres (avec ou sans accent), les chiffres, les espaces, les tirets bas, les crochets et les signes plus et moins sont autorisés.',
+	'FIELD_INVALID_CHARS_LETTER_NUM_UNDERSCORE'  => 'Le champ « %s » contient des caractères invalides. Seuls les lettres (avec ou sans accent), les chiffres et les tirets bas sont autorisés.',
+	'FIELD_INVALID_DATE'                         => 'Le champ « %s » contient une date invalide.',
+	'FIELD_INVALID_URL'                          => 'Le champ « %s » contient un lien invalide.',
+	'FIELD_INVALID_VALUE'                        => 'Le champ « %s » contient une valeur invalide.',
 
 	'FOE_MESSAGE'           => 'Message d’un ignoré',
 	'FOES_EXPLAIN'          => 'Les ignorés sont les utilisateurs dont vous masquerez par défaut le contenu. Les messages qu’ils publient ne vous sont pas entièrement visibles. Ils peuvent toutefois vous envoyer des messages privés. Notez que vous ne pouvez pas ignorer les administrateurs et les modérateurs.',
@@ -237,7 +237,7 @@ $lang = array_merge($lang, [
 		2 => '%2$d sur %1$s',
 	],
 	'FOLDER_NAME_EMPTY' => 'Vous devez saisir le nom du dossier.',
-	'FOLDER_NAME_EXIST' => 'La boîte « %s » existe déjà.',
+	'FOLDER_NAME_EXIST' => 'La boîte « %s » existe déjà.',
 	'FOLDER_OPTIONS'    => 'Options des dossiers',
 	'FOLDER_RENAMED'    => 'La boîte a été renommée.',
 	'FOLDER_REMOVED'    => 'La boîte a été supprimée.',
@@ -278,7 +278,7 @@ $lang = array_merge($lang, [
 	'INVALID_CHARS_USERNAME'     => 'Le nom d’utilisateur contient des caractères non autorisés.',
 	'INVALID_EMOJIS_USERNAME'    => 'Le nom d’utilisateur contient des caractères non autorisés (émojis).',
 	'INVALID_CHARS_NEW_PASSWORD' => 'Le mot de passe ne contient pas les caractères requis.',
-	'ITEMS_REQUIRED'             => 'Les champs marqués par « * » sont obligatoires.',
+	'ITEMS_REQUIRED'             => 'Les champs marqués par « * » sont obligatoires.',
 
 	'JOIN_SELECTED' => 'Rejoindre la sélection',
 
@@ -316,8 +316,8 @@ $lang = array_merge($lang, [
 	'MOVE_DOWN'                   => 'Descendre',
 	'MOVE_MARKED_TO_FOLDER'       => 'Déplacer la sélection vers %s',
 	'MOVE_PM_ERROR'               => [
-		1 => 'Une erreur est survenue lors du déplacement des messages vers la nouvelle boîte. Seul %2$d message sur %1$s a été déplacé.',
-		2 => 'Une erreur est survenue lors du déplacement des messages vers la nouvelle boîte. Seuls %2$d messages sur %1$s ont été déplacés.',
+		1 => 'Le déplacement des messages vers la nouvelle boîte a échoué. Seul %2$d message sur %1$s a été déplacé.',
+		2 => 'Le déplacement des messages vers la nouvelle boîte a échoué. Seuls %2$d messages sur %1$s ont été déplacés.',
 	],
 	'MOVE_TO_FOLDER' => 'Déplacer vers la boîte',
 	'MOVE_UP'        => 'Monter',
@@ -328,7 +328,7 @@ $lang = array_merge($lang, [
 	'NEW_PASSWORD_ERROR'         => 'Les mots de passe ne correspondent pas.',
 
 	'NOTIFICATIONS_MARK_ALL_READ'           => 'Marquer les notifications comme lues',
-	'NOTIFICATIONS_MARK_ALL_READ_CONFIRM'   => 'Êtes-vous sûr de vouloir marquer les notifications comme lues ?',
+	'NOTIFICATIONS_MARK_ALL_READ_CONFIRM'   => 'Êtes-vous sûr de vouloir marquer les notifications comme lues ?',
 	'NOTIFICATIONS_MARK_ALL_READ_SUCCESS'   => 'Les notifications ont été marquées comme lues.',
 	'NOTIFICATION_GROUP_MISCELLANEOUS'      => 'Notifications diverses',
 	'NOTIFICATION_GROUP_MODERATION'         => 'Notifications de modération',
@@ -340,17 +340,17 @@ $lang = array_merge($lang, [
 	'NOTIFICATION_TYPE'                     => 'Type de notification',
 	'NOTIFICATION_TYPE_BOOKMARK'            => 'Quelqu’un a répondu à un sujet que vous avez mis en favori',
 	'NOTIFICATION_TYPE_GROUP_REQUEST'       => 'Quelqu’un a demandé à rejoindre un groupe dont vous êtes responsable',
-	'NOTIFICATION_TYPE_FORUM'               => 'Quelqu’un a répondu à un sujet d’un forum que vous suivez',
+	'NOTIFICATION_TYPE_FORUM'               => 'Quelqu’un a répondu à un sujet d’un forum auquel vous êtes abonné',
 	'NOTIFICATION_TYPE_IN_MODERATION_QUEUE' => 'Un sujet ou un message est en attente d’approbation',
 	'NOTIFICATION_TYPE_MODERATION_QUEUE'    => 'Un de vos sujets ou messages a été traité par un modérateur',
 	'NOTIFICATION_TYPE_PM'                  => 'Quelqu’un vous a envoyé un message privé',
-	'NOTIFICATION_TYPE_POST'                => 'Quelqu’un a répondu à un sujet que vous suivez',
+	'NOTIFICATION_TYPE_POST'                => 'Quelqu’un a répondu à un sujet auquel vous êtes abonné',
 	'NOTIFICATION_TYPE_QUOTE'               => 'Quelqu’un vous a cité dans un message',
 	'NOTIFICATION_TYPE_REPORT'              => 'Quelqu’un a signalé un message',
 	'NOTIFICATION_TYPE_REPORT_CLOSED'       => 'Votre signalement de message a été clôturé par un modérateur',
 	'NOTIFICATION_TYPE_REPORT_PM'           => 'Quelqu’un a signalé un message privé',
 	'NOTIFICATION_TYPE_REPORT_PM_CLOSED'    => 'Votre signalement de message privé a été clôturé par un modérateur',
-	'NOTIFICATION_TYPE_TOPIC'               => 'Quelqu’un a créé un sujet dans un forum que vous suivez',
+	'NOTIFICATION_TYPE_TOPIC'               => 'Quelqu’un a créé un sujet dans un forum auquel vous êtes abonné',
 	'NOTIFICATION_TYPE_ADMIN_ACTIVATE_USER' => 'Un utilisateur est en attente d’activation',
 
 	'NOTIFY_METHOD'               => 'Méthode de notification',
@@ -413,9 +413,9 @@ $lang = array_merge($lang, [
 	'NO_RULES_DEFINED'      => 'Aucune règle n’a été définie.',
 	'NO_SAVED_DRAFTS'       => 'Aucun brouillon n’a été enregistré.',
 	'NO_TO_RECIPIENT'       => 'Aucun',
-	'NO_WATCHED_FORUMS'     => 'Vous ne suivez aucun forum.',
-	'NO_WATCHED_SELECTED'   => 'Aucun forum ni sujet suivi n’a été sélectionné.',
-	'NO_WATCHED_TOPICS'     => 'Vous ne suivez aucun sujet.',
+	'NO_WATCHED_FORUMS'     => 'Vous n’êtes abonné à aucun forum.',
+	'NO_WATCHED_SELECTED'   => 'Vous n’avez sélectionné aucun forum ni sujet de vos abonnements.',
+	'NO_WATCHED_TOPICS'     => 'Vous n’êtes abonné à aucun sujet.',
 
 	'PASS_TYPE_ALPHA_EXPLAIN'        => 'Le mot de passe doit contenir au minimum %1$s, mêler lettres minuscules et majuscules (sans accent) et inclure des chiffres.',
 	'PASS_TYPE_ANY_EXPLAIN'          => 'Doit contenir au minimum %1$s.',
@@ -440,8 +440,8 @@ $lang = array_merge($lang, [
 	'PM_SUBJECT'                     => 'Sujet du message',
 	'PM_TO'                          => 'Envoyer à',
 	'PM_TOOLS'                       => 'Outils du message',
-	'PM_USERS_REMOVED_NO_PERMISSION' => 'Certains utilisateurs n’ont pas pu être ajoutés car ils ne sont pas autorisés à consulter les messages privés.',
-	'PM_USERS_REMOVED_NO_PM'         => 'Certains utilisateurs n’ont pas pu être ajoutés car ils ont désactivé la réception des messages privés.',
+	'PM_USERS_REMOVED_NO_PERMISSION' => 'Impossible d’ajouter certains utilisateurs car ils ne sont pas autorisés à consulter les messages privés.',
+	'PM_USERS_REMOVED_NO_PM'         => 'Impossible d’ajouter certains utilisateurs car ils ont désactivé la réception des messages privés.',
 	'POST_EDIT_PM'                   => 'Modifier le message',
 	'POST_FORWARD_PM'                => 'Transférer le message',
 	'POST_NEW_PM'                    => 'Rédiger un message',
@@ -463,10 +463,10 @@ $lang = array_merge($lang, [
 	'RELEASE_MESSAGES'                  => '%sLibérer tous les messages en attente%s… Ils seront triés à nouveau dans les dossiers appropriés si suffisamment d’espace a été libéré.',
 	'REMOVE_ADDRESS'                    => 'Supprimer l’adresse',
 	'REMOVE_SELECTED_BOOKMARKS'         => 'Supprimer les sujets sélectionnés des favoris',
-	'REMOVE_SELECTED_BOOKMARKS_CONFIRM' => 'Êtes-vous sûr de vouloir supprimer ces sujets de vos favoris ?',
+	'REMOVE_SELECTED_BOOKMARKS_CONFIRM' => 'Êtes-vous sûr de vouloir supprimer ces sujets de vos favoris ?',
 	'REMOVE_BOOKMARK_MARKED'            => 'Supprimer les sujets sélectionnés des favoris',
 	'REMOVE_FOLDER'                     => 'Supprimer la boîte',
-	'REMOVE_FOLDER_CONFIRM'             => 'Êtes-vous sûr de vouloir supprimer cette boîte ?',
+	'REMOVE_FOLDER_CONFIRM'             => 'Êtes-vous sûr de vouloir supprimer cette boîte ?',
 	'RENAME'                            => 'Renommer',
 	'RENAME_FOLDER'                     => 'Renommer la boîte',
 	'REPLIED_MESSAGE'                   => 'Réponse au message',
@@ -573,13 +573,13 @@ $lang = array_merge($lang, [
 	'UCP_PASSWORD_RESET_DISABLED'         => 'La réinitialisation des mots de passe est désactivée. Pour récupérer l’accès à votre compte, contactez un %sadministrateur du forum%s',
 	'UCP_REGISTER_DISABLE'                => 'L’inscription de nouveaux comptes est désactivée.',
 	'UCP_RESEND'                          => 'Envoyer l’e-mail d’activation',
-	'UCP_WELCOME'                         => 'Bienvenue sur le panneau de contrôle utilisateur. Vous pouvez y consulter et mettre à jour votre profil, vos préférences et les forums et sujets que vous suivez. Si les administrateurs du forum ont activé la messagerie privée, vous pouvez aussi envoyer des messages aux autres utilisateurs. Pensez à consulter toutes les annonces avant de continuer.',
+	'UCP_WELCOME'                         => 'Bienvenue sur le panneau de contrôle utilisateur. Vous pouvez y consulter et mettre à jour votre profil, vos préférences et les forums et sujets auxquels vous êtes abonné. Si les administrateurs du forum ont activé la messagerie privée, vous pouvez aussi envoyer des messages aux autres utilisateurs. Pensez à consulter toutes les annonces avant de continuer.',
 	'UCP_ZEBRA'                           => 'Amis et ignorés',
 	'UCP_ZEBRA_FOES'                      => 'Gérer les ignorés',
 	'UCP_ZEBRA_FRIENDS'                   => 'Gérer les amis',
 	'UNDISCLOSED_RECIPIENT'               => 'Destinataire confidentiel',
 	'UNKNOWN_FOLDER'                      => 'Boîte inconnue',
-	'UNWATCH_MARKED'                      => 'Ne plus suivre la sélection',
+	'UNWATCH_MARKED'                      => 'Se désabonner de la sélection',
 	'UPLOAD_AVATAR_FILE'                  => 'Envoyer depuis votre ordinateur',
 	'UPLOAD_AVATAR_URL'                   => 'Importer depuis un lien',
 	'UPLOAD_AVATAR_URL_EXPLAIN'           => 'Saisissez le lien vers l’image. Elle sera ensuite copiée sur ce forum.',
@@ -617,9 +617,9 @@ $lang = array_merge($lang, [
 	'VIEW_POSTS_DIR'        => 'Afficher les messages triés par ordre',
 	'VIEW_POSTS_KEY'        => 'Afficher les messages triés par',
 
-	'WATCHED_EXPLAIN'  => 'La liste ci-dessous présente les forums et sujets que vous suivez. Vous serez notifié à chaque nouveau message publié dans l’un d’eux. Pour ne plus suivre un forum ou un sujet, sélectionnez-le puis cliquez sur « Ne plus suivre la sélection ».',
-	'WATCHED_FORUMS'   => 'Forums que vous suivez',
-	'WATCHED_TOPICS'   => 'Sujets que vous suivez',
+	'WATCHED_EXPLAIN'  => 'La liste ci-dessous présente les forums et sujets auxquels vous êtes abonné. Vous serez notifié à chaque nouveau message publié dans l’un d’eux. Pour vous désabonner d’un forum ou d’un sujet, sélectionnez-le puis cliquez sur « Se désabonner de la sélection ».',
+	'WATCHED_FORUMS'   => 'Forums auxquels vous êtes abonné',
+	'WATCHED_TOPICS'   => 'Sujets auxquels vous êtes abonné',
 	'WRONG_ACTIVATION' => 'La clé d’activation est inconnue de notre base de données.',
 
 	'YOUR_DETAILS'         => 'Votre activité',

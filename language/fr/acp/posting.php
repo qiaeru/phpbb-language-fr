@@ -42,7 +42,7 @@ $lang = array_merge($lang, [
 	'ACP_BBCODES_EXPLAIN' => 'Le BBCode est une variante du HTML qui offre un meilleur contrôle sur la mise en forme. Depuis cette page, vous pouvez ajouter, supprimer et modifier des BBCodes personnalisés.',
 	'ADD_BBCODE'          => 'Ajouter un nouveau BBCode',
 
-	'BBCODE_DANGER'         => 'Le BBCode que vous essayez d’ajouter semble représenter une vulnérabilité. Si le BBCode utilise une chaîne de symboles « {TEXT} » dans un contexte sensible, privilégiez plutôt l’utilisation d’un type plus restrictif. Ne procédez à cette opération que si vous comprenez parfaitement les risques encourus.',
+	'BBCODE_DANGER'         => 'Le BBCode que vous essayez d’ajouter semble représenter une vulnérabilité. Si le BBCode utilise une chaîne de symboles « {TEXT} » dans un contexte sensible, privilégiez plutôt l’utilisation d’un type plus restrictif. Ne procédez à cette opération que si vous comprenez parfaitement les risques encourus.',
 	'BBCODE_DANGER_PROCEED' => 'Procéder', //'I understand the risk',
 
 	'BBCODE_ADDED'             => 'Le BBCode a été ajouté.',
@@ -69,12 +69,12 @@ $lang = array_merge($lang, [
 
 	'HTML_REPLACEMENT'         => 'Code HTML',
 	'HTML_REPLACEMENT_EXAMPLE' => '&lt;span style="background-color: {COLOR};"&gt;{TEXT}&lt;/span&gt;<br><br>&lt;span style="font-family: {SIMPLETEXT1};"&gt;{SIMPLETEXT2}&lt;/span&gt;',
-	'HTML_REPLACEMENT_EXPLAIN' => 'Vous pouvez saisir dans ce champ le code HTML qui sera affiché lors de l’utilisation du BBCode saisi ci-dessus. N’oubliez pas d’utiliser toutes les chaînes de symboles que vous avez utilisées dans votre BBCode !',
+	'HTML_REPLACEMENT_EXPLAIN' => 'Vous pouvez saisir dans ce champ le code HTML qui sera affiché lors de l’utilisation du BBCode saisi ci-dessus. N’oubliez pas d’utiliser toutes les chaînes de symboles que vous avez utilisées dans votre BBCode !',
 
 	'TOKEN'            => 'Chaîne de symboles',
 	'TOKENS'           => 'Chaînes de symboles',
-	'TOKENS_EXPLAIN'   => 'Les chaînes de symboles sont des marques substitutives pour les entrées des utilisateurs. Les entrées ne seront validées que si elles trouvent la définition correspondante. Si besoin, vous pouvez les numéroter en ajoutant un nombre entre des accolades comme dernier caractère, tel que « {TEXT1} », « {TEXT2} », etc.<br><br>Dans le code HTML, vous pouvez également utiliser une chaîne de langue dans votre répertoire « language/ » tel que « {L_<em>« NOMDELACHAÎNE »</em>} » où <em>« NOMDELACHAÎNE »</em> est le nom de la chaîne traduite à ajouter. Par exemple, « {L_WROTE} » sera affiché en tant que « a écrit » ou sa traduction selon la langue locale de l’utilisateur.<br><br><strong>Notez que seules les chaînes listées ci-dessous sont autorisées à être utilisées dans les BBCodes personnalisés.</strong>',
-	'TOKEN_DEFINITION' => 'Qu’est-ce que c’est ?',
+	'TOKENS_EXPLAIN'   => 'Les chaînes de symboles sont des marques substitutives pour les entrées des utilisateurs. Les entrées ne seront validées que si elles trouvent la définition correspondante. Si besoin, vous pouvez les numéroter en ajoutant un nombre entre des accolades comme dernier caractère, tel que « {TEXT1} », « {TEXT2} », etc.<br><br>Dans le code HTML, vous pouvez également utiliser une chaîne de langue dans votre répertoire « language/ » tel que « {L_<em>« NOMDELACHAÎNE »</em>} » où <em>« NOMDELACHAÎNE »</em> est le nom de la chaîne traduite à ajouter. Par exemple, « {L_WROTE} » sera affiché en tant que « a écrit » ou sa traduction selon la langue locale de l’utilisateur.<br><br><strong>Notez que seules les chaînes listées ci-dessous sont autorisées à être utilisées dans les BBCodes personnalisés.</strong>',
+	'TOKEN_DEFINITION' => 'Qu’est-ce que c’est ?',
 	'TOO_MANY_BBCODES' => 'Vous ne pouvez pas créer d’autres BBCodes. Supprimez-en un ou plusieurs et réessayez.',
 
 	'tokens' => [
@@ -84,10 +84,10 @@ $lang = array_merge($lang, [
 		'IDENTIFIER'   => 'Caractères de l’alphabet latin (A-Z), chiffres, tirets et tirets bas.',
 		'NUMBER'       => 'Une série de chiffres.',
 		'EMAIL'        => 'Une adresse e-mail correcte.',
-		'URL'          => 'Une adresse universelle correcte utilisant n’importe quel protocole autorisé (HTTP, FTP, etc.) ne pouvant pas être utilisée pour des injections de Javascript. Si aucun protocole n’est renseigné, « http:// » sera utilisé par défaut.',
-		'LOCAL_URL'    => 'Une adresse universelle locale. L’adresse doit être relative à la page du sujet et ne doit pas contenir de nom de serveur ou de protocole, tels que des liens qui sont précédés de « %s »',
-		'RELATIVE_URL' => 'Une adresse universelle relative. Vous pouvez utiliser des résultats partiels d’une adresse universelle, mais soyez vigilant, car une adresse universelle complète est une adresse universelle relative valide. Lorsque vous souhaitez utiliser les adresses universelles relatives de votre forum, utilisez la variable « LOCAL_URL ».',
-		'COLOR'        => 'Une couleur HTML qui peut être dans une forme hexadécimale « #FF1234 » ou un <a href="https://www.w3.org/TR/css3-color/#colorunits">nom de couleur CSS</a> (en anglais), tel que « black » ou « fuchsia ».',
+		'URL'          => 'Une adresse universelle correcte utilisant n’importe quel protocole autorisé (HTTP, FTP, etc.) ne pouvant pas être utilisée pour des injections de Javascript. Si aucun protocole n’est renseigné, « http:// » sera utilisé par défaut.',
+		'LOCAL_URL'    => 'Une adresse universelle locale. L’adresse doit être relative à la page du sujet et ne doit pas contenir de nom de serveur ou de protocole, tels que des liens qui sont précédés de « %s »',
+		'RELATIVE_URL' => 'Une adresse universelle relative. Vous pouvez utiliser des résultats partiels d’une adresse universelle, mais soyez vigilant, car une adresse universelle complète est une adresse universelle relative valide. Lorsque vous souhaitez utiliser les adresses universelles relatives de votre forum, utilisez la variable « LOCAL_URL ».',
+		'COLOR'        => 'Une couleur HTML qui peut être dans une forme hexadécimale « #FF1234 » ou un <a href="https://www.w3.org/TR/css3-color/#colorunits">nom de couleur CSS</a> (en anglais), tel que « black » ou « fuchsia ».',
 		'ALNUM'        => 'Caractères de l’alphabet latin (A-Z) et chiffres.',
 		'CHOICE'       => 'Un choix de valeurs indiquées, par exemple <samp>{CHOICE=pique,cœur,carreau,trèfle}</samp>. Les valeurs sont traitées comme insensibles à la casse par défaut et peuvent être traitées comme sensibles à la casse en spécifiant l’option <samp>caseSensitive</samp> : <samp>{CHOICE=pique,cœur,carreau,trèfle;caseSensitive}</samp>',
 		'FLOAT'        => 'Une valeur décimale, par exemple <samp>0.5</samp>.',
@@ -128,10 +128,10 @@ $lang = array_merge($lang, [
 	'EDIT_ICONS'             => 'Modifier les icônes',
 	'EDIT_SMILIES'           => 'Modifier les émoticônes',
 	'EMOTION'                => 'Émotion',
-	'EXPORT_ICONS'           => 'Exporter et télécharger « icons.pak »',
-	'EXPORT_ICONS_EXPLAIN'   => '%sEn cliquant sur ce lien, la configuration des icônes installées sera archivée dans « icons.pak » qui, une fois téléchargé, pourra être utilisé pour créer un fichier compressé au format « .zip » ou « .tgz » qui contiendra toutes vos icônes, ainsi que le fichier de configuration « icons.pak »%s.',
-	'EXPORT_SMILIES'         => 'Exporter et télécharger « smilies.pak »',
-	'EXPORT_SMILIES_EXPLAIN' => '%sEn cliquant sur ce lien, la configuration des émoticônes installées sera archivée dans « smilies.pak » qui, une fois téléchargé, pourra être utilisé pour créer un fichier compressé au format « .zip » ou « .tgz » qui contiendra toutes vos émoticônes, ainsi que le fichier de configuration « smilies.pak »%s.',
+	'EXPORT_ICONS'           => 'Exporter et télécharger « icons.pak »',
+	'EXPORT_ICONS_EXPLAIN'   => '%sEn cliquant sur ce lien, la configuration des icônes installées sera archivée dans « icons.pak » qui, une fois téléchargé, pourra être utilisé pour créer un fichier compressé au format « .zip » ou « .tgz » qui contiendra toutes vos icônes, ainsi que le fichier de configuration « icons.pak »%s.',
+	'EXPORT_SMILIES'         => 'Exporter et télécharger « smilies.pak »',
+	'EXPORT_SMILIES_EXPLAIN' => '%sEn cliquant sur ce lien, la configuration des émoticônes installées sera archivée dans « smilies.pak » qui, une fois téléchargé, pourra être utilisé pour créer un fichier compressé au format « .zip » ou « .tgz » qui contiendra toutes vos émoticônes, ainsi que le fichier de configuration « smilies.pak »%s.',
 
 	'FIRST' => 'Premier',
 
@@ -174,7 +174,7 @@ $lang = array_merge($lang, [
 	'NO_SMILIES_EXPORT' => 'Aucune émoticône disponible pour créer une archive.',
 	'NO_SMILIES_PAK'    => 'Aucune archive d’émoticônes n’a été trouvée.',
 
-	'PAK_FILE_NOT_READABLE' => 'Impossible de lire le fichier « .pak ».',
+	'PAK_FILE_NOT_READABLE' => 'Impossible de lire le fichier « .pak ».',
 
 	'REPLACE_MATCHES' => 'Remplacer les résultats',
 
@@ -189,9 +189,9 @@ $lang = array_merge($lang, [
 	'SMILIES_CONFIG'    => 'Configuration de l’émoticône',
 	'SMILIES_DELETED'   => 'L’émoticône a été supprimée.',
 	'SMILIES_EDIT'      => 'Modifier l’émoticône',
-	'SMILIE_NO_CODE'    => 'L’émoticône « %s » a été ignorée car aucun code n’a été indiqué.',
-	'SMILIE_NO_EMOTION' => 'L’émoticône « %s » a été ignorée car aucune émoticône n’a été indiquée.',
-	'SMILIE_NO_FILE'    => 'L’émoticône « %s » a été ignorée car le fichier est manquant.',
+	'SMILIE_NO_CODE'    => 'L’émoticône « %s » a été ignorée car aucun code n’a été indiqué.',
+	'SMILIE_NO_EMOTION' => 'L’émoticône « %s » a été ignorée car aucune émoticône n’a été indiquée.',
+	'SMILIE_NO_FILE'    => 'L’émoticône « %s » a été ignorée car le fichier est manquant.',
 	'SMILIES_EDITED'    => [
 		0 => 'Aucune émoticône n’a été mise à jour.',
 		1 => 'L’émoticône a été mise à jour.',
@@ -218,7 +218,7 @@ $lang = array_merge($lang, [
 
 // Word censors
 $lang = array_merge($lang, [
-	'ACP_WORDS_EXPLAIN' => 'Depuis cette page, vous pouvez ajouter, modifier et supprimer les mots qui seront automatiquement censurés sur votre forum. Les mots censurés seront alors remplacés par les substitutions qui leurs sont assignées. Les visiteurs pourront tout de même s’inscrire avec des noms d’utilisateurs contenant ces mots. Les astérisques « * » utilisés comme métacaractère passe-partout sont acceptés dans les champs. Par exemple, « *test* » censurera « détestable », « test* » censurera « testament », « *test » censurera « alcootest ».',
+	'ACP_WORDS_EXPLAIN' => 'Depuis cette page, vous pouvez ajouter, modifier et supprimer les mots qui seront automatiquement censurés sur votre forum. Les mots censurés seront alors remplacés par les substitutions qui leur sont assignées. Les visiteurs pourront tout de même s’inscrire avec des noms d’utilisateurs contenant ces mots. Les astérisques « * » utilisés comme métacaractère passe-partout sont acceptés dans les champs. Par exemple, « *test* » censurera « détestable », « test* » censurera « testament », « *test » censurera « alcootest ».',
 	'ADD_WORD'          => 'Ajouter un nouveau mot',
 
 	'EDIT_WORD'  => 'Modifier la censure de mot',
@@ -260,11 +260,11 @@ $lang = array_merge($lang, [
 
 // Disallow Usernames
 $lang = array_merge($lang, [
-	'ACP_DISALLOW_EXPLAIN' => 'Depuis cette page, vous pouvez gérer les noms d’utilisateurs qui ne sont pas autorisés à être utilisés. Les noms d’utilisateurs interdits peuvent contenir un astérisque « * » comme métacaractère passe-partout.',
-	'ADD_DISALLOW_EXPLAIN' => 'Vous pouvez interdire un nom d’utilisateur en utilisant un astérisque « * » comme métacaractère passe-partout qui remplacera alors n’importe quel caractère.',
+	'ACP_DISALLOW_EXPLAIN' => 'Depuis cette page, vous pouvez gérer les noms d’utilisateurs qui ne sont pas autorisés à être utilisés. Les noms d’utilisateurs interdits peuvent contenir un astérisque « * » comme métacaractère passe-partout.',
+	'ADD_DISALLOW_EXPLAIN' => 'Vous pouvez interdire un nom d’utilisateur en utilisant un astérisque « * » comme métacaractère passe-partout qui remplacera alors n’importe quel caractère.',
 	'ADD_DISALLOW_TITLE'   => 'Interdire un nom d’utilisateur',
 
-	'DELETE_DISALLOW_EXPLAIN' => 'Vous pouvez autoriser un nom d’utilisateur en sélectionnant dans cette liste le nom d’utilisateur interdit souhaité et en cliquant sur « Envoyer ».',
+	'DELETE_DISALLOW_EXPLAIN' => 'Vous pouvez autoriser un nom d’utilisateur en sélectionnant dans cette liste le nom d’utilisateur interdit souhaité et en cliquant sur « Envoyer ».',
 	'DELETE_DISALLOW_TITLE'   => 'Autoriser un nom d’utilisateur',
 	'DISALLOWED_ALREADY'      => 'Ce nom d’utilisateur est déjà interdit.',
 	'DISALLOWED_DELETED'      => 'Le nom d’utilisateur a été autorisé.',
@@ -276,7 +276,7 @@ $lang = array_merge($lang, [
 
 // Reasons
 $lang = array_merge($lang, [
-	'ACP_REASONS_EXPLAIN' => 'Depuis cette page, vous pouvez gérer les raisons utilisées dans les signalements lors de la désapprobation de messages. La raison par défaut, signalée par un astérisque « * », ne peut pas être supprimée car elle est réservée aux messages personnalisés quand aucune raison n’est indiquée.',
+	'ACP_REASONS_EXPLAIN' => 'Depuis cette page, vous pouvez gérer les raisons utilisées dans les signalements lors de la désapprobation de messages. La raison par défaut, signalée par un astérisque « * », ne peut pas être supprimée car elle est réservée aux messages personnalisés quand aucune raison n’est indiquée.',
 	'ADD_NEW_REASON'      => 'Ajouter une nouvelle raison',
 	'AVAILABLE_TITLES'    => 'Titres des raisons traduites disponibles',
 
@@ -287,7 +287,7 @@ $lang = array_merge($lang, [
 
 	'NO_REASON'                => 'La raison est introuvable.',
 	'NO_REASON_INFO'           => 'Saisissez le titre et la description de cette raison.',
-	'NO_REMOVE_DEFAULT_REASON' => 'Vous ne pouvez pas supprimer la raison par défaut « Divers ».',
+	'NO_REMOVE_DEFAULT_REASON' => 'Vous ne pouvez pas supprimer la raison par défaut « Divers ».',
 
 	'REASON_ADD'              => 'Ajouter une raison',
 	'REASON_ADDED'            => 'La raison a été ajoutée.',

@@ -1,8 +1,8 @@
-Subject: Publication d’une nouvelle réponse dans « {TOPIC_TITLE} »
+Subject: Publication d’une nouvelle réponse dans « {TOPIC_TITLE} »
 
 Bonjour {USERNAME},
 
-Depuis votre dernière visite sur « {SITENAME} », une nouvelle réponse a été publiée dans le sujet « {TOPIC_TITLE} » que vous avez ajouté aux favoris. Aucune nouvelle notification ne vous sera envoyée tant que vous n’aurez pas consulté le sujet.
+Depuis votre dernière visite sur « {SITENAME} », une nouvelle réponse a été publiée dans le sujet « {TOPIC_TITLE} » que vous avez ajouté aux favoris. Aucune nouvelle notification ne vous sera envoyée tant que vous n’aurez pas consulté le sujet.
 
 Pour consulter le nouveau message publié, cliquez sur le lien suivant :
 {U_NEWEST_POST}

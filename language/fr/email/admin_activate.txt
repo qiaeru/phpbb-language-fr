@@ -2,7 +2,7 @@ Subject: Activation du compte d’un utilisateur
 
 Bonjour,
 
-Le compte de « {USERNAME} » a été désactivé ou nouvellement créé. Vous devriez, si nécessaire, gérer et vérifier les informations concernant cet utilisateur.
+Le compte de « {USERNAME} » a été désactivé ou nouvellement créé. Vous devriez, si nécessaire, gérer et vérifier les informations concernant cet utilisateur.
 
 Pour consulter le profil de cet utilisateur, cliquez sur le lien suivant :
 {U_USER_DETAILS}

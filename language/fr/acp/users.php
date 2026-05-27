@@ -43,7 +43,7 @@ $lang = array_merge($lang, [
 	'BAN_ALREADY_ENTERED' => 'Ce bannissement existe déjà. La liste des bannissements n’a pas été mise à jour.',
 	'BAN_SUCCESSFUL'      => 'Le bannissement a été effectué.',
 
-	'CANNOT_BAN_ANONYMOUS'        => 'Vous ne pouvez pas bannir les comptes d’anonymes. Les permissions agissant sur les utilisateurs anonymes peuvent être définies sous l’onglet « Permissions ».',
+	'CANNOT_BAN_ANONYMOUS'        => 'Vous ne pouvez pas bannir les comptes d’anonymes. Les permissions agissant sur les utilisateurs anonymes peuvent être définies sous l’onglet « Permissions ».',
 	'CANNOT_BAN_FOUNDER'          => 'Vous ne pouvez pas bannir les comptes des fondateurs.',
 	'CANNOT_BAN_YOURSELF'         => 'Vous ne pouvez pas bannir votre propre compte.',
 	'CANNOT_DEACTIVATE_BOT'       => 'Vous ne pouvez pas désactiver les comptes des robots. Désactivez plutôt le robot depuis la page des robots.',
@@ -73,7 +73,7 @@ $lang = array_merge($lang, [
 	'GROUP_DEMOTE'  => 'Rétrograder le responsable du groupe',
 	'GROUP_PROMOTE' => 'Promouvoir en responsable du groupe',
 
-	'IP_WHOIS_FOR' => 'À qui appartient l’IP pour « %s »',
+	'IP_WHOIS_FOR' => 'À qui appartient l’IP pour « %s »',
 
 	'LAST_ACTIVE' => 'Dernière visite',
 

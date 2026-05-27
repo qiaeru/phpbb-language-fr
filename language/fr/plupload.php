@@ -55,7 +55,7 @@ $lang = array_merge($lang, [
 	'PLUPLOAD_ERR_UPLOAD_URL'       => 'Le lien d’envoi est introuvable ou invalide.',
 	'PLUPLOAD_EXTENSION_ERROR'      => 'Erreur sur l’extension du fichier.',
 	'PLUPLOAD_FILE'                 => 'Fichier : %s',
-	'PLUPLOAD_FILE_DETAILS'         => 'Fichier : %s ; taille : %d ; taille maximale autorisée : %d',
+	'PLUPLOAD_FILE_DETAILS'         => 'Fichier : %s ; taille : %d ; taille maximale autorisée : %d',
 	'PLUPLOAD_FILENAME'             => 'Nom',
 	'PLUPLOAD_FILES_QUEUED'         => '%d fichiers en attente',
 	'PLUPLOAD_GENERIC_ERROR'        => 'Erreur générique.',
@@ -75,5 +75,5 @@ $lang = array_merge($lang, [
 	'PLUPLOAD_STOP_CURRENT_UPLOAD'  => 'Interrompre le transfert actuel',
 	// Note: This string is formatted independently by plupload and so does not
 	// use the same formatting rules as normal phpBB translation strings
-	'PLUPLOAD_UPLOADED' => '%d/%d fichiers transférés',
+	'PLUPLOAD_UPLOADED' => '%d/%d fichiers envoyés',
 ]);

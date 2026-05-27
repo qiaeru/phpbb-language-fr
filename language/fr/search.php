@@ -54,7 +54,7 @@ $lang = array_merge($lang, [
 	'GLOBAL' => 'Annonce générale',
 
 	'IGNORED_TERMS'         => 'ignorés',
-	'IGNORED_TERMS_EXPLAIN' => 'Les mots suivants ont été ignorés car ils sont considérés comme trop communs : « %s ».',
+	'IGNORED_TERMS_EXPLAIN' => 'Les mots suivants ont été ignorés car ils sont considérés comme trop communs : « %s ».',
 
 	'JUMP_TO_POST' => 'Aller au message',
 
@@ -67,7 +67,7 @@ $lang = array_merge($lang, [
 		2 => 'Vous avez indiqué trop de mots à rechercher. Ne saisissez pas plus de %1$d mots.',
 	],
 
-	'NO_KEYWORDS'        => 'Vous devez saisir au moins un mot pour effectuer une recherche. Chaque mot doit être composé d’au moins %s caractères et ne doit pas en contenir plus de %s, en excluant en utilisant les astérisques « * » utilisés comme métacaractères passe-partout.',
+	'NO_KEYWORDS'        => 'Vous devez saisir au moins un mot pour effectuer une recherche. Chaque mot doit être composé d’au moins %s caractères et ne doit pas en contenir plus de %s, en excluant les astérisques « * » utilisés comme métacaractères passe-partout.',
 	'NO_RECENT_SEARCHES' => 'Aucune recherche n’a été effectuée récemment.',
 	'NO_SEARCH'          => 'Vous n’êtes pas autorisé à effectuer une recherche.',
 	'NO_SEARCH_RESULTS'  => 'Aucun résultat ne correspond à votre recherche.',
@@ -77,8 +77,8 @@ $lang = array_merge($lang, [
 		2 => 'Recherche indisponible pour le moment. Réessayez dans %d secondes.',
 	],
 	'NO_SEARCH_UNREADS' => 'La recherche des messages non lus a été désactivée sur ce forum.',
-	'WORD_IN_NO_POST'   => 'Le mot « %s » n’est présent dans aucun message.',
-	'WORDS_IN_NO_POST'  => 'Les mots « %s » ne sont présents dans aucun message.',
+	'WORD_IN_NO_POST'   => 'Le mot « %s » n’est présent dans aucun message.',
+	'WORDS_IN_NO_POST'  => 'Les mots « %s » ne sont présents dans aucun message.',
 
 	'POST_CHARACTERS'        => 'caractères des messages',
 	'PHRASE_SEARCH_DISABLED' => 'La recherche par phrase exacte n’est pas prise en charge sur ce forum.',
@@ -87,7 +87,7 @@ $lang = array_merge($lang, [
 	'RESULT_DAYS'          => 'Limiter les résultats selon leur ancienneté',
 	'RESULT_SORT'          => 'Trier les résultats par',
 	'RETURN_FIRST'         => 'Afficher seulement les premiers',
-	'RETURN_FIRST_EXPLAIN' => 'Saisissez « 0 » pour afficher le message dans son intégralité.',
+	'RETURN_FIRST_EXPLAIN' => 'Saisissez « 0 » pour afficher le message dans son intégralité.',
 	'GO_TO_SEARCH_ADV'     => 'Aller à la recherche avancée',
 
 	'SEARCHED_FOR'             => 'Rechercher les termes utilisés',
@@ -96,12 +96,12 @@ $lang = array_merge($lang, [
 	'SEARCH_ALL_TERMS'         => 'Rechercher tous les termes ou utiliser une question complète',
 	'SEARCH_ANY_TERMS'         => 'Rechercher l’un de ces termes',
 	'SEARCH_AUTHOR'            => 'Rechercher par auteur',
-	'SEARCH_AUTHOR_EXPLAIN'    => 'Utilisez un astérisque « * » comme métacaractère passe-partout pour effectuer des recherches partielles.',
+	'SEARCH_AUTHOR_EXPLAIN'    => 'Utilisez un astérisque « * » comme métacaractère passe-partout pour effectuer des recherches partielles.',
 	'SEARCH_FIRST_POST'        => 'Premier message des sujets uniquement',
 	'SEARCH_FORUMS'            => 'Rechercher dans les forums',
-	'SEARCH_FORUMS_EXPLAIN'    => 'Sélectionnez le ou les forums dans lesquels vous souhaitez effectuer une recherche. Les sous-forums seront automatiquement inclus dans la recherche si vous ne désactivez pas l’option « Rechercher dans les sous-forums » affichée ci-dessous.',
+	'SEARCH_FORUMS_EXPLAIN'    => 'Sélectionnez le ou les forums dans lesquels vous souhaitez effectuer une recherche. Les sous-forums seront automatiquement inclus dans la recherche si vous ne désactivez pas l’option « Rechercher dans les sous-forums » affichée ci-dessous.',
 	'SEARCH_IN_RESULTS'        => 'Rechercher dans ces résultats',
-	'SEARCH_KEYWORDS_EXPLAIN'  => 'Insérez le caractère « + » devant un mot qui doit être trouvé et « - » devant un mot qui doit être ignoré. Insérez une liste de mots séparés entre des barres verticales discontinues « | » si seul un des mots doit être trouvé. Utilisez un astérisque « * » comme métacaractère passe-partout pour effectuer des recherches partielles.',
+	'SEARCH_KEYWORDS_EXPLAIN'  => 'Insérez le caractère « + » devant un mot qui doit être trouvé et « - » devant un mot qui doit être ignoré. Insérez une liste de mots séparés entre des barres verticales discontinues « | » si seul un des mots doit être trouvé. Utilisez un astérisque « * » comme métacaractère passe-partout pour effectuer des recherches partielles.',
 	'SEARCH_MSG_ONLY'          => 'Contenu des messages uniquement',
 	'SEARCH_OPTIONS'           => 'Préférences de la recherche',
 	'SEARCH_QUERY'             => 'Requête de la recherche',
@@ -115,8 +115,8 @@ $lang = array_merge($lang, [
 	'SORT_FORUM'               => 'Forum',
 	'SORT_POST_SUBJECT'        => 'Sujet du message',
 	'SORT_TIME'                => 'Date du message',
-	'SPHINX_SEARCH_FAILED'     => 'Une erreur est survenue lors de la recherche : %s',
-	'SPHINX_SEARCH_FAILED_LOG' => 'Une erreur est survenue lors de la recherche. Pour plus d’informations, consultez l’historique des erreurs.',
+	'SPHINX_SEARCH_FAILED'     => 'Échec de la recherche : %s',
+	'SPHINX_SEARCH_FAILED_LOG' => 'Échec de la recherche. Pour plus d’informations, consultez l’historique des erreurs.',
 
 	'TOO_FEW_AUTHOR_CHARS' => [
 		1 => 'Saisissez au moins %d caractère du nom des auteurs.',
