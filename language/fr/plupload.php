@@ -39,14 +39,14 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, [
 	'PLUPLOAD_ADD_FILES'            => 'Ajouter des fichiers',
-	'PLUPLOAD_ADD_FILES_TO_QUEUE'   => 'Ajoutez des fichiers à la file d’attente d’envoi et cliquez sur le bouton de démarrage pour les envoyer.',
+	'PLUPLOAD_ADD_FILES_TO_QUEUE'   => 'Ajoutez des fichiers à la file d’attente d’import et cliquez sur le bouton de démarrage pour les importer.',
 	'PLUPLOAD_ALREADY_QUEUED'       => '%s fichiers déjà présents dans la file d’attente.',
 	'PLUPLOAD_CLOSE'                => 'Fermer',
-	'PLUPLOAD_DRAG'                 => 'Glissez et déposez ici les fichiers à envoyer.',
+	'PLUPLOAD_DRAG'                 => 'Glissez et déposez ici les fichiers à importer.',
 	'PLUPLOAD_DUPLICATE_ERROR'      => 'Erreur de duplicata de fichier.',
-	'PLUPLOAD_DRAG_TEXTAREA'        => 'Vous pouvez aussi envoyer des fichiers en les glissant-déposant dans la boîte de texte.',
+	'PLUPLOAD_DRAG_TEXTAREA'        => 'Vous pouvez aussi importer des fichiers en les glissant-déposant dans la boîte de texte.',
 	'PLUPLOAD_ERR_INPUT'            => 'Impossible d’ouvrir le flux d’entrée.',
-	'PLUPLOAD_ERR_MOVE_UPLOADED'    => 'Impossible de déplacer le fichier envoyé.',
+	'PLUPLOAD_ERR_MOVE_UPLOADED'    => 'Impossible de déplacer le fichier importé.',
 	'PLUPLOAD_ERR_OUTPUT'           => 'Impossible d’ouvrir le flux de sortie.',
 	'PLUPLOAD_ERR_FILE_TOO_LARGE'   => 'La taille du fichier est trop importante :',
 	'PLUPLOAD_ERR_FILE_COUNT'       => 'Erreur sur le nombre de fichiers.',
@@ -75,5 +75,5 @@ $lang = array_merge($lang, [
 	'PLUPLOAD_STOP_CURRENT_UPLOAD'  => 'Interrompre le transfert actuel',
 	// Note: This string is formatted independently by plupload and so does not
 	// use the same formatting rules as normal phpBB translation strings
-	'PLUPLOAD_UPLOADED' => '%d/%d fichiers envoyés',
+	'PLUPLOAD_UPLOADED' => '%d/%d fichiers importés',
 ]);

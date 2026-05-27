@@ -106,25 +106,25 @@ $lang = array_merge($lang, [
 
 // Avatar Settings
 $lang = array_merge($lang, [
-	'ACP_AVATAR_SETTINGS_EXPLAIN' => 'Les avatars sont de petites images uniques associées à un utilisateur, habituellement affichées sous le nom d’utilisateur lors de la consultation des sujets (l’apparence peut varier selon le style du forum). Depuis cette page, vous déterminez quels avatars peuvent être utilisés. Pour permettre l’envoi d’avatars, créez d’abord le répertoire indiqué ci-dessous et assurez-vous que ses droits d’écriture sont accessibles à votre serveur. Notez que les limitations de taille ne s’appliquent qu’aux avatars envoyés, pas aux images distantes.',
+	'ACP_AVATAR_SETTINGS_EXPLAIN' => 'Les avatars sont de petites images uniques associées à un utilisateur, habituellement affichées sous le nom d’utilisateur lors de la consultation des sujets (l’apparence peut varier selon le style du forum). Depuis cette page, vous déterminez quels avatars peuvent être utilisés. Pour permettre l’import d’avatars, créez d’abord le répertoire indiqué ci-dessous et assurez-vous que ses droits d’écriture sont accessibles à votre serveur. Notez que les limitations de taille ne s’appliquent qu’aux avatars importés, pas aux images distantes.',
 
 	'ALLOW_AVATARS'               => 'Activer les avatars',
-	'ALLOW_AVATARS_EXPLAIN'       => 'Les utilisateurs pourront afficher un avatar.<br>Si les avatars sont désactivés, ils ne seront plus affichés sur le forum, mais les utilisateurs pourront cependant toujours envoyer leur avatar depuis le panneau de contrôle utilisateur.',
+	'ALLOW_AVATARS_EXPLAIN'       => 'Les utilisateurs pourront afficher un avatar.<br>Si les avatars sont désactivés, ils ne seront plus affichés sur le forum, mais les utilisateurs pourront cependant toujours importer leur avatar depuis le panneau de contrôle utilisateur.',
 	'ALLOW_GRAVATAR'              => 'Autoriser les images de Gravatar',
 	'ALLOW_LOCAL'                 => 'Autoriser les images de la galerie d’avatars',
 	'ALLOW_REMOTE'                => 'Autoriser les images distantes',
 	'ALLOW_REMOTE_EXPLAIN'        => 'Les avatars situés sur un site web externe.<br><em><strong class="error">Attention :</strong> l’activation de cette fonctionnalité peut permettre aux utilisateurs de vérifier l’existence de fichiers et de services qui ne sont accessibles que sur le réseau local.</em>',
-	'ALLOW_REMOTE_UPLOAD'         => 'Autoriser l’envoi d’images distantes',
-	'ALLOW_REMOTE_UPLOAD_EXPLAIN' => 'Les utilisateurs du forum pourront envoyer sur votre serveur des images hébergées sur des sites web externes et les utiliser comme avatars.<br><em><strong class="error">Attention :</strong> l’activation de cette fonctionnalité peut permettre aux utilisateurs de vérifier l’existence de fichiers et de services qui ne sont accessibles que sur le réseau local</em>',
-	'ALLOW_UPLOAD'                => 'Autoriser l’envoi d’images locales',
+	'ALLOW_REMOTE_UPLOAD'         => 'Autoriser l’import d’images distantes',
+	'ALLOW_REMOTE_UPLOAD_EXPLAIN' => 'Les utilisateurs du forum pourront importer sur votre serveur des images hébergées sur des sites web externes et les utiliser comme avatars.<br><em><strong class="error">Attention :</strong> l’activation de cette fonctionnalité peut permettre aux utilisateurs de vérifier l’existence de fichiers et de services qui ne sont accessibles que sur le réseau local</em>',
+	'ALLOW_UPLOAD'                => 'Autoriser l’import d’images locales',
 	'AVATAR_GALLERY_PATH'         => 'Chemin vers la galerie d’avatars',
 	'AVATAR_GALLERY_PATH_EXPLAIN' => 'Le chemin relatif à la racine du répertoire de votre forum, tel que « images/avatars/gallery ».<br>Pour des raisons de sécurité, les deux points, tels que « ../ », seront retirés du chemin.',
 	'AVATAR_STORAGE_PATH'         => 'Chemin vers le répertoire de stockage des avatars',
-	'AVATAR_STORAGE_PATH_EXPLAIN' => 'Le chemin relatif à la racine du répertoire de votre forum, tel que « images/avatars/upload ».<br>L’envoi des avatars ne sera pas disponible si le répertoire indiqué est en lecture seule.<br>Pour des raisons de sécurité, les deux points, tels que « ../ », seront retirés du chemin.',
+	'AVATAR_STORAGE_PATH_EXPLAIN' => 'Le chemin relatif à la racine du répertoire de votre forum, tel que « images/avatars/upload ».<br>L’import des avatars ne sera pas disponible si le répertoire indiqué est en lecture seule.<br>Pour des raisons de sécurité, les deux points, tels que « ../ », seront retirés du chemin.',
 	'MAX_AVATAR_SIZE'             => 'Dimensions maximales des avatars',
 	'MAX_AVATAR_SIZE_EXPLAIN'     => 'Largeur et hauteur maximales (en pixels) des avatars.',
 	'MAX_FILESIZE'                => 'Taille maximale des avatars',
-	'MAX_FILESIZE_EXPLAIN'        => 'Cette limitation ne concerne que les avatars qui seront envoyés sur le serveur par les utilisateurs de votre forum. Si cette valeur est sur « 0 », la taille ne sera limitée que par votre configuration de PHP.',
+	'MAX_FILESIZE_EXPLAIN'        => 'Cette limitation ne concerne que les avatars qui seront importés sur le serveur par les utilisateurs de votre forum. Si cette valeur est sur « 0 », la taille ne sera limitée que par votre configuration de PHP.',
 	'MIN_AVATAR_SIZE'             => 'Dimensions minimales des avatars',
 	'MIN_AVATAR_SIZE_EXPLAIN'     => 'Largeur et hauteur minimales (en pixels) des avatars.',
 ]);
@@ -548,7 +548,7 @@ $lang = array_merge($lang, [
 	'REFERRER_VALID_EXPLAIN'               => 'Si cette option est activée, le référant des requêtes « POST » sera vérifié et pourra servir à valider l’hôte et le chemin du forum. Si votre forum est accessibles sur plusieurs domaines ou utilise des connexions externes, vous ne devez pas autoriser le référant à valider le chemin pour éviter tout conflit.',
 	'TPL_ALLOW_PHP'                        => 'Autoriser le code PHP dans les modèles',
 	'TPL_ALLOW_PHP_EXPLAIN'                => 'Si cette option est activée, les instructions « PHP » et « INCLUDEPHP » seront reconnues et analysées dans les modèles.',
-	'UPLOAD_CERT_VALID'                    => 'Valider les certificats envoyés',
+	'UPLOAD_CERT_VALID'                    => 'Valider les certificats importés',
 	'UPLOAD_CERT_VALID_EXPLAIN'            => 'Si cette option est activée, les certificats des transferts à distance seront validés. Le paquet de l’autorité de certification devra être défini en configurant « openssl.cafile » ou « curl.cainfo » dans le fichier « php.ini ».',
 ]);
 

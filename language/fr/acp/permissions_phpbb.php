@@ -72,7 +72,7 @@ $lang = array_merge($lang, [
 	'ACL_U_CHGGRP'         => 'Peut modifier son groupe d’utilisateurs par défaut',
 	'ACL_U_CHGPROFILEINFO' => 'Peut modifier les champs d’information de son profil',
 
-	'ACL_U_ATTACH'     => 'Peut envoyer des pièces jointes',
+	'ACL_U_ATTACH'     => 'Peut importer des pièces jointes',
 	'ACL_U_DOWNLOAD'   => 'Peut télécharger les pièces jointes',
 	'ACL_U_SAVEDRAFTS' => 'Peut enregistrer des messages comme brouillons',
 	'ACL_U_CHGCENSORS' => 'Peut désactiver la censure de mots',
@@ -88,7 +88,7 @@ $lang = array_merge($lang, [
 	'ACL_U_PM_FORWARD'   => 'Peut transférer les messages privés',
 	'ACL_U_PM_EMAILPM'   => 'Peut envoyer les messages privés par e-mail',
 	'ACL_U_PM_PRINTPM'   => 'Peut imprimer les messages privés',
-	'ACL_U_PM_ATTACH'    => 'Peut envoyer des pièces jointes dans ses messages privés',
+	'ACL_U_PM_ATTACH'    => 'Peut importer des pièces jointes dans ses messages privés',
 	'ACL_U_PM_DOWNLOAD'  => 'Peut télécharger les pièces jointes envoyées dans des messages privés',
 	'ACL_U_PM_BBCODE'    => 'Peut utiliser du BBCode dans les messages privés',
 	'ACL_U_PM_SMILIES'   => 'Peut insérer des émoticônes dans les messages privés',
@@ -129,7 +129,7 @@ $lang = array_merge($lang, [
 	'ACL_F_POSTCOUNT'       => 'Peut augmenter son compteur de messages<br><em>Cette option n’affecte que les nouveaux messages.</em>',
 	'ACL_F_NOAPPROVE'       => 'Peut publier des messages sans validation',
 
-	'ACL_F_ATTACH'  => 'Peut envoyer des pièces jointes',
+	'ACL_F_ATTACH'  => 'Peut importer des pièces jointes',
 	'ACL_F_ICONS'   => 'Peut insérer des icônes de sujet et de message',
 	'ACL_F_BBCODE'  => 'Peut utiliser du BBCode',
 	'ACL_F_FLASH'   => 'Peut utiliser la balise BBCode [flash]',

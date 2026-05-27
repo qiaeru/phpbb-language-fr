@@ -676,7 +676,7 @@ $lang = array_merge($lang, [
 	'LOG_LANGUAGE_PACK_INSTALLED' => '<strong>Installation d’une langue</strong><br>» %s',
 	'LOG_LANGUAGE_PACK_UPDATED'   => '<strong>Mise à jour des informations d’une langue</strong><br>» %s',
 	'LOG_LANGUAGE_FILE_REPLACED'  => '<strong>Remplacement d’un fichier de langue</strong><br>» %s',
-	'LOG_LANGUAGE_FILE_SUBMITTED' => '<strong>Envoi et déplacement dans le répertoire de stockage d’un fichier de langue</strong><br>» %s',
+	'LOG_LANGUAGE_FILE_SUBMITTED' => '<strong>Import et déplacement dans le répertoire de stockage d’un fichier de langue</strong><br>» %s',
 
 	'LOG_MASS_EMAIL' => '<strong>Envoi d’un e-mail de masse</strong><br>» %s',
 

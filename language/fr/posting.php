@@ -44,7 +44,7 @@ $lang = array_merge($lang, [
 	'ADD_POLL_EXPLAIN'         => 'Laissez ces champs vides si vous ne souhaitez pas insérer de sondage à votre sujet.',
 	'ALREADY_DELETED'          => 'Le message a déjà été supprimé.',
 	'ATTACH_COMMENT_NO_EMOJIS' => 'Le commentaire de la pièce jointe contient des caractères non autorisés (émojis).',
-	'ATTACH_DISK_FULL'         => 'Vous ne pouvez pas envoyer cette pièce jointe car l’espace disque est insuffisant.',
+	'ATTACH_DISK_FULL'         => 'Vous ne pouvez pas importer cette pièce jointe car l’espace disque est insuffisant.',
 	'ATTACH_QUOTA_REACHED'     => 'La limite du nombre de pièces jointes sur le forum a été atteinte.',
 	'ATTACH_SIG'               => 'Insérer une signature (personnalisable dans le panneau de contrôle utilisateur)',
 
@@ -111,7 +111,7 @@ $lang = array_merge($lang, [
 	'DISABLE_BBCODE'                    => 'Désactiver les BBCodes',
 	'DISABLE_MAGIC_URL'                 => 'Ne pas analyser automatiquement la syntaxe des liens',
 	'DISABLE_SMILIES'                   => 'Désactiver les émoticônes',
-	'DISALLOWED_CONTENT'                => 'L’envoi a été refusé : le fichier a été identifié comme une vulnérabilité potentielle.',
+	'DISALLOWED_CONTENT'                => 'L’import a été refusé : le fichier a été identifié comme une vulnérabilité potentielle.',
 	'DISALLOWED_EXTENSION'              => 'L’extension « %s » n’est pas autorisée.',
 	'DRAFT_LOADED'                      => 'Le brouillon a été chargé dans la zone de rédaction. Vous pouvez maintenant finaliser votre message.<br>Votre brouillon sera supprimé après l’envoi du message.',
 	'DRAFT_LOADED_PM'                   => 'Le brouillon a été chargé dans la zone de rédaction. Vous pouvez maintenant finaliser votre message privé.<br>Votre brouillon sera supprimé après l’envoi du message privé.',
@@ -119,9 +119,9 @@ $lang = array_merge($lang, [
 	'DRAFT_TITLE'                       => 'Titre du brouillon',
 
 	'EDIT_REASON'       => 'Raison de la modification',
-	'EMPTY_FILEUPLOAD'  => 'Le fichier envoyé ne contient aucune donnée.',
+	'EMPTY_FILEUPLOAD'  => 'Le fichier importé ne contient aucune donnée.',
 	'EMPTY_MESSAGE'     => 'Vous devez saisir le contenu de votre message.',
-	'EMPTY_REMOTE_DATA' => 'L’envoi du fichier a échoué. Essayez de l’envoyer manuellement.',
+	'EMPTY_REMOTE_DATA' => 'L’import du fichier a échoué. Essayez de l’importer manuellement.',
 
 	'FLASH_IS_OFF'    => 'La balise [flash] est <em>désactivée</em>',
 	'FLASH_IS_ON'     => 'La balise [flash] est <em>activée</em>',
@@ -135,7 +135,7 @@ $lang = array_merge($lang, [
 	'FONT_SMALL'      => 'Petite',
 	'FONT_TINY'       => 'Minuscule',
 
-	'GENERAL_UPLOAD_ERROR' => 'Impossible d’envoyer la pièce jointe sur %s.',
+	'GENERAL_UPLOAD_ERROR' => 'Impossible d’importer la pièce jointe sur %s.',
 
 	'IMAGES_ARE_OFF'   => 'La balise [img] est <em>désactivée</em>',
 	'IMAGES_ARE_ON'    => 'La balise [img] est <em>activée</em>',
@@ -179,7 +179,7 @@ $lang = array_merge($lang, [
 	'MORE_SMILIES'    => 'Plus d’émoticônes',
 
 	'NOTIFY_REPLY'           => 'Recevoir une notification lorsqu’une réponse est publiée',
-	'NOT_UPLOADED'           => 'L’envoi du fichier a échoué.',
+	'NOT_UPLOADED'           => 'L’import du fichier a échoué.',
 	'NO_DELETE_POLL_OPTIONS' => 'Vous ne pouvez pas supprimer les options d’un sondage qui existent déjà.',
 	'NO_PM_ICON'             => 'Aucune',
 	'NO_POLL_TITLE'          => 'Vous devez saisir le titre du sondage.',
@@ -187,8 +187,8 @@ $lang = array_merge($lang, [
 	'NO_POST_MODE'           => 'Aucun mode de message n’a été sélectionné.',
 	'NO_TEMP_DIR'            => 'Le répertoire temporaire est introuvable ou est en lecture seule.',
 
-	'PARTIAL_UPLOAD'           => 'L’envoi du fichier est incomplet.',
-	'PHP_UPLOAD_STOPPED'       => 'Une extension PHP a interrompu l’envoi du fichier.',
+	'PARTIAL_UPLOAD'           => 'L’import du fichier est incomplet.',
+	'PHP_UPLOAD_STOPPED'       => 'Une extension PHP a interrompu l’import du fichier.',
 	'PHP_SIZE_NA'              => 'La pièce jointe est trop volumineuse.<br>Impossible de déterminer la taille maximale autorisée définie dans « php.ini ».',
 	'PHP_SIZE_OVERRUN'         => 'La pièce jointe est trop volumineuse, la taille maximale autorisée est de %1$d %2$s.<br>Cette valeur est définie dans « php.ini » et ne peut pas être modifiée.',
 	'PLACE_INLINE'             => 'Insérer dans la ligne',
@@ -211,7 +211,7 @@ $lang = array_merge($lang, [
 	'POLL_TITLE_COMP_TOO_LONG' => 'Le titre du sondage est trop long. Notez que les BBCodes et les émoticônes ne sont pas pris en charge dans les titres.',
 	'POLL_VOTE_CHANGE'         => 'Votes multiples',
 	'POLL_VOTE_CHANGE_EXPLAIN' => 'Si cette option est activée, les utilisateurs pourront modifier leur vote.',
-	'POSTED_ATTACHMENTS'       => 'Pièces jointes envoyées',
+	'POSTED_ATTACHMENTS'       => 'Pièces jointes importées',
 	'POST_APPROVAL_NOTIFY'     => 'Vous recevrez une notification lorsque votre message sera approuvé.',
 	'POST_CONFIRMATION'        => 'Confirmation du message',
 	'POST_CONFIRM_EXPLAIN'     => 'Vous devez saisir un code de confirmation pour nous protéger contre les soumissions automatisées et abusives. Le code est affiché dans l’image ci-dessous. Si vous n’arrivez pas à le lire, contactez un %sadministrateur du forum%s.',
@@ -236,7 +236,7 @@ $lang = array_merge($lang, [
 	],
 	'QUOTE_NO_NESTING' => 'Vous ne pouvez pas imbriquer de citations.',
 
-	'REMOTE_UPLOAD_TIMEOUT'      => 'L’envoi du fichier a échoué : le délai d’attente de la requête a expiré.',
+	'REMOTE_UPLOAD_TIMEOUT'      => 'L’import du fichier a échoué : le délai d’attente de la requête a expiré.',
 	'SAVE'                       => 'Enregistrer',
 	'SAVE_DATE'                  => 'Enregistré le',
 	'SAVE_DRAFT'                 => 'Enregistrer comme brouillon',
@@ -255,7 +255,7 @@ $lang = array_merge($lang, [
 		2 => 'Vous devez saisir au moins %1$d caractères.',
 	],
 	'TOO_FEW_POLL_OPTIONS' => 'Vous devez saisir au moins deux options pour créer un sondage.',
-	'TOO_MANY_ATTACHMENTS' => 'Impossible d’envoyer une nouvelle pièce jointe. La taille maximale de l’espace de stockage est limitée à %d.',
+	'TOO_MANY_ATTACHMENTS' => 'Impossible d’importer une nouvelle pièce jointe. La taille maximale de l’espace de stockage est limitée à %d.',
 	'TOO_MANY_CHARS'       => 'Votre message contient trop de caractères.',
 	'TOO_MANY_CHARS_LIMIT' => [
 		1 => 'Le nombre maximal de caractères autorisés est de %1$d.',
