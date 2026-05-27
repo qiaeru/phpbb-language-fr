@@ -1,30 +1,30 @@
-# French Language Pack for [phpBB](https://www.phpbb.com/) 3.3
+# Traduction française pour [phpBB](https://www.phpbb.com/) 3.3
 
 [![Validation](https://github.com/qiaeru/phpbb-language-fr/actions/workflows/validation.yml/badge.svg)](https://github.com/qiaeru/phpbb-language-fr/actions/workflows/validation.yml)
 
-French language pack to localise the phpBB 3.3 forum software.
+Traduction française pour localiser le logiciel de forum phpBB 3.3.
 
-## Information
+## Informations
 
-Includes the following French locales compatible with:
+Inclut les locales françaises compatibles avec :
 
 - [phpBB 3.3.16](https://github.com/phpbb/phpbb/releases/tag/release-3.3.16)
-  - Bundled extension:
+  - Extension intégrée :
     - [VigLink](https://github.com/phpbb-extensions/viglink)
 
 ## Installation
 
-1. Download the latest archive from [the releases page](https://github.com/qiaeru/phpbb-language-fr/releases) or from [phpBB.com](https://www.phpbb.com/customise/db/translation/french/).
-2. Extract the archive and upload the `language/`, `styles/` and `ext/` directories into your phpBB root, merging with the existing folders.
-3. In the Administration Control Panel, go to **System**, **Language packs** and install **Français [ Français ]**.
+1. Téléchargez la dernière archive depuis [la page des versions](https://github.com/qiaeru/phpbb-language-fr/releases) ou depuis [phpBB.com](https://www.phpbb.com/customise/db/translation/french/).
+2. Extrayez l'archive et envoyez les répertoires `language/`, `styles/` et `ext/` à la racine de votre phpBB, en les fusionnant avec les dossiers existants.
+3. Dans le panneau de contrôle d'administration, allez dans **Système**, **Langues**, puis installez **Français [ Français ]**.
 
-## Support the project
+## Soutenir le projet
 
-If this language pack is useful to you, you can support its maintenance:
+Si cette traduction vous est utile, vous pouvez soutenir sa maintenance :
 
 - [GitHub Sponsors](https://github.com/sponsors/qiaeru)
 - [Ko-fi](https://ko-fi.com/qiaeru)
 
-## License
+## Licence
 
-Released under the GNU General Public License 2.0. Please see [the license terms](https://github.com/qiaeru/phpbb-language-fr/blob/main/LICENSE).
+Distribué sous licence GNU General Public License 2.0. Consultez [les termes de la licence](https://github.com/qiaeru/phpbb-language-fr/blob/main/LICENSE).
