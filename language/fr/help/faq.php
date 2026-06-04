@@ -25,7 +25,7 @@ if (empty($lang) || !is_array($lang))
 }
 
 $lang = array_merge($lang, [
-	'HELP_FAQ_ATTACHMENTS_ALLOWED_ANSWER'   => 'Chaque administrateur peut autoriser ou interdire certains types de pièces jointes. Si vous n’êtes pas certain de savoir ce qui est autorisé ou non, nous vous invitons à contacter un administrateur du forum.',
+	'HELP_FAQ_ATTACHMENTS_ALLOWED_ANSWER'   => 'Chaque administrateur peut autoriser ou interdire certains types de pièces jointes. Si vous n’êtes pas certain de ce qui est autorisé, contactez un administrateur du forum.',
 	'HELP_FAQ_ATTACHMENTS_ALLOWED_QUESTION' => 'Quelles pièces jointes sont autorisées sur ce forum ?',
 	'HELP_FAQ_ATTACHMENTS_OWN_ANSWER'       => 'Pour retrouver la liste des pièces jointes que vous avez importées, rendez-vous dans le panneau de contrôle utilisateur et suivez les liens vers la section des pièces jointes.',
 	'HELP_FAQ_ATTACHMENTS_OWN_QUESTION'     => 'Comment puis-je retrouver toutes mes pièces jointes ?',
@@ -78,10 +78,10 @@ $lang = array_merge($lang, [
 	'HELP_FAQ_GROUPS_ADMINISTRATORS_ANSWER'    => 'Les administrateurs sont les membres ayant le plus haut niveau de contrôle sur le forum. Ils peuvent gérer toutes les opérations : permissions, bannissements, création de groupes ou de modérateurs, etc. Ils peuvent également être habilités à modérer l’ensemble des forums. Tout cela dépend de la configuration définie par le fondateur du forum.',
 	'HELP_FAQ_GROUPS_ADMINISTRATORS_QUESTION'  => 'Que sont les administrateurs ?',
 	'HELP_FAQ_GROUPS_COLORS_ANSWER'            => 'Les administrateurs du forum peuvent attribuer une couleur aux membres d’un groupe pour faciliter leur identification.',
-	'HELP_FAQ_GROUPS_COLORS_QUESTION'          => 'Pourquoi certains groupes d’utilisateurs apparaissent dans une couleur différente ?',
+	'HELP_FAQ_GROUPS_COLORS_QUESTION'          => 'Pourquoi certains groupes d’utilisateurs apparaissent-ils dans une couleur différente ?',
 	'HELP_FAQ_GROUPS_DEFAULT_ANSWER'           => 'Si vous appartenez à plusieurs groupes d’utilisateurs, votre groupe par défaut détermine la couleur et le rang qui vous sont attribués par défaut. Les administrateurs du forum peuvent vous autoriser à modifier votre groupe par défaut depuis votre panneau de contrôle utilisateur.',
 	'HELP_FAQ_GROUPS_DEFAULT_QUESTION'         => 'Qu’est-ce qu’un « groupe d’utilisateurs par défaut » ?',
-	'HELP_FAQ_GROUPS_MODERATORS_ANSWER'        => 'Les modérateurs sont des utilisateurs (ou des groupes d’utilisateurs) qui surveillent régulièrement les forums. Ils peuvent modifier, supprimer, verrouiller, déverrouiller, déplacer, fusionner et diviser les sujets dans les forums qu’ils modèrent. Leur rôle est généralement de faire respecter les règles du forum.',
+	'HELP_FAQ_GROUPS_MODERATORS_ANSWER'        => 'Les modérateurs sont des utilisateurs (ou des groupes d’utilisateurs) qui surveillent régulièrement les forums. Ils peuvent modifier, supprimer, verrouiller, déverrouiller, déplacer, fusionner et scinder les sujets dans les forums qu’ils modèrent. Leur rôle est généralement de faire respecter les règles du forum.',
 	'HELP_FAQ_GROUPS_MODERATORS_QUESTION'      => 'Que sont les modérateurs ?',
 	'HELP_FAQ_GROUPS_TEAM_ANSWER'              => 'Cette page liste les membres de l’équipe du forum (administrateurs et modérateurs) avec quelques informations complémentaires, comme les forums qu’ils modèrent.',
 	'HELP_FAQ_GROUPS_TEAM_QUESTION'            => 'Qu’est-ce que le lien « L’équipe » ?',
@@ -95,7 +95,7 @@ $lang = array_merge($lang, [
 	'HELP_FAQ_ISSUES_ADMIN_ANSWER'         => 'Tous les utilisateurs du forum peuvent utiliser le formulaire disponible sur le lien « Nous contacter » si cette fonctionnalité a été activée par les administrateurs du forum.<br>Les membres du forum peuvent également utiliser le lien « L’équipe ».',
 	'HELP_FAQ_ISSUES_ADMIN_QUESTION'       => 'Comment puis-je contacter un administrateur du forum ?',
 	'HELP_FAQ_ISSUES_FEATURE_ANSWER'       => 'Ce logiciel est développé et publié sous licence par phpBB Limited. Pour proposer une nouvelle fonctionnalité, rendez-vous sur <a href="https://www.phpbb.com/ideas/">notre centre d’idées</a> (en anglais) ; vous pouvez y voter pour les idées d’autres utilisateurs et soumettre les vôtres.',
-	'HELP_FAQ_ISSUES_FEATURE_QUESTION'     => 'Pourquoi la fonctionnalité X n’est pas disponible ?',
+	'HELP_FAQ_ISSUES_FEATURE_QUESTION'     => 'Pourquoi la fonctionnalité X n’est-elle pas disponible ?',
 	'HELP_FAQ_ISSUES_LEGAL_ANSWER'         => 'Les administrateurs listés sur la page « L’équipe » sont les premiers interlocuteurs pour ces questions. Sans réponse de leur part, contactez le propriétaire du domaine (informations disponibles via une <a href="https://www.google.fr/search?q=whois">requête WHOIS</a>), ou, s’il s’agit d’un service gratuit (Yahoo, Free, etc.), le service de gestion des abus. phpBB Limited n’a aucune juridiction sur l’utilisation de ce forum et ne peut être tenu responsable de la manière dont il est utilisé. Ne contactez pas phpBB Limited pour des questions légales (commentaires insultants, diffamatoires, etc.) sans rapport direct avec le site phpBB.com ou le logiciel phpBB lui-même. Les e-mails à propos d’une utilisation tierce de ce logiciel obtiennent généralement une réponse laconique, ou pas de réponse.',
 	'HELP_FAQ_ISSUES_LEGAL_QUESTION'       => 'Qui dois-je contacter à propos de problèmes d’abus ou d’ordres légaux liés à ce forum ?',
 	'HELP_FAQ_ISSUES_WHOIS_PHPBB_ANSWER'   => 'Ce logiciel (dans sa forme non modifiée) est produit et distribué par <a href="https://www.phpbb.com/">phpBB Limited</a>, son propriétaire légitime. Il est publié sous la « Licence Publique Générale GNU version 2 (GPL-2.0) » et peut être distribué gratuitement. Pour plus d’informations, consultez la rubrique « <a href="https://www.phpbb.com/about/">À propos de phpBB</a> » (en anglais).',
@@ -161,7 +161,7 @@ $lang = array_merge($lang, [
 	'HELP_FAQ_SEARCH_MEMBERS_ANSWER'     => 'Rendez-vous sur la liste des membres puis cliquez sur le lien « Trouver un membre ».',
 	'HELP_FAQ_SEARCH_MEMBERS_QUESTION'   => 'Comment puis-je rechercher des membres ?',
 	'HELP_FAQ_SEARCH_NO_RESULT_ANSWER'   => 'Votre recherche est probablement trop vague ou inclut trop de termes communs non indexés par phpBB. Essayez d’être plus précis et d’utiliser les filtres de la recherche avancée.',
-	'HELP_FAQ_SEARCH_NO_RESULT_QUESTION' => 'Pourquoi ma recherche ne renvoie aucun résultat ?',
+	'HELP_FAQ_SEARCH_NO_RESULT_QUESTION' => 'Pourquoi ma recherche ne renvoie-t-elle aucun résultat ?',
 	'HELP_FAQ_SEARCH_OWN_ANSWER'         => 'Vous pouvez afficher vos messages via le lien « Afficher vos messages » du panneau de contrôle utilisateur, le lien « Rechercher les messages de l’utilisateur » sur votre profil, ou le menu « Raccourcis » en haut du forum. Pour rechercher vos propres sujets, utilisez la recherche avancée en renseignant les options appropriées.',
 	'HELP_FAQ_SEARCH_OWN_QUESTION'       => 'Comment puis-je retrouver mes propres messages et sujets ?',
 

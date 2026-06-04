@@ -10,7 +10,7 @@ Vous pouvez retrouver ce sujet en cliquant sur ce lien :
 
 {U_TOPIC}
 
-Un message de la part de {FROM_USERNAME} peut également être inclus ci-dessous. Notez que ce message n’a pas été consulté ou approuvé par les administrateurs du forum. Pour vous plaindre à propos de la réception de cet e-mail, contactez un administrateur du forum sur {BOARD_CONTACT}. Citez les en-têtes du message lorsque vous contactez cette adresse.
+Un message de la part de {FROM_USERNAME} peut également être inclus ci-dessous. Notez que ce message n’a été ni consulté ni approuvé par les administrateurs du forum. Si vous souhaitez vous plaindre d’avoir reçu cet e-mail, contactez un administrateur du forum à l’adresse {BOARD_CONTACT}. Citez les en-têtes du message lorsque vous contactez cette adresse.
 
 ----------
 

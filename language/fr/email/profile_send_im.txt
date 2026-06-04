@@ -1,11 +1,11 @@
 
 Bonjour {TO_USERNAME},
 
-Ce qui suit est un message qui vous a été envoyé par {FROM_USERNAME} depuis votre compte sur « {SITENAME} ». Si ce message est un pourriel ou contient des propos déplacés, contactez un administrateur du forum à l’adresse suivante :
+{FROM_USERNAME} vous a envoyé le message suivant depuis votre compte sur « {SITENAME} ». Si ce message est un courrier indésirable ou contient des propos déplacés, contactez un administrateur du forum à l’adresse suivante :
 
 {BOARD_CONTACT}
 
-Incluez cet e-mail en entier. Notez que l’adresse de l’expéditeur a été définie sur le compte IM des forums.
+Incluez cet e-mail en entier. Notez que l’adresse de l’expéditeur correspond au compte IM du forum.
 
 Voici le message :
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

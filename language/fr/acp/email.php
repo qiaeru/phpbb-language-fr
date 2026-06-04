@@ -49,7 +49,7 @@ $lang = array_merge($lang, [
 
 	'LOG_SESSION' => 'Enregistrer la session d’envoi d’e-mail dans l’historique des erreurs critiques',
 
-	'SEND_IMMEDIATELY'      => 'Envoyer en temps réel',
+	'SEND_IMMEDIATELY'      => 'Envoyer immédiatement',
 	'SEND_TO_GROUP'         => 'Envoyer à un groupe d’utilisateurs',
 	'SEND_TO_USERS'         => 'Envoyer à des utilisateurs',
 	'SEND_TO_USERS_EXPLAIN' => 'Les noms d’utilisateurs indiqués ici remplacent le groupe sélectionné dans le menu ci-dessus. Saisissez chaque nom d’utilisateur sur une nouvelle ligne.',

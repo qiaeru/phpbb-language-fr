@@ -94,7 +94,7 @@ $lang = array_merge($lang, [
 	'DISPLAY_OPTIONS'           => 'Options d’affichage',
 
 	'EMPTY_REPORT'                 => 'Vous devez renseigner une description lorsque vous sélectionnez cette raison.',
-	'EMPTY_TOPICS_REMOVED_WARNING' => 'Notez qu’un ou plusieurs sujets ont été supprimés de la base de données car ils étaient ou devenaient vides.',
+	'EMPTY_TOPICS_REMOVED_WARNING' => 'Notez qu’un ou plusieurs sujets ont été supprimés de la base de données parce qu’ils étaient vides ou le sont devenus.',
 
 	'FEEDBACK'            => 'Remarque',
 	'FORK'                => 'Copier',
@@ -118,7 +118,7 @@ $lang = array_merge($lang, [
 	'LATEST_REPORTED'     => 'Les 5 derniers signalements',
 	'LATEST_REPORTED_PMS' => 'Les 5 derniers signalements de MP',
 	'LATEST_UNAPPROVED'   => 'Les 5 derniers messages en attente d’approbation',
-	'LATEST_WARNING_TIME' => 'Le dernier avertissement publié',
+	'LATEST_WARNING_TIME' => 'Dernier avertissement émis',
 	'LATEST_WARNINGS'     => 'Les 5 derniers avertissements',
 	'LEAVE_SHADOW'        => 'Conserver sur place une redirection vers le sujet',
 	'LIST_REPORTS'        => [
@@ -149,7 +149,7 @@ $lang = array_merge($lang, [
 	'MCP_BAN'           => 'Bannissement',
 	'MCP_BAN_EMAILS'    => 'Bannir des adresses e-mail',
 	'MCP_BAN_IPS'       => 'Bannir des adresses IP',
-	'MCP_BAN_USERNAMES' => 'Bannir des noms d’utilisateurs',
+	'MCP_BAN_USERNAMES' => 'Bannir des noms d’utilisateur',
 
 	'MCP_LOGS'            => 'Historique de modération',
 	'MCP_LOGS_FRONT'      => 'Page principale',
@@ -259,7 +259,7 @@ $lang = array_merge($lang, [
 	'ONLY_TOPIC'  => 'Le sujet « %s » uniquement',
 	'OTHER_USERS' => 'Autres utilisateurs ayant publié avec cette adresse IP',
 
-	'QUICKMOD_ACTION_NOT_ALLOWED' => '%s ne peut pas être une action rapide de modération',
+	'QUICKMOD_ACTION_NOT_ALLOWED' => '« %s » n’est pas autorisé comme action rapide de modération.',
 
 	'PM_REPORT_CLOSED_SUCCESS'   => 'Le signalement de MP a été clôturé.',
 	'PM_REPORT_DELETED_SUCCESS'  => 'Le signalement de MP a été supprimé.',
@@ -311,7 +311,7 @@ $lang = array_merge($lang, [
 	'REPORT_MESSAGE'         => 'Signaler le message',
 	'REPORT_MESSAGE_EXPLAIN' => 'Utilisez ce formulaire pour signaler ce message privé. Seuls les messages ne respectant pas les règles du forum doivent être signalés. Notez que lorsqu’un message privé est signalé, son contenu devient visible par tous les modérateurs.',
 	'REPORT_NOTIFY'          => 'M’envoyer une notification',
-	'REPORT_NOTIFY_EXPLAIN'  => 'Vous enverra une notification lorsque votre signalement sera traité.',
+	'REPORT_NOTIFY_EXPLAIN'  => 'Vous recevrez une notification lorsque votre signalement sera traité.',
 	'REPORT_POST_EXPLAIN'    => 'Utilisez ce formulaire pour signaler ce message aux modérateurs et aux administrateurs du forum. Seuls les messages ne respectant pas les règles du forum doivent être signalés.',
 	'REPORT_REASON'          => 'Raison du signalement',
 	'REPORT_TIME'            => 'Date du signalement',

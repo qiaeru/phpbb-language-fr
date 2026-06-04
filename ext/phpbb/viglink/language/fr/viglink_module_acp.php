@@ -38,9 +38,9 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, [
 	'ACP_VIGLINK_SETTINGS'         => 'Paramètres de VigLink',
-	'ACP_VIGLINK_SETTINGS_EXPLAIN' => 'VigLink est un service tiers qui permet de monétiser sereinement les liens publiés par les utilisateurs de votre forum sans impacter leur expérience. Lorsqu’un utilisateur clique sur un lien menant à un produit ou service et achète quelque chose chez le marchand partenaire, ce dernier verse à VigLink une commission, dont une partie est reversée au projet phpBB. En activant VigLink et en laissant les commissions au projet phpBB, vous aidez considérablement notre organisation de logiciels libres et gratuits en assurant sa stabilité financière.',
+	'ACP_VIGLINK_SETTINGS_EXPLAIN' => 'VigLink est un service tiers qui monétise discrètement les liens publiés par les utilisateurs de votre forum, sans nuire à leur expérience. Lorsqu’un utilisateur clique sur un lien menant à un produit ou service et achète quelque chose chez le marchand partenaire, ce dernier verse à VigLink une commission, dont une partie est reversée au projet phpBB. En activant VigLink et en laissant les commissions au projet phpBB, vous aidez considérablement notre organisation de logiciels libres et gratuits en assurant sa stabilité financière.',
 	'ACP_VIGLINK_SETTINGS_CHANGE'  => 'Vous pouvez modifier ces paramètres à tout moment depuis le panneau « <a href="%1$s">Paramètres de VigLink</a> ».',
-	'ACP_VIGLINK_SUPPORT_EXPLAIN'  => 'Vous ne serez plus redirigé vers cette page une fois vos préférences ci-dessous renseignées et le bouton « Envoyer » cliqué.',
+	'ACP_VIGLINK_SUPPORT_EXPLAIN'  => 'Vous ne serez plus redirigé vers cette page lorsque vous aurez renseigné les préférences ci-dessous et cliqué sur le bouton « Envoyer ».',
 	'ACP_VIGLINK_ENABLE'           => 'Activer VigLink',
 	'ACP_VIGLINK_ENABLE_EXPLAIN'   => 'Active l’utilisation des services VigLink.',
 	'ACP_VIGLINK_EARNINGS'         => 'Récupérer mes parts de commissions (facultatif)',

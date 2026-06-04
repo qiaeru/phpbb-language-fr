@@ -77,7 +77,7 @@ $lang = array_merge($lang, [
 		1 => 'Vous pouvez sélectionner %d option',
 		2 => 'Vous pouvez sélectionner %d options',
 	],
-	'MISSING_INLINE_ATTACHMENT' => 'La pièce jointe « %s » n’est plus disponible',
+	'MISSING_INLINE_ATTACHMENT' => 'La pièce jointe « %s » n’est plus disponible.',
 	'MOVE_TOPIC'                => 'Déplacer le sujet',
 
 	'NO_ATTACHMENT_SELECTED' => 'Vous n’avez sélectionné aucune pièce jointe à télécharger ou consulter.',

@@ -111,7 +111,7 @@ $lang = array_merge($lang, [
 	'GROUP_USERS_ADDED'   => 'Les nouveaux utilisateurs ont été ajoutés au groupe.',
 	'GROUP_USERS_EXIST'   => 'Les utilisateurs sont déjà membres de ce groupe d’utilisateurs.',
 	'GROUP_USERS_REMOVE'  => 'Les utilisateurs ont été retirés de ce groupe et déplacés vers le groupe par défaut.',
-	'GROUP_USERS_INVALID' => 'Aucun utilisateur n’a été ajouté au groupe d’utilisateurs étant donné que les noms d’utilisateurs suivants n’existent pas : %s',
+	'GROUP_USERS_INVALID' => 'Aucun utilisateur n’a été ajouté au groupe d’utilisateurs, car les noms d’utilisateur suivants n’existent pas : %s',
 
 	'LEGEND_EXPLAIN'                => 'Cette liste correspond aux groupes d’utilisateurs qui sont affichés dans la légende des groupes :',
 	'LEGEND_SETTINGS'               => 'Paramètres de la légende',
@@ -129,7 +129,7 @@ $lang = array_merge($lang, [
 	'NO_PERMISSIONS'    => 'Ne copier aucune permission',
 	'NO_USERS'          => 'Aucun utilisateur n’a été indiqué.',
 	'NO_USERS_ADDED'    => 'Aucun utilisateur n’a été ajouté au groupe d’utilisateurs.',
-	'NO_VALID_USERS'    => 'Aucun utilisateur ne peut effectuer cette opération.',
+	'NO_VALID_USERS'    => 'Vous n’avez indiqué aucun utilisateur éligible à cette action.',
 
 	'PENDING_MEMBERS' => 'En attente',
 

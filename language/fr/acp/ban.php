@@ -61,7 +61,7 @@ $lang = array_merge($lang, [
 
 	'IP_BAN'                 => 'Bannir des adresses IP',
 	'IP_BAN_EXCLUDE_EXPLAIN' => 'Si cette option est activée, les adresses IP saisies sont exclues de tous les bannissements actuels.',
-	'IP_BAN_EXPLAIN'         => 'Vous pouvez bannir plusieurs adresses IP ou noms d’hôtes en les saisissant sur une nouvelle ligne. Pour spécifier une plage d’adresses IP, séparez le début et la fin par un tiret « - » et utilisez un astérisque « * » comme métacaractère passe-partout.',
+	'IP_BAN_EXPLAIN'         => 'Vous pouvez bannir plusieurs adresses IP ou noms d’hôtes en les saisissant sur une nouvelle ligne. Pour indiquer une plage d’adresses IP, séparez le début et la fin par un tiret « - » et utilisez un astérisque « * » comme métacaractère passe-partout.',
 	'IP_HOSTNAME'            => 'Adresses IP ou noms d’hôtes',
 	'IP_NO_BANNED'           => 'Aucune adresse IP n’a été bannie.',
 	'IP_UNBAN'               => 'Annuler le bannissement des adresses IP',

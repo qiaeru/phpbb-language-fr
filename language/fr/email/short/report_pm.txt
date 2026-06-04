@@ -2,7 +2,7 @@ Subject: Message privé signalé : « {SUBJECT} »
 
 Bonjour {USERNAME},
 
-Un message privé intitulé « {SUBJECT} » publié par « {AUTHOR_NAME} » sur « {SITENAME} » a été signalé.
+Un message privé intitulé « {SUBJECT} » envoyé par « {AUTHOR_NAME} » sur « {SITENAME} » a été signalé.
 
 Pour consulter le signalement, cliquez sur le lien suivant :
 {U_VIEW_REPORT}

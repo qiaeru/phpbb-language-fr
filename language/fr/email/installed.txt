@@ -4,7 +4,7 @@ Félicitations,
 
 Vous avez correctement installé phpBB sur votre serveur.
 
-Cet e-mail contient des informations importantes concernant votre installation et devrait être conservé précieusement. Votre mot de passe est stocké de manière sécurisée et ne peut pas être récupéré. En cas d’oubli, réinitialisez-le à l’aide de l’adresse e-mail associée à votre compte.
+Cet e-mail contient des informations importantes sur votre installation, conservez-le. Votre mot de passe est stocké de façon sécurisée et ne peut pas être récupéré. Si vous l’oubliez, réinitialisez-le à l’aide de l’adresse e-mail associée à votre compte.
 
 ----------------------------
 Nom d’utilisateur : {USERNAME}
@@ -12,7 +12,7 @@ Nom d’utilisateur : {USERNAME}
 Lien du forum : {U_BOARD}
 ----------------------------
 
-Des informations utiles concernant le logiciel phpBB peuvent être trouvées dans le répertoire « docs/ » de votre installation et sur notre page d’assistance : https://www.phpbb.com/support/ (en anglais)
+Vous trouverez des informations utiles sur le logiciel phpBB dans le répertoire « docs/ » de votre installation et sur notre page d’assistance : https://www.phpbb.com/support/ (en anglais)
 
 Pour garantir la sécurité de votre forum, nous vous recommandons fortement de le maintenir à jour avec la dernière version stable du logiciel. Pour votre confort, une liste de diffusion est disponible à la page référencée ci-dessus.
 

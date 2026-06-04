@@ -52,7 +52,7 @@ $lang = array_merge($lang, [
 	'INHERITING_FROM'        => 'Hérite de',
 	'INSTALL_STYLE'          => 'Installer un style',
 	'INSTALL_STYLES'         => 'Installer des styles',
-	'INSTALL_STYLES_EXPLAIN' => 'Depuis cette page, vous pouvez installer de nouveaux styles.<br>Si le style envoyé n’apparaît pas dans la liste, vérifiez qu’il n’est pas déjà installé. Sinon, essayez de l’envoyer à nouveau.',
+	'INSTALL_STYLES_EXPLAIN' => 'Depuis cette page, vous pouvez installer de nouveaux styles.<br>Si le style importé n’apparaît pas dans la liste, vérifiez qu’il n’est pas déjà installé. Sinon, essayez de l’importer à nouveau.',
 	'INVALID_STYLE_ID'       => 'L’identifiant du style est invalide.',
 
 	'NO_MATCHING_STYLES_FOUND' => 'Aucun style ne correspond à votre requête.',
@@ -81,7 +81,7 @@ $lang = array_merge($lang, [
 	'STYLE_UNINSTALL_DEPENDENT'                 => 'Le style « %s » ne peut pas être désinstallé car un ou plusieurs styles sont dépendants de ce dernier.',
 	'STYLE_UNINSTALLED'                         => 'Le style « %s » a été désinstallé.',
 	'STYLE_PHPBB_VERSION'                       => 'Version de phpBB',
-	'STYLE_USED_BY'                             => 'Utilisé par (incluant les robots)',
+	'STYLE_USED_BY'                             => 'Utilisé par (robots compris)',
 	'STYLE_VERSION'                             => 'Version du style',
 
 	'UNINSTALL_PROSILVER' => 'Vous ne pouvez pas désinstaller le style « prosilver ».',

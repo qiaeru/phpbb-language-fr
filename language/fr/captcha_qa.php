@@ -38,7 +38,7 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, [
 	'CAPTCHA_QA'               => 'Questions et réponses',
-	'CONFIRM_QUESTION_EXPLAIN' => 'Cette question permet de se protéger contre le spam généré par les robots.',
+	'CONFIRM_QUESTION_EXPLAIN' => 'Cette question protège le forum contre les envois automatiques de formulaires par des robots spammeurs.',
 	'CONFIRM_QUESTION_WRONG'   => 'Vous n’avez pas répondu correctement à la question.',
 	'CONFIRM_QUESTION_MISSING' => 'Impossible de récupérer les questions du CAPTCHA. Contactez un administrateur du forum.',
 
@@ -49,7 +49,7 @@ $lang = array_merge($lang, [
 	'ANSWER'                  => 'Réponse',
 	'EDIT_QUESTION'           => 'Modifier la question',
 	'QUESTIONS'               => 'Questions',
-	'QUESTIONS_EXPLAIN'       => 'Lors de chaque soumission de formulaire où l’extension Questions et Réponses est active, les utilisateurs sont invités à répondre à l’une des questions définies ici. Pour utiliser cette extension, au moins une question doit être rédigée dans la langue par défaut. Adaptez les questions à votre audience : elle doit pouvoir y répondre plus facilement que des robots capables de chercher la réponse en ligne. Une seule question bien formulée suffit. Si votre forum reçoit du spam, remplacez la question par une plus complexe. Activez la vérification stricte si l’une des réponses contient des majuscules, des minuscules, de la ponctuation ou des espaces.',
+	'QUESTIONS_EXPLAIN'       => 'Lors de chaque soumission de formulaire où l’extension Questions et réponses est active, les utilisateurs sont invités à répondre à l’une des questions définies ici. Pour utiliser cette extension, au moins une question doit être rédigée dans la langue par défaut. Adaptez les questions à votre audience : elle doit pouvoir y répondre plus facilement que des robots capables de chercher la réponse en ligne. Une seule question bien formulée suffit. Si votre forum reçoit du spam, remplacez la question par une plus complexe. Activez la vérification stricte si l’une des réponses contient des majuscules, des minuscules, de la ponctuation ou des espaces.',
 	'QUESTION_DELETED'        => 'Question supprimée',
 	'QUESTION_LANG'           => 'Langue',
 	'QUESTION_LANG_EXPLAIN'   => 'Langue dans laquelle cette question et ses réponses sont rédigées.',

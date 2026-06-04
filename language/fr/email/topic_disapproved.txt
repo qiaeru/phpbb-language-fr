@@ -1,10 +1,10 @@
-Subject: Sujet désapprouvé : « {TOPIC_TITLE} »
+Subject: Votre sujet a été refusé : « {TOPIC_TITLE} »
 
 Bonjour {USERNAME},
 
-Votre sujet « {TOPIC_TITLE} » sur « {SITENAME} » a été désapprouvé par un modérateur ou un administrateur.
+Votre sujet « {TOPIC_TITLE} » sur « {SITENAME} » a été refusé par un modérateur ou un administrateur.
 
-La raison suivante a été prononcée concernant la désapprobation :
+Le motif suivant a été indiqué pour ce refus :
 
 {REASON}
 

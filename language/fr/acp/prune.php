@@ -38,17 +38,17 @@ if (empty($lang) || !is_array($lang))
 
 // User pruning
 $lang = array_merge($lang, [
-	'ACP_PRUNE_USERS_EXPLAIN' => 'Depuis cette page, vous pouvez supprimer et désactiver des utilisateurs de votre forum. Les comptes peuvent être filtrés de différentes manières ; par le nombre de messages, par l’activité la plus récente, etc. Des critères peuvent être combinés pour restreindre les comptes qui sont affectés. Par exemple, vous pouvez délester les utilisateurs qui ont publié moins de 10 messages et qui sont inactifs depuis le 01/01/2002, ou encore utiliser un astérisque « * » comme métacaractère passe-partout dans les champs de texte. De même, vous pouvez ignorer complètement la sélection des critères en saisissant directement une liste d’utilisateurs dans le champ de texte, en prenant le soin de séparer chaque nom d’utilisateurs sur une nouvelle ligne. Soyez prudent lorsque vous utilisez cette fonctionnalité ! Une fois qu’un utilisateur a été supprimé, il ne peut pas être restauré.',
+	'ACP_PRUNE_USERS_EXPLAIN' => 'Depuis cette page, vous pouvez supprimer et désactiver des utilisateurs de votre forum. Les comptes peuvent être filtrés de différentes manières ; par le nombre de messages, par l’activité la plus récente, etc. Des critères peuvent être combinés pour restreindre les comptes qui sont affectés. Par exemple, vous pouvez délester les utilisateurs qui ont publié moins de 10 messages et qui sont inactifs depuis le 2002-01-01, ou encore utiliser un astérisque « * » comme métacaractère dans les champs de texte. De même, vous pouvez ignorer complètement la sélection des critères en saisissant directement une liste d’utilisateurs dans le champ de texte, en prenant le soin de séparer chaque nom d’utilisateurs sur une nouvelle ligne. Soyez prudent lorsque vous utilisez cette fonctionnalité ! Une fois qu’un utilisateur a été supprimé, il ne peut pas être restauré.',
 
 	'CRITERIA' => 'Critère',
 
 	'DEACTIVATE_DELETE'         => 'Désactiver ou supprimer',
-	'DEACTIVATE_DELETE_EXPLAIN' => 'Choisissez pour désactiver ou supprimer entièrement les utilisateurs. Notez que les utilisateurs supprimés ne peuvent pas être restaurés !',
+	'DEACTIVATE_DELETE_EXPLAIN' => 'Choisissez si vous voulez désactiver les utilisateurs ou les supprimer entièrement. Notez que les utilisateurs supprimés ne peuvent pas être restaurés !',
 	'DELETE_USERS'              => 'Supprimer',
 	'DELETE_USER_POSTS'         => 'Supprimer les messages des utilisateurs délestés',
 	'DELETE_USER_POSTS_EXPLAIN' => 'Supprime les messages des utilisateurs délestés. Sans effet sur les utilisateurs désactivés.',
 
-	'JOINED_EXPLAIN' => 'Saisissez une date au format « AAAA-MM-JJ ». Vous pouvez utiliser les deux champs pour sélectionner un intervalle, ou laisser un champ vide pour spécifier une période de temps ouverte.',
+	'JOINED_EXPLAIN' => 'Saisissez une date au format « AAAA-MM-JJ ». Vous pouvez utiliser les deux champs pour sélectionner un intervalle, ou laisser un champ vide pour garder une plage de dates ouverte.',
 
 	'LAST_ACTIVE_EXPLAIN' => 'Saisissez une date au format « AAAA-MM-JJ ». Saisissez « 0000-00-00 » pour délester les utilisateurs qui ne se sont jamais connectés, les conditions « Avant » et « Après » seront ignorées.',
 

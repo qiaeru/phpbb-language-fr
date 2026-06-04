@@ -153,7 +153,7 @@ $lang = array_merge($lang, [
 
 	'ACL_M_MOVE'  => 'Peut déplacer les sujets',
 	'ACL_M_LOCK'  => 'Peut verrouiller les sujets',
-	'ACL_M_SPLIT' => 'Peut diviser les sujets',
+	'ACL_M_SPLIT' => 'Peut scinder les sujets',
 	'ACL_M_MERGE' => 'Peut fusionner les sujets',
 
 	'ACL_M_INFO'      => 'Peut consulter les informations sur les messages',

@@ -59,7 +59,7 @@ $lang = array_merge($lang, [
 
 	'ACL_NEVER'       => 'Jamais',
 	'ACL_SET'         => 'Paramètre des permissions',
-	'ACL_SET_EXPLAIN' => 'Les permissions sont basées sur un système simpliste de « OUI » et de « NON ». Sélectionnez « JAMAIS » pour remplacer les valeurs assignées dans un autre système de permissions. Si vous ne souhaitez pas assigner de valeur à une option par ce système de permissions, sélectionnez « NON ». Si des valeurs sont assignées dans un autre système de permissions, elles seront alors utilisées de préférence, sauf si « JAMAIS » est sélectionné. Tous les forums cochés grâce à la boîte de sélection située à côté du nom qui leur a été attribué copieront les paramètres des permissions. Notez que le réglage des permissions des administrateurs pour les comptes de fondateurs n’a pas d’effet car les permissions des administrateurs sont toujours réglées sur <strong>OUI</strong> pour les fondateurs.',
+	'ACL_SET_EXPLAIN' => 'Les permissions reposent sur un système simple de « OUI » et de « NON ». Sélectionnez « JAMAIS » pour remplacer les valeurs assignées dans un autre système de permissions. Si vous ne souhaitez pas assigner de valeur à une option par ce système de permissions, sélectionnez « NON ». Si des valeurs sont assignées dans un autre système de permissions, elles seront alors utilisées de préférence, sauf si « JAMAIS » est sélectionné. Tous les forums cochés grâce à la boîte de sélection située à côté du nom qui leur a été attribué copieront les paramètres des permissions. Notez que le réglage des permissions des administrateurs pour les comptes de fondateurs n’a pas d’effet car les permissions des administrateurs sont toujours réglées sur <strong>OUI</strong> pour les fondateurs.',
 	'ACL_SETTING'     => 'Paramètre',
 
 	'ACL_TYPE_A_' => 'Permissions des administrateurs',
@@ -147,7 +147,7 @@ $lang = array_merge($lang, [
 
 	'ONLY_FORUM_DEFINED' => 'Vous n’avez sélectionné que des forums. Sélectionnez également au moins un utilisateur ou groupe d’utilisateurs.',
 
-	'PERMISSION_APPLIED_TO_ALL' => 'Les permissions et le rôle seront également appliqués à tous les éléments que vous avez cochés',
+	'PERMISSION_APPLIED_TO_ALL' => 'Les permissions et le rôle seront également appliqués à tous les éléments cochés',
 	'PLUS_SUBFORUMS'            => '+Sous-forums',
 
 	'REMOVE_PERMISSIONS'   => 'Supprimer des permissions',
@@ -190,23 +190,23 @@ $lang = array_merge($lang, [
 	'ROLE_DESCRIPTION_ADMIN_USERGROUP'     => 'Peut gérer les utilisateurs et les groupes d’utilisateurs (gestion des permissions, des paramètres, des bannissements et des rangs).',
 	'ROLE_DESCRIPTION_FORUM_BOT'           => 'Il est recommandé d’attribuer ce rôle aux robots des moteurs de recherche.',
 	'ROLE_DESCRIPTION_FORUM_FULL'          => 'Peut utiliser toutes les fonctionnalités du forum, dont la publication d’annonces et de notes. Peut également ignorer la limitation de flood.<br>Il n’est pas recommandé d’attribuer ce rôle aux utilisateurs ordinaires.',
-	'ROLE_DESCRIPTION_FORUM_LIMITED'       => 'Peut utiliser certaines fonctionnalités du forum mais ne peut pas importer de pièces jointes et insérer des icônes aux messages.',
+	'ROLE_DESCRIPTION_FORUM_LIMITED'       => 'Peut utiliser certaines fonctionnalités du forum mais ne peut ni importer de pièces jointes ni insérer d’icônes dans les messages.',
 	'ROLE_DESCRIPTION_FORUM_LIMITED_POLLS' => 'Similaire à l’accès limité, mais peut également créer des sondages.',
 	'ROLE_DESCRIPTION_FORUM_NOACCESS'      => 'Ne peut ni consulter ni accéder au forum.',
 	'ROLE_DESCRIPTION_FORUM_ONQUEUE'       => 'Peut utiliser la plupart des fonctionnalités du forum, dont la possibilité d’importer des pièces jointes, mais les messages et les sujets doivent être approuvés par un modérateur avant leur publication.',
 	'ROLE_DESCRIPTION_FORUM_POLLS'         => 'Similaire à l’accès standard, mais peut également créer des sondages.',
-	'ROLE_DESCRIPTION_FORUM_READONLY'      => 'Peut consulter le forum mais ne peut pas créer de nouveaux sujets et répondre aux messages.',
+	'ROLE_DESCRIPTION_FORUM_READONLY'      => 'Peut consulter le forum mais ne peut ni créer de nouveaux sujets ni répondre aux messages.',
 	'ROLE_DESCRIPTION_FORUM_STANDARD'      => 'Peut utiliser la plupart des fonctionnalités du forum, dont la possibilité d’importer des pièces jointes et de supprimer ses propres sujets, mais ne peut pas verrouiller ses propres sujets et ne peut pas créer de sondages.',
 	'ROLE_DESCRIPTION_FORUM_NEW_MEMBER'    => 'Ce rôle est destiné aux membres du groupe des utilisateurs nouvellement inscrits. Il contient des permissions « JAMAIS » qui permettent de limiter certaines fonctionnalités aux nouveaux membres.',
 	'ROLE_DESCRIPTION_MOD_FULL'            => 'Peut utiliser toutes les fonctionnalités liées à la modération, dont le bannissement.',
 	'ROLE_DESCRIPTION_MOD_QUEUE'           => 'Ne peut utiliser que la file d’attente de modération pour valider et modifier des messages.',
-	'ROLE_DESCRIPTION_MOD_SIMPLE'          => 'Ne peut effectuer que les opérations basiques liées aux sujets mais ne peut pas envoyer d’avertissements et accéder à la file d’attente de modération.',
-	'ROLE_DESCRIPTION_MOD_STANDARD'        => 'Peut utiliser la plupart des outils liées à la modération mais ne peut pas bannir d’utilisateurs et modifier l’auteur d’un message.',
+	'ROLE_DESCRIPTION_MOD_SIMPLE'          => 'Ne peut effectuer que les opérations basiques liées aux sujets mais ne peut ni envoyer d’avertissements ni accéder à la file d’attente de modération.',
+	'ROLE_DESCRIPTION_MOD_STANDARD'        => 'Peut utiliser la plupart des outils liés à la modération mais ne peut ni bannir d’utilisateurs ni modifier l’auteur d’un message.',
 	'ROLE_DESCRIPTION_USER_FULL'           => 'Peut utiliser toutes les fonctionnalités du forum qui sont disponibles aux utilisateurs, dont la possibilité de modifier son nom d’utilisateur et d’ignorer la limitation de flood.<br>Il n’est pas recommandé d’attribuer ce rôle.',
 	'ROLE_DESCRIPTION_USER_LIMITED'        => 'Peut accéder à la plupart des fonctionnalités utilisateur, mais ne peut pas importer de pièces jointes, ni envoyer d’e-mails ou de messages instantanés.',
 	'ROLE_DESCRIPTION_USER_NOAVATAR'       => 'Ne peut accéder qu’à un ensemble de fonctionnalités limité et n’est pas autorisé à utiliser la fonctionnalité des avatars.',
 	'ROLE_DESCRIPTION_USER_NOPM'           => 'Ne peut accéder qu’à un ensemble de fonctionnalités limité et n’est pas autorisé à utiliser les fonctionnalités de la messagerie privée.',
-	'ROLE_DESCRIPTION_USER_STANDARD'       => 'Peut accéder à la plupart des fonctionnalités des utilisateurs mais ne peut pas modifier son nom d’utilisateur et ignorer la limitation de flood.',
+	'ROLE_DESCRIPTION_USER_STANDARD'       => 'Peut accéder à la plupart des fonctionnalités des utilisateurs mais ne peut ni modifier son nom d’utilisateur ni ignorer la limitation de flood.',
 	'ROLE_DESCRIPTION_USER_NEW_MEMBER'     => 'Ce rôle est destiné aux membres du groupe des utilisateurs nouvellement inscrits. Il contient des permissions « JAMAIS » qui permettent de limiter certaines fonctionnalités aux nouveaux membres.',
 
 	'ROLE_DESCRIPTION_EXPLAIN' => 'Saisissez une brève explication du rôle. Le texte saisi ici sera également affiché sur la page des permissions.',

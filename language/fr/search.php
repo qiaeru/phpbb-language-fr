@@ -54,7 +54,7 @@ $lang = array_merge($lang, [
 	'GLOBAL' => 'Annonce générale',
 
 	'IGNORED_TERMS'         => 'ignorés',
-	'IGNORED_TERMS_EXPLAIN' => 'Les mots suivants ont été ignorés car ils sont considérés comme trop communs : « %s ».',
+	'IGNORED_TERMS_EXPLAIN' => 'Les mots suivants ont été ignorés car ils sont considérés comme trop courants : « %s ».',
 
 	'JUMP_TO_POST' => 'Aller au message',
 
@@ -103,7 +103,7 @@ $lang = array_merge($lang, [
 	'SEARCH_IN_RESULTS'        => 'Rechercher dans ces résultats',
 	'SEARCH_KEYWORDS_EXPLAIN'  => 'Insérez le caractère « + » devant un mot qui doit être trouvé et « - » devant un mot qui doit être ignoré. Insérez une liste de mots séparés entre des barres verticales discontinues « | » si seul un des mots doit être trouvé. Utilisez un astérisque « * » comme métacaractère passe-partout pour effectuer des recherches partielles.',
 	'SEARCH_MSG_ONLY'          => 'Contenu des messages uniquement',
-	'SEARCH_OPTIONS'           => 'Préférences de la recherche',
+	'SEARCH_OPTIONS'           => 'Options de recherche',
 	'SEARCH_QUERY'             => 'Requête de la recherche',
 	'SEARCH_SUBFORUMS'         => 'Rechercher dans les sous-forums',
 	'SEARCH_TITLE_MSG'         => 'Titres des sujets et contenu des messages',

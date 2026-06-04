@@ -69,7 +69,7 @@ $lang = array_merge($lang, [
 	'EMPTY_SUBJECT_EMAIL' => 'Saisissez l’objet de l’e-mail.',
 	'EQUAL_TO'            => 'Égal à',
 
-	'FIND_USERNAME_EXPLAIN' => 'Utilisez ce formulaire pour rechercher des membres spécifiques. Vous n’avez pas besoin de remplir tous les champs. Pour utiliser partiellement une donnée, utilisez un astérisque « * » comme métacaractère passe-partout. Lorsque vous saisissez une date, utilisez le format « AAAA-MM-JJ », comme par exemple « 2004-02-29 ». Utilisez les cases à cocher pour sélectionner un ou plusieurs noms d’utilisateurs et cliquez sur le bouton « Sélectionner la sélection » pour revenir au formulaire précédent.',
+	'FIND_USERNAME_EXPLAIN' => 'Utilisez ce formulaire pour rechercher des membres précis. Vous n’avez pas besoin de remplir tous les champs. Pour une correspondance partielle, employez l’astérisque « * » comme caractère générique. Pour une date, utilisez le format « AAAA-MM-JJ », par exemple « 2004-02-29 ». Cochez les cases pour sélectionner un ou plusieurs noms d’utilisateurs, puis cliquez sur le bouton « Valider la sélection » pour revenir au formulaire précédent.',
 	'FLOOD_EMAIL_LIMIT'     => 'Vous ne pouvez pas envoyer d’autres e-mails pour le moment. Réessayez plus tard.',
 
 	'GROUP_LEADER' => 'Responsable du groupe',
@@ -82,7 +82,7 @@ $lang = array_merge($lang, [
 	'IM_JABBER_SUBJECT' => 'Message automatique, merci de ne pas y répondre. Message de l’utilisateur %1$s le %2$s.',
 	'IM_MESSAGE'        => 'Votre message',
 	'IM_NAME'           => 'Votre nom',
-	'IM_NO_DATA'        => 'Aucune information de contact disponible pour cet utilisateur.',
+	'IM_NO_DATA'        => 'Aucune information de contact n’est disponible pour cet utilisateur.',
 	'IM_NO_JABBER'      => 'L’envoi de messages instantanés vers des utilisateurs Jabber n’est pas pris en charge sur ce forum. Installez un client Jabber sur votre système pour contacter le destinataire ci-dessus.',
 	'IM_RECIPIENT'      => 'Destinataire',
 	'IM_SEND'           => 'Envoyer un message',

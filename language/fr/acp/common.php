@@ -139,7 +139,7 @@ $lang = array_merge($lang, [
 	'ACP_MOD_LOGS'          => 'Historique des modérateurs',
 	'ACP_MOD_ROLES'         => 'Rôles des modérateurs',
 
-	'ACP_NO_ITEMS' => 'Aucun élément.',
+	'ACP_NO_ITEMS' => 'Aucun élément n’existe pour le moment.',
 
 	'ACP_ORPHAN_ATTACHMENTS' => 'Pièces jointes orphelines',
 
@@ -248,7 +248,7 @@ $lang = array_merge($lang, [
 	'DOWNLOAD'                 => 'Télécharger',
 	'DOWNLOAD_AS'              => 'Télécharger sous',
 	'DOWNLOAD_STORE'           => 'Télécharger ou stocker le fichier',
-	'DOWNLOAD_STORE_EXPLAIN'   => 'Vous pouvez télécharger directement le fichier ou le sauvegarder dans votre répertoire « store/ ».',
+	'DOWNLOAD_STORE_EXPLAIN'   => 'Vous pouvez télécharger directement le fichier ou le stocker dans votre répertoire « store/ ».',
 	'DOWNLOADS'                => 'Téléchargements',
 
 	'EDIT'            => 'Modifier',
@@ -347,7 +347,7 @@ $lang = array_merge($lang, [
 
 	'DISPLAY_LOG' => 'Afficher les éléments antérieurs',
 
-	'NO_ENTRIES' => 'Aucun historique.',
+	'NO_ENTRIES' => 'Aucun élément d’historique n’est disponible pour cette période.',
 
 	'SORT_IP'     => 'Adresse IP',
 	'SORT_DATE'   => 'Date',
@@ -533,7 +533,7 @@ $lang = array_merge($lang, [
 	'LOG_ATTACH_EXTGROUP_ADD'  => '<strong>Ajout d’un groupe d’extensions</strong><br>» %s',
 	'LOG_ATTACH_EXTGROUP_EDIT' => '<strong>Modification d’un groupe d’extensions</strong><br>» %s',
 	'LOG_ATTACH_EXTGROUP_DEL'  => '<strong>Suppression d’un groupe d’extensions</strong><br>» %s',
-	'LOG_ATTACH_FILEUPLOAD'    => '<strong>Envoi d’une pièce jointe orpheline vers un message</strong><br>» ID %1$d : %2$s',
+	'LOG_ATTACH_FILEUPLOAD'    => '<strong>Import d’une pièce jointe orpheline vers un message</strong><br>» ID %1$d : %2$s',
 	'LOG_ATTACH_ORPHAN_DEL'    => '<strong>Suppression d’une pièce jointe orpheline</strong><br>» %s',
 
 	'LOG_BAN_EXCLUDE_USER'  => '<strong>Exclusion d’un nom d’utilisateur d’un bannissement</strong> avec la raison « %1$s »<br>» %2$s',
@@ -764,7 +764,7 @@ $lang = array_merge($lang, [
 	// @deprecated 3.1
 	'LOG_THEME_ADD_DB' => '<strong>Ajout d’un nouvel ensemble de thèmes à la base de données</strong><br>» %s',
 	// @deprecated 3.1
-	'LOG_THEME_ADD_FS'       => '<strong>Ajout d’un nouveau ensemble de thèmes au système de fichiers</strong><br>» %s',
+	'LOG_THEME_ADD_FS'       => '<strong>Ajout d’un nouvel ensemble de thèmes au système de fichiers</strong><br>» %s',
 	'LOG_THEME_DELETE'       => '<strong>Suppression d’un ensemble de thèmes</strong><br>» %s',
 	'LOG_THEME_EDIT_DETAILS' => '<strong>Modification des informations d’un ensemble de thèmes</strong><br>» %s',
 	'LOG_THEME_EDIT'         => '<strong>Modification de l’ensemble de thèmes de %1$s</strong>',

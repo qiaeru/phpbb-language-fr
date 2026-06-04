@@ -42,7 +42,7 @@ $lang = array_merge($lang, [
 	'ACP_BBCODES_EXPLAIN' => 'Le BBCode est une variante du HTML qui offre un meilleur contrôle sur la mise en forme. Depuis cette page, vous pouvez ajouter, supprimer et modifier des BBCodes personnalisés.',
 	'ADD_BBCODE'          => 'Ajouter un nouveau BBCode',
 
-	'BBCODE_DANGER'         => 'Le BBCode que vous essayez d’ajouter semble représenter une vulnérabilité. Si le BBCode utilise une chaîne de symboles « {TEXT} » dans un contexte sensible, privilégiez plutôt l’utilisation d’un type plus restrictif. Ne procédez à cette opération que si vous comprenez parfaitement les risques encourus.',
+	'BBCODE_DANGER'         => 'Le BBCode que vous essayez d’ajouter semble dangereux. Si le BBCode utilise une chaîne de symboles « {TEXT} » dans un contexte sensible, préférez un type plus restrictif. Ne continuez que si vous comprenez les risques encourus.',
 	'BBCODE_DANGER_PROCEED' => 'Procéder', //'I understand the risk',
 
 	'BBCODE_ADDED'             => 'Le BBCode a été ajouté.',
@@ -73,7 +73,7 @@ $lang = array_merge($lang, [
 
 	'TOKEN'            => 'Chaîne de symboles',
 	'TOKENS'           => 'Chaînes de symboles',
-	'TOKENS_EXPLAIN'   => 'Les chaînes de symboles sont des marques substitutives pour les entrées des utilisateurs. Les entrées ne seront validées que si elles trouvent la définition correspondante. Si besoin, vous pouvez les numéroter en ajoutant un nombre entre des accolades comme dernier caractère, tel que « {TEXT1} », « {TEXT2} », etc.<br><br>Dans le code HTML, vous pouvez également utiliser une chaîne de langue dans votre répertoire « language/ » tel que « {L_<em>« NOMDELACHAÎNE »</em>} » où <em>« NOMDELACHAÎNE »</em> est le nom de la chaîne traduite à ajouter. Par exemple, « {L_WROTE} » sera affiché en tant que « a écrit » ou sa traduction selon la langue locale de l’utilisateur.<br><br><strong>Notez que seules les chaînes listées ci-dessous sont autorisées à être utilisées dans les BBCodes personnalisés.</strong>',
+	'TOKENS_EXPLAIN'   => 'Les chaînes de symboles sont des marques substitutives pour les entrées des utilisateurs. Les entrées ne seront validées que si elles correspondent à la définition. Si besoin, vous pouvez les numéroter en ajoutant un nombre entre des accolades comme dernier caractère, tel que « {TEXT1} », « {TEXT2} », etc.<br><br>Dans le code HTML, vous pouvez également utiliser une chaîne de langue dans votre répertoire « language/ » tel que « {L_<em>« NOMDELACHAÎNE »</em>} » où <em>« NOMDELACHAÎNE »</em> est le nom de la chaîne traduite à ajouter. Par exemple, « {L_WROTE} » sera affiché en tant que « a écrit » ou sa traduction selon la langue locale de l’utilisateur.<br><br><strong>Notez que seules les chaînes listées ci-dessous sont autorisées à être utilisées dans les BBCodes personnalisés.</strong>',
 	'TOKEN_DEFINITION' => 'Qu’est-ce que c’est ?',
 	'TOO_MANY_BBCODES' => 'Vous ne pouvez pas créer d’autres BBCodes. Supprimez-en un ou plusieurs et réessayez.',
 
@@ -167,11 +167,11 @@ $lang = array_merge($lang, [
 
 	'NO_ICONS_ADD'      => 'Impossible d’ajouter une icône : aucune n’est disponible.',
 	'NO_ICONS_EDIT'     => 'Impossible de modifier une icône : aucune n’est disponible.',
-	'NO_ICONS_EXPORT'   => 'Aucune icône disponible pour créer une archive.',
+	'NO_ICONS_EXPORT'   => 'Vous n’avez aucune icône pour créer une archive.',
 	'NO_ICONS_PAK'      => 'Aucune archive d’icônes n’a été trouvée.',
 	'NO_SMILIES_ADD'    => 'Impossible d’ajouter une émoticône : aucune n’est disponible.',
 	'NO_SMILIES_EDIT'   => 'Impossible de modifier une émoticône : aucune n’est disponible.',
-	'NO_SMILIES_EXPORT' => 'Aucune émoticône disponible pour créer une archive.',
+	'NO_SMILIES_EXPORT' => 'Vous n’avez aucune émoticône pour créer une archive.',
 	'NO_SMILIES_PAK'    => 'Aucune archive d’émoticônes n’a été trouvée.',
 
 	'PAK_FILE_NOT_READABLE' => 'Impossible de lire le fichier « .pak ».',
@@ -190,7 +190,7 @@ $lang = array_merge($lang, [
 	'SMILIES_DELETED'   => 'L’émoticône a été supprimée.',
 	'SMILIES_EDIT'      => 'Modifier l’émoticône',
 	'SMILIE_NO_CODE'    => 'L’émoticône « %s » a été ignorée car aucun code n’a été indiqué.',
-	'SMILIE_NO_EMOTION' => 'L’émoticône « %s » a été ignorée car aucune émoticône n’a été indiquée.',
+	'SMILIE_NO_EMOTION' => 'L’émoticône « %s » a été ignorée car aucune émotion n’a été indiquée.',
 	'SMILIE_NO_FILE'    => 'L’émoticône « %s » a été ignorée car le fichier est manquant.',
 	'SMILIES_EDITED'    => [
 		0 => 'Aucune émoticône n’a été mise à jour.',
@@ -249,7 +249,7 @@ $lang = array_merge($lang, [
 
 	'RANK_ADDED'         => 'Le rang a été ajouté.',
 	'RANK_IMAGE'         => 'Image du rang',
-	'RANK_IMAGE_EXPLAIN' => 'Permet d’associer une petite image au rang. Le chemin est relatif à la racine du répertoire de votre forum.',
+	'RANK_IMAGE_EXPLAIN' => 'Associe une petite image au rang. Le chemin est relatif à la racine du répertoire de votre forum.',
 	'RANK_IMAGE_IN_USE'  => '(en cours d’utilisation)',
 	'RANK_MINIMUM'       => 'Nombre minimal de messages',
 	'RANK_REMOVED'       => 'Le rang a été supprimé.',

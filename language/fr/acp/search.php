@@ -42,7 +42,7 @@ $lang = array_merge($lang, [
 
 	'COMMON_WORD_THRESHOLD'           => 'Seuil de mot commun',
 	'COMMON_WORD_THRESHOLD_EXPLAIN'   => 'Les mots contenus dans la majorité des messages seront considérés comme communs. Les mots communs sont ignorés des recherches. Réglez cette valeur sur « 0 » pour désactiver ce comportement. Les mots ne deviennent communs que s’ils ont été utilisés dans au moins 100 messages. Pour que les mots communs soient reconsidérés, vous devez recréer un index.',
-	'CONFIRM_SEARCH_BACKEND'          => 'Êtes-vous sûr de vouloir modifier votre méthode d’indexation pour une méthode différente ? Après la modification de la méthode d’indexation, vous devez créer un index. Si vous ne prévoyez pas de restaurer l’ancienne méthode d’indexation, vous pouvez également la supprimer pour libérer des ressources systèmes.',
+	'CONFIRM_SEARCH_BACKEND'          => 'Voulez-vous vraiment changer de méthode d’indexation ? Après la modification, vous devez créer un index. Si vous ne prévoyez pas de revenir à l’ancienne méthode d’indexation, vous pouvez aussi la supprimer pour libérer des ressources système.',
 	'CONTINUE_DELETING_INDEX'         => 'Continuer la suppression de l’ancien index',
 	'CONTINUE_DELETING_INDEX_EXPLAIN' => 'Une suppression de l’ancien index est en cours. Terminez-la ou annulez-la pour accéder à la page de l’index de recherche.',
 	'CONTINUE_INDEXING'               => 'Continuer l’indexation en cours',
@@ -78,7 +78,7 @@ $lang = array_merge($lang, [
 	'FULLTEXT_SPHINX_DELTA_POSTS'               => 'Nombre de messages dans l’index « delta » fréquemment mis à jour',
 	'FULLTEXT_SPHINX_HOST'                      => 'Hôte du démon de recherche Sphinx',
 	'FULLTEXT_SPHINX_HOST_EXPLAIN'              => 'Le programme en attente de recherche Sphinx (« searchd ») se connectera sur cet hôte. Si vous laissez ce champ vide, l’hôte par défaut (qui est « localhost ») sera utilisé.',
-	'FULLTEXT_SPHINX_INDEXER_MEM_LIMIT'         => 'Mémoire limite de l’indexeur',
+	'FULLTEXT_SPHINX_INDEXER_MEM_LIMIT'         => 'Limite de mémoire de l’indexeur',
 	'FULLTEXT_SPHINX_INDEXER_MEM_LIMIT_EXPLAIN' => 'Cette valeur doit être inférieure à la quantité de mémoire vive disponible sur votre serveur. Si vous rencontrez régulièrement des problèmes de performance, l’indexeur consomme probablement trop de ressources : réduisez la mémoire qui lui est allouée.',
 	'FULLTEXT_SPHINX_MAIN_POSTS'                => 'Nombre de messages dans l’index principal',
 	'FULLTEXT_SPHINX_PORT'                      => 'Port du démon de recherche Sphinx',
@@ -96,12 +96,12 @@ $lang = array_merge($lang, [
 	'INDEXING_IN_PROGRESS_EXPLAIN' => 'La méthode d’indexation de la recherche est actuellement en train d’indexer tous les messages du forum. Ce processus peut prendre un certain temps selon la taille de votre forum.',
 
 	'LIMIT_SEARCH_LOAD'         => 'Limite de la charge du système de la page de recherche',
-	'LIMIT_SEARCH_LOAD_EXPLAIN' => 'Si la charge du système dépasse cette valeur durant une minute, la page de recherche sera automatiquement désactivée. Une valeur de « 1.0 » correspond à 100 % de l’utilisation des processus d’un processeur. Cette fonctionnalité ne fonctionne que sur les serveurs basés sous UNIX.',
+	'LIMIT_SEARCH_LOAD_EXPLAIN' => 'Si la charge du système dépasse cette valeur durant une minute, la page de recherche sera automatiquement désactivée. Une valeur de « 1.0 » correspond à 100 % de l’utilisation d’un processeur. Cette fonctionnalité ne fonctionne que sur les serveurs basés sur UNIX.',
 
 	'MAX_SEARCH_CHARS'                => 'Nombre maximal de caractères indexés dans la recherche',
 	'MAX_SEARCH_CHARS_EXPLAIN'        => 'Les mots contenant moins de caractères que cette valeur seront indexés.',
 	'MAX_NUM_SEARCH_KEYWORDS'         => 'Nombre maximal de mots clés',
-	'MAX_NUM_SEARCH_KEYWORDS_EXPLAIN' => 'Le nombre maximal de mots clés que les utilisateurs seront capables de rechercher. Réglez cette valeur sur « 0 » si vous ne souhaitez pas limiter le nombre de mot clé.',
+	'MAX_NUM_SEARCH_KEYWORDS_EXPLAIN' => 'Le nombre maximal de mots-clés que les utilisateurs pourront rechercher. Réglez cette valeur sur « 0 » si vous ne souhaitez pas limiter le nombre de mots-clés.',
 	'MIN_SEARCH_CHARS'                => 'Nombre minimal de caractères indexés dans la recherche',
 	'MIN_SEARCH_CHARS_EXPLAIN'        => 'Les mots contenant plus de caractères que cette valeur seront indexés.',
 	'MIN_SEARCH_AUTHOR_CHARS'         => 'Nombre minimal de caractères des noms d’auteur',
@@ -133,13 +133,13 @@ $lang = array_merge($lang, [
 	'SEARCH_INTERVAL'                   => 'Intervalle d’affluence de la recherche des utilisateurs',
 	'SEARCH_INTERVAL_EXPLAIN'           => 'Délai (en secondes) avant qu’un utilisateur puisse effectuer une nouvelle recherche. L’intervalle est vérifié individuellement pour chaque utilisateur.',
 	'SEARCH_STORE_RESULTS'              => 'Durée des résultats de recherche mis en cache',
-	'SEARCH_STORE_RESULTS_EXPLAIN'      => 'Le nombre de secondes qui s’écouleront avant que les résultats de recherche mis en cache soient supprimés. Réglez cette valeur sur « 0 » pour pas mettre en cache les résultats de recherche.',
+	'SEARCH_STORE_RESULTS_EXPLAIN'      => 'Le nombre de secondes qui s’écouleront avant que les résultats de recherche mis en cache soient supprimés. Réglez cette valeur sur « 0 » pour ne pas mettre en cache les résultats de recherche.',
 	'SEARCH_TYPE'                       => 'Méthode d’indexation de la recherche',
 	'SEARCH_TYPE_EXPLAIN'               => 'Le logiciel phpBB vous permet de choisir la méthode d’indexation qui sera utilisée lors des recherches de texte effectuées dans le contenu des messages. Par défaut, la recherche utilisera la méthode « phpBB Native Fulltext ».',
 	'SWITCHED_SEARCH_BACKEND'           => 'La méthode d’indexation a été modifiée. Recréez désormais l’index.',
 
 	'TOTAL_WORDS'   => 'Nombre total de mots indexés',
-	'TOTAL_MATCHES' => 'Nombre total de mots indexés en relation avec les sujets',
+	'TOTAL_MATCHES' => 'Nombre total de mots indexés en relation avec les messages',
 
 	'YES_SEARCH'                => 'Activer la recherche',
 	'YES_SEARCH_EXPLAIN'        => 'Les utilisateurs peuvent effectuer des recherches sur votre forum, y compris des recherches de membres.',

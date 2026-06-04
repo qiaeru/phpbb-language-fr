@@ -80,7 +80,7 @@ $lang = array_merge($lang, [
 	'MOVE_POSTS_EXPLAIN' => 'Sélectionnez le forum vers lequel déplacer tous les messages de cet utilisateur.',
 
 	'NO_SPECIAL_RANK'    => 'Aucun rang spécial n’a été indiqué',
-	'NO_WARNINGS'        => 'Aucun avertissement.',
+	'NO_WARNINGS'        => 'Cet utilisateur n’a reçu aucun avertissement.',
 	'NOT_MANAGE_FOUNDER' => 'Vous tentez de modifier un utilisateur ayant le statut de fondateur. Seuls les fondateurs peuvent gérer d’autres fondateurs.',
 
 	'QUICK_TOOLS' => 'Actions rapides',
@@ -125,7 +125,7 @@ $lang = array_merge($lang, [
 	'USER_GROUP_PENDING'           => 'L’utilisateur est en attente d’adhésion aux groupes',
 	'USER_GROUP_SPECIAL'           => 'L’utilisateur est membre des groupes prédéfinis',
 	'USER_LIFTED_NR'               => 'Le statut d’utilisateur nouvellement inscrit a été supprimé.',
-	'USER_NO_ATTACHMENTS'          => 'Aucune pièce jointe.',
+	'USER_NO_ATTACHMENTS'          => 'Cet utilisateur n’a aucune pièce jointe.',
 	'USER_NO_POSTS_TO_DELETE'      => 'Cet utilisateur n’a aucun message à conserver ou à supprimer.',
 	'USER_OUTBOX_EMPTIED'          => 'La boîte des messages privés envoyés par l’utilisateur a été vidée.',
 	'USER_OUTBOX_EMPTY'            => 'La boîte des messages privés envoyés par l’utilisateur est déjà vide.',
@@ -138,6 +138,6 @@ $lang = array_merge($lang, [
 	'USER_RANK'                    => 'Rang de l’utilisateur',
 	'USER_RANK_UPDATED'            => 'Le rang de l’utilisateur a été mis à jour.',
 	'USER_SIG_UPDATED'             => 'La signature de l’utilisateur a été mise à jour.',
-	'USER_WARNING_LOG_DELETED'     => 'Aucune information disponible. L’entrée a probablement été supprimée de l’historique.',
+	'USER_WARNING_LOG_DELETED'     => 'Aucune information n’est disponible. L’entrée a probablement été supprimée de l’historique.',
 	'USER_TOOLS'                   => 'Outils de base',
 ]);

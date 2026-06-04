@@ -9,7 +9,7 @@ Depuis votre dernière visite sur « {SITENAME} », un nouveau sujet intitul
 Pour consulter ce nouveau sujet, cliquez sur le lien suivant :
 {U_TOPIC}
 
-Si vous ne souhaitez plus surveiller ce forum, cliquez sur le lien suivant :
+Si vous souhaitez vous désabonner de ce forum, cliquez sur le lien suivant :
 {U_STOP_WATCHING_FORUM}
 
 {EMAIL_SIG}

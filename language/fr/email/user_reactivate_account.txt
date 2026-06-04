@@ -1,6 +1,6 @@
 Subject: Réactivez votre compte sur « {SITENAME} »
 
-Un administrateur du forum demande à ce que votre compte soit réactivé. Votre compte est actuellement inactif.
+Un administrateur du forum demande que votre compte soit réactivé. Votre compte est actuellement inactif.
 Lisez les informations ci-dessous pour réactiver votre compte.
 
 Conservez cet e-mail dans vos archives. Voici les informations de votre compte :

@@ -255,7 +255,7 @@ $lang = array_merge($lang, [
 		2 => 'Vous devez saisir au moins %1$d caractères.',
 	],
 	'TOO_FEW_POLL_OPTIONS' => 'Vous devez saisir au moins deux options pour créer un sondage.',
-	'TOO_MANY_ATTACHMENTS' => 'Impossible d’importer une nouvelle pièce jointe. La taille maximale de l’espace de stockage est limitée à %d.',
+	'TOO_MANY_ATTACHMENTS' => 'Impossible d’ajouter une nouvelle pièce jointe : le maximum de %d est atteint.',
 	'TOO_MANY_CHARS'       => 'Votre message contient trop de caractères.',
 	'TOO_MANY_CHARS_LIMIT' => [
 		1 => 'Le nombre maximal de caractères autorisés est de %1$d.',

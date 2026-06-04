@@ -128,7 +128,7 @@ $lang = array_merge($lang, [
 	'CLI_EXTENSION_PURGE_SUCCESS'   => 'L’extension « %s » a été purgée.',
 	'CLI_EXTENSION_UPDATE_FAILURE'  => 'Impossible de mettre à jour l’extension « %s ».',
 	'CLI_EXTENSION_UPDATE_SUCCESS'  => 'L’extension « %s » a été mise à jour.',
-	'CLI_EXTENSION_NOT_FOUND'       => 'Aucune extension.',
+	'CLI_EXTENSION_NOT_FOUND'       => 'Aucune extension n’a été trouvée.',
 	'CLI_EXTENSION_NOT_ENABLEABLE'  => 'L’extension « %s » n’est pas activable.',
 	'CLI_EXTENSIONS_AVAILABLE'      => 'Disponible',
 	'CLI_EXTENSIONS_DISABLED'       => 'Désactivée',
@@ -141,7 +141,7 @@ $lang = array_merge($lang, [
 	'CLI_MIGRATIONS_AVAILABLE'      => 'Migrations disponibles',
 	'CLI_MIGRATIONS_INSTALLED'      => 'Migrations installées',
 	'CLI_MIGRATIONS_ONLY_AVAILABLE' => 'N’afficher que les migrations disponibles.',
-	'CLI_MIGRATIONS_EMPTY'          => 'Aucune migration.',
+	'CLI_MIGRATIONS_EMPTY'          => 'Aucune migration n’est disponible.',
 
 	'CLI_REPARSER_REPARSE_REPARSING'       => 'Réanalyse de « %1$s » (rangée %2$d sur %3$d)',
 	'CLI_REPARSER_REPARSE_REPARSING_START' => 'Réanalyse de « %s »…',
@@ -176,8 +176,8 @@ $lang = array_merge($lang, [
 
 // Additional help for commands.
 $lang = array_merge($lang, [
-	'CLI_HELP_CRON_RUN'      => $lang['CLI_DESCRIPTION_CRON_RUN'].'Vous pouvez éventuellement spécifier un nom de tâche cron pour exécuter uniquement cette tâche.',
-	'CLI_HELP_USER_ACTIVATE' => 'L’option « --deactivate » permet d’activer ou de désactiver le compte d’un utilisateur.\nPour envoyer un e-mail d’activation à l’utilisateur, utilisez l’option « --send-email ».',
-	'CLI_HELP_USER_ADD' => 'La commande « %command.name% » permet d’ajouter un nouvel utilisateur :\nSi la commande est exécutée sans option, les valeurs vous sont demandées.\nPour envoyer un e-mail au nouvel utilisateur, utilisez l’option « --send-email ».',
+	'CLI_HELP_CRON_RUN'      => $lang['CLI_DESCRIPTION_CRON_RUN'].' Vous pouvez indiquer un nom de tâche cron pour n’exécuter que cette tâche.',
+	'CLI_HELP_USER_ACTIVATE' => 'L’option « --deactivate » active ou désactive le compte d’un utilisateur.\nPour envoyer un e-mail d’activation à l’utilisateur, utilisez l’option « --send-email ».',
+	'CLI_HELP_USER_ADD' => 'La commande « %command.name% » ajoute un nouvel utilisateur :\nSi la commande est exécutée sans option, les valeurs vous sont demandées.\nPour envoyer un e-mail au nouvel utilisateur, utilisez l’option « --send-email ».',
 	'CLI_HELP_USER_RECLEAN' => 'Le renettoyage des noms d’utilisateurs vérifie tous les noms d’utilisateurs et s’assure que les versions propres sont également stockées. Les noms d’utilisateurs propres sont insensibles à la casse, normalisés en NFC et transformés en ASCII.',
 ]);

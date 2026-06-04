@@ -7,7 +7,7 @@ Depuis votre dernière visite sur « {SITENAME} », une nouvelle réponse a 
 Pour consulter le nouveau message, cliquez sur le lien suivant :
 {U_NEWEST_POST}
 
-Si vous ne souhaitez plus surveiller ce sujet, cliquez sur le lien suivant :
+Si vous ne souhaitez plus être abonné à ce sujet, cliquez sur le lien suivant :
 {U_STOP_WATCHING_TOPIC}
 
 {EMAIL_SIG}

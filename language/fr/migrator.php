@@ -64,9 +64,9 @@ $lang = array_merge($lang, [
 	'MIGRATION_INVALID_DATA_MISSING_CONDITION'   => 'Une migration n’est pas valide. Une condition dans une instruction d’aide « IF » est manquante.',
 	'MIGRATION_INVALID_DATA_MISSING_STEP'        => 'Une migration n’est pas valide. Un rappel valide à une étape de migration dans une instruction d’aide « IF » est manquant.',
 	'MIGRATION_INVALID_DATA_CUSTOM_NOT_CALLABLE' => 'Une migration n’est pas valide. Impossible d’appeler une fonction de rappel personnalisée.',
-	'MIGRATION_INVALID_DATA_UNKNOWN_TYPE'        => 'Une migration n’est pas valide. Un type d’outil de migration inconnu a été découvert.',
-	'MIGRATION_INVALID_DATA_UNDEFINED_TOOL'      => 'Une migration n’est pas valide. Un outil de migration indéfini a été découvert.',
-	'MIGRATION_INVALID_DATA_UNDEFINED_METHOD'    => 'Une migration n’est pas valide. Une méthode d’outil de migration indéfinie a été découverte.',
+	'MIGRATION_INVALID_DATA_UNKNOWN_TYPE'        => 'Une migration n’est pas valide. Un type d’outil de migration inconnu a été rencontré.',
+	'MIGRATION_INVALID_DATA_UNDEFINED_TOOL'      => 'Une migration n’est pas valide. Un outil de migration indéfini a été rencontré.',
+	'MIGRATION_INVALID_DATA_UNDEFINED_METHOD'    => 'Une migration n’est pas valide. Une méthode d’outil de migration indéfinie a été rencontrée.',
 
 	'MODULE_ERROR'               => 'Échec de la création d’un module : %s',
 	'MODULE_EXISTS'              => 'Le module « %s » existe déjà',
@@ -77,6 +77,6 @@ $lang = array_merge($lang, [
 	'PARENT_MODULE_FIND_ERROR' => 'Impossible de déterminer l’identifiant du module parent « %s »',
 	'PERMISSION_NOT_EXIST'     => 'Le paramètre de permission « %s » est introuvable.',
 
-	'ROLE_ASSIGNED_NOT_EXIST' => 'Le rôle de permission attribué au groupe « %1$s » n’existe pas. Identifiant du rôle : « %2$s »',
+	'ROLE_ASSIGNED_NOT_EXIST' => 'Le rôle de permission attribué au groupe « %1$s » est introuvable. Identifiant du rôle : « %2$s »',
 	'ROLE_NOT_EXIST'          => 'Le rôle de permission « %s » est introuvable.',
 ]);

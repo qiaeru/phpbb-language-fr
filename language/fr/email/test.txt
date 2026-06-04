@@ -2,12 +2,12 @@ Subject: phpBB est correctement configuré pour envoyer des e-mails
 
 Bonjour {USERNAME},
 
-Félicitations. La réception de cet e-mail signifie que la messagerie e-mail de phpBB est correctement configurée.
+Félicitations. La réception de cet e-mail confirme que phpBB est correctement configuré pour envoyer des e-mails.
 
 <!-- IF MESSAGE -->
 {MESSAGE}
 
 <!-- ENDIF -->
-Si vous auriez besoin d’aide, rendez-vous sur nos forums d’assistance : https://www.phpbb.com/community/ (en anglais)
+Si vous avez besoin d’aide, rendez-vous sur nos forums d’assistance : https://www.phpbb.com/community/ (en anglais)
 
 {EMAIL_SIG}

@@ -56,7 +56,7 @@ $lang = array_merge($lang, [
 
 	// Install page
 	'INSTALL_INTRO'      => 'Bienvenue sur l’assistant d’installation',
-	'INSTALL_INTRO_BODY' => 'Cet assistant va vous permettre d’installer phpBB 3.3 sur votre serveur.</p><p>Avant de continuer, assurez-vous d’avoir à disposition les informations de votre base de données. Si vous ne les connaissez pas, demandez-les à votre hébergeur. Vous aurez besoin des informations suivantes :</p>\n\n\t<ul>\n\t\t<li>Le type de votre base de données.</li>\n\t\t<li>Le nom d’hôte du serveur de votre base de données ou le DSN (l’adresse du serveur de votre base de données).</li>\n\t\t<li>Le port du serveur de votre base de données (facultatif dans la plupart des cas).</li>\n\t\t<li>Le nom de votre base de données.</li>\n\t\t<li>Le nom d’utilisateur et le mot de passe de votre base de données (qui permettent de vous connecter pour y accéder).</li>\n\t</ul>\n\n\t<p><strong>Attention :</strong> si vous installez avec SQLite, saisissez le chemin complet vers le fichier de votre base de données dans le champ DSN, et laissez les champs « nom d’utilisateur » et « mot de passe » vides. Pour des raisons de sécurité, assurez-vous que ce fichier ne soit pas accessible publiquement sur internet.</p>\n\n\t<p>phpBB 3.3 est compatible avec les bases de données suivantes :</p>\n\t<ul>\n\t\t<li>MySQL 4.1.3 ou plus (MySQLi obligatoire) ;</li>\n\t\t<li>PostgreSQL 8.3 ou plus ;</li>\n\t\t<li>SQLite 3.6.15 ou plus ;</li>\n\t\t<li>MS SQL Server 2000 ou plus (directement ou via ODBC) ;</li>\n\t\t<li>MS SQL Server 2005 ou plus (en natif) ;</li>\n\t\t<li>Oracle.</li>\n\t</ul>\n\n\t<p>Seules les bases de données compatibles avec votre serveur seront proposées.',
+	'INSTALL_INTRO_BODY' => 'Cet assistant va vous permettre d’installer phpBB 3.3 sur votre serveur.</p><p>Avant de continuer, assurez-vous d’avoir à disposition les informations de votre base de données. Si vous ne les connaissez pas, demandez-les à votre hébergeur. Vous aurez besoin des informations suivantes :</p>\n\n\t<ul>\n\t\t<li>Le type de votre base de données.</li>\n\t\t<li>Le nom d’hôte du serveur de votre base de données ou le DSN (l’adresse du serveur de votre base de données).</li>\n\t\t<li>Le port du serveur de votre base de données (facultatif dans la plupart des cas).</li>\n\t\t<li>Le nom de votre base de données.</li>\n\t\t<li>Le nom d’utilisateur et le mot de passe de votre base de données (qui permettent de vous connecter pour y accéder).</li>\n\t</ul>\n\n\t<p><strong>Attention :</strong> si vous installez avec SQLite, saisissez le chemin complet vers le fichier de votre base de données dans le champ DSN, et laissez les champs « nom d’utilisateur » et « mot de passe » vides. Pour des raisons de sécurité, assurez-vous que ce fichier ne soit pas accessible publiquement sur le web.</p>\n\n\t<p>phpBB 3.3 est compatible avec les bases de données suivantes :</p>\n\t<ul>\n\t\t<li>MySQL 4.1.3 ou plus (MySQLi obligatoire) ;</li>\n\t\t<li>PostgreSQL 8.3 ou plus ;</li>\n\t\t<li>SQLite 3.6.15 ou plus ;</li>\n\t\t<li>MS SQL Server 2000 ou plus (directement ou via ODBC) ;</li>\n\t\t<li>MS SQL Server 2005 ou plus (en natif) ;</li>\n\t\t<li>Oracle.</li>\n\t</ul>\n\n\t<p>Seules les bases de données compatibles avec votre serveur seront proposées.',
 
 	'ACP_LINK' => 'Me rendre sur <a href="%1$s">le PCA</a>',
 
@@ -87,13 +87,13 @@ $lang = array_merge($lang, [
 	'PHP_VERSION_REQD_EXPLAIN'         => 'phpBB requiert la version 7.2.0 ou supérieure de PHP.',
 	'PHP_GETIMAGESIZE_SUPPORT'         => 'La fonction PHP « getimagesize() » est requise.',
 	'PHP_GETIMAGESIZE_SUPPORT_EXPLAIN' => 'La fonction PHP « getimagesize() » est disponible.',
-	'PCRE_UTF_SUPPORT'                 => 'Support de PCRE UTF-8',
+	'PCRE_UTF_SUPPORT'                 => 'Prise en charge de PCRE UTF-8',
 	'PCRE_UTF_SUPPORT_EXPLAIN'         => 'Votre installation PHP doit être compilée avec la prise en charge d’UTF-8 dans l’extension PCRE.',
-	'PHP_JSON_SUPPORT'                 => 'Support de PHP JSON',
+	'PHP_JSON_SUPPORT'                 => 'Prise en charge de PHP JSON',
 	'PHP_JSON_SUPPORT_EXPLAIN'         => 'L’extension PHP « JSON » est requise.',
-	'PHP_MBSTRING_SUPPORT'             => 'Support de PHP mbstring',
+	'PHP_MBSTRING_SUPPORT'             => 'Prise en charge de PHP mbstring',
 	'PHP_MBSTRING_SUPPORT_EXPLAIN'     => 'L’extension PHP « mbstring » est requise.',
-	'PHP_XML_SUPPORT'                  => 'Support de PHP XML/DOM',
+	'PHP_XML_SUPPORT'                  => 'Prise en charge de PHP XML/DOM',
 	'PHP_XML_SUPPORT_EXPLAIN'          => 'L’extension PHP « XML/DOM » est requise.',
 	'PHP_SUPPORTED_DB'                 => 'Bases de données prises en charge',
 	'PHP_SUPPORTED_DB_EXPLAIN'         => 'Votre serveur doit prendre en charge au moins une base de données compatible avec PHP. Si aucun module de base de données n’est disponible, contactez votre hébergeur ou consultez la documentation PHP.',
@@ -180,7 +180,7 @@ $lang = array_merge($lang, [
 	'INST_ERR_DB_NO_NAME'           => 'Le nom de la base de données doit être indiqué.',
 	'INST_ERR_DB_FORUM_PATH'        => 'Le fichier de la base de données est situé à la racine de votre forum. Déplacez-le vers un emplacement non accessible publiquement.',
 	'INST_ERR_DB_CONNECT'           => 'Impossible de se connecter à la base de données. Consultez le message d’erreur ci-dessous.',
-	'INST_ERR_DB_NO_WRITABLE'       => 'La base de données et le répertoire sont tous deux en lecture seule.',
+	'INST_ERR_DB_NO_WRITABLE'       => 'La base de données et le répertoire qui la contient doivent tous deux autoriser l’écriture.',
 	'INST_ERR_DB_NO_ERROR'          => 'Aucune erreur n’est survenue.',
 	'INST_ERR_PREFIX'               => 'Des tables avec ce préfixe existent déjà. Renommez-le.',
 	'INST_ERR_DB_NO_MYSQLI'         => 'La version de MySQL installée sur votre serveur est incompatible avec l’option « MySQL avec l’extension MySQLi ». Sélectionnez plutôt l’option « MySQL ».',
@@ -225,7 +225,7 @@ $lang = array_merge($lang, [
 	'RANKS_SITE_ADMIN_TITLE' => 'Administrateur',
 	'REPORT_WAREZ'           => 'Le message signalé contient du contenu portant atteinte au droit d’auteur, au droit des marques, au secret industriel ou à d’autres législations.',
 	'REPORT_SPAM'            => 'Le message signalé contient du contenu publicitaire indésirable dont le but est de promouvoir une marque, un produit, une entreprise ou un site web.',
-	'REPORT_OFF_TOPIC'       => 'Le message signalé est hors-sujet.',
+	'REPORT_OFF_TOPIC'       => 'Le message signalé est hors sujet.',
 	'REPORT_OTHER'           => 'Le message signalé ne correspond à aucune catégorie. Utilisez le champ d’information complémentaire.',
 
 	'SMILIES_ARROW'        => 'Flèche',
@@ -575,7 +575,7 @@ $lang = array_merge($lang, [
 	'CONV_ERROR_USER_ACCESS'         => 'Impossible d’obtenir les informations d’authentification de l’utilisateur.',
 	'CONV_ERROR_WRONG_GROUP'         => 'Définition de groupe incorrecte : « %1$s » dans « %2$s ».',
 	'CONV_OPTIONS_BODY'              => 'Cette page collecte les informations nécessaires à l’accès au forum source. Saisissez les informations de connexion à la base de données de votre ancien forum. Le convertisseur ne modifie rien dans cette base de données. Le forum source doit être désactivé pour permettre une conversion complète.',
-	'CONV_SAVED_MESSAGES'            => 'Messages sauvegardés',
+	'CONV_SAVED_MESSAGES'            => 'Messages enregistrés',
 
 	'PRE_CONVERT_COMPLETE' => 'Toutes les étapes de pré-conversion sont terminées. Vous pouvez maintenant lancer la conversion proprement dite. Notez que certaines opérations devront être saisies ou effectuées manuellement. Après la conversion, vérifiez en particulier les permissions assignées, reconstruisez l’index de recherche (qui n’est pas converti) et vérifiez que les fichiers (avatars, émoticônes, etc.) ont été correctement copiés.',
 ]);

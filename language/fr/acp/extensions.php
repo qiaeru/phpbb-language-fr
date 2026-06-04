@@ -57,7 +57,7 @@ $lang = array_merge($lang, [
 	'EXTENSION_DISABLE'     => 'Désactiver',
 	'EXTENSION_ENABLE'      => 'Activer',
 
-	'EXTENSION_DELETE_DATA_EXPLAIN' => 'La suppression des données d’une extension efface toutes ses données et sa configuration. Les fichiers de l’extension sont conservés pour permettre une réactivation ultérieure.',
+	'EXTENSION_DELETE_DATA_EXPLAIN' => 'La suppression des données d’une extension efface toutes ses données et sa configuration. Les fichiers de l’extension sont conservés pour permettre de la réactiver plus tard.',
 	'EXTENSION_DISABLE_EXPLAIN'     => 'La désactivation conserve les fichiers, données et configuration de l’extension, mais retire toutes les fonctionnalités qu’elle apporte.',
 	'EXTENSION_ENABLE_EXPLAIN'      => 'L’activation rend l’extension utilisable sur votre forum.',
 
@@ -75,24 +75,24 @@ $lang = array_merge($lang, [
 	'EXTENSION_INSTALL_HEADLINE' => 'Installer une extension',
 	'EXTENSION_INSTALL_EXPLAIN'  => '<ol>
 			<li>Téléchargez une extension depuis la base de données des extensions de phpBB.</li>
-			<li>Décompressez et envoyez l’extension dans le répertoire « ext/ » de votre forum</li>
+			<li>Décompressez et importez l’extension dans le répertoire « ext/ » de votre forum.</li>
 			<li>Activez l’extension depuis le gestionnaire d’extensions.</li>
 		</ol>',
 	'EXTENSION_UPDATE_HEADLINE' => 'Mettre à jour une extension',
 	'EXTENSION_UPDATE_EXPLAIN'  => '<ol>
 			<li>Désactivez l’extension.</li>
 			<li>Supprimez les fichiers de l’extension de votre serveur.</li>
-			<li>Envoyez les nouveaux fichiers de l’extension sur votre serveur.</li>
-			<li>Activez l’extension</li>
+			<li>Importez les nouveaux fichiers de l’extension sur votre serveur.</li>
+			<li>Activez l’extension.</li>
 		</ol>',
 	'EXTENSION_REMOVE_HEADLINE' => 'Supprimer totalement une extension',
 	'EXTENSION_REMOVE_EXPLAIN'  => '<ol>
-			<li>Désactivez l’extension</li>
+			<li>Désactivez l’extension.</li>
 			<li>Supprimez les données de l’extension.</li>
-			<li>Supprimez les fichiers de l’extension de votre serveur</li>
+			<li>Supprimez les fichiers de l’extension de votre serveur.</li>
 		</ol>',
 
-	'EXTENSION_DELETE_DATA_CONFIRM'    => 'Êtes-vous sûr de vouloir supprimer les données de « %s » ?<br><br>Cela supprimera toutes les données et la configuration de l’extension qui ne pourront pas être restaurés !',
+	'EXTENSION_DELETE_DATA_CONFIRM'    => 'Êtes-vous sûr de vouloir supprimer les données de « %s » ?<br><br>Cela supprimera toutes les données et la configuration de l’extension qui ne pourront pas être restaurées !',
 	'EXTENSION_DISABLE_CONFIRM'        => 'Êtes-vous sûr de vouloir désactiver l’extension « %s » ?',
 	'EXTENSION_ENABLE_CONFIRM'         => 'Êtes-vous sûr de vouloir activer l’extension « %s » ?',
 	'EXTENSION_FORCE_UNSTABLE_CONFIRM' => 'Êtes-vous sûr de vouloir forcer l’utilisation d’une version instable ?',
