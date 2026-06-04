@@ -547,7 +547,7 @@ $lang = array_merge($lang, [
 
 	'COLLIDING_CLEAN_USERNAME'       => '<strong>%s</strong> est le nom d’utilisateur propre pour :',
 	'COLLIDING_USER'                 => '» identifiant de l’utilisateur : <strong>%d</strong> nom d’utilisateur : <strong>%s</strong> (%d messages)',
-	'COLLIDING_USERNAMES_FOUND'      => 'Des noms d’utilisateurs en conflit ont été trouvés sur votre ancien forum. Pour terminer la conversion, supprimez ou renommez ces utilisateurs afin qu’il n’y ait qu’un seul utilisateur par nom d’utilisateur propre.',
+	'COLLIDING_USERNAMES_FOUND'      => 'Des noms d’utilisateurs en conflit ont été trouvés sur votre ancien forum. Pour terminer la conversion, supprimez ou renommez ces utilisateurs pour qu’il n’y ait qu’un seul utilisateur par nom d’utilisateur propre.',
 	'CONV_ERR_FATAL'                 => 'Erreur fatale de conversion',
 	'CONV_ERROR_ATTACH_FTP_DIR'      => 'Le transfert de pièces jointes par FTP est activé sur l’ancien forum. Désactivez cette option avant la conversion.',
 	'CONV_ERROR_CONFIG_EMPTY'        => 'Aucune information de configuration n’est disponible pour ce convertisseur.',
