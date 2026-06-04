@@ -601,8 +601,8 @@ $lang = array_merge($lang, [
 	'LOG_RESTORE_TOPIC'       => '<strong>Restauration du sujet « %1$s » publié par</strong><br>» %2$s',
 	'LOG_SOFTDELETE_POST'     => '<strong>Suppression du message « %1$s » publié par %2$s avec une raison</strong><br>» %3$s',
 	'LOG_SOFTDELETE_TOPIC'    => '<strong>Suppression du sujet « %1$s » publié par %2$s avec une raison</strong><br>» %3$s',
-	'LOG_SPLIT_DESTINATION'   => '<strong>Déplacement de messages divisés</strong><br>» vers %s',
-	'LOG_SPLIT_SOURCE'        => '<strong>Division de messages</strong><br>» de %s',
+	'LOG_SPLIT_DESTINATION'   => '<strong>Déplacement de messages scindés</strong><br>» vers %s',
+	'LOG_SPLIT_SOURCE'        => '<strong>Scission de messages</strong><br>» de %s',
 
 	'LOG_TOPIC_APPROVED'     => '<strong>Approbation d’un sujet</strong><br>» %s',
 	'LOG_TOPIC_RESTORED'     => '<strong>Restauration d’un sujet</strong><br>» %s',
