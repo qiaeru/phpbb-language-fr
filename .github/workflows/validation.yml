@@ -34,6 +34,16 @@ jobs:
         uses: shivammathur/setup-php@v2
         with:
           php-version: ${{ matrix.php }}
+      - name: Check PHP syntax
+        run: |
+          status=0
+          for file in $(find language ext -name '*.php'); do
+            if ! error=$(php -l "$file" 2>&1); then
+              echo "$error"
+              status=1
+            fi
+          done
+          exit $status
       - name: Cache Composer dependencies
         uses: actions/cache@v5
         with:
@@ -59,3 +69,27 @@ jobs:
         run: php vendor/bin/translation.php --version
       - name: Run the translation validator
         run: php vendor/bin/translation.php validate $PHPBB_LANGUAGE --phpbb-version=$PHPBB_VERSION --display-notices
+
+  style:
+    runs-on: ubuntu-latest
+    name: House style
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v6
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.4'
+      - name: Run the house-style linter
+        run: php bin/lint-style.php
+
+  editorconfig:
+    runs-on: ubuntu-latest
+    name: EditorConfig
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v6
+      - name: Setup editorconfig-checker
+        uses: editorconfig-checker/action-editorconfig-checker@v2.2.0
+      - name: Run editorconfig-checker
+        run: editorconfig-checker

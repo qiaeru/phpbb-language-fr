@@ -15,12 +15,14 @@
 *.gif binary
 
 # Files and directories with this attribute won't be added to archive files
-/.github       export-ignore
-.editorconfig  export-ignore
-.gitattributes export-ignore
-.gitignore     export-ignore
-CLAUDE.md      export-ignore
-composer.json  export-ignore
-GLOSSARY.md    export-ignore
-LICENSE        export-ignore
-README.md      export-ignore
+/.github                   export-ignore
+/bin                       export-ignore
+.editorconfig              export-ignore
+.editorconfig-checker.json export-ignore
+.gitattributes             export-ignore
+.gitignore                 export-ignore
+CLAUDE.md                  export-ignore
+composer.json              export-ignore
+GLOSSARY.md                export-ignore
+LICENSE                    export-ignore
+README.md                  export-ignore
