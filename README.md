@@ -8,7 +8,7 @@ Traduction française pour localiser le logiciel de forum phpBB 3.3.
 
 Inclut les locales françaises compatibles avec :
 
-- [phpBB 3.3.16](https://github.com/phpbb/phpbb/releases/tag/release-3.3.16)
+- [phpBB 3.3.17](https://github.com/phpbb/phpbb/releases/tag/release-3.3.17)
   - Extension intégrée :
     - [VigLink](https://github.com/phpbb-extensions/viglink)
 
