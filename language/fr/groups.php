@@ -41,8 +41,8 @@ $lang = array_merge($lang, [
 	'ALREADY_IN_GROUP'         => 'Vous êtes déjà membre de ce groupe.',
 	'ALREADY_IN_GROUP_PENDING' => 'Vous avez déjà demandé à rejoindre ce groupe.',
 
-	'CANNOT_JOIN_GROUP'     => 'Vous ne pouvez pas rejoindre ce groupe : seuls les groupes publics et restreints sont accessibles.',
-	'CANNOT_RESIGN_GROUP'   => 'Vous ne pouvez pas quitter ce groupe : seuls les groupes publics et restreints peuvent être quittés.',
+	'CANNOT_JOIN_GROUP'     => 'Vous ne pouvez pas rejoindre ce groupe : seuls les groupes publics et restreints sont accessibles.',
+	'CANNOT_RESIGN_GROUP'   => 'Vous ne pouvez pas quitter ce groupe : seuls les groupes publics et restreints peuvent être quittés.',
 	'CHANGED_DEFAULT_GROUP' => 'Le groupe par défaut a été modifié.',
 
 	'GROUP_AVATAR'                    => 'Avatar du groupe',
@@ -54,7 +54,7 @@ $lang = array_merge($lang, [
 	'GROUP_IS_CLOSED'                 => 'Ce groupe est privé. Les utilisateurs ne peuvent le rejoindre que sur invitation du responsable.',
 	'GROUP_IS_FREE'                   => 'Ce groupe est public. Tous les utilisateurs peuvent le rejoindre sans restriction.',
 	'GROUP_IS_HIDDEN'                 => 'Ce groupe est invisible. Seuls ses membres peuvent voir les autres adhérents.',
-	'GROUP_IS_OPEN'                   => 'Ce groupe est restreint. Les utilisateurs peuvent demander à le rejoindre ; chaque demande est soumise à approbation.',
+	'GROUP_IS_OPEN'                   => 'Ce groupe est restreint. Les utilisateurs peuvent demander à le rejoindre ; chaque demande est soumise à approbation.',
 	'GROUP_IS_SPECIAL'                => 'Ce groupe est un groupe spécial, géré par les administrateurs du forum.',
 	'GROUP_JOIN'                      => 'Rejoindre le groupe',
 	'GROUP_JOIN_CONFIRM'              => 'Êtes-vous sûr de vouloir rejoindre ce groupe ?',
@@ -80,8 +80,8 @@ $lang = array_merge($lang, [
 	'LOGIN_EXPLAIN_GROUP' => 'Vous devez être connecté pour consulter les informations de ce groupe.',
 
 	'NO_LEADERS'                    => 'Vous n’êtes responsable d’aucun groupe.',
-	'NOT_LEADER_OF_GROUP'           => 'Opération impossible : vous n’êtes pas responsable de ce groupe.',
-	'NOT_MEMBER_OF_GROUP'           => 'Opération impossible : vous n’êtes pas membre de ce groupe, ou votre demande d’adhésion n’a pas encore été approuvée.',
+	'NOT_LEADER_OF_GROUP'           => 'Opération impossible : vous n’êtes pas responsable de ce groupe.',
+	'NOT_MEMBER_OF_GROUP'           => 'Opération impossible : vous n’êtes pas membre de ce groupe, ou votre demande d’adhésion n’a pas encore été approuvée.',
 	'NOT_RESIGN_FROM_DEFAULT_GROUP' => 'Vous ne pouvez pas vous retirer de votre groupe par défaut.',
 
 	'PRIMARY_GROUP' => 'Groupe principal',

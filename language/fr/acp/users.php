@@ -38,7 +38,7 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, [
 	'ADMIN_SIG_PREVIEW'    => 'Prévisualiser la signature',
-	'AT_LEAST_ONE_FOUNDER' => 'Vous ne pouvez pas rétrograder ce fondateur en utilisateur ordinaire : le forum doit conserver au moins un fondateur. Promouvez d’abord un autre utilisateur au statut de fondateur.',
+	'AT_LEAST_ONE_FOUNDER' => 'Vous ne pouvez pas rétrograder ce fondateur en utilisateur ordinaire : le forum doit conserver au moins un fondateur. Promouvez d’abord un autre utilisateur au statut de fondateur.',
 
 	'BAN_ALREADY_ENTERED' => 'Ce bannissement existe déjà. La liste des bannissements n’a pas été mise à jour.',
 	'BAN_SUCCESSFUL'      => 'Le bannissement a été effectué.',

@@ -75,7 +75,7 @@ $lang = array_merge($lang, [
 
 	'ACL_NO'           => 'Non',
 	'ACL_VIEW'         => 'Consultation des permissions',
-	'ACL_VIEW_EXPLAIN' => 'Depuis cette page, vous pouvez consulter toutes les permissions effectives de l’utilisateur ou du groupe sélectionné. Un rectangle rouge indique les permissions qu’il n’a pas ; un rectangle vert, celles qu’il a.',
+	'ACL_VIEW_EXPLAIN' => 'Depuis cette page, vous pouvez consulter toutes les permissions effectives de l’utilisateur ou du groupe sélectionné. Un rectangle rouge indique les permissions qu’il n’a pas ; un rectangle vert, celles qu’il a.',
 	'ACL_YES'          => 'Oui',
 
 	'ACP_ADMINISTRATORS_EXPLAIN'              => 'Depuis cette page, vous pouvez attribuer les permissions des administrateurs à des utilisateurs et des groupes d’utilisateurs, qui pourront alors accéder au panneau de contrôle d’administration.',
@@ -283,5 +283,5 @@ $lang = array_merge($lang, [
 	'VIEW_PERMISSIONS'    => 'Consulter les permissions',
 
 	'WRONG_PERMISSION_TYPE'           => 'Le type de permission est incorrect.',
-	'WRONG_PERMISSION_SETTING_FORMAT' => 'Le traitement des paramètres des permissions a échoué : ils sont enregistrés dans un format incorrect.',
+	'WRONG_PERMISSION_SETTING_FORMAT' => 'Le traitement des paramètres des permissions a échoué : ils sont enregistrés dans un format incorrect.',
 ]);

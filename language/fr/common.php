@@ -577,13 +577,13 @@ $lang = array_merge($lang, [
 	'ONLINE_BUDDIES' => 'Amis en ligne',
 	// "... :: x registered and y hidden"
 	'ONLINE_USERS_TOTAL' => [
-		1 => 'Au total, il y a <strong>%1$d</strong> utilisateur en ligne :: %2$s et %3$s',
-		2 => 'Au total, il y a <strong>%1$d</strong> utilisateurs en ligne :: %2$s et %3$s',
+		1 => 'Au total, il y a <strong>%1$d</strong> utilisateur en ligne :: %2$s et %3$s',
+		2 => 'Au total, il y a <strong>%1$d</strong> utilisateurs en ligne :: %2$s et %3$s',
 	],
 	// "... :: x registered, y hidden and z guests"
 	'ONLINE_USERS_TOTAL_GUESTS' => [
-		1 => 'Au total, il y a <strong>%1$d</strong> utilisateur en ligne :: %2$s, %3$s et %4$s',
-		2 => 'Au total, il y a <strong>%1$d</strong> utilisateurs en ligne :: %2$s, %3$s et %4$s',
+		1 => 'Au total, il y a <strong>%1$d</strong> utilisateur en ligne :: %2$s, %3$s et %4$s',
+		2 => 'Au total, il y a <strong>%1$d</strong> utilisateurs en ligne :: %2$s, %3$s et %4$s',
 	],
 	'OPTIONS' => 'Options',
 
@@ -688,7 +688,7 @@ $lang = array_merge($lang, [
 	'RETURN_TO_INDEX'          => 'Revenir à l’accueil du forum',
 
 	'ROUTE_NOT_FOUND'              => 'La route « %s » est introuvable.',
-	'ROUTE_INVALID_MISSING_PARAMS' => 'Paramètres invalides ou manquants pour la route « %s ».',
+	'ROUTE_INVALID_MISSING_PARAMS' => 'Paramètres invalides ou manquants pour la route « %s ».',
 
 	'FEED'                     => 'Flux',
 	'FEED_NEWS'                => 'Nouveautés',
@@ -754,7 +754,7 @@ $lang = array_merge($lang, [
 	'SORT_TOPIC_TITLE'         => 'Titre du sujet',
 	'SORT_USERNAME'            => 'Nom d’utilisateur',
 	'SPLIT_TOPIC'              => 'Scinder le sujet',
-	'SQL_ERROR_OCCURRED'       => 'Une erreur SQL est survenue lors du chargement de la page. Si le problème persiste, contactez un %sadministrateur du forum%s.',
+	'SQL_ERROR_OCCURRED'       => 'Le chargement de la page a échoué en raison d’une erreur SQL. Si le problème persiste, contactez un %sadministrateur du forum%s.',
 	'STATISTICS'               => 'Statistiques',
 	'START_WATCHING_FORUM'     => 'S’abonner au forum',
 	'START_WATCHING_TOPIC'     => 'S’abonner au sujet',

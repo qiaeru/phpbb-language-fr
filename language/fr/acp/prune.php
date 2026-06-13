@@ -65,7 +65,7 @@ $lang = array_merge($lang, [
 	'USER_DELETE_SUCCESS'     => 'Les utilisateurs ont été supprimés.',
 	'USER_PRUNE_FAILURE'      => 'Aucun utilisateur ne correspond au critère sélectionné.',
 
-	'WRONG_ACTIVE_JOINED_DATE' => 'La date est incorrecte, elle doit obligatoirement respecter le format « AAAA-MM-JJ »',
+	'WRONG_ACTIVE_JOINED_DATE' => 'La date est incorrecte : elle doit respecter le format « AAAA-MM-JJ ».',
 ]);
 
 // Forum Pruning

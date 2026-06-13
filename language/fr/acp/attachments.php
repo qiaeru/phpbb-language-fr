@@ -40,7 +40,7 @@ $lang = array_merge($lang, [
 	'ACP_ATTACHMENT_SETTINGS_EXPLAIN' => 'Depuis cette page, vous pouvez configurer les paramètres relatifs aux pièces jointes et à leurs catégories spéciales.',
 	'ACP_EXTENSION_GROUPS_EXPLAIN'    => 'Depuis cette page, vous pouvez ajouter, supprimer, modifier ou désactiver les groupes d’extensions de pièces jointes. Vous pouvez assigner des catégories spéciales, modifier le mécanisme de téléchargement et définir une icône d’import affichée devant les pièces jointes du groupe.',
 	'ACP_MANAGE_EXTENSIONS_EXPLAIN'   => 'Depuis cette page, vous pouvez gérer les extensions des pièces jointes autorisées à être importées et téléchargées sur votre forum. Pour activer une extension, vous devez vous rendre sur le panneau de gestion des groupes d’extensions. Pour des raisons de sécurité, nous vous recommandons de ne pas autoriser les extensions de langages de programmation (telles que « php », « php3 », « php4 », « phtml », « pl », « cgi », « py », « rb », « asp », « aspx », etc.).',
-	'ACP_ORPHAN_ATTACHMENTS_EXPLAIN'  => 'Depuis cette page, vous pouvez consulter les fichiers orphelins : pièces jointes importées et insérées dans des messages qui n’ont jamais été soumis par leur auteur. Vous pouvez les supprimer ou les attacher à des messages existants en saisissant leur identifiant.',
+	'ACP_ORPHAN_ATTACHMENTS_EXPLAIN'  => 'Depuis cette page, vous pouvez consulter les fichiers orphelins : pièces jointes importées et insérées dans des messages qui n’ont jamais été soumis par leur auteur. Vous pouvez les supprimer ou les attacher à des messages existants en saisissant leur identifiant.',
 	'ADD_EXTENSION'                   => 'Ajouter une extension',
 	'ADD_EXTENSION_GROUP'             => 'Ajouter un groupe d’extensions',
 	'ADMIN_UPLOAD_ERROR'              => 'Échec de l’insertion du fichier « %s ».',
@@ -102,7 +102,7 @@ $lang = array_merge($lang, [
 	'EXT_GROUP_PLAIN_TEXT'         => 'Texte brut',
 
 	'FILES_GONE'        => 'Certaines pièces jointes à supprimer sont introuvables (peut-être déjà supprimées). Les pièces jointes détectées ont bien été supprimées.',
-	'FILES_STATS_WRONG' => 'Les fichiers statistiques semblent contenir des informations erronées et doivent être resynchronisés. Valeurs actuelles : %1$d pièces jointes, taille totale %2$s.<br>Cliquez %3$sici%4$s pour resynchroniser les fichiers statistiques.',
+	'FILES_STATS_WRONG' => 'Les fichiers statistiques semblent contenir des informations erronées et doivent être resynchronisés. Valeurs actuelles : %1$d pièces jointes, taille totale %2$s.<br>Cliquez %3$sici%4$s pour resynchroniser les fichiers statistiques.',
 
 	'GO_TO_EXTENSIONS' => 'Aller sur la page de gestion des extensions',
 	'GROUP_NAME'       => 'Nom du groupe d’extensions',
@@ -110,9 +110,9 @@ $lang = array_merge($lang, [
 	'IMAGE_LINK_SIZE'              => 'Dimensions maximales des images avant la transformation en lien',
 	'IMAGE_LINK_SIZE_EXPLAIN'      => 'Les images importées en pièces jointes seront affichées comme des liens si elles dépassent les valeurs indiquées dans ces champs. Réglez ces deux valeurs sur « 0 » pour désactiver ce comportement.',
 	'IMAGE_QUALITY'                => 'Qualité des images importées comme pièces jointes (format JPEG uniquement)',
-	'IMAGE_QUALITY_EXPLAIN'        => 'Indiquez une valeur entre 50 % (taille de fichier minimale) et 90 % (qualité maximale). Au-delà de 90 %, la taille de fichier augmente fortement et le réglage est donc désactivé. Ce paramètre n’est pris en compte que si la dimension maximale des images est différente de « 0 px × 0 px ».',
+	'IMAGE_QUALITY_EXPLAIN'        => 'Indiquez une valeur entre 50 % (taille de fichier minimale) et 90 % (qualité maximale). Au-delà de 90 %, la taille de fichier augmente fortement et le réglage est donc désactivé. Ce paramètre n’est pris en compte que si la dimension maximale des images est différente de « 0 px × 0 px ».',
 	'IMAGE_STRIP_METADATA'         => 'Supprimer les métadonnées des images (format JPEG uniquement)',
-	'IMAGE_STRIP_METADATA_EXPLAIN' => 'Supprime les métadonnées EXIF (nom de l’auteur, coordonnées GPS, informations sur l’appareil photographique, etc.). Ce paramètre n’est pris en compte que si la dimension maximale des images est différente de « 0 px × 0 px ».',
+	'IMAGE_STRIP_METADATA_EXPLAIN' => 'Supprime les métadonnées EXIF (nom de l’auteur, coordonnées GPS, informations sur l’appareil photographique, etc.). Ce paramètre n’est pris en compte que si la dimension maximale des images est différente de « 0 px × 0 px ».',
 
 	'MAX_ATTACHMENTS'            => 'Limite de pièces jointes par message',
 	'MAX_ATTACHMENTS_PM'         => 'Limite de pièces jointes par message privé',
@@ -149,7 +149,7 @@ $lang = array_merge($lang, [
 	'RESYNC_FILES_STATS_CONFIRM' => 'Êtes-vous sûr de vouloir resynchroniser les fichiers statistiques ?',
 
 	'SECURE_ALLOW_DENY'              => 'Comportement des téléchargements sécurisés',
-	'SECURE_ALLOW_DENY_EXPLAIN'      => 'Si les téléchargements sécurisés sont activés, cette option permet de modifier le comportement par défaut : autoriser (liste blanche) ou interdire (liste noire) les adresses IP et noms d’hôtes indiqués à télécharger les pièces jointes du forum.',
+	'SECURE_ALLOW_DENY_EXPLAIN'      => 'Si les téléchargements sécurisés sont activés, cette option permet de modifier le comportement par défaut : autoriser (liste blanche) ou interdire (liste noire) les adresses IP et noms d’hôtes indiqués à télécharger les pièces jointes du forum.',
 	'SECURE_DOWNLOADS'               => 'Activer les téléchargements sécurisés',
 	'SECURE_DOWNLOADS_EXPLAIN'       => 'Si cette option est activée, les téléchargements sont limités aux adresses IP et noms d’hôtes indiqués.',
 	'SECURE_DOWNLOAD_NOTICE'         => 'Les téléchargements sécurisés sont désactivés. Les paramètres ci-dessous ne s’appliquent que lorsqu’ils sont activés.',

@@ -65,13 +65,13 @@ $lang = array_merge($lang, [
 	'CAN_LEAVE_BLANK'          => 'Ce champ peut être laissé vide.',
 	'CHANGE_POSTER'            => 'Modifier l’auteur',
 	'CLOSE_PM_REPORT'          => 'Clôturer le signalement de MP',
-	'CLOSE_PM_REPORT_CONFIRM'  => 'Êtes-vous sûr de vouloir clôturer ce signalement de MP ?',
+	'CLOSE_PM_REPORT_CONFIRM'  => 'Êtes-vous sûr de vouloir clôturer ce signalement de MP ?',
 	'CLOSE_PM_REPORTS'         => 'Clôturer les signalements de MP',
-	'CLOSE_PM_REPORTS_CONFIRM' => 'Êtes-vous sûr de vouloir clôturer ces signalements de MP ?',
+	'CLOSE_PM_REPORTS_CONFIRM' => 'Êtes-vous sûr de vouloir clôturer ces signalements de MP ?',
 	'CLOSE_REPORT'             => 'Clôturer le signalement',
-	'CLOSE_REPORT_CONFIRM'     => 'Êtes-vous sûr de vouloir clôturer ce signalement ?',
+	'CLOSE_REPORT_CONFIRM'     => 'Êtes-vous sûr de vouloir clôturer ce signalement ?',
 	'CLOSE_REPORTS'            => 'Clôturer les signalements',
-	'CLOSE_REPORTS_CONFIRM'    => 'Êtes-vous sûr de vouloir clôturer ces signalements ?',
+	'CLOSE_REPORTS_CONFIRM'    => 'Êtes-vous sûr de vouloir clôturer ces signalements ?',
 
 	'DELETE_PM_REPORT'          => 'Supprimer le signalement de MP',
 	'DELETE_PM_REPORT_CONFIRM'  => 'Êtes-vous sûr de vouloir supprimer ce signalement de MP ?',
@@ -259,7 +259,7 @@ $lang = array_merge($lang, [
 	'ONLY_TOPIC'  => 'Le sujet « %s » uniquement',
 	'OTHER_USERS' => 'Autres utilisateurs ayant publié avec cette adresse IP',
 
-	'QUICKMOD_ACTION_NOT_ALLOWED' => '« %s » n’est pas autorisé comme action rapide de modération.',
+	'QUICKMOD_ACTION_NOT_ALLOWED' => '« %s » n’est pas autorisé comme action rapide de modération.',
 
 	'PM_REPORT_CLOSED_SUCCESS'   => 'Le signalement de MP a été clôturé.',
 	'PM_REPORT_DELETED_SUCCESS'  => 'Le signalement de MP a été supprimé.',

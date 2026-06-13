@@ -334,7 +334,7 @@ $lang = array_merge($lang, [
 $lang = array_merge($lang, [
 	'ACP_PHP_INFO_EXPLAIN' => 'Depuis cette page, vous pouvez consulter les informations sur la version de PHP installée sur votre serveur. Elles incluent les modules chargés, les variables disponibles et les paramètres par défaut. Ces informations sont utiles pour diagnostiquer des problèmes côté serveur. Notez que certains hébergeurs limitent leur affichage pour des raisons de sécurité. Il est déconseillé de divulguer ces informations, sauf si elles sont explicitement demandées par un membre de <a href="https://www.phpbb.com/about/team/">notre équipe</a> (en anglais) sur les forums d’assistance.', //www.phpbb.com/about/team/">membres de notre équipe</a> (en anglais) sur les forums d’assistance.',
 
-	'NO_PHPINFO_AVAILABLE' => 'Impossible d’afficher les informations sur votre configuration de PHP : la fonction « phpinfo() » a été désactivée pour des raisons de sécurité.',
+	'NO_PHPINFO_AVAILABLE' => 'Impossible d’afficher les informations sur votre configuration de PHP : la fonction « phpinfo() » a été désactivée pour des raisons de sécurité.',
 ]);
 
 // Logs
@@ -369,22 +369,22 @@ $lang = array_merge($lang, [
 
 	// Enviroment configuration checks, mbstring related
 	'ERROR_MBSTRING_FUNC_OVERLOAD'                => 'La fonction de surcharge n’est pas correctement configurée',
-	'ERROR_MBSTRING_FUNC_OVERLOAD_EXPLAIN'        => 'La variable « mbstring.func_overload » doit être réglée sur « 0 » ou « 4 ». Vous pouvez consulter la valeur actuelle sur la page « Informations sur PHP ».',
+	'ERROR_MBSTRING_FUNC_OVERLOAD_EXPLAIN'        => 'La variable « mbstring.func_overload » doit être réglée sur « 0 » ou « 4 ». Vous pouvez consulter la valeur actuelle sur la page « Informations sur PHP ».',
 	'ERROR_MBSTRING_ENCODING_TRANSLATION'         => 'L’encodage des caractères transparents n’est pas correctement configuré',
-	'ERROR_MBSTRING_ENCODING_TRANSLATION_EXPLAIN' => 'La variable « mbstring.encoding_translation » doit être réglée sur « 0 ». Vous pouvez consulter la valeur actuelle sur la page « Informations sur PHP ».',
+	'ERROR_MBSTRING_ENCODING_TRANSLATION_EXPLAIN' => 'La variable « mbstring.encoding_translation » doit être réglée sur « 0 ». Vous pouvez consulter la valeur actuelle sur la page « Informations sur PHP ».',
 	'ERROR_MBSTRING_HTTP_INPUT'                   => 'La conversion des caractères d’entrée HTTP n’est pas correctement configurée',
-	'ERROR_MBSTRING_HTTP_INPUT_EXPLAIN'           => 'La variable « mbstring.http_input » doit être laissée vide. Vous pouvez consulter la valeur actuelle sur la page « Informations sur PHP ».',
+	'ERROR_MBSTRING_HTTP_INPUT_EXPLAIN'           => 'La variable « mbstring.http_input » doit être laissée vide. Vous pouvez consulter la valeur actuelle sur la page « Informations sur PHP ».',
 	'ERROR_MBSTRING_HTTP_OUTPUT'                  => 'La conversion des caractères de sortie HTTP n’est pas correctement configurée',
-	'ERROR_MBSTRING_HTTP_OUTPUT_EXPLAIN'          => 'La variable « mbstring.http_output » doit être laissée vide. Vous pouvez consulter la valeur actuelle sur la page « Informations sur PHP ».',
+	'ERROR_MBSTRING_HTTP_OUTPUT_EXPLAIN'          => 'La variable « mbstring.http_output » doit être laissée vide. Vous pouvez consulter la valeur actuelle sur la page « Informations sur PHP ».',
 	'ERROR_DEFAULT_CHARSET'                       => 'Le jeu de caractères par défaut est mal configuré',
-	'ERROR_DEFAULT_CHARSET_EXPLAIN'               => 'La variable « default_charset » doit être réglée sur « UTF-8 ». Vous pouvez consulter la valeur actuelle sur la page « Informations sur PHP ».',
+	'ERROR_DEFAULT_CHARSET_EXPLAIN'               => 'La variable « default_charset » doit être réglée sur « UTF-8 ». Vous pouvez consulter la valeur actuelle sur la page « Informations sur PHP ».',
 
 	'FILES_PER_DAY' => 'Moyenne de pièces jointes par jour',
 	'FORUM_STATS'   => 'Statistiques du forum',
 
 	'GZIP_COMPRESSION' => 'Compression GZip',
 
-	'NO_SEARCH_INDEX' => 'La méthode d’indexation de la recherche sélectionnée n’est associée à aucun index. Créez l’index associé à « %1$s » dans la section « %2$sIndex de recherche%3$s ».',
+	'NO_SEARCH_INDEX' => 'La méthode d’indexation de la recherche sélectionnée n’est associée à aucun index. Créez l’index associé à « %1$s » dans la section « %2$sIndex de recherche%3$s ».',
 	'NOT_AVAILABLE'   => 'Non disponible',
 	'NUMBER_FILES'    => 'Nombre de pièces jointes',
 	'NUMBER_POSTS'    => 'Nombre de messages',
@@ -403,7 +403,7 @@ $lang = array_merge($lang, [
 	'PURGE_CACHE_SUCCESS' => 'Le cache a été vidé.',
 
 	'PURGE_SESSIONS'         => 'Vider toutes les sessions',
-	'PURGE_SESSIONS_CONFIRM' => 'Êtes-vous sûr de vouloir vider toutes les sessions ? Tous les utilisateurs seront déconnectés.',
+	'PURGE_SESSIONS_CONFIRM' => 'Êtes-vous sûr de vouloir vider toutes les sessions ? Tous les utilisateurs seront déconnectés.',
 	'PURGE_SESSIONS_EXPLAIN' => 'Toutes les sessions seront supprimées et tous les utilisateurs seront déconnectés.',
 	'PURGE_SESSIONS_SUCCESS' => 'Les sessions ont été vidées.',
 
@@ -411,7 +411,7 @@ $lang = array_merge($lang, [
 	'RESET_DATE_CONFIRM'          => 'Êtes-vous sûr de vouloir réinitialiser la date d’ouverture du forum ?',
 	'RESET_DATE_SUCCESS'          => 'La date d’ouverture du forum a été réinitialisée.',
 	'RESET_ONLINE'                => 'Réinitialiser le compteur d’utilisateurs en ligne simultanément',
-	'RESET_ONLINE_CONFIRM'        => 'Êtes-vous sûr de vouloir réinitialiser le compteur d’utilisateurs en ligne simultanément ?',
+	'RESET_ONLINE_CONFIRM'        => 'Êtes-vous sûr de vouloir réinitialiser le compteur d’utilisateurs en ligne simultanément ?',
 	'RESET_ONLINE_SUCCESS'        => 'Le compteur d’utilisateurs en ligne simultanément a été réinitialisé.',
 	'RESYNC_POSTCOUNTS'           => 'Resynchroniser le compteur de messages',
 	'RESYNC_POSTCOUNTS_EXPLAIN'   => 'Tous les messages actuels seront recomptés. Les messages délestés ne seront pas pris en compte.',
@@ -452,7 +452,7 @@ $lang = array_merge($lang, [
 	'VIEW_INACTIVE_USERS'          => 'Consulter la liste des utilisateurs inactifs',
 
 	'WELCOME_PHPBB'   => 'Bienvenue sur phpBB',
-	'WRITABLE_CONFIG' => 'Les droits d’accès en écriture de votre fichier de configuration « config.php » sont actuellement publics. Nous vous recommandons fortement de les modifier en 640 via la commande « <a href="https://fr.wikipedia.org/wiki/Chmod">chmod</a> 640 config.php », ou en 644 si nécessaire.', //fr.wikipedia.org/wiki/Chmod">chmod</a> 640 config.php », ou, le cas échéant, en 644.',
+	'WRITABLE_CONFIG' => 'Les droits d’accès en écriture de votre fichier de configuration « config.php » sont actuellement publics. Nous vous recommandons fortement de les modifier en 640 via la commande « <a href="https://fr.wikipedia.org/wiki/Chmod">chmod</a> 640 config.php », ou en 644 si nécessaire.', //fr.wikipedia.org/wiki/Chmod">chmod</a> 640 config.php », ou, le cas échéant, en 644.',
 ]);
 
 // Inactive Users

@@ -37,7 +37,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, [
-	'ACP_GROUPS_MANAGE_EXPLAIN' => 'Depuis cette page, vous pouvez gérer tous les groupes d’utilisateurs du forum : les créer, les modifier ou les supprimer ; définir leur statut (restreint, privé, invisible…) ; saisir leur nom et leur description ; nommer leurs responsables.',
+	'ACP_GROUPS_MANAGE_EXPLAIN' => 'Depuis cette page, vous pouvez gérer tous les groupes d’utilisateurs du forum : les créer, les modifier ou les supprimer ; définir leur statut (restreint, privé, invisible…) ; saisir leur nom et leur description ; nommer leurs responsables.',
 	'ADD_GROUP_CATEGORY'        => 'Ajouter une catégorie',
 	'ADD_USERS'                 => 'Ajouter des utilisateurs',
 	'ADD_USERS_EXPLAIN'         => 'Ajoutez ici de nouveaux utilisateurs à un groupe. Vous pouvez aussi définir le groupe par défaut des utilisateurs sélectionnés et promouvoir certains membres en responsables. Saisissez chaque nom d’utilisateur sur une nouvelle ligne.',
@@ -69,7 +69,7 @@ $lang = array_merge($lang, [
 	'GROUP_DEMOTE'                 => 'Rétrograder le responsable du groupe',
 	'GROUP_DESC'                   => 'Description du groupe',
 	'GROUP_DETAILS'                => 'Informations sur le groupe',
-	'GROUP_EDIT_EXPLAIN'           => 'Depuis cette page, vous pouvez modifier un groupe d’utilisateurs existant : nom, description, type (restreint, privé, etc.), aspects visuels (couleur, rang, etc.). Les modifications remplacent les paramètres individuels des utilisateurs. Si leurs permissions le permettent, les membres peuvent toutefois remplacer l’avatar du groupe par un avatar personnalisé.',
+	'GROUP_EDIT_EXPLAIN'           => 'Depuis cette page, vous pouvez modifier un groupe d’utilisateurs existant : nom, description, type (restreint, privé, etc.), aspects visuels (couleur, rang, etc.). Les modifications remplacent les paramètres individuels des utilisateurs. Si leurs permissions le permettent, les membres peuvent toutefois remplacer l’avatar du groupe par un avatar personnalisé.',
 	'GROUP_ERR_USERS_EXIST'        => 'Ces utilisateurs sont déjà membres de ce groupe.',
 	'GROUP_FOUNDER_MANAGE'         => 'Limiter la gestion du groupe aux fondateurs uniquement',
 	'GROUP_FOUNDER_MANAGE_EXPLAIN' => 'Seuls les fondateurs du forum peuvent gérer ce groupe. Les membres du groupe peuvent toutefois le consulter.',
@@ -81,7 +81,7 @@ $lang = array_merge($lang, [
 	'GROUP_LIST'                   => 'Membres actuels',
 	'GROUP_LIST_EXPLAIN'           => 'Liste complète des membres actuels de ce groupe d’utilisateurs. Vous pouvez en supprimer (sauf dans certains groupes spéciaux) ou en ajouter.',
 	'GROUP_MEMBERS'                => 'Membres du groupe',
-	'GROUP_MEMBERS_EXPLAIN'        => 'Liste complète des membres de ce groupe, répartis en trois sections : responsables, membres en attente et membres existants. Vous pouvez gérer leurs rôles et responsabilités depuis cette page. Pour supprimer un responsable tout en le conservant dans le groupe, utilisez la rétrogradation plutôt que la suppression. Pour promouvoir un membre en responsable, utilisez la promotion.',
+	'GROUP_MEMBERS_EXPLAIN'        => 'Liste complète des membres de ce groupe, répartis en trois sections : responsables, membres en attente et membres existants. Vous pouvez gérer leurs rôles et responsabilités depuis cette page. Pour supprimer un responsable tout en le conservant dans le groupe, utilisez la rétrogradation plutôt que la suppression. Pour promouvoir un membre en responsable, utilisez la promotion.',
 	'GROUP_MESSAGE_LIMIT'          => 'Limite de messages privés par boîte des membres du groupe',
 	'GROUP_MESSAGE_LIMIT_EXPLAIN'  => 'La limite des messages privés par boîte des utilisateurs sera remplacée par cette valeur. La valeur maximale de tous les groupes de l’utilisateur est utilisée pour déterminer la valeur actuelle.<br>Réglez cette valeur sur « 0 » pour remplacer les paramètres de tous les utilisateurs de ce groupe par les paramètres généraux du forum.',
 	'GROUP_MODS_ADDED'             => 'Les nouveaux responsables du groupe ont été ajoutés.',

@@ -38,7 +38,7 @@ if (empty($lang) || !is_array($lang))
 
 // Email settings
 $lang = array_merge($lang, [
-	'ACP_MASS_EMAIL_EXPLAIN' => 'Depuis cette page, vous pouvez envoyer un e-mail à tous les utilisateurs ou à ceux d’un groupe spécifique qui acceptent les e-mails de masse. Un e-mail est envoyé à l’adresse renseignée par les administrateurs, et une copie est adressée à chaque destinataire. La configuration par défaut limite à 20 destinataires par e-mail ; au-delà, plusieurs e-mails sont envoyés. Plus il y a de destinataires, plus l’opération est longue. L’envoi en masse peut prendre un certain temps : ne quittez pas la page avant la fin de l’opération.',
+	'ACP_MASS_EMAIL_EXPLAIN' => 'Depuis cette page, vous pouvez envoyer un e-mail à tous les utilisateurs ou à ceux d’un groupe spécifique qui acceptent les e-mails de masse. Un e-mail est envoyé à l’adresse renseignée par les administrateurs, et une copie est adressée à chaque destinataire. La configuration par défaut limite à 20 destinataires par e-mail ; au-delà, plusieurs e-mails sont envoyés. Plus il y a de destinataires, plus l’opération est longue. L’envoi en masse peut prendre un certain temps : ne quittez pas la page avant la fin de l’opération.',
 	'ALL_USERS'              => 'Tous les utilisateurs',
 
 	'COMPOSE' => 'Rédiger',
@@ -61,7 +61,7 @@ $lang = array_merge($lang, [
 	'MAIL_NORMAL_PRIORITY' => 'Normale',
 	'MAIL_PRIORITY'        => 'Priorité de l’e-mail',
 	'MASS_MESSAGE'         => 'Message',
-	'MASS_MESSAGE_EXPLAIN' => 'Le message ne doit contenir que du texte brut ; toutes les balises sont automatiquement supprimées.',
+	'MASS_MESSAGE_EXPLAIN' => 'Le message ne doit contenir que du texte brut ; toutes les balises sont automatiquement supprimées.',
 
 	'NO_EMAIL_MESSAGE' => 'Saisissez un message.',
 	'NO_EMAIL_SUBJECT' => 'Saisissez l’objet de votre message.',

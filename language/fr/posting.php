@@ -189,8 +189,8 @@ $lang = array_merge($lang, [
 
 	'PARTIAL_UPLOAD'           => 'L’import du fichier est incomplet.',
 	'PHP_UPLOAD_STOPPED'       => 'Une extension PHP a interrompu l’import du fichier.',
-	'PHP_SIZE_NA'              => 'La pièce jointe est trop volumineuse.<br>Impossible de déterminer la taille maximale autorisée définie dans « php.ini ».',
-	'PHP_SIZE_OVERRUN'         => 'La pièce jointe est trop volumineuse, la taille maximale autorisée est de %1$d %2$s.<br>Cette valeur est définie dans « php.ini » et ne peut pas être modifiée.',
+	'PHP_SIZE_NA'              => 'La pièce jointe est trop volumineuse.<br>Impossible de déterminer la taille maximale autorisée définie dans « php.ini ».',
+	'PHP_SIZE_OVERRUN'         => 'La pièce jointe est trop volumineuse, la taille maximale autorisée est de %1$d %2$s.<br>Cette valeur est définie dans « php.ini » et ne peut pas être modifiée.',
 	'PLACE_INLINE'             => 'Insérer dans la ligne',
 	'POLL_DELETE'              => 'Supprimer le sondage',
 	'POLL_FOR'                 => 'Durée du sondage',
@@ -236,11 +236,11 @@ $lang = array_merge($lang, [
 	],
 	'QUOTE_NO_NESTING' => 'Vous ne pouvez pas imbriquer de citations.',
 
-	'REMOTE_UPLOAD_TIMEOUT'      => 'L’import du fichier a échoué : le délai d’attente de la requête a expiré.',
+	'REMOTE_UPLOAD_TIMEOUT'      => 'L’import du fichier a échoué : le délai d’attente de la requête a expiré.',
 	'SAVE'                       => 'Enregistrer',
 	'SAVE_DATE'                  => 'Enregistré le',
 	'SAVE_DRAFT'                 => 'Enregistrer comme brouillon',
-	'SAVE_DRAFT_CONFIRM'         => 'Notez que les messages enregistrés comme brouillons ne comportent que le titre et le texte ; tout autre élément sera supprimé. Souhaitez-vous enregistrer votre message comme brouillon ?',
+	'SAVE_DRAFT_CONFIRM'         => 'Notez que les messages enregistrés comme brouillons ne comportent que le titre et le texte ; tout autre élément sera supprimé. Souhaitez-vous enregistrer votre message comme brouillon ?',
 	'SMILIES'                    => 'Émoticônes',
 	'SMILIES_ARE_OFF'            => 'Les émoticônes sont <em>désactivées</em>',
 	'SMILIES_ARE_ON'             => 'Les émoticônes sont <em>activées</em>',
@@ -264,7 +264,7 @@ $lang = array_merge($lang, [
 	'TOO_MANY_POLL_OPTIONS' => 'Vous avez tenté de voter pour un trop grand nombre d’options.',
 	'TOO_MANY_SMILIES'      => 'Votre message contient trop d’émoticônes. La limite maximale d’émoticônes est de %d.',
 	'TOO_MANY_URLS'         => 'Votre message contient trop de liens. La limite maximale de liens est de %d.',
-	'TOO_MANY_USER_OPTIONS' => 'Vous ne pouvez pas définir autant d’options par utilisateur : le sondage en contient moins.',
+	'TOO_MANY_USER_OPTIONS' => 'Vous ne pouvez pas définir autant d’options par utilisateur : le sondage en contient moins.',
 	'TOPIC_BUMPED'          => 'Le sujet a été remonté.',
 
 	'UNAUTHORISED_BBCODE'            => 'Vous ne pouvez pas utiliser certains BBCodes : %s.',
@@ -284,6 +284,6 @@ $lang = array_merge($lang, [
 	'VIEW_MESSAGE'         => '%sConsulter le message%s',
 	'VIEW_PRIVATE_MESSAGE' => '%sConsulter le message privé%s',
 
-	'WRONG_FILESIZE' => 'Le fichier est trop lourd : la taille maximale autorisée est de %1$d %2$s.',
+	'WRONG_FILESIZE' => 'Le fichier est trop lourd : la taille maximale autorisée est de %1$d %2$s.',
 	'WRONG_SIZE'     => 'L’image doit mesurer entre %3$s × %4$s et %1$s × %2$s. Votre image fait %5$s × %6$s.',
 ]);

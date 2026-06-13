@@ -89,7 +89,7 @@ $lang = array_merge($lang, [
 		'RELATIVE_URL' => 'Une URL relative. Vous pouvez utiliser des résultats partiels d’une URL, mais soyez vigilant, car une URL complète est une URL relative valide. Pour utiliser les URL relatives de votre forum, utilisez la variable « LOCAL_URL ».',
 		'COLOR'        => 'Une couleur HTML qui peut être dans une forme hexadécimale « #FF1234 » ou un <a href="https://www.w3.org/TR/css3-color/#colorunits">nom de couleur CSS</a> (en anglais), tel que « black » ou « fuchsia ».',
 		'ALNUM'        => 'Caractères de l’alphabet latin (A-Z) et chiffres.',
-		'CHOICE'       => 'Un choix de valeurs indiquées, par exemple <samp>{CHOICE=pique,cœur,carreau,trèfle}</samp>. Les valeurs sont traitées comme insensibles à la casse par défaut et peuvent être traitées comme sensibles à la casse en spécifiant l’option <samp>caseSensitive</samp> : <samp>{CHOICE=pique,cœur,carreau,trèfle;caseSensitive}</samp>',
+		'CHOICE'       => 'Un choix de valeurs indiquées, par exemple <samp>{CHOICE=pique,cœur,carreau,trèfle}</samp>. Les valeurs sont traitées comme insensibles à la casse par défaut et peuvent être traitées comme sensibles à la casse en spécifiant l’option <samp>caseSensitive</samp> : <samp>{CHOICE=pique,cœur,carreau,trèfle;caseSensitive}</samp>',
 		'FLOAT'        => 'Une valeur décimale, par exemple <samp>0.5</samp>.',
 		'HASHMAP'      => 'Associe des chaînes à leur remplaçant sous la forme <samp>{HASHMAP=chaîne1:remplacement1,chaîne2:remplacement2}</samp>. Sensible à la casse. Préserve les valeurs inconnues par défaut.',
 		'INT'          => 'Une valeur entière, par exemple <samp>2</samp>.',
@@ -165,12 +165,12 @@ $lang = array_merge($lang, [
 
 	'MASS_ADD_SMILIES' => 'Ajouter plusieurs émoticônes',
 
-	'NO_ICONS_ADD'      => 'Impossible d’ajouter une icône : aucune n’est disponible.',
-	'NO_ICONS_EDIT'     => 'Impossible de modifier une icône : aucune n’est disponible.',
+	'NO_ICONS_ADD'      => 'Impossible d’ajouter une icône : aucune n’est disponible.',
+	'NO_ICONS_EDIT'     => 'Impossible de modifier une icône : aucune n’est disponible.',
 	'NO_ICONS_EXPORT'   => 'Vous n’avez aucune icône pour créer une archive.',
 	'NO_ICONS_PAK'      => 'Aucune archive d’icônes n’a été trouvée.',
-	'NO_SMILIES_ADD'    => 'Impossible d’ajouter une émoticône : aucune n’est disponible.',
-	'NO_SMILIES_EDIT'   => 'Impossible de modifier une émoticône : aucune n’est disponible.',
+	'NO_SMILIES_ADD'    => 'Impossible d’ajouter une émoticône : aucune n’est disponible.',
+	'NO_SMILIES_EDIT'   => 'Impossible de modifier une émoticône : aucune n’est disponible.',
 	'NO_SMILIES_EXPORT' => 'Vous n’avez aucune émoticône pour créer une archive.',
 	'NO_SMILIES_PAK'    => 'Aucune archive d’émoticônes n’a été trouvée.',
 
@@ -245,7 +245,7 @@ $lang = array_merge($lang, [
 
 	'NO_ASSIGNED_RANK' => 'Aucun rang spécial n’a été indiqué.',
 	'NO_RANK_TITLE'    => 'Le titre du rang n’a pas été indiqué.',
-	'NO_UPDATE_RANKS'  => 'Le rang a été supprimé. Les comptes des utilisateurs qui l’utilisent n’ont pas été mis à jour ; réinitialisez leur rang manuellement.',
+	'NO_UPDATE_RANKS'  => 'Le rang a été supprimé. Les comptes des utilisateurs qui l’utilisent n’ont pas été mis à jour ; réinitialisez leur rang manuellement.',
 
 	'RANK_ADDED'         => 'Le rang a été ajouté.',
 	'RANK_IMAGE'         => 'Image du rang',

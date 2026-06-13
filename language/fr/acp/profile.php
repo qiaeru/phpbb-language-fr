@@ -47,7 +47,7 @@ $lang = array_merge($lang, [
 	'ALWAYS_TODAY'        => 'Toujours la date actuelle',
 
 	'BOOL_ENTRIES_EXPLAIN' => 'Saisissez vos options.',
-	'BOOL_TYPE_EXPLAIN'    => 'Détermine le type : case à cocher ou bouton radio. Les cases à cocher ne s’affichent que si elles sont cochées pour l’utilisateur ; la seconde option de langue est alors utilisée. Les boutons radio s’affichent dans tous les cas.',
+	'BOOL_TYPE_EXPLAIN'    => 'Détermine le type : case à cocher ou bouton radio. Les cases à cocher ne s’affichent que si elles sont cochées pour l’utilisateur ; la seconde option de langue est alors utilisée. Les boutons radio s’affichent dans tous les cas.',
 
 	'CHANGED_PROFILE_FIELD'        => 'Le champ de profil a été modifié.',
 	'CHARS_ANY'                    => 'N’importe quel caractère',
@@ -71,7 +71,7 @@ $lang = array_merge($lang, [
 	'DISPLAY_AT_REGISTER'           => 'Afficher lors de l’inscription',
 	'DISPLAY_AT_REGISTER_EXPLAIN'   => 'Si cette option est activée, le champ est affiché lors de l’inscription.',
 	'DISPLAY_ON_MEMBERLIST'         => 'Afficher sur la page de la liste des membres',
-	'DISPLAY_ON_MEMBERLIST_EXPLAIN' => 'Si cette option est activée, le champ est affiché dans la colonne « Utilisateurs » de la liste des membres.',
+	'DISPLAY_ON_MEMBERLIST_EXPLAIN' => 'Si cette option est activée, le champ est affiché dans la colonne « Utilisateurs » de la liste des membres.',
 	'DISPLAY_ON_PM'                 => 'Afficher sur la page de consultation des messages privés',
 	'DISPLAY_ON_PM_EXPLAIN'         => 'Si cette option est activée, le champ est affiché dans le profil miniature de la page des messages privés.',
 	'DISPLAY_ON_VT'                 => 'Afficher sur la page de la liste des sujets',
@@ -80,7 +80,7 @@ $lang = array_merge($lang, [
 	'DISPLAY_PROFILE_FIELD_EXPLAIN' => 'Le champ de profil est affiché à tous les emplacements autorisés par les paramètres de charge. Désactivez cette option pour masquer le champ sur les pages des sujets, les profils et la liste des membres.',
 	'DROPDOWN_ENTRIES_EXPLAIN'      => 'Saisissez vos options. Chaque option doit être sur une nouvelle ligne.',
 
-	'EDIT_DROPDOWN_LANG_EXPLAIN' => 'Vous pourrez modifier les libellés et ajouter de nouvelles options plus tard. Évitez d’insérer de nouvelles options entre des options existantes : cela pourrait attribuer une mauvaise option à vos utilisateurs. Idem si vous supprimez une option utilisée : ces utilisateurs seront alors redirigés vers l’élément par défaut.',
+	'EDIT_DROPDOWN_LANG_EXPLAIN' => 'Vous pourrez modifier les libellés et ajouter de nouvelles options plus tard. Évitez d’insérer de nouvelles options entre des options existantes : cela pourrait attribuer une mauvaise option à vos utilisateurs. Idem si vous supprimez une option utilisée : ces utilisateurs seront alors redirigés vers l’élément par défaut.',
 	'EMPTY_FIELD_IDENT'          => 'Identification du champ vide',
 	'EMPTY_USER_FIELD_NAME'      => 'Saisissez le nom ou le titre du champ.',
 	'ENTRIES'                    => 'Éléments',
@@ -98,7 +98,7 @@ $lang = array_merge($lang, [
 	'FIELD_IDENT_EXPLAIN'       => 'L’identifiant du champ permet de l’identifier dans la base de données et les modèles.',
 	'FIELD_INT'                 => 'Chiffres',
 	'FIELD_IS_CONTACT'          => 'Afficher le champ comme un champ de contact',
-	'FIELD_IS_CONTACT_EXPLAIN'  => 'Les champs de contact sont affichés dans la section de contact sur le profil des utilisateurs et sont affichés différemment dans le profil miniature situé à côté des messages et des messages privés. Vous pouvez utiliser « %s » comme variable substitutive : elle sera remplacée par la valeur saisie par l’utilisateur.',
+	'FIELD_IS_CONTACT_EXPLAIN'  => 'Les champs de contact sont affichés dans la section de contact sur le profil des utilisateurs et sont affichés différemment dans le profil miniature situé à côté des messages et des messages privés. Vous pouvez utiliser « %s » comme variable substitutive : elle sera remplacée par la valeur saisie par l’utilisateur.',
 	'FIELD_LENGTH'              => 'Largeur de la boîte de saisie',
 	'FIELD_NOT_FOUND'           => 'Le champ de profil est introuvable.',
 	'FIELD_STRING'              => 'Champ de texte simple',
@@ -110,7 +110,7 @@ $lang = array_merge($lang, [
 	'FIRST_OPTION'              => 'Première option',
 
 	'HIDE_PROFILE_FIELD'         => 'Masquer le champ de profil',
-	'HIDE_PROFILE_FIELD_EXPLAIN' => 'Le champ de profil est invisible aux utilisateurs ; seuls les administrateurs et modérateurs le voient. Si l’affichage est désactivé dans le panneau de contrôle utilisateur, l’utilisateur ne peut ni voir ni modifier ce champ : seul un administrateur peut le modifier.',
+	'HIDE_PROFILE_FIELD_EXPLAIN' => 'Le champ de profil est invisible aux utilisateurs ; seuls les administrateurs et modérateurs le voient. Si l’affichage est désactivé dans le panneau de contrôle utilisateur, l’utilisateur ne peut ni voir ni modifier ce champ : seul un administrateur peut le modifier.',
 
 	'INVALID_CHARS_FIELD_IDENT' => 'L’identifiant du champ ne peut contenir que des lettres minuscules de A à Z et des tirets bas.',
 	'INVALID_FIELD_IDENT_LEN'   => 'L’identifiant du champ est limité à 17 caractères.',

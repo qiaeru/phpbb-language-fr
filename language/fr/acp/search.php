@@ -37,7 +37,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, [
-	'ACP_SEARCH_INDEX_EXPLAIN'    => 'Depuis cette page, vous pouvez gérer les méthodes d’indexation de la recherche. Le moteur de recherche n’utilise qu’une seule méthode à la fois ; supprimez les indexations inutilisées. Après modification de la plupart des paramètres de recherche (notamment le nombre minimal et maximal de caractères), recréez l’index pour qu’il les prenne en compte.',
+	'ACP_SEARCH_INDEX_EXPLAIN'    => 'Depuis cette page, vous pouvez gérer les méthodes d’indexation de la recherche. Le moteur de recherche n’utilise qu’une seule méthode à la fois ; supprimez les indexations inutilisées. Après modification de la plupart des paramètres de recherche (notamment le nombre minimal et maximal de caractères), recréez l’index pour qu’il les prenne en compte.',
 	'ACP_SEARCH_SETTINGS_EXPLAIN' => 'Depuis cette page, vous pouvez définir la méthode d’indexation utilisée lors de l’indexation des messages et de l’exécution des recherches. Plusieurs options influent sur la fréquence de ces opérations. Certains paramètres sont communs à toutes les méthodes d’indexation.',
 
 	'COMMON_WORD_THRESHOLD'           => 'Seuil de mot commun',
@@ -79,7 +79,7 @@ $lang = array_merge($lang, [
 	'FULLTEXT_SPHINX_HOST'                      => 'Hôte du démon de recherche Sphinx',
 	'FULLTEXT_SPHINX_HOST_EXPLAIN'              => 'Le programme en attente de recherche Sphinx (« searchd ») se connectera sur cet hôte. Si vous laissez ce champ vide, l’hôte par défaut (qui est « localhost ») sera utilisé.',
 	'FULLTEXT_SPHINX_INDEXER_MEM_LIMIT'         => 'Limite de mémoire de l’indexeur',
-	'FULLTEXT_SPHINX_INDEXER_MEM_LIMIT_EXPLAIN' => 'Cette valeur doit être inférieure à la quantité de mémoire vive disponible sur votre serveur. Si vous rencontrez régulièrement des problèmes de performance, l’indexeur consomme probablement trop de ressources : réduisez la mémoire qui lui est allouée.',
+	'FULLTEXT_SPHINX_INDEXER_MEM_LIMIT_EXPLAIN' => 'Cette valeur doit être inférieure à la quantité de mémoire vive disponible sur votre serveur. Si vous rencontrez régulièrement des problèmes de performance, l’indexeur consomme probablement trop de ressources : réduisez la mémoire qui lui est allouée.',
 	'FULLTEXT_SPHINX_MAIN_POSTS'                => 'Nombre de messages dans l’index principal',
 	'FULLTEXT_SPHINX_PORT'                      => 'Port du démon de recherche Sphinx',
 	'FULLTEXT_SPHINX_PORT_EXPLAIN'              => 'Le programme en attente de recherche Sphinx (« searchd ») se connectera sur ce port. Si vous laissez ce champ vide, le port par défaut de l’interface de programmation de Sphinx (qui est 9312) sera utilisé.',
@@ -96,7 +96,7 @@ $lang = array_merge($lang, [
 	'INDEXING_IN_PROGRESS_EXPLAIN' => 'La méthode d’indexation de la recherche est actuellement en train d’indexer tous les messages du forum. Ce processus peut prendre un certain temps selon la taille de votre forum.',
 
 	'LIMIT_SEARCH_LOAD'         => 'Limite de la charge du système de la page de recherche',
-	'LIMIT_SEARCH_LOAD_EXPLAIN' => 'Si la charge du système dépasse cette valeur durant une minute, la page de recherche sera automatiquement désactivée. Une valeur de « 1.0 » correspond à 100 % de l’utilisation d’un processeur. Cette fonctionnalité ne fonctionne que sur les serveurs basés sur UNIX.',
+	'LIMIT_SEARCH_LOAD_EXPLAIN' => 'Si la charge du système dépasse cette valeur durant une minute, la page de recherche sera automatiquement désactivée. Une valeur de « 1.0 » correspond à 100 % de l’utilisation d’un processeur. Cette fonctionnalité ne fonctionne que sur les serveurs basés sur UNIX.',
 
 	'MAX_SEARCH_CHARS'                => 'Nombre maximal de caractères indexés dans la recherche',
 	'MAX_SEARCH_CHARS_EXPLAIN'        => 'Les mots contenant moins de caractères que cette valeur seront indexés.',
