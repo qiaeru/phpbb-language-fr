@@ -342,7 +342,7 @@ $lang = array_merge($lang, [
 			<li>Supprimez de l’archive (et pas de votre serveur !) le fichier « config.php » ainsi que les répertoires « images/ », « store/ » et « files/ ».</li>
 			<li>Accédez aux paramètres du forum dans le panneau de contrôle d’administration et assurez-vous que « prosilver » soit bien le style par défaut de votre forum.</li>
 			<li>Supprimez les répertoires « vendor/ » et « cache/ » de la racine de votre forum.</li>
-			<li>Envoyez par FTP ou SSH les fichiers et les répertoires restants (que contient le répertoire « phpBB3/ » de l’archive) à la racine du forum sur votre serveur, en vous assurant d’écraser les fichiers existants. Assurez-vous de ne pas supprimer les extensions contenues dans le répertoire « ext/ » lors de l’envoi du nouveau contenu.</li>
+			<li>Transférez par FTP ou SSH les fichiers et les répertoires restants (que contient le répertoire « phpBB3/ » de l’archive) à la racine du forum sur votre serveur, en vous assurant d’écraser les fichiers existants. Assurez-vous de ne pas supprimer les extensions contenues dans le répertoire « ext/ » lors du transfert du nouveau contenu.</li>
 			<li><strong><a href="%1$s" title="%1$s">Démarrez maintenant le processus de mise à jour en dirigeant votre navigateur vers le répertoire « install/ »</a>.</strong></li>
 			<li>Suivez les étapes jusqu’à mettre à jour votre base de données.</li>
 			<li>Supprimez par FTP ou SSH le répertoire « install/ » de la racine de votre forum.<br><br></li>
@@ -361,10 +361,10 @@ $lang = array_merge($lang, [
 		<ol style="margin-left: 20px; font-size: 1.1em;">
 			<li>Accédez à <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">la page des téléchargements</a> (en anglais) et téléchargez la dernière version de l’archive de mise à jour avancée.<br><br></li>
 			<li>Décompressez l’archive.<br><br></li>
-			<li>Envoyez les répertoires décompressés « install/ » et « vendor/ » à la racine de votre forum (où se trouve le fichier « config.php »).<br><br></li>
+			<li>Transférez les répertoires décompressés « install/ » et « vendor/ » à la racine de votre forum (où se trouve le fichier « config.php »).<br><br></li>
 		</ol>
 
-		<p>Pour des raisons de sécurité, une fois que les répertoires et leur contenu ont été envoyés, votre forum apparaîtra hors ligne aux utilisateurs.<br><br>
+		<p>Pour des raisons de sécurité, une fois que les répertoires et leur contenu ont été transférés, votre forum apparaîtra hors ligne aux utilisateurs.<br><br>
 		<strong><a href="%1$s" title="%1$s">Démarrez maintenant le processus de mise à jour en dirigeant votre navigateur vers le répertoire « install/ »</a>.</strong><br>
 		<br>
 		Vous serez alors guidé par l’assistant de mise à jour qui vous informera lorsque la mise à jour sera entièrement finalisée.
