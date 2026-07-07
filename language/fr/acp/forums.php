@@ -46,11 +46,11 @@ $lang = array_merge($lang, [
 	'AUTO_PRUNE_VIEWED_EXPLAIN'      => 'Nombre de jours entre la dernière consultation d’un sujet et sa suppression.',
 	'AUTO_PRUNE_SHADOW_FREQ'         => 'Fréquence du délestage automatique des redirections de sujet',
 	'AUTO_PRUNE_SHADOW_DAYS'         => 'Intervalle du délestage automatique des redirections de sujet',
-	'AUTO_PRUNE_SHADOW_DAYS_EXPLAIN' => 'Nombre de jours entre la dernière visite d’une redirection de sujet et la suppression de cette redirection.',
+	'AUTO_PRUNE_SHADOW_DAYS_EXPLAIN' => 'Nombre de jours après lesquels une redirection de sujet est supprimée.',
 	'AUTO_PRUNE_SHADOW_FREQ_EXPLAIN' => 'Nombre de jours entre deux délestages automatiques.',
 
 	'CONTINUE'                      => 'Continuer',
-	'COPY_PERMISSIONS'              => 'Copier les permissions',
+	'COPY_PERMISSIONS'              => 'Copier les permissions de',
 	'COPY_PERMISSIONS_EXPLAIN'      => 'Pour faciliter la configuration des permissions de votre nouveau forum, vous pouvez copier celles d’un forum existant.',
 	'COPY_PERMISSIONS_ADD_EXPLAIN'  => 'Une fois créé, le forum reprendra les permissions du forum sélectionné. Si vous n’en sélectionnez aucun, le nouveau forum restera invisible tant que ses permissions n’auront pas été définies.',
 	'COPY_PERMISSIONS_EDIT_EXPLAIN' => 'Si vous copiez des permissions, ce forum reprendra celles du forum sélectionné, remplaçant toutes les permissions précédemment définies. Si vous n’en sélectionnez aucun, les permissions actuelles sont conservées.',
@@ -69,7 +69,7 @@ $lang = array_merge($lang, [
 	'ENABLE_INDEXING'            => 'Activer l’indexation de la recherche',
 	'ENABLE_INDEXING_EXPLAIN'    => 'Si cette option est activée, les messages publiés dans ce forum sont indexés et apparaissent dans les résultats de recherche.',
 	'ENABLE_POST_REVIEW'         => 'Autoriser la révision des messages',
-	'ENABLE_POST_REVIEW_EXPLAIN' => 'Si cette option est activée, les utilisateurs peuvent modifier leurs messages même si d’autres ont déjà répondu au sujet. Il n’est pas conseillé de l’activer sur les forums de discussions.',
+	'ENABLE_POST_REVIEW_EXPLAIN' => 'Si cette option est activée, les utilisateurs peuvent relire leur message lorsque de nouvelles réponses ont été publiées dans le sujet pendant sa rédaction. Il n’est pas conseillé de l’activer sur les forums de discussion instantanée.',
 	'ENABLE_QUICK_REPLY'         => 'Autoriser la réponse rapide',
 	'ENABLE_QUICK_REPLY_EXPLAIN' => 'Si cette option est activée, les utilisateurs peuvent utiliser la réponse rapide sur ce forum. Elle est ignorée si la réponse rapide est désactivée dans les paramètres de publication. Le champ n’est visible qu’aux utilisateurs autorisés à publier ici.',
 	'ENABLE_RECENT'              => 'Afficher les sujets actifs',
@@ -91,7 +91,7 @@ $lang = array_merge($lang, [
 	'FORUM_EDIT_EXPLAIN'             => 'Le formulaire ci-dessous permet de personnaliser le forum sélectionné. La modération et les paramètres liés au compteur de messages sont accessibles via les permissions des forums pour les utilisateurs et les groupes.',
 	'FORUM_IMAGE'                    => 'Image du forum',
 	'FORUM_IMAGE_EXPLAIN'            => 'Image associée à ce forum. L’emplacement doit être relatif à la racine de votre forum.',
-	'FORUM_IMAGE_NO_EXIST'           => 'L’image du forum est introuvable',
+	'FORUM_IMAGE_NO_EXIST'           => 'L’image du forum est introuvable.',
 	'FORUM_LINK_EXPLAIN'             => 'Le lien complet, incluant le protocole « http:// » ou « https:// », qui redirigera les utilisateurs vers la destination souhaitée, tel que « https://www.phpbb.com/ ».',
 	'FORUM_LINK_TRACK'               => 'Afficher le nombre de redirections',
 	'FORUM_LINK_TRACK_EXPLAIN'       => 'Le nombre de redirections effectuées via le forum-lien sera comptabilisé et affiché.',
@@ -105,7 +105,7 @@ $lang = array_merge($lang, [
 	'FORUM_PASSWORD_EXPLAIN'         => 'Un mot de passe sera demandé pour accéder à ce forum. Il est préférable d’utiliser plutôt le système de permissions.',
 	'FORUM_PASSWORD_UNSET'           => 'Supprimer le mot de passe du forum',
 	'FORUM_PASSWORD_UNSET_EXPLAIN'   => 'Cochez cette case pour supprimer le mot de passe du forum.',
-	'FORUM_PASSWORD_OLD'             => 'Le mot de passe du forum utilise une méthode de hachage obsolète à remplacer.',
+	'FORUM_PASSWORD_OLD'             => 'Le mot de passe du forum utilise une méthode de hachage obsolète et doit être remplacé.',
 	'FORUM_PASSWORD_MISMATCH'        => 'Les mots de passe ne correspondent pas.',
 	'FORUM_PRUNE_SETTINGS'           => 'Paramètres du délestage de forum',
 	'FORUM_PRUNE_SHADOW'             => 'Activer le délestage automatique des redirections de sujet',
@@ -124,7 +124,7 @@ $lang = array_merge($lang, [
 	'FORUM_TYPE'                     => 'Type de forum',
 	'FORUM_UPDATED'                  => 'Les informations du forum ont été mises à jour.',
 
-	'FORUM_WITH_SUBFORUMS_NOT_TO_LINK' => 'Vous voulez convertir un forum contenant des sous-forums (où des messages peuvent être publiés) en forum-lien. Avant de poursuivre, déplacez tous les sous-forums hors de ce forum. Une fois converti en forum-lien, ses sous-forums ne seront plus accessibles.',
+	'FORUM_WITH_SUBFORUMS_NOT_TO_LINK' => 'Vous voulez convertir en forum-lien un forum acceptant les messages et contenant des sous-forums. Avant de poursuivre, déplacez tous les sous-forums hors de ce forum, car une fois celui-ci converti en forum-lien, ses sous-forums ne seront plus accessibles.',
 
 	'GENERAL_FORUM_SETTINGS' => 'Paramètres généraux du forum',
 
@@ -132,9 +132,9 @@ $lang = array_merge($lang, [
 	'LIMIT_SUBFORUMS'         => 'Limiter la légende aux sous-forums enfants directs',
 	'LIMIT_SUBFORUMS_EXPLAIN' => 'Limite l’affichage des sous-forums aux sous-forums qui descendent directement du forum actuel. Si cette option est désactivée, les sous-forums seront affichés en prenant en compte l’option « Lister ce sous-forum dans la légende du forum parent », peu importe la profondeur.',
 	'LIST_INDEX'              => 'Lister ce sous-forum dans la légende du forum parent',
-	'LIST_INDEX_EXPLAIN'      => 'Si cette option est activée, ce sous-forum est listé sur l’index du forum et à divers endroits, via un lien disponible dans la légende du forum parent.',
+	'LIST_INDEX_EXPLAIN'      => 'Si cette option est activée, ce sous-forum est listé sur l’accueil du forum et à divers endroits, via un lien dans la légende de son forum parent, à condition que l’option « Lister les sous-forums dans la légende de ce forum » soit activée sur le forum parent.',
 	'LIST_SUBFORUMS'          => 'Lister les sous-forums dans la légende de ce forum',
-	'LIST_SUBFORUMS_EXPLAIN'  => 'Si cette option est activée, les sous-forums sont listés sur l’index du forum et à divers endroits, via un lien disponible dans la légende de ce forum.',
+	'LIST_SUBFORUMS_EXPLAIN'  => 'Si cette option est activée, les sous-forums dont l’option « Lister ce sous-forum dans la légende du forum parent » est activée sont listés sur l’accueil du forum et à divers endroits, via un lien disponible dans la légende de ce forum.',
 	'LOCKED'                  => 'Verrouillé',
 
 	'MOVE_POSTS_NO_POSTABLE_FORUM' => 'Ce forum ne peut pas recevoir le contenu à déplacer. Sélectionnez un forum dans lequel la publication de messages est autorisée.',
@@ -152,8 +152,8 @@ $lang = array_merge($lang, [
 	'PARENT_NOT_EXIST'        => 'Le forum parent est introuvable.',
 	'PRUNE_ANNOUNCEMENTS'     => 'Délester les annonces',
 	'PRUNE_STICKY'            => 'Délester les notes',
-	'PRUNE_OLD_POLLS'         => 'Délester les sondages expirés',
-	'PRUNE_OLD_POLLS_EXPLAIN' => 'Si cette option est activée, les sujets contenant des sondages expirés sont délestés.',
+	'PRUNE_OLD_POLLS'         => 'Délester les anciens sondages',
+	'PRUNE_OLD_POLLS_EXPLAIN' => 'Si cette option est activée, les sujets dont le sondage n’a reçu aucun vote depuis le délai d’inactivité indiqué sont délestés.',
 
 	'REDIRECT_ACL' => 'Vous pouvez désormais %sdéfinir les permissions%s de ce forum.',
 

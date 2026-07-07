@@ -51,7 +51,7 @@ $lang = array_merge($lang, [
 
 	'DELETE_TOPIC'        => 'Supprimer le sujet',
 	'DELETED_INFORMATION' => 'Supprimé par %1$s le %2$s',
-	'DISAPPROVE'          => 'Désapprouver',
+	'DISAPPROVE'          => 'Refuser',
 	'DOWNLOAD_NOTICE'     => 'Vous n’êtes pas autorisé à consulter les pièces jointes insérées dans ce message.',
 
 	'EDITED_TIMES_TOTAL' => [
@@ -74,8 +74,8 @@ $lang = array_merge($lang, [
 	'MAKE_NORMAL'        => 'Modifier en sujet standard',
 	'MAKE_STICKY'        => 'Modifier en note',
 	'MAX_OPTIONS_SELECT' => [
-		1 => 'Vous pouvez sélectionner %d option',
-		2 => 'Vous pouvez sélectionner %d options',
+		1 => 'Vous pouvez sélectionner jusqu’à %d option',
+		2 => 'Vous pouvez sélectionner jusqu’à %d options',
 	],
 	'MISSING_INLINE_ATTACHMENT' => 'La pièce jointe « %s » n’est plus disponible.',
 	'MOVE_TOPIC'                => 'Déplacer le sujet',

@@ -66,7 +66,7 @@ $lang = array_merge($lang, [
 	'MODULE_DISPLAYED_EXPLAIN' => 'Pour utiliser ce module sans l’afficher, désactivez cette option.',
 	'MODULE_EDITED'            => 'Le module a été modifié.',
 	'MODULE_ENABLED'           => 'Module activé',
-	'MODULE_LANGNAME'          => 'Nom de la langue du module',
+	'MODULE_LANGNAME'          => 'Nom de langue du module',
 	'MODULE_LANGNAME_EXPLAIN'  => 'Nom affiché du module. Saisissez une variable de langue si le nom souhaité est défini dans un fichier de langue.',
 	'MODULE_TYPE'              => 'Type de module',
 

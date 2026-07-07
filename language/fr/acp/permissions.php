@@ -47,7 +47,7 @@ $lang = array_merge($lang, [
 		<p>Elles sont utilisées pour contrôler l’accès à chaque forum. Elles sont divisées en permissions des forums, permissions des forums aux modérateurs, permissions des forums aux utilisateurs et permissions des forums aux groupes.</p>
 
 		<h2>Les rôles des permissions</h2>
-		<p>Ils sont utilisés pour créer différents ensembles de permissions concernant les différents types de permissions qui peuvent être assignés ensuite aux rôles. Les rôles par défaut devraient couvrir l’administration des forums étant donné que dans chacune des quatre divisions, vous pouvez ajouter, modifier et supprimer des rôles selon vos besoins.</p>
+		<p>Ils sont utilisés pour créer différents ensembles de permissions pour chaque type de permission, qui pourront ensuite être attribués en tant que rôles. Les rôles par défaut devraient couvrir l’administration de forums de toutes tailles ; vous pouvez néanmoins, dans chacune des quatre divisions, ajouter, modifier et supprimer des rôles selon vos besoins.</p>
 
 		<h2>Les masques des permissions</h2>
 		<p>Ils sont utilisés pour consulter les permissions effectives assignées aux utilisateurs, aux modérateurs (locaux et généraux), aux administrateurs et aux forums.</p>
@@ -58,8 +58,8 @@ $lang = array_merge($lang, [
 	',
 
 	'ACL_NEVER'       => 'Jamais',
-	'ACL_SET'         => 'Paramètre des permissions',
-	'ACL_SET_EXPLAIN' => 'Les permissions reposent sur un système simple de « OUI » et de « NON ». Sélectionnez « JAMAIS » pour remplacer les valeurs assignées dans un autre système de permissions. Si vous ne souhaitez pas assigner de valeur à une option par ce système de permissions, sélectionnez « NON ». Si des valeurs sont assignées dans un autre système de permissions, elles seront alors utilisées de préférence, sauf si « JAMAIS » est sélectionné. Tous les forums cochés grâce à la boîte de sélection située à côté du nom qui leur a été attribué copieront les paramètres des permissions. Notez que le réglage des permissions des administrateurs pour les comptes de fondateurs n’a pas d’effet car les permissions des administrateurs sont toujours réglées sur <strong>OUI</strong> pour les fondateurs.',
+	'ACL_SET'         => 'Paramétrage des permissions',
+	'ACL_SET_EXPLAIN' => 'Les permissions reposent sur un système simple de « OUI » et de « NON ». Sélectionner « JAMAIS » pour un utilisateur ou un groupe remplace toute autre valeur qui lui est assignée. Si vous ne souhaitez pas assigner de valeur à une option par ce système de permissions, sélectionnez « NON ». Si des valeurs sont assignées à cette option dans un autre système de permissions, elles seront alors utilisées de préférence ; sinon, « JAMAIS » sera appliqué. Tous les éléments cochés (via la case à cocher qui les précède) copieront les permissions définies. Notez que le réglage des permissions des administrateurs pour les comptes de fondateurs n’a pas d’effet car les permissions des administrateurs sont toujours réglées sur <strong>OUI</strong> pour les fondateurs.',
 	'ACL_SETTING'     => 'Paramètre',
 
 	'ACL_TYPE_A_' => 'Permissions des administrateurs',
@@ -79,21 +79,21 @@ $lang = array_merge($lang, [
 	'ACL_YES'          => 'Oui',
 
 	'ACP_ADMINISTRATORS_EXPLAIN'              => 'Depuis cette page, vous pouvez attribuer les permissions des administrateurs à des utilisateurs et des groupes d’utilisateurs, qui pourront alors accéder au panneau de contrôle d’administration.',
-	'ACP_FORUM_MODERATORS_EXPLAIN'            => 'Depuis cette page, vous pouvez attribuer les permissions des modérateurs sur certains forums spécifiques à des utilisateurs et des groupes d’utilisateurs. Rendez-vous sur la page appropriée pour attribuer l’accès des utilisateurs aux forums et définir des permissions de modérateurs ou d’administrateurs à ces derniers.',
+	'ACP_FORUM_MODERATORS_EXPLAIN'            => 'Depuis cette page, vous pouvez attribuer les permissions des modérateurs sur certains forums spécifiques à des utilisateurs et des groupes d’utilisateurs. Rendez-vous sur la page appropriée pour attribuer l’accès des utilisateurs aux forums et définir les permissions des modérateurs généraux ou des administrateurs.',
 	'ACP_FORUM_PERMISSIONS_EXPLAIN'           => 'Depuis cette page, vous pouvez spécifier les utilisateurs et les groupes d’utilisateurs qui pourront accéder à certains forums. Rendez-vous sur les pages appropriées pour définir les permissions des administrateurs et des modérateurs.',
 	'ACP_FORUM_PERMISSIONS_COPY_EXPLAIN'      => 'Depuis cette page, vous pouvez copier les permissions d’un forum à un ou plusieurs autres forums.',
 	'ACP_GLOBAL_MODERATORS_EXPLAIN'           => 'Depuis cette page, vous pouvez attribuer les permissions des modérateurs généraux à des utilisateurs et des groupes d’utilisateurs. Ces modérateurs sont des modérateurs ordinaires, mis à part le fait qu’ils peuvent modérer la totalité des forums.',
 	'ACP_GROUPS_FORUM_PERMISSIONS_EXPLAIN'    => 'Depuis cette page, vous pouvez attribuer les permissions des forums à des groupes d’utilisateurs.',
-	'ACP_GROUPS_PERMISSIONS_EXPLAIN'          => 'Depuis cette page, vous pouvez attribuer les permissions générales à des groupes d’utilisateurs, comme les permissions des utilisateurs, les permissions des modérateurs généraux et les permissions des administrateurs. Les permissions des utilisateurs incluent des fonctionnalités comme l’utilisation d’avatars, l’envoi de messages privés, etc. Les permissions des modérateurs généraux incluent des fonctionnalités comme l’approbation de messages, la gestion de sujets, la gestion des bannissements, etc. Enfin, les permissions des administrateurs incluent des fonctionnalités comme la modification de permissions, la gestion des BBCodes personnalisés, la gestion de forums, etc. Les permissions individuelles des utilisateurs ne devraient être modifiées que dans de rares occasions, il est préférable de les ajouter à un groupe d’utilisateurs, puis de définir les permissions de ce dernier.',
+	'ACP_GROUPS_PERMISSIONS_EXPLAIN'          => 'Depuis cette page, vous pouvez attribuer les permissions générales à des groupes d’utilisateurs, comme les permissions des utilisateurs, les permissions des modérateurs généraux et les permissions des administrateurs. Les permissions des utilisateurs incluent des fonctionnalités comme l’utilisation d’avatars, l’envoi de messages privés, etc. Les permissions des modérateurs généraux incluent des fonctionnalités comme l’approbation de messages, la gestion de sujets, la gestion des bannissements, etc. Enfin, les permissions des administrateurs incluent des fonctionnalités comme la modification de permissions, la gestion des BBCodes personnalisés, la gestion de forums, etc. Les permissions individuelles des utilisateurs ne devraient être modifiées que dans de rares occasions ; il est préférable d’ajouter les utilisateurs à un groupe, puis de définir les permissions de ce dernier.',
 	'ACP_ADMIN_ROLES_EXPLAIN'                 => 'Depuis cette page, vous pouvez gérer les rôles de permissions des administrateurs. Les rôles sont des permissions effectives. Si vous modifiez un rôle, les éléments assignés à ce rôle modifieront également leurs permissions.',
 	'ACP_FORUM_ROLES_EXPLAIN'                 => 'Depuis cette page, vous pouvez gérer les rôles des permissions des forums. Les rôles sont des permissions effectives. Si vous modifiez un rôle, les éléments assignés à ce rôle modifieront également leurs permissions.',
 	'ACP_MOD_ROLES_EXPLAIN'                   => 'Depuis cette page, vous pouvez gérer les rôles des permissions des modérateurs. Les rôles sont des permissions effectives. Si vous modifiez un rôle, les éléments assignés à ce rôle modifieront également leurs permissions.',
 	'ACP_USER_ROLES_EXPLAIN'                  => 'Depuis cette page, vous pouvez gérer les rôles des permissions des utilisateurs. Les rôles sont des permissions effectives. Si vous modifiez un rôle, les éléments assignés à ce rôle modifieront également leurs permissions.',
 	'ACP_USERS_FORUM_PERMISSIONS_EXPLAIN'     => 'Depuis cette page, vous pouvez attribuer les permissions des forums à des utilisateurs.',
-	'ACP_USERS_PERMISSIONS_EXPLAIN'           => 'Depuis cette page, vous pouvez attribuer les permissions générales à des utilisateurs, comme les permissions des utilisateurs, les permissions des modérateurs généraux et les permissions des administrateurs. Les permissions des utilisateurs incluent des fonctionnalités comme l’utilisation d’avatars, l’envoi de messages privés, etc. Les permissions des modérateurs généraux incluent des fonctionnalités comme l’approbation de messages, la gestion de sujets, la gestion des bannissements, etc. Enfin, les permissions des administrateurs incluent des fonctionnalités comme la modification de permissions, la gestion des BBCodes personnalisés, la gestion de forums, etc. Pour partager les mêmes paramètres à un grand nombre d’utilisateurs, il est préférable d’utiliser le système des permissions des groupes. Les permissions individuelles des utilisateurs ne devraient être modifiées que dans de rares occasions, il est préférable de les ajouter à un groupe d’utilisateurs, puis de définir les permissions de ce dernier.',
+	'ACP_USERS_PERMISSIONS_EXPLAIN'           => 'Depuis cette page, vous pouvez attribuer les permissions générales à des utilisateurs, comme les permissions des utilisateurs, les permissions des modérateurs généraux et les permissions des administrateurs. Les permissions des utilisateurs incluent des fonctionnalités comme l’utilisation d’avatars, l’envoi de messages privés, etc. Les permissions des modérateurs généraux incluent des fonctionnalités comme l’approbation de messages, la gestion de sujets, la gestion des bannissements, etc. Enfin, les permissions des administrateurs incluent des fonctionnalités comme la modification de permissions, la gestion des BBCodes personnalisés, la gestion de forums, etc. Pour appliquer les mêmes paramètres à un grand nombre d’utilisateurs, il est préférable d’utiliser le système des permissions des groupes. Les permissions individuelles des utilisateurs ne devraient être modifiées que dans de rares occasions ; il est préférable d’ajouter les utilisateurs à un groupe, puis de définir les permissions de ce dernier.',
 	'ACP_VIEW_ADMIN_PERMISSIONS_EXPLAIN'      => 'Depuis cette page, vous pouvez consulter les permissions effectives des administrateurs assignées aux utilisateurs et aux groupes d’utilisateurs sélectionnés.',
 	'ACP_VIEW_GLOBAL_MOD_PERMISSIONS_EXPLAIN' => 'Depuis cette page, vous pouvez consulter les permissions effectives des modérateurs généraux assignées aux utilisateurs et aux groupes d’utilisateurs sélectionnés.',
-	'ACP_VIEW_FORUM_PERMISSIONS_EXPLAIN'      => 'Depuis cette page, vous pouvez consulter les permissions effectives des forums assignées aux utilisateurs et aux groupes d’utilisateurs sélectionnés.',
+	'ACP_VIEW_FORUM_PERMISSIONS_EXPLAIN'      => 'Depuis cette page, vous pouvez consulter les permissions effectives des forums assignées aux utilisateurs, aux groupes d’utilisateurs et aux forums sélectionnés.',
 	'ACP_VIEW_FORUM_MOD_PERMISSIONS_EXPLAIN'  => 'Depuis cette page, vous pouvez consulter les permissions effectives des modérateurs de forum assignées aux utilisateurs, aux groupes d’utilisateurs et aux forums sélectionnés.',
 	'ACP_VIEW_USER_PERMISSIONS_EXPLAIN'       => 'Depuis cette page, vous pouvez consulter les permissions effectives des utilisateurs assignées aux utilisateurs et aux groupes d’utilisateurs sélectionnés.',
 
@@ -139,7 +139,7 @@ $lang = array_merge($lang, [
 
 	'NO_AUTH_SETTING_FOUND'    => 'Paramètres de permissions non définis.',
 	'NO_ROLE_ASSIGNED'         => 'Aucun rôle n’est assigné…',
-	'NO_ROLE_ASSIGNED_EXPLAIN' => 'La configuration de ce rôle ne modifie pas les permissions de droite. Pour supprimer toutes les permissions, vous devez utiliser le lien « Tous sur NON ».',
+	'NO_ROLE_ASSIGNED_EXPLAIN' => 'Sélectionner cette option ne modifie pas les permissions affichées à droite. Pour supprimer toutes les permissions, utilisez le lien « Tous sur NON ».',
 	'NO_ROLE_AVAILABLE'        => 'Aucun rôle n’est disponible',
 	'NO_ROLE_NAME_SPECIFIED'   => 'Saisissez le nom de ce rôle.',
 	'NO_ROLE_SELECTED'         => 'Le rôle est introuvable.',
@@ -197,24 +197,24 @@ $lang = array_merge($lang, [
 	'ROLE_DESCRIPTION_FORUM_POLLS'         => 'Similaire à l’accès standard, mais peut également créer des sondages.',
 	'ROLE_DESCRIPTION_FORUM_READONLY'      => 'Peut consulter le forum mais ne peut ni créer de nouveaux sujets ni répondre aux messages.',
 	'ROLE_DESCRIPTION_FORUM_STANDARD'      => 'Peut utiliser la plupart des fonctionnalités du forum, dont la possibilité d’importer des pièces jointes et de supprimer ses propres sujets, mais ne peut pas verrouiller ses propres sujets et ne peut pas créer de sondages.',
-	'ROLE_DESCRIPTION_FORUM_NEW_MEMBER'    => 'Ce rôle est destiné aux membres du groupe des utilisateurs nouvellement inscrits. Il contient des permissions « JAMAIS » qui permettent de limiter certaines fonctionnalités aux nouveaux membres.',
+	'ROLE_DESCRIPTION_FORUM_NEW_MEMBER'    => 'Ce rôle est destiné aux membres du groupe des utilisateurs nouvellement inscrits. Il contient des permissions « JAMAIS » qui bloquent certaines fonctionnalités pour les nouveaux membres.',
 	'ROLE_DESCRIPTION_MOD_FULL'            => 'Peut utiliser toutes les fonctionnalités liées à la modération, dont le bannissement.',
 	'ROLE_DESCRIPTION_MOD_QUEUE'           => 'Ne peut utiliser que la file d’attente de modération pour valider et modifier des messages.',
-	'ROLE_DESCRIPTION_MOD_SIMPLE'          => 'Ne peut effectuer que les opérations basiques liées aux sujets mais ne peut ni envoyer d’avertissements ni accéder à la file d’attente de modération.',
+	'ROLE_DESCRIPTION_MOD_SIMPLE'          => 'Ne peut effectuer que les opérations de base liées aux sujets et ne peut ni envoyer d’avertissements ni accéder à la file d’attente de modération.',
 	'ROLE_DESCRIPTION_MOD_STANDARD'        => 'Peut utiliser la plupart des outils liés à la modération mais ne peut ni bannir d’utilisateurs ni modifier l’auteur d’un message.',
 	'ROLE_DESCRIPTION_USER_FULL'           => 'Peut utiliser toutes les fonctionnalités du forum qui sont disponibles aux utilisateurs, dont la possibilité de modifier son nom d’utilisateur et d’ignorer la limitation de flood.<br>Il n’est pas recommandé d’attribuer ce rôle.',
-	'ROLE_DESCRIPTION_USER_LIMITED'        => 'Peut accéder à la plupart des fonctionnalités utilisateur, mais ne peut pas importer de pièces jointes, ni envoyer d’e-mails ou de messages instantanés.',
+	'ROLE_DESCRIPTION_USER_LIMITED'        => 'Peut accéder à certaines fonctionnalités des utilisateurs, mais ne peut pas importer de pièces jointes, ni envoyer d’e-mails ou de messages instantanés.',
 	'ROLE_DESCRIPTION_USER_NOAVATAR'       => 'Ne peut accéder qu’à un ensemble de fonctionnalités limité et n’est pas autorisé à utiliser la fonctionnalité des avatars.',
 	'ROLE_DESCRIPTION_USER_NOPM'           => 'Ne peut accéder qu’à un ensemble de fonctionnalités limité et n’est pas autorisé à utiliser les fonctionnalités de la messagerie privée.',
 	'ROLE_DESCRIPTION_USER_STANDARD'       => 'Peut accéder à la plupart des fonctionnalités des utilisateurs mais ne peut ni modifier son nom d’utilisateur ni ignorer la limitation de flood.',
-	'ROLE_DESCRIPTION_USER_NEW_MEMBER'     => 'Ce rôle est destiné aux membres du groupe des utilisateurs nouvellement inscrits. Il contient des permissions « JAMAIS » qui permettent de limiter certaines fonctionnalités aux nouveaux membres.',
+	'ROLE_DESCRIPTION_USER_NEW_MEMBER'     => 'Ce rôle est destiné aux membres du groupe des utilisateurs nouvellement inscrits. Il contient des permissions « JAMAIS » qui bloquent certaines fonctionnalités pour les nouveaux membres.',
 
 	'ROLE_DESCRIPTION_EXPLAIN' => 'Saisissez une brève explication du rôle. Le texte saisi ici sera également affiché sur la page des permissions.',
 	'ROLE_DESCRIPTION_LONG'    => 'La description du rôle est trop longue. Elle ne doit pas dépasser 4000 caractères.',
 	'ROLE_DETAILS'             => 'Informations sur le rôle',
 	'ROLE_EDIT_SUCCESS'        => 'Le rôle a été modifié.',
 	'ROLE_NAME'                => 'Nom du rôle',
-	'ROLE_NAME_ALREADY_EXIST'  => 'Un rôle portant le nom de « %s » existe déjà. Saisissez-en un autre.',
+	'ROLE_NAME_ALREADY_EXIST'  => 'Un rôle portant le nom de « %s » existe déjà pour ce type de permission. Saisissez-en un autre.',
 	'ROLE_NOT_ASSIGNED'        => 'Le rôle n’a pas encore été attribué.',
 
 	'SELECTED_FORUM_NOT_EXIST'      => 'Le forum est introuvable.',
@@ -249,9 +249,9 @@ $lang = array_merge($lang, [
 	'TRACE_RESULT'                        => 'Résultat du suivi',
 	'TRACE_SETTING'                       => 'Paramètre du suivi',
 
-	'TRACE_USER_GLOBAL_YES_TOTAL_YES'    => 'La permission indépendante de l’utilisateur dans ce forum est configurée sur « OUI » mais la permission totale est déjà configurée sur « OUI ». Le résultat total est donc conservé. %sSuivre la permission générale%s',
-	'TRACE_USER_GLOBAL_YES_TOTAL_NEVER'  => 'La permission indépendante de l’utilisateur dans ce forum est configurée sur « OUI » ce qui remplace l’actuel résultat local « JAMAIS ». %sSuivre la permission générale%s',
-	'TRACE_USER_GLOBAL_NEVER_TOTAL_KEPT' => 'La permission indépendante de l’utilisateur dans ce forum est configurée sur « JAMAIS » ce qui n’influence pas la permission locale. %sSuivre la permission générale%s',
+	'TRACE_USER_GLOBAL_YES_TOTAL_YES'    => 'La permission de l’utilisateur indépendante du forum est évaluée à « OUI » mais la permission totale est déjà configurée sur « OUI ». Le résultat total est donc conservé. %sSuivre la permission générale%s',
+	'TRACE_USER_GLOBAL_YES_TOTAL_NEVER'  => 'La permission de l’utilisateur indépendante du forum est évaluée à « OUI » ce qui remplace l’actuel résultat local « JAMAIS ». %sSuivre la permission générale%s',
+	'TRACE_USER_GLOBAL_NEVER_TOTAL_KEPT' => 'La permission de l’utilisateur indépendante du forum est évaluée à « JAMAIS » ce qui n’influence pas la permission locale. %sSuivre la permission générale%s',
 
 	'TRACE_USER_FOUNDER'                 => 'L’utilisateur est un fondateur. Les permissions d’administrateurs sont donc toujours définies sur « OUI ».',
 	'TRACE_USER_KEPT'                    => 'La permission de l’utilisateur est configurée sur « NON ». L’ancienne valeur totale est donc conservée.',

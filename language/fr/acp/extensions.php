@@ -61,11 +61,11 @@ $lang = array_merge($lang, [
 	'EXTENSION_DISABLE_EXPLAIN'     => 'La désactivation conserve les fichiers, données et configuration de l’extension, mais retire toutes les fonctionnalités qu’elle apporte.',
 	'EXTENSION_ENABLE_EXPLAIN'      => 'L’activation rend l’extension utilisable sur votre forum.',
 
-	'EXTENSION_DELETE_DATA_IN_PROGRESS' => 'Suppression des données de l’extension en cours. Ne quittez pas et ne rafraîchissez pas la page avant la fin des opérations.',
-	'EXTENSION_DISABLE_IN_PROGRESS'     => 'Désactivation de l’extension en cours. Ne quittez pas et ne rafraîchissez pas la page avant la fin des opérations.',
-	'EXTENSION_ENABLE_IN_PROGRESS'      => 'Activation de l’extension en cours. Ne quittez pas et ne rafraîchissez pas la page avant la fin des opérations.',
+	'EXTENSION_DELETE_DATA_IN_PROGRESS' => 'La suppression des données de l’extension est en cours. Ne quittez pas et n’actualisez pas la page avant la fin des opérations.',
+	'EXTENSION_DISABLE_IN_PROGRESS'     => 'La désactivation de l’extension est en cours. Ne quittez pas et n’actualisez pas la page avant la fin des opérations.',
+	'EXTENSION_ENABLE_IN_PROGRESS'      => 'L’activation de l’extension est en cours. Ne quittez pas et n’actualisez pas la page avant la fin des opérations.',
 
-	'EXTENSION_DELETE_DATA_SUCCESS' => 'L’extension a été supprimée.',
+	'EXTENSION_DELETE_DATA_SUCCESS' => 'Les données de l’extension ont été supprimées.',
 	'EXTENSION_DISABLE_SUCCESS'     => 'L’extension a été désactivée.',
 	'EXTENSION_ENABLE_SUCCESS'      => 'L’extension a été activée.',
 
@@ -75,14 +75,14 @@ $lang = array_merge($lang, [
 	'EXTENSION_INSTALL_HEADLINE' => 'Installer une extension',
 	'EXTENSION_INSTALL_EXPLAIN'  => '<ol>
 			<li>Téléchargez une extension depuis la base de données des extensions de phpBB.</li>
-			<li>Décompressez et importez l’extension dans le répertoire « ext/ » de votre forum.</li>
+			<li>Décompressez l’extension et transférez-la dans le répertoire « ext/ » de votre forum.</li>
 			<li>Activez l’extension depuis le gestionnaire d’extensions.</li>
 		</ol>',
 	'EXTENSION_UPDATE_HEADLINE' => 'Mettre à jour une extension',
 	'EXTENSION_UPDATE_EXPLAIN'  => '<ol>
 			<li>Désactivez l’extension.</li>
 			<li>Supprimez les fichiers de l’extension de votre serveur.</li>
-			<li>Importez les nouveaux fichiers de l’extension sur votre serveur.</li>
+			<li>Transférez les nouveaux fichiers de l’extension sur votre serveur.</li>
 			<li>Activez l’extension.</li>
 		</ol>',
 	'EXTENSION_REMOVE_HEADLINE' => 'Supprimer totalement une extension',
@@ -101,7 +101,7 @@ $lang = array_merge($lang, [
 
 	'EXT_DETAILS'  => 'Informations sur l’extension',
 	'DISPLAY_NAME' => 'Nom d’affichage',
-	'CLEAN_NAME'   => 'Nom propre',
+	'CLEAN_NAME'   => 'Nom technique',
 	'TYPE'         => 'Type',
 	'DESCRIPTION'  => 'Description',
 	'VERSION'      => 'Version',

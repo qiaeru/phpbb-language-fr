@@ -38,7 +38,7 @@ if (empty($lang) || !is_array($lang))
 
 // Email settings
 $lang = array_merge($lang, [
-	'ACP_MASS_EMAIL_EXPLAIN' => 'Depuis cette page, vous pouvez envoyer un e-mail à tous les utilisateurs ou à ceux d’un groupe spécifique qui acceptent les e-mails de masse. Un e-mail est envoyé à l’adresse renseignée par les administrateurs, et une copie est adressée à chaque destinataire. La configuration par défaut limite à 20 destinataires par e-mail ; au-delà, plusieurs e-mails sont envoyés. Plus il y a de destinataires, plus l’opération est longue. L’envoi en masse peut prendre un certain temps : ne quittez pas la page avant la fin de l’opération.',
+	'ACP_MASS_EMAIL_EXPLAIN' => 'Depuis cette page, vous pouvez envoyer un e-mail à tous les utilisateurs ou à ceux d’un groupe spécifique qui acceptent les e-mails de masse. Un e-mail est envoyé à l’adresse d’administration indiquée, et chaque destinataire en reçoit une copie carbone invisible (Cci). La configuration par défaut limite à 20 destinataires par e-mail ; au-delà, plusieurs e-mails sont envoyés. Plus il y a de destinataires, plus l’opération est longue. L’envoi en masse peut prendre un certain temps : ne quittez pas la page avant la fin de l’opération.',
 	'ALL_USERS'              => 'Tous les utilisateurs',
 
 	'COMPOSE' => 'Rédiger',
@@ -55,7 +55,7 @@ $lang = array_merge($lang, [
 	'SEND_TO_USERS_EXPLAIN' => 'Les noms d’utilisateurs indiqués ici remplacent le groupe sélectionné dans le menu ci-dessus. Saisissez chaque nom d’utilisateur sur une nouvelle ligne.',
 
 	'MAIL_BANNED'          => 'Envoyer l’e-mail aux utilisateurs bannis',
-	'MAIL_BANNED_EXPLAIN'  => 'Les membres bannis d’un groupe destinataire d’un e-mail de masse le recevront également.',
+	'MAIL_BANNED_EXPLAIN'  => 'Si cette option est activée, les membres bannis d’un groupe destinataire d’un e-mail de masse le recevront également.',
 	'MAIL_HIGH_PRIORITY'   => 'Élevée',
 	'MAIL_LOW_PRIORITY'    => 'Faible',
 	'MAIL_NORMAL_PRIORITY' => 'Normale',

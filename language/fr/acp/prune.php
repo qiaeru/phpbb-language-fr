@@ -38,7 +38,7 @@ if (empty($lang) || !is_array($lang))
 
 // User pruning
 $lang = array_merge($lang, [
-	'ACP_PRUNE_USERS_EXPLAIN' => 'Depuis cette page, vous pouvez supprimer et désactiver des utilisateurs de votre forum. Les comptes peuvent être filtrés de différentes manières ; par le nombre de messages, par l’activité la plus récente, etc. Des critères peuvent être combinés pour restreindre les comptes qui sont affectés. Par exemple, vous pouvez délester les utilisateurs qui ont publié moins de 10 messages et qui sont inactifs depuis le 2002-01-01, ou encore utiliser un astérisque « * » comme métacaractère dans les champs de texte. De même, vous pouvez ignorer complètement la sélection des critères en saisissant directement une liste d’utilisateurs dans le champ de texte, en prenant le soin de séparer chaque nom d’utilisateurs sur une nouvelle ligne. Soyez prudent lorsque vous utilisez cette fonctionnalité ! Une fois qu’un utilisateur a été supprimé, il ne peut pas être restauré.',
+	'ACP_PRUNE_USERS_EXPLAIN' => 'Depuis cette page, vous pouvez supprimer ou désactiver des utilisateurs de votre forum. Les comptes peuvent être filtrés de différentes manières ; par le nombre de messages, par l’activité la plus récente, etc. Des critères peuvent être combinés pour restreindre les comptes qui sont affectés. Par exemple, vous pouvez délester les utilisateurs qui ont publié moins de 10 messages et qui sont inactifs depuis le 2002-01-01, ou encore utiliser un astérisque « * » comme métacaractère dans les champs de texte. De même, vous pouvez ignorer complètement la sélection des critères en saisissant directement une liste d’utilisateurs dans le champ de texte, en prenant soin de placer chaque nom d’utilisateur sur une nouvelle ligne. Soyez prudent lorsque vous utilisez cette fonctionnalité ! Une fois qu’un utilisateur a été supprimé, il ne peut pas être restauré.',
 
 	'CRITERIA' => 'Critère',
 
@@ -46,7 +46,7 @@ $lang = array_merge($lang, [
 	'DEACTIVATE_DELETE_EXPLAIN' => 'Choisissez si vous voulez désactiver les utilisateurs ou les supprimer entièrement. Notez que les utilisateurs supprimés ne peuvent pas être restaurés !',
 	'DELETE_USERS'              => 'Supprimer',
 	'DELETE_USER_POSTS'         => 'Supprimer les messages des utilisateurs délestés',
-	'DELETE_USER_POSTS_EXPLAIN' => 'Supprime les messages des utilisateurs délestés. Sans effet sur les utilisateurs désactivés.',
+	'DELETE_USER_POSTS_EXPLAIN' => 'Supprime les messages des utilisateurs délestés. Cette option est sans effet si les utilisateurs sont désactivés.',
 
 	'JOINED_EXPLAIN' => 'Saisissez une date au format « AAAA-MM-JJ ». Vous pouvez utiliser les deux champs pour sélectionner un intervalle, ou laisser un champ vide pour garder une plage de dates ouverte.',
 
@@ -70,7 +70,7 @@ $lang = array_merge($lang, [
 
 // Forum Pruning
 $lang = array_merge($lang, [
-	'ACP_PRUNE_FORUMS_EXPLAIN' => 'Le délestage permet de supprimer les sujets considérés comme inactifs ou impopulaires (non consultés depuis un certain nombre de jours). Si vous ne saisissez aucun nombre de jours, tous les sujets seront supprimés. Par défaut, les annonces, les notes et les sujets contenant un sondage en cours sont préservés.',
+	'ACP_PRUNE_FORUMS_EXPLAIN' => 'Le délestage supprime les sujets sans nouveau message ou non consultés depuis le nombre de jours indiqué. Si vous ne saisissez aucun nombre de jours, tous les sujets seront supprimés. Par défaut, les annonces, les notes et les sujets contenant un sondage en cours sont préservés.',
 
 	'FORUM_PRUNE' => 'Délester le forum',
 
@@ -87,7 +87,7 @@ $lang = array_merge($lang, [
 	'PRUNE_NOT_POSTED'             => 'Nombre de jours depuis la dernière publication',
 	'PRUNE_NOT_VIEWED'             => 'Nombre de jours depuis la dernière consultation',
 	'PRUNE_OLD_POLLS'              => 'Délester les sondages obsolètes',
-	'PRUNE_OLD_POLLS_EXPLAIN'      => 'Les sujets contenant un sondage en cours mais inactif depuis un certain temps seront supprimés.',
+	'PRUNE_OLD_POLLS_EXPLAIN'      => 'Les sujets contenant un sondage sans nouveau vote depuis le nombre de jours indiqué seront supprimés.',
 	'PRUNE_STICKY'                 => 'Délester les notes',
 	'PRUNE_SUCCESS'                => 'Les forums ont été délestés.',
 

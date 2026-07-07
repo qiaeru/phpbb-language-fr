@@ -67,7 +67,7 @@ $lang = array_merge($lang, [
 		2 => 'Vous avez indiqué trop de mots à rechercher. Ne saisissez pas plus de %1$d mots.',
 	],
 
-	'NO_KEYWORDS'        => 'Vous devez saisir au moins un mot pour effectuer une recherche. Chaque mot doit être composé d’au moins %s caractères et ne doit pas en contenir plus de %s, en excluant les astérisques « * » utilisés comme métacaractères passe-partout.',
+	'NO_KEYWORDS'        => 'Vous devez saisir au moins un mot pour effectuer une recherche. Chaque mot doit comporter au moins %s et ne doit pas dépasser %s, en excluant les astérisques « * » utilisés comme métacaractères passe-partout.',
 	'NO_RECENT_SEARCHES' => 'Aucune recherche n’a été effectuée récemment.',
 	'NO_SEARCH'          => 'Vous n’êtes pas autorisé à effectuer une recherche.',
 	'NO_SEARCH_RESULTS'  => 'Aucun résultat ne correspond à votre recherche.',
@@ -90,10 +90,10 @@ $lang = array_merge($lang, [
 	'RETURN_FIRST_EXPLAIN' => 'Saisissez « 0 » pour afficher le message dans son intégralité.',
 	'GO_TO_SEARCH_ADV'     => 'Aller à la recherche avancée',
 
-	'SEARCHED_FOR'             => 'Rechercher les termes utilisés',
+	'SEARCHED_FOR'             => 'Termes recherchés',
 	'SEARCHED_TOPIC'           => 'Sujet recherché',
 	'SEARCHED_QUERY'           => 'Requête recherchée',
-	'SEARCH_ALL_TERMS'         => 'Rechercher tous les termes ou utiliser une question complète',
+	'SEARCH_ALL_TERMS'         => 'Rechercher tous les termes ou utiliser la requête telle que saisie',
 	'SEARCH_ANY_TERMS'         => 'Rechercher l’un de ces termes',
 	'SEARCH_AUTHOR'            => 'Rechercher par auteur',
 	'SEARCH_AUTHOR_EXPLAIN'    => 'Utilisez un astérisque « * » comme métacaractère passe-partout pour effectuer des recherches partielles.',
@@ -101,7 +101,7 @@ $lang = array_merge($lang, [
 	'SEARCH_FORUMS'            => 'Rechercher dans les forums',
 	'SEARCH_FORUMS_EXPLAIN'    => 'Sélectionnez le ou les forums dans lesquels vous souhaitez effectuer une recherche. Les sous-forums seront automatiquement inclus dans la recherche si vous ne désactivez pas l’option « Rechercher dans les sous-forums » affichée ci-dessous.',
 	'SEARCH_IN_RESULTS'        => 'Rechercher dans ces résultats',
-	'SEARCH_KEYWORDS_EXPLAIN'  => 'Insérez le caractère « + » devant un mot qui doit être trouvé et « - » devant un mot qui doit être ignoré. Insérez une liste de mots séparés entre des barres verticales discontinues « | » si seul un des mots doit être trouvé. Utilisez un astérisque « * » comme métacaractère passe-partout pour effectuer des recherches partielles.',
+	'SEARCH_KEYWORDS_EXPLAIN'  => 'Insérez le caractère « + » devant un mot qui doit être trouvé et « - » devant un mot qui doit être ignoré. Placez entre parenthèses une liste de mots séparés par des barres verticales « | » si un seul de ces mots doit être trouvé. Utilisez un astérisque « * » comme métacaractère passe-partout pour effectuer des recherches partielles.',
 	'SEARCH_MSG_ONLY'          => 'Contenu des messages uniquement',
 	'SEARCH_OPTIONS'           => 'Options de recherche',
 	'SEARCH_QUERY'             => 'Requête de la recherche',
@@ -119,7 +119,7 @@ $lang = array_merge($lang, [
 	'SPHINX_SEARCH_FAILED_LOG' => 'Échec de la recherche. Pour plus d’informations, consultez l’historique des erreurs.',
 
 	'TOO_FEW_AUTHOR_CHARS' => [
-		1 => 'Saisissez au moins %d caractère du nom des auteurs.',
-		2 => 'Saisissez au moins %d caractères du nom des auteurs.',
+		1 => 'Saisissez au moins %d caractère du nom de l’auteur.',
+		2 => 'Saisissez au moins %d caractères du nom de l’auteur.',
 	],
 ]);

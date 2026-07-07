@@ -90,7 +90,7 @@ $lang = array_merge($lang, [
 	'IM_SENT_JABBER'    => 'Votre message a été envoyé à %1$s.',
 	'IM_USER'           => 'Envoyer un message instantané',
 
-	'LAST_ACTIVE' => 'Dernière visite',
+	'LAST_ACTIVE' => 'Dernière activité',
 	'LESS_THAN'   => 'Moins que',
 	'LIST_USERS'  => [
 		1 => '%d utilisateur',
@@ -112,7 +112,7 @@ $lang = array_merge($lang, [
 	'ORDER' => 'Ordre',
 	'OTHER' => 'Autre',
 
-	'POST_IP' => 'Publié depuis le domaine ou IP',
+	'POST_IP' => 'Publié depuis l’adresse IP ou le domaine',
 
 	'REAL_NAME'     => 'Nom du destinataire',
 	'RECIPIENT'     => 'Destinataire',
@@ -145,7 +145,7 @@ $lang = array_merge($lang, [
 	'USER_PRESENCE'  => 'Présence sur le forum',
 	'USERS_PER_PAGE' => 'Utilisateurs par page',
 
-	'VIEWING_PROFILE'         => 'Consulte le profil de %s',
+	'VIEWING_PROFILE'         => 'Consultation du profil de %s',
 	'VIEW_FACEBOOK_PROFILE'   => 'Consulter le profil Facebook',
 	'VIEW_SKYPE_PROFILE'      => 'Consulter le profil Skype',
 	'VIEW_TWITTER_PROFILE'    => 'Consulter le profil Twitter',

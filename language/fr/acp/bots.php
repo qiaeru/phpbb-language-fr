@@ -63,8 +63,8 @@ $lang = array_merge($lang, [
 	'BOT_STYLE_EXPLAIN' => 'Style utilisé par le robot lors de sa navigation sur le forum.',
 	'BOT_UPDATED'       => 'Le robot a été mis à jour.',
 
-	'ERR_BOT_AGENT_MATCHES_UA' => 'L’agent utilisateur du robot est identique au vôtre. Saisissez-en un autre.',
-	'ERR_BOT_NO_IP'            => 'Les adresses IP sont invalides ou le nom d’hôte est indisponible.',
+	'ERR_BOT_AGENT_MATCHES_UA' => 'L’agent utilisateur du robot est trop semblable au vôtre. Saisissez-en un autre.',
+	'ERR_BOT_NO_IP'            => 'Les adresses IP sont invalides ou le nom d’hôte n’a pas pu être résolu.',
 	'ERR_BOT_NO_MATCHES'       => 'Saisissez l’agent utilisateur du robot ou une de ses adresses IP.',
 
 	'NO_BOT'       => 'Aucun robot ne correspond à l’identifiant indiqué.',

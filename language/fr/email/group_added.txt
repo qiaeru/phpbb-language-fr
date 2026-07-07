@@ -3,7 +3,7 @@ Subject: Vous avez été ajouté à un groupe d’utilisateurs
 Félicitations,
 
 Vous avez été ajouté au groupe « {GROUP_NAME} » sur « {SITENAME} ».
-Cette opération a été effectuée par un chef de groupe ou par l’administrateur du site, contactez-les pour plus d’informations.
+Cette opération a été effectuée par un responsable de groupe ou par l’administrateur du site. Pour plus d’informations, contactez l’un d’eux.
 
 Vous pouvez consulter les informations de votre groupe en cliquant sur ce lien :
 {U_GROUP}

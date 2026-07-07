@@ -43,7 +43,7 @@ $lang = array_merge($lang, [
 	'ADD_BBCODE'          => 'Ajouter un nouveau BBCode',
 
 	'BBCODE_DANGER'         => 'Le BBCode que vous essayez d’ajouter semble dangereux. Si le BBCode utilise une chaîne de symboles « {TEXT} » dans un contexte sensible, préférez un type plus restrictif. Ne continuez que si vous comprenez les risques encourus.',
-	'BBCODE_DANGER_PROCEED' => 'Procéder', //'I understand the risk',
+	'BBCODE_DANGER_PROCEED' => 'Continuer', //'I understand the risk',
 
 	'BBCODE_ADDED'             => 'Le BBCode a été ajouté.',
 	'BBCODE_EDITED'            => 'Le BBCode a été modifié.',
@@ -73,31 +73,31 @@ $lang = array_merge($lang, [
 
 	'TOKEN'            => 'Chaîne de symboles',
 	'TOKENS'           => 'Chaînes de symboles',
-	'TOKENS_EXPLAIN'   => 'Les chaînes de symboles sont des marques substitutives pour les entrées des utilisateurs. Les entrées ne seront validées que si elles correspondent à la définition. Si besoin, vous pouvez les numéroter en ajoutant un nombre entre des accolades comme dernier caractère, tel que « {TEXT1} », « {TEXT2} », etc.<br><br>Dans le code HTML, vous pouvez également utiliser une chaîne de langue dans votre répertoire « language/ » tel que « {L_<em>« NOMDELACHAÎNE »</em>} » où <em>« NOMDELACHAÎNE »</em> est le nom de la chaîne traduite à ajouter. Par exemple, « {L_WROTE} » sera affiché en tant que « a écrit » ou sa traduction selon la langue locale de l’utilisateur.<br><br><strong>Notez que seules les chaînes listées ci-dessous sont autorisées à être utilisées dans les BBCodes personnalisés.</strong>',
+	'TOKENS_EXPLAIN'   => 'Les chaînes de symboles sont des marques substitutives pour les entrées des utilisateurs. Les entrées ne seront validées que si elles correspondent à la définition. Si besoin, vous pouvez les numéroter en ajoutant un nombre comme dernier caractère entre les accolades, par exemple « {TEXT1} », « {TEXT2} », etc.<br><br>Dans le code HTML, vous pouvez également utiliser une chaîne de langue dans votre répertoire « language/ » tel que « {L_<em>« NOMDELACHAÎNE »</em>} » où <em>« NOMDELACHAÎNE »</em> est le nom de la chaîne traduite à ajouter. Par exemple, « {L_WROTE} » sera affiché en tant que « a écrit » ou sa traduction selon la langue locale de l’utilisateur.<br><br><strong>Notez que seules les chaînes listées ci-dessous peuvent être utilisées dans les BBCodes personnalisés.</strong>',
 	'TOKEN_DEFINITION' => 'Qu’est-ce que c’est ?',
 	'TOO_MANY_BBCODES' => 'Vous ne pouvez pas créer d’autres BBCodes. Supprimez-en un ou plusieurs et réessayez.',
 
 	'tokens' => [
 		'TEXT'         => 'Du texte, y compris les caractères étrangers, les chiffres, etc.',
 		'SIMPLETEXT'   => 'Caractères de l’alphabet latin (A-Z), chiffres, espaces, virgules, points, tirets, tirets bas et signes plus et moins.',
-		'INTTEXT'      => 'Lettres Unicode, chiffres, espaces, virgules, points, tirets bas, espaces insécables et signes plus et moins.',
+		'INTTEXT'      => 'Lettres Unicode, chiffres, espaces, virgules, points, tirets, tirets bas, espaces insécables et signes plus et moins.',
 		'IDENTIFIER'   => 'Caractères de l’alphabet latin (A-Z), chiffres, tirets et tirets bas.',
 		'NUMBER'       => 'Une série de chiffres.',
 		'EMAIL'        => 'Une adresse e-mail correcte.',
 		'URL'          => 'Une URL correcte utilisant n’importe quel protocole autorisé (HTTP, FTP, etc.) ne pouvant pas être utilisée pour des injections de Javascript. Si aucun protocole n’est renseigné, « http:// » sera utilisé par défaut.',
-		'LOCAL_URL'    => 'Une URL locale. L’adresse doit être relative à la page du sujet et ne doit pas contenir de nom de serveur ou de protocole, tels que des liens qui sont précédés de « %s »',
-		'RELATIVE_URL' => 'Une URL relative. Vous pouvez utiliser des résultats partiels d’une URL, mais soyez vigilant, car une URL complète est une URL relative valide. Pour utiliser les URL relatives de votre forum, utilisez la variable « LOCAL_URL ».',
-		'COLOR'        => 'Une couleur HTML qui peut être dans une forme hexadécimale « #FF1234 » ou un <a href="https://www.w3.org/TR/css3-color/#colorunits">nom de couleur CSS</a> (en anglais), tel que « black » ou « fuchsia ».',
+		'LOCAL_URL'    => 'Une URL locale. L’adresse doit être relative à la page du sujet et ne doit pas contenir de nom de serveur ou de protocole, car les liens sont préfixés par « %s »',
+		'RELATIVE_URL' => 'Une URL relative. Vous pouvez l’utiliser pour capturer des parties d’une URL, mais soyez vigilant, car une URL complète est une URL relative valide. Pour utiliser les URL relatives de votre forum, utilisez la chaîne de symboles « LOCAL_URL ».',
+		'COLOR'        => 'Une couleur HTML, sous forme hexadécimale « #FF1234 » ou un <a href="https://www.w3.org/TR/css3-color/#colorunits">nom de couleur CSS</a> (en anglais), tel que « black » ou « fuchsia ».',
 		'ALNUM'        => 'Caractères de l’alphabet latin (A-Z) et chiffres.',
 		'CHOICE'       => 'Un choix de valeurs indiquées, par exemple <samp>{CHOICE=pique,cœur,carreau,trèfle}</samp>. Les valeurs sont traitées comme insensibles à la casse par défaut et peuvent être traitées comme sensibles à la casse en spécifiant l’option <samp>caseSensitive</samp> : <samp>{CHOICE=pique,cœur,carreau,trèfle;caseSensitive}</samp>',
 		'FLOAT'        => 'Une valeur décimale, par exemple <samp>0.5</samp>.',
-		'HASHMAP'      => 'Associe des chaînes à leur remplaçant sous la forme <samp>{HASHMAP=chaîne1:remplacement1,chaîne2:remplacement2}</samp>. Sensible à la casse. Préserve les valeurs inconnues par défaut.',
+		'HASHMAP'      => 'Associe des chaînes à leur remplacement sous la forme <samp>{HASHMAP=chaîne1:remplacement1,chaîne2:remplacement2}</samp>. Sensible à la casse. Préserve les valeurs inconnues par défaut.',
 		'INT'          => 'Une valeur entière, par exemple <samp>2</samp>.',
 		'IP'           => 'Une adresse IPv4 ou IPv6 valide.',
 		'IPPORT'       => 'Une adresse IPv4 ou IPv6 valide avec un numéro de port.',
 		'IPV4'         => 'Une adresse IPv4 valide.',
 		'IPV6'         => 'Une adresse IPv6 valide.',
-		'MAP'          => 'Associe des chaînes à leur remplaçant sous la forme <samp>{MAP=chaîne1:remplacement1,chaîne2:remplacement2}</samp>. Insensible à la casse. Préserve les valeurs inconnues par défaut.',
+		'MAP'          => 'Associe des chaînes à leur remplacement sous la forme <samp>{MAP=chaîne1:remplacement1,chaîne2:remplacement2}</samp>. Insensible à la casse. Préserve les valeurs inconnues par défaut.',
 		'RANGE'        => 'Accepte un entier dans l’intervalle donné, par exemple <samp>{RANGE=-10,42}</samp>.',
 		'REGEXP'       => 'Valide sa valeur par rapport à une expression rationnelle donnée, par exemple <samp>{REGEXP=/^foo\w+bar$/}</samp>.',
 		'TIMESTAMP'    => 'Un horodatage tel que <samp>1h30m10s</samp> qui sera converti en nombre de secondes. Accepte également un nombre.',
@@ -107,7 +107,7 @@ $lang = array_merge($lang, [
 
 // Smilies and topic icons
 $lang = array_merge($lang, [
-	'ACP_ICONS_EXPLAIN'   => 'Depuis cette page, vous pouvez ajouter, supprimer ou modifier les icônes que les utilisateurs peuvent insérer aux sujets et aux messages. Ces icônes sont généralement affichées à côté des titres des sujets sur la liste des forums ou à côté des titres des messages sur la liste des sujets. Vous pouvez également installer et créer de nouvelles archives d’icônes.',
+	'ACP_ICONS_EXPLAIN'   => 'Depuis cette page, vous pouvez ajouter, supprimer ou modifier les icônes que les utilisateurs peuvent associer à leurs sujets et à leurs messages. Ces icônes sont généralement affichées à côté des titres des sujets sur la liste des forums ou à côté des titres des messages sur la liste des sujets. Vous pouvez également installer et créer de nouvelles archives d’icônes.',
 	'ACP_SMILIES_EXPLAIN' => 'Les émoticônes sont généralement de petites images, parfois animées, utilisées pour exprimer une émotion ou un sentiment. Depuis cette page, vous pouvez ajouter, supprimer et modifier les émoticônes que les utilisateurs peuvent insérer dans leurs messages et leurs messages privés. Vous pouvez également installer et créer de nouvelles archives d’émoticônes.',
 	'ADD_SMILIES'         => 'Ajouter plusieurs émoticônes',
 	'ADD_SMILEY_CODE'     => 'Ajouter un code d’émoticône additionnel',
@@ -129,9 +129,9 @@ $lang = array_merge($lang, [
 	'EDIT_SMILIES'           => 'Modifier les émoticônes',
 	'EMOTION'                => 'Émotion',
 	'EXPORT_ICONS'           => 'Exporter et télécharger « icons.pak »',
-	'EXPORT_ICONS_EXPLAIN'   => '%sEn cliquant sur ce lien, la configuration des icônes installées sera archivée dans « icons.pak » qui, une fois téléchargé, pourra être utilisé pour créer un fichier compressé au format « .zip » ou « .tgz » qui contiendra toutes vos icônes, ainsi que le fichier de configuration « icons.pak »%s.',
+	'EXPORT_ICONS_EXPLAIN'   => '%sSi vous cliquez sur ce lien, la configuration des icônes installées sera archivée dans « icons.pak » qui, une fois téléchargé, pourra être utilisé pour créer un fichier compressé au format « .zip » ou « .tgz » qui contiendra toutes vos icônes, ainsi que le fichier de configuration « icons.pak »%s.',
 	'EXPORT_SMILIES'         => 'Exporter et télécharger « smilies.pak »',
-	'EXPORT_SMILIES_EXPLAIN' => '%sEn cliquant sur ce lien, la configuration des émoticônes installées sera archivée dans « smilies.pak » qui, une fois téléchargé, pourra être utilisé pour créer un fichier compressé au format « .zip » ou « .tgz » qui contiendra toutes vos émoticônes, ainsi que le fichier de configuration « smilies.pak »%s.',
+	'EXPORT_SMILIES_EXPLAIN' => '%sSi vous cliquez sur ce lien, la configuration des émoticônes installées sera archivée dans « smilies.pak » qui, une fois téléchargé, pourra être utilisé pour créer un fichier compressé au format « .zip » ou « .tgz » qui contiendra toutes vos émoticônes, ainsi que le fichier de configuration « smilies.pak »%s.',
 
 	'FIRST' => 'Premier',
 
@@ -156,7 +156,7 @@ $lang = array_merge($lang, [
 	'ICONS_LOCATION'       => 'Emplacement de l’icône',
 	'ICONS_NOT_DISPLAYED'  => 'Les icônes suivantes ne sont pas affichées sur la page de rédaction',
 	'ICONS_ORDER'          => 'Position de l’icône',
-	'ICONS_URL'            => 'Image de l’icône',
+	'ICONS_URL'            => 'Fichier image de l’icône',
 	'ICONS_WIDTH'          => 'Largeur de l’icône',
 	'IMPORT_ICONS'         => 'Installer une archive d’icônes',
 	'IMPORT_SMILIES'       => 'Installer une archive d’émoticônes',
@@ -205,7 +205,7 @@ $lang = array_merge($lang, [
 	'SMILIES_LOCATION'       => 'Emplacement de l’émoticône',
 	'SMILIES_NOT_DISPLAYED'  => 'Les émoticônes suivantes ne sont pas affichées sur la page de rédaction',
 	'SMILIES_ORDER'          => 'Position de l’émoticône',
-	'SMILIES_URL'            => 'Image de l’émoticône',
+	'SMILIES_URL'            => 'Fichier image de l’émoticône',
 	'SMILIES_WIDTH'          => 'Largeur de l’émoticône',
 
 	'TOO_MANY_SMILIES' => [
@@ -245,7 +245,7 @@ $lang = array_merge($lang, [
 
 	'NO_ASSIGNED_RANK' => 'Aucun rang spécial n’a été indiqué.',
 	'NO_RANK_TITLE'    => 'Le titre du rang n’a pas été indiqué.',
-	'NO_UPDATE_RANKS'  => 'Le rang a été supprimé. Les comptes des utilisateurs qui l’utilisent n’ont pas été mis à jour ; réinitialisez leur rang manuellement.',
+	'NO_UPDATE_RANKS'  => 'Le rang a été supprimé. Les comptes des utilisateurs qui l’utilisaient n’ont pas été mis à jour ; réinitialisez leur rang manuellement.',
 
 	'RANK_ADDED'         => 'Le rang a été ajouté.',
 	'RANK_IMAGE'         => 'Image du rang',
@@ -276,12 +276,12 @@ $lang = array_merge($lang, [
 
 // Reasons
 $lang = array_merge($lang, [
-	'ACP_REASONS_EXPLAIN' => 'Depuis cette page, vous pouvez gérer les raisons utilisées dans les signalements lors de la désapprobation de messages. La raison par défaut, signalée par un astérisque « * », ne peut pas être supprimée car elle est réservée aux messages personnalisés quand aucune raison n’est indiquée.',
+	'ACP_REASONS_EXPLAIN' => 'Depuis cette page, vous pouvez gérer les raisons utilisées dans les signalements et dans les messages de refus lorsqu’un message est refusé. La raison par défaut, signalée par un astérisque « * », ne peut pas être supprimée car elle est réservée aux messages personnalisés quand aucune autre raison ne convient.',
 	'ADD_NEW_REASON'      => 'Ajouter une nouvelle raison',
 	'AVAILABLE_TITLES'    => 'Titres des raisons traduites disponibles',
 
 	'IS_NOT_TRANSLATED'         => 'La raison n’a pas été traduite.',
-	'IS_NOT_TRANSLATED_EXPLAIN' => 'La raison n’a pas été traduite. Pour renseigner le formulaire, saisissez la clé des fichiers de langue de la section des raisons de signalement.',
+	'IS_NOT_TRANSLATED_EXPLAIN' => 'La raison n’a pas été traduite. Pour fournir la version traduite, saisissez la clé correspondante de la section des raisons de signalement des fichiers de langue.',
 	'IS_TRANSLATED'             => 'La raison a été traduite.',
 	'IS_TRANSLATED_EXPLAIN'     => 'La raison a été traduite. Si le titre saisi ici figure dans les fichiers de langue de la section des raisons de signalement, la version traduite du titre et de la description sera utilisée.',
 

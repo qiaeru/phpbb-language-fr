@@ -46,7 +46,7 @@ $lang = array_merge($lang, [
 	'CLI_CONFIG_NOT_EXISTS'            => 'La configuration « %s » n’existe pas.',
 	'CLI_CONFIG_OPTION_NAME'           => 'Nom de l’option de configuration.',
 	'CLI_CONFIG_PRINT_WITHOUT_NEWLINE' => 'Activez cette option pour afficher la valeur sans ajouter de nouvelle ligne.',
-	'CLI_CONFIG_INCREMENT_BY'          => 'Valeur à incrémenter.',
+	'CLI_CONFIG_INCREMENT_BY'          => 'Valeur de l’incrément.',
 	'CLI_CONFIG_INCREMENT_SUCCESS'     => 'La valeur de la configuration « %s » a été incrémentée.',
 	'CLI_CONFIG_SET_FAILURE'           => 'Impossible de définir la configuration « %s ».',
 	'CLI_CONFIG_SET_SUCCESS'           => 'La configuration « %s » a été définie.',
@@ -60,7 +60,7 @@ $lang = array_merge($lang, [
 	'CLI_DESCRIPTION_DELETE_CONFIG'       => 'Supprime une option de configuration',
 	'CLI_DESCRIPTION_DISABLE_EXTENSION'   => 'Désactive l’extension indiquée.',
 	'CLI_DESCRIPTION_ENABLE_EXTENSION'    => 'Active l’extension indiquée.',
-	'CLI_DESCRIPTION_FIND_MIGRATIONS'     => 'Détecte les migrations sans dépendances.',
+	'CLI_DESCRIPTION_FIND_MIGRATIONS'     => 'Détecte les migrations dont aucune autre migration ne dépend.',
 	'CLI_DESCRIPTION_FIX_LEFT_RIGHT_IDS'  => 'Répare l’arborescence des forums et des modules.',
 	'CLI_DESCRIPTION_GET_CONFIG'          => 'Obtient la valeur d’une option de configuration.',
 	'CLI_DESCRIPTION_INCREMENT_CONFIG'    => 'Incrémente la valeur entière d’une option de configuration.',
@@ -77,7 +77,7 @@ $lang = array_merge($lang, [
 	'CLI_DESCRIPTION_REPARSER_REPARSE'                  => 'Réanalyse le texte stocké avec les services « text_formatter » actuels.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_ARG_1'            => 'Le type de texte à réanalyser. Laissez ce champ vide pour tout réanalyser.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_DRY_RUN'      => 'N’enregistrer aucune modification et afficher uniquement ce qui serait fait.',
-	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_FORCE_BBCODE' => 'Réanalyser tous les BBCodes sans exception. Les BBCodes précédemment désactivés seront retraités, activés et entièrement reproduits.',
+	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_FORCE_BBCODE' => 'Réanalyser tous les BBCodes sans exception. Les BBCodes précédemment désactivés seront retraités, activés et entièrement rendus.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MIN'    => 'Identifiant d’enregistrement minimal à traiter.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MAX'    => 'Identifiant d’enregistrement maximal à traiter.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_SIZE'   => 'Nombre approximatif d’enregistrements à traiter à la fois.',
@@ -97,7 +97,7 @@ $lang = array_merge($lang, [
 
 	'CLI_DESCRIPTION_UPDATE_HASH_BCRYPT' => 'Met à jour les hachages des mots de passe obsolètes pour les encoder avec « bcrypt ».',
 
-	'CLI_ERROR_INVALID_STABILITY' => '« %s » doit être réglé sur « stable » ou « instable ».',
+	'CLI_ERROR_INVALID_STABILITY' => '« %s » doit être réglé sur « stable » ou « unstable ».',
 
 	'CLI_DESCRIPTION_USER_ACTIVATE'            => 'Activer (ou désactiver) le compte d’un utilisateur.',
 	'CLI_DESCRIPTION_USER_ACTIVATE_USERNAME'   => 'Nom d’utilisateur du compte à activer.',
@@ -137,13 +137,13 @@ $lang = array_merge($lang, [
 	'CLI_FIXUP_FIX_LEFT_RIGHT_IDS_SUCCESS'     => 'L’arborescence des forums et des modules a été réparée.',
 	'CLI_FIXUP_UPDATE_HASH_BCRYPT_SUCCESS'     => 'Les hachages des mots de passe obsolètes ont été encodés avec « bcrypt ».',
 
-	'CLI_MIGRATION_NAME'            => 'Nom de la migration, espace de nom inclus (utilisez des barres obliques au lieu des barres obliques inversées pour éviter les problèmes).',
+	'CLI_MIGRATION_NAME'            => 'Nom de la migration, espace de noms inclus (utilisez des barres obliques au lieu des barres obliques inversées pour éviter les problèmes).',
 	'CLI_MIGRATIONS_AVAILABLE'      => 'Migrations disponibles',
 	'CLI_MIGRATIONS_INSTALLED'      => 'Migrations installées',
 	'CLI_MIGRATIONS_ONLY_AVAILABLE' => 'N’afficher que les migrations disponibles.',
 	'CLI_MIGRATIONS_EMPTY'          => 'Aucune migration n’est disponible.',
 
-	'CLI_REPARSER_REPARSE_REPARSING'       => 'Réanalyse de « %1$s » (rangée %2$d sur %3$d)',
+	'CLI_REPARSER_REPARSE_REPARSING'       => 'Réanalyse de « %1$s » (enregistrements %2$d à %3$d)',
 	'CLI_REPARSER_REPARSE_REPARSING_START' => 'Réanalyse de « %s »…',
 	'CLI_REPARSER_REPARSE_SUCCESS'         => 'Réanalyse terminée',
 
@@ -177,7 +177,10 @@ $lang = array_merge($lang, [
 // Additional help for commands.
 $lang = array_merge($lang, [
 	'CLI_HELP_CRON_RUN'      => $lang['CLI_DESCRIPTION_CRON_RUN'].' Vous pouvez indiquer un nom de tâche cron pour n’exécuter que cette tâche.',
-	'CLI_HELP_USER_ACTIVATE' => 'L’option « --deactivate » active ou désactive le compte d’un utilisateur.\nPour envoyer un e-mail d’activation à l’utilisateur, utilisez l’option « --send-email ».',
-	'CLI_HELP_USER_ADD' => 'La commande « %command.name% » ajoute un nouvel utilisateur :\nSi la commande est exécutée sans option, les valeurs vous sont demandées.\nPour envoyer un e-mail au nouvel utilisateur, utilisez l’option « --send-email ».',
+	'CLI_HELP_USER_ACTIVATE' => 'Active le compte d’un utilisateur, ou le désactive avec l’option « --deactivate ».
+Pour envoyer un e-mail d’activation à l’utilisateur, utilisez l’option « --send-email ».',
+	'CLI_HELP_USER_ADD' => 'La commande « %command.name% » ajoute un nouvel utilisateur :
+Si la commande est exécutée sans option, les valeurs vous sont demandées.
+Pour envoyer un e-mail au nouvel utilisateur, utilisez l’option « --send-email ».',
 	'CLI_HELP_USER_RECLEAN' => 'Le renettoyage des noms d’utilisateurs vérifie tous les noms d’utilisateurs et s’assure que les versions propres sont également stockées. Les noms d’utilisateurs propres sont insensibles à la casse, normalisés en NFC et transformés en ASCII.',
 ]);

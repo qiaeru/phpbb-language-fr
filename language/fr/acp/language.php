@@ -54,7 +54,7 @@ $lang = array_merge($lang, [
 	'LANGUAGE_PACK_LOCALNAME'         => 'Nom local',
 	'LANGUAGE_PACK_NAME'              => 'Nom',
 	'LANGUAGE_PACK_NOT_EXIST'         => 'La langue est introuvable.',
-	'LANGUAGE_PACK_USED_BY'           => 'Utilisée par (incluant les robots)',
+	'LANGUAGE_PACK_USED_BY'           => 'Utilisée par (robots compris)',
 	'LANGUAGE_VARIABLE'               => 'Variable de langue',
 	'LANG_AUTHOR'                     => 'Auteur de la langue',
 	'LANG_ENGLISH_NAME'               => 'Nom en anglais',
@@ -70,7 +70,7 @@ $lang = array_merge($lang, [
 	'NO_UNINSTALLED_LANGUAGE_PACKS' => 'Aucune langue non installée n’est disponible.',
 
 	'THOSE_MISSING_LANG_FILES'     => 'Les fichiers de langue suivants sont absents du répertoire de langue « %s »',
-	'THOSE_MISSING_LANG_VARIABLES' => 'Les variables de langue suivantes sont absentes de la langue « %s ».',
+	'THOSE_MISSING_LANG_VARIABLES' => 'Les variables de langue suivantes sont absentes de la langue « %s »',
 
 	'UNINSTALLED_LANGUAGE_PACKS' => 'Langues non installées',
 

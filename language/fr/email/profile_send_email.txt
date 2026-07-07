@@ -1,7 +1,7 @@
 
 Bonjour {TO_USERNAME},
 
-{FROM_USERNAME} vous a envoyé cet e-mail depuis votre compte sur « {SITENAME} ». Si ce message est un courrier indésirable ou contient des propos déplacés, contactez un administrateur du forum à l’adresse suivante :
+{FROM_USERNAME} vous a envoyé cet e-mail via votre compte sur « {SITENAME} ». Si ce message est un spam ou contient des propos déplacés, contactez un administrateur du forum à l’adresse suivante :
 
 {BOARD_CONTACT}
 

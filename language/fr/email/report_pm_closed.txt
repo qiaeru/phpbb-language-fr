@@ -2,12 +2,12 @@ Subject: Votre signalement de message privé a été clôturé : « {SUBJECT}
 
 Bonjour {USERNAME},
 
-Le signalement que vous avez rédigé concernant le message privé « {SUBJECT} » publié par « {AUTHOR_NAME} » sur « {SITENAME} » a été vérifié par un modérateur ou un administrateur et est désormais clôturé. Pour plus d’informations, contactez {CLOSER_NAME} par message privé.
+Le signalement que vous avez rédigé concernant le message privé « {SUBJECT} » envoyé par « {AUTHOR_NAME} » sur « {SITENAME} » a été traité par un modérateur ou un administrateur et est désormais clôturé. Pour plus d’informations, contactez {CLOSER_NAME} par message privé.
 
 Vous pouvez consulter le message privé que vous avez signalé en cliquant sur le lien suivant :
 
 {U_VIEW_MESSAGE}
 
-Vous avez demandé à être notifié lors de cet événement. Vous pouvez à tout moment choisir de ne plus recevoir de notifications à la clôture des signalements de messages privés en modifiant le paramètre correspondant dans votre profil.
+Vous avez demandé à être notifié de cet événement. Vous pouvez à tout moment choisir de ne plus recevoir de notifications à la clôture des signalements de messages privés en modifiant le paramètre correspondant dans votre profil.
 
 {EMAIL_SIG}

@@ -37,7 +37,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, [
-	'ACP_STYLES_EXPLAIN' => 'Depuis cette page, vous pouvez gérer les styles disponibles sur votre forum.<br>Notez que vous ne pouvez pas désinstaller le style « prosilver » qui est le style par défaut de phpBB.',
+	'ACP_STYLES_EXPLAIN' => 'Depuis cette page, vous pouvez gérer les styles disponibles sur votre forum.<br>Notez que vous ne pouvez pas désinstaller le style « prosilver », qui est le style par défaut et le style parent principal de phpBB.',
 
 	'CANNOT_BE_INSTALLED'      => 'Ne peut pas être installé',
 	'CONFIRM_UNINSTALL_STYLES' => 'Êtes-vous sûr de vouloir désinstaller ces styles ?',
@@ -52,7 +52,7 @@ $lang = array_merge($lang, [
 	'INHERITING_FROM'        => 'Hérite de',
 	'INSTALL_STYLE'          => 'Installer un style',
 	'INSTALL_STYLES'         => 'Installer des styles',
-	'INSTALL_STYLES_EXPLAIN' => 'Depuis cette page, vous pouvez installer de nouveaux styles.<br>Si le style importé n’apparaît pas dans la liste, vérifiez qu’il n’est pas déjà installé. Sinon, essayez de l’importer à nouveau.',
+	'INSTALL_STYLES_EXPLAIN' => 'Depuis cette page, vous pouvez installer de nouveaux styles.<br>Si un style n’apparaît pas dans la liste, vérifiez qu’il n’est pas déjà installé. S’il ne l’est pas, vérifiez qu’il a été correctement transféré sur le serveur.',
 	'INVALID_STYLE_ID'       => 'L’identifiant du style est invalide.',
 
 	'NO_MATCHING_STYLES_FOUND' => 'Aucun style ne correspond à votre requête.',
@@ -78,7 +78,7 @@ $lang = array_merge($lang, [
 	'STYLE_NOT_INSTALLED'                       => 'Le style « %s » n’a pas été installé.',
 	'STYLE_PATH'                                => 'Chemin du style',
 	'STYLE_UNINSTALL'                           => 'Désinstaller',
-	'STYLE_UNINSTALL_DEPENDENT'                 => 'Le style « %s » ne peut pas être désinstallé car un ou plusieurs styles sont dépendants de ce dernier.',
+	'STYLE_UNINSTALL_DEPENDENT'                 => 'Le style « %s » ne peut pas être désinstallé car un ou plusieurs styles en héritent.',
 	'STYLE_UNINSTALLED'                         => 'Le style « %s » a été désinstallé.',
 	'STYLE_PHPBB_VERSION'                       => 'Version de phpBB',
 	'STYLE_USED_BY'                             => 'Utilisé par (robots compris)',

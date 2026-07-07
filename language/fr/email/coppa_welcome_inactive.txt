@@ -8,7 +8,7 @@ Imprimez ce message, faites-le signer et dater par vos parents ou tuteurs, puis 
 
 {FAX_INFO}
 
-Ou envoyez-le par e-mail à :
+Ou envoyez-le par courrier postal à :
 
 {MAIL_INFO}
 
@@ -33,7 +33,7 @@ Date : _______________
 ------------------------------ COUPEZ ICI ------------------------------
 
 
-Une fois qu’un administrateur aura reçu le texte ci-dessus par e-mail, télécopie ou courrier postal, votre compte sera activé.
+Une fois qu’un administrateur aura reçu le texte ci-dessus par télécopie ou par courrier postal, votre compte sera activé.
 
 Votre mot de passe est stocké de manière sécurisée et ne peut pas être récupéré. En cas d’oubli, réinitialisez-le à l’aide de l’adresse e-mail associée à votre compte.
 

@@ -54,11 +54,11 @@ $lang = array_merge($lang, [
 	'ACL_CAT_PM'            => 'Messages privés',
 	'ACL_CAT_POLLS'         => 'Sondages',
 	'ACL_CAT_POST'          => 'Message',
-	'ACL_CAT_POST_ACTIONS'  => 'Opérations des messages',
+	'ACL_CAT_POST_ACTIONS'  => 'Opérations sur les messages',
 	'ACL_CAT_POSTING'       => 'Publication',
 	'ACL_CAT_PROFILE'       => 'Profil',
 	'ACL_CAT_SETTINGS'      => 'Paramètres',
-	'ACL_CAT_TOPIC_ACTIONS' => 'Opérations des sujets',
+	'ACL_CAT_TOPIC_ACTIONS' => 'Opérations sur les sujets',
 	'ACL_CAT_USER_GROUP'    => 'Utilisateurs et groupes',
 ]);
 
@@ -84,7 +84,7 @@ $lang = array_merge($lang, [
 	'ACL_U_MASSPM_GROUP' => 'Peut envoyer des messages privés aux groupes d’utilisateurs',
 	'ACL_U_READPM'       => 'Peut lire ses messages privés',
 	'ACL_U_PM_EDIT'      => 'Peut modifier ses messages privés',
-	'ACL_U_PM_DELETE'    => 'Peut supprimer les messages privés de ses boîtes',
+	'ACL_U_PM_DELETE'    => 'Peut supprimer les messages privés de ses dossiers',
 	'ACL_U_PM_FORWARD'   => 'Peut transférer les messages privés',
 	'ACL_U_PM_EMAILPM'   => 'Peut envoyer les messages privés par e-mail',
 	'ACL_U_PM_PRINTPM'   => 'Peut imprimer les messages privés',
@@ -98,7 +98,7 @@ $lang = array_merge($lang, [
 	'ACL_U_SENDEMAIL'   => 'Peut envoyer des e-mails',
 	'ACL_U_SENDIM'      => 'Peut envoyer des messages instantanés',
 	'ACL_U_IGNOREFLOOD' => 'Peut ignorer la limite de flood',
-	'ACL_U_HIDEONLINE'  => 'Peut masquer son statut en ligne',
+	'ACL_U_HIDEONLINE'  => 'Peut masquer sa présence',
 	'ACL_U_VIEWONLINE'  => 'Peut voir les utilisateurs invisibles en ligne',
 	'ACL_U_SEARCH'      => 'Peut rechercher sur le forum',
 ]);
@@ -174,7 +174,7 @@ $lang = array_merge($lang, [
 	'ACL_A_FORUMDEL' => 'Peut supprimer les forums',
 	'ACL_A_PRUNE'    => 'Peut délester les forums',
 
-	'ACL_A_ICONS'  => 'Peut modifier les icônes de sujet et de message et les émoticônes',
+	'ACL_A_ICONS'  => 'Peut modifier les icônes de sujet et de message ainsi que les émoticônes',
 	'ACL_A_WORDS'  => 'Peut modifier la censure de mots',
 	'ACL_A_BBCODE' => 'Peut définir les balises BBCodes',
 	'ACL_A_ATTACH' => 'Peut modifier les paramètres relatifs aux pièces jointes',
@@ -197,7 +197,7 @@ $lang = array_merge($lang, [
 	'ACL_A_AAUTH'      => 'Peut modifier les permissions des administrateurs',
 	'ACL_A_UAUTH'      => 'Peut modifier les permissions des utilisateurs',
 	'ACL_A_ROLES'      => 'Peut gérer les rôles',
-	'ACL_A_SWITCHPERM' => 'Peut utiliser d’autres permissions',
+	'ACL_A_SWITCHPERM' => 'Peut utiliser les permissions d’autres utilisateurs',
 
 	'ACL_A_STYLES'     => 'Peut gérer les styles',
 	'ACL_A_EXTENSIONS' => 'Peut gérer les extensions',
@@ -207,7 +207,7 @@ $lang = array_merge($lang, [
 	'ACL_A_LANGUAGE'   => 'Peut gérer les langues',
 	'ACL_A_EMAIL'      => 'Peut envoyer des e-mails de masse',
 	'ACL_A_BOTS'       => 'Peut gérer les robots',
-	'ACL_A_REASONS'    => 'Peut gérer les signalements et les raisons',
+	'ACL_A_REASONS'    => 'Peut gérer les raisons de signalement et de refus',
 	'ACL_A_BACKUP'     => 'Peut sauvegarder et restaurer la base de données',
 	'ACL_A_SEARCH'     => 'Peut gérer l’indexation et les paramètres de la recherche',
 ]);
