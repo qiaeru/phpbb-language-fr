@@ -90,6 +90,6 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v7
       - name: Setup editorconfig-checker
-        uses: editorconfig-checker/action-editorconfig-checker@v2.2.0
+        uses: editorconfig-checker/action-editorconfig-checker@v3.0.0
       - name: Run editorconfig-checker
         run: editorconfig-checker
