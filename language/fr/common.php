@@ -4,7 +4,7 @@
  * phpBB forum software.
  *
  * @copyright (c) phpBB Limited <https://www.phpbb.com>
- * @copyright (c) Qiaeru <https://www.qiae.ru>
+ * @copyright (c) Qiaeru <https://qiaeru.com>
  * @license GNU General Public License, version 2 (GPL-2.0)
  *
  * For more information about the language pack, please visit
@@ -37,7 +37,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, [
-	'TRANSLATION_INFO' => '<a href="https://www.phpbb.com/customise/db/translation/french/">Traduction française officielle</a> &copy; <a href="https://www.qiae.ru">Qiaeru</a>',
+	'TRANSLATION_INFO' => '<a href="https://www.phpbb.com/customise/db/translation/french/">Traduction française officielle</a> &copy; <a href="https://qiaeru.com">Qiaeru</a>',
 	'DIRECTION'        => 'ltr',
 	'DATE_FORMAT'      => '|d F Y|', // 01 January 2007 (with Relative days enabled)
 	'DATETIME_FORMAT'  => '|d F Y, H:i|', // 01 January 2007, 13:37 (with Relative days enabled)
