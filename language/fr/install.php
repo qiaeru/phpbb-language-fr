@@ -278,6 +278,7 @@ $lang = array_merge($lang, [
 	'TASK_CREATE_TABLES'               => 'Création des tables',
 
 	// Install data
+	'TASK_ADD_AI_CRAWLERS'     => 'Inscription des robots d’IA',
 	'TASK_ADD_BOTS'            => 'Inscription des robots',
 	'TASK_ADD_LANGUAGES'       => 'Installation des langues disponibles',
 	'TASK_ADD_MODULES'         => 'Installation des modules',
@@ -471,6 +472,7 @@ $lang = array_merge($lang, [
 	// Common converter messages
 	'CONVERT_NOT_EXIST'   => 'Le convertisseur est introuvable.',
 	'DEV_NO_TEST_FILE'    => 'Aucune valeur n’a été indiquée dans le convertisseur pour la variable « test_file ». Si vous êtes utilisateur de ce convertisseur, vous ne devriez pas voir cette erreur : signalez-la à l’auteur du convertisseur. Si vous en êtes l’auteur, indiquez le nom d’un fichier existant dans le forum source pour permettre la validation du chemin.',
+	'COULD_NOT_COPY'      => 'Le fichier <strong>%1$s</strong> n’a pas pu être copié vers <strong>%2$s</strong>.<br><br>Vérifiez que le répertoire cible existe et que ses droits autorisent l’écriture par votre serveur.',
 	'COULD_NOT_FIND_PATH' => 'Le chemin vers votre ancien forum est introuvable. Vérifiez vos paramètres et réessayez.<br>» Le chemin source indiqué était « %s ».',
 	'CONFIG_PHPBB_EMPTY'  => 'La variable de configuration « %s » de phpBB 3.3 est vide.',
 
