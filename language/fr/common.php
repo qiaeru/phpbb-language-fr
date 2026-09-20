@@ -97,7 +97,7 @@ $lang = array_merge($lang, [
 	'AUTH_PROVIDER_OAUTH_SERVICE_BITLY'                  => 'Bitly',
 	'AUTH_PROVIDER_OAUTH_SERVICE_FACEBOOK'               => 'Facebook',
 	'AUTH_PROVIDER_OAUTH_SERVICE_GOOGLE'                 => 'Google',
-	'AUTH_PROVIDER_OAUTH_SERVICE_TWITTER'                => 'Twitter',
+	'AUTH_PROVIDER_OAUTH_SERVICE_TWITTER'                => 'X',
 	'AUTH_PROVIDER_OAUTH_TOKEN_ERROR_NOT_STORED'         => 'Le jeton OAuth n’a pas été stocké.',
 	'AUTH_PROVIDER_OAUTH_TOKEN_ERROR_INCORRECTLY_STORED' => 'Le jeton OAuth n’a pas été stocké correctement.',
 	'AVATAR_DISALLOWED_CONTENT'                          => 'L’import a été refusé : le fichier a été identifié comme potentiellement malveillant.',
@@ -510,6 +510,9 @@ $lang = array_merge($lang, [
 	'NOTIFICATION_TOPIC_IN_QUEUE'      => '<strong>Sujet à approuver</strong> de %1$s :',
 	'NOTIFICATION_TYPE_NOT_EXIST'      => 'Le type de notification « %s » est introuvable.',
 	'NOTIFICATION_ADMIN_ACTIVATE_USER' => '<strong>Demande d’activation</strong> d’un utilisateur désactivé ou nouvellement inscrit : « %1$s »',
+	'NOTIFICATION_UPDATE_CRITICAL'     => '<strong>Mise à jour critique requise vers phpBB %2$s</strong> : votre forum utilise la version %1$s et une nouvelle version qui corrige des failles de sécurité critiques doit être installée immédiatement.',
+	'NOTIFICATION_UPDATE_MAINTENANCE'  => '<strong>Mise à jour vers phpBB %2$s disponible</strong> : votre forum utilise la version %1$s et une nouvelle version est disponible.',
+	'NOTIFICATION_UPDATE_SECURITY'     => '<strong>Mise à jour de sécurité vers phpBB %2$s disponible</strong> : votre forum utilise la version %1$s et une nouvelle version qui corrige des failles de sécurité est disponible. Nous vous recommandons de mettre à jour votre forum pour qu’il reste sécurisé et protégé.',
 	// Used in conjuction with NOTIFICATION_BOOKMARK and NOTIFICATION_POST.
 	'NOTIFICATION_MANY_OTHERS' => 'plusieurs autres utilisateurs',
 	'NOTIFICATION_X_OTHERS'    => [
@@ -847,7 +850,7 @@ $lang = array_merge($lang, [
 		2 => '<strong>%d</strong> membres',
 	],
 	'TRACKED_PHP_ERROR' => 'Erreurs PHP survenues : %s',
-	'TWITTER'           => 'Twitter',
+	'TWITTER'           => 'X',
 
 	'UNABLE_GET_IMAGE_SIZE'   => 'Impossible de détecter automatiquement les dimensions de l’image. Vérifiez le lien saisi.',
 	'UNABLE_TO_DELIVER_FILE'  => 'L’envoi du fichier a échoué.',

@@ -68,6 +68,7 @@ $lang = array_merge($lang, [
 	'ERR_BOT_AGENT_MATCHES_UA' => 'L’agent utilisateur du robot est trop semblable au vôtre. Saisissez-en un autre.',
 	'ERR_BOT_NO_IP'            => 'Les adresses IP sont invalides ou le nom d’hôte n’a pas pu être résolu.',
 	'ERR_BOT_NO_MATCHES'       => 'Saisissez l’agent utilisateur du robot ou une de ses adresses IP.',
+	'ERR_BOT_NO_NAME'          => 'Saisissez le nom du robot.',
 
 	'NO_BOT'       => 'Aucun robot ne correspond à l’identifiant indiqué.',
 	'NO_BOT_GROUP' => 'Le groupe d’utilisateurs des robots est introuvable.',

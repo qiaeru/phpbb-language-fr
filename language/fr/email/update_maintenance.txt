@@ -1,0 +1,14 @@
+Subject: phpBB {NEW_VERSION} est disponible pour « {SITENAME} »
+
+Bonjour {USERNAME},
+
+Une nouvelle mise à jour est disponible pour votre installation de phpBB.
+
+Votre forum utilise la version {CURRENT_VERSION}, et la dernière version disponible est la {NEW_VERSION}. Nous vous recommandons fortement de maintenir votre forum à jour pour garantir le meilleur niveau de sécurité, de stabilité et de performances.
+
+Les détails de cette version sont consultables dans le panneau de contrôle d’administration de votre forum :
+{U_BOARD}
+
+Si vous avez besoin d’aide pour la mise à jour, consultez la documentation ou rendez-vous sur nos forums d’assistance : https://www.phpbb.com/community/ (en anglais)
+
+{EMAIL_SIG}
