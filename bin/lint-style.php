@@ -34,7 +34,7 @@ $content_rules = [
 		'/\bprématurément\b/iu'                 => '« prématurément » : reformuler',
 		'/\bultérieurement\b/iu'                => '« ultérieurement » : utiliser « plus tard »',
 		'/\bdans le cas où\b/iu'                => '« dans le cas où » : utiliser « si »',
-		'/une erreur est survenue lors/iu'      => '« Une erreur est survenue lors… » : utiliser « Échec de… »',
+		'/une erreur est survenue lors/iu'      => '« Une erreur est survenue lors… » : utiliser « X a échoué » ou « Impossible de… »',
 		'/que vous avez spécifié/iu'            => '« que vous avez spécifié » : utiliser « indiqué »',
 	],
 	'TIRET-LONG' => [
