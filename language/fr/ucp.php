@@ -242,8 +242,8 @@ $lang = array_merge($lang, [
 	'FOLDER_RENAMED'    => 'Le dossier a été renommé.',
 	'FOLDER_REMOVED'    => 'Le dossier a été supprimé.',
 	'FOLDER_STATUS_MSG' => [
-		1 => 'Le dossier est utilisé à %3$d %% (%2$d sur %1$s)',
-		2 => 'Le dossier est utilisé à %3$d %% (%2$d sur %1$s)',
+		1 => 'Le dossier est utilisé à %3$d %% (%2$d sur %1$s)',
+		2 => 'Le dossier est utilisé à %3$d %% (%2$d sur %1$s)',
 	],
 	'FORWARD_PM'                 => 'Transférer le MP',
 	'FORCE_PASSWORD_EXPLAIN'     => 'Vous devez modifier votre mot de passe pour poursuivre votre navigation sur ce forum.',

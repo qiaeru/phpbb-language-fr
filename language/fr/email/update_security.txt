@@ -1,4 +1,4 @@
-Subject: Mise à jour de sécurité : phpBB {NEW_VERSION} est disponible pour « {SITENAME} »
+Subject: Mise à jour de sécurité : phpBB {NEW_VERSION} est disponible pour « {SITENAME} »
 
 Bonjour {USERNAME},
 
