@@ -4,7 +4,7 @@
  *
  * Vérifie les règles éditoriales que le validateur officiel phpBB ne connaît
  * pas : mots bannis, tirets longs, balises et tournures de code non conformes,
- * typographie des apostrophes.
+ * typographie des apostrophes et des espaces insécables.
  *
  * Les chaînes traduites des fichiers .php sont extraites via le tokenizer PHP
  * (token_get_all), ce qui évite tout faux positif sur le code, les commentaires
@@ -43,6 +43,12 @@ $content_rules = [
 	],
 	'BALISE' => [
 		'/<br\s*\/>/i' => '« <br /> » : utiliser « <br> » (HTML5)',
+	],
+	'INSECABLE' => [
+		'/[ \x{00A0}][;!?]/u'                   => 'espace avant « ; ! ? » : utiliser l\'espace fine insécable (U+202F)',
+		'/[ \x{00A0}]%(?:%|(?![\d$.]*[a-z]))/u' => 'espace avant « % » : utiliser l\'espace fine insécable (U+202F)',
+		'/[^\s\x{00A0}] :|(?<!«)\x{202F}:/u'    => 'espace avant « : » : utiliser l\'espace insécable (U+00A0)',
+		'/«[ \x{00A0}]|[ \x{00A0}]»/u'          => 'espace dans « … » : utiliser l\'espace fine insécable (U+202F)',
 	],
 	'APOSTROPHE' => [
 		'/\p{L}\'\p{L}/u' => 'apostrophe droite (\') : utiliser l\'apostrophe typographique « ’ »',
