@@ -2,11 +2,11 @@
 
 [![Validation](https://github.com/qiaeru/phpbb-language-fr/actions/workflows/validation.yml/badge.svg)](https://github.com/qiaeru/phpbb-language-fr/actions/workflows/validation.yml)
 
-Traduction française pour localiser le logiciel de forum phpBB 3.3.
+Ce pack traduit en français le logiciel de forum phpBB 3.3.
 
 ## Informations
 
-Inclut les locales françaises compatibles avec :
+Cette version prend en charge :
 
 - [phpBB 3.3.19](https://github.com/phpbb/phpbb/releases/tag/release-3.3.19)
   - Extension intégrée :
