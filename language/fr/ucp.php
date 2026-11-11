@@ -265,7 +265,7 @@ $lang = array_merge($lang, [
 	'GRAVATAR_AVATAR_EMAIL'         => 'Adresse e-mail Gravatar',
 	'GRAVATAR_AVATAR_EMAIL_EXPLAIN' => 'Saisissez l’adresse e-mail que vous utilisez sur votre compte <a href="https://fr.gravatar.com/">Gravatar</a>.',
 	'GRAVATAR_AVATAR_SIZE'          => 'Dimensions de l’avatar',
-	'GRAVATAR_AVATAR_SIZE_EXPLAIN'  => 'Saisissez la hauteur et la largeur de votre avatar. Laissez ces champs vides pour une détection automatique.',
+	'GRAVATAR_AVATAR_SIZE_EXPLAIN'  => 'Saisissez la largeur et la hauteur de l’avatar. Laissez ces champs vides pour une détection automatique.',
 
 	'HIDE_ONLINE'             => 'Masquer ma présence',
 	'HIDE_ONLINE_EXPLAIN'     => 'La modification de cette option ne sera prise en compte qu’à votre prochaine visite sur le forum.',

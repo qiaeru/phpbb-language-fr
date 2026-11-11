@@ -144,7 +144,7 @@ $lang = array_merge($lang, [
 	'NO_DESTINATION_FORUM'       => 'Sélectionnez un forum destiné à recevoir le contenu.',
 	'NO_FORUM_ACTION'            => 'Sélectionnez l’action à effectuer sur le contenu du forum.',
 	'NO_PARENT'                  => 'Aucun parent',
-	'NO_PERMISSIONS'             => 'Ne pas copier de permissions',
+	'NO_PERMISSIONS'             => 'Ne pas copier les permissions',
 	'NO_PERMISSION_FORUM_ADD'    => 'Vous n’êtes pas autorisé à ajouter un forum.',
 	'NO_PERMISSION_FORUM_DELETE' => 'Vous n’êtes pas autorisé à supprimer un forum.',
 

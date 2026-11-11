@@ -207,7 +207,7 @@ $lang = array_merge($lang, [
 	'UPGRADE_INSTRUCTIONS' => 'La version <strong>%1$s</strong>, qui apporte de nouvelles fonctionnalités, est disponible. Consultez <a href="%2$s" title="%2$s">l’annonce de sortie</a> (en anglais) pour découvrir les nouveautés et les instructions de mise à jour de votre forum.',
 	'SERVER_CONFIG'        => 'Configuration du serveur',
 	'SCRIPT_PATH'          => 'Chemin du forum',
-	'SCRIPT_PATH_EXPLAIN'  => 'Chemin menant à votre forum par rapport au nom de domaine, par exemple « /phpBB3 ».',
+	'SCRIPT_PATH_EXPLAIN'  => 'Le chemin menant à votre forum par rapport au nom de domaine, par exemple « /phpBB3 ».',
 ]);
 
 // Default database schema entries...

@@ -139,7 +139,7 @@ $lang = array_merge($lang, [
 
 	'IMAGES_ARE_OFF'   => 'La balise [img] est <em>désactivée</em>',
 	'IMAGES_ARE_ON'    => 'La balise [img] est <em>activée</em>',
-	'INVALID_FILENAME' => '%s est un nom de fichier invalide.',
+	'INVALID_FILENAME' => 'Le nom de fichier « %s » est invalide.',
 
 	'LOAD'                      => 'Charger',
 	'LOAD_DRAFT'                => 'Charger un brouillon',

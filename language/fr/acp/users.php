@@ -69,13 +69,13 @@ $lang = array_merge($lang, [
 
 	'GROUP_APPROVE' => 'Approuver le membre',
 	'GROUP_DEFAULT' => 'Définir comme le groupe par défaut du membre',
-	'GROUP_DELETE'  => 'Supprimer le membre du groupe',
+	'GROUP_DELETE'  => 'Retirer le membre du groupe',
 	'GROUP_DEMOTE'  => 'Rétrograder le responsable du groupe',
 	'GROUP_PROMOTE' => 'Promouvoir en responsable du groupe',
 
 	'IP_WHOIS_FOR' => 'À qui appartient l’IP « %s »',
 
-	'LAST_ACTIVE' => 'Dernière visite',
+	'LAST_ACTIVE' => 'Dernière activité',
 
 	'MOVE_POSTS_EXPLAIN' => 'Sélectionnez le forum vers lequel déplacer tous les messages de cet utilisateur.',
 
