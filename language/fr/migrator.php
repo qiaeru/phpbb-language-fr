@@ -68,7 +68,7 @@ $lang = array_merge($lang, [
 	'MIGRATION_INVALID_DATA_UNDEFINED_TOOL'      => 'Une migration n’est pas valide. Un outil de migration indéfini a été rencontré.',
 	'MIGRATION_INVALID_DATA_UNDEFINED_METHOD'    => 'Une migration n’est pas valide. Une méthode d’outil de migration indéfinie a été rencontrée.',
 
-	'MODULE_ERROR'               => 'Échec de la création d’un module : %s',
+	'MODULE_ERROR'               => 'La création d’un module a échoué : %s',
 	'MODULE_EXISTS'              => 'Le module « %s » existe déjà',
 	'MODULE_EXIST_MULTIPLE'      => 'Plusieurs modules portant ce nom de langue existent déjà dans le module parent « %s ». Essayez d’utiliser les clés « Before » (avant) et « After » (après) pour positionner le module.',
 	'MODULE_INFO_FILE_NOT_EXIST' => 'Un fichier d’information du module est manquant : %2$s',
