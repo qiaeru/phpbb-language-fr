@@ -87,7 +87,7 @@ $lang = array_merge($lang, [
 	'PRUNE_NOT_POSTED'             => 'Nombre de jours depuis la dernière publication',
 	'PRUNE_NOT_VIEWED'             => 'Nombre de jours depuis la dernière consultation',
 	'PRUNE_OLD_POLLS'              => 'Délester les sondages obsolètes',
-	'PRUNE_OLD_POLLS_EXPLAIN'      => 'Les sujets contenant un sondage sans nouveau vote depuis le nombre de jours indiqué seront supprimés.',
+	'PRUNE_OLD_POLLS_EXPLAIN'      => 'Les sujets contenant un sondage sans nouveau vote depuis le nombre de jours indiqué seront délestés.',
 	'PRUNE_STICKY'                 => 'Délester les notes',
 	'PRUNE_SUCCESS'                => 'Les forums ont été délestés.',
 

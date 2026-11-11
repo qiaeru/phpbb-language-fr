@@ -162,7 +162,7 @@ $lang = array_merge($lang, [
 
 	'CLI_USER_ADD_SUCCESS'       => 'L’utilisateur « %s » a été ajouté.',
 	'CLI_USER_DELETE_CONFIRM'    => 'Voulez-vous vraiment supprimer « %s » ? Saisissez « y » pour confirmer ou « N » pour annuler.',
-	'CLI_USER_DELETE_ID_CONFIRM' => 'Voulez-vous vraiment supprimer les utilisateurs « %s » par identifiant ? Saisissez « y » pour confirmer ou « N » pour annuler.',
+	'CLI_USER_DELETE_ID_CONFIRM' => 'Voulez-vous vraiment supprimer les utilisateurs dont les identifiants sont « %s » ? Saisissez « y » pour confirmer ou « N » pour annuler.',
 	'CLI_USER_DELETE_ID_SUCCESS' => 'Les utilisateurs ont été supprimés par identifiant.',
 	'CLI_USER_DELETE_ID_START'   => 'Suppression des utilisateurs par identifiant',
 	'CLI_USER_DELETE_NONE'       => 'Aucun utilisateur n’a été supprimé par identifiant.',

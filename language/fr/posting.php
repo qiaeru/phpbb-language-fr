@@ -285,5 +285,5 @@ $lang = array_merge($lang, [
 	'VIEW_PRIVATE_MESSAGE' => '%sConsulter le message privé%s',
 
 	'WRONG_FILESIZE' => 'Le fichier est trop volumineux : la taille maximale autorisée est de %1$d %2$s.',
-	'WRONG_SIZE'     => 'L’image doit mesurer entre %3$s × %4$s et %1$s × %2$s. Votre image fait %5$s × %6$s.',
+	'WRONG_SIZE'     => 'L’image doit mesurer entre %1$s × %2$s et %3$s × %4$s. Votre image fait %5$s × %6$s.',
 ]);

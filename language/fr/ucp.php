@@ -171,7 +171,7 @@ $lang = array_merge($lang, [
 	'DELETE_ATTACHMENT_CONFIRM'  => 'Voulez-vous vraiment supprimer cette pièce jointe ?',
 	'DELETE_ATTACHMENTS_CONFIRM' => 'Voulez-vous vraiment supprimer ces pièces jointes ?',
 	'DELETE_AVATAR'              => 'Supprimer l’image',
-	'DELETE_COOKIES_CONFIRM'     => 'Voulez-vous vraiment supprimer les cookies de ce forum ?',
+	'DELETE_COOKIES_CONFIRM'     => 'Voulez-vous vraiment supprimer tous les cookies déposés par ce forum ?',
 	'DELETE_MARKED_PM'           => 'Supprimer les messages sélectionnés',
 	'DELETE_MARKED_PM_CONFIRM'   => 'Voulez-vous vraiment supprimer les messages sélectionnés ?',
 	'DELETE_OLDEST_MESSAGES'     => 'Supprimer les messages les plus anciens',
@@ -328,7 +328,7 @@ $lang = array_merge($lang, [
 	'NEW_PASSWORD_ERROR'         => 'Les mots de passe ne correspondent pas.',
 
 	'NOTIFICATIONS_MARK_ALL_READ'           => 'Marquer les notifications comme lues',
-	'NOTIFICATIONS_MARK_ALL_READ_CONFIRM'   => 'Voulez-vous vraiment marquer les notifications comme lues ?',
+	'NOTIFICATIONS_MARK_ALL_READ_CONFIRM'   => 'Voulez-vous vraiment marquer toutes les notifications comme lues ?',
 	'NOTIFICATIONS_MARK_ALL_READ_SUCCESS'   => 'Les notifications ont été marquées comme lues.',
 	'NOTIFICATION_GROUP_MISCELLANEOUS'      => 'Notifications diverses',
 	'NOTIFICATION_GROUP_MODERATION'         => 'Notifications de modération',

@@ -146,7 +146,7 @@ $lang = array_merge($lang, [
 
 	'REMOVE_ALLOWED_IPS'         => 'Supprimer ou lever l’exclusion des adresses IP ou des noms d’hôtes autorisés',
 	'REMOVE_DISALLOWED_IPS'      => 'Supprimer ou lever l’exclusion des adresses IP ou des noms d’hôtes interdits',
-	'RESYNC_FILES_STATS_CONFIRM' => 'Voulez-vous vraiment resynchroniser les fichiers statistiques ?',
+	'RESYNC_FILES_STATS_CONFIRM' => 'Voulez-vous vraiment resynchroniser les statistiques des fichiers ?',
 
 	'SECURE_ALLOW_DENY'              => 'Comportement des téléchargements sécurisés',
 	'SECURE_ALLOW_DENY_EXPLAIN'      => 'Si les téléchargements sécurisés sont activés, cette option permet de modifier le comportement par défaut : autoriser (liste blanche) ou interdire (liste noire) les adresses IP et noms d’hôtes indiqués à télécharger les pièces jointes du forum.',
