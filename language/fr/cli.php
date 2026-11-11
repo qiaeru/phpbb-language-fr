@@ -157,8 +157,8 @@ $lang = array_merge($lang, [
 	'CLI_THUMBNAIL_GENERATING_DONE' => 'Toutes les miniatures ont été générées.',
 	'CLI_THUMBNAIL_DELETING_DONE'   => 'Toutes les miniatures ont été supprimées.',
 
-	'CLI_THUMBNAIL_NOTHING_TO_GENERATE' => 'Aucune miniature à générer.',
-	'CLI_THUMBNAIL_NOTHING_TO_DELETE'   => 'Aucune miniature à supprimer.',
+	'CLI_THUMBNAIL_NOTHING_TO_GENERATE' => 'Il n’y a aucune miniature à générer.',
+	'CLI_THUMBNAIL_NOTHING_TO_DELETE'   => 'Il n’y a aucune miniature à supprimer.',
 
 	'CLI_USER_ADD_SUCCESS'       => 'L’utilisateur « %s » a été ajouté.',
 	'CLI_USER_DELETE_CONFIRM'    => 'Êtes-vous sûr de vouloir supprimer « %s » ? Saisissez « y » pour confirmer ou « N » pour annuler.',
