@@ -69,10 +69,10 @@ $lang = array_merge($lang, [
 	'LOGIN_NOTIFY_TOPIC' => 'Vous avez reçu une notification concernant un message de ce sujet. Connectez-vous pour le consulter.',
 	'LOGIN_VIEWTOPIC'    => 'Connectez-vous ou créez un compte pour consulter ce sujet.',
 
-	'MAKE_ANNOUNCE'      => 'Modifier en annonce',
-	'MAKE_GLOBAL'        => 'Modifier en annonce générale',
-	'MAKE_NORMAL'        => 'Modifier en sujet standard',
-	'MAKE_STICKY'        => 'Modifier en note',
+	'MAKE_ANNOUNCE'      => 'Transformer en annonce',
+	'MAKE_GLOBAL'        => 'Transformer en annonce générale',
+	'MAKE_NORMAL'        => 'Transformer en sujet standard',
+	'MAKE_STICKY'        => 'Transformer en note',
 	'MAX_OPTIONS_SELECT' => [
 		1 => 'Vous pouvez sélectionner jusqu’à %d option',
 		2 => 'Vous pouvez sélectionner jusqu’à %d options',
