@@ -40,7 +40,7 @@ $lang = array_merge($lang, [
 	'ACP_STYLES_EXPLAIN' => 'Depuis cette page, vous pouvez gérer les styles disponibles sur votre forum.<br>Notez que vous ne pouvez pas désinstaller le style « prosilver », qui est le style par défaut et le style parent principal de phpBB.',
 
 	'CANNOT_BE_INSTALLED'      => 'Ne peut pas être installé',
-	'CONFIRM_UNINSTALL_STYLES' => 'Êtes-vous sûr de vouloir désinstaller ces styles ?',
+	'CONFIRM_UNINSTALL_STYLES' => 'Voulez-vous vraiment désinstaller ces styles ?',
 	'COPYRIGHT'                => 'Copyright',
 
 	'DEACTIVATE_DEFAULT'         => 'Vous ne pouvez pas désactiver le style par défaut.',

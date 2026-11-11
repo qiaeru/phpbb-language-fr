@@ -92,10 +92,10 @@ $lang = array_merge($lang, [
 			<li>Supprimez les fichiers de l’extension de votre serveur.</li>
 		</ol>',
 
-	'EXTENSION_DELETE_DATA_CONFIRM'    => 'Êtes-vous sûr de vouloir supprimer les données de « %s » ?<br><br>Cela supprimera toutes les données et la configuration de l’extension qui ne pourront pas être restaurées !',
-	'EXTENSION_DISABLE_CONFIRM'        => 'Êtes-vous sûr de vouloir désactiver l’extension « %s » ?',
-	'EXTENSION_ENABLE_CONFIRM'         => 'Êtes-vous sûr de vouloir activer l’extension « %s » ?',
-	'EXTENSION_FORCE_UNSTABLE_CONFIRM' => 'Êtes-vous sûr de vouloir forcer l’utilisation d’une version instable ?',
+	'EXTENSION_DELETE_DATA_CONFIRM'    => 'Voulez-vous vraiment supprimer les données de « %s » ?<br><br>Cela supprimera toutes les données et la configuration de l’extension qui ne pourront pas être restaurées !',
+	'EXTENSION_DISABLE_CONFIRM'        => 'Voulez-vous vraiment désactiver l’extension « %s » ?',
+	'EXTENSION_ENABLE_CONFIRM'         => 'Voulez-vous vraiment activer l’extension « %s » ?',
+	'EXTENSION_FORCE_UNSTABLE_CONFIRM' => 'Voulez-vous vraiment forcer l’utilisation d’une version instable ?',
 
 	'RETURN_TO_EXTENSION_LIST' => 'Revenir à la liste des extensions',
 

@@ -40,7 +40,7 @@ $lang = array_merge($lang, [
 	'ACP_FILES'                  => 'Fichiers de langue de l’administration',
 	'ACP_LANGUAGE_PACKS_EXPLAIN' => 'Depuis cette page, vous pouvez installer, modifier et supprimer les langues de votre forum. La langue par défaut est signalée par un astérisque « * ».',
 
-	'DELETE_LANGUAGE_CONFIRM' => 'Êtes-vous sûr de vouloir supprimer la langue « %s » ?',
+	'DELETE_LANGUAGE_CONFIRM' => 'Voulez-vous vraiment supprimer la langue « %s » ?',
 
 	'INSTALLED_LANGUAGE_PACKS' => 'Langues installées',
 

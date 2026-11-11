@@ -51,7 +51,7 @@ $lang = array_merge($lang, [
 	'DATABASE'               => 'Utilitaires de la base de données',
 	'DATA_ONLY'              => 'Données uniquement',
 	'DELETE_BACKUP'          => 'Supprimer la sauvegarde',
-	'DELETE_SELECTED_BACKUP' => 'Êtes-vous sûr de vouloir supprimer cette sauvegarde ?',
+	'DELETE_SELECTED_BACKUP' => 'Voulez-vous vraiment supprimer cette sauvegarde ?',
 	'DESELECT_ALL'           => 'Tout désélectionner',
 	'DOWNLOAD_BACKUP'        => 'Télécharger la sauvegarde',
 
@@ -61,7 +61,7 @@ $lang = array_merge($lang, [
 
 	'RESTORE_FAILURE'         => 'Le fichier de sauvegarde semble corrompu.',
 	'RESTORE_OPTIONS'         => 'Options de restauration',
-	'RESTORE_SELECTED_BACKUP' => 'Êtes-vous sûr de vouloir restaurer cette sauvegarde ?',
+	'RESTORE_SELECTED_BACKUP' => 'Voulez-vous vraiment restaurer cette sauvegarde ?',
 	'RESTORE_SUCCESS'         => 'La base de données a été restaurée.<br><br>Votre forum est désormais dans l’état de la dernière sauvegarde.',
 
 	'SELECT_ALL'         => 'Tout sélectionner',
