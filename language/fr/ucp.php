@@ -38,7 +38,7 @@ if (empty($lang) || !is_array($lang))
 
 // Privacy policy and T&C
 $lang = array_merge($lang, [
-	'TERMS_OF_USE_CONTENT' => 'En accédant à « %1$s » (ci-après dénommé « nous », « notre », « nos », « %1$s » et « %2$s »), vous acceptez d’être légalement lié par les conditions suivantes. Si vous n’acceptez pas l’ensemble de ces conditions, n’accédez pas à « %1$s » et ne l’utilisez pas. Nous pouvons modifier ces conditions à tout moment et nous ferons de notre mieux pour vous en informer. Il vous incombe toutefois de consulter régulièrement ce document, car votre utilisation continue de « %1$s » après modification vaut acceptation des conditions mises à jour.
+	'TERMS_OF_USE_CONTENT' => 'En accédant à « %1$s » (ci-après dénommé « nous », « notre », « nos », « %1$s » et « %2$s »), vous acceptez les conditions suivantes, qui vous engagent juridiquement. Si vous n’acceptez pas l’ensemble de ces conditions, n’accédez pas à « %1$s » et ne l’utilisez pas. Nous pouvons modifier ces conditions à tout moment et nous ferons de notre mieux pour vous en informer. Il vous incombe toutefois de consulter régulièrement ce document, car votre utilisation continue de « %1$s » après modification vaut acceptation des conditions mises à jour.
 	<br><br>
 	Nos forums sont propulsés par phpBB (ci-après « ils », « eux », « leur », « logiciel phpBB », « www.phpbb.com », « phpBB Limited » et « équipes phpBB »), une solution de forum publiée sous la « <a href="https://opensource.org/license/gpl-2-0">licence publique générale GNU v2</a> » (ci-après « GPL »), téléchargeable depuis <a href="https://www.phpbb.com/">www.phpbb.com</a> (en anglais). Le logiciel phpBB ne fait que faciliter les discussions sur Internet ; phpBB Limited n’est pas responsable du contenu ni du comportement autorisés ou interdits sur ce site. Pour plus d’informations sur phpBB, consultez : <a href="https://www.phpbb.com/">https://www.phpbb.com/</a> (en anglais).
 	<br><br>
@@ -53,7 +53,7 @@ $lang = array_merge($lang, [
 	<br><br>
 	Il se peut également que nous créions des cookies externes au logiciel phpBB pendant que vous naviguez sur « %1$s ». Ils n’entrent pas dans le périmètre de ce document, qui ne traite que des cookies créés par le logiciel phpBB.
 	<br><br>
-	La seconde manière dont nous collectons des informations consiste à utiliser celles que vous nous fournissez. Cela inclut, sans s’y limiter : les publications en tant qu’utilisateur anonyme (ci-après « publications anonymes »), l’inscription sur « %1$s » (ci-après « votre compte »), ainsi que les publications soumises après inscription, lorsque vous êtes connecté (ci-après « vos publications »).
+	La seconde manière dont nous collectons des informations consiste à utiliser celles que vous nous fournissez. Cela inclut, sans s’y limiter : les publications en tant qu’utilisateur anonyme (ci-après « publications anonymes »), l’inscription sur « %1$s » (ci-après « votre compte »), ainsi que les publications soumises après inscription, lorsque vous utilisez votre compte (ci-après « vos publications »).
 	<br><br>
 	Votre compte comprend au minimum : un nom d’utilisateur unique (ci-après « votre nom d’utilisateur »), un mot de passe personnel utilisé pour vous connecter (ci-après « votre mot de passe »), une adresse e-mail valide (ci-après « votre adresse e-mail »). Les informations de votre compte sur « %1$s » sont protégées par les lois sur la protection des données applicables dans le pays qui nous héberge. Toute information autre que votre nom d’utilisateur, votre mot de passe et votre adresse e-mail demandée lors de l’inscription peut être obligatoire ou facultative, à la discrétion de « %1$s ». Dans tous les cas, vous pouvez choisir quelles informations de votre compte sont affichées publiquement. Vous pouvez également choisir de recevoir ou non les e-mails générés automatiquement par le logiciel phpBB.
 	<br><br>
@@ -69,9 +69,9 @@ $lang = array_merge($lang, [
 	'ACCOUNT_ADDED'                  => 'Votre compte a été créé. Nous vous remercions de votre inscription.',
 	'ACCOUNT_COPPA'                  => 'Votre compte a été créé, mais il doit être approuvé. Pour plus d’informations, consultez votre messagerie.',
 	'ACCOUNT_EMAIL_CHANGED'          => 'Votre compte a été mis à jour. Cependant, vous devez le réactiver car vous avez modifié votre adresse e-mail. Une clé d’activation a été envoyée à la nouvelle adresse e-mail. Pour plus d’informations, consultez votre messagerie.',
-	'ACCOUNT_EMAIL_CHANGED_ADMIN'    => 'Votre compte a été mis à jour. Cependant, un administrateur doit le réactiver car vous avez modifié votre adresse e-mail. Vous serez informé lors de la réactivation de votre compte.',
+	'ACCOUNT_EMAIL_CHANGED_ADMIN'    => 'Votre compte a été mis à jour. Cependant, un administrateur doit le réactiver car vous avez modifié votre adresse e-mail. Nous vous préviendrons lors de la réactivation de votre compte.',
 	'ACCOUNT_INACTIVE'               => 'Votre compte a été créé, mais il doit être activé. Une clé d’activation a été envoyée à votre adresse e-mail. Pour plus d’informations, consultez votre messagerie. Si vous n’avez pas reçu l’e-mail, vérifiez qu’il n’est pas dans votre dossier de courriers indésirables. Selon votre fournisseur de messagerie, la réception peut prendre un certain temps.',
-	'ACCOUNT_INACTIVE_ADMIN'         => 'Votre compte a été créé, mais un administrateur doit l’activer. Vous serez informé une fois votre compte activé.',
+	'ACCOUNT_INACTIVE_ADMIN'         => 'Votre compte a été créé, mais un administrateur doit l’activer. Nous vous préviendrons une fois votre compte activé.',
 	'ACTIVATION_EMAIL_SENT'          => 'Si le nom d’utilisateur et l’adresse e-mail indiqués sont corrects, un e-mail d’activation a été envoyé à cette adresse. Un seul e-mail d’activation peut être envoyé toutes les 24 heures. Si le problème persiste, contactez un administrateur.',
 	'ACTIVATION_EMAIL_SENT_ADMIN'    => 'Si le nom d’utilisateur et l’adresse e-mail indiqués sont corrects, un e-mail d’activation a été envoyé aux adresses e-mail des administrateurs. Un seul e-mail d’activation peut être envoyé toutes les 24 heures. Si le problème persiste, contactez un administrateur.',
 	'ADD'                            => 'Ajouter',
@@ -294,9 +294,9 @@ $lang = array_merge($lang, [
 	'LOGIN_LINK_NO_DATA_PROVIDED' => 'Aucune donnée n’a été transmise pour associer votre compte à un service externe. Si le problème persiste, contactez un administrateur du forum.',
 	'LOGIN_KEY'                   => 'Clé de connexion',
 	'LOGIN_TIME'                  => 'Date de connexion',
-	'LOGIN_REDIRECT'              => 'Vous êtes maintenant connecté.',
+	'LOGIN_REDIRECT'              => 'Votre connexion a réussi.',
 	'LOGOUT_FAILED'               => 'La déconnexion a échoué car la requête ne correspond pas à votre session. Si le problème persiste, contactez un administrateur du forum.',
-	'LOGOUT_REDIRECT'             => 'Vous êtes maintenant déconnecté.',
+	'LOGOUT_REDIRECT'             => 'Votre session a été fermée.',
 
 	'MARK_IMPORTANT'              => 'Marquer ou non comme important',
 	'MARKED_MESSAGE'              => 'Message marqué comme important',
@@ -340,17 +340,17 @@ $lang = array_merge($lang, [
 	'NOTIFICATION_TYPE'                     => 'Type de notification',
 	'NOTIFICATION_TYPE_BOOKMARK'            => 'Quelqu’un a répondu à un sujet que vous avez mis en favori',
 	'NOTIFICATION_TYPE_GROUP_REQUEST'       => 'Quelqu’un a demandé à rejoindre un groupe dont vous êtes responsable',
-	'NOTIFICATION_TYPE_FORUM'               => 'Quelqu’un a répondu à un sujet d’un forum auquel vous êtes abonné',
+	'NOTIFICATION_TYPE_FORUM'               => 'Quelqu’un a répondu dans l’un des forums de vos abonnements',
 	'NOTIFICATION_TYPE_IN_MODERATION_QUEUE' => 'Un sujet ou un message est en attente d’approbation',
 	'NOTIFICATION_TYPE_MODERATION_QUEUE'    => 'Un de vos sujets ou messages a été approuvé ou refusé par un modérateur',
 	'NOTIFICATION_TYPE_PM'                  => 'Quelqu’un vous a envoyé un message privé',
-	'NOTIFICATION_TYPE_POST'                => 'Quelqu’un a répondu à un sujet auquel vous êtes abonné',
+	'NOTIFICATION_TYPE_POST'                => 'Quelqu’un a répondu à l’un des sujets de vos abonnements',
 	'NOTIFICATION_TYPE_QUOTE'               => 'Quelqu’un vous a cité dans un message',
 	'NOTIFICATION_TYPE_REPORT'              => 'Quelqu’un a signalé un message',
 	'NOTIFICATION_TYPE_REPORT_CLOSED'       => 'Votre signalement de message a été clôturé par un modérateur',
 	'NOTIFICATION_TYPE_REPORT_PM'           => 'Quelqu’un a signalé un message privé',
 	'NOTIFICATION_TYPE_REPORT_PM_CLOSED'    => 'Votre signalement de message privé a été clôturé par un modérateur',
-	'NOTIFICATION_TYPE_TOPIC'               => 'Quelqu’un a créé un sujet dans un forum auquel vous êtes abonné',
+	'NOTIFICATION_TYPE_TOPIC'               => 'Quelqu’un a créé un sujet dans l’un des forums de vos abonnements',
 	'NOTIFICATION_TYPE_ADMIN_ACTIVATE_USER' => 'Un utilisateur est en attente d’activation',
 	'NOTIFICATION_TYPE_UPDATE_MAINTENANCE'  => 'Une mise à jour de phpBB est disponible',
 
@@ -414,9 +414,9 @@ $lang = array_merge($lang, [
 	'NO_RULES_DEFINED'      => 'Aucune règle n’a été définie.',
 	'NO_SAVED_DRAFTS'       => 'Aucun brouillon n’a été enregistré.',
 	'NO_TO_RECIPIENT'       => 'Aucun',
-	'NO_WATCHED_FORUMS'     => 'Vous n’êtes abonné à aucun forum.',
+	'NO_WATCHED_FORUMS'     => 'Aucun forum ne figure dans vos abonnements.',
 	'NO_WATCHED_SELECTED'   => 'Vous n’avez sélectionné aucun forum ni sujet de vos abonnements.',
-	'NO_WATCHED_TOPICS'     => 'Vous n’êtes abonné à aucun sujet.',
+	'NO_WATCHED_TOPICS'     => 'Aucun sujet ne figure dans vos abonnements.',
 
 	'PASS_TYPE_ALPHA_EXPLAIN'        => 'Le mot de passe doit contenir au minimum %1$s, mêler lettres minuscules et majuscules (sans accent) et inclure des chiffres.',
 	'PASS_TYPE_ANY_EXPLAIN'          => 'Doit contenir au minimum %1$s.',
@@ -425,7 +425,7 @@ $lang = array_merge($lang, [
 	'PASSWORD'                       => 'Mot de passe',
 	'PASSWORD_ACTIVATED'             => 'Votre nouveau mot de passe a été activé.',
 	'PASSWORD_RESET'                 => 'Votre mot de passe a été réinitialisé.',
-	'PASSWORD_RESET_LINK_SENT'       => 'Si votre compte existe, un lien de réinitialisation a été envoyé à l’adresse e-mail enregistrée. Si vous ne recevez pas l’e-mail, c’est peut-être que vous êtes banni, que votre compte n’est pas activé, que vous avez fait trop de demandes de réinitialisation rapprochées, ou que vous n’êtes pas autorisé à modifier votre mot de passe. Pour plus d’informations, contactez un administrateur. Pensez aussi à vérifier votre dossier de courriers indésirables.',
+	'PASSWORD_RESET_LINK_SENT'       => 'Si votre compte existe, un lien de réinitialisation a été envoyé à l’adresse e-mail enregistrée. Si vous ne recevez pas l’e-mail, c’est peut-être que vous faites l’objet d’un bannissement, que votre compte n’est pas activé, que vous avez fait trop de demandes de réinitialisation rapprochées, ou que vous n’avez pas l’autorisation de modifier votre mot de passe. Pour plus d’informations, contactez un administrateur. Pensez aussi à vérifier votre dossier de courriers indésirables.',
 	'PERMISSIONS_RESTORED'           => 'Les permissions par défaut ont été restaurées.',
 	'PERMISSIONS_TRANSFERRED'        => 'Les permissions de « %s » ont été transférées. Vous pouvez maintenant parcourir le forum avec les permissions de cet utilisateur.<br>Notez que les permissions d’administration ne sont pas transférées. Vous pouvez restaurer vos permissions à tout moment.',
 	'PM_DISABLED'                    => 'La messagerie privée a été désactivée sur ce forum.',
@@ -452,7 +452,7 @@ $lang = array_merge($lang, [
 	'POST_REPLY_PM'                  => 'Répondre au message',
 	'PRINT_PM'                       => 'Aperçu avant impression',
 	'PREFERENCES_UPDATED'            => 'Vos préférences ont été mises à jour.',
-	'PROFILE_INFO_NOTICE'            => 'Notez que ces informations peuvent être visibles par les autres membres. Soyez prudent en saisissant des informations personnelles. Tous les champs marqués par « * » sont obligatoires.',
+	'PROFILE_INFO_NOTICE'            => 'Notez que ces informations peuvent être visibles par les autres membres. Faites preuve de prudence en saisissant des informations personnelles. Tous les champs marqués par « * » sont obligatoires.',
 	'PROFILE_UPDATED'                => 'Votre profil a été mis à jour.',
 	'PROFILE_AUTOLOGIN_KEYS'         => 'Les clés de connexion automatique vous permettent de vous reconnecter automatiquement lors de vos visites suivantes. Lors d’une déconnexion manuelle, seule la clé de l’ordinateur utilisé est supprimée. Depuis cette page, vous pouvez consulter les clés générées sur les ordinateurs ayant servi à accéder à ce forum.',
 	'PROFILE_NO_AUTOLOGIN_KEYS'      => 'Aucune clé de connexion automatique n’a été enregistrée.',
@@ -574,7 +574,7 @@ $lang = array_merge($lang, [
 	'UCP_PASSWORD_RESET_DISABLED'         => 'La réinitialisation des mots de passe est désactivée. Pour récupérer l’accès à votre compte, contactez un %sadministrateur du forum%s',
 	'UCP_REGISTER_DISABLE'                => 'L’inscription de nouveaux comptes est désactivée.',
 	'UCP_RESEND'                          => 'Envoyer l’e-mail d’activation',
-	'UCP_WELCOME'                         => 'Bienvenue sur le panneau de contrôle utilisateur. Vous pouvez y consulter et mettre à jour votre profil, vos préférences et les forums et sujets auxquels vous êtes abonné. Si les administrateurs du forum ont activé la messagerie privée, vous pouvez aussi envoyer des messages aux autres utilisateurs. Pensez à consulter toutes les annonces avant de continuer.',
+	'UCP_WELCOME'                         => 'Bienvenue sur le panneau de contrôle utilisateur. Vous pouvez y consulter et mettre à jour votre profil, vos préférences et vos abonnements aux forums et aux sujets. Si les administrateurs du forum ont activé la messagerie privée, vous pouvez aussi envoyer des messages aux autres utilisateurs. Pensez à consulter toutes les annonces avant de continuer.',
 	'UCP_ZEBRA'                           => 'Amis et ignorés',
 	'UCP_ZEBRA_FOES'                      => 'Gérer les ignorés',
 	'UCP_ZEBRA_FRIENDS'                   => 'Gérer les amis',
@@ -618,9 +618,9 @@ $lang = array_merge($lang, [
 	'VIEW_POSTS_DIR'        => 'Afficher les messages triés par ordre',
 	'VIEW_POSTS_KEY'        => 'Afficher les messages triés par',
 
-	'WATCHED_EXPLAIN'  => 'La liste ci-dessous présente les forums et sujets auxquels vous êtes abonné. Vous serez notifié à chaque nouveau message publié dans l’un d’eux. Pour vous désabonner d’un forum ou d’un sujet, sélectionnez-le puis cliquez sur « Se désabonner de la sélection ».',
-	'WATCHED_FORUMS'   => 'Forums auxquels vous êtes abonné',
-	'WATCHED_TOPICS'   => 'Sujets auxquels vous êtes abonné',
+	'WATCHED_EXPLAIN'  => 'La liste ci-dessous présente vos abonnements aux forums et aux sujets. Chaque nouveau message publié dans l’un d’eux vous sera notifié. Pour vous désabonner d’un forum ou d’un sujet, sélectionnez-le puis cliquez sur « Se désabonner de la sélection ».',
+	'WATCHED_FORUMS'   => 'Abonnements aux forums',
+	'WATCHED_TOPICS'   => 'Abonnements aux sujets',
 	'WRONG_ACTIVATION' => 'La clé d’activation est inconnue de notre base de données.',
 
 	'YOUR_DETAILS'         => 'Votre activité',
@@ -660,7 +660,7 @@ $lang = array_merge($lang, [
 		'TO_ME'       => 'à moi',
 	],
 
-	'GROUPS_EXPLAIN'  => 'Les groupes d’utilisateurs aident les administrateurs à mieux gérer les utilisateurs. Dès votre inscription, vous êtes automatiquement placé dans un groupe par défaut. Ce groupe définit votre apparence auprès des autres utilisateurs, par exemple la couleur de votre nom d’utilisateur, votre avatar ou votre rang. Selon la politique des administrateurs du forum, vous pouvez être autorisé à changer de groupe par défaut, à appartenir à plusieurs groupes et à en rejoindre de nouveaux. Certains groupes accordent des permissions supplémentaires qui donnent accès à du contenu exclusif ou à de nouvelles fonctionnalités dans d’autres domaines.',
+	'GROUPS_EXPLAIN'  => 'Les groupes d’utilisateurs aident les administrateurs à mieux gérer les utilisateurs. Dès votre inscription, votre compte rejoint automatiquement un groupe par défaut. Ce groupe définit votre apparence auprès des autres utilisateurs, par exemple la couleur de votre nom d’utilisateur, votre avatar ou votre rang. Selon la politique des administrateurs du forum, ils peuvent vous permettre de changer de groupe par défaut, d’appartenir à plusieurs groupes et d’en rejoindre de nouveaux. Certains groupes accordent des permissions supplémentaires qui donnent accès à du contenu exclusif ou à de nouvelles fonctionnalités dans d’autres domaines.',
 	'GROUP_LEADER'    => 'Responsable',
 	'GROUP_MEMBER'    => 'Membre',
 	'GROUP_PENDING'   => 'Membre en attente',

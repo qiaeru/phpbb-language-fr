@@ -8,6 +8,6 @@ Vous avez reçu sur « {SITENAME} » un nouveau message privé de la part de
 Vous pouvez consulter votre nouveau message en cliquant sur le lien suivant :
 {U_VIEW_MESSAGE}
 
-Vous avez demandé à être notifié de cet événement. Si vous ne souhaitez plus recevoir de notification à la réception d’un nouveau message privé, modifiez les paramètres correspondants dans votre profil.
+Vous avez demandé à recevoir une notification pour cet événement. Si vous ne souhaitez plus recevoir de notification à la réception d’un nouveau message privé, modifiez les paramètres correspondants dans votre profil.
 
 {EMAIL_SIG}

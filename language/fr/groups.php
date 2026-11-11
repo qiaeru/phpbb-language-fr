@@ -77,7 +77,7 @@ $lang = array_merge($lang, [
 	'GROUP_UNDISCLOSED'               => 'Groupe invisible',
 	'FORUM_UNDISCLOSED'               => 'Modération des forums invisibles',
 
-	'LOGIN_EXPLAIN_GROUP' => 'Vous devez être connecté pour consulter les informations de ce groupe.',
+	'LOGIN_EXPLAIN_GROUP' => 'Connectez-vous à votre compte pour consulter les informations de ce groupe.',
 
 	'NO_LEADERS'                    => 'Vous n’êtes responsable d’aucun groupe.',
 	'NOT_LEADER_OF_GROUP'           => 'Opération impossible : vous n’êtes pas responsable de ce groupe.',

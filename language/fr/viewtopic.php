@@ -52,7 +52,7 @@ $lang = array_merge($lang, [
 	'DELETE_TOPIC'        => 'Supprimer le sujet',
 	'DELETED_INFORMATION' => 'Supprimé par %1$s le %2$s',
 	'DISAPPROVE'          => 'Refuser',
-	'DOWNLOAD_NOTICE'     => 'Vous n’êtes pas autorisé à consulter les pièces jointes insérées dans ce message.',
+	'DOWNLOAD_NOTICE'     => 'Vous n’avez pas l’autorisation de consulter les pièces jointes insérées dans ce message.',
 
 	'EDITED_TIMES_TOTAL' => [
 		1 => 'Dernière modification par %2$s le %3$s, modifié %1$d fois.',
@@ -65,9 +65,9 @@ $lang = array_merge($lang, [
 	'FORK_TOPIC'         => 'Copier le sujet',
 	'FULL_EDITOR'        => 'Éditeur avancé et prévisualisation',
 
-	'LINKAGE_FORBIDDEN'  => 'Vous n’êtes pas autorisé à consulter, télécharger ou insérer des liens vers ce site.',
+	'LINKAGE_FORBIDDEN'  => 'Vous n’avez pas l’autorisation de consulter, télécharger ou insérer des liens vers ce site.',
 	'LOGIN_NOTIFY_TOPIC' => 'Vous avez reçu une notification concernant un message de ce sujet. Connectez-vous pour le consulter.',
-	'LOGIN_VIEWTOPIC'    => 'Vous devez être inscrit et connecté pour consulter ce sujet.',
+	'LOGIN_VIEWTOPIC'    => 'Connectez-vous ou créez un compte pour consulter ce sujet.',
 
 	'MAKE_ANNOUNCE'      => 'Modifier en annonce',
 	'MAKE_GLOBAL'        => 'Modifier en annonce générale',
@@ -86,7 +86,7 @@ $lang = array_merge($lang, [
 	'NO_UNREAD_POSTS'        => 'Aucun message non lu dans ce sujet.',
 	'NO_VOTE_OPTION'         => 'Vous devez sélectionner une option pour voter.',
 	'NO_VOTES'               => 'Aucun vote',
-	'NO_AUTH_PRINT_TOPIC'    => 'Vous n’êtes pas autorisé à imprimer les sujets.',
+	'NO_AUTH_PRINT_TOPIC'    => 'Vous n’avez pas l’autorisation d’imprimer les sujets.',
 
 	'POLL_ENDED_AT'        => 'Le sondage est terminé depuis le %s',
 	'POLL_RUN_TILL'        => 'Le sondage est actif jusqu’au %s',

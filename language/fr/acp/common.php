@@ -223,7 +223,7 @@ $lang = array_merge($lang, [
 	'ADMIN_PANEL' => 'Panneau de contrôle d’administration',
 
 	'ADM_LOGOUT'     => 'Déconnexion du PCA',
-	'ADM_LOGGED_OUT' => 'Vous êtes désormais déconnecté du panneau de contrôle d’administration.',
+	'ADM_LOGGED_OUT' => 'Votre session du panneau de contrôle d’administration a été fermée.',
 
 	'BACK' => 'Retour',
 
@@ -267,10 +267,10 @@ $lang = array_merge($lang, [
 	'LATEST_VERSION'             => 'Dernière version',
 	'LOAD_NOTIFICATIONS'         => 'Activer les notifications',
 	'LOAD_NOTIFICATIONS_EXPLAIN' => 'La liste des notifications sera affichée sur toutes les pages du forum (généralement en haut).',
-	'LOGGED_IN_AS'               => 'Connecté en tant que :',
+	'LOGGED_IN_AS'               => 'Session ouverte en tant que :',
 	'LOGIN_ADMIN'                => 'Vous devez vous reconnecter pour administrer le forum.',
 	'LOGIN_ADMIN_CONFIRM'        => 'Vous devez vous reconnecter pour administrer le forum.',
-	'LOGIN_ADMIN_SUCCESS'        => 'Vous êtes désormais authentifié et allez être redirigé vers le panneau de contrôle d’administration.',
+	'LOGIN_ADMIN_SUCCESS'        => 'Votre authentification a réussi. Le panneau de contrôle d’administration va s’afficher.',
 	'LOOK_UP_FORUM'              => 'Sélectionner un forum',
 	'LOOK_UP_FORUMS_EXPLAIN'     => 'Vous pouvez sélectionner plusieurs forums.',
 
@@ -282,7 +282,7 @@ $lang = array_merge($lang, [
 	'MOVE_UP'          => 'Monter',
 
 	'NOTIFY'               => 'Notification',
-	'NO_ADMIN'             => 'Vous n’êtes pas autorisé à administrer ce forum.',
+	'NO_ADMIN'             => 'Vous n’avez pas l’autorisation d’administrer ce forum.',
 	'NO_EMAILS_DEFINED'    => 'Aucune adresse e-mail valide n’a été indiquée.',
 	'NO_FILES_TO_DELETE'   => 'Les pièces jointes à supprimer sont introuvables.',
 	'NO_PASSWORD_SUPPLIED' => 'Vous devez saisir votre mot de passe pour accéder au panneau de contrôle d’administration.',

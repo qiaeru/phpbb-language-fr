@@ -1,8 +1,8 @@
-Subject: Vous avez été ajouté à un groupe d’utilisateurs
+Subject: Vous faites désormais partie d’un groupe d’utilisateurs
 
 Félicitations,
 
-Vous avez été ajouté au groupe « {GROUP_NAME} » sur « {SITENAME} ».
+Vous faites désormais partie du groupe « {GROUP_NAME} » sur « {SITENAME} ».
 Cette opération a été effectuée par un responsable de groupe ou par l’administrateur du site. Pour plus d’informations, contactez l’un d’eux.
 
 Vous pouvez consulter les informations de votre groupe en cliquant sur ce lien :

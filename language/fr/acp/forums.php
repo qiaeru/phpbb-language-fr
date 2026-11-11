@@ -145,8 +145,8 @@ $lang = array_merge($lang, [
 	'NO_FORUM_ACTION'            => 'Sélectionnez l’action à effectuer sur le contenu du forum.',
 	'NO_PARENT'                  => 'Aucun parent',
 	'NO_PERMISSIONS'             => 'Ne pas copier les permissions',
-	'NO_PERMISSION_FORUM_ADD'    => 'Vous n’êtes pas autorisé à ajouter un forum.',
-	'NO_PERMISSION_FORUM_DELETE' => 'Vous n’êtes pas autorisé à supprimer un forum.',
+	'NO_PERMISSION_FORUM_ADD'    => 'Vous n’avez pas l’autorisation d’ajouter un forum.',
+	'NO_PERMISSION_FORUM_DELETE' => 'Vous n’avez pas l’autorisation de supprimer un forum.',
 
 	'PARENT_IS_LINK_FORUM'    => 'Le forum parent choisi est un forum-lien et ne peut pas contenir d’autres forums. Sélectionnez plutôt une catégorie ou un forum classique comme parent.',
 	'PARENT_NOT_EXIST'        => 'Le forum parent est introuvable.',

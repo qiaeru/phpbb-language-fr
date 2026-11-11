@@ -58,9 +58,9 @@ $lang = array_merge($lang, [
 
 	'JUMP_TO_POST' => 'Aller au message',
 
-	'LOGIN_EXPLAIN_EGOSEARCH'    => 'Vous devez être inscrit et connecté pour consulter vos messages.',
-	'LOGIN_EXPLAIN_UNREADSEARCH' => 'Vous devez être inscrit et connecté pour consulter vos messages non lus.',
-	'LOGIN_EXPLAIN_NEWPOSTS'     => 'Vous devez être inscrit et connecté pour consulter les nouveaux messages publiés depuis votre dernière visite.',
+	'LOGIN_EXPLAIN_EGOSEARCH'    => 'Connectez-vous ou créez un compte pour consulter vos messages.',
+	'LOGIN_EXPLAIN_UNREADSEARCH' => 'Connectez-vous ou créez un compte pour consulter vos messages non lus.',
+	'LOGIN_EXPLAIN_NEWPOSTS'     => 'Connectez-vous ou créez un compte pour consulter les nouveaux messages publiés depuis votre dernière visite.',
 
 	'MAX_NUM_SEARCH_KEYWORDS_REFINE' => [
 		1 => 'Vous avez indiqué trop de mots à rechercher. Ne saisissez pas plus de %1$d mot.',
@@ -69,7 +69,7 @@ $lang = array_merge($lang, [
 
 	'NO_KEYWORDS'        => 'Vous devez saisir au moins un mot pour effectuer une recherche. Chaque mot doit comporter au moins %s et ne doit pas dépasser %s, en excluant les astérisques « * » utilisés comme métacaractères passe-partout.',
 	'NO_RECENT_SEARCHES' => 'Aucune recherche n’a été effectuée récemment.',
-	'NO_SEARCH'          => 'Vous n’êtes pas autorisé à effectuer une recherche.',
+	'NO_SEARCH'          => 'Vous n’avez pas l’autorisation d’effectuer une recherche.',
 	'NO_SEARCH_RESULTS'  => 'Aucun résultat ne correspond à votre recherche.',
 	'NO_SEARCH_LOAD'     => 'Recherche indisponible pour le moment : le serveur est en surcharge. Réessayez plus tard.',
 	'NO_SEARCH_TIME'     => [

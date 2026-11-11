@@ -35,6 +35,8 @@ $content_rules = [
 		'/\bultérieurement\b/iu'                => '« ultérieurement » : utiliser « plus tard »',
 		'/\bdans le cas où\b/iu'                => '« dans le cas où » : utiliser « si »',
 		'/êtes-vous (?:sûr|certain)/iu'         => '« Êtes-vous sûr… » : utiliser « Voulez-vous vraiment… » (épicène)',
+		'/\bvous (?:n\x{2019})?(?:êtes|serez|soyez|restez|avez été)(?: (?:pas|plus|peut-être pas|désormais|maintenant|automatiquement|définitivement))? (?:autorisé|abonné|notifié|banni|certain|sûr|prudent|connecté|déconnecté|informé|ajouté|inscrit|redirigé|placé|guidé|authentifié|comptabilisé)\b/iu' => 'accord au masculin avec le lecteur : reformuler sans accord (GLOSSARY §14)',
+		'/\bêtre (?:inscrit|connecté|notifié|abonné|redirigé)\b/iu' => 'accord au masculin avec le lecteur : reformuler sans accord (GLOSSARY §14)',
 		'/une erreur est survenue lors/iu'      => '« Une erreur est survenue lors… » : utiliser « X a échoué » ou « Impossible de… »',
 		'/que vous avez spécifié/iu'            => '« que vous avez spécifié » : utiliser « indiqué »',
 	],
